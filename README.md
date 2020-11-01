@@ -23,7 +23,7 @@ Here's what you will find inside [bin](bin/) and [data](data/)
 
 #### **Raw Database**
 
-This folder contains 1717 genomes .gb files from the so defined global database.
+This folder contains 1717 genomes .gb files from 15 families queries.
 
 NCBI refseq queries were performed with booleans as follows:
 
@@ -31,8 +31,7 @@ NCBI refseq queries were performed with booleans as follows:
 Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Organism] NOT AC_000001:AC_999999[pacc]
 ```
 
-Files within this folder are the input for [1_Protein_count_filtering.sh](bin/1_Protein_count_filtering.sh) y [2_Segmented_proteomes_concatenation.py](bin/2_Segmented_proteomes_concatenation.py)
-
+Files within this folder are the input for [1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py) and [2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)
 
 #### **Filtered Database**
 
@@ -43,12 +42,12 @@ Files within this folder are the input for [3_Power_spectrum_analysis.mat](bin/3
 
 #### **Euclidean Distance Matrices**
 
-Output matrices of eculcidean distances between each and every pair of genomes from the power spectrum analysis. These matrices are the input for the clustering algorithms: [4_Common_statistic_clustering.r](bin/4_Common_statistic_clustering.r) and [5_Network_based_clustering.sh](bin/5_Network_based_clustering.sh). Consensus clusters were then obtained by [6_Consensus_clustering.sh](bin/6_Consensus_clustering.sh).
+Output matrices of eculcidean distances between each and every pair of genomes from the power spectrum analysis. These matrices are the input for the clustering algorithms: [4_Common_statistic_clustering.r](bin/4_Common_statistic_clustering.r). Consensus clusters were then obtained by [5_Consensus_clustering.sh](bin/5_Consensus_clustering.sh).
 
 
 #### **Proteomes clusters**
 
-This directory contains the files grouped by folders corresponding to the same consensus clusters. Such clusters are then called to the pangenomic analysis via **[get_homologues software](https://github.com/eead-csic-compbio/get_homologues)**. In our particular case the script [7_Get_homologues_routine.sh](bin/7_Get_homologues_routine) contains the actions to call get homologues software and sort the output pangenomic profiles.
+This directory contains the files grouped by folders corresponding to the same consensus clusters. Such clusters are then called to the pangenomic analysis via **[get_homologues software](https://github.com/eead-csic-compbio/get_homologues)**. In our particular case the script [6_Get_homologues_routine.sh](bin/6_Get_homologues_routine) contains the actions to call get homologues software and sort the output pangenomic profiles.
 
 
 #### **Pangenomic profiles**
@@ -66,13 +65,12 @@ WIP
 
 This directory contains the aforementioned scripts
 
-  * **[1_Protein_count_filtering.sh](bin/1_Protein_count_filtering.sh)** Stablishes cutoff values with the distribution of the protein counts by viral family and reference genomes set by the user. 
-  * **[2_Segmented_proteomes_concatenation.py](bin/2_Segmented_proteomes_concatenation.py)** Identifies the files corresponding to segmented genomes by making pairwise comparisons bewtween filenames and checking wether its text distance is under the tresshold value set by user (2 for ssDNA files).
+  * **[1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py)** Identifies the files corresponding to segmented genomes by making pairwise comparisons bewtween filenames and checking wether its text distance is under the tresshold value set by user (2 for ssDNA files).
+  * **[2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)** Stablishes cutoff values with the distribution of the protein counts by viral family and reference genomes set by the user. 
   * **[3_Power_spectrum_analysis.mat](bin/3_Power_spectrum_analysis.mat)** Perform a cumulative power spectrum analysis to create a 27 dimensions vector for each genome and computes the euclidean pairwise distances.
   * **[4_Common_statistic_clustering.r](bin/4_Common_statistic_clustering.r)** Uses NbCLust software package in R to compute 16 different and independent indexes of clusters identification. Clustering profiles are obtained as membership vectors.
-  * **[5_Network_based_clustering.sh](bin/5_Network_based_clustering.sh)** Calls the SplitsTree5 software from command line to obtain phylogenetic networks using the Neighbor joining algorithm.
-  * **[6_Consensus_clustering.sh](bin/6_Consensus_clustering.sh)** Identifies the majority consensus clusters from the NbClust clustering and network-based clustering
-  * **[7_Get_homologues_routine.sh](bin/7_Get_homologues_routine)** Invokes the get_homologues software to compute the pangenomic analysis, finally obtaining the homologues pangenomic profiles.
+  * **[5_Consensus_clustering.sh](bin/5_Consensus_clustering.sh)** Identifies the majority consensus clusters from the NbClust clustering and network-based clustering
+  * **[6_Get_homologues_routine.sh](bin/6_Get_homologues_routine)** Invokes the get_homologues software to compute the pangenomic analysis, finally obtaining the homologues pangenomic profiles.
 
 
 
