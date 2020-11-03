@@ -21,7 +21,7 @@ Here's what you will find inside [bin](bin/) and [data](data/)
 
 
 
-#### **Raw Database**
+#### **Raw_database**
 
 This folder contains direct downloads from NCBI refseq. Sequences were downloaded family by family with the following general query:
 
