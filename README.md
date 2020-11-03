@@ -31,9 +31,30 @@ Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Or
 
 Results from queries were downloaded in Genbank(full) format including GI. 
 
-The perl scripts **Genbank_to_genomic_fasta_taxid_in_name.pl** and **Genbank_to_proteomic_fasta_taxid_in_name.pl** were used to split the global genbank file into genomic and proteomic fasta files, each file is named as follows: *"organism_taxid_.faa or .fn"*.
+The perl scripts **Genbank_to_genomic_fasta_taxid_in_name.pl** and **Genbank_to_proteomic_fasta_taxid_in_name.pl** were used to split the global genbank files of each family (NOTE: genbank filename is defined by user and must be specified as argument when calling perl scripts) into genomic and proteomic fasta files, each file is named as follows: **"organism_taxid_.faa or .fn"**
 
-Files within this folder are the input for [1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py) and [2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)
+Example for these perl scripts usage from command line:
+
+``` 
+perl Genbank_to_genomic_fasta_taxid_in_name.pl Parvoviridae.gb
+perl Genbank_to_proteomic_fasta_taxid_in_name.pl Parvoviridae.gb
+```
+Entering the previous lines in command line will split Parvoviridae genbank containing all genomes, into proteomic and genomic files by organism (viral species). 
+
+Output is sent to created folders data/Genomic\_fasta\_files and data/Proteomic\_fasta\_files
+
+
+#### **Genomic_fasta_files**
+
+This folder contains one subfolder per viral family, with the outputs for **Genbank_to_genomic_fasta_taxid_in_name.pl**. Files within this folder are unfiltered at this workflow state.
+
+TEXT PENDING TO PROPER LOCATION. Files within this folder are the input for [1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py) and [2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)
+
+#### **Proteomic_fasta_files**
+
+This folder contains one subfolder per viral family, with the outputs for **Genbank_to_proteomic_fasta_taxid_in_name.pl**. Files within this folder are unfiltered at this workflow state.
+
+TEXT PENDING TO PROPER LOCATION. Files within this folder are the input for [1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py) and [2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)
 
 #### **Filtered Database**
 
