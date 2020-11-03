@@ -13,7 +13,7 @@ This repository shows the workflow used to study the **origin of single-stranded
 
 
 Here's what you will find inside [bin](bin/) and [data](data/)
-
+**NOTE: for the moment only temporary files corresponding to geminiviridae will be available**
 
 
 
