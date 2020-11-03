@@ -23,13 +23,15 @@ Here's what you will find inside [bin](bin/) and [data](data/)
 
 #### **Raw Database**
 
-This folder contains 1717 genomes .gb files from 15 families queries.
-
-NCBI refseq queries were performed with booleans as follows:
+This folder contains direct downloads from NCBI refseq. Sequences were downloaded family by family with the following general query:
 
 ``` 
 Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Organism] NOT AC_000001:AC_999999[pacc]
 ```
+
+Results from queries were downloaded in Genbank(full) format including GI. 
+
+The perl scripts **Genbank_to_genomic_fasta_taxid_in_name.pl** and **Genbank_to_proteomic_fasta_taxid_in_name.pl** were used to split the global genbank file into genomic and proteomic fasta files, each file is named as follows: *"organism_taxid_.faa or .fn"*.
 
 Files within this folder are the input for [1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py) and [2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)
 
