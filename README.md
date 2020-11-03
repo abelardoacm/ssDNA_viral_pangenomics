@@ -31,6 +31,8 @@ Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Or
 
 Results from queries were downloaded in Genbank(full) format including GI. 
 
+![](query_download_parameters.png)
+
 The perl scripts [Genbank_to_genomic_fasta_taxid_in_name.pl](bin/Genbank_to_genomic_fasta_taxid_in_name.pl) and [Genbank_to_proteomic_fasta_taxid_in_name.pl](bin/Genbank_to_proteomic_fasta_taxid_in_name.pl) were used to split the global genbank files of each family (NOTE: genbank filename is defined by user and must be specified as argument when calling perl scripts) into genomic and proteomic fasta files, each file is named as follows: **"organism_taxid_.faa or .fn"**
 
 Example for these perl scripts usage from command line:
