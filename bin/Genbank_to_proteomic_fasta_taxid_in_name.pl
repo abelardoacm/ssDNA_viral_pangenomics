@@ -13,18 +13,26 @@ while ($linea = <FILE>) {
 		#print "$linea\n";
 		$organismo = $linea;
 		$organismo =~ s/DEFINITION\s+//;
-		$organismo =~ s/\s+/_/g;
+		$organismo =~ s/\s+/-/g;
+		$organismo =~ s/:/-/g;
+		$organismo =~ s/;/-/g;
+		$organismo =~ s/_/-/g;
 		$organismo =~ s/\,//g;
 		$organismo =~ s/\.//g;
-		
-		#print "$organismo\n";
-		#<STDIN>;
 		$faa = ".faa";
-		$pegado = "$organismo"."$faa";
 	}
 
+        if ($linea =~ /^ACCESSION\s+/) {
+		#print "$linea\n";
+		$accession = $linea;
+		$accession =~ s/ACCESSION\s+//;
+		$accession =~ s/\s+/_/g;
+		$accession =~ s/\,//g;
+		$accession =~ s/\.//g;
+		$forname = "$accession";
+	}
+	
         if ($linea =~ /\s+\/db_xref\="taxon/) {
-                #/db_xref="taxon:10784"
                 $TAXID = $linea;
                 $TAXID =~ s/\s+//;
 		$TAXID =~ s/\/db_xref//;
@@ -32,10 +40,15 @@ while ($linea = <FILE>) {
 		$TAXID =~ s/://g;
 		$TAXID =~ s/=//g;
 		$TAXID =~ s/"//g;
-		$faa = ".faa";
-		$NUEVOPEGADO = "$TAXID"."$faa";
-		$taxid = "_taxid_";
-		$NombreOutput = "$organismo"."$taxid"."$TAXID"."$faa";
+		$taxid = "taxid";
+		$NombreOutput = "$organismo"."_"."$forname"."_"."$taxid"."_"."$TAXID"."_"."$faa";
+		$NombreOutput =~ s/--/-/g;
+		$NombreOutput =~ s/\(//g;
+		$NombreOutput =~ s/\)//g;
+		$NombreOutput =~ s/\[//g;
+		$NombreOutput =~ s/\]//g;
+		$NombreOutput =~ s/\{//g;
+		$NombreOutput =~ s/\}//g;
 		open (OUT, ">>$NombreOutput");
         }  
         
@@ -62,8 +75,7 @@ while ($linea = <FILE>) {
                 $GI =~ s/\/db_xref\="GI//;
                 $GI =~ s/"//g;
 		$G = "GI";
-		$conc = $G.$GI
-
+		$conc = $G.$GI;
 	}
 
         if ($linea =~ /\s+\/locus_tag\=/) {
@@ -72,8 +84,8 @@ while ($linea = <FILE>) {
                 $locus =~ s/\s+//;
                 $locus =~ s/\/locus_tag\=//;
                 $locus =~ s/"//g;
-		$l = "locus: ";
-                $con = $l.$locus
+		$l = "locus-";
+                $con = $l.$locus;
 
         }
 
@@ -86,8 +98,10 @@ while ($linea = <FILE>) {
 	if ($linea =~ /\s+\/translation\=/) {
 		#print "$linea\n";
 		$numero = 1;
-		print ">$id | $ID | $conc | $con | [$proteina]\n";
-		print OUT ">$id | $ID | $conc | $con | [$proteina]\n";
+		print ">$id | $ID | $conc | $con | $proteina\n";
+		print OUT ">$id | $ID | $conc | $con | $proteina\n";
+		#>gi|15617167|ref|NP_240380.1| 50S ribosomal protein L31 [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]
+		#>YP_007974221.1|GeneID-15486949|GI-498907898|locus-L677_gp1|protein_AV2-protein_|
 	}
 	if ($linea =~ /\s+gene\s+/ || $linea =~ /^ORIGIN/ || $linea =~ /\s+CDS\s+/ || $linea =~ /\s+polyA_site\s+/ || $linea =~ /\s+repeat_region\s+/ || $linea =~ /\s+polyA_signal\s+/ || $linea =~ /\s+rep_origen\s+/ || $linea =~ /\s+promoter\s+/ || $linea =~ /\s+sig_peptide\s+/ || $linea =~ /\s+misc_feature\s+/ || $linea =~ /\s+5'UTR\s+/) {
 		$numero = 0;

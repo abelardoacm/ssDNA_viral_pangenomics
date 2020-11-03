@@ -13,7 +13,10 @@ while ($linea = <FILE>) {
 		#print "$linea\n";
 		$organismo = $linea;
 		$organismo =~ s/DEFINITION\s+//;
-		$organismo =~ s/\s+/_/g;
+		$organismo =~ s/\s+/-/g;
+		$organismo =~ s/:/-/g;
+		$organismo =~ s/;/-/g;
+		$organismo =~ s/_/-/g;
 		$organismo =~ s/\,//g;
 		$organismo =~ s/\.//g;
 		$fn = ".fn";
@@ -26,6 +29,7 @@ while ($linea = <FILE>) {
 		$accession =~ s/\s+/_/g;
 		$accession =~ s/\,//g;
 		$accession =~ s/\.//g;
+		$forname = "$accession";
 	}
 
         if ($linea =~ /\s+\/db_xref\="taxon/) {
@@ -37,9 +41,23 @@ while ($linea = <FILE>) {
 		$TAXID =~ s/://g;
 		$TAXID =~ s/=//g;
 		$TAXID =~ s/"//g;
-		$taxid = "_taxid_";
-		$NombreOutput = "$organismo"."$taxid"."$TAXID"."$fn";
-		$FastaHeader = "$organismo"."$taxid"."$TAXID";
+		$taxid = "taxid";
+		$NombreOutput = "$organismo"."_"."$forname"."_"."$taxid"."_"."$TAXID"."_"."$fn";
+		$NombreOutput =~ s/--/-/g;
+		$NombreOutput =~ s/\(//g;
+		$NombreOutput =~ s/\)//g;
+		$NombreOutput =~ s/\[//g;
+		$NombreOutput =~ s/\]//g;
+		$NombreOutput =~ s/\{//g;
+		$NombreOutput =~ s/\}//g;
+		$FastaHeader = "$organismo"."|"."$forname"."|"."$taxid"."_"."$TAXID"."|";
+		$FastaHeader =~ s/--/-/g;
+		$FastaHeader =~ s/\(//g;
+		$FastaHeader =~ s/\)//g;
+		$FastaHeader =~ s/\[//g;
+		$FastaHeader =~ s/\]//g;
+		$FastaHeader =~ s/\{//g;
+		$FastaHeader =~ s/\}//g;
 	}
 	
 	if ($linea =~ /^ORIGIN\s+/) {
