@@ -2,18 +2,18 @@
 
 in brief...
 
-**Viruses are a polyphyletic group**. Due to the lack of common evolutionary markers among all viruses, artificial classifications not supported by evolutionary trees, have arisen. Furthermore, viral lineages present a large number of horizontal transport events with their hosts, thus carrying multiple genes of cellular origin **whose history defies classical evolutionary schemes** with tree topologies.
+**Viruses are a polyphyletic group**. Due to the lack of common evolutionary markers among all viruses, artificial classifications not supported by evolutionary trees, have arisen. Furthermore, viral lineages present a large number of horizontal transport events with their hosts, thus carrying multiple genes of cellular origin **defying classical evolutionary schemes**.
 
-The origin, or multiple origins of viruses **is an inconclusive research topic that requires shifts in the classic paradigms** of evolutionary biology.
+The origin, or multiple origins of viruses **is an inconclusive research topic that requires shifts in the classic paradigms and recent evolutive analysis tools**.
 
-This repository shows the workflow used to study the **origin of single-stranded DNA viruses from an integrative perspective** that makes use of **pangenomics** for the detection of sequences with phylogenetic signal, phylogenetic inference methods under **network evolutionary schemes** and Bayesian genomic methods of **ancestral state reconstruction**.
+This repository shows the workflow used to study the **origin of single-stranded DNA viruses from an integrative perspective** that makes use of **pangenomics** for the detection of relevant clusters for the group origins, **alignment free methods for whole-genome comparisons**, and phylogenetic inference methods compatible with **network evolutionary schemes**, allowing the incorporation of cellular protein sequences to perform remote homologues searches.
 
-![](ssDNA_workflow.png)
-
-
+<p align="center">
+  <img width="285" height="377" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/ssDNA_workflow.png">
+</p>
 
 Here's what you will find inside [bin](bin/) and [data](data/)
-**NOTE: for the moment only temporary files corresponding to geminiviridae will be available**
+**NOTE: for storage purposes only files corresponding to Geminiviridae family are available. Whole raw database will be available before research results submission**
 
 
 
@@ -23,60 +23,124 @@ Here's what you will find inside [bin](bin/) and [data](data/)
 
 #### **Raw_database**
 
-This folder contains direct downloads from NCBI refseq. Sequences were downloaded family by family with the following general query:
+This folder should contain direct downloads from NCBI refseq. Sequences are searched family by family with the following general query:
 
 ``` 
 Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Organism] NOT AC_000001:AC_999999[pacc]
 ```
 
-Results from queries were downloaded in Genbank(full) format including GI. 
+Results from queries were downloaded in Genbank(full) format with illustrated parameters. 
 
 <p align="center">
   <img width="285" height="377" src="https://raw.githubusercontent.com/abelardoacm/ssDNA_viral_pangenomics/main/query_download_parameters.png">
 </p>
 
+The download default name for genomes genbank concatenation is **sequences.gb**, which must be changed into **family.gb** (i.e. Geminiviridae.gb).
 
-The perl scripts [Genbank_to_genomic_fasta_taxid_in_name.pl](bin/Genbank_to_genomic_fasta_taxid_in_name.pl) and [Genbank_to_proteomic_fasta_taxid_in_name.pl](bin/Genbank_to_proteomic_fasta_taxid_in_name.pl) were used to split the global genbank files of each family (NOTE: genbank filename is defined by user and must be specified as argument when calling perl scripts) into genomic and proteomic fasta files, each file is named as follows: **"organism_taxid_.faa or .fn"**
+#### **Genomic_fasta_files Individual_full_genbank_files and Proteomic_fasta_files**
 
-Example for these perl scripts usage from command line:
+These folders are needed to begin data processing once the **family.gb** file is deposited in the Raw_database directory. If the repo is not cloned, then user must create them in the right location. For example, from main folder:
 
 ``` 
-perl Genbank_to_genomic_fasta_taxid_in_name.pl Parvoviridae.gb
-perl Genbank_to_proteomic_fasta_taxid_in_name.pl Parvoviridae.gb
+cd data/
+mkdir Genomic_fasta_files data Individual_full_genbank_files Proteomic_fasta_files
 ```
-Entering the previous lines in command line will split Parvoviridae genbank containing all genomes, into proteomic and genomic files by organism (viral species). 
 
-Output is sent to [data/Genomic\_fasta\_files](data/Genomic_fasta_files) and [data/Proteomic\_fasta\_files](data/Proteomic_fasta_files) (NOTE: those folders have to previously exist)
+Three formats are required, each one corresponds to the folders just mentioned, these are:
 
+  * **[Genomic fasta](data/Genomic_fasta_files)**. Nucleotide fasta files for each viral species. An example of this file is _Tomato-mild-mosaic-virus-DNA-B-complete-genome\_NC\_010834\_taxid\_536086\_.fn_
+   
+``` 
+>Tomato-mild-mosaic-virus-DNA-B-complete-genome|NC_010834|taxid_536086|
+accggatgcccgcgcgattttttccccccctacgtggcgctctggaggtcgttcgatccg
+atcgaacgtgtccccactggtgttctctctcccctggtgtccgttggatttcctctacgc
+caaatcagttgagcgcgtttttgacgtccgccaaatgagttcagcgcattttttgagttc
+cgcctattggatgctgacacgtcgcatcctatctatgtagacgcgcgctcaactgttaga
+tattgtcagttcgcgatatcagctgtagaccgttggataaatctgacatgcaatccagct
+ggattgtatattggaacttgaattatttgggcgcgactgacagaagacggccccattgta
+and so on...
+```
+  * **[Proteomic fasta](data/Proteomic_fasta_files)**. Amino acids files containing the fasta protein sequences of each viral species. An example of this file is _Tomato-mild-mosaic-virus-DNA-B-complete-genome\_NC\_010834\_taxid\_536086\_.faa_
+  
+``` 
+>YP_001960950.1 | GeneID:6395843 |  | locus-TMMVsB_gp1 | nuclear shuttle protein
+MYPVKYRRGWSTTQRRSYRRAPVFKRNAVKRADWIRRPSNSMKA
+HDEPKMTAQRIHENQFGPEFMMVQNTAISTYISFPNLGKTEPNRSRSYIKLKRLRFKG
+TVKIERVQPDVNMDGSVSKTEGVFSLVVVVDRKPHLGPSGCLHTFDELFGARIHSHGN
+LSITPSLKDRYYIRHVTKHVLSAEKDTMMVNLEGTTFLSNRRVSCWAGFKDHDHDSCN
+GVYANISKNALLVYYCWMSDIMSKASTFVSYDLDYVG
+>YP_001960951.1 | GeneID:6395842 |  | locus-TMMVsB_gp2 | movement protein
+MESQLANPPNAFNYIESQRDEYQLSHDLTEIVLQFPSTASQISA
+RLSRRCMKIDHCVIEYRQQVPINATGAVVVEIHDKRMTDNESLQASWTFPIRCNIDLH
+YFSSSFFSLKDPIPWKLYYRVCDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+ILSKQFTDKDVDFCHVGYGRWERKPVRSASASTIGLRSPIQLRPGESWAVRSTVGANP
+SDAESDIVETSHPYRELNRLGTTMLDPGESASIVGAQRAQSNITMSLGQLNELLRNTV
+QECINSNCVPSQAKSLN
+```
+  * **[Individual genbank files](data/Individual_full_genbank_files)**. These are the most inclusive files for individual species, as they contain protein sequences of amino acids and whole genome sequence, as well as many more lines of information. This type of files will be processed and filtered to serve as input for **get_homologues** pangenomic analysis. An example of this file is _Tomato-mild-mosaic-virus-DNA-B-complete-genome\_NC\_010834\_taxid\_536086\_.gbk_
 
-#### **Genomic_fasta_files**
+```   
+LOCUS       NC_010834               2663 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Tomato mild mosaic virus DNA-B, complete genome.
+ACCESSION   NC_010834
+KEYWORDS    RefSeq.
+SOURCE      Tomato mild mosaic virus
+  ORGANISM  Tomato mild mosaic virus
+REFERENCE   2  (bases 1 to 2663)
+REFERENCE   3  (bases 1 to 2663)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EU710753.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2663
+                     /organism="Tomato mild mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolate="BR:Pda58:05"
+                     /host="tomato"
+                     /db_xref="taxon:536086"
+                     /segment="DNA B"
+                     /country="Brazil"
+                     /collection_date="May-2005"
+     gene            518..1285
+                     /gene="NSP"
+                     /locus_tag="TMMVsB_gp1"
+                     /db_xref="GeneID:6395843"
+     CDS             518..1285
+                     /gene="NSP"
+                     /locus_tag="TMMVsB_gp1"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_001960950.1"
+                     /db_xref="GeneID:6395843"
+                     /translation="MYPVKYRRGWSTTQRRSYRRAPVFKRNAVKRADWIRRPSNSMKA
+                     HDEPKMTAQRIHENQFGPEFMMVQNTAISTYISFPNLGKTEPNRSRSYIKLKRLRFKG
+                     TVKIERVQPDVNMDGSVSKTEGVFSLVVVVDRKPHLGPSGCLHTFDELFGARIHSHGN
+                     LSITPSLKDRYYIRHVTKHVLSAEKDTMMVNLEGTTFLSNRRVSCWAGFKDHDHDSCN
+                     GVYANISKNALLVYYCWMSDIMSKASTFVSYDLDYVG"
+    
+    and so on...
+```
+  
+To obtain each format file for every species, the **family.gb** file must be splitted into individual species files. This is performed by [1_Set_family_files_from_raw_genbank.sh](bin/1_Set_family_files_from_raw_genbank.sh), and is executed from command line, indcating the family name as argument. For example:
 
-This folder contains one subfolder per viral family, with the outputs for **Genbank_to_genomic_fasta_taxid_in_name.pl**. Files within this folder are unfiltered at this workflow state.
+``` 
+./1_Set_family_files_from_raw_genbank.sh Geminiviridae
+```
+The bash script execute three perl scripts [Genbank_to_genomic_fasta_taxid_in_name.pl](bin/Genbank_to_genomic_fasta_taxid_in_name.pl), [Genbank_to_proteomic_fasta_taxid_in_name.pl](bin/Genbank_to_proteomic_fasta_taxid_in_name.pl) and [Print_rename_instructions.pl](bin/Print_rename_instructions.pl). Each of them generate the files and sub-folders mentioned above departing from **family.gb** file.
 
-TEXT PENDING TO PROPER LOCATION. Files within this folder are the input for [1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py) and [2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)
-
-#### **Proteomic_fasta_files**
-
-This folder contains one subfolder per viral family, with the outputs for **Genbank_to_proteomic_fasta_taxid_in_name.pl**. Files within this folder are unfiltered at this workflow state.
-
-TEXT PENDING TO PROPER LOCATION. Files within this folder are the input for [1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py) and [2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)
 
 #### **Filtered Database**
 
-This folder contains the remaining genomes from the protein counts filter, as well as the concatenation of segmented genomes into single files. It consists of 1204 reference genomes. 
-
-Files within this folder are the input for [3_Power_spectrum_analysis.mat](bin/3_Power_spectrum_analysis.mat). An alignment-free method to compare large genomic datasets based ond cumulative frequency spectrums of DNA strings.
+WIP
 
 
 #### **Euclidean Distance Matrices**
 
-Output matrices of eculcidean distances between each and every pair of genomes from the power spectrum analysis. These matrices are the input for the clustering algorithms: [4_Common_statistic_clustering.r](bin/4_Common_statistic_clustering.r). Consensus clusters were then obtained by [5_Consensus_clustering.sh](bin/5_Consensus_clustering.sh).
-
+WIP
 
 #### **Proteomes clusters**
 
-This directory contains the files grouped by folders corresponding to the same consensus clusters. Such clusters are then called to the pangenomic analysis via **[get_homologues software](https://github.com/eead-csic-compbio/get_homologues)**. In our particular case the script [6_Get_homologues_routine.sh](bin/6_Get_homologues_routine) contains the actions to call get homologues software and sort the output pangenomic profiles.
-
+WIP
 
 #### **Pangenomic profiles**
 
@@ -93,12 +157,6 @@ WIP
 
 This directory contains the aforementioned scripts
 
-  * **[1_Segmented_proteomes_concatenation.py](bin/1_Segmented_proteomes_concatenation.py)** Identifies the files corresponding to segmented genomes by making pairwise comparisons bewtween filenames and checking wether its text distance is under the tresshold value set by user (2 for ssDNA files).
-  * **[2_Protein_count_filtering.sh](bin/2_Protein_count_filtering.sh)** Stablishes cutoff values with the distribution of the protein counts by viral family and reference genomes set by the user. 
-  * **[3_Power_spectrum_analysis.mat](bin/3_Power_spectrum_analysis.mat)** Perform a cumulative power spectrum analysis to create a 27 dimensions vector for each genome and computes the euclidean pairwise distances.
-  * **[4_Common_statistic_clustering.r](bin/4_Common_statistic_clustering.r)** Uses NbCLust software package in R to compute 16 different and independent indexes of clusters identification. Clustering profiles are obtained as membership vectors.
-  * **[5_Consensus_clustering.sh](bin/5_Consensus_clustering.sh)** Identifies the majority consensus clusters from the NbClust clustering and network-based clustering
-  * **[6_Get_homologues_routine.sh](bin/6_Get_homologues_routine)** Invokes the get_homologues software to compute the pangenomic analysis, finally obtaining the homologues pangenomic profiles.
 
 
 
