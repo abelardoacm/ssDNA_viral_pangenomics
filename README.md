@@ -9,7 +9,7 @@ The origin, or multiple origins of viruses **is an inconclusive research topic t
 This repository shows the workflow used to study the **origin of single-stranded DNA viruses from an integrative perspective** that makes use of **pangenomics** for the detection of relevant clusters for the group origins, **alignment free methods for whole-genome comparisons**, and phylogenetic inference methods compatible with **network evolutionary schemes**, allowing the incorporation of cellular protein sequences to perform remote homologues searches.
 
 <p align="center">
-  <img width="285" height="377" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/ssDNA_workflow.png">
+  <img width="755" height="1132" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/ssDNA_workflow.png">
 </p>
 
 Here's what you will find inside [bin](bin/) and [data](data/)
