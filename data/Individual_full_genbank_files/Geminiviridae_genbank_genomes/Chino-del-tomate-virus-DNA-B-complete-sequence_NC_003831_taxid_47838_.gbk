@@ -1,0 +1,97 @@
+LOCUS       NC_003831               2579 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Chino del tomate virus DNA B, complete sequence.
+ACCESSION   NC_003831
+KEYWORDS    RefSeq.
+SOURCE      Chino del tomate virus
+  ORGANISM  Chino del tomate virus
+REFERENCE   2  (bases 1 to 2579)
+REFERENCE   3  (bases 1 to 2579)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AF101478.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2579
+                     /organism="Chino del tomate virus"
+                     /mol_type="genomic DNA"
+                     /isolate="IC"
+                     /db_xref="taxon:47838"
+                     /segment="DNA B"
+     gene            457..1227
+                     /gene="bv1"
+                     /locus_tag="CdTVsBgp1"
+                     /db_xref="GeneID:993335"
+     CDS             457..1227
+                     /gene="bv1"
+                     /locus_tag="CdTVsBgp1"
+                     /codon_start=1
+                     /product="BV1 protein"
+                     /protein_id="NP_620750.1"
+                     /db_xref="GeneID:993335"
+                     /translation="MYPFRSKRGASFVARRSYSRNNLFKRSTISKRDDGRRRSVNATK
+                     PNDEPKMIAQRMHENQFGPDFVMAHNAALATFISFPCLGKTQPNRSRSYIKLKRLRFK
+                     GTVKIERVMSDMNMDGSTSKVEGVFSLVVVVDRKPHLGASGSLHTFDELFGARIHSHG
+                     NLSITPSLKDRFYIRHVFKRVLSVEKDSMMVDVEGSTALSNRRFNCWSTFKDLDRDSC
+                     NGVYGNISKNALLVYYCWMSDTMSRASSFVSFDLDYIG"
+     gene            complement(1246..2127)
+                     /gene="bc1"
+                     /locus_tag="CdTVsBgp2"
+                     /db_xref="GeneID:993336"
+     CDS             complement(1246..2127)
+                     /gene="bc1"
+                     /locus_tag="CdTVsBgp2"
+                     /codon_start=1
+                     /product="BC1 protein"
+                     /protein_id="NP_620751.1"
+                     /db_xref="GeneID:993336"
+                     /translation="MESQLAFPPNAFNYIESHRDEYQLSHDLTEIVLQFPSTASQFTA
+                     RLSRSCMKIDHCVIEYRQQVPINATGTVIVEIHDKRMTENESLQASWTFPIRCNIDLH
+                     YFSASFFSLKDPIPWKLYYRVCDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFTDKDVDFSHVDYGRWERKPIRCASMSRLGLRGPIEIKPGESWASRSALGTGQ
+                     SDADSEVENELHPYRHLSRLGTNILDPGESASIVGARRAESNITMSMGQLNELVRTTV
+                     QECINSNYKASQPKTLQ"
+ORIGIN
+        1 accggatggc cgcgccgggg gacgttccct caacgtgttg tctctctatt ggctctctct
+       61 cgccagctgt tgcgcattaa ccccgccccc tcctccctct ggtggccctc tcaacgtggc
+      121 gtctctgtaa tggtcctttt cccgctacaa tgggcccttt tgtcagtgag tatttatcta
+      181 tctctttaat tcaaattaaa ggtaattact ttcatgtctc gcgaccagat ttgaatttga
+      241 gactatgtgt gttgtctttt gaatatggcc cattgtacta catgatggac gtggctgatt
+      301 tgagaccgcg ctgctgagtt aagttaagtc ttattgtgaa ctagcttttc tatatattgg
+      361 gccatgttga tctattatat tcgatgtgac tcagcagtct accacgctta gttgttaatt
+      421 aaacgtttat ttttgataaa gtggtatcat ttgataatgt atccttttag gtctaagcgt
+      481 ggtgcctcat ttgttgcacg tcgttcttat tcacgtaata atttgtttaa gcgatcaacc
+      541 atctccaaac gagatgatgg gagacgtcga tctgttaatg caactaaacc caatgacgag
+      601 cccaagatga tagcccaacg catgcacgag aatcagtttg ggccagattt tgtaatggcc
+      661 cataatgcag ccttggcaac tttcatcagc ttcccttgtt tgggtaagac tcaaccgaac
+      721 cgaagcaggt cgtatatcaa gttgaaacgg ctgcgtttca aaggtacggt gaagatcgaa
+      781 cgtgtcatgt ctgatatgaa catggatggt tctacttcca aggtcgaagg agttttctca
+      841 ctcgttgtcg ttgtggatcg aaaaccccat ctgggtgcgt ccggcagtct acatacgttt
+      901 gatgaactat ttggcgctag gatccacagc catggaaacc tcagcataac cccttctttg
+      961 aaagaccggt tttacataag acacgtgttc aaacgtgtat tgtctgtgga gaaggatagt
+     1021 atgatggttg atgttgaagg gtccacagct ctctctaaca ggcgtttcaa ttgttggtcc
+     1081 acgtttaagg atttggatcg tgattcatgt aacggcgttt atggtaacat cagcaagaac
+     1141 gccctgttag tctactattg ttggatgtca gatactatgt ctagggcgtc aagctttgta
+     1201 tcgtttgatc tcgattatat tggatgatta ataaaaaata agaatttatt gcaacgtttt
+     1261 gggctgagaa gccttataat tactattaat acattcttgg accgtagtcc ttactagttc
+     1321 gtttaattgg cccatggaca ttgttatgtt tgattccgct ctccgggctc ccactattga
+     1381 agcagactct ccagggtcta aaatgttggt ccctagccta cttagatgtc tgtatgggtg
+     1441 cagctcgttc tcgacctctg agtccgcatc tgattgaccc gttcccaatg cactcctgga
+     1501 agcccaagac tcaccaggct ttatttcaat tgggcctcgg agcccaagtc ttgacatgga
+     1561 tgcacatctg atgggcttcc tttcccatct tccgtagtcg acgtgggaaa agtcgacatc
+     1621 tttgtctgtg aactgtttgg ataggatttt gaccgtcggt gccctgaacg gaatatccac
+     1681 tgaatgtttc gccgtcgaca atttcagttt ccctttgaat ttcgcgaagt gagtcctctg
+     1741 atgaacattc gtatcgcaaa ctctgtaata gagtttccat ggaattgggt ctttgagcga
+     1801 aaagaaggat gctgagaagt agtggagatc tatgttgcat ctgatcggaa aagtccatga
+     1861 cgcctgtagc gattcatttt ccgtcattct cttgtcgtgt atctccacaa ttaccgtccc
+     1921 ggtggcgtta atcggaacct gctgcctgta ttctatgacg caatggtcga tcttcataca
+     1981 actccgactg agtcttgctg tgaattgtga cgccgttgac ggaaattgca gaacgatctc
+     2041 agtcagatca tgtgaaagct gatattcgtc cctgtgggac tctatgtaat tgaaagcgtt
+     2101 aggaggaaat gctagctgag attccattag aaaattaaag gccgcgcagc ggaaccgaag
+     2161 actgaagttg aactgttgat gaacaaatga aattttgttt gggaaaacac tcgatgaaga
+     2221 actgttgaag aagaataaga ttttctgggt tttccagaaa ttaagtcaag aactaaagaa
+     2281 tatttgttta ttcttttaaa tatgtgtatt gtttttgaga aagaggagaa atctggtaaa
+     2341 gatttcgatt tttattatga ttagatctga tgttctttat atagaaaacc ccattctttg
+     2401 ttttgagagc tttcgggaga agttatagac gcataaccga tggcattttt gtaataagag
+     2461 gggtgtactc cgattgagct ctcaaacttc tgtgctatgt tttggggtaa aggggacaat
+     2521 atatactaga agtctctatc gttgattagc gacacgtggc ggccatccga tataatatt
+//

@@ -1,0 +1,183 @@
+LOCUS       NC_000869               2751 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Tomato yellow leaf curl Thailand virus DNA A, complete sequence.
+ACCESSION   NC_000869
+KEYWORDS    RefSeq.
+SOURCE      Tomato yellow leaf curl Thailand virus
+  ORGANISM  Tomato yellow leaf curl Thailand virus
+REFERENCE   2  (bases 1 to 2751)
+REFERENCE   3  (bases 1 to 2751)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AF141922.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2751
+                     /organism="Tomato yellow leaf curl Thailand virus"
+                     /mol_type="genomic DNA"
+                     /isolate="Tomato yellow leaf curl Thailand virus-[2]"
+                     /db_xref="taxon:85752"
+                     /segment="DNA A"
+     gene            327..611
+                     /gene="AV2"
+                     /locus_tag="ToYLCTvsAgp1"
+                     /gene_synonym="V2"
+                     /db_xref="GeneID:995390"
+     CDS             327..611
+                     /gene="AV2"
+                     /locus_tag="ToYLCTvsAgp1"
+                     /gene_synonym="V2"
+                     /codon_start=1
+                     /product="precoat protein"
+                     /protein_id="NP_049913.1"
+                     /db_xref="GeneID:995390"
+                     /translation="MLAVKYLQAVEKTYSPDTLGFDLIRDLIGVIRAKNYVEASSRYS
+                     HFHSRLESTSPSELRQPIQQPCCCPHCPRHKRAGMEEPTCIQKAQDLQNV"
+     gene            complement(406..741)
+                     /gene="AC5"
+                     /locus_tag="ToYLCTvsAgp2"
+                     /gene_synonym="C5"
+                     /db_xref="GeneID:995395"
+     CDS             complement(406..741)
+                     /gene="AC5"
+                     /locus_tag="ToYLCTvsAgp2"
+                     /gene_synonym="C5"
+                     /codon_start=1
+                     /product="AC5 protein"
+                     /protein_id="NP_049914.1"
+                     /db_xref="GeneID:995395"
+                     /translation="MSKPNTTGNVIQTYYLAHMSNVVLRIERLDLTWALTSLRDIRAS
+                     IHSVDPGLSVCRSVLPYLPFCDADSGDSSTAVVWAVEVQTATYFRDGSGNENICWTLR
+                     HSSSHELHR"
+     gene            433..1203
+                     /gene="AV1"
+                     /locus_tag="ToYLCTvsAgp3"
+                     /gene_synonym="V1"
+                     /db_xref="GeneID:995389"
+     CDS             433..1203
+                     /gene="AV1"
+                     /locus_tag="ToYLCTvsAgp3"
+                     /gene_synonym="V1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="NP_049915.1"
+                     /db_xref="GeneID:995389"
+                     /translation="MSKRPADILISTPVSKVRRRLNFDSPYNSRAAVPTVRVTKGQVW
+                     KNRPAYRKPRIYRMYRSPDVPKGCEGPCKVQSFDAKNDIGHMGKVICLYDVTRGIGLT
+                     HRVGKRFCVKSLYFVGKIWMDENIKVKNHTNTVLFWIVRDRSPTGTPYDFQQVFNVYD
+                     NEPSTATVKNDQRDRFQVIRRFQATVTGGQYAAKEQAIIRKFYRVNNYVVYNHQEAGK
+                     YENHTENALLLYMACTHASNPVYATLKVRSYFYDSVTN"
+     gene            complement(1200..1604)
+                     /gene="AC3"
+                     /locus_tag="ToYLCTvsAgp4"
+                     /gene_synonym="C3"
+                     /db_xref="GeneID:995393"
+     CDS             complement(1200..1604)
+                     /gene="AC3"
+                     /locus_tag="ToYLCTvsAgp4"
+                     /gene_synonym="C3"
+                     /codon_start=1
+                     /product="AC3 protein"
+                     /protein_id="NP_049916.1"
+                     /db_xref="GeneID:995393"
+                     /translation="MDSRTGELLTATQSESGVYIWTVKNPLYFKITRHLERPFQRNHD
+                     IITLQIQFNYNLRKALGIHKCFLACKIWTHLHPQTSRFLRVFKYQCNKYLNRLGVISI
+                     NNVIRAISHVLYNVLEGTIDVIEEHDIKFNIY"
+     gene            complement(1345..1755)
+                     /gene="AC2"
+                     /locus_tag="ToYLCTvsAgp5"
+                     /gene_synonym="C2"
+                     /db_xref="GeneID:995392"
+     CDS             complement(1345..1755)
+                     /gene="AC2"
+                     /locus_tag="ToYLCTvsAgp5"
+                     /gene_synonym="C2"
+                     /codon_start=1
+                     /product="AC2 protein"
+                     /protein_id="NP_049917.1"
+                     /db_xref="GeneID:995392"
+                     /translation="MRSSSPSKAHCTQVPIKVQHRIAKRTTRRRRVDQPCGCSYLCIA
+                     VTYCHNNGFTHRGTTHCNSIREWRIYLDGQKSPIFQDNQAPRETIPEEPRHNHVTNPV
+                     QLQPEESVGDTQMFSSLQNLDSFTSSDLAFLKSI"
+     gene            complement(1658..2743)
+                     /gene="AC1"
+                     /locus_tag="ToYLCTvsAgp6"
+                     /gene_synonym="C1"
+                     /db_xref="GeneID:995391"
+     CDS             complement(1658..2743)
+                     /gene="AC1"
+                     /locus_tag="ToYLCTvsAgp6"
+                     /gene_synonym="C1"
+                     /codon_start=1
+                     /product="rep protein"
+                     /protein_id="NP_049918.1"
+                     /db_xref="GeneID:995391"
+                     /translation="MPPSKKFLINAKNYFLTYPHCSLTKEEEALSQILNLSTPTNKLI
+                     IRICRELHEDGTPHLHLLIQFEGKFKCQNNRFFDLTSPTRSAHFHPNIQGAKSSTDVK
+                     AYMEKDGDVLDHGIFQIDGRSARGGCQSANDAYAEAINSGSKASALNILREKAPKDFV
+                     LQFHNLNSNLDRIFTPPIEEYISPFSSSSFNQVPEELEEWACNNVLSRARPLRPITIV
+                     IEGDSRTGKTMWARSLGPHNYLCGHLDLSPKVYNNDAWFNVIDDVDPHYLKHFKEFMG
+                     AQRDWQSNTKYGKPVQIKGGIPTIFLCNPGPNSSYKEYLEEEKNSALRNWAIKNAIFV
+                     TLEGPLYSGTYQGATPNSQEDNQTTES"
+     gene            complement(2290..2589)
+                     /gene="AC4"
+                     /locus_tag="ToYLCTvsAgp7"
+                     /gene_synonym="C4"
+                     /db_xref="GeneID:995394"
+     CDS             complement(2290..2589)
+                     /gene="AC4"
+                     /locus_tag="ToYLCTvsAgp7"
+                     /gene_synonym="C4"
+                     /codon_start=1
+                     /product="AC4 protein"
+                     /protein_id="NP_049919.1"
+                     /db_xref="GeneID:995394"
+                     /translation="MKMGLLTCISSSNSKENSNAKITDSSISHPQPGQHISIRTFREL
+                     KAQQMLKHTWKKTETCLIMEFSKSMEDRLEEVANLPTTHMPRQSIQGPRLRPSIY"
+ORIGIN
+        1 ggtcaatcgg gtcctctcaa acttggctat gcaatcgggg aatgggtcct tattatagtt
+       61 gtggacctaa atggcataat tgtaaataag tgtatgaaat tcaaaattta aaattcaatc
+      121 gtggccatcc gtataatatt accggatggc cgcgattttt ttaaagtggt ccccttgatg
+      181 tgatatgtca tccaatcaga acactctttg aaagcctaat tatttatggt cccctattta
+      241 agacttagtc cccaagtttc ggcgaaattc aaaatgtgga tccactacta aacgaatttc
+      301 cagaaaacgt ccacggtttc cgttgtatgt tagcggtgaa gtatctgcaa gcggtcgaga
+      361 agacttattc ccctgatact ctagggtttg atctcatccg tgatctcatc ggtgtaattc
+      421 gtgcgaagaa ctatgtcgaa gcgtccagca gatattctca tttccactcc cgtctcgaaa
+      481 gtacgtcgcc gtctgaactt cgacagccca tacaacagcc gtgctgctgt ccccactgtc
+      541 cgcgtcacaa aagggcaggt atggaagaac cgacctgcat acagaaagcc caggatctac
+      601 agaatgtata gaagccctga tgtccctaag ggatgtgagg gcccatgtaa ggtccaatct
+      661 ttcgatgcga agaacgacat tggacatatg ggcaaggtaa tatgtctgta tgacgttacc
+      721 cgtggtattg ggcttactca tcgagttggc aagcgtttct gtgtgaagtc actttatttt
+      781 gtcgggaaga tctggatgga tgaaaatatt aaggttaaga atcatactaa caccgtttta
+      841 ttctggatag ttagggatcg cagtcctact ggaacgcctt atgattttca gcaggtcttt
+      901 aatgtatatg ataatgaacc cagcactgct actgtgaaga acgaccagcg tgatcgtttc
+      961 caggttataa ggaggttcca ggcaacagtt actggtggac aatatgcagc taaggagcag
+     1021 gcgattatta gaaagtttta tcgtgttaat aattatgtag tttataatca ccaggaagct
+     1081 gggaagtatg agaaccatac tgaaaatgct ttgttgttat atatggcatg tactcatgcc
+     1141 tctaaccctg tgtatgctac tttgaaagtc aggagttatt tctatgactc agtgacgaat
+     1201 taataaatat taaattttat atcatgttct tcaattacat caattgttcc ttctaataca
+     1261 ttgtacaata catgagatat tgccctaatt acattgttta tactaatcac gcctaatcta
+     1321 tttaaatatt tattacattg atatttaaat actcttaaga aacgcgaggt ctgaggatgt
+     1381 aaatgagtcc agattttgca ggctagaaaa catttgtgta tccccaacgc tttcctcagg
+     1441 ttgtagttga actggatttg taacgtgatt atgtcgtggt tcctctggaa tggtctctct
+     1501 aggtgcctgg ttatcttgaa atatagggga tttttgaccg tccagatata tacgccactc
+     1561 tctgattgag ttgcagtgag tagttccccg gtgcgtgaat ccattattgt gacaatatgt
+     1621 gacagctatg cacaagtacg aacatccaca aggttgatca actctccgtc gtctggttgt
+     1681 cctcttggct attcggtgtt gcaccttgat aggtacctga gtacagtggg ccttcgaggg
+     1741 tgacgaagat cgcatttttt atagcccagt ttctaagtgc ggagttcttt tcctcttcca
+     1801 agtactcttt atagctggag tttggtccag gattgcagag gaagatagtg ggaattccgc
+     1861 ctttaatttg aactggtttg ccgtatttgg tgttgctttg ccagtccctt tgggccccca
+     1921 tgaactcttt aaagtgtttt agataatgcg gatcgacgtc atcgatgacg ttgaaccacg
+     1981 catcattatt atacactttt ggacttaaat ctaaatggcc acacagataa ttatgtggtc
+     2041 ccaatgacct agcccacatc gtcttccctg ttctgctatc accctcaatg actatagtta
+     2101 ttggtctcaa tggccgcgca cgactgagaa cattattaca agcccactct tcaagttctt
+     2161 cgggaacttg attgaaagaa gaagaagaaa agggagaaat atattcctct attggaggag
+     2221 taaaaatcct atctaaatta gaatttaaat tgtgaaattg taaaacaaaa tctttagggg
+     2281 ccttttccct cagtatattg agggccgaag ccttggaccc tgaattgatt gcctcggcat
+     2341 atgcgtcgtt ggcagattgg caacctcctc tagccgatct tccatcgatt tggaaaattc
+     2401 catgatcaag cacgtctccg tctttttcca tgtatgcttt aacatctgtt gagcttttag
+     2461 ctccctgaat gttcggatgg aaatgtgctg acctggttgg ggatgtgaga tcgaagaatc
+     2521 ggttattttg gcatttgaat tttccttcga attggatgag gagatgcagg tgaggagtcc
+     2581 catcttcatg gagttccctg cagattctga tgattaattt attagttgga gttgataggt
+     2641 ttaatatttg ggagagtgct tcttcttctt tggtgagtga gcagtgtggg tatgtgagga
+     2701 aataattctt ggcatttatt agaaatttct ttgaaggagg catattgact t
+//

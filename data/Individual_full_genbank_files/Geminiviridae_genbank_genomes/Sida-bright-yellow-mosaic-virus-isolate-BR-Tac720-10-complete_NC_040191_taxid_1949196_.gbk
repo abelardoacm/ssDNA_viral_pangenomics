@@ -1,0 +1,105 @@
+LOCUS       NC_040191               2656 bp    DNA     circular VRL 27-DEC-2018
+DEFINITION  Sida bright yellow mosaic virus isolate BR:Tac720:10, complete
+            sequence.
+ACCESSION   NC_040191
+KEYWORDS    RefSeq.
+SOURCE      Sida bright yellow mosaic virus
+  ORGANISM  Sida bright yellow mosaic virus
+REFERENCE   2  (bases 1 to 2656)
+REFERENCE   3  (bases 1 to 2656)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KX348225.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNA Baser v. 4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2656
+                     /organism="Sida bright yellow mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolate="BR:Tac720:10"
+                     /host="Sida sp."
+                     /db_xref="taxon:1949196"
+                     /segment="DNA-B"
+                     /country="Brazil"
+                     /collection_date="09-Jun-2010"
+     gene            567..1337
+                     /locus_tag="BSB05_sBgp1"
+                     /db_xref="GeneID:38665479"
+     CDS             567..1337
+                     /locus_tag="BSB05_sBgp1"
+                     /note="nuclear shuttle protein"
+                     /codon_start=1
+                     /product="NSP"
+                     /protein_id="YP_009547942.1"
+                     /db_xref="GeneID:38665479"
+                     /translation="MYLFKYRRGSFSGQRRGYSRNHVFRRPSSTRRVDGKRRYNISSK
+                     TPDDAKMSAQRIHENQFGPDYVLAQNSVLATFITFPQLGKTEPNRSRSYIKLKRLRFK
+                     GTVKIERVQGDVNMDGPGPKTEGVFSLVVVVDRKPHLSPTGCLHTFDELFGARIHSHG
+                     NLAIVPALKDRFYVRHVLKRVISVEKDTLMVDLEGTTSFSNKRFSCWSSFKDLERDSC
+                     NGVYGNISKNALLVYYCWMSDIVSKASTFVSYDLDYVG"
+     gene            complement(1422..2303)
+                     /locus_tag="BSB05_sBgp2"
+                     /db_xref="GeneID:38665478"
+     CDS             complement(1422..2303)
+                     /locus_tag="BSB05_sBgp2"
+                     /note="movement protein"
+                     /codon_start=1
+                     /product="MP"
+                     /protein_id="YP_009547943.1"
+                     /db_xref="GeneID:38665478"
+                     /translation="MDSQLVNPPSAFNYIESRRDEYQLSHDLTEIILQFPSTAAQLSA
+                     RISRSCMKIDHCVIEYRQQVPINATGTVVVEIHDKRMTDNESLQASWTFPVRCNIDLH
+                     YFSSSFFSMKDPIPWKLYYRVSDTNVHQNTHFAKFKGKLKLSTAKHSVDIPFKAPTVK
+                     ILSKQFTEKDVDFCHVGYGRWGRKLIRSASISTVGRQGPIEIRPGESWATRSTVELGQ
+                     SDADSELANEIHPYRELHRLGTSALDPGDSASIVGAQRAQSNITMSVAQLNELVRATV
+                     NECISSNCSTAQPKTLK"
+ORIGIN
+        1 accggatggc cgcgcgattt cccccccccc tgacgtggcg ctctggtgtc cgtgtgatct
+       61 ctccccctgg cgctcccttg gtgctctctt cgcgctccgc aattcagttt agcgcttttt
+      121 ttggagtccg cgaaatgagt taaccgcatt ttttgagttc cgccccactc agacagctcc
+      181 ctttaatttg aattaaaggg gttctatttt gtgtagccaa tcatttcggc gagtatggag
+      241 tttacttatg aagtgtatac tttttgtcga agttttcgag tgaccgttta actgctgaca
+      301 tgcaatctca gattgcatgt gttattcgaa ttattatggc gggcatgttg tttgaggccc
+      361 atatttacag tgactatttg ggctgtccca ctgtacaata tgtgtgactt ggaccagtta
+      421 tatcttctcc atggagtcag tttaagatat ataattgatc aagggggcta tatatcggga
+      481 cggaatttca tatttaaatt ccgtatatga ttagttcttc ttaacagcta tatacattta
+      541 acatatctta aacctgtttg cttgatatgt atctgtttaa gtacaggcgt ggcagtttct
+      601 ctggccaacg acgtggttat tctcgcaatc acgtgttcag acgtccatca tctacgagac
+      661 gtgtggacgg gaaacgacga tataatatat ctagcaagac ccctgacgat gccaagatgt
+      721 cggcccagag gatacatgag aaccagtttg ggcctgatta tgtattggcc cagaattcag
+      781 tattggccac cttcatcacc ttcccccagc ttggcaagac cgagcctaac cgatcaaggt
+      841 catatattaa gttgaaacgc ctccgtttca agggtacggt taagattgaa cgtgtgcaag
+      901 gtgatgtgaa catggatggg cccggcccaa agacggaagg cgtcttctcc ttagtggtcg
+      961 ttgtggatcg aaaacctcat cttagcccaa ctggatgtct acataccttc gacgagttat
+     1021 ttggtgcaag gatccacagc catggtaacc tggcgatagt ccctgctttg aaggaccgtt
+     1081 tctacgtacg tcatgttctc aaacgagtga tatcggtcga gaaggatacg ttaatggtcg
+     1141 accttgaagg aacgacgtcg ttctctaata agcgatttag ttgttggtcc tctttcaagg
+     1201 accttgagcg tgactcatgt aatggcgttt atggcaacat aagcaagaac gccctgttag
+     1261 tctattactg ttggatgtcg gatattgtgt ccaaggcatc gacatttgta tcatatgacc
+     1321 ttgattacgt tggttaatca acaattatat tataactgcc gtatattaac tgaattgctc
+     1381 gttctcgtat tcctcgtttt ccaaactcag caacttaaaa tttattttaa tgttttgggc
+     1441 tgggccgtgc tacaattact actgatacac tcattgacag tggccctgac tagctcgttt
+     1501 aattgggcca ctgacattgt tatgttcgac tgggccctct gagccccaac tatggaggcc
+     1561 gagtcacctg ggtctagggc gctggtgcct agtctgtgga gctctctgta tggatggatc
+     1621 tcgttcgcga gctcagagtc cgcatctgat tgacccagtt caactgtact cctggtagcc
+     1681 catgattcac caggccggat ttctattggg ccttgacgac ccactgtcga tatggatgct
+     1741 gacctgatca gcttccttcc ccatctcccg tagcccacat ggcagaagtc gacgtctttc
+     1801 tccgtgaact gtttcgacag tatcttgacc gtgggagctt tgaaagggat gtcgacggaa
+     1861 tgtttcgccg tcgacaattt cagtttacct ttgaacttgg cgaagtgtgt gttctggtgt
+     1921 acgttcgtgt cggaaaccct gtagtacagc ttccatggaa tgggatcttt catggagaag
+     1981 aaagacgacg agaagtagtg gagatcgatg ttacatctga ccgggaaagt ccacgacgcc
+     2041 tgcaaggact cgttgtcagt catccttttg tcatgaatct ccactaccac tgtgccggtg
+     2101 gcgttaattg gcacctgttg cctgtattct atgacgcagt gatctatctt catacaacta
+     2161 cgactgattc tggcactcaa ttgagccgcc gttgacggaa attgcagaat gatctctgtt
+     2221 aggtcatgtg acagttgata ttcatcacgt cgagactcga tatagttgaa cgcacttgga
+     2281 ggattcacta gctgagaatc catttgagaa ttctaatagc agcgaaggcc gcgcagcgga
+     2341 atcgtcttcc tgagatcaac agttgaagaa gagacgacga ccgtcgtcca ctgtttagga
+     2401 atttggtaaa gttaagggga agatgataat gaagacgatt ttagtacgga ttgagaggag
+     2461 atattgttta attggtgtgt tatgactagc tgatatcgtc tttaaatagg atttgattgg
+     2521 ccaatggcat ttttgtaaat aaggctatgt accccagatg agagctcgct ctataagtta
+     2581 tatgaattgg ggtaatgggg tacaatatat agtagaagtt cctaggggtc tttaagcggc
+     2641 catccgctat aatatt
+//

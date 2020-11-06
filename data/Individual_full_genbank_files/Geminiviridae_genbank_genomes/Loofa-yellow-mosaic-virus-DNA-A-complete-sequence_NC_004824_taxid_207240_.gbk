@@ -1,0 +1,159 @@
+LOCUS       NC_004824               2742 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Loofa yellow mosaic virus DNA A, complete sequence.
+ACCESSION   NC_004824
+KEYWORDS    RefSeq.
+SOURCE      Luffa yellow mosaic virus
+  ORGANISM  Luffa yellow mosaic virus
+REFERENCE   2  (bases 1 to 2742)
+REFERENCE   3  (bases 1 to 2742)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AF509739.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2742
+                     /organism="Luffa yellow mosaic virus"
+                     /mol_type="genomic DNA"
+                     /host="Luffa acutungula"
+                     /db_xref="taxon:207240"
+                     /segment="DNA A"
+                     /country="Viet Nam"
+     gene            48..446
+                     /gene="AV2"
+                     /locus_tag="LymvsAgp1"
+                     /db_xref="GeneID:988066"
+     CDS             48..446
+                     /gene="AV2"
+                     /locus_tag="LymvsAgp1"
+                     /codon_start=1
+                     /product="precoat protein"
+                     /protein_id="NP_852649.1"
+                     /db_xref="GeneID:988066"
+                     /translation="MKFKLHGLFITWGPLNRLPHQVWIQNMWDPLLHEFPESVHGLRC
+                     MLAVKYLQEVEKTYSPDTVGYDLVRDLILVLRAKNYVEATSRYYHFNSRIEGTSTSEL
+                     RQPICIPCSCPHCPRHKGKGLDKQADEQKT"
+     gene            286..1056
+                     /gene="AV1"
+                     /locus_tag="LymvsAgp2"
+                     /db_xref="GeneID:988067"
+     CDS             286..1056
+                     /gene="AV1"
+                     /locus_tag="LymvsAgp2"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="NP_852650.1"
+                     /db_xref="GeneID:988067"
+                     /translation="MSKRPADIIISTPASKVRRRLNFDSPYVSRAVVPIARVTKGKAW
+                     TNRPMNRKPRMYRMYRSPDVPRGCEGPCKVQSFESRHDVSHIGKVMCISDVTRGTGLT
+                     HRVGKRFCVKSVYVLGKIWMDENIKTKNHTNSVIFFLVRDRRPTGTPQDFGEVFNMFD
+                     NEPSTATVKNMHRDRYQVLRKWHATVTGGTYASREQALVRKFVRVNNYVVYNQQEAGK
+                     YENHTENALMLYMACTHASNPVYATLKIRIYFYDSVTN"
+     gene            complement(316..834)
+                     /gene="AC4"
+                     /locus_tag="LymvsAgp3"
+                     /db_xref="GeneID:988071"
+     CDS             complement(316..834)
+                     /gene="AC4"
+                     /locus_tag="LymvsAgp3"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_852651.1"
+                     /db_xref="GeneID:988071"
+                     /translation="MPFAQHLISITMHILHRCSARFIVEHIKNLPKILWRSCRTTVSN
+                     QKKYDAISMIFSLDIFVHPYFSQHVNRFHTKSLPNAMCESGSSCNIADAHHLPNMRNI
+                     VPRFEGLNLTRAFTAPGHVRTSVHPVHSRFSVHRPVCPGLSLCDAGNGDNCTGYIWAV
+                     EVQTSTYLRCGS"
+     gene            complement(1053..1463)
+                     /gene="AC3"
+                     /locus_tag="LymvsAgp4"
+                     /db_xref="GeneID:988070"
+     CDS             complement(1053..1463)
+                     /gene="AC3"
+                     /locus_tag="LymvsAgp4"
+                     /codon_start=1
+                     /product="replication enhancer"
+                     /protein_id="NP_852652.1"
+                     /db_xref="GeneID:988070"
+                     /translation="MITDSRTGEYITADRAESGVFIWEIPNPLYFKILKHDSRPFMTE
+                     HDIIVVQILFNHNLRKALGLHKCALTFQIWTGLRPPIGIFLRVFKTQVLKYLDMLGVL
+                     SIYNVIRSVYHVLDNVLERTIDVRSSYDVKVNIY"
+     gene            complement(1198..1602)
+                     /gene="AC2"
+                     /locus_tag="LymvsAgp5"
+                     /db_xref="GeneID:988069"
+     CDS             complement(1198..1602)
+                     /gene="AC2"
+                     /locus_tag="LymvsAgp5"
+                     /codon_start=1
+                     /product="transcriptional activator"
+                     /protein_id="NP_852653.1"
+                     /db_xref="GeneID:988069"
+                     /translation="MQSSSNSKNHSIPVAQTTLPQKKKRNIRRKRIDLRCGCSYYMSI
+                     NCHDHGFTHRGVHHCGSSREWRLYLGNSKSPVFQNIETRQPTLHDRTRHNSGTDTVQP
+                     QPEESAGTSQVCSNFPNLDGLTPSDWDFLESL"
+     gene            complement(1505..2590)
+                     /gene="AC1"
+                     /locus_tag="LymvsAgp6"
+                     /db_xref="GeneID:988068"
+     CDS             complement(1505..2590)
+                     /gene="AC1"
+                     /locus_tag="LymvsAgp6"
+                     /codon_start=1
+                     /product="replication initiation protein"
+                     /protein_id="NP_852654.1"
+                     /db_xref="GeneID:988068"
+                     /translation="MPRTNQFQVKAKNIFLTFPKCPIPKEHMLELLRNISCPSDKLFI
+                     RVSQEKHQDGSLHIHALIQFKGKCQFRNPRHFDVTHPNTSTQYHPNFQGAKSSSDVKS
+                     YIEKDGDYIDWGQFQIDGRSARGGQQTANDAAAEALNAGSKEAALSIIREKLPKDYIF
+                     QFHNLNSNLDRIFAPPLEVFVCPFLSSSFDQVPEELEVWVSENVRDAAARPWRPKSIV
+                     IEGDSRTGKTMWARSLGPHNYLCGHLDLSPRVYNNEAWYNVIDDVDPHYLKHFKEFMG
+                     AQRDWQSNTKYGKPVMIKGGIPTIFLCNKGPNSSYKEYLDEEKNSALKQWAIKNAVFI
+                     QLEEPLYSGRSNNAPTEEEEEHQTQTD"
+ORIGIN
+        1 taatattacc ggaaggccgc gcgatttttt ttgtgggccc ttgaccaatg aaattcaagc
+       61 tacatggctt atttattacc tggggaccat taaatagact tcctcaccaa gtttggattc
+      121 aaaacatgtg ggatccatta ttgcacgaat ttcctgaaag cgttcatggt ctacggtgca
+      181 tgctagcggt gaaatatctt caggaagtgg aaaagacata ttccccggac acagtcggct
+      241 acgatcttgt ccgtgatctg attttagttc tccgcgcgaa gaactatgtc gaagcgacca
+      301 gccgatatta tcatttcaac tcccgcatcg aaggtacgtc gacgtctgaa cttcgacagc
+      361 ccatatgtat cccgtgcagt tgtccccatt gcccgcgtca caaagggaaa ggcctggaca
+      421 aacaggccga tgaacagaaa acctagaatg tacaggatgt acagaagtcc tgacgtgccc
+      481 aggggctgtg aaggcccttg taaggttcaa tccttcgaat ctaggcacga tgtttctcat
+      541 attgggaagg tgatgtgcat cagcgatgtt acacgaggaa ccggactcac acatcgcgtt
+      601 gggaagcgat tttgtgtgaa atctgtttac gtgttgggaa aaatatggat ggacgaaaat
+      661 atcaagacta aaaatcatac taatagcgtc atattttttc tggttcgaga ccgtcgtcct
+      721 acaggaacgc cacaggattt tggggaggtt tttaatatgt tcgacaatga accgagcact
+      781 gcaacggtga agaatatgca tcgtgatcga tatcaagtgc tgcgcaaatg gcatgctact
+      841 gtgacgggag gaacatacgc atcgagggag caagcattag ttaggaagtt tgttagggtt
+      901 aataattatg ttgtctacaa tcaacaggag gccggcaagt atgagaatca tactgaaaat
+      961 gcattaatgt tgtatatggc ctgtactcac gcatcgaacc ctgtatatgc aactctgaaa
+     1021 atccggatct atttttatga ttcggtaaca aattaatata tattcacttt cacatcatac
+     1081 gagcttctta catcaattgt tctttccaat acattgtcta aaacatgata aacagatctt
+     1141 attacattgt aaatagagag cacccctaac atatccaggt acttaaggac ctgggtttta
+     1201 aagactctca agaaaatccc aatcggaggg cgtaagcccg tccagatttg gaaagttaga
+     1261 gcacacttgt gaagtcccag cgctttcctc aggttgtggt tgaacagtat ctgtaccact
+     1321 attatgtcgt gttctgtcat gaagggtcgg ctgtcgtgtt tcaatatttt gaaatacagg
+     1381 ggatttggaa tttcccaaat aaagacgcca ctctctgctc gatccgcagt gatgtactcc
+     1441 cctgtgcgtg aatccgtgat catggcagtt tattgacatg taatacgagc atccgcaccg
+     1501 cagatcaatc cgtttgcgtc tgatgttcct cttcttcttc tgtgggagcg ttgtttgagc
+     1561 gaccggaata gagtggttct tcgagttgga tgaagactgc attctttatt gcccactgtt
+     1621 ttagtgctga atttttttct tcgtccagat attctttata gctgctattt ggtcctttat
+     1681 tgcagaggaa gatagtgggt attccacctt taatcatgac tggctttccg tatttcgtgt
+     1741 tgctttgcca gtctctttgg gcccccatga attctttaaa atgctttagg tagtgcgggt
+     1801 cgacgtcatc aatgacgttg taccaagctt cattattgta cactctcggg ctcagatcca
+     1861 gatgaccgca tagataattg tgtgggccta aagacctggc ccacattgtc ttgcccgtac
+     1921 gactatcacc ctcaatgaca atactcttgg gtctccacgg ccgcgcagcg gcatccctta
+     1981 cattctcaga cacccagacc tcaagttcct ctggaacttg atcgaatgaa gaagacaaaa
+     2041 aaggacaaac aaaaacctct aaaggaggtg caaaaatcct atctaaatta gaattcaaat
+     2101 tatgaaattg gaaaatataa tcttttggga gtttttccct tattatacta agtgctgctt
+     2161 ctttagaacc tgcgtttagg gcctctgctg ctgcatcatt tgctgtctgt tgacctcctc
+     2221 tagcagatcg tccatcgatc tgaaactgac cccagtcaat gtaatcaccg tctttctcga
+     2281 tgtaggactt gacatcggag ctggacttag ctccctggaa gtttgggtgg tattgtgtgg
+     2341 aggtattagg gtgagtgaca tcgaaatgtc tagggtttct gaactggcat ttacctttga
+     2401 attggatgag cgcgtggata tgcagagacc catcttggtg tttttcttgt gatactctga
+     2461 taaataattt gtcagatgga catgaaatgt ttcgaaggag ttcgagcata tgctcttttg
+     2521 gtattgggca ttttgggaaa gtgagaaata tattttttgc cttaacttgg aattggtttg
+     2581 ttcgtggcat attgaatcgg gtgctctaca aagctcatag gaatggggtg ctttgggtgc
+     2641 ctatttatat tgagctccca aatggcaatt ttgtaattac gaaaagtatt tcaaaaccct
+     2701 aacgctccac tttaattcaa atccataaag cggccttccg ta
+//

@@ -1,0 +1,119 @@
+LOCUS       NC_000870               2737 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Tomato yellow leaf curl Thailand virus DNA B, complete sequence.
+ACCESSION   NC_000870
+KEYWORDS    RefSeq.
+SOURCE      Tomato yellow leaf curl Thailand virus
+  ORGANISM  Tomato yellow leaf curl Thailand virus
+REFERENCE   2  (bases 1 to 2737)
+REFERENCE   3  (bases 1 to 2737)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AF141897.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2737
+                     /organism="Tomato yellow leaf curl Thailand virus"
+                     /mol_type="genomic DNA"
+                     /isolate="Tomato yellow leaf curl Thailand virus-[2]"
+                     /db_xref="taxon:85752"
+                     /segment="DNA B"
+     gene            346..1062
+                     /gene="BV1"
+                     /locus_tag="ToYLCTvsBgp1"
+                     /gene_synonym="V1"
+                     /db_xref="GeneID:995396"
+     CDS             346..1062
+                     /gene="BV1"
+                     /locus_tag="ToYLCTvsBgp1"
+                     /gene_synonym="V1"
+                     /codon_start=1
+                     /product="BV1 protein"
+                     /protein_id="NP_049920.1"
+                     /db_xref="GeneID:995396"
+                     /translation="MNPSSGGSYVRYNYPYANYFGRRVGNRVYGMPFGSTTSVRRPIR
+                     STVRRNLFSDQSSSGNKSRKTIEEVHDGSDYLLGNNTSKVSYISYPPLSRSEFGNRLD
+                     AFVKILGFNVSGSVAVRHLEQRATGASQGIHGIYCTAVVRDKRPCQFSAVEPIVPFPE
+                     LFGLEKMACSSLRVRDIHRSRFSPVYQKKVVVNSSLPTHVFKFNILLSLIGFRSGCHL
+                     KIPLILSQVAGTATYLRMLS"
+     gene            371..700
+                     /gene="BV2"
+                     /locus_tag="ToYLCTvsBgp2"
+                     /gene_synonym="V2"
+                     /db_xref="GeneID:995397"
+     CDS             371..700
+                     /gene="BV2"
+                     /locus_tag="ToYLCTvsBgp2"
+                     /gene_synonym="V2"
+                     /codon_start=1
+                     /product="BV2 protein"
+                     /protein_id="NP_049921.1"
+                     /db_xref="GeneID:995397"
+                     /translation="MSVIIIPTPITLAGGLATVYMECPLVVPPLSGDQLEVQFGGIYF
+                     PTSLLQVTRAVKLLRKCMMVLTIFLVITLRRCRILVILLLVGRNLVTVLTHLSRFWDL
+                     MFLVQLL"
+     gene            complement(1144..1857)
+                     /gene="BC1"
+                     /locus_tag="ToYLCTvsBgp3"
+                     /gene_synonym="C1"
+                     /db_xref="GeneID:995398"
+     CDS             complement(1144..1857)
+                     /gene="BC1"
+                     /locus_tag="ToYLCTvsBgp3"
+                     /gene_synonym="C1"
+                     /codon_start=1
+                     /product="BC1 protein"
+                     /protein_id="NP_049922.1"
+                     /db_xref="GeneID:995398"
+                     /translation="MLLGKCLRIDHVILQYRNQVPVNATGHVVIEMHDTRLHEGDSKQ
+                     AEFTIPIGCNCNIHYYSSSYFSPKDPNPWRVLYRVDDTNVVNGVHFCRMQGKLKMSSA
+                     KQSSEITFKSPKIEILSKAYNMTHIDFWHVPQSKVSRKPVQALSNMRSQSSRYTTDAI
+                     PQGHTWASASTVVNQLNEEYPYRHLHQLQDATLDPGPSASEVVAGSNKVNDDVINIIK
+                     KTVELCMEGSNVSSNAKQI"
+ORIGIN
+        1 ggtcaatcgg tgtctctcaa acttggctat gcaatcgggt gctggtgtct tatttatacc
+       61 tggacaccaa atggcataat tgtaatttag taaatgtaat tcaaaattca aaatccaatc
+      121 gtggccatcc gtataatatt accggatggc cgcgattttt ttcaagtggt cccaccactg
+      181 acatctcagc cccactggga aaatcatagc cgttgaatcg taacacgcgt tacatatcca
+      241 attgatttgc agtgtattta ttctgactat aaatgtgatg ttatggcgtc atttgttgtt
+      301 gtgaaatagc atgagagttc ctattagacg accttttgct taaacatgaa cccctcctcc
+      361 ggcggttcct atgtccgtta taattatccc tacgccaatt actttggcag gagggttggc
+      421 aaccgtgtat atggaatgcc ctttggtagt accacctctg tccggcgacc aattagaagt
+      481 acagttcgga ggaatttatt ttccgaccag tcttcttcag gtaacaagag ccgtaaaact
+      541 attgaggaag tgcatgatgg ttctgactat cttcttggta ataacacttc gaaggtgtcg
+      601 tatattagtt atcctcctct tagtcggtcg gaatttggta accgtcttga cgcatttgtc
+      661 aagattttgg gatttaatgt ttctggttca gttgctgtga gacatctgga acagcgtgcc
+      721 actggagcaa gtcaaggtat ccatggcata tattgcacag ctgttgtacg tgacaagcga
+      781 ccatgtcagt tctccgctgt ggagcctatt gtgccatttc cggagttatt tggtctggag
+      841 aagatggcat gctcctcatt acgtgttagg gatattcata ggagtaggtt tagtccagtt
+      901 taccagaaga aagttgttgt taacagctcc cttccgaccc atgtttttaa gtttaatatc
+      961 ctgttaagtt taataggttt ccgttctggg tgtcatttaa agatacctct gattctgagc
+     1021 caagtggccg gtacagcaac gtatctaaga atgctctcat agtttattat ttggctttgt
+     1081 gacacaaatg taactgcaga ttcgtatgta aagtacgatt tgaactacat tggataaata
+     1141 aaattatatt tgctttgcat ttgaagatac attactccct tccatacata gttcaactgt
+     1201 ttttttaata atattaatta catcgtcatt tactttgttg cttcctgcaa caacctccga
+     1261 cgccgaaggg cctggatcga gagttgcatc ttgtagctga tgcaaatgtc tatatgggta
+     1321 ttcctcgttc aattggttca cgactgtgct tgcggaagcc caagtatgcc cttgtggaat
+     1381 ggcatctgta gtgtatctgg aagactgtga cctcatgttt gatagggctt ggactggttt
+     1441 ccttgatacc ttggattgag gcacatgcca gaagtctatg tgggtcatgt tatacgcctt
+     1501 tgacagtatt tcaatcttgg gggatttaaa tgttatctcc gaggactgtt ttgcagatga
+     1561 catctttaat tttccttgca tcctgcagaa gtgaactcca tttaccacgt tagtgtcgtc
+     1621 cactcggtac agtactctcc atggatttgg gtctttgggg gagaaatagg aagaggagta
+     1681 gtagtgtatg ttgcagttgc accctatggg tatagtgaac tcagcctgct tcgagtcacc
+     1741 ttcgtgtaac cttgtgtcgt gcatttctat gaccacatga ccagttgcat ttacagggac
+     1801 ttggttcctg tattggagga tgacgtggtc aattctgaga cactttccca aaagcatcga
+     1861 caatttttga tcgaccgtgg agggaaacaa cagcgtaact tctgtttttt catttgacag
+     1921 ctgaaattca gtcctatccg acgtccgtat atgcaatatt gttagttctg gactccatta
+     1981 attgttgatg gccaataaaa taatgataat tccatgtttt tatagacttt tgaagaggct
+     2041 gtcacattag tggaatgtga ctagtcgagt ttttgcattg aaattgtact atctcaaagg
+     2101 accaatgaga tacgtccacg tatgtgctag acctgacaag agataaggtt aaatacttga
+     2161 atgtggttca gccacgtcgc caatatgata atggaaaaca gctgtgtcca ctagcaggtc
+     2221 ttgttgtttt aagttgttaa atatagcatt ttgagatatt tgtccaatat taataatata
+     2281 attaaaaatt aaaggaagta atagaagtta tgtaagtggt actttagtac cacaatttaa
+     2341 acccaaattg agaagattcg agcctcaatt aaagaacgat ttgtaaatcg ttatgagtta
+     2401 tcgtgaaatg gacaacttag accaattgtt aactgatcca acaatctaat tacgagaaaa
+     2461 cagaaaacac atacttgaac atcttgagaa aacccgcgcg cagcggctgt gtgccgaaat
+     2521 atatttagaa ttccagaact gttaatcgct aattatcata tctaatttta aagtgaagta
+     2581 tcgtaattca gtgtcatgca aatggtatgt atctcctgca gctaacataa ttaaagttaa
+     2641 caacattaat gcaatataat tattgcatat ttacagaaaa tactaaaaat acatgtttag
+     2701 agagagaaag tctagagaga aggaagagcg attgact
+//

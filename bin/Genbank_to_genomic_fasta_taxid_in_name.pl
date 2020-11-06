@@ -50,6 +50,7 @@ while ($linea = <FILE>) {
 		$NombreOutput =~ s/\]//g;
 		$NombreOutput =~ s/\{//g;
 		$NombreOutput =~ s/\}//g;
+		$NombreOutput =~ s/\//-/g;
 		$FastaHeader = "$organismo"."|"."$forname"."|"."$taxid"."_"."$TAXID"."|";
 		$FastaHeader =~ s/--/-/g;
 		$FastaHeader =~ s/\(//g;

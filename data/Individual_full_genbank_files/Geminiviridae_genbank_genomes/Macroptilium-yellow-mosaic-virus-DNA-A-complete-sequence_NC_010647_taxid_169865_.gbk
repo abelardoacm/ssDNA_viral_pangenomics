@@ -1,0 +1,146 @@
+LOCUS       NC_010647               2630 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Macroptilium yellow mosaic virus DNA A, complete sequence.
+ACCESSION   NC_010647
+KEYWORDS    RefSeq.
+SOURCE      Macroptilium yellow mosaic virus
+  ORGANISM  Macroptilium yellow mosaic virus
+REFERENCE   2  (bases 1 to 2630)
+REFERENCE   3  (bases 1 to 2630)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            EF585290.
+            GenBank Accession Numbers EF585290-EF585291 represent the complete
+            genome of Macroptilium yellow mosaic virus isolate St. Thomas.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2630
+                     /organism="Macroptilium yellow mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolate="St. Thomas"
+                     /host="Macroptilium lathyroides"
+                     /db_xref="taxon:169865"
+                     /segment="DNA A"
+                     /clone="MacGA6"
+                     /country="Jamaica"
+     gene            208..960
+                     /gene="CP"
+                     /locus_tag="MaYMVsA_gp1"
+                     /db_xref="GeneID:6264453"
+     CDS             208..960
+                     /gene="CP"
+                     /locus_tag="MaYMVsA_gp1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_001876449.1"
+                     /db_xref="GeneID:6264453"
+                     /translation="MPKRDAPWRLMAGTSKVSRTGNYSRNGGLGQSSNKNAWVNRPMY
+                     RKPRIYRMYRSSAVPKGCEGPCKVQSYEQRHDISHVGKVICISDITRGNGITHRVGKR
+                     FCVKSVYILGKIWMDENIKLKNHTNSVIFWLVRDRRPYGTPMDFGQVFNMFDNEPSTA
+                     TVKNDLRDRFRVIHRFHAKVTGGQYASNEQALVRRFWKVNNHVVYNHQESGKYENHTE
+                     NALLLYMACTHASNPVYATLKIRIYFYDSITN"
+     gene            complement(957..1355)
+                     /gene="REn"
+                     /locus_tag="MaYMVsA_gp2"
+                     /db_xref="GeneID:6264449"
+     CDS             complement(957..1355)
+                     /gene="REn"
+                     /locus_tag="MaYMVsA_gp2"
+                     /codon_start=1
+                     /product="replication enhancer protein"
+                     /protein_id="YP_001876450.1"
+                     /db_xref="GeneID:6264449"
+                     /translation="MDSRTGENITARQAENSVFIWEVPNPPYFKIIMVEDPPFTRTRI
+                     YHIQVRANHNVRKVLGLHKAFFNFQVWTTLTTASGTTYLNRFKYLVHMYPDQIGLVGI
+                     NNVIRAVRFATDKSYVNYVLESHEIKFKFY"
+     gene            complement(1102..1620)
+                     /gene="TrAP"
+                     /locus_tag="MaYMVsA_gp3"
+                     /db_xref="GeneID:6264452"
+     CDS             complement(1102..1620)
+                     /gene="TrAP"
+                     /locus_tag="MaYMVsA_gp3"
+                     /codon_start=1
+                     /product="transcription activator protein"
+                     /protein_id="YP_001876451.1"
+                     /db_xref="GeneID:6264452"
+                     /translation="MESRFKLKEVSLQSCCAILVRVPVIKTSSVKKKTELYTTGPFIM
+                     RYSSPSQPPSIKAQHRLAKRRAIRRRRLDLNCGCSIFLHINCHDHGFTHRGEHHCASG
+                     REFRFYLGGSKSPLFQDHHGGGSTIHSNKDLPHTSQSQPQRAESVGSPQSLLQLPSLD
+                     DINDSFWDDIFK"
+     gene            complement(1427..2488)
+                     /gene="Rep"
+                     /locus_tag="MaYMVsA_gp4"
+                     /db_xref="GeneID:6264451"
+     CDS             complement(1427..2488)
+                     /gene="Rep"
+                     /locus_tag="MaYMVsA_gp4"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_001876452.1"
+                     /db_xref="GeneID:6264451"
+                     /translation="MPPPKRFRVSAKNYFLTYPQCSLSKEEALSQLQNIFTATNKKFI
+                     KICEELHEDGQPHLHVLIQFEGKFVRTNNRLFDLVSPSRSAHFHPNIQGAKSSSDVKS
+                     YLDKDGVTVEWGEFQVDGRSARGGCQSANDSYAKALNASSVEQALQILKEEQPKDYLL
+                     QHHNIRSNLERIFTKVPEPWVPPFHLSSFTHVPAEMQAWVDGYFGRGAAARPERYMSI
+                     IVEGDSRTGKTMWARSLGPHNYLMGHLDFNSRVYSNAAEYNVIDDISPNYLKLKHWKE
+                     LIGAQRDWQSNCKYGKPVQIKGGIPSIVLCNPGEGASYKDFLGKEENRALHNWTIHNA
+                     LFITFTAPLYQSTASPCQT"
+     gene            complement(2074..2331)
+                     /gene="AC4"
+                     /locus_tag="MaYMVsA_gp5"
+                     /db_xref="GeneID:6264450"
+     CDS             complement(2074..2331)
+                     /gene="AC4"
+                     /locus_tag="MaYMVsA_gp5"
+                     /codon_start=1
+                     /product="AC4 protein"
+                     /protein_id="YP_001876453.1"
+                     /db_xref="GeneID:6264450"
+                     /translation="MGSLISMCLSSSKENSSARITDYSTWSPHPGQHISIRTFRELNR
+                     APTSSPISTRMESQSNGENSRSTVEVLEEAARVLTTHMPRH"
+ORIGIN
+        1 accggatggc cgcgcccccc ccccttcttt tccgtacgcc aaccacgtgc gcctttaatt
+       61 taaattaaag ataactattt ttgactgacc aatcatattg cttgtgtgtg gtctttttaa
+      121 tgcgttacaa cttggtcccc aagttgttcg cctataagtt taatttaaat taagaattgt
+      181 tgtgcccaaa ccacgtgtaa gtccaggatg cccaagaggg atgccccgtg gcgtttgatg
+      241 gcgggaacct caaaggtttc ccgcactggc aattattctc gaaatggtgg tttgggccaa
+      301 tcctccaaca aaaacgcttg ggtgaacagg cccatgtaca ggaagcccag gatttatcgg
+      361 atgtacagat catccgctgt gcccaaggga tgtgaaggac cttgcaaggt ccaatcctat
+      421 gaacaacgac atgatatatc tcatgttggt aaggtgatat gtatttctga cattactcgt
+      481 ggtaatggta ttactcatcg tgtagggaag cgtttttgtg tgaaatctgt gtatatttta
+      541 gggaagatat ggatggatga gaacatcaag ctcaagaacc acacaaacag cgttattttt
+      601 tggttggtgc gtgatcgtcg tccctatgga acacctatgg actttggaca ggtgttcaac
+      661 atgtttgata atgagcccag tacagctact gtgaagaacg atcttcgtga tcgtttccga
+      721 gtgatacaca gatttcatgc taaggtgact ggtggccaat atgcaagtaa tgaacaggca
+      781 ttggtaaggc gattttggaa ggtgaacaac catgtcgtgt acaaccacca ggaatccgga
+      841 aaatacgaga atcatacgga gaacgcctta ttattgtata tggcatgtac acatgcctca
+      901 aaccctgtat atgcaacatt gaaaattcgg atctatttct atgattcgat aacaaattaa
+      961 taaaatttga attttatttc atgactttcg agcacataat ttacatatga tttgtccgtg
+     1021 gcaaaacgaa cagctctaat tacattgttt attccgacaa gccctatttg atcaggatac
+     1081 atatgaacaa gatatttaaa tctatttaaa tatgtcgtcc cagaagctgt cgttaatgtc
+     1141 gtccagactt ggaagttgaa gaaggctttg tggagaccca acactttccg cacgttgtgg
+     1201 ttggctctga cttgtatgtg gtagatcctt gttcgagtga atggtggatc ctccaccatg
+     1261 atgatcttga aatagggggg atttggaacc tcccagataa aaacggaatt ctctgcctga
+     1321 cgcgcagtga tgttctcccc tgtgcgtgaa tccatggtcg tggcaattga tatggagaaa
+     1381 tatggaacag ccgcagttca agtctaagcg tcgtcgacgg atggccctac gtttggcaag
+     1441 gcgatgctgt gctttgatag aggggggctg tgaaggtgat gaatagcgca ttatgaatgg
+     1501 tccagttgtg taaagctcgg ttttcttctt taccgaggaa gtctttataa ctggcaccct
+     1561 caccaggatt gcacagcacg attgaaggga tacctccttt aatttgaacc ggctttccat
+     1621 atttacagtt tgactgccag tccctttgag ccccaattaa ctctttccaa tgctttaatt
+     1681 tcaaataatt ggggcttatg tcatcaatga cgttgtactc agcggcattg gaatagacac
+     1741 gcgaattgaa gtcgaggtga cccatgagat aattgtgtgg tcccaatgaa cgagcccaca
+     1801 ttgttttgcc tgttcttgag tcaccctcga cgatgatact catatatctc tccggccgcg
+     1861 cagcggcacc ccttccgaaa taaccatcga cccacgcttg catctcagcc ggaacgtgag
+     1921 taaaggagga gaggtgaaat ggaggaaccc atggttccgg aaccttggta aagatccgtt
+     1981 ctaggttaga acggatgtta tgatgttgga gaagataatc cttgggctgc tcctccttta
+     2041 atatttgaag tgcctgttcg actgatgagg cattcaatgc cttggcatat gagtcgttag
+     2101 cactctggca gcctcctcta gcacttcgac cgtcgacctg gaattctccc cattcgactg
+     2161 tgactccatc cttgtcgaga taggacttga cgtcggagct cgatttagct ccctgaatgt
+     2221 tcggatggaa atgtgctgac cgggatgggg agaccaggtc gaataatctg ttattcgtgc
+     2281 ggacgaattt tccttcgaac tggataagca catggagatg aggctgccca tcctcgtgta
+     2341 attcctcaca tatcttgatg aacttcttgt tggtggcagt gaaaatattt tgtaattggg
+     2401 aaagagcctc ttcttttgaa agagaacact gaggatatgt gaggaaatag ttttttgcgc
+     2461 tcactctaaa tctctttggt ggtggcatat ttgtaaataa gagagtgtca ccgcttcgag
+     2521 ctctctcaaa cttgctctat gaattggtga taagtgtaca atatatacta caaccctcaa
+     2581 tctcgtgaat aacgagattc acacacgtgg cggccatccg atataatatt
+//

@@ -1,0 +1,98 @@
+LOCUS       NC_017002               2577 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Macroptilium yellow net virus DNA B, complete genome.
+ACCESSION   NC_017002
+KEYWORDS    RefSeq.
+SOURCE      Macroptilium yellow net virus
+  ORGANISM  Macroptilium yellow net virus
+REFERENCE   2  (bases 1 to 2577)
+REFERENCE   3  (bases 1 to 2577)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence is identical to
+            JN418999.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2577
+                     /organism="Macroptilium yellow net virus"
+                     /mol_type="genomic DNA"
+                     /isolate="BR:Mur1:09"
+                     /host="Macroptilium lathyroides"
+                     /db_xref="taxon:1129033"
+                     /segment="DNA B"
+                     /country="Brazil"
+                     /collection_date="14-Nov-2009"
+     gene            448..1218
+                     /locus_tag="MaYNV_sBgp1"
+                     /db_xref="GeneID:11946071"
+     CDS             448..1218
+                     /locus_tag="MaYNV_sBgp1"
+                     /note="NSP"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_005352910.1"
+                     /db_xref="GeneID:11946071"
+                     /translation="MYFNRNRRGGSSNYRRNYPRYAAFKRSYVNLRNDGKRRMGHANK
+                     AQDDSKMSSHRIHENQYGPEFVLGHNTAISTFITYPSLGKTEPSRTRSYIKLKRLRFK
+                     GTVKIERVHTDVNMNGQPPKIEGVFSLVVVVDRKPHLSSSGSLYTFDELFGARIHSHG
+                     NLAITPALQDRFYIRHVVKRVLSVEKDTTMVDIDGTTTLSSRRYNCWANFRDLDRESC
+                     NGVYANMSKNAILVYYCWMSDTVSKASTFVSFDLDYVG"
+     gene            complement(1308..2189)
+                     /locus_tag="MaYNV_sBgp2"
+                     /db_xref="GeneID:11946070"
+     CDS             complement(1308..2189)
+                     /locus_tag="MaYNV_sBgp2"
+                     /note="MP"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_005352911.1"
+                     /db_xref="GeneID:11946070"
+                     /translation="MSSQLVVPPNAFNYVESQRDEYQLSHDLTEIVLQFPSTASQISA
+                     KLSRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYRVSDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFSDKDIDFAHVGYGTWERKLVRCASTSKFGLNGPIEIKPGESWASRSTIGLSN
+                     SYVDSERGNDLHPYRELNRLGTTILDPGESASIVAANRTQSNITLSLAQLNDIVRTTV
+                     QECINTNCTPSEPKSLK"
+ORIGIN
+        1 accggatggc cgcgcgatcc ccccccctcg cgcaatcctg gccctccacg tgtacccctg
+       61 aatgtaattt agcgagaatt tgaagtccgc gaattgagtt gagcgcattt tttgagttcc
+      121 gcaaacggat ggccgccacg tgtttcaatc tgagaccgtt gaattaaata cgataagcgg
+      181 aactgtgtcg aattgtacga tgtgtttttg accgttgaat aattttgaaa ttcgaccgtt
+      241 agattgcaca tgaaaatatt gtttgtcgtg cccgaaaagt gggtcatttg tacaagcatt
+      301 tgtcatgtat gcaatcgtac aacatatgta acgtggacca ataaaatatg ccctgttgaa
+      361 tcaaaataac gcattaatgc aacaggttcc tatatataag acgtttgtta ttattattgt
+      421 gtacgccgcc aataaacaac tttaaacatg tatttcaata gaaataggcg tggtggttcg
+      481 tccaattatc gacgtaatta cccacgatat gcggcgttta aaaggtcgta tgttaatttg
+      541 cgtaacgatg ggaaacgtcg aatgggtcat gcaaacaagg cccaagatga tagcaagatg
+      601 tcgtcgcatc ggatccatga gaaccaatat gggcctgaat ttgtattggg ccacaacaca
+      661 gcgatatcca catttattac atatcccagt cttggtaaga cggaaccaag tcgtacaagg
+      721 tcatatatta aattgaagcg actgcgtttt aaaggaacgg ttaagattga acgtgttcac
+      781 accgatgtta atatgaatgg gcaaccacct aagattgaag gtgtattttc gttggtcgtt
+      841 gtcgtcgatc gaaaaccaca tttaagctca tctggtagtc tatacacctt cgatgagtta
+      901 tttggtgcta ggatccacag tcatggcaat ctagctataa ctcccgcttt gcaagatcgt
+      961 ttctacatac gccatgtggt taaacgagtc ttgtctgttg agaaggacac gactatggta
+     1021 gacattgatg ggacgacaac gttatctagt aggcgttata attgctgggc taattttaga
+     1081 gaccttgatc gagaatcatg taatggtgta tatgccaaca tgagcaagaa cgccatttta
+     1141 gtttattatt gttggatgtc ggatactgtg tctaaggcat ccacgtttgt atcatttgat
+     1201 ctagattatg tgggataaat acaaagatca atttgcagat tacattgttg aattaaaatg
+     1261 tgataacatt tttcatagct aaccattaac gtccagaaaa tcataattta tttaagagac
+     1321 tttggttcgg aaggagtaca attggtgtta atacactctt gaactgtagt cctaactatg
+     1381 tcgtttaatt gggctaacga taacgtaatg ttcgactgag tcctgtttgc cgcaacgatc
+     1441 gatgctgatt cacctgggtc caatattgtt gtgcccaatc tattaagctc tctatatgga
+     1501 tgtagatcgt tgcctctttc ggagtccaca tatgaattgc tgagaccaat tgtgcttcgg
+     1561 gaagcccatg actctccggg tttgatttca attgggccgt ttagcccaaa cttgctagtc
+     1621 gaagcgcacc gaactagttt tctttcccat gtcccgtaac ccacatgggc gaaatcgata
+     1681 tccttatccg aaaattgctt cgataagatt ttaacagttg gggcccggaa agggatatcc
+     1741 actgagtgtt tcgccgtgga tagtttcagc tttcctttga acttggcgaa atgcgtcctt
+     1801 tgatgaacat tagtatcgct aaccctatag tacaatttcc acgggatagg gtctttaagt
+     1861 gaaaagaatg acgacgagaa ataatgtaag tctatgttac atctaatcgg gaaagtccat
+     1921 gacgcttgca atgattcgtt atccgtcatt cttttgtcat ggatttctac tatgacggag
+     1981 cctgttgcgt taattggaac ctgctgcctg tactcgataa cgcaatggtc gatcttcata
+     2041 cagcttctac taagtttggc actaatttga gacgctgttg atgggaattg caagacaatt
+     2101 tctgttaggt catgagacag ttgatattca tcacgctgag actctacata attaaaggca
+     2161 tttggaggaa caaccaactg agaactcatt atatttgaca aaggccgcgc agcgcaaacg
+     2221 ataactgaaa tgaataagcg aaaacgatat gcacaattta atatgtttaa tagcagaaat
+     2281 gctgtgcaat aataataagt aagagtgcta tgtataagtt attgatgacg atgactaata
+     2341 gtatgtgcct tatatttata gataaacagt gataagaggt tcggaatatg aaacggtgaa
+     2401 taagaatgtc gtttttataa gcgagtgatg gcattctcgt aaataagagg ttgtcaccaa
+     2461 ttggggtctc gctcaaactg cgctagtcaa ttggtgactg gtgtacaata tatagtagaa
+     2521 gcctctatct gtctaattat ctcgttcacc cacgtggcgg ccatccgcta taatatt
+//

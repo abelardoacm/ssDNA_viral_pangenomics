@@ -49,6 +49,7 @@ while ($linea = <FILE>) {
 		$NombreOutput =~ s/\]//g;
 		$NombreOutput =~ s/\{//g;
 		$NombreOutput =~ s/\}//g;
+		$NombreOutput =~ s/\//-/g;
 		open (OUT, ">>$NombreOutput");
         }  
         

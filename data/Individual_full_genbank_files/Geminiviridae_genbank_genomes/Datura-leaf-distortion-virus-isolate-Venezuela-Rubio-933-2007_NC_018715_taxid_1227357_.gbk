@@ -1,0 +1,100 @@
+LOCUS       NC_018715               2564 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Datura leaf distortion virus isolate Venezuela:Rubio 933:2007
+            segment DNA-B, complete sequence.
+ACCESSION   NC_018715
+KEYWORDS    RefSeq.
+SOURCE      Datura leaf distortion virus
+  ORGANISM  Datura leaf distortion virus
+REFERENCE   2  (bases 1 to 2564)
+REFERENCE   3  (bases 1 to 2564)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JN848774.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2564
+                     /organism="Datura leaf distortion virus"
+                     /mol_type="genomic DNA"
+                     /isolate="Venezuela:Rubio 933:2007"
+                     /host="Datura stramonium"
+                     /db_xref="taxon:1227357"
+                     /segment="DNA B"
+                     /country="Venezuela"
+                     /collection_date="Jul-2007"
+     gene            410..1180
+                     /gene="BV1"
+                     /locus_tag="D015_sBgp1"
+                     /db_xref="GeneID:13791647"
+     CDS             410..1180
+                     /gene="BV1"
+                     /locus_tag="D015_sBgp1"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_006860594.1"
+                     /db_xref="GeneID:13791647"
+                     /translation="MYPNRHRRASFSSQPRNYTRNNLIRRQSLFKRNDSKRRPFQTVK
+                     TVDESMMKAQRIHENQYGPDFSLAHNTAVSTFISYPDVAKSLPNRTRSYIKLKRLRFK
+                     GIVKVERVLAEVNMDCSVPKTEGVFSLVIVVDRKPHIGPSGGLPTFDELFGARIHSHG
+                     NLAIVPSLKDRFYIRHVLKRVISVEKDTMMVDIEGVAALSNKRFNCWASFKDLDIETR
+                     KGVYDNINKNALLVYYCWMSDTVSKASTFVSFDLDYIG"
+     gene            complement(1202..2083)
+                     /gene="BC1"
+                     /locus_tag="D015_sBgp2"
+                     /db_xref="GeneID:13791646"
+     CDS             complement(1202..2083)
+                     /gene="BC1"
+                     /locus_tag="D015_sBgp2"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_006860595.1"
+                     /db_xref="GeneID:13791646"
+                     /translation="MNSQLVNPPHAFNYIESQRDEYQLSHDLTEIILQFPSTAAQLTA
+                     RLSRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSASFFSLKDPIPWKLYYRVSDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFTDKDVDFSHVDYGRWERKPIRCASMSRVGLRGPIEIRPGESWASRSTIGVGQ
+                     SEGESELENELHPYRDMQRLGASVLDPGESASIVGANRAQSNITMSVAQLNELVRTTV
+                     QECIKSSCNSSQPKNFK"
+ORIGIN
+        1 accggatggc cgcgcgattt tttatagtgg gcttttacta aggcccaact aggattggac
+       61 taaaggccca ttacatacgg atgactcttg ttcccagaac tttctccgta tgtcccttta
+      121 cctttaattt aaatctctct ttattatgtg tacaatttcg acagctgttc tgcacaatat
+      181 acatactgac tacgtgggta attctcgacc aagttacagt gtttaagtcg aaattgattt
+      241 taacctatct ccatttatga gctcatgtct actgagttgt acattacacg tgtaccattt
+      301 aaattgatcg ggtggagtca atttaaataa ttgtaaaact tgacctgtct atatatttgc
+      361 tgactaagaa tgagctcatt attacgtggg ataaagacaa tatatgataa tgtatcctaa
+      421 taggcacaga cgtgcttctt tttctagcca accacgtaat tacacacgta ataatttgat
+      481 tagacggcag tcattattca agcgtaatga tagcaaacga cgaccatttc aaaccgtgaa
+      541 gacggttgat gagtccatga tgaaggcgca acgtattcat gagaatcaat acggtccaga
+      601 tttttcactg gcccataata cagccgtgtc cacattcatt agttatcctg atgtcgccaa
+      661 gtctttgccc aatagaacca ggtcatatat taaactaaaa cgacttcgat tcaagggtat
+      721 tgtgaaggtg gaacgtgtac ttgcggaggt gaacatggac tgttcagtgc ctaagaccga
+      781 aggagttttc tctttggtta ttgtagtgga tcgtaaacct cacattggac cctctggggg
+      841 actgcctaca ttcgacgagt tatttggcgc taggatccac agtcatggta atttggcaat
+      901 agttccatct ctaaaggatc ggttctacat acgccacgta ctaaagcgtg tgatatcagt
+      961 cgagaaggac accatgatgg tggacataga aggtgttgca gccctttcta acaagcgttt
+     1021 taattgttgg gctagtttta aggaccttga catagagacc cgaaagggcg tttatgataa
+     1081 tattaataag aacgcgctgt tagtttatta ttgttggatg tcggatactg tatctaaagc
+     1141 atccacattt gtatcgtttg atcttgatta cattggataa gtttgtataa taataaaaat
+     1201 tttatttaaa atttttgggc tgagaactat tacaactact cttgatacat tcttggacag
+     1261 ttgtccttac aagttcattt aactgggcta cggacatggt tatgttcgat tgggccctgt
+     1321 ttgcaccaac tatagatgct gactctcctg gatctaggac gctggctcct agcctctgca
+     1381 tatctcgata tggatgtagc tcgttctcta gctctgactc gccctctgat tgacccactc
+     1441 ctattgtact cctggaagcc catgattcac caggccttat ttcaattggg cctctgagcc
+     1501 caactctaga cattgatgcg catcttatgg gcttcctctc ccatctcccg tagtcgacgt
+     1561 gcgagaaatc cacatcctta tctgtgaact gttttgacag gatcttgaca gttggtgctc
+     1621 tgaaaggaat gtctacggaa tgcttcgccg tcgacagctt cagcttccct ttgaacttgg
+     1681 caaagtgtgt ccgctgatga acgttcgtgt cggaaactct gtaatagagt ttccatggga
+     1741 taggatcttt tagggagaaa aaggaagctg aaaaatagtg gagatctatg ttgcatctta
+     1801 tcgggaacgt ccacgacgct tgtagtgatt cgttgtccgt catcctcttg tcatgaatct
+     1861 ccactattac agaaccggtg gcgttgatgg gtacctgctg cctgtactca atcacgcagt
+     1921 ggtctatctt catacagcta cgactgagcc ttgccgttaa ctgcgccgcc gtcgacggaa
+     1981 attgcagtat tatctcagtt aggtcatgag aaagctgata ctcgtctcgc tgagactcta
+     2041 tgtaattgaa agcatgagga ggattaacta actgagaatt catttattga aaataaggcc
+     2101 gcgcagcggc accgatacga gaatatgatc aggaaacgaa aataataagg aaaatatgaa
+     2161 caggaaagga ggatgttagg gtttcgtcag aaagttaaag aaaagaatat cataattgaa
+     2221 ggtgactctc gaacgggcaa gataatcttc tctatgagaa gatagagaga agaaaagtgt
+     2281 gctatggaag agtctgaata tgataagatt caaggattag gttgttatat ataggagatg
+     2341 ttaatgatga gtttgcaatt aagatatgtc caatgataat tagacgatta ataaagaaga
+     2401 aactcttggt cggggcattt ttgtaaatat tagtgttccc ccgatatgtt cccccaattg
+     2461 ctctggctct caaaactctt atgaattggg ggaactgggg gaacttatat agtagaagtt
+     2521 cctaaaagca gatcaacaac gtggcggcca tccgttataa tatt
+//

@@ -1,0 +1,101 @@
+LOCUS       NC_004676               2777 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  East African cassava mosaic virus DNA B, complete sequence.
+ACCESSION   NC_004676
+KEYWORDS    RefSeq.
+SOURCE      East African cassava mosaic virus
+  ORGANISM  East African cassava mosaic virus
+REFERENCE   2  (bases 1 to 2777)
+REFERENCE   3  (bases 1 to 2777)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF126807.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2777
+                     /organism="East African cassava mosaic virus"
+                     /mol_type="genomic DNA"
+                     /strain="Uganda3 Severe"
+                     /db_xref="taxon:62079"
+                     /segment="DNA B"
+                     /country="Uganda"
+     gene            358..1134
+                     /gene="BV1"
+                     /locus_tag="EACMVsBgp1"
+                     /db_xref="GeneID:993389"
+     CDS             358..1134
+                     /gene="BV1"
+                     /locus_tag="EACMVsBgp1"
+                     /codon_start=1
+                     /product="BV1 protein"
+                     /protein_id="NP_817128.1"
+                     /db_xref="GeneID:993389"
+                     /translation="MYSVYRRGYKTPYRSSYGARVTPYVYRKTAGKQTSKSRVPRKLA
+                     YESPKCLYTRRSLEDIHNGASLKLPQQGDYTSYVTLPCRGIDGNGGRSVDHIKLLSLR
+                     VSGTVNISQCGGDDNMGERTTMRGIFFMACLVDKKPFVPEGVSILPTFNELFGEYESV
+                     YGMPRLKENVRHRYRVIGTSKLYITTDEEHIQKPFSLRRRLSGGKYPMWSSFKDVDNS
+                     STGGNYKNINKNAILVSYVWVSLCRSTCDVYSQFVLNYVG"
+     gene            complement(1264..2187)
+                     /gene="BC1"
+                     /locus_tag="EACMVsBgp2"
+                     /db_xref="GeneID:993390"
+     CDS             complement(1264..2187)
+                     /gene="BC1"
+                     /locus_tag="EACMVsBgp2"
+                     /codon_start=1
+                     /product="BC1 protein"
+                     /protein_id="NP_817129.1"
+                     /db_xref="GeneID:993390"
+                     /translation="MDNQFTVTDKNYINSKRTEYALTNDAAPINLQFPSSFEQATMRL
+                     KGRCMKIDHIIIEYRNQVPFNAIGSVIVEIRDNRVSLEDAAQAAFTFPIACNVDLHYF
+                     SSTYFSLSEPSPWRIMYRVEDSNVIEGVKFASIKAKLRLSSAKHSTDIRFKPPTINIL
+                     SKGYTKDCIDFWSVEKGETRRRLLNPTPHANSQRPITHRPITILPGETWATKSQIGLP
+                     SSSGPARLDHFRSQSMRMGPSTTTTDFDNDSTEYPYQTLHRLHTPELDPGDSVSQTPS
+                     DSVSRKDLETLLESTINKCLIKIKSEAPRQL"
+ORIGIN
+        1 accggatggc cgcgcccgaa aaagcagggt gaccccacaa tggcccccac gcactaagta
+       61 atgtcagcca atcatgtgca agactggaag acgcggtagt tacgtattga tgagtaagtg
+      121 gtcccgacgc actaatgttg acaggcaatt ggattgctat gtgtgtatca tattcatata
+      181 ggtgtgttac tggttaatct aaagttaggt gatggggcct atcataaaaa cgcaatacat
+      241 aggtacgtat gtacatattg attatatttt tgtttgcgga tatatgatcc gccacgtgta
+      301 taatggatat ggaatgtcct ataaatattt ggcatgtctc ccgtccgtta atgcaagatg
+      361 tattctgttt acaggcgtgg gtataagacg ccgtatagga gttcgtatgg cgctcgtgta
+      421 acaccatatg tttatcgtaa gacggctggt aaacagacgt ctaaatctcg tgtaccgcga
+      481 aagttggcgt atgaatcgcc aaaatgtcta tatacgcgac gctcattgga ggatatccat
+      541 aatggggctt ccttaaagtt gcctcaacag ggggattata cgtcctacgt gacactccca
+      601 tgtcgaggta tcgatggtaa tgggggtagg tctgttgatc atataaaatt attaagcttg
+      661 agggtgtctg ggaccgtcaa tatcagtcaa tgcggtggtg atgataatat gggagagaga
+      721 acgaccatga ggggtatttt tttcatggct tgtcttgttg ataagaaacc tttcgttcca
+      781 gagggggtta gtatattgcc gacgtttaat gagttgttcg gggaatatga atccgtgtat
+      841 ggcatgccta ggttgaagga aaacgttcgt caccgttatc gcgtgattgg gacgtcgaaa
+      901 ttatatataa cgaccgatga agagcacatc cagaagccat ttagtctacg tcgaagacta
+      961 agtggaggga aatatcctat gtggtcgtcg ttcaaggatg tggataatag tagtacaggt
+     1021 gggaactata aaaatataaa taagaacgct atactagtta gttatgtgtg ggtatcgcta
+     1081 tgtcggtcca cgtgtgatgt gtattcccag tttgtactta attacgtcgg ttgataataa
+     1141 aacgagataa gtgtgttgac attaattatg tttgaacgaa cgaaatatga gatgaacatc
+     1201 aatggaacgc acatatagtg ttattatgta agcgaatcaa atatcgtata tatcaagtgt
+     1261 ttattacaat tgcctgggtg cttcggattt tattttgatg agacacttgt ttatggtact
+     1321 ctcaagcagt gtctcgaggt cctttcggga tactgagtcg gatggggtct gtgataccga
+     1381 gtcccctggg tccaattcgg gtgtgtgtaa tctgtgtagt gtctggtaag gatattctgt
+     1441 ggagtcgttg tcgaagtccg ttgtggttgt cgatgggccc attctcatgg actgtgaacg
+     1501 aaagtggtcc agccttgctg ggccggatga gctgggtagc ccaatttgag acttcgtggc
+     1561 ccatgtttct ccagggagaa tggtgatggg cctgtgggtt atgggtcgtt gactattagc
+     1621 atgtggagtt ggatttagta atctccgtcg tgtttctcct ttttccacgg accagaagtc
+     1681 tatgcaatcc tttgtgtagc ccttggataa tatgttaatt gttgggggtt tgaaacgtat
+     1741 gtccgtggaa tgtttggccg atgataatcg gagcttggcc ttgatggatg cgaatttcac
+     1801 gccttctatg acgtttgagt cttcgactct gtacatgatt ctccaagggg agggttctga
+     1861 aagcgaaaaa tatgtagacg agaagtagtg gaggtctacg ttgcaagcta ttgggaaagt
+     1921 gaatgctgct tgagcagcgt cttcaaggct gacgcgattg tctctgattt ctacgataac
+     1981 cgacccaatt gcgttaaatg ggacctggtt tcggtattca attataatgt ggtcgatttt
+     2041 catacatcgg cctttgagtc gcatggtagc ctgctcgaat gagctcggga attggagatt
+     2101 gattggtgca gcatcgttgg ttaatgcgta ctctgtgcgt ttgctgttga tgtaattctt
+     2161 gtctgtgacg gtgaattggt tgtccattct atgaatgaaa aaaacaaggg ttagtaaacg
+     2221 gagagaagag atgtataaaa gtcagagcaa gtttataaaa tgtcttgtat acatggaagc
+     2281 atatatgcat tgggtagcga taataacaca ctaaagcaga acaaggatca tatatgtata
+     2341 attggccgcg cagcggattg gaagtcagac aaatcggcga acaaataaaa aagtcgaatg
+     2401 atgttatggg atggaaacaa cgtacggaag cacctaggaa gcagtcggga gtgaattctt
+     2461 gttagaagtg gagaaaacaa agaaataaaa gttaacgaaa taaaagtatg acggattggt
+     2521 agagaaagga aagtgagcag atgatatgcg ccgtgtcgtt aaatgagatg ttattgggtg
+     2581 tttatatagg cgttaataag cgagacgtgg tagagagaga aagaagagag aggcgagagc
+     2641 aatcggggga cactcaaagt ctgtagcaat cgggggaaag gggggcaatt tatatgatgt
+     2701 cccctaaatg gcatttatgt aatatcctca atgaatgtga aaggcaaacg tggaaaggcg
+     2761 gccatccgta taatatt
+//

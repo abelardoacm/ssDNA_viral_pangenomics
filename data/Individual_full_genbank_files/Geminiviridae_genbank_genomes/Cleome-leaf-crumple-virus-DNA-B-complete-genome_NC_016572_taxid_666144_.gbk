@@ -1,0 +1,100 @@
+LOCUS       NC_016572               2661 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Cleome leaf crumple virus DNA-B, complete genome.
+ACCESSION   NC_016572
+KEYWORDS    RefSeq.
+SOURCE      Cleome leaf crumple virus
+  ORGANISM  Cleome leaf crumple virus
+REFERENCE   2  (bases 1 to 2661)
+REFERENCE   3  (bases 1 to 2661)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JF694462.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2661
+                     /organism="Cleome leaf crumple virus"
+                     /mol_type="genomic DNA"
+                     /isolate="BgV05B.1.C52"
+                     /host="Cleome affinis"
+                     /db_xref="taxon:666144"
+                     /segment="DNA B"
+                     /country="Brazil"
+     gene            545..1315
+                     /gene="BV1"
+                     /locus_tag="CleLCV_DNA-B_gp1"
+                     /db_xref="GeneID:11537550"
+     CDS             545..1315
+                     /gene="BV1"
+                     /locus_tag="CleLCV_DNA-B_gp1"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_004958217.1"
+                     /db_xref="GeneID:11537550"
+                     /translation="MYSSKYRRGDLSTQRRRYSRYQASRRSLVVKRDAGKRRTKFPQK
+                     SRDEGRMQPQCIHEDQFGPEFVMGHNNAISSFITYPTLGNVDPCRSRSYIKLKRLRFK
+                     GTLKIERVHADVNMDGRAPKIEGVFSLVVVVDRRPHLSPTGCLHTFDELFGARIHSHG
+                     NLSVVPGLKERFYIRHILKRVLSVEKDSLMVDIEGATVLSSKRFSCWSSFRDLERDSC
+                     NGVYANISKNSLLVYYCWMSDAMSKASTFVSYDLDYVG"
+     gene            complement(1395..2276)
+                     /gene="BC1"
+                     /locus_tag="CleLCV_DNA-B_gp2"
+                     /db_xref="GeneID:11537549"
+     CDS             complement(1395..2276)
+                     /gene="BC1"
+                     /locus_tag="CleLCV_DNA-B_gp2"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_004958218.1"
+                     /db_xref="GeneID:11537549"
+                     /translation="MESKLVAPPNAFNYIESHRDEYRLSHDLTEIVLQFPSAASQISA
+                     RLTRSCMKIDHCVIEYRQQVPINASGAVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYRVSDSNVHQQTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFTDKDIDFCHVGYGKWERRMTRSASSSNFGLRGPIELRPGESWAVRSAIDSAH
+                     SDADSEMRDALHPYRHLDRLGTPILDPGESVSVLGAQRTQSNITLSLAQLNDIVKTTV
+                     QECINTNCVPSQPKPLQ"
+ORIGIN
+        1 accggatggc cgctgatctc ttttatgttc ggcccgcgca agcgggagag ttgggccgac
+       61 gatgacaaaa aactcggccc agataacaaa agagggagga tttcgctttc tcgcgaaata
+      121 aaggagaccg cattggaagg cgcgtgtggt cccctgatga catggcatta gcgaaggcca
+      181 atggtagtgg cgcggattgg gcaatttaga ggtgaacgag ttgggaccac atgcaattgc
+      241 gacatgacat atttatcatt atagcgcatt gtgtgataca gaatgcatta gcgatactgg
+      301 actggcaatt tgaatttgag catggcgcct ctctttgtgg tcacggacca cattcgaaaa
+      361 ccattcgagc tccgacgtca agtcctacgt cgacaaagac ggggatattt tatgggaata
+      421 cgtggaccac tgggttttcg acttctcacg ttagatattc agatatggga tatggacgga
+      481 gtatttattg cgtcagctga caaagagaat gtcatcataa gtaattggac aggcatatct
+      541 gaatatgtat tccagtaaat acagacgtgg cgatttgtct acccagaggc gaagatattc
+      601 acgatatcaa gcatctagac gctcactagt tgtgaagcgc gacgctggga aacgtcgaac
+      661 taaattcccc cagaagtccc gtgatgaagg caggatgcag ccacaatgca tacacgagga
+      721 tcaatttggt ccagagttcg ttatggggca taataatgcc atttcaagct tcatcacata
+      781 ccccacactc ggtaatgttg acccatgccg cagcaggtca tatattaagt taaaacgctt
+      841 acgttttaag ggaactctca agattgaacg ggttcatgcg gacgtcaaca tggacggtag
+      901 agcaccgaag atcgagggag tgttttcact tgttgtggtg gtcgaccgca gaccacattt
+      961 aagccccact ggatgcctgc atacgttcga cgagctattc ggtgccagga ttcacagcca
+     1021 cgggaactta tccgtcgttc ccggtttgaa agaacggttc tacatacggc acattttgaa
+     1081 acgtgtgctg tctgtcgaga aggactccct gatggtggat atagaaggtg cgaccgtctt
+     1141 gtctagcaag cggtttagct gttggtcatc gtttagggat ctcgagagag attcatgtaa
+     1201 tggagtctat gctaatatta gcaagaactc cctgctagtt tactactgct ggatgtccga
+     1261 cgcgatgtcc aaagcgtcga catttgtatc atatgatctg gactatgtcg gctgaataaa
+     1321 gtgattatat tgatgtttat ggatataaac atgtgacaac acatagagga taatctgaat
+     1381 tacaggcacg ataactattg taaaggcttg ggctgcgaag ggacacagtt tgtgtttatg
+     1441 cattcttgga ctgtcgtttt aactatgtcg ttcagttggg ccagcgacag cgttatgttg
+     1501 gactgtgtcc tctgagcccc aaggacagag accgattccc ctgggtccag gattggtgta
+     1561 cccaatctgt ctaggtgcct gtatggatgc agcgcatccc tcatctccga atccgcatcg
+     1621 gaatgggccg agtcgatagc actcctgacg gcccaggact ctcctgggcg tagttcgatt
+     1681 gggccgcgta acccaaagtt tgaggacgat gcggatctcg tcattcttct ctcccacttg
+     1741 ccgtatccca cgtggcagaa gtcgatatct ttgtcggtaa actgcttcga caagatcttg
+     1801 acggtcggag ccctgaacgg aatatcaacg gagtgcttcg ccgttgatag tttcagcttc
+     1861 cctttgaatt tggcgaagtg tgtctgctgg tgcacgttcg aatcagaaac tctgtaatag
+     1921 agtttccacg ggattgggtc tttgagggag aagaatgagg aagaaaaata gtggagatcg
+     1981 atgttgcatc tgatcgggaa agtccacgac gcctgcaggg actcgttgtc agtcatcctc
+     2041 ttgtcgtgga tctccactat caccgcgccc gacgcgttga tgggaacctg ctgcctgtat
+     2101 tctatgacgc agtggtctat tttcatacag ctacgagtga gtcgggcgct aatctgagac
+     2161 gccgccgacg ggaattggag gacgatctcg gtcaggtcat gcgaaagccg atactcgtcg
+     2221 cgatgggatt cgatatagtt gaaggcgttc ggcggcgcaa ccagcttcga ttccattgct
+     2281 tctagctgtc gtggtctgtt caactgggtt tagctagagt tgaatgatca atctcgattt
+     2341 aggaaagcaa aacgagaatg gaatcgaaga aggagatgtt aattggcagg tttctgcgag
+     2401 agaggagata ttgaaagaag atgacagtgg ttcagcgctt aatctgtttc tgtttatata
+     2461 gacgattaag catatgggaa aaagaattga gacccgatat tcggcgccga tggcattttg
+     2521 gtaaataaag ggatgagacc caatagagag gacccgatag ctctcgtttc aacttggtga
+     2581 aatgaatcgg ggaatgggtc cttatttata gcagagtccg ttagggtata tttgccacgt
+     2641 gtcggccatc cgtataatat t
+//

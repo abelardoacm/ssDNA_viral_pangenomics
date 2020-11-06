@@ -1,0 +1,153 @@
+LOCUS       NC_038981               2700 bp    DNA     circular VRL 25-AUG-2018
+DEFINITION  Pavonia mosaic virus isolate BR-Cor40-14 segment DNA-A, complete
+            sequence.
+ACCESSION   NC_038981
+KEYWORDS    RefSeq.
+SOURCE      Pavonia mosaic virus
+  ORGANISM  Pavonia mosaic virus
+REFERENCE   2  (bases 1 to 2700)
+REFERENCE   3  (bases 1 to 2700)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KT948785.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2700
+                     /organism="Pavonia mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolate="BR-Cor40-14"
+                     /host="Pavonia sp."
+                     /db_xref="taxon:1772258"
+                     /segment="DNA-A"
+                     /country="Brazil"
+                     /collection_date="Sep-2014"
+     gene            282..1037
+                     /gene="CP"
+                     /locus_tag="D1T84_sAgp1"
+                     /db_xref="GeneID:37619829"
+     CDS             282..1037
+                     /gene="CP"
+                     /locus_tag="D1T84_sAgp1"
+                     /note="av1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_009508384.1"
+                     /db_xref="GeneID:37619829"
+                     /translation="MPKRDAPWRSMAGTSKVSRALNYSPRGGFGSKFDKAAAWTNRPM
+                     YRKPRIYRTLRSPDVPKGCEGPCKVQSYEQRHDVSHTGKVICISDVTRGNGITHRVGK
+                     RFCVKSVYILGKIWMDENIKLKNHTNSVMFWLVRDRKPTGTAMDFGHLFNMFDNEPST
+                     ATVKNDLRDRFQVMHRFYAKVTGGQYASNEQALVKRFWKVNTHVVYNNQEAARYENHT
+                     ENALLLYMACTHASNPVYATLKIRIYFYDSVRN"
+     gene            complement(1034..1432)
+                     /gene="Ren"
+                     /locus_tag="D1T84_sAgp2"
+                     /db_xref="GeneID:37619828"
+     CDS             complement(1034..1432)
+                     /gene="Ren"
+                     /locus_tag="D1T84_sAgp2"
+                     /note="ac3"
+                     /codon_start=1
+                     /product="replication enhancer protein"
+                     /protein_id="YP_009508385.1"
+                     /db_xref="GeneID:37619828"
+                     /translation="MDSRTGELITAPQAENGVYIWEVDNPLYFKMYRVEVPLYTNTRV
+                     YHIQIRFNHNLRKALDLHKCFLNFQVWTTSIQASGTTYLNRFRSLVFLYLDRLGVITI
+                     NNVIRAVRFATARRYVSYVLEDHSIKFKIY"
+     gene            complement(1179..1568)
+                     /gene="Trap"
+                     /locus_tag="D1T84_sAgp3"
+                     /db_xref="GeneID:37619827"
+     CDS             complement(1179..1568)
+                     /gene="Trap"
+                     /locus_tag="D1T84_sAgp3"
+                     /note="ac2"
+                     /codon_start=1
+                     /product="trans-activating protein"
+                     /protein_id="YP_009508386.1"
+                     /db_xref="GeneID:37619827"
+                     /translation="MRRSSSSTPPSIKPQHRAAKRRITRRRRIDLNCGCSIYIHINCA
+                     DHGFTHRGTHHCASGREWRVYLGGRQSPLFQDVQSRGPVIHKHQGISHPDPVQPQPEE
+                     SIGSPQMLPELPSLDNIDSSFWDDLFK"
+     gene            complement(1489..2565)
+                     /gene="Rep"
+                     /locus_tag="D1T84_sAgp4"
+                     /db_xref="GeneID:37619826"
+     CDS             complement(1489..2565)
+                     /gene="Rep"
+                     /locus_tag="D1T84_sAgp4"
+                     /note="ac1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009508387.1"
+                     /db_xref="GeneID:37619826"
+                     /translation="MPPPKRFKVNAKNYFLTYPRCSISKEEALSQLLALETPTNKKYI
+                     RVCRELHEDGAPHLHALLQFEGKFQCTNCRFFDLRHPQHSNVCHGEYKSCKSSSDAKS
+                     YIEKGGDYIEWGTFQIDGRSARGGQQTANDAAAEALNAASKDEAMQIIKEKLPEKFLF
+                     QYHNLSSNLDRIFSKPPEPWASPFPLSSFTNVPDEMKDWVAQYIGLDAAARPVRPVSL
+                     IIEGDSRTGKTMWARALGPHNYLSGHLDFNSRVYSNEVEFNVIDDVSPHYLKLKHWKE
+                     LIGAQRDWQSNCKYGKPVQIKGGVPSIVLCNPGEGASYKDFLDKAENSALKAWTLHNA
+                     TFVFLDSPLYQTSTQGGETENNSS"
+     gene            complement(2151..2408)
+                     /gene="AC4"
+                     /locus_tag="D1T84_sAgp5"
+                     /db_xref="GeneID:37619825"
+     CDS             complement(2151..2408)
+                     /gene="AC4"
+                     /locus_tag="D1T84_sAgp5"
+                     /note="ac4"
+                     /codon_start=1
+                     /product="ac4 protein"
+                     /protein_id="YP_009508388.1"
+                     /db_xref="GeneID:37619825"
+                     /translation="MEHLISMLCCSSKESSSARIVDSSTCDIPNIQMSVMGNTNRVNP
+                     PPTPNHTSRRVEITSNGVLFRSTADLLEEVNRQLMMQQQRH"
+ORIGIN
+        1 accggatggc cgcgcgattt tttgcccccc ccacgtggag ccctggggac cgttcgattc
+       61 agttaagcgc atttttgaat tccgcgaaat taattgagcg catttttgag atccgccccg
+      121 cggacccgtt cgagctttaa ttcaaattaa agtataaccg tttggaatcg accaatcatt
+      181 ttgactctga caagcttaga tatgcgttaa agtccttggc gcccaagttt aaccgttata
+      241 taaagttaaa cctatgttta accgtcatgc tttaattcaa aatgcctaag cgcgatgccc
+      301 cgtggcgctc gatggcggga acttcgaagg ttagtcgggc tctcaattat tcccctcgcg
+      361 ggggttttgg gtcaaagttt gataaggccg ccgcttggac taacaggccc atgtacagga
+      421 agcccaggat atatcggacg ctaagatcgc ccgacgtacc caaaggctgt gaaggcccat
+      481 gtaaagtcca gtcgtatgag cagcgccacg atgtctcaca tactgggaag gtgatctgta
+      541 tatctgatgt cacccgtggt aacggtatta cacatcgtgt cgggaaacgt ttttgcgtca
+      601 agtctgttta cattttaggg aagatatgga tggacgagaa catcaagttg aagaaccaca
+      661 ccaacagcgt catgttctgg ctggtgagag atcgtaaacc gaccggtacg gctatggatt
+      721 ttgggcattt atttaacatg tttgacaacg agcccagcac tgcaaccgtg aagaacgatc
+      781 tccgtgaccg tttccaggta atgcacaggt tttatgccaa ggttacaggt ggacagtacg
+      841 ctagcaatga acaggcgctg gtcaagcgtt tctggaaggt caacactcat gtggtctaca
+      901 acaatcagga agctgctaga tacgagaatc atacggagaa cgccctatta ttgtatatgg
+      961 catgtacgca tgcatctaac cccgtgtacg caacgcttaa gattcgtatc tacttttacg
+     1021 attcggtccg gaattaataa attttgaatt ttattgaatg atcttcgagt acataggaga
+     1081 cataacgtct agccgttgcg aatcgaacag ctctaattac attgttaatg gtaataacgc
+     1141 ctaagcgatc tagatacaag aacactaacg atcggaatct atttaaataa gtcgtcccag
+     1201 aagcttgaat cgatgttgtc cagacttgga agttcaggaa gcatttgtgg agatccaatg
+     1261 ctttcctcag gttgtggttg aaccggatct ggatgtgata taccctggtg tttgtgtata
+     1321 acgggacctc tactctgtac atcttgaaat aaaggggatt gtctacctcc cagatataca
+     1381 cgccattctc tgcctgaggc gcagtgatga gttcccctgt gcgtgaatcc atgatcggcg
+     1441 caattgatat ggatgtatat tgagcacccg cagttaaggt ctatgcgcct acgacgagtt
+     1501 attctccgtt tcgccgccct gtgttgaggt ttgatagagg ggggagtcga ggaagacgaa
+     1561 cgtcgcatta tgtaatgtcc aggctttgag agctgagttt tcagctttgt cgaggaaatc
+     1621 tttataacta gccccctcgc ctggattgca gagcacgatt gaaggaaccc ctcctttaat
+     1681 ttgaacaggc tttccgtact tgcaattgga ttgccagtcc ctttgggccc cgataagttc
+     1741 cttccagtgc tttaacttta gataatgcgg gcttacgtca tcgattacgt tgaactccac
+     1801 ttcgttcgag taaaccctag aattgaagtc taggtgcccg ctcaaataat tatgtgggcc
+     1861 taatgcacga gcccacatcg tcttcccggt cctactatcc ccctcgatga tcaagctaac
+     1921 aggtcggaca ggccgcgcag cggcatcaag cccaatatac tgagcaaccc aatccttcat
+     1981 ctcgtctggc acgttagtga atgaggagag ggggaatgga gaagcccatg gctccggagg
+     2041 cttagagaat atcctgtcca ggttactgga cagattgtga tactgaaata agaacttttc
+     2101 cggaagcttc tcctttatta tctgcatggc ttcgtccttt gatgcagcat ttaatgcctc
+     2161 tgctgctgca tcattagctg tctgttgacc tcctctagca gatctgccgt cgatctgaaa
+     2221 agtaccccat tcgatgtaat ctccaccctt ctcgatgtat gatttggcgt cggaggagga
+     2281 tttacacgat ttgtattccc catgacagac atttgaatgt tggggatgtc gcaagtcgaa
+     2341 gaatctacaa ttcgtgcact ggaactttcc ttcgaactgc aacagagcat ggagatgagg
+     2401 tgctccatct tcgtgtaatt ctctacatac acggatatat ttcttattgg ttggggtttc
+     2461 taatgctaat aattgggaaa gtgcctcttc tttggagatg gagcacctgg gataagtgag
+     2521 gaaataattt ttggcgttta ctttaaaacg ttttggcggt ggcatatttg taaataagag
+     2581 cttgtacacc gattgagctc tcttcaaaag tctctatgaa tcggtgtaat ggtgccaata
+     2641 tataggtagg agttccatag ggtacaaatg gacacgtggc ggccatccga ctataatatt
+//

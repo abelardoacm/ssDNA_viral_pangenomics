@@ -1,0 +1,107 @@
+LOCUS       NC_011182               2653 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Okra mottle virus - [Brazil:okra] DNA B, complete sequence.
+ACCESSION   NC_011182
+KEYWORDS    RefSeq.
+SOURCE      Okra mottle virus
+  ORGANISM  Okra mottle virus
+REFERENCE   2  (bases 1 to 2653)
+REFERENCE   3  (bases 1 to 2653)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            EU914818.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2653
+                     /organism="Okra mottle virus"
+                     /mol_type="genomic DNA"
+                     /isolate="6319"
+                     /isolation_source="leaf"
+                     /host="okra"
+                     /db_xref="taxon:619599"
+                     /segment="DNA B"
+                     /clone="12"
+                     /country="Brazil"
+                     /collection_date="Feb-2008"
+                     /collected_by="Alice K Inoue-Nagata"
+     gene            549..1319
+                     /gene="BV1"
+                     /locus_tag="OMoVBr_sBgp1"
+                     /db_xref="GeneID:6809273"
+     CDS             549..1319
+                     /gene="BV1"
+                     /locus_tag="OMoVBr_sBgp1"
+                     /note="NSP"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_002154621.1"
+                     /db_xref="GeneID:6809273"
+                     /translation="MFPIRYRRGWSSNQRRGYTRNPVFKRYYVAKRSDFKRRPSNTNK
+                     AQEDGKMSTQRIHENQFGPEFVMGHNSAISTFITFPSLGKTEPNRTRSYVKLKRLRFK
+                     GTVKIERVYNDVIMDGSTPKIEGVFSLVVVVDRKPHLGSSGCLHTFDELFGARIHSHG
+                     NLAITPSLKDRFYIRHVFKRVLSVEKDTLMVDLEGTTYLSNRRFNCWSTFKDIDRESC
+                     NGVYANISKNALLVYYCWMSDSSSKASTFVSYDLDYIG"
+     gene            complement(1369..2250)
+                     /gene="BC1"
+                     /locus_tag="OMoVBr_sBgp2"
+                     /db_xref="GeneID:6809274"
+     CDS             complement(1369..2250)
+                     /gene="BC1"
+                     /locus_tag="OMoVBr_sBgp2"
+                     /note="MP"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_002154622.1"
+                     /db_xref="GeneID:6809274"
+                     /translation="MGSQLVNPPNAFNYIESQRDEYQLSHDLTEIVLQFPSAAAQISA
+                     RLSRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSCSFFSLKDPIPWKLYYRVSDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFTDRDVDFSHVGYGKWERKLIRSASTVKYGLPSPITIDPGETWASRSTIGIGQ
+                     SSTESEVENATHPYRGLHKLGTSMLDPGDSASIVAARRAESHITMSEAQLNDLVRSAV
+                     QECIKTNCIPPQPKSLS"
+ORIGIN
+        1 accggatggc cgcgcgattt tttccccccc ccctacgtgg cgcgctggtg cccgttggat
+       61 accgctctcc ctggtgggcc tcccccttgg tgctactccc ccccctctcc cggctcaatt
+      121 caattgagcg cttttttgga gtccgcgaaa tgagttaaac gcaatttttg atgtccgcct
+      181 tcattcagcg cctttaattt gaattaaagg catatcatta tgttgtccac tcatttcggt
+      241 ctgcttgtct cctcgcgcga cgctcgcttt tgcccaaccg gatgagatgt gatcttggtc
+      301 gttggataat aatataattt attcagccac tttaatttga aacttgaatt atttgcgagc
+      361 gtcgtggtac catgtcccat cgtacgaact tgatgagctg gaccagtgaa gttgcaccta
+      421 cagagttaaa ttgatcaagg aatttatgtt taaattcccg ggtgatagat ggtgatatca
+      481 ggttaattga gcacgtctat tgtttgagta gctacagtta acagttgtgt gttagtcaat
+      541 tttaaaacat gtttcccatt aggtatagac gtggttggtc gtctaatcag cgacgaggtt
+      601 acacacgtaa tcccgtgttt aagcgttatt atgtagctaa acgaagtgat ttcaagcgac
+      661 gacccagtaa tactaacaag gcccaagaag atggcaagat gtctactcaa cgtatacacg
+      721 agaaccagtt tgggcctgaa tttgtaatgg gccacaactc agccatttca acgtttatta
+      781 catttcctag cctcggtaag accgagccta accgaaccag gtcctatgtc aagctaaaac
+      841 gactccgttt taagggtact gtgaagattg aacgtgttta caatgacgtc atcatggatg
+      901 gttcaacccc aaagattgaa ggagtctttt ccctcgtggt cgtggtagat cgtaaacccc
+      961 acttgggatc atctgggtgt ctgcacacgt ttgacgagtt attcggtgcc aggatccaca
+     1021 gtcatggcaa tctggctata acaccctccc tgaaagaccg cttttacatt cgacacgtgt
+     1081 tcaaacgtgt gttatctgtg gagaaagaca ctttgatggt tgatcttgaa gggactacat
+     1141 acctctctaa caggcgtttt aattgttggt caacgtttaa ggatattgac cgtgaatcat
+     1201 gtaacggtgt ttatgcaaac ataagcaaga acgccctgtt agtttactac tgttggatgt
+     1261 cggactcgtc gtccaaggca tcgacatttg tatcatatga tctcgattac atcggttaaa
+     1321 catatagaca tattttcatt aataacattg ttattgatta atcacatatt aacttaatga
+     1381 tttgggctgt gggggaatac aatttgtttt aatacactcc tggaccgcac tcctcactag
+     1441 gtcgtttaat tgtgcctcgg acatggttat atgcgattcg gcccttctcg cagcaactat
+     1501 ggaagccgag tcacctgggt ccaacatgct ggtgcccagt ttatggagcc ctctatatgg
+     1561 gtgtgttgcg ttctctacct ctgactcggt gctcgattga ccgatcccta tggtactgcg
+     1621 tgaagcccat gtctcacctg gatcaatggt tattgggctt gggagcccat acttgactgt
+     1681 ggatgcggat cggatcaatt tcctttccca tttcccatag cccacgtggc tgaaatctac
+     1741 gtctctatct gtgaactgtt tagataagat cttcaccgtc ggtgctcgga aaggaatgtc
+     1801 gacggaatgt ttcgccgttg acagctttag cttccccttg aatttcgcga agtgcgttct
+     1861 ctggtgaaca ttcgtgtcgc tcactctgta atacaatttc cagggaattg ggtctttcag
+     1921 ggagaagaac gagcatgaaa agtagtggag atctatgttg cacctgatcg ggaatgtcca
+     1981 ggacgcctgt aacgattcat tgtccgtcat tctcttgtcg tggatctcca cgatgacgga
+     2041 acctgtggcg tttatgggta cctgttgcct gtattctatg acgcagtggt ctatcttcat
+     2101 acagctgcga ctgagcctgg cgcttatctg agccgccgca gaaggaaact gcagaacgat
+     2161 ctcagttagg tcatgagaaa gctgatactc atcacgctga gattctatat aattaaaggc
+     2221 attgggtgga ttaactaact gagaacccat tttaactatt aatctaagaa gaataggccg
+     2281 cgcagcgtaa tctgtaggtg aagtgaataa ggcgaaagcg gaaaagaata tggcgtcagt
+     2341 caaactgaga agacaattgt gttagggttt cagttgttga gaggacggat taagatgaga
+     2401 tatgaggtga aggaatctgt gtctaacacc aatctatagg atttatttat agatagatgg
+     2461 gctgggttct gtcgggttat ttttcctatc gactaaaacg acgaggtttt gatgtcatga
+     2521 ctatgctttg gatggcattt ttgtaaataa gactgtgtac tccgcttgag agctctttca
+     2581 taagtctata tgaattggag taaggagtac aatatatagt aataggagtt cctaaggcca
+     2641 tccgtataat att
+//

@@ -1,0 +1,100 @@
+LOCUS       NC_022003               2566 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Bean chlorotic mosaic virus isolate Venezuela:Rubio 932:2007
+            segment DNA-B, complete sequence.
+ACCESSION   NC_022003
+KEYWORDS    RefSeq.
+SOURCE      Bean chlorotic mosaic virus
+  ORGANISM  Bean chlorotic mosaic virus
+REFERENCE   2  (bases 1 to 2566)
+REFERENCE   3  (bases 1 to 2566)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JQ283246.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2566
+                     /organism="Bean chlorotic mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolate="Venezuela:Rubio 932:2007"
+                     /host="Phaseolus vulgaris"
+                     /db_xref="taxon:1227355"
+                     /segment="DNA B"
+                     /country="Venezuela"
+                     /collection_date="Jul-2007"
+     gene            387..1157
+                     /gene="BV1"
+                     /locus_tag="N808_sBgp1"
+                     /db_xref="GeneID:37276403"
+     CDS             387..1157
+                     /gene="BV1"
+                     /locus_tag="N808_sBgp1"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_008400119.1"
+                     /db_xref="GeneID:37276403"
+                     /translation="MYPLRNKRGFTYNPRRFNPRNTAFNRSTAGKRHDGKRRGGNALK
+                     PNDEPKMTAQRIHENQYGPEFVMSHNSAISTFISYPSLGKTEPNRSRAYIKLKRLRFK
+                     GTVKIERAQSDMNMDGSIPKVEGVFSLVVVVDRKPHLGPTGCLHTFDELFGARIHSHG
+                     NLSITPSLKDRFYIRHVFKRVLSVEKDTLMVDVEGSTTLSNRRYNLWSTFKDLDHDSC
+                     KGVYDNISKNALLVYYCWMSDTMSKASTFVSFDLDYIG"
+     gene            complement(1209..2090)
+                     /gene="BC1"
+                     /locus_tag="N808_sBgp2"
+                     /db_xref="GeneID:37276402"
+     CDS             complement(1209..2090)
+                     /gene="BC1"
+                     /locus_tag="N808_sBgp2"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_008400120.1"
+                     /db_xref="GeneID:37276402"
+                     /translation="MDSQLVNPPNAFNYIESHRDEYQLSHDLTEIILQFPSTASQLTA
+                     RLSRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSASFFSLKDPIPWKLYYRVCDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFTDKDVDFSHVDYGRWERKPIRCASMSRVGLRGPIEIRPGESWASRSTIGTGQ
+                     SDADSEVENEQHPYRHLSRLGTTVLDPGESASIVGAQRAESNITMSMGQLNELVRTTV
+                     QECINSNCKAAQPKSLQ"
+ORIGIN
+        1 accggatggc cgcgctggag tatgccctct ggtggcccgc tcctggtgct gctgacacct
+       61 ggcactctct ccgctctccg taccctggtg gtggggcgta tattgtttga ctgccccttt
+      121 aattcgaatt aaaggggcta actttatgtc gcgcgagttg atttgaaatt tgaaaaattt
+      181 cctcgcgtta cagtcctatg gcccgttgta ccgcacgact gacgtggctg attttagacc
+      241 atgctgctga gtttatttac ctattttgaa tttgccattg ctatataatt gtgtcgaccg
+      301 atatattata ttcaagctga ctcagctgtc caccacgttt atatcgttag acgtaattgt
+      361 gttttacctg gcattatctg ttgataatgt atcctttgag gaataaacgt ggtttcacct
+      421 ataacccacg acgatttaat ccacgtaaca cagcgtttaa tcgttcaacc gctggcaaac
+      481 gacatgatgg gaaacgtcga ggtggtaatg ctctgaaacc caatgacgag cccaagatga
+      541 cagcccaacg catacatgag aatcagtatg gcccagaatt tgtcatgtca cacaactcag
+      601 ccatttccac tttcatcagt tatcctagcc tgggcaagac cgaaccaaat cgaagtagag
+      661 cttatatcaa gttgaaacga ctacgtttca aagggactgt gaagatcgag cgtgctcagt
+      721 ctgatatgaa catggatggt tctatcccca aggtcgaagg agtgttctcc ctcgtggttg
+      781 ttgtggatcg taaaccccac ttgggtccaa ctggatgtct gcatacgttt gacgagttgt
+      841 tcggtgcaag gatccacagc catggtaatc tgagcataac cccctccttg aaggaccgat
+      901 tctatataag acacgtgttc aaacgtgtat tgtccgtgga gaaggatacc ttgatggtcg
+      961 acgtggaagg atctacaact ctctctaaca ggcgatataa cctgtggtct acgtttaagg
+     1021 atctcgacca cgactcatgc aagggtgttt atgacaatat aagcaagaac gccttattag
+     1081 tttattattg ttggatgtcg gatactatgt ctaaagcgtc cacctttgta tcttttgatc
+     1141 tcgattatat cggatgatta atgagaattg agcttgatta accaacaatt aatagtataa
+     1201 tattcaattt actgcaatga cttgggctga gcagccttac aattactgtt aatacattct
+     1261 tggaccgttg tcctaactag ttcgtttaat tggcccattg acattgtgat gttggactcc
+     1321 gctctctggg ctcctacaat cgaagcagac tcccctgggt ctaatacggt tgtccctagc
+     1381 ctactcagat gtctgtatgg atgctgttcg ttctctacct ccgagtccgc atccgattgg
+     1441 cctgttccta tggtactcct ggaagcccac gattcacctg gccttatttc aattgggccg
+     1501 cgaagcccaa cacgtgacat ggacgcgcat ctgatgggct tcctttccca tcttccgtag
+     1561 tcgacgtgtg agaaatccac atccttatct gtgaactgtt tggacaggat cttcactgtc
+     1621 ggtgccctga aggggatatc cactgaatgt ttcgccgtcg acagcttcag tttccctttg
+     1681 aatttggcga agtgggtccg ttgatgaaca ttcgtatcac agaccctgta gtacaatttc
+     1741 catggaattg ggtcctttag cgagaagaac gaagccgaga agtagtggag atctatgttg
+     1801 catctgatcg gaaaagtcca cgacgcctgt aatgactcgt tgtccgtcat cctcttgtcg
+     1861 tggatctcca cgattaccga cccggtggcg ttgatcggca cctgctgcct gtactctatg
+     1921 acgcaatggt cgatcttcat gcagctccga ctgagtctag ctgttaattg cgacgccgtc
+     1981 gaggggaatt gcagaattat ctcagttagg tcatgggaaa gctgatactc gtcccggtga
+     2041 gattctatgt aattaaaggc gttcggagga tttactaact gagaatccat ttgaagaagt
+     2101 taggccgcgc agcggaaccg attgctgaag ttgaatcggt aaagaagatg ttagggtttt
+     2161 tcttgaagaa cagttgatga acttcccttg aaaatgaaga atttctcttg aaaatgaaga
+     2221 acttttctgg gaaacccaga aagttggtga agaagttgaa gaacacgtgt taaacttcta
+     2281 ttgaatatgg gttggtgttt tgagaaagag tagaaagctg gtgaggaatt tgtgagtgat
+     2341 aacttgtttg atcttagagg gtttatatag aaacccagat gttatgtttt tcttgagagc
+     2401 tttctggaga agtttttctc tctatagtgg catttttgta atacgaaggg gtactccagt
+     2461 tgagctccct caaaacttgc tcatgcaatt ggagtattgg agtactatat atactataac
+     2521 tctcaatctc ggttttggca cacgtggcgg ccatccgtat aatatt
+//

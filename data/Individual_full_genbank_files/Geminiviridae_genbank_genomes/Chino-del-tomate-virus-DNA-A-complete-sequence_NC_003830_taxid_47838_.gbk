@@ -1,0 +1,140 @@
+LOCUS       NC_003830               2634 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Chino del tomate virus DNA A, complete sequence.
+ACCESSION   NC_003830
+KEYWORDS    RefSeq.
+SOURCE      Chino del tomate virus
+  ORGANISM  Chino del tomate virus
+REFERENCE   2  (bases 1 to 2634)
+REFERENCE   3  (bases 1 to 2634)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AF101476.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2634
+                     /organism="Chino del tomate virus"
+                     /mol_type="genomic DNA"
+                     /isolate="IC"
+                     /db_xref="taxon:47838"
+                     /segment="DNA A"
+     gene            218..973
+                     /gene="av1"
+                     /locus_tag="CdTVsAgp1"
+                     /db_xref="GeneID:993331"
+     CDS             218..973
+                     /gene="av1"
+                     /locus_tag="CdTVsAgp1"
+                     /codon_start=1
+                     /product="AV1 protein"
+                     /protein_id="NP_620745.1"
+                     /db_xref="GeneID:993331"
+                     /translation="MPKRDLPWRSIAGTSKVSRNANYSPRGGSGPRINKAAEWVNRPM
+                     YRKPRIYRTLRTPDVPRGCEGPCKVQSYEQRHDISHTGKVMCISDVTRGNGITHRVGK
+                     RFCVKSVYILGKIWMDENIKLKNHTNSVMFWLVRDRRPYGTPMDFGQVFNMFDNEPST
+                     ATVKNDLRDRFQVMHKFYGKVTGGQYASNEQAIVKRFWKVNNHVVYNHQEAGKYENHT
+                     ENALLLYMACTHASNPVYATLKIRIYFYDSIMN"
+     gene            complement(970..1368)
+                     /gene="ac3"
+                     /locus_tag="CdTVsAgp2"
+                     /db_xref="GeneID:993332"
+     CDS             complement(970..1368)
+                     /gene="ac3"
+                     /locus_tag="CdTVsAgp2"
+                     /codon_start=1
+                     /product="AC3 protein"
+                     /protein_id="NP_620746.1"
+                     /db_xref="GeneID:993332"
+                     /translation="MDSRTGEFITVPQAENGVYIWEIENPLYFKMYKVEDLPYTRTRV
+                     YHVQIRFNHNLRRALHLHKAYLNFQVWTTSMIASGSTYLARFRHLVNMYLDQLGVISI
+                     NNVIRAVRFATDRSYVSYVLENHSIKFKLY"
+     gene            complement(1115..1504)
+                     /gene="ac2"
+                     /locus_tag="CdTVsAgp3"
+                     /db_xref="GeneID:993330"
+     CDS             complement(1115..1504)
+                     /gene="ac2"
+                     /locus_tag="CdTVsAgp3"
+                     /codon_start=1
+                     /product="AC2 protein"
+                     /protein_id="NP_620747.1"
+                     /db_xref="GeneID:993330"
+                     /translation="MRSSSPSHPPSIKTAHRQAKKRAIRRRRIDLRCGCSIYFHIGCT
+                     GHGFTHRGIHHCTSGGEWRVYLGDRKSPLFQDVQSGGSTVYENQGLPRSDTVQPQPEE
+                     SVASPQSLPELPSLDDIDDSFWVDLFS"
+     gene            complement(1416..2501)
+                     /gene="ac1"
+                     /locus_tag="CdTVsAgp4"
+                     /db_xref="GeneID:993333"
+     CDS             complement(1416..2501)
+                     /gene="ac1"
+                     /locus_tag="CdTVsAgp4"
+                     /codon_start=1
+                     /product="AC1 protein"
+                     /protein_id="NP_620748.1"
+                     /db_xref="GeneID:993333"
+                     /translation="MPSVKRFKVSAKNYFLTYPQCSLSKEEALSQLQTLKTPVNKKYI
+                     KICRELHENGEPHLHVLIQFEGKYQCTNNRFFDLVSPTRSAHFHPNIQGAKSSSDVKS
+                     YIDKDGDTVEWGEFQIDGRSARGGQQSANDSYAKALNAGSVQSAMAVLKEEQPKDFVL
+                     HNHNIRSNLERIFAKAPERWVPPFQLSSFTNVPDEMQEWADDYFGRGSAARPERPISI
+                     IVEGDSRTGKTMWARALGPHNYLSGHLDFNPKVYSNEVEYNVIDDVAPHYLKLKHWKE
+                     LLGAQKDWQSNCKYGKPVQIKGGIPAIVLCNPGEGASYKDFLNKEENASLRNWTIKNA
+                     IFITLTSALYQDSAQASQEKGHQEEAD"
+     gene            complement(2087..2350)
+                     /gene="ac4"
+                     /locus_tag="CdTVsAgp5"
+                     /db_xref="GeneID:993334"
+     CDS             complement(2087..2350)
+                     /gene="ac4"
+                     /locus_tag="CdTVsAgp5"
+                     /codon_start=1
+                     /product="AC4 protein"
+                     /protein_id="NP_620749.1"
+                     /db_xref="GeneID:993334"
+                     /translation="MRMGSLISTFSSNSKGSTSARITDSSIWSPQPGQHISIRTYREL
+                     NPAPTSSPTSTRTEIQLSGENSRSTADQLEEVSNLLTTHMPRR"
+ORIGIN
+        1 accggatggc cgcgcgattt ttcccccctt gtacgtggac ggtcacgatt gtctctttcc
+       61 gcccgcacgc tcctctttaa tttgaattaa agctctccgc tttcgtctcg tccaatcatg
+      121 taacgcctga cgagcttaga tatttttaac tacttgggct cgaagtagtt atcgttataa
+      181 attaaagagg cttttggccc actgaattca attcaaaatg cctaagcgcg atctaccctg
+      241 gcgctcgatc gcgggaactt cgaaggtgag ccgcaatgcc aattattccc ctcgtggagg
+      301 aagtgggcct cgaattaaca aggccgctga atgggttaac aggcccatgt acaggaagcc
+      361 caggatctac cggacgctga gaacgcctga cgttccaaga ggatgtgaag gcccatgtaa
+      421 ggtccagtcc tatgaacagc gccacgatat ttcacataca ggtaaggtta tgtgcatatc
+      481 cgacgtgaca cgtggtaatg gtatcactca ccgtgtgggt aagcgtttct gtgttaagtc
+      541 tgtgtacatt ctcggtaaga tctggatgga tgagaacatc aagctgaaga accacacgaa
+      601 tagtgttatg ttctggttgg tcagggatcg tagaccgtat ggcactccca tggatttcgg
+      661 tcaagtgttc aacatgtttg acaacgagcc cagcactgct acggtgaaga acgatctacg
+      721 cgatcgattc caggtcatgc acaaattcta tgggaaggtg acaggtggac agtatgccag
+      781 caacgagcag gcgatagtca agcgcttctg gaaggtcaac aatcatgtgg tctacaatca
+      841 tcaagaggct ggcaagtacg agaatcatac ggagaacgct ttgttattgt acatggcatg
+      901 tacgcatgcc tctaaccctg tatatgcaac gcttaagatc cggatctact tctatgattc
+      961 gatcatgaat taataaagtt tgaattttat tgaatgattt tccagtacat aactaacata
+     1021 cgacctgtct gttgcgaaac gaacagctct gattacattg ttaatggaaa taacgcctaa
+     1081 ctgatctaaa tacatattaa ctaaatgtct aaacctagct aaataggtcg acccagaagc
+     1141 tatcatcgat gtcgtccaga cttggaagtt caggtaggct ttgtggagat gcaacgctct
+     1201 cctcaggttg tggttgaacc gtatctgaac gtggtaaacc ctggttctcg tatacggtag
+     1261 atcctccact ttgtacatct tgaaatagag gggattttct atctcccaga tatacacgcc
+     1321 attctccgcc tgaggtacag tgatgaattc ccctgtgcgt gaatccatgc cccgtgcagc
+     1381 ctatgtggaa gtatatggag cacccgcacc gtaaatcaat ccgcctcctc ctgatggccc
+     1441 ttttcttggc ttgcctgtgc gctgtcttga tagagggcgg atgtgagggt gatgaagatc
+     1501 gcattcttta tggtccaatt tctcagtgat gcgttttcct ctttgttgag gaaatcttta
+     1561 tagctggcac cctcaccagg attgcaaagc acgattgctg ggatccctcc tttaatttga
+     1621 actggcttac cgtacttgca attggattgc cagtccttct gggcccccag aagttccttc
+     1681 cagtgcttta actttagata gtgcggtgcg acgtcatcaa tgacgttata ctccacttcg
+     1741 ttcgagtaga cctttgggtt gaagtccaga tgaccactta ggtaattatg tgggcctaat
+     1801 gccctagccc acatcgtctt ccctgtcctc gaatcacctt ccacgatgat actaataggt
+     1861 ctttccggcc gcgcagcgga acctcttcca aaataatcat ccgcccactc ttgcatctcg
+     1921 tctggaacgt tagtgaacga agagagttga aacggaggaa cccaccgttc cggagccttt
+     1981 gcgaatattc tctctaggtt ggagcggatg ttatgattat gcaggacaaa atcttttggc
+     2041 tgctcttcct ttaaaaccgc catggcagat tgaacagatc ctgcattcaa cgccttggca
+     2101 tatgagtcgt tagcagattg ctgacctcct ctagctgatc tgccgtcgat ctggaattct
+     2161 ccccactcaa ctgtatctcc gtccttgtcg atgtaggact tgacgtcgga gctggattta
+     2221 gctccctgta tgttcggatg gaaatgtgct gaccgggttg gggagaccag atcgaagaat
+     2281 ctgttattcg tgcactggta cttcccttcg aattggatga gaacgtggag atgaggctcc
+     2341 ccattctcat gtaactctct gcaaatcttg atgtatttct tgttaactgg cgtttttagg
+     2401 gtttgtaatt gggaaagtgc ttcttctttg ctaagagagc actggggata tgtgaggaaa
+     2461 tagtttttgg ctgagacttt gaaacgttta accgatggca tttttgtaat aagatgggtg
+     2521 tactccgatt gagctctcaa acttctgtgc tatgttttgg ggtaaagggg acaatatata
+     2581 ctagaactct tagtagcact ttagcgacac gtggcggcca tccgatataa tatt
+//

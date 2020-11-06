@@ -1,0 +1,137 @@
+LOCUS       NC_014380               2628 bp    DNA     circular VRL 14-AUG-2018
+DEFINITION  Melon chlorotic mosaic virus DNA-A, complete genome.
+ACCESSION   NC_014380
+KEYWORDS    RefSeq.
+SOURCE      Melon chlorotic mosaic virus
+  ORGANISM  Melon chlorotic mosaic virus
+REFERENCE   2  (bases 1 to 2628)
+REFERENCE   3  (bases 1 to 2628)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HM163576.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2628
+                     /organism="Melon chlorotic mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-02-04-06"
+                     /host="watermelon"
+                     /db_xref="taxon:180399"
+                     /segment="DNA A"
+                     /country="Venezuela"
+                     /collection_date="2009"
+     gene            203..958
+                     /locus_tag="MeCMVsA_gp1"
+                     /db_xref="GeneID:9519097"
+     CDS             203..958
+                     /locus_tag="MeCMVsA_gp1"
+                     /note="coat protein"
+                     /codon_start=1
+                     /product="AV1"
+                     /protein_id="YP_003828904.1"
+                     /db_xref="GeneID:9519097"
+                     /translation="MVKRDAPWRMMAGTAKVSRSANYSPRAGLGPKFDKAHAWVNRPM
+                     YRKPRIYRTLRGADVPKGCEGPCKVQSYEQRHDISHVGKVMCISDVTRGNGITHRVGK
+                     RFCVKSVYIIGKVWMDDNIKLKNHTNSVMFWLVRDRRPYGTPMEFGQVFNMYDNEPST
+                     ATIKNDLRDRFQVMHRFYSKVTGGQYASNEQALVRRFWKVNNYVVYNHQEAAKYENHT
+                     ENALLLYMACTHASNPVYATLKIRIYFYDSITN"
+     gene            complement(955..1353)
+                     /locus_tag="MeCMVsA_gp2"
+                     /db_xref="GeneID:9519093"
+     CDS             complement(955..1353)
+                     /locus_tag="MeCMVsA_gp2"
+                     /note="rep enhancer"
+                     /codon_start=1
+                     /product="AC3"
+                     /protein_id="YP_003828905.1"
+                     /db_xref="GeneID:9519093"
+                     /translation="MDSRTGESITVYQAENSVFIWTVPNPLFFKIYHVEQPIYTRTRI
+                     YHIQIRFNHNLRKALDLHQAFLNFQIWTTSLTASGTTYLNRFKHVVMHYLNMLGVIGL
+                     NNVVRAVRFATNRKYVTDVLENHVIKFKFY"
+     gene            complement(1100..1489)
+                     /locus_tag="MeCMVsA_gp3"
+                     /db_xref="GeneID:9519094"
+     CDS             complement(1100..1489)
+                     /locus_tag="MeCMVsA_gp3"
+                     /note="transactivator"
+                     /codon_start=1
+                     /product="AC2"
+                     /protein_id="YP_003828906.1"
+                     /db_xref="GeneID:9519094"
+                     /translation="MLTSSSSTPPSIKTKHRIAKKKGVRRRRIDLNCGCSIFVHIACA
+                     ENGFTHGGEHHCLSGREFRFYLDGSKSPVFQNIPRRTTDIHKNQNLPHTNQVQPQLEE
+                     GTGSTPSFSQLPNLDDFTDSFWDDLFK"
+     gene            complement(1413..2495)
+                     /locus_tag="MeCMVsA_gp4"
+                     /db_xref="GeneID:9519095"
+     CDS             complement(1413..2495)
+                     /locus_tag="MeCMVsA_gp4"
+                     /note="Rep protein"
+                     /codon_start=1
+                     /product="AC1"
+                     /protein_id="YP_003828907.1"
+                     /db_xref="GeneID:9519095"
+                     /translation="MPRSPKSFRVAAKNIFLTYPQCDIPKDEALKMLQELAWTVVKPK
+                     YIRVAREEHSDGSPHLHCLIQLSGKSNIKNARFFDLTHPRRSACFHPNIQAAKDSNAV
+                     KNYITKEGDYCESGEYKVSGGTKSNKDDVFHNAINAGTAEEALAIIKAGDPKTFVVNY
+                     HNVKANIERLFQKDEDPWVPPFQLSSFNNVPQEMKDWVDENVTAARAACMTPAGPVRP
+                     RSIIIEGDSRTGKTMWARAIGPHNYLSGHLDFNARVYSNNVMYNVIDDVGPQYLKLKH
+                     WKELIGAQRDWQSNCKYGKPVKIKGGIPSIVLCNPGDGASYKAFLDKEENASLRAWTL
+                     KNANFVFLNAPLYQDEAQNSQEEGRS"
+     gene            complement(2051..2416)
+                     /locus_tag="MeCMVsA_gp5"
+                     /db_xref="GeneID:9519096"
+     CDS             complement(2051..2416)
+                     /locus_tag="MeCMVsA_gp5"
+                     /codon_start=1
+                     /product="AC4"
+                     /protein_id="YP_003828908.1"
+                     /db_xref="GeneID:9519096"
+                     /translation="MKLLRCFKNWHGQLSNRNISESQERNTPTALHTYTVSYSYPESR
+                     TSRMQDFSTLLTPEGLPVFTQTFRQPKTPTPSRITSPKKVIIVNPANIRCLGVQSPIK
+                     TTCSIMPSMPELQKRLSQL"
+ORIGIN
+        1 actggatggc cgaccgtttt ttggagtcct gcctttacgc atggggcgct cctttcctgg
+       61 tcattacatt agggaccacc aaatgttgat aacgacatca gaccaatcag attgtttctg
+      121 gcgcgtctat ttaccaatga cttgttaacc aagtggctat aaaggaaggc gagttgtcat
+      181 gtcatgtcag ctttaattca aaatggtgaa gcgcgatgct ccatggcgga tgatggcggg
+      241 gaccgcaaag gtatctcgat ctgcgaatta ttctccgcgt gcaggtttgg gccccaaatt
+      301 tgacaaggcc catgcctggg taaaccggcc tatgtacaga aagcccagga tctaccggac
+      361 gttgagaggt gccgacgttc ccaaaggatg tgaaggccct tgtaaggttc agtcttacga
+      421 acagcgtcat gatatttctc atgttgggaa ggttatgtgc atttctgacg ttactcgtgg
+      481 taacggtatt actcatcgtg ttggtaaacg tttttgtgtt aagtctgtat atattatagg
+      541 taaggtttgg atggacgata acatcaagtt gaagaaccac accaatagcg ttatgttttg
+      601 gttagtcaga gatcggcgac cgtatggcac ccccatggaa tttgggcaag tgttcaacat
+      661 gtacgataac gagcctagta ctgcaacgat caagaacgat ctgcgtgatc gttttcaagt
+      721 catgcatcgg ttttattcta aggtgaccgg gggacaatat gcgagcaacg agcaagctct
+      781 cgtccggcgt ttttggaagg ttaacaacta cgtcgtctac aatcatcagg aagccgctaa
+      841 atacgagaat cataccgaga atgctttgtt attgtatatg gcatgtactc atgcttctaa
+      901 ccctgtgtat gcgacattga aaattcggat ctatttttac gattcgataa caaattaata
+      961 aaacttgaat tttattacat gattctcaag tacatctgtt acatattttc tgtttgtggc
+     1021 gaaacgaaca gcccttacaa cattattcag accgataacc cctaacatgt tcaagtaatg
+     1081 cattacaaca tgtttaaacc tatttaaata agtcgtccca gaagctgtca gtgaagtcgt
+     1141 ccagatttgg aagttgagaa aagcttggtg tagatccagt gccttcctca agttgtggtt
+     1201 gaacctgatt tgtatgtggt aaattctggt tcttgtgtat atcggttgtt cgacgtggta
+     1261 tattttgaaa aacaggggat ttggaaccgt ccagataaaa acggaattct ctgcctgata
+     1321 gacagtgatg ctctcccccg tgcgtgaatc cattttctgc gcaggcaata tgtacgaaaa
+     1381 ttgaacagcc gcagtttagg tcaatgcgcc ttctacgaac gcccttcttc ttggctattc
+     1441 tgtgcttcgt cttgatagag gggggcgttg aggaagacga agttagcatt ttttaacgtc
+     1501 cacgctctta gagatgcatt ttcctctttg tcaagaaatg ctttataact ggccccatcc
+     1561 cctggattgc acagcacgat tgatgggatg ccgcctttaa ttttaaccgg ctttccgtac
+     1621 ttacagttgg attgccagtc tctttgggcc ccaatcaatt ctttccaatg ctttaacttt
+     1681 agatattgcg gtccaacgtc atcgatgacg ttatacatca cattattaga gtaaacccta
+     1741 gcattgaagt cgagatgacc acttaaataa ttatgcggac ctatagcacg agcccacatt
+     1801 gtcttgcccg tacgactatc accctctatg attatacttc taggtcttac cggccccgca
+     1861 ggggtcatac aagcggcccg cgcagcggtt acattctcat cgacccagtc tttcatctct
+     1921 tgtggaacgt tgttgaacga cgacaactga aatggaggaa cccatggatc ctcatccttt
+     1981 tggaagaggc gctcgatgtt ggctttaaca ttatgataat ttacaacaaa tgtttttgga
+     2041 tcacccgctt ttataattgc gagagcctct tctgcagttc cggcattgat ggcattatgg
+     2101 aacacgtcgt ctttattgga ctttgtaccc ccagacacct tatattcgcc ggattcacaa
+     2161 taatcacctt ctttggtgat gtaattcttg acggcgttgg agtctttggc tgcctgaatg
+     2221 tttgggtgaa aacaggcaga ccttctgggg tgagtaaggt cgaaaaatct tgcattcttg
+     2281 atgttcgact ttccggataa ctgtatgaga cagtgtaggt gtggagagcc gtcggagtgt
+     2341 tcctctcttg cgactctgat atatttcggt ttgacaactg tccatgccag ttcttgaagc
+     2401 atcttaagag cttcatcctt tgggatgtcg cactgaggat atgttaagaa aatgtttttt
+     2461 gctgcgaccc gaaatgattt aggacttcta ggcatatttg aagaataagt ggagacacca
+     2521 gcggagtccg cttctaaaac ctattgttta tggtgtcttg gtgtctcata tatactataa
+     2581 ctcataaagg gtcttatagg ggtaaaatcg gccatccaca ataatatt
+//
