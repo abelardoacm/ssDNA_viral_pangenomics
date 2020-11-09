@@ -127,7 +127,7 @@ To obtain each format file for every species, the **family.gb** file must be spl
 ./1_Set_family_files_from_raw_genbank.sh Geminiviridae
 ```
 The bash script execute three perl scripts [Genbank_to_genomic_fasta_taxid_in_name.pl](bin/Genbank_to_genomic_fasta_taxid_in_name.pl), [Genbank_to_proteomic_fasta_taxid_in_name.pl](bin/Genbank_to_proteomic_fasta_taxid_in_name.pl) and [Print_rename_instructions.pl](bin/Print_rename_instructions.pl). Each of them generate the files and sub-folders mentioned above departing from **family.gb** file.
-
+Note: Some files within Proteoimic_fasta_files are blank. This error does not come from the script, but from the NCBI submission itself. The search performed with aforementioned booleans sometimes yields entries labeled as "PROVISIONAL REFSEQ", files containing reference but unannotated genomes.
 
 #### **Filtered Database**
 
