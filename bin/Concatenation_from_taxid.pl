@@ -1,7 +1,4 @@
 #!/usr/local/bin/perl
-#The family.gb file invoked must not be modified since the usage of 1_Set_family_files_from_raw_genbank.sh.
-#This script must be called from command line as perl Concatenation_from_taxid.pl Geminiviridae.gb
-#I've already checked manually that the output names for .fn, .faa and .gbk files only differ by extensions. 
 
 $archivo = $ARGV[0];
 chomp ($archivo);
@@ -74,4 +71,8 @@ while ($linea = <FILE>) {
 	}	
 }
 close (FILE);
+#The family.gb file invoked must not be modified since the usage of 1_Set_family_files_from_raw_genbank.sh.
+#This script must be called from command line as perl Concatenation_from_taxid.pl Geminiviridae.gb
+#I've already checked manually that the output names for .fn, .faa and .gbk files only differ by extensions. 
+
 
