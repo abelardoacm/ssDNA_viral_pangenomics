@@ -1,9 +1,12 @@
 #!/usr/local/bin/perl
 
 $familia = $ARGV[0];
-chomp ($archivo);
-open (FILE, "../data/Raw_database/$archivo");
-open (OUT, ">>Concatenation_instructions_taxid.sh");
+chomp ($familia);
+system ("cp -r ../data/Genomic_fasta_files/$familia\_fasta_genomes .");
+system ("cp -r ../data/Individual_full_genbank_files/$familia\_genbank_genomes .");
+system ("cp -r ../data/Proteomic_fasta_files/$familia\_fasta_proteomes .");
+
+open (FILE, "../data/Raw_database/$familia.gb");
 while ($linea = <FILE>) {
 	chomp ($linea);
 	if ($linea =~ /^DEFINITION\s+/) {
@@ -67,12 +70,21 @@ while ($linea = <FILE>) {
 		$NombreOutput =~ s/\{//g;
 		$NombreOutput =~ s/\}//g;
 		$NombreOutput =~ s/\//-/g;
-		print OUT "cat $NombreOutput* >> $source\_$taxid\_$TAXID\$1\n";
+		system ("cat $familia\_fasta_genomes/$NombreOutput* >> $familia\_fasta_genomes/$source\_$taxid\_$TAXID.fn");
+		system ("rm $familia\_fasta_genomes/$NombreOutput*");
+		system ("cat $familia\_genbank_genomes/$NombreOutput* >> $familia\_genbank_genomes/$source\_$taxid\_$TAXID.gbk");
+		system ("rm $familia\_genbank_genomes/$NombreOutput*");
+		system ("cat $familia\_fasta_proteomes/$NombreOutput* >> $familia\_fasta_proteomes/$source\_$taxid\_$TAXID.faa");
+		system ("rm $familia\_fasta_proteomes/$NombreOutput*");		
 	}	
 }
 close (FILE);
+system ("mv $familia\_fasta_genomes ../data/Genomic_fasta_files/$familia\_concatenated_fasta_genomes");
+system ("mv $familia\_genbank_genomes ../data/Individual_full_genbank_files/$familia\_concatenated_genbank_genomes");
+system ("mv $familia\_fasta_proteomes ../data/Proteomic_fasta_files/$familia\_concatenated_fasta_proteomes");
+
 #The family.gb file invoked must not be modified since the usage of 1_Set_family_files_from_raw_genbank.sh.
-#This script must be called from command line as perl Concatenation_from_taxid.pl Geminiviridae.gb
+#This script must be called from command line as perl Concatenation_from_taxid.pl Geminiviridae
 #I've already checked manually that the output names for .fn, .faa and .gbk files only differ by extensions. 
 
 
