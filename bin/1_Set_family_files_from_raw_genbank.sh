@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir ../data/Genomic_fasta_files ../data/Individual_full_genbank_files ../data/Proteomic_fasta_files
+
+
 #This bash scripts lives in bin
 #A positional argument $0 is expected when calling this script. (i.e. ./1_set_family_files_from_raw_genbank.sh Geminiviridae.gb)
 #Assumes the pre-existence of folders: data/Genomic_fasta_files, data/Individual_full_genbank_files, data/Proteomic_fasta_files and data/Raw_base, this last containing a .gb file with the genomes from the corresponding viral family.
