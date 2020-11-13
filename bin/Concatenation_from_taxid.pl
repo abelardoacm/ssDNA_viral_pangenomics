@@ -1,6 +1,6 @@
 #!/usr/local/bin/perl
 
-$archivo = $ARGV[0];
+$familia = $ARGV[0];
 chomp ($archivo);
 open (FILE, "../data/Raw_database/$archivo");
 open (OUT, ">>Concatenation_instructions_taxid.sh");
