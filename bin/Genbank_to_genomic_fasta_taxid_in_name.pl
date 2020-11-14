@@ -64,7 +64,6 @@ while ($linea = <FILE>) {
 	if ($linea =~ /^ORIGIN\s+/) {
 		open (OUT, ">>$NombreOutput");
 		$numero = 1;
-		print ">$FastaHeader\n";
 		print OUT ">$FastaHeader";
 	}
 	
@@ -89,7 +88,6 @@ while ($linea = <FILE>) {
 		$linea =~ s/8//g;
 		$linea =~ s/9//g;
 		$linea =~ s/"//g;
-		print "$linea\n";
 		print OUT "$linea\n";
 
 	}

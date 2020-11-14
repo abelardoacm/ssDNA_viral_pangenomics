@@ -44,15 +44,15 @@ $maxref = $ARGV[3];
 
 if ($minref == 0) {
 	$minref = $mincalc;
-	print STDOUT "No minimum protein count from reference proteome was given... setting lower limit to -\%$percdiff deviation from the mean \n";
+	print STDOUT "\nNo minimum protein count from reference proteome was given... setting lower limit to -\%$percdiff deviation from the mean \n";
 }
 
 if ($maxref == 0) {
 	$maxref = $maxcalc;
-	print STDOUT "No maximum protein count from reference proteome was given... setting upper limit to +\%$percdiff deviation from the mean \n\n";
+	print STDOUT "\nNo maximum protein count from reference proteome was given... setting upper limit to +\%$percdiff deviation from the mean \n\n";
 }
 
-print STDOUT "rounded-up mean protein count is $promedio_conteo \n\n";
+print STDOUT "\nmean protein count is $promedio_conteo (rounded-up) \n\n";
 
 if ($minref < $mincalc) {
 	$lim_inferior = $minref;
@@ -72,7 +72,7 @@ if ($maxref > $maxcalc) {
 }
 
 
-
+$eliminated_count = 0;
 
 open (FILE, "PROTEIN_COUNT_$familia");
 while ($linea = <FILE>) {
@@ -86,11 +86,13 @@ while ($linea = <FILE>) {
 		$rejwithoutpath = $rejwithoutextension;
 		$rejwithoutpath =~ s/$pathtofile//g;
 		print STDOUT "$rejwithoutpath will be filtered as protein count is $count \n";
+		$eliminated_count += 1;
 		system ("rm $familia\_catfiltered_fasta_genomes/$rejwithoutpath*");
 		system ("rm $familia\_catfiltered_genbank_genomes/$rejwithoutpath*");
 		system ("rm $familia\_catfiltered_fasta_proteomes/$rejwithoutpath*");
 	}
 }
+print STDOUT ("\n$eliminated_count organisms were discarded from the database for further analysis\n");
 system ("rm PROTEIN_COUNT_$familia");
 system ("mv $familia\_catfiltered_fasta_genomes ../data/Genomic_fasta_files/");
 system ("mv $familia\_catfiltered_genbank_genomes ../data/Individual_full_genbank_files/");

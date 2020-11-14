@@ -7,6 +7,7 @@ $carpeta =~ s/\.gb/_genbank_genomes/g;
 system ("mkdir ../data/Individual_full_genbank_files/$carpeta");
 open (FILE, "../data/Raw_database/$archivo");
 open (OUT, ">>rename_rules.txt");
+$count = 0;
 while ($linea = <FILE>) {
 	chomp ($linea);
 	if ($linea =~ /^DEFINITION\s+/) {
@@ -61,11 +62,13 @@ while ($linea = <FILE>) {
 		$old = lc($firtsaccession);
 		$oldname = "$old".".genbank";
 		print OUT "$oldname $newname\n";
+		$count += 1;
 	}	
 }
 close (FILE);
+print STDOUT ("\nThe file $archivo was splitted into $count individual genomic(.fn), proteomic(.faa) and full-genbank(.gbk) files\n\n ");
 system ("cp ../data/Raw_database/$archivo .");
+print STDOUT ("\nMessages similar to \"Warning: bad /collection_date value\" point out that the date in the file is not in the correct format.\nSuch cases can be corrected although it is not needed to continue.\n\n\n");
 system ("seqretsplit -sequence $archivo -outseq seqoutall -feature -osformat genbank");
-#system ("mv *.genbank ../data/Individual_full_genbank_files/$carpeta");
-#rename_rules.txt still has to be moved
+
 

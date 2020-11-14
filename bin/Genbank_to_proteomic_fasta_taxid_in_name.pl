@@ -99,7 +99,6 @@ while ($linea = <FILE>) {
 	if ($linea =~ /\s+\/translation\=/) {
 		#print "$linea\n";
 		$numero = 1;
-		print ">$id | $ID | $conc | $con | $proteina\n";
 		print OUT ">$id | $ID | $conc | $con | $proteina\n";
 		#>gi|15617167|ref|NP_240380.1| 50S ribosomal protein L31 [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]
 		#>YP_007974221.1|GeneID-15486949|GI-498907898|locus-L677_gp1|protein_AV2-protein_|
@@ -124,7 +123,6 @@ while ($linea = <FILE>) {
 		$linea =~ s/\s+//;
 		$linea =~ s/\/translation\=//;
 		$linea =~ s/"//g;
-		print "$linea\n";
 		print OUT "$linea\n";
 
 	}
