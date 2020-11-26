@@ -1,0 +1,105 @@
+LOCUS       NC_018453               2771 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  French bean severe leaf curl virus, complete genome.
+ACCESSION   NC_018453
+KEYWORDS    RefSeq.
+SOURCE      French bean severe leaf curl virus
+  ORGANISM  French bean severe leaf curl virus
+REFERENCE   2  (bases 1 to 2771)
+REFERENCE   3  (bases 1 to 2771)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JX094280.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2771
+                     /organism="French bean severe leaf curl virus"
+                     /mol_type="genomic DNA"
+                     /isolate="FbSLSV-1"
+                     /isolation_source="leaves"
+                     /host="French bean"
+                     /db_xref="taxon:1218727"
+                     /country="India"
+                     /collection_date="2012"
+     gene            540..1268
+                     /gene="CP"
+                     /locus_tag="B888_gp1"
+                     /db_xref="GeneID:13466386"
+     CDS             540..1268
+                     /gene="CP"
+                     /locus_tag="B888_gp1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_006590004.1"
+                     /db_xref="GeneID:13466386"
+                     /translation="MARTRSGRQYSAQAPSWGRKKTRTPRSRPTLIGPIRRPNYQIKT
+                     RYAPHRPQTKIHSLSAARVVSGSDNGYGWHISDVPIGSGFEDRHSDKIRILNFNFKLQ
+                     MRTSQQGQNTSCWHNVYLFLVRDNSGGTAVPKFNSICMMDNSNPSTAEIDHDSKDRFT
+                     IMRRWRFQFKGNSTSGSVAYDCARNTYDFRKFVKLSSITEFKSATSGSYANTQKNAWV
+                     LYFVPQTYDMTVDGHCTIKYVSIV"
+     gene            complement(1609..2514)
+                     /gene="C1:C2"
+                     /locus_tag="B888_gp2"
+                     /gene_synonym="RepA"
+                     /db_xref="GeneID:13466385"
+     CDS             complement(1609..2514)
+                     /gene="C1:C2"
+                     /locus_tag="B888_gp2"
+                     /gene_synonym="RepA"
+                     /codon_start=1
+                     /product="replication associated protein"
+                     /protein_id="YP_006590005.1"
+                     /db_xref="GeneID:13466385"
+                     /translation="MPRRNNNSFRLQGKSIFLTYPKCPLTPLFVIDYLYQLLKNFNPI
+                     YARVCTENHQDGEPHLHCLVQLDKRFNTTSQRYFDISDPNRTGVYHPNCQVPRRDADV
+                     ADYIAKGGQFEERGILRASRRSPKKSRDSIWTNIINESTSKSEFLGRVQIEQPYVWAT
+                     QLRNLEYAANSKWPEQPSVYIPKWTVFNNVPEPIREWADTNLFTVSLQSMQLVQPEIS
+                     VTDMQWAHNLTEDFITDEWIGNSEDPVVQSFSGSETGPPSDSNNCLAQQKQAKQHGPG
+                     AWVYIIIFVGVLILVCGIILLLTPS"
+ORIGIN
+        1 acggttgcgc gtgtgggccc cacagcctta tcgtggggcc cacgttttgg cttttagtcg
+       61 aagcgtaagc aagacgtcat gtcggcccca cagcaatata aaaggaacca cagttgagga
+      121 tctgaatgtt ctcgtagagg tcattgggac aacgtgtggt gtatggaata ttgctcagaa
+      181 tttatattct ggtgggaagc cgctgttatt gtaattgttt taggtttatt gatttatatc
+      241 aatggaaagt cgcttatact taatcgagga attgccagag acgtacggtc gtttacaggg
+      301 attttgcaca gacttattcc tgggccggat gatacagaag gcccaagacg aaggacttac
+      361 gggagaagta actcgttaca gactactcag acagtgttac cgccaatccc agagacggaa
+      421 agagaaatgg gccatcaaag tggcccaatt caatgaagac cttgccacta ttataaatag
+      481 gggtagatgg gcctctgaag aggcccagaa actcctagcg tacaaaaaaa aaatagaaga
+      541 tggctcgcac aagatcgggg agacagtatt cggcccaggc cccatcttgg ggccggaaga
+      601 agacaagaac accccgttcg agacctacac tgattgggcc gattcgaagg cccaattacc
+      661 aaatcaagac ccgctatgcc ccccacagac ctcagactaa gatacactcc ttgtctgcgg
+      721 caagggttgt atctgggtcg gataatggtt atggatggca catctcggac gttcctattg
+      781 gatcgggctt tgaagatagg catagtgata aaattagaat tttaaatttt aattttaagt
+      841 tacagatgag gacttctcaa cagggacaga acacgtcatg ctggcataac gtgtatttgt
+      901 ttttagttag agacaatagt ggaggaacag ctgttccgaa atttaattca atatgtatga
+      961 tggataattc caacccttcc actgctgaga ttgaccatga ttcgaaggat cgtttcacga
+     1021 ttatgagaag atggagattc cagttcaaag gaaacagcac atctggatcc gttgcttatg
+     1081 actgtgctag gaatacttat gattttagga aatttgttaa attaagttca attactgaat
+     1141 ttaagagtgc tacaagtgga tcttatgcta atacgcaaaa gaacgcttgg gtattgtatt
+     1201 ttgttcctca gacgtacgat atgactgttg acggtcattg tacgatcaaa tatgtatcaa
+     1261 ttgtgtaatc aattaataaa aaataattga attatgatat cgctatcaat catcacacgc
+     1321 tataatacca gataatcaga aaaacgatac gataatagta atataatcaa agtcgaagac
+     1381 ttttaattaa ttaaaagaaa ggatctttta tttccacatg aattacattg gataaggacc
+     1441 attcgtacat ttcactgccc attaatgcag ctttgtatga ttgatctgga ttacacagta
+     1501 caatggttgg aattctacat ttttttctat atttttcgtt gactgtaaaa tccttttgac
+     1561 atcctagtaa ttctttttta catggaagaa attgaaaagg aatatcatct atgacggtgt
+     1621 aagtagcaaa attattccac acactaaaat caacaccccc acaaaaataa ttatgtagac
+     1681 ccatgctcct ggcccatgct gttttgcctg tttttgttgg gccaaacaat tattagagtc
+     1741 actgggcggt ccggtctctg atcctgaaaa tgattgtaca acaggatctt cagaattacc
+     1801 aatccattca tcagtaataa agtcttctgt taaattatga gcccattgca tatctgttac
+     1861 tgatatttct ggttgaacta attgcatgga ttgaagactt actgtgaata agttggtgtc
+     1921 tgcccattct ctaatgggct cgggtacatt attgaacact gtccatttgg gaatgtacac
+     1981 actaggttgc tctggccact tactatttgc tgcatattcg agatttcgta attgagttgc
+     2041 ccagacatat ggttgctcaa tctggactct accgagaaac tcggacttgg aggtggattc
+     2101 attgatgatg tttgtccata ttgaatccct gctcttctta gggcttcttc tacttgccct
+     2161 aagtattcct cgttcctcaa attgtcctcc cttggcaata tagtctgcca catcagcatc
+     2221 tcttcttggg acctggcaat tggggtggta aaccccagtt ctgtttgggt ctgagatgtc
+     2281 aaaatatctc tgtgatgtgg tgttgaacct cttgtccagt tggacaagac agtgaaggtg
+     2341 tggctcaccg tcctggtgat tctccgtaca gaccctagca tatataggat taaaattctt
+     2401 taataattga tataagtaat caattacgaa aagtggagtt aaggggcatt ttgggtaagt
+     2461 caaaaaaata gacttaccct ggagacggaa ggagttgttg ttgcgtcgag gcatgatgcg
+     2521 tataaaaata atggtaatag aagggagctc aagattcgat ttggcaattc tttattctac
+     2581 aaggttttgc gtgagaagtg agctccctcc tgttgcgtta tataatacaa atggacggct
+     2641 gtgatttatc cacgtgtctt tcatcttgcg agccgacaaa agtgagtggg tacttttact
+     2701 ttattaaata aagttgtttg aatgcggacc gaaggtccgt agtgcggttc tcacgcgcaa
+     2761 cctttaatat t
+//

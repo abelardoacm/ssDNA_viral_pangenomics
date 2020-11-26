@@ -1,0 +1,101 @@
+LOCUS       NC_008780               2586 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Sida yellow mosaic Yucatan virus DNA B, complete sequence.
+ACCESSION   NC_008780
+KEYWORDS    RefSeq.
+SOURCE      Sida yellow mosaic Yucatan virus
+  ORGANISM  Sida yellow mosaic Yucatan virus
+REFERENCE   2  (bases 1 to 2586)
+REFERENCE   3  (bases 1 to 2586)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            DQ875873.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2586
+                     /organism="Sida yellow mosaic Yucatan virus"
+                     /mol_type="genomic DNA"
+                     /host="Sida acuta"
+                     /db_xref="taxon:408719"
+                     /segment="DNA B"
+                     /country="Mexico: Yucatan"
+     gene            391..1161
+                     /gene="BV1"
+                     /locus_tag="SYMYV_sBgp1"
+                     /db_xref="GeneID:4695343"
+     CDS             391..1161
+                     /gene="BV1"
+                     /locus_tag="SYMYV_sBgp1"
+                     /note="NSP"
+                     /codon_start=1
+                     /product="BV1"
+                     /protein_id="YP_980247.1"
+                     /db_xref="GeneID:4695343"
+                     /translation="MYHVRGKRVGYFTNRRFNSRNNVFNRSIYGKRHDGKRRGGRSVK
+                     PTAEPNMSSQTIHENQYGTDFVMAHNSAISTFISYPDLGKIEPGRSRSYIKLKRLRFK
+                     GTVKIERVQSDVNMDGSVPKIEGVFSLVVVVDRKPHLGPSGLLHTFDELFGAIIHSHG
+                     NLSIVPSLKDRYYIRHVFKRVLSLENDTLMVDVEGSTALSNRRFNCWSTFKDVDRDSC
+                     KGVYDNISKNALLIYYCWVSDTPSKASNYVSFDLDYVG"
+     gene            complement(1222..2103)
+                     /gene="BC1"
+                     /locus_tag="SYMYV_sBgp2"
+                     /db_xref="GeneID:4695344"
+     CDS             complement(1222..2103)
+                     /gene="BC1"
+                     /locus_tag="SYMYV_sBgp2"
+                     /note="MP"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_980248.1"
+                     /db_xref="GeneID:4695344"
+                     /translation="MDSQLVNPPNAFNYIESHRDEYQLSHDLTEIILQFPSTASQFTA
+                     RLSRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTDNESQQATWTFPIRCNIDLH
+                     YFSASFFSLKDPIPWKLYYRVCDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFTDKDVDFSHVGYGKWERKPIRCASMSRVGLRGPIEIRPGESWASRSNIGTCQ
+                     SDADSEVENELHPYRHLNRLGTSVLDPGESASIVGTQRAESNITMSMGQLNELVRTTV
+                     QECINNNCQATQAKSLK"
+ORIGIN
+        1 accggatggc cgcgctttgg ggtacgctcc cccccctggt gacgcgcgct cccctggtgt
+       61 ggtgtcttgc acgcgccctc ctattggtgc tggtccttca cgctccggct tttgagtggc
+      121 ctttaattta aattaaagga tgatgctttg tcgcgcgaac tgcttttatg agttgaatta
+      181 ttgtcgcgcg atgtctgact agggcccatt gtactatgtg aaggacgtgg ctatttattg
+      241 accatgtcgc tgcgtttatt tgtgaataat gttggaccaa ttatttatat aatgtaatgg
+      301 atatgtgtgt catgtagaac atacgcagcg tctaaacacg tttacttttg tatttatatt
+      361 tgtgttttat ccttttttta cattgtgatt atgtatcatg tgaggggtaa acgtgttggt
+      421 tacttcacta atcgacgttt taactcacgt aataatgtgt ttaaccgttc aatctatggg
+      481 aaacgacatg acgggaaacg tcgaggaggt cgatctgtca agcccactgc tgagcccaat
+      541 atgtcatccc aaaccataca tgagaatcag tatggcactg actttgtcat ggcccataat
+      601 tcagctatct cgacgttcat cagttaccca gacttgggca agattgaacc gggtcgaagc
+      661 agatcctata tcaagttgaa acgactccgt ttcaaaggga ctgtgaagat tgaacgtgtt
+      721 caatcggatg tgaacatgga cggttctgtc ccgaaaatag aaggagtatt ctccctcgtt
+      781 gttgttgtgg atcggaaacc ccacttgggt ccaagtggtt tactgcatac attcgacgag
+      841 ctgttcggag caatcattca cagtcatggc aatctcagca ttgtcccttc actgaaagac
+      901 cgttattata ttcgccacgt gttcaaacgt gtattgtcat tggagaatga cacgctaatg
+      961 gtcgatgtgg aaggatctac agctttatct aacaggcgtt ttaattgttg gtccactttc
+     1021 aaggacgttg atcgtgattc atgcaagggt gtttatgata atataagcaa gaacgccctg
+     1081 ttaatttatt attgctgggt gtcggatacg ccctcgaagg catccaatta tgtatctttt
+     1141 gatcttgatt atgttggtta atgtaataaa tattatttat ccaaaattga ttatcttatt
+     1201 acgagaaatc aaaatatata tttatttcaa tgatttggcc tgagtagcct gacagttatt
+     1261 attaatacat tcttggaccg ttgtccgaac tagctcgttc aactggccca ttgacattgt
+     1321 gatgttggac tccgctctct gggttcccac gatggaagca gactctcctg gatctagaac
+     1381 gctcgtcccg agcctgttca ggtgtctgta tgggtggagc tcgttctcca cctccgagtc
+     1441 cgcgtctgat tggcacgtac ctatgttact cctggaagcc cacgactcac caggccttat
+     1501 ttcaattggg cctctaagcc caactctgga catggacgcg catctgatgg gcttcctctc
+     1561 ccatttcccg tagcccacat gggaaaagtc cacatctttg tctgtgaact gtttggacag
+     1621 gatcttcact gttggtgccc ggaaggggat atccacggag tgttttgcgg tggacaattt
+     1681 cagtttccct ttgaacttgg cgaagtgggt cctctgatga acattcgtat cgcatacgcg
+     1741 atagtacaac ttccatggaa ttgggtcctt cagggagaag aacgaagccg agaagtagtg
+     1801 gagatctatg ttacacctga tcggaaaagt ccacgtggct tgttgtgatt cgttgtccgt
+     1861 catccttttg tcgtggatct ccactattac cgaccccgtc gcgttgatcg gcacctgttg
+     1921 tctgtattct atgacgcagt gatctatttt catgcagcta cgactgagtc tcgccgtaaa
+     1981 ctgcgacgcc gtcgaaggaa attgcagaat tatctcagtt aagtcatgag aaagctgata
+     2041 ctcgtctcgg tgagattcta tgtagttgaa agcgttagga ggattgacta actgagaatc
+     2101 catctgaaga agaaaggccg cgcagcggaa ccgattgttg aagttgaatc gggaagaaga
+     2161 tgaacaactg atgaacaaga tgatcaactc tggaaagccc tcctttgatc tcgaagaagg
+     2221 taaacgttta actttttata tgggtttaat aatatctgat gatttctgtg tttgagaatg
+     2281 ctcgactatg atcttctgtt aataatttat tttttttttg agaaagaaag gagtgttgat
+     2341 gaagagttta agataaatca ggaaatggag gagtttgtct attaacccag acttgctggg
+     2401 tttctggtat ttaaattggt aaagtgttca tctgacgctc aaccgatggc atttttgtaa
+     2461 taagaagtgt gtaccccgga tgagctctca aacttctgtg ttatgaattg gggtaatggg
+     2521 ttacaatata tactataacc ctcatttacg gatttgcaac acgtggcggc catccgctat
+     2581 aatatt
+//

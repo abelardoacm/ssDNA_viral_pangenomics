@@ -1,0 +1,101 @@
+LOCUS       NC_015628               2553 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Tobacco yellow crinkle virus DNA B, complete genome.
+ACCESSION   NC_015628
+KEYWORDS    RefSeq.
+SOURCE      Tobacco yellow crinkle virus
+  ORGANISM  Tobacco yellow crinkle virus
+REFERENCE   2  (bases 1 to 2553)
+REFERENCE   3  (bases 1 to 2553)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence is identical to
+            HQ896204.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2553
+                     /organism="Tobacco yellow crinkle virus"
+                     /mol_type="genomic DNA"
+                     /isolate="3"
+                     /host="Nicotiana tabacum"
+                     /db_xref="taxon:565052"
+                     /segment="DNA B"
+                     /country="Cuba"
+                     /collection_date="Jan-2007"
+                     /collected_by="E. Fiallo-Olive"
+     gene            371..1141
+                     /gene="BV1"
+                     /locus_tag="TYCV_sBgp1"
+                     /db_xref="GeneID:10748598"
+     CDS             371..1141
+                     /gene="BV1"
+                     /locus_tag="TYCV_sBgp1"
+                     /codon_start=1
+                     /product="nuclear shuttling protein"
+                     /protein_id="YP_004564606.1"
+                     /db_xref="GeneID:10748598"
+                     /translation="MYPTKYRRGSSYSQRRFVARNNGLKRATFVRRNDGKRRNGPLNK
+                     SCDEPKMSSQRIHENQYGPEFVMSHNSAISTFINFPVLGKTSPNRSRSYIKLKRLSFK
+                     GTVKIERVHADVNMDGLTSKIEGVFSLVIVVDRKPHLSSSGCLHTFDELFGARIHSHG
+                     NLAITPALKDRYYVRHVLKRVLSVEKDSVMVDLEGSTPLSTRRYNCWSNFKDLEHDSC
+                     NGVYANISKNAILVYYCWMSDAISKASTFVSYDLDYVG"
+     gene            complement(1202..2071)
+                     /gene="BC1"
+                     /locus_tag="TYCV_sBgp2"
+                     /db_xref="GeneID:10748597"
+     CDS             complement(1202..2071)
+                     /gene="BC1"
+                     /locus_tag="TYCV_sBgp2"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_004564607.1"
+                     /db_xref="GeneID:10748597"
+                     /translation="MESQLANPPNAFNYIESHRDEYQLSHDLTDIILQFPSTAAQLTA
+                     RLNRSCMKIDHCVIEYRQQVSINATGSVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYRVSDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     IHSKQFSHKDVDFSHVDYGPWERKTLSSTSMSRFGLPGPIELKPGESWASRSTIGRTH
+                     TETESEIHPYRELNRLGPSVLDPGDSASQVGLQRAQSNITMSMAQLNDLVRTTVQECI
+                     NNNCNPSQPKSLQ"
+ORIGIN
+        1 accggatggc cgcgcgcccc cccccccctt gcgctgggac ctacccccaa tcccttttgg
+       61 cgtagtctct ctcctcgttt acgtggcgcg ttggacaccg ttggataaca cttatcgcgg
+      121 tgtgaaacct ttaatttgaa atttgaaata attgggcgca catgtctaat ttgaacggtc
+      181 ttcctaacga taaggtttct gacacattgt acgatatggt gaacgtggcc caattatatt
+      241 cccgctgtgg agttaaacta tcgcttattt tgaacggtcc tttctatata atggacgata
+      301 gtttaatatt ataaatcgtc tttgacataa caacataaat attttgatat ttatacaggt
+      361 atacacagtg atgtatccta cgaagtatag gcgtgggtct tcatatagtc aaagacgatt
+      421 tgttgcacgt aataatggtt taaagcgtgc aacctttgtt agacgcaatg atggtaaacg
+      481 tcgcaatggc ccattaaaca agtcctgtga cgagcccaaa atgtcgtcac aacgtataca
+      541 tgaaaaccaa tatggccctg aatttgtgat gtctcataat tcagcaatat caacgttcat
+      601 caattttcct gtgcttggta aaacatctcc taaccgaagc aggtcgtata ttaaattaaa
+      661 gcgtttatca tttaaaggaa ccgttaagat tgagcgtgtt catgccgatg tgaacatgga
+      721 tggactaact tccaagatag aaggtgtgtt ctctcttgtt atagttgtgg atcgcaagcc
+      781 tcatttaagc tcttctggat gtttgcacac attcgatgaa ctatttggtg caagaatcca
+      841 cagccatggg aacctagcca ttacacccgc tttaaaagat cgttattatg ttcgacatgt
+      901 tttgaagcgt gtattgtcag tggagaaaga tagtgtaatg gtagacctgg aaggatcgac
+      961 accgttatct acaaggcgtt ataactgttg gtccaatttt aaggatcttg aacatgactc
+     1021 atgtaacggt gtttatgcta atatcagcaa gaatgccatt ttagtttatt attgttggat
+     1081 gtcggatgca atttctaagg catccacatt tgtatcttat gaccttgatt atgtgggtta
+     1141 actattaata aaatggcgtt taattgaaac atatgtacaa ccaaatacaa aacaaaacaa
+     1201 tttattgcaa cgatttgggt tgtgacggat tacaattatt gttaatacac tcttggaccg
+     1261 ttgtcctaac aaggtcgttt aattgggcca tggacatcgt tatatttgat tgggccctct
+     1321 gtaagccgac ctgtgacgcc gaatcacctg ggtctagcac gcttggtcct agacgattga
+     1381 gctctctata tgggtgtatt tctgattccg tctccgtgtg agtcctccca atagtgctcc
+     1441 ttgaggccca tgattcacct ggttttaatt caattgggcc tggtagccca aatctggaca
+     1501 ttgatgtgga gctcaaggtt tttctttccc acggtccata atccacatgc gagaagtcga
+     1561 catctttgtg cgaaaactgt ttcgaatgaa tcttgaccgt gggagcccgg aagggtatat
+     1621 ctacagagtg tttagcggta gataatttca acttgccctt gaatttggca aaatgtgttc
+     1681 gttgatgtac atttgtatcg gacactctgt agtataattt ccatggaatt gggtctttta
+     1741 acgaaaagaa tgacgacgag aaataatgga gatctatgtt gcatcttatg ggaaacgtcc
+     1801 acgatgcttg taacgattca ttgtccgtca ttcttttgtc atgtatctct acaatgaccg
+     1861 accctgttgc gttaattgag acttgttgcc tgtattcgat gacgcaatgg tctatcttca
+     1921 tacaactacg attgagcctt gcagttaact gagcagccgt ggaaggaaat tgaaggataa
+     1981 tgtcagttag atcatgagac agctgatatt cgtctctatg agactcaatg taattaaacg
+     2041 catttggagg atttgctaac tgagattcca tatatgaata attggccgcg cagcggaact
+     2101 gggttcaaca ataattgggt tcaagaagac aataagttta tgaactgttt gacaaggatc
+     2161 agaaaagatg ttgaacaatt gcaacgacag gttctgggtt tattttaaca tctacaaagg
+     2221 ctgggtttgt gaaagaacta ctatatgagg acagtgttta agtaaagctg aatattgtgt
+     2281 gtattcagaa aatatgtgtc tcataaccta attgtaactg tgtttatata gagagcgaat
+     2341 gtgaagaagt ttggaacgct ctgaatgtta tgttagttca tatgcgtgca tatgggcatt
+     2401 tatgtaatat gaaggatgtc accaaagggt gtcaccgatt cggctctctc aaacttgctc
+     2461 attcaatcgg tgaaagagtg acaatatata ctagaaccct caatagaact ttcaatcgtg
+     2521 ttcgcacacg tggcggccat ccgctataat att
+//

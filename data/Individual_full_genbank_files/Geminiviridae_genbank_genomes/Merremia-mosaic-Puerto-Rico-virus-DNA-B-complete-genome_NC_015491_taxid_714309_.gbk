@@ -1,0 +1,101 @@
+LOCUS       NC_015491               2585 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Merremia mosaic Puerto Rico virus DNA B, complete genome.
+ACCESSION   NC_015491
+KEYWORDS    RefSeq.
+SOURCE      Merremia mosaic Puerto Rico virus
+  ORGANISM  Merremia mosaic Puerto Rico virus
+REFERENCE   2  (bases 1 to 2585)
+REFERENCE   3  (bases 1 to 2585)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence is identical to
+            FJ944022.
+            GenBank Accession Numbers represent FJ944021-FJ944022 the complete
+            genome of Merremia mosaic Puerto Rico virus strain PR89.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2585
+                     /organism="Merremia mosaic Puerto Rico virus"
+                     /mol_type="genomic DNA"
+                     /strain="PR89"
+                     /host="Merremia quinquefolia"
+                     /db_xref="taxon:714309"
+                     /segment="DNA B"
+                     /country="Puerto Rico"
+                     /collection_date="Jan-1998"
+     gene            361..1131
+                     /locus_tag="MeMPRV_sBgp1"
+                     /db_xref="GeneID:10570091"
+     CDS             361..1131
+                     /locus_tag="MeMPRV_sBgp1"
+                     /note="BV1"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_004429246.1"
+                     /db_xref="GeneID:10570091"
+                     /translation="MYLLRYRRGTSYSQRRYNTGNNVFKRVSYVKRKDGKRRSSHGNN
+                     VHEDGKMTSQRIHENQYGPEFVMSQNSALSTFITFPHLGKTQPNRCRSYIKLKRLRFK
+                     GTVKIERVHADLNMDGLLPKIEGVFSLVIVVDRKPHLNASGCLHSFDELFGARINSHG
+                     NLAIISALKDRFYVRHVLKRVLSVEKDSTMMDLEGSIFFSNRRFNCWSSFKDNDHDSC
+                     NGVYDNISKNAILVYYCWMSDVMSKASTFVSFDLDYVG"
+     gene            complement(1170..2051)
+                     /locus_tag="MeMPRV_sBgp2"
+                     /db_xref="GeneID:10570090"
+     CDS             complement(1170..2051)
+                     /locus_tag="MeMPRV_sBgp2"
+                     /note="BC1"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_004429247.1"
+                     /db_xref="GeneID:10570090"
+                     /translation="MDSQLANPPNAFNYIESNRDEYQLSHDLTEIVLQFPSTASQLTA
+                     RLSRSCMKIDHCVIEYRQQVPINATGTVIVEIHDKRMIDNESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYRVSDTNVHHRTHFAKFKGKWKLSTAKHSVDIPFRAPTVK
+                     ILSKQFSHKDVDFTHVDYGRWERKTLRSTSISRVGLPGPIELRPGESWASKSTIGLAH
+                     TDTDSELDNALHPYKELNRLGASVLDPGDSASQAGLQRAQSNITMSMAQLNELVRTTV
+                     HECINTNCNSNPPKSLK"
+ORIGIN
+        1 accggatggc cgaccgctgc ccttggtgtc cctctctctc ccacgtgacg cttggtgtgg
+       61 tgcgctctct ctcttctgac gtggaggatt tgtaaaccgt tcgataaagc ttatcgcgct
+      121 atgagatttg aaatttgaat tatatgcacg gctttctatg tattaggtag catatgaagc
+      181 gataaggttt tctgacacat tgtactatgc ctaagacgtg gcccaattaa atattatctg
+      241 gcgagttatg ttaactctat tttgaatcac ttattctata tataactagt ggatatgaat
+      301 atttaatatc gtctattgac attataactc cttaaatttt tgtataagag attttttaat
+      361 atgtatttgc taagatatag acgtggaaca tcttactcac aacgacgata taatacaggt
+      421 aataatgtgt ttaaacgtgt atcatatgtt aaacgtaagg atggtaagcg tcgatcgagt
+      481 catggaaata atgttcatga agatgggaag atgacgtctc aacgcataca tgaaaatcag
+      541 tatgggcctg aatttgtgat gtctcaaaat tcagcgttat ccacattcat tacttttcct
+      601 catttgggga agactcaacc taatcggtgc aggtcatata ttaagctgaa acggcttcgt
+      661 tttaaaggaa ctgttaagat tgaacgtgtt catgcggatt tgaacatgga tggtttgctc
+      721 cctaagattg aaggtgtatt ttcccttgta attgtggtgg atcgcaaacc ccatttgaat
+      781 gcttctggat gtttgcactc atttgacgaa ttatttggtg caaggatcaa cagccacggg
+      841 aatttagcta ttatctcagc tttgaaagat cgtttttatg ttcgtcatgt attgaaacgt
+      901 gtgttgtccg tggagaaaga cagtacgatg atggacctgg aaggatcgat ctttttttct
+      961 aataggcgtt ttaattgttg gtcaagtttt aaagataatg accatgattc atgtaatggt
+     1021 gtttatgaca atattagcaa aaacgccata ttagtttatt attgttggat gtcggatgta
+     1081 atgtctaagg catcaacatt tgtatcgttc gaccttgatt atgttgggtg aataataata
+     1141 aattgtaatg agaaataaaa atataacttt tatttcaaag atttaggcgg attggaatta
+     1201 cagtttgtgt ttatacattc atggaccgtt gtcctaacta actcgtttaa ttgggccatt
+     1261 gacattgtaa tgtttgattg ggcccgttgt aacccggctt gtgatgctga atctcctggg
+     1321 tctaggacgc ttgctcccaa acgatttagt tctttatagg ggtgtaacgc gttgtccaac
+     1381 tctgaatcag tatctgtgtg ggctagccca attgtactct ttgaagccca cgattcacct
+     1441 ggtcttaatt caattgggcc gggtaaccca actcttgata ttgatgtgga cctcaacgtt
+     1501 ttccgttccc atcgtccgta gtccacatgt gtaaaatcca catctttatg cgagaattgt
+     1561 ttggatagta ttttgaccgt cggtgcccgg aatgggatat ccaccgaatg tttcgccgtg
+     1621 gacaacttcc attttccctt gaacttggca aaatgcgttc tgtggtggac atttgtgtcg
+     1681 ctaaccctgt aatacagctt ccatggaatt gggtctttta gcgagaaaaa ggacgatgaa
+     1741 aaatagtgga gatctatgtt gcatctaatt ggaaatgtcc atgacgcttg taaggattcg
+     1801 ttgtcaatca tccttttgtc atggatctcc acaataactg taccagttgc gtttatgggt
+     1861 acttgttgcc tgtactcgat gacacaatgg tctattttca tgcagctacg actaagtcta
+     1921 gctgttaatt gagatgcagt tgaaggaaat tgaaggacta tctcagttag atcatgagac
+     1981 agctgatatt catccctatt ggattctatg taattaaagg catttggagg atttgctaac
+     2041 tgagaatcca tatatgaata attggccgcg cagcggaact gtttgagtaa tcttatagac
+     2101 taacaaggtt tatgggtaag aacagataga acaagacgaa tagtatatga cggatgatga
+     2161 atatgagcag gttaaagaag attattgtgt tatgaagggc gaagagaatg aagagtaaag
+     2221 gatgttattc tggataattg tgtatatgat ccctaactgt gtttctggaa ataaaattaa
+     2281 aagctaaact aatgaatatg agctaatgat agagaaatta gctatttgtg aagaaattga
+     2341 tgctgtgagt tttgttatat gccgtcgtgt ttatatagac actcatgtgt ctgtgtgtgt
+     2401 tatgaagcga gagcgtttct tgtggtattt tcgtaataag aaggctggac accaattgaa
+     2461 tgtacggaga gacaccaatt gagctcttca actccccccc cttgtattgg tgtctggggt
+     2521 cttatttata gtataccttc tattctttaa tttttggaca cgtggaggcc atccgctata
+     2581 atatt
+//

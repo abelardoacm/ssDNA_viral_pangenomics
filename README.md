@@ -39,7 +39,7 @@ The download default name for genomes genbank concatenation is **sequences.gb**,
 
 #### **Genomic_fasta_files Individual_full_genbank_files and Proteomic_fasta_files**
 
-These folders are needed to begin data processing once the **family.gb** file is deposited in the Raw_database directory. If the repo is not cloned, then user must create them in the right location. For example, from main folder:
+These folders are needed to begin data processing once the **family.gb** file is deposited in the Raw_database directory. If the repo is not cloned, then user must create them in the right location. For example, from repo main folder:
 
 ``` 
 cd data/
@@ -126,12 +126,83 @@ To obtain each format file for every species, the **family.gb** file must be spl
 ``` 
 ./1_Set_family_files_from_raw_genbank.sh Geminiviridae
 ```
-The bash script execute three perl scripts [Genbank_to_genomic_fasta_taxid_in_name.pl](bin/Genbank_to_genomic_fasta_taxid_in_name.pl), [Genbank_to_proteomic_fasta_taxid_in_name.pl](bin/Genbank_to_proteomic_fasta_taxid_in_name.pl) and [Print_rename_instructions.pl](bin/Print_rename_instructions.pl). Each of them generate the files and sub-folders mentioned above departing from **family.gb** file.
-Note: Some files within Proteoimic_fasta_files are blank. This error does not come from the script, but from the NCBI submission itself. The search performed with aforementioned booleans sometimes yields entries labeled as "PROVISIONAL REFSEQ", files containing reference but unannotated genomes.
+The bash script execute the perl scripts: [Genbank_to_genomic_fasta_taxid_in_name.pl](bin/Genbank_to_genomic_fasta_taxid_in_name.pl), [Genbank_to_proteomic_fasta_taxid_in_name.pl](bin/Genbank_to_proteomic_fasta_taxid_in_name.pl) and [Print_rename_instructions.pl](bin/Print_rename_instructions.pl). Each of them generate the files and sub-folders mentioned above departing from **family.gb** file.
 
-#### **Filtered Database**
+Once the script finishes, a small report is displayed in the terminal. This is what you see when you run [1_Set_family_files_from_raw_genbank.sh](bin/1_Set_family_files_from_raw_genbank.sh) for the Geminiviridae family.
 
-WIP
+``` 
+The file Geminiviridae.gb was splitted into 704 individual genomic(.fn), proteomic(.faa) and full-genbank(.gbk) files
+
+ 
+Messages similar to "Warning: bad /collection_date value" point out that the date in the file is not in the correct format.
+Such cases can be corrected although it is not needed to continue.
+
+
+Read sequences and write them to individual files
+Warning: bad /collection_date value '2015-09-02'
+Warning: NC_031466: Bad value '2015-09-02' for tag '/collection_date'
+Warning: bad /collection_date value '2014-10-01'
+Warning: NC_039003: Bad value '2014-10-01' for tag '/collection_date'
+```
+
+#### **\*_concatenated_\* folders**
+
+As a result of the previous step, three folders are generated. These however, do not always correspond to complete genomes. Some viral families have segmented genomes are present in and represent a potencial source of pangenomic core underestimation. A previously opened issue can be visited [here](https://github.com/abelardoacm/ssDNA_viral_pangenomics/issues/2) for further details. Those viral families led us to devise a strategy to concatenate the separate files of a viral species.
+
+The [2_Concatenation_from_taxid.pl](bin/2_Concatenation_from_taxid.pl) script fulfills the task of comparing files and concatenates those that share the same taxonomic id and source organism. It is used from command line as follows (for Geminiviridae family):
+
+``` 
+perl 2_Concatenation_from_taxid.pl Geminiviridae
+```
+An output message summarizes how many files were concatenated and how many segments make them up. For example:
+
+``` 
+Geminiviridae.gb generated 704 individual files
+After concatenation the number of files reduced to 538
+
+... as the following report indicates
+
+
+      4  segments were concatenated into Rhynchosia-golden-mosaic-virus_taxid_117198 
+      2  segments were concatenated into Wissadula-golden-mosaic-virus_taxid_51673
+and so on...
+
+```
+The concatenated files are moved to the corresponding folders within their file types, labeled with the word **concatenated** in the name. For example: [Geminiviridae_concatenated_fasta_genomes](data/Genomic_fasta_files/Geminiviridae_concatenated_fasta_genomes), [Geminiviridae_concatenated_fasta_proteomes](data/Genomic_fasta_files/Geminiviridae_concatenated_fasta_proteomes), and [Geminiviridae_concatenated_genbank_genomes](data/Genomic_fasta_files/Geminiviridae_concatenated_genbank_genomes). 
+
+#### **\*_catfiltered_\* folders**
+
+Another potential source of pangenomic misestimation comes from two sources:
+
+- Zero protein count files. Some files within the samples can be blank. This error comes from the NCBI submission itself. The search performed with aforementioned booleans sometimes yields entries labeled as "PROVISIONAL REFSEQ", files containing unannotated genomes. The software for pangenomic analysis would decrease protein prevalence, leading to core underestimation.
+
+- Over concatenated files. As a product of [2_Concatenation_from_taxid.pl](bin/2_Concatenation_from_taxid.pl) script, non related segments can be put together. This happens when there is no distinction between source organism names and there's more than one reference genome in **Refseq** for the same taxid.  
+
+The [3_Protein_count_filtering.pl](bin/3_Protein_count_filtering.pl) script fulfills the task of filtering files whose protein counts varies in more than a user-defined limit percentage (2nd positional argument). To prevent the exclusion of reference strains with uncommon protein count, the script can make cutoff values ​​less extreme, indicating values corresponding to the minimum (3rd positional argument) and maximum (4th positional argument) protein count within reference strains.
+
+It can used from command line as the following example for Geminiviridae family:
+
+``` 
+perl 3_Protein_count_filtering.pl Geminiviridae 85 3 12
+```
+... where Geminiviridae is the viral family, 85 is the percentage of allowed variation from the mean, 3 is the minimum protein count for a reference strain, and 12 the maximum.
+
+An output message summarizes cutoff values and filtered files. For example:
+
+``` 
+mean protein count is 7 (rounded-up) 
+
+... setting lower protein cutoff count in 2 proteins 
+... setting upper protein cutoff count in 13 proteins 
+
+African-cassava-mosaic-virus_taxid_10817 will be filtered as protein count is 0 
+Rhynchosia-golden-mosaic-virus_taxid_117198 will be filtered as protein count is 14 
+Tomato-golden-leaf-distortion-virus_taxid_858511 will be filtered as protein count is 0 
+Tomato-golden-leaf-spot-virus_taxid_1336597 will be filtered as protein count is 0 
+
+4 organisms were discarded from the database for further analysis
+```
+
 
 
 #### **Euclidean Distance Matrices**

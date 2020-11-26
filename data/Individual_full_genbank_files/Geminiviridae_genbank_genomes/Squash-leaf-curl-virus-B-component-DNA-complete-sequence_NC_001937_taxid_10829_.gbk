@@ -1,0 +1,96 @@
+LOCUS       NC_001937               2607 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Squash leaf curl virus B component DNA, complete sequence.
+ACCESSION   NC_001937
+KEYWORDS    RefSeq.
+SOURCE      Squash leaf curl virus
+  ORGANISM  Squash leaf curl virus
+REFERENCE   2  (bases 1 to 2607)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from M38182.
+            Draft entry and computer-readable sequence for [Virology (1990) In
+            press] kindly submitted
+            by  S.G.Lazarowitz, 27-AUG-1990.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2607
+                     /organism="Squash leaf curl virus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10829"
+                     /segment="DNA B"
+     gene            705..1475
+                     /locus_tag="SLCVsBgp1"
+                     /db_xref="GeneID:956398"
+     CDS             705..1475
+                     /locus_tag="SLCVsBgp1"
+                     /note="BR1; putative"
+                     /codon_start=1
+                     /product="Nuclear shuttle protein"
+                     /protein_id="NP_047247.2"
+                     /db_xref="GeneID:956398"
+                     /translation="MYSTSNRRGRSQTQRGSHVRRTGVKRSYGAARGDDRRRPNVVSK
+                     TQVEPRMTIQRVQENQFGPEFVLSQNSALSTFVTYPSYVKTVPNRTRTYIKLKRVRFK
+                     GTLKIERGQGDTIMDGPSSNIEGVFSMVIVVDRKPHVSQSGRLHTFDELFGARIHCHG
+                     NLSVVPALKDRYYIRHVTKRVVSLEKDTLLIDLHGTTQLSNKRYNCWASFSDLERDSC
+                     NGVYGNITKNALLVYYCWLSDAQSKASTYVSFELDYLG"
+     gene            complement(1647..2528)
+                     /locus_tag="SLCVsBgp2"
+                     /db_xref="GeneID:956399"
+     CDS             complement(1647..2528)
+                     /locus_tag="SLCVsBgp2"
+                     /note="BL1; putative"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_047248.1"
+                     /db_xref="GeneID:956399"
+                     /translation="MGSQLVPPPSAFNYIESQRDEFQLSHDLTEIVLQFPSTASQITA
+                     RLSRSCMKIDHCVIEYRQQVPINASGTVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYRVSDSNVHQMTHFAKFKGKLKLSSAKHSVDIPFRAPTVK
+                     ILAKQFSEKDIDFWHVGYGKWERRLVKSASSSRFGLRGPIEINPGESWATKSAIGPTN
+                     RNADLDIEEELLPYRELNRLGTNILDPGESASIVGIQRSQSNITMSMSQLNELVRSTV
+                     HECIKTSCIPSTPKSLS"
+ORIGIN
+        1 aacgaagtga gttagggttt gagtggcata ttatgtaaat atgcatcggg acaccaggag
+       61 gtgtcctctc aactttctca tattgctggt gtcctggtgt cctatatata cctcaagaca
+      121 cataaagcct ctaggggaca ccaaggggca aaatcggcca tccgcaataa tattaccgga
+      181 tggccgcccg atttttggtg tcctcccctt tagcccacgg cccaggccca tgttttgctt
+      241 attgggccga cttttgaccc atttaagccg cgcgccttct tccttcgggg accacacagc
+      301 actttcaacc aatcacgttg ttaccaacga acttcgttga tatggaccgt acgacatgtg
+      361 tggaccactg tcacatgatg ctgtgtcaga cgctcgactt taattcaaat tcacaaagtg
+      421 attatcttcg tctttaattt gtactgtcac agagtgttgg accatctctg tgcactatcg
+      481 acgatgtcct tttgttctgt ggaccttgtt ctgttaattt gaattaatct ttagtgctac
+      541 caattacatt ttagctacaa agtctagtta ttggtcatgg attggttctt cgtctattaa
+      601 taattgaaac gtgtaattgg cttatgcgtc gaattcatat attagacaac acttgtatta
+      661 tctacacgta tatacattgt gcagtcgcta tagcatcgtc cttgatgtat tcgacgagca
+      721 atagacgggg tcgatcgcaa actcagcgag gttctcatgt acgccgtaca ggtgtcaagc
+      781 gttcatatgg tgcagcccgt ggtgatgata ggcgtcgacc caacgtggta tcaaagactc
+      841 aagttgaacc gagaatgact attcagcgtg ttcaagagaa ccagtttggc ccagaatttg
+      901 tcttgagtca aaactcagcg ttgtccacgt ttgtaacata tcctagctat gttaagactg
+      961 ttcccaatcg cactagaacg tatataaaat tgaaacgagt gcgttttaag ggaactctga
+     1021 aaattgaacg tggacaaggt gacactatta tggacgggcc cagttctaat attgaaggag
+     1081 tattttctat ggtcatcgtg gttgatcgga aaccacatgt tagtcaatct ggccgtctac
+     1141 atacatttga tgagttgttt ggcgcgcgta tccattgtca cggtaattta tctgtcgtac
+     1201 ctgcattgaa ggaccgttac tacattagac acgttacgaa gcgtgtggtg tctcttgaaa
+     1261 aggacacgtt actgattgat ctccatggta cgacacaact gtctaacaag cgttataatt
+     1321 gttgggcatc gttcagcgat cttgaacggg attcatgtaa tggcgtttac ggtaacataa
+     1381 ccaagaacgc tctgttagtg tattactgtt ggctgtcgga tgcccagtcc aaggcatcaa
+     1441 catatgtatc gtttgaactg gactatttgg gatgattaag aataataaat tgcacaagtc
+     1501 ccgcaattaa ataagaacta aatactgaac agggctgttt attctactat taaaaatggc
+     1561 gcgcagcgga acactctcca aaacatgatg agcactagca ttaacaacta atgtgagcct
+     1621 aaagcgaact aataatttaa ttgtgattag cttagggatt ttggagtgct cgggatacaa
+     1681 ctggttttaa tgcattcatg tacagtggat ctaactaatt cgttcaactg tgacattgac
+     1741 atggtgatgt tcgattgcga ccgttgtatt ccgactattg aagctgattc cccaggatct
+     1801 aagatgttag ttcccaatct gttgagttcc ctgtatggaa gcagctcttc ttcaatatcc
+     1861 aaatccgcat ttctgttagt tgggcctatt gcactttttg tggcccaaga ttcacctgga
+     1921 ttaatttcaa ttgggcctct tagcccaaat ctagatgatg atgcggattt gaccagtctt
+     1981 ctctcccact tgccgtatcc cacgtgccag aaatcaatgt ccttttcgct aaattgtttt
+     2041 gcaagtatct ttactgttgg tgcccggaaa gggatatcaa cggagtgctt cgccgacgat
+     2101 agcttcagtt tgcccttgaa tttagcgaaa tgcgtcattt gatgcacatt cgagtctgag
+     2161 actcgatagt ataacttcca tgggattggg tcttttagag agaagaacga tgatgaaaaa
+     2221 tagtggagat ctatgttaca tcttatcgga aaagtccacg acgcttgcag agattcattg
+     2281 tccgtcatgc gtttgtcgtg aatctccact atcaccgtac cagatgcgtt gatcggaacc
+     2341 tgttgccgat attctatgac gcagtggtcg attttcatac aactacgact cagcctcgct
+     2401 gttatctgag atgccgtcga gggaaattgc agaacaattt ccgttaggtc gtgcgataac
+     2461 tgaaattcgt ccctctgcga ttctatgtaa ttgaatgcgc ttgggggtgg aactaattga
+     2521 gaacccatta gctcttgtac acactgaaca agcaatttag gtcaggaccc tcactggaaa
+     2581 atatgagttc aggagagata tatgagg
+//

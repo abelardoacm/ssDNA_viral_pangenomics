@@ -1,0 +1,132 @@
+LOCUS       NC_013019               2774 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Sunn hemp leaf distortion virus DNA-A, complete genome.
+ACCESSION   NC_013019
+KEYWORDS    RefSeq.
+SOURCE      Sunn hemp leaf distortion virus
+  ORGANISM  Sunn hemp leaf distortion virus
+REFERENCE   2  (bases 1 to 2774)
+REFERENCE   3  (bases 1 to 2774)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            FJ455449.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2774
+                     /organism="Sunn hemp leaf distortion virus"
+                     /mol_type="genomic DNA"
+                     /host="Crotalaria juncea"
+                     /db_xref="taxon:579113"
+                     /segment="DNA-A"
+                     /clone="SHLD-FL-Bar-01"
+                     /country="India: Barrackpore"
+                     /collection_date="2008"
+     gene            147..503
+                     /gene="AV2"
+                     /locus_tag="SHLDV_gp1"
+                     /db_xref="GeneID:8207060"
+     misc_feature    147..503
+                     /gene="AV2"
+                     /locus_tag="SHLDV_gp1"
+                     /note="nonfunctional pre-coat protein due to mutation"
+     gene            308..1081
+                     /gene="AV1"
+                     /locus_tag="SHLDV_gp2"
+                     /db_xref="GeneID:8207056"
+     misc_feature    308..1081
+                     /gene="AV1"
+                     /locus_tag="SHLDV_gp2"
+                     /note="nonfunctional coat protein due to mutation"
+     gene            complement(1086..1490)
+                     /gene="AC3"
+                     /locus_tag="SHLDV_gp3"
+                     /db_xref="GeneID:8207055"
+     CDS             complement(1086..1490)
+                     /gene="AC3"
+                     /locus_tag="SHLDV_gp3"
+                     /codon_start=1
+                     /product="transcription enhancer protein"
+                     /protein_id="YP_003084141.1"
+                     /db_xref="GeneID:8207055"
+                     /translation="MDSRTGELITAAQAEIGVFIWEIQNPLYFKILEHQNRPFLINQD
+                     TRTVRIQFNHNLRKALGIHNCFLFYRIWMSSQPQTGRFFWVLKTEVFKYLDNLGIISI
+                     NNVNRAVDHVLWNVLQHIVYVDQSYSITFNIY"
+     gene            complement(1225..1650)
+                     /gene="AC2"
+                     /locus_tag="SHLDV_gp4"
+                     /db_xref="GeneID:8207059"
+     CDS             complement(1225..1650)
+                     /gene="AC2"
+                     /locus_tag="SHLDV_gp4"
+                     /codon_start=1
+                     /product="replication enhancer protein"
+                     /protein_id="YP_003084142.1"
+                     /db_xref="GeneID:8207059"
+                     /translation="MGFTECDLRHPRRPTLLRYQSKCSTGYPRRGPDVDVFDSLVDIH
+                     ISYHSPVHDHGFTHRGTHHCSSSRDWRVYLGDSKSPLFQDTRAPEPSISHQPRYKNRP
+                     NTVQSQPKESTGDSQLFPILPNLDVFTASDWSFLLGLKD"
+     gene            complement(1538..2623)
+                     /gene="AC1"
+                     /locus_tag="SHLDV_gp5"
+                     /db_xref="GeneID:8207058"
+     misc_feature    complement(1538..2623)
+                     /gene="AC1"
+                     /locus_tag="SHLDV_gp5"
+                     /note="nonfunctional replication initiator protein due to
+                     mutation"
+     gene            complement(2158..2469)
+                     /gene="AC4"
+                     /locus_tag="SHLDV_gp6"
+                     /db_xref="GeneID:8207057"
+     misc_feature    complement(2158..2469)
+                     /gene="AC4"
+                     /locus_tag="SHLDV_gp6"
+                     /note="nonfunctional AC4 due to mutation"
+ORIGIN
+        1 accggatggc cgcgcaaatt tttaaagtgg tcccccccac taactcatgt cgcgtaacac
+       61 gtggacgaat gaaatgagct cctcgtggct taattatttt gtggtcccct atttaaactt
+      121 ccgcagcaag tagtgcattc cgcactatgt ggggatccat tagtaaacga gtttcccgaa
+      181 accgttcacg gttttacatg tctgttagca gttatatatc tccagttagt agaaaagact
+      241 tattctcctc acacattagg gcacgattta atttgggatt taatttcagt aattacggca
+      301 agaaattatg tcgaagcgac cagcagatat attcatttcc acgcccgctt cgaaggtacg
+      361 ccgccgtctc aacttcgaca gcccatatgt gtgccgtgct gctgccccca ttgtccgcgt
+      421 caccaaagca aaagcatggg cgaacaggcc cacgaacaga aagcccagga tgtacaggat
+      481 gtacagaagt ccagatgtcc taggaggatg tgaaggccca tgtaaggtcc agtcttttga
+      541 gtccagacat gatattcagc atataggtaa agtcatgtgt gtcagtgatg ttacgcgtgg
+      601 aactgggctg acccatcgag tgggtaaaag gttttgtgtt aaatctgttt atgtcttggg
+      661 taagatctgg atggacgaaa atattaagac caaaaatcac acgaatagtg tgatgttttt
+      721 tttagttagg gatcgtagac ctgtggataa acctcaagat tttggagagg tttttaacat
+      781 gtttgataat gagcccagta cggctactgt gaagaatgtt catcgtgata ggtatcaagt
+      841 tcttcggaag tggcatgcaa ctgtgactgg tggacaatat gcgtcaaagg aacaagctct
+      901 cgtgaagaag tttattaggg ttaataatta tttaataatt atgttgttta taaccagcaa
+      961 gaagctggca agtatgagaa tcattctgag aatgcgttat tgttgtatat ggcatgtact
+     1021 catgcctcta acccagtgta tgctactttg gagatacgga tctatttcta tgattccgta
+     1081 acaaattaat aaatattaaa tgttattgaa taagattggt ctacatatac aatatgttgt
+     1141 aatacattcc ataatacatg atcaactgca cgatttacat tattaatact gataattcct
+     1201 aaattatcta aatatttaaa tacttcagtc tttaagaccc aaaagaaacg accagtctga
+     1261 ggctgtgaag acatccagat tcggtagaat aggaaacagt tgtgaatccc cagtgctttc
+     1321 cttaggttgt gattgaactg tattcggacg gttcttgtat cttggttgat gagaaatgga
+     1381 cggttctggt gctcgagtat cttgaaataa aggggatttt gaatctccca gataaacacg
+     1441 ccaatctctg cttgagctgc agtgatgagt tccccggtgc gtgaatccat gatcgtggac
+     1501 aggcgagtgg tatgaaatat gaatatccac aagggagtca aacacgtcga cgtctggtcc
+     1561 ccttcttggg tagcctgtgc tgcactttga ttggtacctg agtagagtgg gccttcgagg
+     1621 gtgacgaaga tcgcattctg taaagcccat tttttaagtg cgctattttt ctcttcatcc
+     1681 aagaactctt tatagcttga gttgggtcct ggattgcaga ggaagatagt gggaattccg
+     1741 cctttaattt gaactggctt tccgtatttc gtgttgcttt gccagtccct ttgggccccg
+     1801 atgaattcct taaagtgctt gaaataatcc ggatcaacgt catcaatgac gttgtaccac
+     1861 gcatcattat tgtagacctt aggactaagg tcaaagtgac cacacaggta attatgtgga
+     1921 cccaaagacc tagcccacgt ggtcttcccc gttctactat caccctctgt gacaatacgc
+     1981 ttgggtctga aagtccgcgc agcggcacac accactttct cagcagccca ttcttcaagt
+     2041 tcctctggaa cttggtcaaa agaagaagaa gaaaaaggag aaatatattc ctcgatagga
+     2101 ggagtaaata ttctatcaaa attagcagat agattatgaa attgtaatac acaatcttta
+     2161 ggtgctgatt cctgcaagac tgtaagagcc tctgacgtac tgcctgcgat aagtgctgcg
+     2221 gcgtaagcgg cattggctgt ctgttgaccc cctcttgcag atcttccatc gatctgaaac
+     2281 tctcccccag tcgagggtgt ctcccgtcct tctccaggta ggacttgacg tccgagcttg
+     2341 atttagctcc ctgaatgttc ggatggaaat gtgctgatct ggttggggat accaggtcga
+     2401 agaatctgtt attctggcac ttgtatttcc cctcgaactg gatgagcacg tgaagatgag
+     2461 gttccccatt ttcaagaagc tctctgcaga tcttgatgta ttttttattt gttggggttt
+     2521 gtaggttttg aaattgggaa agtgcttcct ctttagtaag agagcatttc ggataagtga
+     2581 gaaaataatt tttagagtta atgaggaaac gcttgggagg catgttgact aaaatagagg
+     2641 acccgattga ccgctcttgc aactctcccc tgtatattgg gtctcaatat atagtgagac
+     2701 ccaaatggca tattcgtaat ttggtaaagg aattcaaaat ttacacgctc caaagcggcc
+     2761 atccgtataa tatt
+//

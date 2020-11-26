@@ -1,0 +1,101 @@
+LOCUS       NC_038793               2494 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Cabbage leaf curl Jamaica virus clone 1966 Cu3-B6 segment DNA-B,
+            complete sequence.
+ACCESSION   NC_038793
+KEYWORDS    RefSeq.
+SOURCE      Cabbage leaf curl Jamaica virus
+  ORGANISM  Cabbage leaf curl Jamaica virus
+REFERENCE   2  (bases 1 to 2494)
+REFERENCE   3  (bases 1 to 2494)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ178609.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2494
+                     /organism="Cabbage leaf curl Jamaica virus"
+                     /mol_type="genomic DNA"
+                     /isolate="CUc-3"
+                     /host="cauliflower"
+                     /db_xref="taxon:345184"
+                     /segment="DNA-B"
+                     /clone="1966 Cu3-B6"
+                     /country="Jamaica"
+     gene            375..1145
+                     /gene="nsp"
+                     /locus_tag="D1S66_sBgp1"
+                     /db_xref="GeneID:37619195"
+     CDS             375..1145
+                     /gene="nsp"
+                     /locus_tag="D1S66_sBgp1"
+                     /note="nuclear shuttle protein"
+                     /codon_start=1
+                     /product="NSP"
+                     /protein_id="YP_009507983.1"
+                     /db_xref="GeneID:37619195"
+                     /translation="MYPTKFRRGTSYSHRRFVSRNPSFKRGTLVRRTDGKHRKGPSSK
+                     AHDEPKMKLQRIHENQYGPEFVMTHNSALSTFINFPVLGKIEPNRSRSYIKLNRLLFK
+                     GTVKIERVHADVNMDGVSSKIEGVFSLVIVMDRKPHLSSAGGLHTFDEMFGARIHSHG
+                     NLAIAPGLKDRYYVLHVFKRVLSVEKDTLMVDLEGSTMISNRRYNCWASFNDLEHDSC
+                     NGVYANISKNAILVYYCWMSDAMSKASTFVSYDLDYLG"
+     gene            complement(1204..2085)
+                     /gene="mp"
+                     /locus_tag="D1S66_sBgp2"
+                     /db_xref="GeneID:37619194"
+     CDS             complement(1204..2085)
+                     /gene="mp"
+                     /locus_tag="D1S66_sBgp2"
+                     /note="movement protein"
+                     /codon_start=1
+                     /product="MP"
+                     /protein_id="YP_009507984.1"
+                     /db_xref="GeneID:37619194"
+                     /translation="MDSQLANAPNAFNYIESHRDEYQLCHDLTEIVLQFPSTAAQFTA
+                     RLNRSCMKIDHCVIEYRQQVPINATGTVIVEIHDKRMTDDESLQASWTFPLRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYRVSDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     IHSKQFSHRDVDFSHVDYGKWERKTLRSRSLSRIGLTGPIELQPGDSWASRSTIGLTN
+                     PQTESEVENALHPYRELNQLGTSALDPGDSASQAGLQRAQSTITMSVAQLSELVRTTV
+                     QECINNNCNPTQPKSLQ"
+ORIGIN
+        1 accggatggc cgcaaatttt ttggcgtcct ggtgctgggg accatctccc ggcccccctt
+       61 ggcgcactat ctctcatctt tcgacgtggc gcgtcgatga gcgttggcta acgcttatct
+      121 cggtgttaga cctttaattt gaatttcgaa ataattggtc gtatatatct atcttgaccg
+      181 gtctttgtga cgacaaaact tctgacacat tgtacgatat attgagcgtg gcccaattat
+      241 attttctctg cggagttaga ctatcgctta ttgttattca tcttgtctat ataatggacg
+      301 ataggttaat aatttaaatc gtctttgaca ataacattta aataacaaat cattttgtag
+      361 aggagctgag aataatgtat cctacaaagt ttaggcgtgg gacttcttac tctcatagac
+      421 gatttgtttc acgtaatcct tcttttaagc gtggaacttt ggttagacgc actgatggga
+      481 aacatcgtaa aggcccatca agcaaagccc atgatgagcc taaaatgaaa ttacaacgca
+      541 tacatgaaaa tcaatatggg cctgaatttg tcatgaccca caactcagct ctttcaacat
+      601 tcattaattt cccggtactt gggaagatcg aacctaaccg aagcaggtcg tatattaagt
+      661 tgaatcgttt attatttaag ggaaccgtta agattgagcg tgtgcacgct gatgtgaaca
+      721 tggacggagt aagttcgaag atagaaggtg tgttctctct tgttattgtt atggatcgca
+      781 agccacattt gagttccgct ggaggtttgc atacatttga tgaaatgttt ggtgcaagaa
+      841 tccacagcca tggtaactta gctattgcac ccggtttgaa agatcgttat tacgtgctcc
+      901 atgttttcaa acgcgtattg tctgtggaga aagacacttt gatggtggat cttgaaggat
+      961 cgaccatgat atctaatagg cgttataact gttgggcctc gtttaacgat cttgaacatg
+     1021 actcatgtaa cggtgtttat gcgaatataa gcaaaaatgc cattttagtt tactattgtt
+     1081 ggatgtccga tgctatgtct aaggcatcga cctttgtatc ttacgatctt gattatttag
+     1141 gttaatcctg aataaaatgg cgttaagatt gaatatatac ataaaaaata aaaccaagca
+     1201 attttattgc aatgactttg gttgtgtagg attacaatta ttgttaatac attcctggac
+     1261 cgtcgtccta actagctcgc ttaattgggc cactgacatc gttatggttg attgggccct
+     1321 ctgtaatcca gcttgtgatg ctgaatcccc ggggtctaat gcgctagttc ctagctggtt
+     1381 gagttctcta tatggatgta gcgcattctc cacttctgat tcagtttgtg ggtttgtaag
+     1441 cccaatagtg ctccttgaag cccatgaatc acctggttgt aattcaattg ggcctgttag
+     1501 tccaattctt gacaatgatc tggacctcaa cgttttcctc tcccattttc cgtagtccac
+     1561 atgggagaaa tcaacatctc tatgtgaaaa ttgtttggag tgaattttca ctgttggtgc
+     1621 ccggaagggt atatccactg aatgtttagc tgttgacaat ttcaatttcc ctttaaactt
+     1681 ggcaaaatgt gttcgttgat gcacattcgt gtcgctaacc ctgtaataga gtttccacgg
+     1741 aatagggtct tttagcgaga agaatgaaga tgaaaaatag tggagatcta tgttgcatct
+     1801 taagggaaat gtccaagacg cctgtaagga ttcatcgtca gtcatcctct tatcatggat
+     1861 ctctacaatc accgtcccgg ttgcgttaat tggtacttgc tgtctatatt cgatgacgca
+     1921 atggtcgatt ttcatacagc tacgattaag ccttgctgta aattgcgctg cagttgaagg
+     1981 gaattgcagt actatttcag taagatcatg acatagctga tattcgtctc tatgagactc
+     2041 tatgtaatta aacgcatttg gagcatttgc tagctgagaa tccatctata gaaatctgcc
+     2101 cgcgcagcgg cagaggcttc aataatatct gggttcaaga ataattgtgt tgaagaacac
+     2161 aacaatgaaa cgacttgttt cacaaggagg aagagagaat atctgggctt gttaacaaga
+     2221 agaaaataat gatattttaa aggaatgatg aatatgttat gttattccga taacatgagt
+     2281 ataataatct aagtccacct tgtttatata gagagtgatt ttccagaagt tggaaacgcc
+     2341 ttgaatttcc ttttagtggc attattgtaa atatgggtgt tcccccgata gcgctctcgc
+     2401 tcaaaactcc tatgaattgg gggaactggg ggaacttata tagtagaagt tcctaaaggc
+     2461 aaatcaacac gtggcggcca tccgttataa tatt
+//

@@ -1,0 +1,145 @@
+LOCUS       NC_016082               2621 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Sida yellow mottle virus strain Cuba:Sancti Spiritus159-1:2009
+            segment DNA-A, complete sequence.
+ACCESSION   NC_016082
+KEYWORDS    RefSeq.
+SOURCE      Sida yellow mottle virus
+  ORGANISM  Sida yellow mottle virus
+REFERENCE   2  (bases 1 to 2621)
+REFERENCE   3  (bases 1 to 2621)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JN411687.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2621
+                     /organism="Sida yellow mottle virus"
+                     /mol_type="genomic DNA"
+                     /strain="Cuba:Sancti Spiritus159-1:2009"
+                     /isolate="159-1"
+                     /host="Sida rhombifolia"
+                     /db_xref="taxon:1093958"
+                     /segment="DNA-A"
+                     /country="Cuba"
+                     /collection_date="May-2009"
+                     /collected_by="E. Fiallo-Olive"
+     gene            196..951
+                     /gene="AV1"
+                     /locus_tag="SiYMoV_sAgp1"
+                     /db_xref="GeneID:11266547"
+     CDS             196..951
+                     /gene="AV1"
+                     /locus_tag="SiYMoV_sAgp1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_004901693.1"
+                     /db_xref="GeneID:11266547"
+                     /translation="MPKRDLPWRSMAGTSKVSRNANYSPRAGSGPRGNKASEWVNRPM
+                     YRKPRIYRTLRTPDVPRGCEGPCKVQSYEQRHDISHVGKVMCISDVTRGNGITHRVGK
+                     RFCVKSVYILGKIWMDENIKLKNHTNSVMFWLVRDRRPYGTPMDFGQVFNMFDNEPST
+                     ATVKNDLRDRYQVMHKFYGKVTGGQYASNEQAIVKRFWKVNNYVVYNHQEAGKYENHT
+                     ENALLLYMACTHASNPVYATLKIRIYFYDSIMN"
+     gene            complement(948..1346)
+                     /gene="AC3"
+                     /locus_tag="SiYMoV_sAgp2"
+                     /db_xref="GeneID:11266548"
+     CDS             complement(948..1346)
+                     /gene="AC3"
+                     /locus_tag="SiYMoV_sAgp2"
+                     /codon_start=1
+                     /product="replication enhancement protein"
+                     /protein_id="YP_004901694.1"
+                     /db_xref="GeneID:11266548"
+                     /translation="MDSRTGEFITARQAENGVYIWEIENPLYFKMYRVEDPLYTRTRV
+                     YHVQIRFNHNLRRALHLHKAYLNFQVWTTSMTASGSTYLARFRHLVNMYLDQLGVISL
+                     NNVIRAVRFATDRSYVNHVLENHSIKFKFY"
+     gene            complement(1093..1482)
+                     /gene="AC2"
+                     /locus_tag="SiYMoV_sAgp3"
+                     /db_xref="GeneID:11266549"
+     CDS             complement(1093..1482)
+                     /gene="AC2"
+                     /locus_tag="SiYMoV_sAgp3"
+                     /codon_start=1
+                     /product="transactivator protein"
+                     /protein_id="YP_004901695.1"
+                     /db_xref="GeneID:11266549"
+                     /translation="MRSSSPSQPPSIKIAHRQAKKRAIRRRRIDLQCGCSIYFHIDCT
+                     GHGFTHRGIHHCTSGGEWRVYLGDRKSPVFQDVQSRGPVVHQNEGVSRTDTVQSQPEE
+                     SVASPQSLPELPSLDDIDDSFWVNLFS"
+     gene            complement(1394..2479)
+                     /gene="AC1"
+                     /locus_tag="SiYMoV_sAgp4"
+                     /db_xref="GeneID:11266550"
+     CDS             complement(1394..2479)
+                     /gene="AC1"
+                     /locus_tag="SiYMoV_sAgp4"
+                     /codon_start=1
+                     /product="replication associated protein"
+                     /protein_id="YP_004901696.1"
+                     /db_xref="GeneID:11266550"
+                     /translation="MPSVKRFKVSAKNYFLTYPQCSLSKEEALSQLQNLATPVNKKFI
+                     KICRELHENGEPHLHVLVQFEGKYQCKNNRFFDLVSPTRSAHFHPNIQGAKSSSDVKS
+                     YIDKDGDTLEWGEFQIDGRSARGGCQSTNDTYAKALNASSVEEALQIIKEEQPQHFFL
+                     QHHNLVANAHRIFQKAPEPWVPPFQLSSFTNVPDEMQEWADEYFGRGSAARPDRPLSL
+                     IVEGDSRTGKTMWARALGPHNYLSGHLDFNGRVYSNAVEYNVIDDVAPQYLKLKHWKE
+                     LLGAQKDWQSNCKYGKPVQIKGGIPAIVLCNPGEGSSYKEFLDKEENAGLRNWTIKNA
+                     IFITLTAALYQDSTQTGQEKGDQEAQD"
+     gene            complement(2065..2322)
+                     /gene="AC4"
+                     /locus_tag="SiYMoV_sAgp5"
+                     /db_xref="GeneID:11266551"
+     CDS             complement(2065..2322)
+                     /gene="AC4"
+                     /locus_tag="SiYMoV_sAgp5"
+                     /codon_start=1
+                     /product="AC4 protein"
+                     /protein_id="YP_004901697.1"
+                     /db_xref="GeneID:11266551"
+                     /translation="MGSLISMCLYNSRENTSARITDSSIWSPQPGQHISIRTYRELNL
+                     APTSSPTSTRTEIHWNGGNSRSTVEVLEEAANRLTTRMPRH"
+ORIGIN
+        1 accggatggc cgcgcgcccc ccctggtgcc gtacactctc gcgcgatctt taatttaaat
+       61 taaagcgtac tgctttgtgt ttgtccaatc atgttgcgtc tgacgagcct agatatttgc
+      121 aacaacttgg gccctaagtt gttgggtgtc cgttataaat taaagatgac tttggcccac
+      181 aatctttaac tcaaaatgcc taagcgcgat ctgccatggc gctcgatggc gggaacctca
+      241 aaggttagcc gcaatgctaa ctattctcct cgtgcaggta gtgggccaag aggaaacaag
+      301 gcctctgaat gggtgaacag gccaatgtac aggaagccca ggatctaccg gacgctgagg
+      361 acccccgatg tgcccagagg ctgtgaaggc ccatgtaagg tccagtccta tgaacagcgc
+      421 catgacatct cacatgtcgg gaaggtcatg tgcatctcgg atgtgacacg tggtaatggc
+      481 atcacccatc gtgtgggtaa gcgtttctgt gttaagtctg tgtatatctt agggaagatc
+      541 tggatggacg agaacatcaa gctcaagaac cacacgaaca gtgtcatgtt ctggttggtc
+      601 agagaccgta gaccgtatgg cacgcctatg gattttggtc aggtgtttaa catgttcgac
+      661 aacgagccaa gcactgccac ggtgaagaac gatctccgcg atcgttacca ggttatgcac
+      721 aagttctatg gcaaggtgac tggtggacag tatgccagca acgagcaggc tatagtcaag
+      781 aggttctgga aggtcaacaa ttatgtggtg tacaaccacc aagaggctgg caagtacgag
+      841 aatcacacgg agaacgccct gttattgtat atggcatgta ctcatgcatc taaccctgtg
+      901 tatgcaactc tgaagattcg gatctatttt tacgattcga ttatgaatta ataaaatttg
+      961 aattttattg aatgattttc cagtacatga tttacatacg atctgtctgt cgcgaatcga
+     1021 acagctctga ttacattgtt taacgaaatg acgcctaact gatctaaata catgttgact
+     1081 aaatgcctaa atctagctaa ataagttgac ccagaagctg tcatcgatgt cgtccagact
+     1141 tggaagttca ggtaggcttt gtggagatgc aacgctctcc tcaggttgtg attgaaccgt
+     1201 atctgtacgt gatacaccct cgttctggtg tacaacgggt cctctactct gtacatcttg
+     1261 aaatacaggg gattttcgat ctcccagata tacacgccat tctccgcctg acgtgcagtg
+     1321 atgaattccc ctgtgcgtga atccatgtcc cgtacagtct atgtggaagt agatggagca
+     1381 cccgcactgg agatcaatcc tgcgcctcct gatcgccctt ttcttggcct gtctgtgtgc
+     1441 tatcttgata gagggcggct gtgagggtga tgaagatcgc attcttgata gtccagtttc
+     1501 ttagtcctgc attttcctct ttgtccagga actctttata gctggaaccc tcaccaggat
+     1561 tgcaaagcac gattgctggg attccacctt taatttgaac aggcttaccg tatttgcaat
+     1621 ttgactgcca atctttttgg gcccccagca attctttcca gtgctttagc tttagatatt
+     1681 gcggtgcgac gtcatcaatg acgttatact ccaccgcgtt tgaatagact cgaccattga
+     1741 agtccaggtg tccactgaga tagttatgtg ggcctaacgc acgtgcccac atcgtcttcc
+     1801 ctgttcttga atcaccttct actatgagac ttaatggtct atctggccgc gcagcggaac
+     1861 ccctaccaaa atactcatcg gcccattctt gcatctcgtc cggaacgtta gtgaatgagg
+     1921 agagttgaaa cggaggtacc cacggttccg gagccttctg aaatatccga tgagcattgg
+     1981 caactaaatt gtgatgttga aggaagaaat gttgaggctg ctcttccttg attatttgca
+     2041 gcgcctcttc tacagaagag gcattcaatg ccttggcata cgtgtcgtta gtcgattggc
+     2101 agcctcctct agcacttcta ccgtcgatct ggaattcccc ccattccagt gtatctccgt
+     2161 ccttgtcgat gtaggacttg acgtcggagc tagatttagc tccctgtatg ttcggatgga
+     2221 aatgtgctga cctggttggg gagaccagat cgaagaatct gttattcttg cactggtatt
+     2281 ttccctcgaa ttgtacaagc acatggagat gaggctcccc attctcatga agctctctgc
+     2341 aaattttgat gaacttcttg ttaactggag ttgctaggtt ttgtaattgg gaaagtgcct
+     2401 cttcttttga cagagagcac tgtggataag tgaggaaata gtttttggct gagactttaa
+     2461 aacgcttaac cgatggcatt tttgtaataa gaaggggtac cccaattgga gtctctccaa
+     2521 acttgctcta tcaattgggg tttggggtct catttatact agaggtttct atagaactct
+     2581 caatctcgtt cgcacacgtg gcggccatcc gatataatat t
+//

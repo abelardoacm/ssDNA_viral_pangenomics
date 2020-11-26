@@ -1,0 +1,100 @@
+LOCUS       NC_009647               2672 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Kudzu mosaic virus DNA-B, complete sequence.
+ACCESSION   NC_009647
+KEYWORDS    RefSeq.
+SOURCE      Kudzu mosaic virus (KuMV)
+  ORGANISM  Kudzu mosaic virus
+REFERENCE   2  (bases 1 to 2672)
+REFERENCE   3  (bases 1 to 2672)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from DQ641691.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2672
+                     /organism="Kudzu mosaic virus"
+                     /mol_type="genomic DNA"
+                     /host="Kudzu (Pueraria montana, Fabaceae); crop"
+                     /db_xref="taxon:390437"
+                     /segment="DNA B"
+                     /country="Viet Nam: Hoabinh"
+                     /note="*acronym: KuMV"
+     gene            395..1174
+                     /gene="BV1"
+                     /locus_tag="KuMV_sBgp1"
+                     /db_xref="GeneID:5329917"
+     CDS             395..1174
+                     /gene="BV1"
+                     /locus_tag="KuMV_sBgp1"
+                     /codon_start=1
+                     /product="NSP protein"
+                     /protein_id="YP_001333682.1"
+                     /db_xref="GeneID:5329917"
+                     /translation="MLAMFTPRATPRNYPRRVSGQFKRKLRPYNGGLNTYRKLRVARK
+                     LSYDPSVRPFSINTLVERQHGSHMTLGSNSDITSFVEYPVRGINGDGRSRDYIKLLHL
+                     SASGVINVKVASSDQVMDGGSRHNGVFVMCLLQDMKPFLPDGVNSLPTYAELFGPYSS
+                     AYVNMHLLDSHKQRFRILGSVKKFVSCGLDAVDIPFKLDLKLSNGRYPLWASFKDAEE
+                     GNCGGNYRNIAKNAIIVSYAFVSLHSLKCEPFVQFELRYMG"
+     gene            complement(1206..2102)
+                     /gene="BC1"
+                     /locus_tag="KuMV_sBgp2"
+                     /db_xref="GeneID:5329918"
+     CDS             complement(1206..2102)
+                     /gene="BC1"
+                     /locus_tag="KuMV_sBgp2"
+                     /codon_start=1
+                     /product="MP protein"
+                     /protein_id="YP_001333683.1"
+                     /db_xref="GeneID:5329918"
+                     /translation="METYSGALVTNKYIQSKRCEYRLTNNETPITLQFPSSIEQAAVK
+                     MLGKCMKVDHIVIEYRNQVPYNATGSVIVTIRDTRLSDDQAAQAAFTFPIGCNVDLHY
+                     FSSSFFSIKDETPWELLYKVEDSNVNDGTAFAQIKGKLKLSAAKHSTDIKYKPPTIKI
+                     LSKDYTADCVDFWSVERPKPIRRLLTPTPGCGPDGLQRQRPMLLQPGETWATRSTIGR
+                     STSMRYPDNNIMGLEHRTISSDAEFPLKHMHKLPESSLDPGDSVSQAQTNPVTRADIE
+                     SIIETTINRCLVTQRSNVSKPL"
+ORIGIN
+        1 accaggacgc gcccggtgcc tttggtgcgg tgtggtcccc ccgcccatgt gctttcaatc
+       61 tcgtccgcac gtttttttta gtcttcgcgc gtggtgtgaa tgcgccgtaa tgcgcttgcc
+      121 gcaaataacg ttataactgc tttaatttga atttctttaa attatgtgga atacctgaaa
+      181 caccctttgg tgttatatgt ataacagcta tacgtgcact atgattgtgc atatagtaat
+      241 tgttatcaac caattacatt tcaaccgttc aggattttat tttaagctat ttgctacgat
+      301 ttgtatgtga gtgttattat aaacatggtc tgtccctata aaagggatta tgttgatatt
+      361 atataacatg tgaaagaaaa tatacttatt ttcaatgtta gccatgttta cccctcgagc
+      421 aaccccccgt aattatcccc gtcgtgtcag tgggcaattt aagcgtaaat tacgcccata
+      481 caatgggggt cttaacacgt atcgtaaact gcgtgttgct cgcaagttat cctacgatcc
+      541 atctgtccgt ccgttctcta taaatacact agttgaacgg caacatggtt cacatatgac
+      601 ccttggaagt aattcggata ttacttcatt tgttgaatat ccagttcgtg gtattaatgg
+      661 cgatggtcgt tcaagggatt acatcaaatt gcttcattta tcagcctcag gcgttattaa
+      721 cgttaaggtt gcctcttcgg atcaagtaat ggatggtggt tctcgtcaca acggcgtatt
+      781 tgttatgtgt ttacttcagg acatgaagcc gtttttacct gacggcgtca atagcttgcc
+      841 aacgtatgcc gagttattcg ggccttattc gtctgcttat gttaatatgc atttgttgga
+      901 tagccataaa cagcgtttta ggattttagg tagcgtaaaa aaatttgtaa gttgtggttt
+      961 ggatgcggta gacatccctt tcaagttaga ccttaagcta tccaacggga ggtatccatt
+     1021 gtgggcgtca tttaaagacg ctgaagaggg taattgtggg ggcaattata gaaatattgc
+     1081 caaaaatgca ataattgtaa gctatgcatt tgtttcattg catagcctta agtgtgaacc
+     1141 atttgtacaa tttgaactcc gttacatggg ataataaaat gatgttattc attttgtgtg
+     1201 tttaattaca atggtttgga tacatttgat ctctgcgtaa ccaaacacct gttaatggtt
+     1261 gtttcgataa tgctctcgat gtccgctctt gtaaccggat tggtttgcgc ctgtgagact
+     1321 gagtctcccg ggtctaatga cgactcaggt aatttgtgca tgtgttttag aggaaattct
+     1381 gcgtcggacg agattgtcct gtgctcaagg cccattatat tgttgtctgg ataccgcatt
+     1441 gacgtgctgc gtccaattgt ggaccgtgtg gcccatgtct ccccaggctg taataacatg
+     1501 ggcctttggc gctgtagccc atcaggacca catcctggcg ttggtgttaa tagtcttctg
+     1561 atgggtttgg gcctctcgac agaccaaaag tccacgcaat ccgctgtgta gtctttggac
+     1621 aatattttta ttgttggcgg tttgtattta atgtctgtcg aatgttttgc cgccgataac
+     1681 ttcaacttgc cctttatttg ggcaaatgct gtgccgtcgt tgacgtttga gtcttctact
+     1741 ttgtatagaa gctcccatgg cgtctcatct ttgatggaga aaaatgagga tgaaaagtaa
+     1801 tgcagatcta cgttacatcc aatggggaat gtgaaagctg cctgtgcagc ctgatcatcg
+     1861 cttaatcttg tgtcacgtat agtgacgatg acacttccag ttgcattgta aggtacttgg
+     1921 ttacgatact caattactat atggtcaacc ttcatgcatt ttcccagcat tttaactgct
+     1981 gcttgttcta ttgacgacgg aaattgaaga gtaattggag tttcgttgtt tgtcagacgg
+     2041 tattcgcatc gctttgattg aatatacttg tttgtgacca gtgctccaga gtatgtctcc
+     2101 atgtgtaaca cacacccgtc tacaactgaa tagtataatg cgatttttgt tgaccttgat
+     2161 cctgcaaata taaactaata atttattctt agttggccgc gcagcggcat cattcggaga
+     2221 tttatactcc gatacaaggc taattgcaat aaacaaaata atgtgcacaa caagtagctt
+     2281 cttgactata tggcaactgg agagctgttg catgctatgc aaaataagca acttaaaaac
+     2341 aaacctgaat agagcaatat tcagatacaa gtgtggttat cttgcttggt agaagatttt
+     2401 cagttctcaa aatattttat agtaaaaaag ttaacttagg atccatccct tatgcttaaa
+     2461 taagggtatt cttatttaag ccagaagcaa aggccttgat agtgttgcag ctgttggaat
+     2521 tctagagaga agttggagtt tctctctcta gcgacaccga ttggggtcaa attcatttat
+     2581 cccctagtat tagtgtcgca tatatacttg tgacaccgat ctacgtggca gctgatgtca
+     2641 ttcccccgac acgcgcgtcc tgttataata tt
+//

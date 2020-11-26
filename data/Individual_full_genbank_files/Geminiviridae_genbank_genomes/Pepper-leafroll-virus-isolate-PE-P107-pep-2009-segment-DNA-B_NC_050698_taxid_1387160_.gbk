@@ -1,0 +1,103 @@
+LOCUS       NC_050698               2516 bp    DNA     circular VRL 13-OCT-2020
+DEFINITION  Pepper leafroll virus isolate PE:P107:pep:2009 segment DNA B,
+            complete sequence.
+ACCESSION   NC_050698
+KEYWORDS    RefSeq.
+SOURCE      Pepper leafroll virus
+  ORGANISM  Pepper leafroll virus
+REFERENCE   2  (bases 1 to 2516)
+REFERENCE   3  (bases 1 to 2516)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC769820.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2516
+                     /organism="Pepper leafroll virus"
+                     /mol_type="genomic DNA"
+                     /isolate="PE:P107:pep:2009"
+                     /host="Capsicum baccatum var. pendulum"
+                     /db_xref="taxon:1387160"
+                     /segment="DNA B"
+                     /country="Peru: La Libertad, San Carlos Alto"
+                     /collection_date="2009"
+                     /collected_by="E. Moriones"
+     gene            562..1188
+                     /gene="BV1"
+                     /locus_tag="IM026_sBgp1"
+                     /db_xref="GeneID:59167378"
+     CDS             562..1188
+                     /gene="BV1"
+                     /locus_tag="IM026_sBgp1"
+                     /codon_start=1
+                     /product="NSP"
+                     /protein_id="YP_009927293.1"
+                     /db_xref="GeneID:59167378"
+                     /translation="MPVSAQRIHENQYGPEFVMAQNTAISSYITYPTLGKGDSCRSRS
+                     YIKLKRLRFKGTLKIERINPDVNMQDLSPKIEGVFSMVIVVDRKPHLGASGRLHTFDE
+                     LFGARIHSHGNLVVTAAQRDRFYIRHVFKQVMSVENDSTMVDLEGVTYLSNRRYNCWS
+                     TFKDVDRDSCNGVYDNISKNAVLVYYCWMTDILSKASTFVSFDLDYIG"
+     gene            complement(1267..2148)
+                     /gene="BC1"
+                     /locus_tag="IM026_sBgp2"
+                     /db_xref="GeneID:59167377"
+     CDS             complement(1267..2148)
+                     /gene="BC1"
+                     /locus_tag="IM026_sBgp2"
+                     /codon_start=1
+                     /product="MP"
+                     /protein_id="YP_009927294.1"
+                     /db_xref="GeneID:59167377"
+                     /translation="MGSQLDFPPTAFNYVESQRDEYQLSHDLTEIILQFPSTASQLTA
+                     RLSRSCMKIDHCVIEYRQQVPINASGSVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYRVSDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRPPTVK
+                     ILSKQFTEKDIDFSHVGYGKYERKLIRSASSSRYGLHSPITIAPGETWATRSTIGSGH
+                     TDADSDIESALHPYKELHRIGTSLLDPGDSASIVGARRAESNITMSMAQLNELVKTAA
+                     QECIKNNCTPTETKSLK"
+ORIGIN
+        1 accggatggc cgccggggac cgctttatct ttgcacgtgg tgcaatccct gccctccctt
+       61 ggcgttagtt taaggcctag agatttgcga attcaattga gcgcattttt gaggtccgcg
+      121 aattcagtta agcgcattat ttgaaatccg cccgtctagt cgtcctctac tttaatttga
+      181 attaaagcgt agcttttcta tataaccaat gaattcgcga ttgtggaatc tatatagtcg
+      241 ttataaacct tcgaatgtcg tgacgttata tttgtgtatg attccactac gtactacata
+      301 tgacctggac caatcacatt tcttgtgtat agtcaattta acaagtgatt aattcattga
+      361 gcattatata tgacctatgg aatgagttat gagtcatatg catatttgga atctcactat
+      421 gaattcatgg aaatatggac gtcgcgttac ttgtactggt cgtcgaaata ctaataggta
+      481 ttccaaatat aaacgtacat atggtgtgaa aaggacccag ttgaaccagg gtccactact
+      541 tcgaataagg gccatgaaga tatgccagtg tcagcccaac ggatacatga gaaccaatat
+      601 gggcctgagt ttgttatggc ccaaaataca gccatatcta gttacatcac atatcctaca
+      661 cttggtaagg gtgactcttg tcgatcacgg agttatatta agttaaaacg tctgcgtttc
+      721 aaaggtacac taaagattga acgtattaat ccggatgtga atatgcaaga tttaagcccg
+      781 aagattgaag gtgtattttc tatggtaatt gttgttgatc gtaaacctca tcttggggca
+      841 tctggacgtc tgcatacgtt tgatgaacta tttggagcaa ggatacatag ccatgggaat
+      901 ttggttgtta ctgctgcaca gagagaccgt ttttatatac ggcatgtgtt taagcaagtt
+      961 atgtccgttg aaaatgattc tacaatggtc gatttggaag gagtgacata tttatcgaac
+     1021 aggcgttata attgctggtc tacatttaaa gacgttgatc gtgattcatg taatggggtt
+     1081 tatgataata ttagcaaaaa tgctgtgtta gtctattatt gctggatgac ggatattcta
+     1141 tctaaggcat cgacatttgt atcatttgat cttgattata ttggatgaaa taataaccat
+     1201 ttaacatatg acatgaattt ttactattta aaaagaattt gatataaaaa acaagtgcat
+     1261 aaggctttat ttcaaggatt tggtctcagt aggagtacag ttatttttaa tacattcctg
+     1321 ggccgcagtc ttaaccaatt catttaactg ggccatagac attgttatgt tggactctgc
+     1381 tcgtcgcgca cctacaattg atgcggagtc acctgggtct aataagctcg tacctattct
+     1441 gtgtagttct ttgtaaggat gtagtgcgct ctcaatatca gagtccgcat ctgtatgacc
+     1501 agacccgata gtacttcgtg ttgcccatgt ttcacctggt gctattgtaa ttgggctgtg
+     1561 tagcccatat cttgaactgg atgcggacct gatgagtttc ctttcatatt tgccgtaccc
+     1621 aacatgcgag aaatctatat ctttctcggt aaactgctta gacaatattt ttacagttgg
+     1681 gggtctgaaa ggaatatcca cggaatgttt agccgtcgat aatttcagct tgcctttgaa
+     1741 tttggcaaaa tgtgtccttt gatgaacatt cgtgtcgcta actctataat ataatttcca
+     1801 tggaattggg tctttaagcg aaaagaatga cgaagagaaa tagtggaggt ctatgttaca
+     1861 tcttatggga aatgtccatg acgcttgcaa tgactcatta tcagtcattc ttttatcatg
+     1921 aatctccact attacagaac cagatgcgtt aatcggtact tgttgtctgt attcaatgac
+     1981 gcaatggtca attttcatac agctacgact cagtcttgca gtaagttgtg aagctgttga
+     2041 aggaaactgc aaaataatct cagttaagtc gtgagataat tgatattcat cacgttgaga
+     2101 ttcgacataa ttaaacgctg ttggtgggaa atctagctgt gaacccatac tgcttgatgc
+     2161 tactaatatg aaaattcggc cgcgcagctg aactggaacc tgaaatcaat atgagggaat
+     2221 aaaataagat ttggttatgt gaatatggaa ctcgtaacaa tcagcggttg tctaaagtta
+     2281 tatgcatata tgttattttg cagaacgtta atcttgttta tatagagtga tatgaaatgt
+     2341 tatactattt tctaatatgt tgaataattt ccgataaggg cattttaggg aatattgaat
+     2401 gagtaccgat tgctcgccct caaacttggc gaaatgaatt ggggaatggt actcaattta
+     2461 tagtagagtc atttaatttt tatgcgacac gtggcggcca tccgttatat aatatt
+//

@@ -1,0 +1,98 @@
+LOCUS       NC_014128               2573 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Sida golden mottle virus DNA-B, complete genome.
+ACCESSION   NC_014128
+KEYWORDS    RefSeq.
+SOURCE      Sida golden mottle virus
+  ORGANISM  Sida golden mottle virus
+REFERENCE   2  (bases 1 to 2573)
+REFERENCE   3  (bases 1 to 2573)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GU997692.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2573
+                     /organism="Sida golden mottle virus"
+                     /mol_type="genomic DNA"
+                     /host="Sida santaremensis"
+                     /db_xref="taxon:759390"
+                     /segment="DNA B"
+                     /country="USA: Bradenton, Florida"
+                     /collection_date="Jan-1997"
+     gene            357..1133
+                     /gene="BV1"
+                     /locus_tag="SiGMtV-DNA-B_gp1"
+                     /db_xref="GeneID:9121842"
+     CDS             357..1133
+                     /gene="BV1"
+                     /locus_tag="SiGMtV-DNA-B_gp1"
+                     /codon_start=1
+                     /product="NSP"
+                     /protein_id="YP_003620403.1"
+                     /db_xref="GeneID:9121842"
+                     /translation="MIMYPSKIKRGFYYPYRRFNTRSNLFNRSTAVKRHDARRRRGRS
+                     VKPTDEPKMSAQSIHENQYGSDFVMAHNSAISTFISFPDLGKMEPGRSRSYIKLKRLR
+                     FKGTVKIERVQSDLNMDGTVPKIEGVFSLVVVVDRKPHLGPSGCLHTFDELFGAIIHS
+                     HGNLSIVPSLKDRYYIRHVFKRVLSLENDTLMVDVEGSTSLSDRRFNCWSTFKDVDRD
+                     SCKGVYDNISKNALLIYYCWVSETPSKASNYVSFDLDYVG"
+     gene            complement(1195..2076)
+                     /gene="BC2"
+                     /locus_tag="SiGMtV-DNA-B_gp2"
+                     /db_xref="GeneID:9121841"
+     CDS             complement(1195..2076)
+                     /gene="BC2"
+                     /locus_tag="SiGMtV-DNA-B_gp2"
+                     /codon_start=1
+                     /product="MP"
+                     /protein_id="YP_003620404.1"
+                     /db_xref="GeneID:9121841"
+                     /translation="MDSQLVNPPNAFNYIESHRDEYQLSHDLTEIILQFPSTASQLTA
+                     RLSRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSASFFSLKDPIPWKLYYRVCDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFTDKDVDFSHVDYGKWERKPIRCASMSRVGLRGPIEIRPGESWASRSTIGTAQ
+                     SDAESEVENELYPYRHLNRLGTSVLDPGESASIVGAQRAESNITMSMGQLNEIVRTTV
+                     RECINSNCQVNQAKSLK"
+ORIGIN
+        1 accggatggc cgcgcgcccc cccccccctc acgcgcgctc ccctggtgct gttctggtac
+       61 gcgctctctc attggtgctg gtccttcacg cgcctttgtt tgagtggcct ttaattcaaa
+      121 ttaaaggata atactttctc gcgcgaatgg cttttatgat ttgaattatt gtcgcgcgat
+      181 gactgactat ggcccattgt actatgtgaa ggacgtggct atatttggac catgtcgctg
+      241 agtttatttg tgtctaacgt taaatgaatt gtctataaaa ttaagtggtc atgtgcgtca
+      301 tgtacaacca actcagcgtt taaccacgtt tatattgttt agtccattat tattgtatga
+      361 taatgtatcc ttctaagatt aaacgtggtt tttattatcc ttatcgacga tttaatacac
+      421 gtagcaattt gtttaaccgt tcaaccgctg tgaaacgaca tgatgcgaga cgtcgaagag
+      481 gtcgatctgt caagcccact gatgagccca agatgtcggc ccaatccata catgagaatc
+      541 agtatggctc tgattttgtc atggcccata attcagctat ctctacgttc atcagtttcc
+      601 cagacttggg caagatggaa ccgggtcgaa gtaggtcata tatcaagttg aaacgacttc
+      661 gtttcaaagg gactgtgaag attgaacgtg tgcaatcgga tctgaacatg gacgggactg
+      721 tccccaaaat tgaaggagtt ttctcccttg ttgttgttgt ggatcgtaaa ccccacttgg
+      781 gtccaagtgg ttgtctgcat acatttgacg agttgttcgg agcaatcatt cacagtcatg
+      841 gcaatctcag cattgtccct tctctgaaag accgttatta tattcgccac gtgttcaaac
+      901 gtgtattgtc attggaaaat gacacgctga tggtcgacgt cgaaggatct acttctctat
+      961 ctgacaggcg ttttaattgt tggtccactt ttaaagacgt ggatcgtgat tcatgcaagg
+     1021 gtgtttatga taatataagc aagaacgctc tgctaattta ttattgctgg gtgtccgaaa
+     1081 cgccttcaaa ggcctctaat tatgtatctt ttgatcttga ctatgttggc taactcaata
+     1141 aaatttgttt aaccaaattt atttatctta ttatgatata tcaaaagata acatttattt
+     1201 cagtgatttg gcctgattaa cctgacaatt actattaata cattcccgga ctgtagttct
+     1261 gactatctca ttcaactggc ccattgacat tgtgatgttt gactccgctc tctgggctcc
+     1321 cacaatggaa gcagactctc ctgggtctag aacgctggtc cccagtctgt ttaggtgtct
+     1381 gtatggatag agttcgttct ccacttctga ttccgcatct gactgggccg ttcctattgt
+     1441 acttctggaa gcccatgatt caccaggcct gatctcgatt gggccgcgta acccaaccct
+     1501 ggacatggac gcgcatctga tgggcttcct ctcccatttc ccatagtcca catgagaaaa
+     1561 gtccacatct ttgtctgtga actgtttgga caggatcttc actgttggtg cccggaaggg
+     1621 gatgtcgacc gagtgttttg ctgtggacaa tttcagtttc cctttgaatt tggcgaagtg
+     1681 agtccgttga tgaacatttg tatcgcaaac gcgatagtac aacttccatg gaattgggtc
+     1741 ttttaatgag aagaacgaag ccgagaaata gtggagatct atgttgcacc tgatcggaaa
+     1801 agtccacgac gcctgtaaag actcattgtc tgtcattctt ttgtcgtgaa tctccacgat
+     1861 tactgaccct gtggcgttga tcggaacttg ttgtctgtat tctatgacgc aatggtctat
+     1921 cttcatgcag ctacgactga gtctagctgt taattgcgac gccgttgaag gaaattgcag
+     1981 tattatctca gttaggtcat gagaaagttg atactcgtct cggtgagatt ctatgtaatt
+     2041 gaaagcgttc ggaggattga ccaactgaga atccatatga agaagaaagg ccgcgcagcg
+     2101 gaactgattg ctgaagttga atcggaaaga agatgaacaa ctgactatga agatgatcaa
+     2161 atctggaaag ccctcctttg atctcgaagg aggtaaatgt ataactttct atctgggttt
+     2221 gagaatttca gatgtttaag aagatcagtt gtttctgacg gtttctgtgt ttgagaatgc
+     2281 ttgaatatgg agatatatga agaataattg tttttgagaa aggaaagagt gtttagtaag
+     2341 agtttaatag aactcagaaa atggaagagg ttgtatgtga tcccagactt gttgggattc
+     2401 tggtatttat attggtaaag tgttcatcca gtggtggtat ttctgtaaat atgggatgtt
+     2461 ccccccttag ctctctcgct caaaagtctt aacaattggg ggaactgggg gaacttatat
+     2521 agtagaagtt ccataaggca atgcaacacg tggcggccat ccgttataat att
+//

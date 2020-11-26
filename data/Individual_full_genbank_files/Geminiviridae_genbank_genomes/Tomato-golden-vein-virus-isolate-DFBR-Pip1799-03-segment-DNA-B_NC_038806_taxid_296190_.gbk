@@ -1,0 +1,100 @@
+LOCUS       NC_038806               2531 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Tomato golden vein virus isolate DF[BR:Pip1799:03] segment DNA-B,
+            complete sequence.
+ACCESSION   NC_038806
+KEYWORDS    RefSeq.
+SOURCE      Tomato golden vein virus (TGVV)
+  ORGANISM  Tomato golden vein virus
+REFERENCE   2  (bases 1 to 2531)
+REFERENCE   3  (bases 1 to 2531)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JF803265.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2531
+                     /organism="Tomato golden vein virus"
+                     /mol_type="genomic DNA"
+                     /isolate="DF[BR:Pip1799:03]"
+                     /host="Solanum lycopersicum"
+                     /db_xref="taxon:296190"
+                     /segment="DNA-B"
+                     /clone="B26"
+                     /country="Brazil: Distrito Federal"
+                     /collection_date="2003"
+                     /note="*acronym: TGVV"
+     gene            335..1105
+                     /locus_tag="D1S73_sBgp1"
+                     /db_xref="GeneID:37619251"
+     CDS             335..1105
+                     /locus_tag="D1S73_sBgp1"
+                     /note="NSP"
+                     /codon_start=1
+                     /product="BV1"
+                     /protein_id="YP_009508027.1"
+                     /db_xref="GeneID:37619251"
+                     /translation="MSPTSYRRGWSFAQRRGYSRKYLFKRPYYFKRTDGKHRSGNSNQ
+                     VNEDIKLSQQRIHENQFGPEFVMGHNTAISTFITFPSLCKTEPGRSRAYIKLKRLRFK
+                     GTVKIERVHADVTMDGIIPKIEGVFSMVVVVDRKPHLSSSGCLHTFDELFGARIHSHG
+                     NLAVTPSLKERFYIRHVWKKVISVEKDSMMVDLEGTTSLSNKRFNCWSAFKDLDRDSC
+                     NGVYANISKNALLVYYCWMSDTMSTASSFVSFDLDYVG"
+     gene            complement(1298..2179)
+                     /locus_tag="D1S73_sBgp2"
+                     /db_xref="GeneID:37619250"
+     CDS             complement(1298..2179)
+                     /locus_tag="D1S73_sBgp2"
+                     /note="MP"
+                     /codon_start=1
+                     /product="BC1"
+                     /protein_id="YP_009508028.1"
+                     /db_xref="GeneID:37619250"
+                     /translation="MDSQVVCPPNAFNYIESRRDEYQLSHDLTEIILQFPSKATQLSA
+                     RLNRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTENESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYKVSDSNVHQMTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     IMSKQFTVNDIDFSFVGYGKWERKLIRSASTSRFGLHGPIELNPGESWATRSTIETTQ
+                     LEAQSDLGEALHPYKDLNRLGTAILDPGDSASIIGAQRTQSNITLSMAQLNDLVRSTV
+                     QECIKSNCIPPQPKSLK"
+ORIGIN
+        1 accggatggc cgcgcgattt ttttttggtg gacccattct gaaagtaatt gagcgcattt
+       61 ttgacgtccg cgaattgagt tgagcgcaat atttgagttc cggaaatata gttagtggag
+      121 taactttaat ttgaaataaa ttacagcttt tacggtaacc aatcagcttg cgattcagga
+      181 gtctatttat ctattacatt tatgtcagtg tcaaggtata cggtattctt cacgtggacc
+      241 aattaattgt tcgctatgga gtctaactaa ttaatatatg cagtgatgat atatataaat
+      301 tccatatata ttgtgataga tatgatatcg catcatgtct cctactagct atagacgtgg
+      361 ttggtcgttt gctcaacgac gaggttattc tcgtaaatat ttgttcaaac gtccttatta
+      421 ttttaaacgt acagatggga aacaccgatc gggtaactct aatcaggtca atgaggatat
+      481 taagttgtca caacagcgta tacatgagaa ccagtttggt ccggaatttg taatgggtca
+      541 taatacagca atatcgactt ttattacttt tcctagtcta tgtaaaactg aaccgggcag
+      601 atccagggca tatattaagt tgaaacgttt acgtttcaaa ggtaccgtca agattgagcg
+      661 tgttcatgct gatgtgacta tggatggtat aataccaaag attgaaggcg tattttctat
+      721 ggttgtcgtt gttgatcgta aaccccattt gagttcatct ggttgtctgc atacatttga
+      781 tgagctcttt ggtgcacgga tccacagtca tggcaatttg gctgtaactc catctttgaa
+      841 agagcgtttt tacatacgtc acgtttggaa gaaagtaata tctgttgaga aggacagtat
+      901 gatggttgat cttgaaggaa cgacatcatt gagtaataag cgttttaatt gttggtctgc
+      961 tttcaaagat cttgatcggg attcatgtaa tggtgtttat gcgaatataa gcaagaacgc
+     1021 tcttttagtt tattactgtt ggatgtcgga tacgatgtct acggcgtcat catttgtatc
+     1081 gttcgatctt gattatgttg gttaaaaatt aaaatattaa tgtatttata cttacatgag
+     1141 aaaataattc atttaagaaa acgtgagaaa ataaatcatt taagaaaacg tgagaaaata
+     1201 aatcatttaa gaaaacgtaa tcacataata taattataat tactgaaata ttggctgcgc
+     1261 agctgcatgc aaaaaaaaaa tattggcaac ttgatattta tttcaatgat ttgggttgtg
+     1321 gaggaataca gttagattta atacattctt ggactgttga cctaacaaga tcgtttaatt
+     1381 gggccattga cagcgtgatg ttggattgcg ttctttgggc cccaattatt gaagccgaat
+     1441 cacctggatc taatatggca gttcctagcc tatttagatc tttgtatgga tgtaacgcct
+     1501 cccctaggtc tgattgggct tctaattggg tcgtctctat tgtactcctt gtggcccatg
+     1561 actctcctgg atttagttct attgggccat gaagcccaaa tctagaagtt gatgccgatc
+     1621 ttatcaattt tctctcccac tttccataac ctacaaaaga gaagtcgatg tcattgacgg
+     1681 taaattgttt ggacattatc ttcactgtgg gtgccctgaa aggtatatca accgaatgtt
+     1741 ttgccgttga tagcttcaat tttcctttga attttgcgaa gtgggtcatc tgatgaacgt
+     1801 ttgagtcaga aaccttataa tatagcttcc atggaattgg gtctttgagt gagaaaaatg
+     1861 atgacgagaa atagtggagg tctatgttgc acctgattgg aaaagtccat gacgcctgta
+     1921 aggattcatt ttcagtcatc ctcttgtcat gaatctccac aattactgat ccagttgcgt
+     1981 tgattggtac ctgttgtctg tattcaataa cgcaatgatc aatcttcata cagcttcgat
+     2041 ttagtcttgc acttaattga gttgcttttg atggaaattg caatatgatt tcggtaaggt
+     2101 catgggaaag ttgatattca tcacgacgag attctatata attaaaggcg ttgggtgggc
+     2161 aaactacttg agagtccata tgtactacaa gattgaataa gtgtagagaa taatttggaa
+     2221 aaagtaaagg aaacagtagt agtgatagat aagatgagtg aatggatgtg atattataca
+     2281 gaattgtcga tccttatata gactattaac tggttatgga taatttggtt aaacaatact
+     2341 gagtatactt actaaataag tttataaagt tatggtgaaa agctttgatg gtggtattta
+     2401 tgtaaataag gaggtgagac ccgatagctc tccttcaaac ttggcgaaat gaattgggga
+     2461 atgggtctca atatatagta gagtccatta tagaatataa ttgccacgtg gcggccatcc
+     2521 gatataatat t
+//

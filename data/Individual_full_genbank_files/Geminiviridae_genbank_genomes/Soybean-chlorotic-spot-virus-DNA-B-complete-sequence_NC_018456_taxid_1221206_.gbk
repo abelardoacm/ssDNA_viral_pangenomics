@@ -1,0 +1,102 @@
+LOCUS       NC_018456               2585 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Soybean chlorotic spot virus DNA-B, complete sequence.
+ACCESSION   NC_018456
+KEYWORDS    RefSeq.
+SOURCE      Soybean chlorotic spot virus
+  ORGANISM  Soybean chlorotic spot virus
+REFERENCE   2  (bases 1 to 2585)
+REFERENCE   3  (bases 1 to 2585)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JX122966.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2585
+                     /organism="Soybean chlorotic spot virus"
+                     /mol_type="genomic DNA"
+                     /isolate="BR:Jai9254.10"
+                     /host="Glycine max"
+                     /db_xref="taxon:1221206"
+                     /segment="DNA B"
+                     /country="Brazil"
+                     /collection_date="2010"
+     gene            409..1179
+                     /locus_tag="B916_sBgp1"
+                     /db_xref="GeneID:13466391"
+     CDS             409..1179
+                     /locus_tag="B916_sBgp1"
+                     /note="NSP"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_006590059.1"
+                     /db_xref="GeneID:13466391"
+                     /translation="MNFTRNRRGLTTTSRRSSYRYPLSRRSYGVKRNNGRRGPNIPNK
+                     AHEDGKMSGQCIHENQFGPEFVMAHNSPISTFITYPTLGKTDSSRSRSYIKLKRLRFK
+                     GTVKVERLTPNVNMDGLHPKIEGVFSMVVVVDRKPHLSPSGCLHTFDELFGARIHSHG
+                     NLAITASLKDRFYIRHVFKRVMSVEKDSTMVDIEGTTTLSNRRFNCWASFRDFERDSC
+                     NGVYANISKNALLIYYCWMSDNVSKASTFVSFDLEYIG"
+     gene            complement(1270..2151)
+                     /locus_tag="B916_sBgp2"
+                     /db_xref="GeneID:13466390"
+     CDS             complement(1270..2151)
+                     /locus_tag="B916_sBgp2"
+                     /note="MP"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_006590060.1"
+                     /db_xref="GeneID:13466390"
+                     /translation="MESQLAYPPAVFNYVESQRDEYQLSHDLTEIVLQFPSTASQLTA
+                     RISRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTDNESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWKLYYRVCDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFKESDVDFSHVGYGHYERKLIKSASTTRYGIHSPITIKPGETWATRSTIGVSS
+                     TDADSEVENTTHPYRQLHRLDSSVLDPGESASIVGARRAESSITISMAQLNELVRTTA
+                     QECIKSNCIPSEPKCLK"
+ORIGIN
+        1 accggatggc cgcgcgattt tttacccttt tgacgtggcg ctctctctgc cgtccgttta
+       61 ttttaacttc aattcagttt agcgcatttt tgagttccgc tcacacgtat cgttttttgc
+      121 gcccgtgtga catgtgcgct aatgtttaac ttttttgact agatttattg gagaccgttg
+      181 gataaatcta actgatattt tgaacaatca acggtcacat tttaacacca tgggccatta
+      241 tttgttaagc tgacatcttt aactccattg tactatgtat tgtgacttcg accaattaaa
+      301 ttgttttttg agagtcaatt taattgctgt gttcattctg ttgtgttata tatctgtgga
+      361 caatgttatg gaacaataca tatttcataa acatttgatc atttacctat gaatttcacc
+      421 agaaatagac gtggtttgac aactacttcg cgtagaagta gttataggta tcctttgtct
+      481 agacgatcgt atggtgtgaa aagaaacaat ggtagacgtg ggccgaatat tccaaacaag
+      541 gcccatgaag atggaaagat gtcaggtcaa tgcatacatg aaaatcagtt tggtccagaa
+      601 tttgttatgg cccataattc acccatttca actttcatta cataccctac tctgggtaaa
+      661 actgactcca gtcgatcaag gtcgtatatt aagttaaaac gtctacgttt taagggaact
+      721 gtgaaagttg aacgtcttac cccgaatgtt aacatggacg ggctacatcc aaagatagaa
+      781 ggagtctttt caatggtggt tgtggtcgat cgaaaaccac atttaagccc gtccggatgt
+      841 ctccacacat tcgatgaatt gtttggtgcc aggatacaca gtcatggaaa tttagctatt
+      901 actgcctcgt tgaaagaccg attctatata cgccatgtgt ttaaacgcgt gatgtctgtc
+      961 gagaaagata gcacgatggt ggatattgaa gggacgacaa cattatctaa taggcgtttt
+     1021 aattgttggg ctagttttag agattttgaa cgtgattcat gtaacggtgt ttatgccaac
+     1081 attagcaaaa acgccttgtt aatttactat tgctggatgt cagataatgt gtctaaggca
+     1141 tctacatttg tatcatttga tctggaatat attggttgag tgataaattg tgtttaaacc
+     1201 tgtcaagatt tttattaaac gtcaaatgat aatttgcaca cgctattcaa aaatgcacaa
+     1261 agacattatt tatttaagac acttgggctc ggaaggaata cagttgcttt taatacattc
+     1321 ttgggccgtt gttctcacca gctcgttcaa ttgggccatt gatattgtta tactggactc
+     1381 tgccctcctt gcacctacta ttgatgctga ttcacccggg tctaagacac tgctgtctaa
+     1441 tctatgcagt tgtctatatg gatgggttgt gttctcaacc tcagagtccg catcggttga
+     1501 actgactcct atggtgcttc ttgtggccca tgtttctccc ggtttgatcg ttattgggct
+     1561 gtgtatgcca tatctcgttg tggatgcgga cttgatcaat ttccgttcat aatgaccata
+     1621 tcccacatga gaaaaatcga catcgctctc cttgaactgt ttcgataata ttttaactgt
+     1681 tggagccctg aaagggatat caaccgaatg ctttgctgtg gagagcttta acttcccttt
+     1741 gaatttcgcg aaatgtgttc tttgatggac atttgtgtcg cacactctat agtataattt
+     1801 ccagggaatt gggtctttga gcgaaaaaaa agacgacgag aaatagtgga gatctatgtt
+     1861 acatctaatg ggaaacgtcc atgacgcttg caatgactca ttgtccgtca ttctcttgtc
+     1921 atgaatctcc actattactg atcctgttgc gttgatagga acctgttgtc tgtactcaat
+     1981 cacacaatgg tcgattttca tacaactacg actgattcta gcagttaact gagacgctgt
+     2041 ggacggaaat tgcaatacta tctcagttag gtcatgagaa agttgatatt catcacgctg
+     2101 agactctacg taattgaaaa ctgcgggtgg ataagctaac tgagactcca tagaacacaa
+     2161 taataataaa taaaaatggc cgcgcagcgg aatggcaacg acgaactgat caaggaacaa
+     2221 ggaaatgttt ttattgctgt gaaaacagca gctgactaaa ggaaataaga agttgctttc
+     2281 ttattgaata tgtgattctt gtttggttta aatagacatg accatgatcg tacaacctaa
+     2341 ttattaaata ttatgtcctc acatattcca ttcatctttt atttacaaag aaaaacaaat
+     2401 aaaacaatga tattgttaag aagtctggca gtggcatgtt tgtaaataaa acgatgtcac
+     2461 caattgagct cgagctccgc tctaaaactc tatagcaatc ggtgaattgg tgacaatata
+     2521 tactagaacc ctctatagaa cttctaatcc tgttcgcaca cgtggcggcc atccgctata
+     2581 atatt
+//
