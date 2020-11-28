@@ -12,10 +12,18 @@ This repository shows the workflow used to study the **origin of single-stranded
   <img width="755" height="1132" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/ssDNA_workflow.png">
 </p>
 
+>## **Cloning this repo**
+
+ssDNA\_viral\_pangenomics is a repository that depends on other github repositories. To avoid not allowed re-distribution of used files from those repositories, we included a .gitmodules file. Because of that, you should clone this repo as follows.
+
+``` 
+git clone https://github.com/abelardoacm/ssDNA_viral_pangenomics.git
+cd ssDNA_viral_pangenomics/
+git submodule init
+git submodule update 
+```
 Here's what you will find inside [bin](bin/) and [data](data/)
 **NOTE: for storage purposes only files corresponding to Geminiviridae family are available. Whole raw database will be available before research results submission**
-
-
 
 >## **data/**
 
