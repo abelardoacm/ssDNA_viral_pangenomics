@@ -176,7 +176,7 @@ Another potential source of pangenomic misestimation comes from two sources:
 
 - Zero protein count files. Some files within the samples can be blank. This error comes from the NCBI submission itself. The search performed with aforementioned booleans sometimes yields entries labeled as "PROVISIONAL REFSEQ", files containing unannotated genomes. The software for pangenomic analysis would decrease protein prevalence, leading to core underestimation.
 
-- Over concatenated files. As a product of [2_Concatenation_from_taxid.pl](bin/2_Concatenation_from_taxid.pl) script, non related segments can be put together. This happens when there is no distinction between source organism names and there's more than one reference genome in **Refseq** for the same taxid.  
+- Over concatenated files. As a product of [2_Concatenation_from_taxid.pl](bin/2_Concatenation_from_taxid.pl) script, non related segments can be put together. This happens when there is no distinction between source organism names and there's more than one reference genome in **Refseq** for the same taxid.
 
 The [3_Protein_count_filtering.pl](bin/3_Protein_count_filtering.pl) script fulfills the task of filtering files whose protein counts varies in more than a user-defined limit percentage (2nd positional argument). To prevent the exclusion of reference strains with uncommon protein count, the script can make cutoff values ​​less extreme, indicating values corresponding to the minimum (3rd positional argument) and maximum (4th positional argument) protein count within reference strains.
 
