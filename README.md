@@ -14,7 +14,7 @@ This repository shows the workflow used to study the **origin of single-stranded
 
 >## **Cloning this repo**
 
-ssDNA\_viral\_pangenomics is a repository that depends on other github repositories. To avoid not allowed re-distribution of used files from those repositories, we included a .gitmodules file. Because of that, you should clone this repo as follows.
+ssDNA\_viral\_pangenomics is a repository that depends on other github repositories. To avoid not allowed re-distribution of used files from those repositories, we included a [.gitmodules file](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Because of that, you should clone this repo as follows.
 
 ``` 
 git clone https://github.com/abelardoacm/ssDNA_viral_pangenomics.git
