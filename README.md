@@ -205,9 +205,15 @@ Tomato-golden-leaf-spot-virus_taxid_1336597 will be filtered as protein count is
 
 
 
-#### **Euclidean Distance Matrices**
+#### **Distance Matrices**
 
-WIP
+This step in our workflow is by far the more customizable. Up to this point you generated files almost ready to serve as input for pangenomic analysis, however an additional step is suggested. Given the scale of analysis, we recommend the generation of sub-clusters within each family, once again in order to prevent pangenomic core underestimation. For that purpose we need to generate pairwise distance matrices.
+
+This projects is not focused on proteomic taxonomic classification, so among sequence comparison methods we prefer fast alignment free methods. Two algorithms will be used: 
+
+- [**Cummulative Power Spectrum**](http://www.sciencedirect.com/science/article/pii/S2001037019301965) (Pei _et al_. 2019)
+- [**Filtered Spaced-Word Matches**](https://academic.oup.com/bioinformatics/article/33/7/971/2883388) (Leimester _et al_)
+
 
 #### **Proteomes clusters**
 
