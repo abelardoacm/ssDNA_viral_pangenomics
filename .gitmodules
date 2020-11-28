@@ -1,0 +1,6 @@
+[submodule "bin/The-central-moments-and-covariance-vector-of-cumulative-Fourier-Transform-power-and-phase-spectra"]
+	path = bin/The-central-moments-and-covariance-vector-of-cumulative-Fourier-Transform-power-and-phase-spectra
+	url = https://github.com/YaulabTsinghua/The-central-moments-and-covariance-vector-of-cumulative-Fourier-Transform-power-and-phase-spectra.git
+[submodule "bin/FSWM"]
+	path = bin/FSWM
+	url = https://github.com/burkhard-morgenstern/FSWM.git
