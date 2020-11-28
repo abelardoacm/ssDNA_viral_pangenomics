@@ -145,7 +145,7 @@ Warning: bad /collection_date value '2014-10-01'
 Warning: NC_039003: Bad value '2014-10-01' for tag '/collection_date'
 ```
 
-#### **\*_concatenated_\* folders**
+#### **\*\_concatenated\_\* folders**
 
 As a result of the previous step, three folders are generated. These however, do not always correspond to complete genomes. Some viral families have segmented genomes are present in and represent a potencial source of pangenomic core underestimation. A previously opened issue can be visited [here](https://github.com/abelardoacm/ssDNA_viral_pangenomics/issues/2) for further details. Those viral families led us to devise a strategy to concatenate the separate files of a viral species.
 
@@ -170,7 +170,7 @@ and so on...
 ```
 The concatenated files are moved to the corresponding folders within their file types, labeled with the word **concatenated** in the name. For example: [Geminiviridae_concatenated_fasta_genomes](data/Genomic_fasta_files/Geminiviridae_concatenated_fasta_genomes), [Geminiviridae_concatenated_fasta_proteomes](data/Genomic_fasta_files/Geminiviridae_concatenated_fasta_proteomes), and [Geminiviridae_concatenated_genbank_genomes](data/Genomic_fasta_files/Geminiviridae_concatenated_genbank_genomes). 
 
-#### **\*_catfiltered_\* folders**
+#### **\*\_catfiltered\_\* folders**
 
 Another potential source of pangenomic misestimation comes from two sources:
 
