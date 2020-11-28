@@ -20,8 +20,13 @@ ssDNA\_viral\_pangenomics is a repository that depends on other github repositor
 git clone https://github.com/abelardoacm/ssDNA_viral_pangenomics.git
 cd ssDNA_viral_pangenomics/
 git submodule init
-git submodule update 
+git submodule update
+cd bin/FSWM/
+make
 ```
+
+
+
 Here's what you will find inside [bin](bin/) and [data](data/)
 **NOTE: for storage purposes only files corresponding to Geminiviridae family are available. Whole raw database will be available before research results submission**
 
