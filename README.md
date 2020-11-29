@@ -24,11 +24,64 @@ git submodule update
 cd bin/FSWM/
 make
 ```
+This is the partial repository tree:
+
+_NOTE\* for storage purposes only files corresponding to Geminiviridae family are available. Whole raw database will be available before research results submission_
+
+``` 
+.
+├── bin
+│   ├── 1_Set_family_files_from_raw_genbank.sh
+│   ├── 2_Concatenation_from_taxid.pl
+│   ├── 3_Protein_count_filtering.pl
+│   ├── 4_Vectors_CPFSCC.sh
+│   ├── 5_Common_statistic_clustering.r
+│   ├── 6_Consensus_clustering.sh
+│   ├── 7_Get_homologues_routine.sh
+│   ├── FSWM
+│   ├── Genbank_to_genomic_fasta_taxid_in_name.pl
+│   ├── Genbank_to_proteomic_fasta_taxid_in_name.pl
+│   ├── Modified_CPFSCC.m
+│   ├── Print_rename_instructions.pl
+│   └── The-central-moments-and-covariance-vector-of-cumulative-Fourier-Transform-power-and-phase-spectra
+│
+│
+├── data
+│   ├── AF_methods_input
+│   │   └── Geminiviridae_AF_input.fasta
+│   │
+│   │
+│   ├── Genomic_fasta_files
+│   │   ├── Geminiviridae_catfiltered_fasta_genomes 
+│   │   ├── Geminiviridae_concatenated_fasta_genomes 
+│   │   └── Geminiviridae_fasta_genomes 
+│   │
+│   │
+│   ├── Individual_full_genbank_files
+│   │   ├── Geminiviridae_catfiltered_genbank_genomes
+│   │   ├── Geminiviridae_concatenated_genbank_genomes 
+│   │   └── Geminiviridae_genbank_genomes 
+│   │ 
+│   │
+│   ├── Proteomic_fasta_files
+│   │   ├── Geminiviridae_catfiltered_fasta_proteomes 
+│   │   ├── Geminiviridae_concatenated_fasta_proteomes 
+│   │   └── Geminiviridae_fasta_proteomes
+│   │
+│   │
+│   └── Raw_database
+│       └── Geminiviridae.gb
+│
+│
+├── results
+   └── Central_moments_and_covariance_vectors_CPFSCC
+       └── Geminiviridae_CPFSCC_vectors.txt
+```
+
+Here's what you will find inside this repo as well as navigation guide
 
 
 
-Here's what you will find inside [bin](bin/) and [data](data/)
-**NOTE: for storage purposes only files corresponding to Geminiviridae family are available. Whole raw database will be available before research results submission**
 
 >## **data/**
 
@@ -216,9 +269,7 @@ Tomato-golden-leaf-spot-virus_taxid_1336597 will be filtered as protein count is
 4 organisms were discarded from the database for further analysis
 ```
 
-
-
-#### **Distance Matrices**
+### **Distance matrices**
 
 This step in our workflow is by far the more customizable. Up to this point you generated files almost ready to serve as input for pangenomic analysis, however an additional step is suggested. Given the scale of analysis, we recommend the generation of sub-clusters within each family, once again in order to prevent pangenomic core underestimation. For that purpose we need to generate pairwise distance matrices.
 
@@ -226,6 +277,15 @@ This projects is not focused on proteomic taxonomic classification, so among seq
 
 - [**Cummulative Power Spectrum**](http://www.sciencedirect.com/science/article/pii/S2001037019301965) (Pei _et al_. 2019)
 - [**Filtered Spaced-Word Matches**](https://academic.oup.com/bioinformatics/article/33/7/971/2883388) (Leimester _et al_)
+
+#### **results\/Central_moments_and_covariance_vectors_CPFSCC\/**
+
+This folder contains the output of [4\_Vectors\_CPFSCC.sh](bin/4_Vectors_CPFSCC.sh), an enveope of [CPFSCC.m](https://github.com/YaulabTsinghua/The-central-moments-and-covariance-vector-of-cumulative-Fourier-Transform-power-and-phase-spectra/blob/399d912e958a5074db8476a9b24236692e3ddd09/CPFSCC.m). 4\_Vectors\_CPFSCC.sh is called from command line as follows:
+
+``` 
+./4_Vectors_CPFSCC.sh Geminiviridae
+```
+It will generate the central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of Geminiviridae genomes. Output family\_CPFSCC\_vectors.txt containing all 28-dimension vectors of the family genomes is automatically deposited into results\/Central\_moments\_and\_covariance\_vectors\_CPFSCC\/. Aditionally, the final input for matlab script ["Modified_CPFSCC.m"](bin/Modified_CPFSCC.m) can be viewed in data/AF\_methods\_input/.
 
 
 #### **Proteomes clusters**
