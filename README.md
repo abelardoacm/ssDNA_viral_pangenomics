@@ -78,14 +78,12 @@ _NOTE\* for storage purposes only files corresponding to Geminiviridae family ar
        └── Geminiviridae_CPFSCC_vectors.txt
 ```
 
-Here's what you will find inside this repo as well as navigation guide
+Here's the repo navigation guide.
 
 
 
 
->## **data/**
-
-
+# From raw to filtered database
 
 #### **Raw_database**
 
@@ -268,8 +266,7 @@ Tomato-golden-leaf-spot-virus_taxid_1336597 will be filtered as protein count is
 
 4 organisms were discarded from the database for further analysis
 ```
-
-### **Distance matrices**
+# From filtered database to distance matrices
 
 This step in our workflow is by far the more customizable. Up to this point you generated files almost ready to serve as input for pangenomic analysis, however an additional step is suggested. Given the scale of analysis, we recommend the generation of sub-clusters within each family, once again in order to prevent pangenomic core underestimation. For that purpose we need to generate pairwise distance matrices.
 
@@ -287,16 +284,16 @@ This folder contains the output of [4\_Vectors\_CPFSCC.sh](bin/4_Vectors_CPFSCC.
 ```
 It will generate the central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of Geminiviridae genomes. Output family\_CPFSCC\_vectors.txt containing all 28-dimension vectors of the family genomes is automatically deposited into results\/Central\_moments\_and\_covariance\_vectors\_CPFSCC\/. Aditionally, the final input for matlab script ["Modified_CPFSCC.m"](bin/Modified_CPFSCC.m) can be viewed in data/AF\_methods\_input/.
 
-
+# From distance matrices to pangenomic inputs clusters
 #### **Proteomes clusters**
 
 WIP
 
-#### **Pangenomic profiles**
+# From pangenomic inputs clusters to pangenomic profiles
 
 WIP
 
-
+# From pangenomic profiles to phylogenies
 #### **Phylogenies**
 
 WIP
