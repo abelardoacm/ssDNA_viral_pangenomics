@@ -1,0 +1,101 @@
+LOCUS       NC_007338               2719 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Squash leaf curl China virus - [B] DNA B, complete sequence.
+ACCESSION   NC_007338
+KEYWORDS    RefSeq.
+SOURCE      Squash leaf curl China virus
+  ORGANISM  Squash leaf curl China virus
+REFERENCE   2  (bases 1 to 2719)
+REFERENCE   3  (bases 1 to 2719)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AF509742.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2719
+                     /organism="Squash leaf curl China virus"
+                     /mol_type="genomic DNA"
+                     /isolate="B"
+                     /db_xref="taxon:223323"
+                     /segment="DNA B"
+                     /country="Viet Nam"
+     gene            485..1291
+                     /gene="BV1"
+                     /locus_tag="SLCCNVsBp1"
+                     /db_xref="GeneID:9680137"
+     CDS             485..1291
+                     /gene="BV1"
+                     /locus_tag="SLCCNVsBp1"
+                     /codon_start=1
+                     /product="BV1"
+                     /protein_id="YP_293686.1"
+                     /db_xref="GeneID:9680137"
+                     /translation="MAFIAPYTPGRRHSTSTNRLLNASRKMKGWKSRKYHGFVRYRNF
+                     YSASRTPTDLFGDPISRQYTRKEICETQQGSEYVLQNNRYMTSYVTYPAKTRTGTNNR
+                     VRSYIKLTGLTMSGTFGIRCSDLMTDVDQPSGLYGVVSIVIVRDKSPKIYSTAQPLIP
+                     FVELFGSVNSCRGTLKVAERHRERFVVLNQTSILINTPHCNAMKKFSIRNCISRTYST
+                     WATFKDEEEESATGLYSNTLRNAILIYYVWLSDVPSQLDMYSNVMLNYIG"
+     gene            complement(1345..2190)
+                     /gene="BC1"
+                     /locus_tag="SLCCNVsBp2"
+                     /db_xref="GeneID:9680136"
+     CDS             complement(1345..2190)
+                     /gene="BC1"
+                     /locus_tag="SLCCNVsBp2"
+                     /codon_start=1
+                     /product="BC1"
+                     /protein_id="YP_293687.1"
+                     /db_xref="GeneID:9680136"
+                     /translation="MSIRNDNMGLGVGGYIESERVEYALTNDAAEVTLTFPSMFEQKI
+                     SQLRNRCMKIDHVLLEYRSQVPINAVGHVVIEIHDMRLTEGDTKQAEFTIPIKCNCNL
+                     HYYSSSYFSAKDKNPWRVEYRVENTNVVNGVHFCKMLGKLKLSSAKHSTDVEFRAPRI
+                     EIQSKEFTVNDIDFWSVGSKPQTRRLVDGSRLMGHSSRSLRVPHLAIGPNESWASRSE
+                     VGLVSVTSRPYKNLSGLDESAIDPGPSASQVGSITRDEITEIITKTVEQCMKSNVNAP
+                     LTKGV"
+ORIGIN
+        1 taatattacc gaaaggccgc gctttttttt tccttcaaat ctggccgtct attttctata
+       61 aatgcgcatc aaactaatgc gatgaacaac acgtgtccta tgtgtcatcc tttactaaag
+      121 taaaggattg tacgattttc aaatgtgcac atgctggtcc ccagtggcta gatatgcaat
+      181 atctaggaag ctgcatctgt ggtccccagc atataaggct gctggtctat tgcgtttaaa
+      241 gtttggtctt agcgataatt caccatgcat cagtgcccgt tgctctatca tatgtaaggt
+      301 attttgaacg gctgagatca aaataggaat ttgaccttta tctgaccgtt cgattatttt
+      361 agatgcccgt aattcgataa aacatgtcct atcgttcgtg ttccatacaa acattgaact
+      421 gaattatatc actatataat tcacgatctt gcatagtcgt cgccattcgt aattatcgat
+      481 ccaaatggct tttatcgcac catatactcc gggaagacga cattcaacat caacaaacag
+      541 actattgaac gcaagcagga aaatgaaagg ttggaagtct cggaaatacc atggatttgt
+      601 gcgttatcgg aatttttatt ccgcatccag gaccccaact gacctgtttg gtgatcctat
+      661 ctccagacaa tacacgcgca aggaaatttg tgaaacgcaa cagggatctg aatatgttct
+      721 ccagaacaac cgctacatga cttcgtatgt cacgtatcct gctaaaactc gaacgggaac
+      781 gaataacagg gttcgttcat atatcaagct cacaggtctt accatgtccg gaacattcgg
+      841 cattcgatgc tccgatttga tgaccgatgt cgatcaaccc agtggattat atggcgtcgt
+      901 gtcgattgtt attgtccgtg ataaatcacc gaagatttat tcgactgcac aaccactcat
+      961 tccatttgtt gagttatttg gttcggttaa ttcatgtcgt gggaccctga aggtggcaga
+     1021 acgccaccga gaaaggtttg tggtgctcaa tcaaacgtcc atactgataa acacgcctca
+     1081 ttgcaacgca atgaagaaat tctcaattcg taattgcatc tcacgcactt actctacctg
+     1141 ggctacgttc aaggacgaag aagaggaaag tgctactggg ctatattcaa acacgcttcg
+     1201 aaatgctatt cttatatatt atgtgtggtt aagcgatgta ccatctcaac tagacatgta
+     1261 cagcaatgta atgctaaatt acattggtta atgcaatcat gatgctgaaa agaactgcca
+     1321 ttaataaatt ttgcaataaa tttatcacac gcctttagtt aatggagcgt ttacattcga
+     1381 tttcatacat tgttctaccg ttttagttat tatttcagtt atctcgtccc tcgtaatgct
+     1441 tcccacttgt gatgccgatg gaccaggatc tattgcggat tcatctaatc cgctgaggtt
+     1501 tttgtacggt ctgctggtga cagaaactag cccaacttcc gatctacttg cccatgattc
+     1561 gttcggacca atcgcaagat gtgggacgcg taacgatctt gaactgtgac ccatgagtct
+     1621 tgatccatcg acgagccgtc ttgtctgtgg tttcgacccc accgaccaga aatctatgtc
+     1681 gttgacagtg aattctttgc tttggatctc tattcttggt gctcggaatt cgacgtcagt
+     1741 cgaatgtttg gccgaggata gttttaattt accgagcatc ttacagaaat gaactccatt
+     1801 cactacgttc gtgttttcta ctctgtattc aactctccaa ggatttttat ccttagcgga
+     1861 gaagtatgag gatgagtaat agtggaggtt gcagttgcat ttaattggaa ttgtgaactc
+     1921 tgcttgtttc gtgtctccct ccgtcaatcg catgtcgtga atctcaatta ccacatgccc
+     1981 gactgcatta attggtactt ggctgcgata ttcaagaaga acgtgatcaa ttttcatgca
+     2041 tctgtttctc aattgactga ttttctgctc gaacatggaa gggaacgtca gagtgacctc
+     2101 cgcagcgtcg tttgtgagag cgtactctac acgctccgat tctatgtatc ctccgactcc
+     2161 aagacccatg ttatcatttc ttattgacat atcgggcgcg cagcgtaatt ggctccgcag
+     2221 gtgaattaac tatgaaacgt acactacacc agtctttgca aaaagaccga aggaaattgt
+     2281 gggaaaggaa atgcaggaca attgcatttc taaagaacat ctaacaccga tttataacct
+     2341 atcatgtgtt atgtcccttg tccatagcaa taattcgaaa ttcatccgtg accgttgctc
+     2401 tatcatatct aagatatttt gaacggctga gatcaaaata tgaatgtcct cttattagcc
+     2461 ctgtttgtag ccagcccaat ttgctaaaat tgggatatgg tatatggatt cttgggtcac
+     2521 tcaaaaatag cccaattaag tatctagcca gtccgcccat tcaaagaacg acaccgtttg
+     2581 aagtttattt acatggaaaa gttagagaga agttgcacct tctctctcta gaccccaatt
+     2641 ggtgtccctt caaaactatg gtatattggg gtatggggtc ttatatatac cttagagaaa
+     2701 tttatggcgg cctttcgtt
+//
