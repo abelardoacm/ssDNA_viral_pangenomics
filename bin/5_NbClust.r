@@ -74,3 +74,31 @@ system(outdir)
 setwd("NbClust_membership_vectors")
 outfile <- paste(family,"membership_vectors.csv", sep="_")
 write.csv(Pertenencia.df, outfile, row.names = TRUE)
+
+
+#Distancias y Outliers
+setwd("..")
+outdir2 <- ("mkdir Distance_Matrices")
+system(outdir2)
+setwd("Distance_Matrices")
+Distancias <- dist(datos, method = "euclidean", diag=TRUE)
+Distancias.matrix <- as.matrix(Distancias)
+outfile2 <- paste(family,"distance_matrix.csv", sep="_")
+write.csv(Distancias.matrix, outfile2, row.names = TRUE)
+
+#UNUSED CODE
+#ene <- nrow(Distancias.matrix)
+#SumDist <- (rowSums(Distancias.matrix))/ene
+#mean_Distance <- mean(SumDist)
+#DistanceNorm <- (SumDist / mean_Distance)
+#DistanceNorm.df <- as.data.frame(DistanceNorm)
+
+#library("factoextra")
+#res.pca <- prcomp(datos, scale = TRUE)
+#fviz_eig(res.pca)
+#fviz_pca_ind(res.pca,
+#            col.ind = "cos2", # Color by the quality of representation
+#            gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+#            repel = TRUE     # Avoid text overlapping
+#)
+#fviz_pca_ind(res.pca)
