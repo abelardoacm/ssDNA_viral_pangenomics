@@ -86,19 +86,25 @@ Distancias.matrix <- as.matrix(Distancias)
 outfile2 <- paste(family,"distance_matrix.csv", sep="_")
 write.csv(Distancias.matrix, outfile2, row.names = TRUE)
 
-#UNUSED CODE
-#ene <- nrow(Distancias.matrix)
-#SumDist <- (rowSums(Distancias.matrix))/ene
-#mean_Distance <- mean(SumDist)
-#DistanceNorm <- (SumDist / mean_Distance)
-#DistanceNorm.df <- as.data.frame(DistanceNorm)
+ene <- nrow(Distancias.matrix)
+SumDist <- (rowSums(Distancias.matrix))/ene
+mean_Distance <- mean(SumDist)
+DistanceNorm <- (SumDist / mean_Distance)
+DistanceNorm.df <- as.data.frame(DistanceNorm)
+library("factoextra")
+res.pca <- prcomp(datos, scale = TRUE)
+groups <- as.factor(Pertenencia.df$Consenso)
 
-#library("factoextra")
-#res.pca <- prcomp(datos, scale = TRUE)
-#fviz_eig(res.pca)
-#fviz_pca_ind(res.pca,
-#            col.ind = "cos2", # Color by the quality of representation
-#            gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
-#            repel = TRUE     # Avoid text overlapping
-#)
-#fviz_pca_ind(res.pca)
+fviz_pca_ind(res.pca,
+             col.ind = groups, # color by groups
+             palette = c("#00AFBB",  "#FC4E07"),
+             addEllipses = TRUE,
+             legend.title = "Groups",
+             label = "none"
+)
+
+#UNUSED CODE
+res.dist <- get_dist(datos, stand = TRUE, method = "pearson")
+fviz_dist(res.dist, 
+          gradient = list(low = "#00AFBB", mid = "white", high = "#FC4E07"))
+
