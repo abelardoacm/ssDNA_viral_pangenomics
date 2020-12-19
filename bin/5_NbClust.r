@@ -3,6 +3,7 @@ library("NbClust")
 setwd("../results/Central_moments_and_covariance_vectors_CPFSCC")
 #INPUT
 family = as.character(commandArgs(trailingOnly = TRUE))
+#family = "Geminiviridae"
 file_suffix <- ("CPFSCC_vectors.txt")
 family_CPFSCC_file <- paste(family,file_suffix, sep = "_")
 tmp <- as.matrix(read.csv(family_CPFSCC_file, header = TRUE, sep = ",", dec = "."))
@@ -44,9 +45,8 @@ Best_num_clust["sdbw"] <- res$Best.nc[1]
 #Turn Best number of clusters to dataframe
 Bestnc <- as.data.frame(Best_num_clust)
 #Saving the most observed number of cluster into "nc" object
-names(sort(summary(as.factor(Bestnc$Best_num_clust)), decreasing = TRUE)[1])
 nc <- names(sort(summary(as.factor(Bestnc$Best_num_clust)), decreasing = TRUE)[1])
-#Define a subser of those indexes indicating a number of clusters equal to mc
+#Define a subset of those indexes indicating a number of clusters equal to mc
 ncsubset <- subset(Bestnc, Best_num_clust==nc)
 #Selecting index to operate partitions
 first_index <- rownames(ncsubset)[1]
@@ -69,42 +69,18 @@ function.moda<-function(n)
 Pertenencia.df$Consenso <- apply(Pertenencia.df, 1, function.moda)
 #OUTPUT
 setwd("..")
-outdir <- ("mkdir NbClust_membership_vectors")
+outdir <- ("mkdir -p NbClust_membership_vectors")
 system(outdir)
 setwd("NbClust_membership_vectors")
 outfile <- paste(family,"membership_vectors.csv", sep="_")
 write.csv(Pertenencia.df, outfile, row.names = TRUE)
 
-
 #Distancias y Outliers
-setwd("..")
-outdir2 <- ("mkdir Distance_Matrices")
+outdir2 <- ("mkdir -p ../Distance_Matrices/")
 system(outdir2)
-setwd("Distance_Matrices")
+setwd("../Distance_Matrices/")
 Distancias <- dist(datos, method = "euclidean", diag=TRUE)
 Distancias.matrix <- as.matrix(Distancias)
 outfile2 <- paste(family,"distance_matrix.csv", sep="_")
-write.csv(Distancias.matrix, outfile2, row.names = TRUE)
-
-ene <- nrow(Distancias.matrix)
-SumDist <- (rowSums(Distancias.matrix))/ene
-mean_Distance <- mean(SumDist)
-DistanceNorm <- (SumDist / mean_Distance)
-DistanceNorm.df <- as.data.frame(DistanceNorm)
-library("factoextra")
-res.pca <- prcomp(datos, scale = TRUE)
-groups <- as.factor(Pertenencia.df$Consenso)
-
-fviz_pca_ind(res.pca,
-             col.ind = groups, # color by groups
-             palette = c("#00AFBB",  "#FC4E07"),
-             addEllipses = TRUE,
-             legend.title = "Groups",
-             label = "none"
-)
-
-#UNUSED CODE
-res.dist <- get_dist(datos, stand = TRUE, method = "pearson")
-fviz_dist(res.dist, 
-          gradient = list(low = "#00AFBB", mid = "white", high = "#FC4E07"))
+write.csv(Pertenencia.df, outfile2, row.names = TRUE)
 
