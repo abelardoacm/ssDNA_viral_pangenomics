@@ -25,55 +25,59 @@ These are ssDNA_viral_pangenomics dependencies, links to their installing instru
 
 |                                     Software                                     |                     Installation                     |
 |:--------------------------------------------------------------------------------:|:----------------------------------------------------:|
-| [EMBOSS](http://emboss.sourceforge.net/download/)                                | bash `sudo apt-get install emboss`                   |
-| [Biopython](https://biopython.org/wiki/Download)                                 | bash `sudo apt-get install python3-biopython`        |
-| [Numpy](https://numpy.org/install/)                                              | bash `sudo apt-get install python3-numpy`            |
-| [MATLAB<br/>+ bioinformatics toolbox](https://la.mathworks.com/products/matlab.html) | online installation with installation script         |
-| [NbClust](https://cran.r-project.org/web/packages/NbClust/index.html)            | R `install.packages("NbClust", dependencies = TRUE)` |
+| [EMBOSS<br/>6.5.7](http://emboss.sourceforge.net/download/)                                | bash `sudo apt-get install emboss`                   |
+| [Biopython<br/>1.78](https://biopython.org/wiki/Download)                                 | bash `sudo apt-get install python3-biopython`        |
+| [Numpy<br/>1.19.4](https://numpy.org/install/)                                              | bash `sudo apt-get install python3-numpy`            |
+| [MATLAB<br/>R2020b<br/>+ bioinformatics toolbox](https://la.mathworks.com/products/matlab.html) | online installation with installation script         |
+| [NbClust<br/>3.0](https://cran.r-project.org/web/packages/NbClust/index.html)            | R `install.packages("NbClust", dependencies = TRUE)` |
+| [factoextra<br/>1.0.7](https://rpkgs.datanovia.com/factoextra/index.html)                  | R `install.packages("factoextra", dependencies = TRUE)` |
+
+
+library("ggplot2"))
+library("Corbi"))
+library("xts"))
+library("NbClust"))
+library("factoextra"))
+library("stringr"))
+library("tibble"))
+library("ggplot2"))
 
 >## **Repo tree**
 
-These are the key repository files and locations :
+These are the key repository folders :
 
 ``` 
 ├── bin
-│   ├── 1_Set_family_files_from_raw_genbank.sh
-│   ├── 2_Concatenation_from_taxid.pl
-│   ├── 3_Protein_count_filtering.pl
-│   ├── 4_Vectors_CPFSCC.sh
-│   ├── 5_NbClust.r
-│   ├── 6_Files_to_clusters.sh
-│   ├── 7_Get_homologues_routine.sh
-│   ├── Genbank_to_genomic_fasta_taxid_in_name.pl
-│   ├── Genbank_to_proteomic_fasta_taxid_in_name.pl
-│   ├── Modified_CPFSCC.m
-│   ├── Print_rename_instructions.pl
+│   ├── FSWM
+│   └── The-central-moments-and-covariance-vector-of-cumulative-Fourier-Transform-power-and-phase-spectra
 ├── data
 │   ├── AF_methods_input
-│   │   └── Geminiviridae_AF_input.fasta
 │   ├── Genomic_fasta_files
-│   │   ├── Geminiviridae_catfiltered_fasta_genomes [534 entries]
-│   │   ├── Geminiviridae_concatenated_fasta_genomes [538 entries]
-│   │   └── Geminiviridae_fasta_genomes [704 entries]
+│   │   ├── _fasta_genomes
+│   │   ├── Geminiviridae_catfiltered_fasta_genomes
+│   │   ├── Geminiviridae_concatenated_fasta_genomes
+│   │   └── Geminiviridae_fasta_genomes
 │   ├── Individual_full_genbank_files
-│   │   ├── Geminiviridae_catfiltered_genbank_genomes [534 entries]
-│   │   ├── Geminiviridae_concatenated_genbank_genomes [538 entries]
-│   │   └── Geminiviridae_genbank_genomes [704 entries]
+│   │   ├── Geminiviridae_catfiltered_genbank_genomes
+│   │   ├── Geminiviridae_concatenated_genbank_genomes
+│   │   └── Geminiviridae_genbank_genomes
 │   ├── Proteomic_fasta_files
-│   │   ├── Geminiviridae_catfiltered_fasta_proteomes [534 entries]
-│   │   ├── Geminiviridae_concatenated_fasta_proteomes [538 entries]
-│   │   └── Geminiviridae_fasta_proteomes [704 entries]
+│   │   ├── _fasta_proteomes
+│   │   ├── Geminiviridae_catfiltered_fasta_proteomes
+│   │   ├── Geminiviridae_concatenated_fasta_proteomes
+│   │   └── Geminiviridae_fasta_proteomes
 │   └── Raw_database
-│       └── Geminiviridae.gb
-├── results
-    ├── Central_moments_and_covariance_vectors_CPFSCC
-    │   └── Geminiviridae_CPFSCC_vectors.txt
-    ├── NbClust_membership_vectors
-    │   └── Geminiviridae_membership_vectors.csv
-    └── Pangenomic_input_clusters
-        └── Geminiviridae_clusters
-            ├── cluster_1 [162 entries]
-            └── cluster_2 [372 entries]
+└── results
+    ├── Central_moments_and_covariance_vectors_CPFSCC
+    ├── Clans
+    ├── Clustering_graphics
+    ├── Distance_Matrices
+    ├── Lists_for_sample_reduction
+    ├── NbClust_membership_vectors
+    └── Pangenomic_input_clusters
+        └── Geminiviridae_clusters
+            ├── cluster_1
+            └── cluster_2
 ```
 _NOTE\* for storage purposes only files corresponding to Geminiviridae family are available. Whole raw database will be available before research results submission_
 
