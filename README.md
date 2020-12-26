@@ -268,11 +268,11 @@ dis_matrix<- dist(cpfscc.df, method = "euclidean", diag=FALSE)
 ## From distance matrices to pangenomic inputs clusters
 ### **Genomes clusters**
 
-To perform sequence clustering from euclidean distances, we used the R package ["NbClust"](https://cran.r-project.org/web/packages/NbClust/index.html), the script [5_NbClust.r](bin/5_NbClust.r) makes use of NbClust to calculate 13 indexes. Each index propose an optimal number of clusters, and the most common value is then used to compute memberships vectors with 8 different methods ("wardD", "wardD2", "single", "complete", "average", "mcquitty", "median" and "centroid". See [notes on the method argument](https://www.rdocumentation.org/packages/NbClust/versions/3.0/topics/NbClust)). Finally a "Consensus" vector is generated, containing the most popular assignation for each viral genome file.
+To perform sequence clustering from euclidean distances, we used the R package ["NbClust"](https://cran.r-project.org/web/packages/NbClust/index.html), the script [5a_NbClust.r](bin/5a_NbClust.r) makes use of NbClust to calculate 13 indexes. Each index propose an optimal number of clusters, and the most common value is then used to compute memberships vectors with 8 different methods ("wardD", "wardD2", "single", "complete", "average", "mcquitty", "median" and "centroid". See [notes on the method argument](https://www.rdocumentation.org/packages/NbClust/versions/3.0/topics/NbClust)). Finally a "Consensus" vector is generated, containing the most popular assignation for each viral genome file.
 
-[5_NbClust.r](bin/5_NbClust.r) is used from command line as follows (example for Geminiviridae family):
+[5a_NbClust.r](bin/5a_NbClust.r) is used from command line as follows (example for Geminiviridae family):
 ```
-Rscript 5_NbClust.r Geminiviridae 1 10
+Rscript 5a_NbClust.r Geminiviridae 1 10
 ```
 ... where 1 and 10 define the limits of the number of clusters to explore
 
