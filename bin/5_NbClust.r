@@ -158,6 +158,7 @@ fviz_pca_ind(res.pca,
                          "#50f0d0", 
                          "#f05070"),
              addEllipses = TRUE,
+             ellipse.level=0.95,
              legend.title = "cluster",
              label = "none",
              title = paste(family, "clusters")
