@@ -21,26 +21,19 @@ cd bin/FSWM/
 make
 ```
 >## **Dependencies**
-These are ssDNA_viral_pangenomics dependencies, links to their installing instructions, and commands for installation in debian based distributions:
-
-|                                     Software                                     |                     Installation                     |
-|:--------------------------------------------------------------------------------:|:----------------------------------------------------:|
-| [EMBOSS<br/>6.5.7](http://emboss.sourceforge.net/download/)                                | bash `sudo apt-get install emboss`                   |
-| [Biopython<br/>1.78](https://biopython.org/wiki/Download)                                 | bash `sudo apt-get install python3-biopython`        |
-| [Numpy<br/>1.19.4](https://numpy.org/install/)                                              | bash `sudo apt-get install python3-numpy`            |
-| [MATLAB<br/>R2020b<br/>+ bioinformatics toolbox](https://la.mathworks.com/products/matlab.html) | online installation with installation script         |
-| [NbClust<br/>3.0](https://cran.r-project.org/web/packages/NbClust/index.html)            | R `install.packages("NbClust", dependencies = TRUE)` |
-| [factoextra<br/>1.0.7](https://rpkgs.datanovia.com/factoextra/index.html)                  | R `install.packages("factoextra", dependencies = TRUE)` |
-
-
-library("ggplot2"))
-library("Corbi"))
-library("xts"))
-library("NbClust"))
-library("factoextra"))
-library("stringr"))
-library("tibble"))
-library("ggplot2"))
+These are ssDNA_viral_pangenomics external dependencies, links to their installing instructions, commands for installation, and used versions:
+ 
+ | Software name (version used) 	| Terminal 	| Installation *debian based dist. 	|
+|-	|-	|-	|
+| [EMBOSS](http://emboss.sourceforge.net/download/) (6.5.7) 	| bash 	| `sudo apt-get install emboss` 	|
+| [Biopython](https://biopython.org/wiki/Download) (1.78) 	| bash 	| `sudo apt-get install python3-biopython` 	|
+| [Numpy](https://numpy.org/install/) (1.19.4) 	| bash 	| `sudo apt-get install python3-numpy` 	|
+| [MATLAB](https://la.mathworks.com/products/matlab.html) (R2020b)<br>+ bioinformatics toolbox 	| bash 	| `online installation via installation script` 	|
+| [NbClust](https://cran.r-project.org/web/packages/NbClust/index.html) (3.0) 	| R (4.0.3) 	| `install.packages("NbClust")` 	|
+| [factoextra](https://rpkgs.datanovia.com/factoextra/index.html) (1.0.7) 	| R (4.0.3) 	| `install.packages("factoextra")` 	|
+| [tidyverse](https://www.tidyverse.org/) (1.3.0) 	| R (4.0.3) 	| `install.packages("tidyverse")` 	|
+| [Corbi](https://cran.r-project.org/web/packages/Corbi/index.html) (0.6-1) 	| R (4.0.3) 	| `install.packages("Corbi")` 	|
+| [xts](https://cran.r-project.org/web/packages/xts/xts.pdf) (0.12.1) 	| R (4.0.3) 	| `install.packages("xts")` 	|
 
 >## **Repo tree**
 
@@ -103,9 +96,9 @@ Results from queries are downloaded in Genbank(full) format with illustrated par
   <img width="285" height="377" src="https://raw.githubusercontent.com/abelardoacm/ssDNA_viral_pangenomics/main/query_download_parameters.png">
 </p>
 
-The download default name for genomes genbank concatenation is **sequences.gb**, which must be changed into **family.gb** (i.e. Geminiviridae.gb).
+The download default name for genomes genbank concatenation is **sequences.gb**, which we suggest to change into **family.gb** (i.e. Geminiviridae.gb).
 
-### **Obtaining Genomic_fasta_files Individual_full_genbank_files and Proteomic_fasta_files**
+### **Obtaining Genomic_fasta_files/ Individual_full_genbank_files/ and Proteomic_fasta_files/**
 
 These folders are needed to begin data processing once the **family.gb** file is deposited in the Raw_database directory. Three format transformations are required, these are:
 
@@ -185,7 +178,7 @@ Warning: NC_039003: Bad value '2014-10-01' for tag '/collection_date'
 
 ### **\*\_concatenated\_\* folders**
 
-As a result of the previous step, three folders are generated. These however, do not always correspond to complete genomes. Some viral families have segmented genomes are present in and represent a potencial source of pangenomic core underestimation. A previously opened issue can be visited [here](https://github.com/abelardoacm/ssDNA_viral_pangenomics/issues/2) for further details. Those viral families led us to devise a strategy to concatenate the separate files of a viral species.
+As a result of the previous step, three folders are generated. These however, do not always correspond to complete genomes. Some viral families with segmented genomes are present and represent a potencial source of pangenomic core underestimation. A previously opened issue can be visited [here](https://github.com/abelardoacm/ssDNA_viral_pangenomics/issues/2) for further details. Those viral families led us to devise a strategy to concatenate the separate files of a viral species.
 
 The [2_Concatenation_from_taxid.pl](bin/2_Concatenation_from_taxid.pl) script fulfills the task of comparing files and concatenates those that share the same taxonomic id and source organism. It is used from command line as follows (for Geminiviridae family):
 
@@ -256,33 +249,52 @@ This folder contains the output of [4\_Vectors\_CPFSCC.sh](bin/4_Vectors_CPFSCC.
 ``` 
 ./4_Vectors_CPFSCC.sh Geminiviridae
 ```
-It will generate the central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of Geminiviridae genomes. Output family\_CPFSCC\_vectors.txt containing all 28-dimension vectors of the family genomes is automatically deposited into [results\/Central\_moments\_and\_covariance\_vectors\_CPFSCC\/](results/Central_moments_and_covariance_vectors_CPFSCC/). Aditionally, the final input for matlab script ["Modified_CPFSCC.m"](bin/Modified_CPFSCC.m) can be viewed in [data/AF\_methods\_input/](data/AF_methods_input).
+It will generate the central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of Geminiviridae genomes. Output family\_CPFSCC\_vectors.txt containing all 28-dimension vectors of the family genomes is automatically deposited into [results\/Central\_moments\_and\_covariance\_vectors\_CPFSCC\/](results/Central_moments_and_covariance_vectors_CPFSCC/). Aditionally, the final input for matlab script can be viewed in [data/AF\_methods\_input/](data/AF_methods_input).
 
-### **Distance matrices**
+### **results/Distance_Matrices**
 
 As stated by the authors of the cumulative Fourier Transform power and phase spectra method (Pei _et al_. 2019), the usual step following vectors computation is the estimation of pairwise distances, commonly euclidean distances.
 
-Euclidean distance matrices are implemented in ourk workflow, however they are not saved to an output by any script. If you wish to obtain the pairwise euclidean distance matrix of a family, from the [output](results/Central_moments_and_covariance_vectors_CPFSCC/) of [4\_Vectors\_CPFSCC.sh](bin/4_Vectors_CPFSCC.sh), the following lines of R code can be executed:
+Euclidean distance matrices are implemented at this point in ourk workflow, however they are saved to an output by a script until the following step. If you wish to obtain the distance matrix of a family, from the [output](results/Central_moments_and_covariance_vectors_CPFSCC/) of [4\_Vectors\_CPFSCC.sh](bin/4_Vectors_CPFSCC.sh), the following lines of R code can be executed:
 
 ```
 #input (cpfscc vectors of a family)
-cpfscc.vectors <- t(as.matrix(read.csv(family_CPFSCC_file, header = TRUE, sep = ",", dec = ".")))
-cpfscc.df <- as.data.frame(tmp2)
-
+cpfscc.df <- as.data.frame(t(as.matrix(read.csv(family_CPFSCC_file, header = TRUE, sep = ",", dec = "."))))
 #output (euclidean distances computation)
-diss_matrix<- dist(datos, method = "euclidean", diag=FALSE)
+dis_matrix<- dist(cpfscc.df, method = "euclidean", diag=FALSE)
 ```
-...where diss_matrix is the "dis" object containing the euclidean distance matrix.
+...where dis_matrix is the "dis" class object containing the euclidean distance matrix.
 
 ## From distance matrices to pangenomic inputs clusters
 ### **Genomes clusters**
 
 To perform sequence clustering from euclidean distances, we used the R package ["NbClust"](https://cran.r-project.org/web/packages/NbClust/index.html), the script [5_NbClust.r](bin/5_NbClust.r) makes use of NbClust to calculate 13 indexes. Each index propose an optimal number of clusters, and the most common value is then used to compute memberships vectors with 8 different methods ("wardD", "wardD2", "single", "complete", "average", "mcquitty", "median" and "centroid". See [notes on the method argument](https://www.rdocumentation.org/packages/NbClust/versions/3.0/topics/NbClust)). Finally a "Consensus" vector is generated, containing the most popular assignation for each viral genome file.
 
-[5_NbClust.r](bin/5_NbClust.r) is used from command line ass follows (example for Geminiviridae family):
+[5_NbClust.r](bin/5_NbClust.r) is used from command line as follows (example for Geminiviridae family):
 ```
-Rscript 5_NbClust.r Geminiviridae
+Rscript 5_NbClust.r Geminiviridae 1 10
 ```
+... where 1 and 10 define the limits of the number of clusters to explore
+
+The outputs for this script are:
+- [**family_distances_pplot.tiff**](results/Clustering_graphics). A linear point plot of the genomes colored by cluster and sorted in ascending order according to their total average value of paired distances (_y_ axis). Located in [results/Clustering_graphics](results/Clustering_graphics).
+- [**family_PCA_clusters.tiff**](results/Clustering_graphics). A PCA plot of the genomes of the family colored by cluster and ellipses of 95% of the concentration ellipse in normal probability.Located in [results/Clustering_graphics](results/Clustering_graphics)
+- [**family_distance_matrix.csv**](results/Distance_Matrices). csv file containing the paired euclidean distance matrix of members within a family. Located in [results/Distance_Matrices](results/Distance_Matrices)
+- [**Geminiviridae_membership_vectors.csv**](results/NbClust_membership_vectors). csv file containing the membership vectors from the different partition methods implemented by NbClust. Located in [results/NbClust_membership_vectors](results/NbClust_membership_vectors)
+
+### **Sample reduction by distances**
+
+Based on linear point and PCA plots of a family, you can choose whether or not to perform a sample reduction based on the distances, and an arbitrary cutoff percentage.
+
+The script [**5b_Sample_reduction.r**](bin/5b_Sample_reduction.r) fulfills this task, and can be used from bash terminal as follows:
+```
+Rscript 5b_Sample_reduction.r Geminiviridae 10
+```
+...where 10 is the arbitrary cutoff percentage. This means that within each cluster, the genomes corresponding to the most distant ten percent will be discarded for pangenomic analysis. The identifiers of these genomes are stored in a list titled **xx_percent_most_distant_family.txt** in [results/Lists_for_sample_reduction](results/Lists_for_sample_reduction).
+
+A second version of PCA and distances point plots will be saved along with the previous ones, labeled as **"after_sr_by_xx_percent"**. 
+
+
 ### **Relocation of files in assigned clusters**
 
 With the consensus membership vectors ready, each file can be relocated to its cluster. This task is fulfilled by the script [6_Files_to_clusters.sh](bin/6_Files_to_clusters.sh). For example:
