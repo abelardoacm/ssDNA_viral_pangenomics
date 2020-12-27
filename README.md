@@ -35,6 +35,10 @@ These are ssDNA_viral_pangenomics external dependencies, links to their installi
 | [Corbi](https://cran.r-project.org/web/packages/Corbi/index.html) (0.6-1) 	| R (4.0.3) 	| `install.packages("Corbi")` 	|
 | [xts](https://cran.r-project.org/web/packages/xts/xts.pdf) (0.12.1) 	| R (4.0.3) 	| `install.packages("xts")` 	|
 
+Install R dependencies by running `install.packages(c("NbClust", "factoextra", "tidyverse", "Corbi", "xts"))`
+Install bash dependencies with `sudo apt-get install emboss python3-biopython python3-numpy -y`
+
+
 >## **Repo tree**
 
 These are the key repository folders :
