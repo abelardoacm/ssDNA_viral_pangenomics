@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir ../data/Genomic_fasta_files ../data/Individual_full_genbank_files ../data/Proteomic_fasta_files
+mkdir -p ../data/Genomic_fasta_files ../data/Individual_full_genbank_files ../data/Proteomic_fasta_files
 
 
 #This bash scripts lives in bin

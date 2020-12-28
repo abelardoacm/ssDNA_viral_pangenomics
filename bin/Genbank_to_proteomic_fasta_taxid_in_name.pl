@@ -4,7 +4,7 @@ $archivo = $ARGV[0];
 chomp ($archivo);
 $carpeta = $archivo;
 $carpeta =~ s/\.gb/_fasta_proteomes/g;
-system ("mkdir ../data/Proteomic_fasta_files/$carpeta");
+system ("mkdir -p ../data/Proteomic_fasta_files/$carpeta");
 open (FILE, "../data/Raw_database/$archivo");
 $numero = 0;
 while ($linea = <FILE>) {

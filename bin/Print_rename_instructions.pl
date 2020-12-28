@@ -4,7 +4,7 @@ $archivo = $ARGV[0];
 chomp ($archivo);
 $carpeta = $archivo;
 $carpeta =~ s/\.gb/_genbank_genomes/g;
-system ("mkdir ../data/Individual_full_genbank_files/$carpeta");
+system ("mkdir -p ../data/Individual_full_genbank_files/$carpeta");
 open (FILE, "../data/Raw_database/$archivo");
 open (OUT, ">>rename_rules.txt");
 $count = 0;
