@@ -66,6 +66,9 @@ echo DONE: Generated clusters with NbClust
 sleep 3
 
 # Rscript 5b_Sample_reduction.r $family $percsr
+read -p "Do you want to perform sample reduction based on distances (recommended)? " -n 1 -r
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
 echo ...
 echo collecting parameters for sample reduction
 echo ...
@@ -75,6 +78,8 @@ read percsr
 Rscript 5b_Sample_reduction.r $family $percsr
 echo DONE: Reduced sample by \%$percsr 
 sleep 1
+fi
+
 
 # ./6_Files_to_clusters.sh $family
 echo ...
