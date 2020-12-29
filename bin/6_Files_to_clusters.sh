@@ -10,4 +10,4 @@ eval "$(sed 's/^/mv /g' rename_rules.txt )"
 mv cluster* $1_clusters
 mv $1_clusters ../results/Pangenomic_input_clusters/
 rm rename_rules.txt
-rm *.gbk
+rm -f *.gbk

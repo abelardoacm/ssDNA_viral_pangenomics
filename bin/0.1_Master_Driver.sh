@@ -40,6 +40,7 @@ echo ...
 sleep 3
 perl 3_Protein_count_filtering.pl $family $percvar $lesspc $morepc
 echo DONE: Filtered genomes by its protein count
+sleep 3
 
 # ./4_Vectors_CPFSCC.sh $family
 echo ...
@@ -66,20 +67,19 @@ echo DONE: Generated clusters with NbClust
 sleep 3
 
 # Rscript 5b_Sample_reduction.r $family $percsr
-read -p "Do you want to perform sample reduction based on distances (recommended)? " -n 1 -r
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-echo ...
-echo collecting parameters for sample reduction
-echo ...
-sleep 1
-echo By what percentage you want to reduce your sample ?
-read percsr
-Rscript 5b_Sample_reduction.r $family $percsr
-echo DONE: Reduced sample by \%$percsr 
-sleep 1
+read -p "Do you want to perform sample reduction based on distances (recommended)?  (yes/no)" -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+	echo ...
+	echo collecting parameters for sample reduction
+	echo ...
+	sleep 1
+	echo By what percentage you want to reduce your sample ?
+	read percsr
+	Rscript 5b_Sample_reduction.r $family $percsr
+	echo DONE: Reduced sample by \%$percsr
+	sleep 1
 fi
-
 
 # ./6_Files_to_clusters.sh $family
 echo ...
