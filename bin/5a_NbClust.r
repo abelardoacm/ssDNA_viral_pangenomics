@@ -113,7 +113,7 @@ SumDist.df$Membership <- as.factor(Pertenencia.df$Consenso)
 OrderedDist.df <- SumDist.df[order(SumDist.df$MeanDif),] #sort sum of distances
 IndexByDistSum <- seq(from = 1, to = ene)
 OrderedDist.df$IndexByDistSum <- IndexByDistSum
-outfile3 <- paste(family,"_distances_pplot.tiff") #name third outfile
+outfile3 <- paste(family,"_distances_pplot.tiff", sep = "") #name third outfile
 setwd("..") #make third outdir
 outdir3 <- ("mkdir -p Clustering_graphics") #make third outdir
 system(outdir3)
@@ -132,7 +132,7 @@ dev.off()
 res.pca <- prcomp(datos, scale = TRUE) #make PCA
 groups <- as.factor(Pertenencia.df$Consenso) #recover clusters
 #Draw PCA and ellipses
-outfile4 <- paste(family,"_PCA_clusters.tiff")
+outfile4 <- paste(family,"_PCA_clusters.tiff", sep = "")
 #png(outfile4)
 tiff(outfile4, units="in", width=7, height=5, res=600)
 fviz_pca_ind(res.pca,

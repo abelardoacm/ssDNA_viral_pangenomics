@@ -140,7 +140,7 @@ TaxDelSubset$Membership <- NULL
 res.pca <- prcomp(TaxDelSubset, scale = TRUE) #make PCA
       #Draw PCA and ellipses
 setwd("../Clustering_graphics")
-outfile4 <- paste(family,"_PCA_clusters_after_sr_by_", PosArgs[2], "_percent.tiff") #sr stands for "sample reduction"
+outfile4 <- paste(family,"_PCA_clusters_after_sr_by_", PosArgs[2], "_percent.tiff", sep = "") #sr stands for "sample reduction"
 tiff(outfile4, units="in", width=7, height=5, res=600) 
 fviz_pca_ind(res.pca,
              col.ind = groups, # color by groups
@@ -185,7 +185,7 @@ SumDistAfter.df$Membership <- as.factor(groups)
 OrderedDistAfter.df <- SumDistAfter.df[order(SumDistAfter.df$MeanDif),] #sort sum of distances
 IndexByDistSum <- seq(from = 1, to = n)
 OrderedDistAfter.df$IndexByDistSum <- IndexByDistSum
-outfile3 <- paste(family,"_distances_pplot_after_sr_by_", PosArgs[2], "_percent.tiff") #name third outfile
+outfile3 <- paste(family,"_distances_pplot_after_sr_by_", PosArgs[2], "_percent.tiff", sep = "") #name third outfile
 legendtitle <- paste(family, "ordered distances by cluster after sr")
 tiff(outfile3, units="in", width=7, height=5, res=600) #assign third output
 ggplot(data=OrderedDistAfter.df, aes(IndexByDistSum, MeanDif)) +
