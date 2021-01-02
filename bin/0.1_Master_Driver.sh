@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p ../results
 mkdir -p ../results/Master_reports
 print_center(){
     local x
@@ -82,7 +83,6 @@ else
 	echo
 	print_center "A previous Report_$family file report was found"
 fi
-echo -e "\n$stepcheck"
 #Variable menu
 echo -e "\n________________________________________\nAvailable options with current data are:\n\n \t(0)\tPerform all steps\n\n\tor pick a single step \n\n\t(1)\tSet family files from raw genbank\n"
 if [[ $varmenu1 -gt 0 ]]; then
