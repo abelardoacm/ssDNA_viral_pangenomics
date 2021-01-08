@@ -53,7 +53,7 @@ if [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_catfiltered_fasta_pr
 else
 	varmenu3=0
 fi
-if [[ $(find ../results/Central_moments_and_covariance_vectors_CPFSCC/ -name "$family\_CPFSCC_vectors.txt" | wc -l) != [0] ]]; then
+if [[ $(find ../results/CPFSCC_vectors/ -name "$family\_CPFSCC_vectors.txt" | wc -l) != [0] ]]; then
 	print_center "4.- Compute CPFSCC vectors                                  "
 	echo
 	stepcheck=5
@@ -222,7 +222,7 @@ fi
 # ./4_Vectors_CPFSCC.sh $family
 if [[ $repl =~ ^[4]$ ]]; then
 	print_center "- - - - - -4_Vectors_CPFSCC.sh- - - - - -"
-	while [[ $(find ../results/Central_moments_and_covariance_vectors_CPFSCC/ -name "$family\_CPFSCC_vectors.txt" | wc -l) != [0] ]]; do
+	while [[ $(find ../results/CPFSCC_vectors/ -name "$family\_CPFSCC_vectors.txt" | wc -l) != [0] ]]; do
 		echo -e "\n\nThe fourth step, performed by 4_Vectors_CPFSCC.sh was already performed for $family\nif you wish to continue, previous results for this step will be deleted\n\n"
 		sleep 0.5
 		read -p "    do you want to continue (yes/no) ?" -n 1 -r 
@@ -232,7 +232,7 @@ if [[ $repl =~ ^[4]$ ]]; then
 		done
 		if [[ $REPLY =~ ^[Yy]$ ]]; then
 			rm ../data/AF_methods_input/$family\_AF_input.fasta
-			rm ../results/Central_moments_and_covariance_vectors_CPFSCC/$family\_CPFSCC_vectors.txt
+			rm ../results/CPFSCC_vectors/$family\_CPFSCC_vectors.txt
 			echo -e "\n...\nDONE: Deleted previous results"
 			sleep 0.5
 		fi
@@ -245,8 +245,8 @@ if [[ $repl =~ ^[4]$ ]]; then
 	echo -e "------------4_Vectors_CPFSCC.sh $family------------\n" >> ../results/Master_reports/Report_$family
 	echo -e "...\ncomputing central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of $family genomes\n..."
 	./4_Vectors_CPFSCC.sh $family
-	echo CPFSCC vectors of $family genomes saved in ../results/Central_moments_and_covariance_vectors_CPFSCC/$family\_CPFSCC_vectors.txt | tee -a ../results/Master_reports/Report_$family
-	echo -e "\n\nINPUT:\tMulti-fasta containing all $family genomes:\t/data/AF_methods_input/$family\_AF_input.fasta\n\nOUTPUT: Text file containing $family CPFSCC vectors:\t/results/Central_moments_and_covariance_vectors_CPFSCC/$family\_CPFSCC_vectors.txt" | tee -a ../results/Master_reports/Report_$family
+	echo CPFSCC vectors of $family genomes saved in ../results/CPFSCC_vectors/$family\_CPFSCC_vectors.txt | tee -a ../results/Master_reports/Report_$family
+	echo -e "\n\nINPUT:\tMulti-fasta containing all $family genomes:\t/data/AF_methods_input/$family\_AF_input.fasta\n\nOUTPUT: Text file containing $family CPFSCC vectors:\t/results/CPFSCC_vectors/$family\_CPFSCC_vectors.txt" | tee -a ../results/Master_reports/Report_$family
 	echo -e "\n\nDONE: Computed CPFSCC vectors\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
 	sleep 4
 	exit 1
@@ -286,7 +286,7 @@ if [[ $repl =~ ^[5]$ ]]; then
 	echo -e "\n...\ncomputing Nbclust R package indices\n..."
 	Rscript 5a_NbClust.r $family $minnc $maxnc
 	echo -e "\nNumber of clusters found for $family genomes: $(cat ../results/NbClust_membership_vectors/$family\_membership_vectors.csv | cut -d, -f10 | sed 's/"//g' | sort | uniq | grep -v "Consenso" | tail -n1)"| tee -a ../results/Master_reports/Report_$family
-	echo -e "\n\nINPUT:\tText file containing CPFSCC vectors:\t/results/Central_moments_and_covariance_vectors_CPFSCC/$family\_CPFSCC_vectors.txt\n\nOUTPUT: Membership vectors\t/results/NbClust_membership_vectors/$family\_membership_vectors.csv\n\tDistance matrix\t/results/Distance_Matrices/$family\_distance_matrix.csv\n\tLinear point plot\t/results/Clustering_graphics/$family\_distances_pplot.tiff\n\tClusters PCA    \t/results/Clustering_graphics/$family\_PCA_clusters.tiff" | tee -a ../results/Master_reports/Report_$family
+	echo -e "\n\nINPUT:\tText file containing CPFSCC vectors:\t/results/CPFSCC_vectors/$family\_CPFSCC_vectors.txt\n\nOUTPUT: Membership vectors\t/results/NbClust_membership_vectors/$family\_membership_vectors.csv\n\tDistance matrix\t/results/Distance_Matrices/$family\_distance_matrix.csv\n\tLinear point plot\t/results/Clustering_graphics/$family\_distances_pplot.tiff\n\tClusters PCA    \t/results/Clustering_graphics/$family\_PCA_clusters.tiff" | tee -a ../results/Master_reports/Report_$family
 	echo -e "\n\nDONE: Generated clusters with NbClust\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
 	sleep 4
 	# Rscript 5b_Sample_reduction.r $family $percsr
@@ -398,8 +398,8 @@ if [[ $repl =~ ^[0]$ ]]; then
 	echo -e "------------4_Vectors_CPFSCC.sh $family------------\n" >> ../results/Master_reports/Report_$family
 	echo -e "...\ncomputing central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of $family genomes\n..."
 	./4_Vectors_CPFSCC.sh $family
-	echo CPFSCC vectors of $family genomes saved in ../results/Central_moments_and_covariance_vectors_CPFSCC/$family\_CPFSCC_vectors.txt | tee -a ../results/Master_reports/Report_$family
-	echo -e "\n\nINPUT:\tMulti-fasta containing all $family genomes:\t/data/AF_methods_input/$family\_AF_input.fasta\n\nOUTPUT: Text file containing $family CPFSCC vectors:\t/results/Central_moments_and_covariance_vectors_CPFSCC/$family\_CPFSCC_vectors.txt" | tee -a ../results/Master_reports/Report_$family
+	echo CPFSCC vectors of $family genomes saved in ../results/CPFSCC_vectors/$family\_CPFSCC_vectors.txt | tee -a ../results/Master_reports/Report_$family
+	echo -e "\n\nINPUT:\tMulti-fasta containing all $family genomes:\t/data/AF_methods_input/$family\_AF_input.fasta\n\nOUTPUT: Text file containing $family CPFSCC vectors:\t/results/CPFSCC_vectors/$family\_CPFSCC_vectors.txt" | tee -a ../results/Master_reports/Report_$family
 	echo -e "\n\nDONE: Computed CPFSCC vectors\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
 	sleep 4
 	clear
@@ -417,7 +417,7 @@ if [[ $repl =~ ^[0]$ ]]; then
 	echo -e "\n...\ncomputing Nbclust R package indices\n..."
 	Rscript 5a_NbClust.r $family $minnc $maxnc
 	echo -e "\nNumber of clusters found for $family genomes: $(cat ../results/NbClust_membership_vectors/$family\_membership_vectors.csv | cut -d, -f10 | sed 's/"//g' | sort | uniq | grep -v "Consenso" | tail -n1)"| tee -a ../results/Master_reports/Report_$family
-	echo -e "\n\nINPUT:\tText file containing CPFSCC vectors:\t/results/Central_moments_and_covariance_vectors_CPFSCC/$family\_CPFSCC_vectors.txt\n\nOUTPUT: Membership vectors\t/results/NbClust_membership_vectors/$family\_membership_vectors.csv\n\tDistance matrix\t/results/Distance_Matrices/$family\_distance_matrix.csv\n\tLinear point plot\t/results/Clustering_graphics/$family\_distances_pplot.tiff\n\tClusters PCA    \t/results/Clustering_graphics/$family\_PCA_clusters.tiff" | tee -a ../results/Master_reports/Report_$family
+	echo -e "\n\nINPUT:\tText file containing CPFSCC vectors:\t/results/CPFSCC_vectors/$family\_CPFSCC_vectors.txt\n\nOUTPUT: Membership vectors\t/results/NbClust_membership_vectors/$family\_membership_vectors.csv\n\tDistance matrix\t/results/Distance_Matrices/$family\_distance_matrix.csv\n\tLinear point plot\t/results/Clustering_graphics/$family\_distances_pplot.tiff\n\tClusters PCA    \t/results/Clustering_graphics/$family\_PCA_clusters.tiff" | tee -a ../results/Master_reports/Report_$family
 	echo -e "\n\nDONE: Generated clusters with NbClust\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
 	sleep 4
 	clear

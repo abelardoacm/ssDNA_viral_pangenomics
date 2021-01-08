@@ -118,7 +118,7 @@ for (i in 1:length(RecoverOutput)){
   #Use TaxDel to repeat code for 5_NbClust.r figures  , deleting what's inside TaxDel
     
     #Rebuilding data object
-setwd("../Central_moments_and_covariance_vectors_CPFSCC/") #Location of CPFSCC vectors files
+setwd("../CPFSCC_vectors/") #Location of CPFSCC vectors files
 file_suffix3 <- ("CPFSCC_vectors.txt") #Suffix to build input filename
 family_CPFSCC_file <- paste(family,file_suffix3, sep = "_") #Read filename
 CPFSCC <- as.matrix(read.csv(family_CPFSCC_file, header = TRUE, sep = ",", dec = ".")) #Transform to matrix

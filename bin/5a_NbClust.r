@@ -12,10 +12,10 @@ suppressPackageStartupMessages(library("NbClust"))
 suppressPackageStartupMessages(library("factoextra"))
 suppressPackageStartupMessages(library("ggplot2"))
 
-# The only input is ../results/Central_moments_and_covariance_vectors_CPFSCC/$family_CPFSCC_vectors.txt
+# The only input is ../results/CPFSCC_vectors/$family_CPFSCC_vectors.txt
 
 # INPUT
-setwd("../results/Central_moments_and_covariance_vectors_CPFSCC") #Location of CPFSCC vectors files
+setwd("../results/CPFSCC_vectors") #Location of CPFSCC vectors files
 PosArgs <- as.character(commandArgs(trailingOnly = TRUE))
 family = PosArgs[1]  #Reads positional arguments to define family (e.g. family = "Geminiviridae")
 mincluster = as.numeric(PosArgs[2])
