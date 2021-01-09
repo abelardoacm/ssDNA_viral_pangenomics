@@ -1,34 +1,47 @@
 #!/usr/bin/env Rscript
-
-#Objective: This script takes the CPFSCC 28 dimensional vectors of a family, performs 13 different clustering indexes, 
-#and returns a family membership data frame with consensus clustering
-
-#NOTES:
-#By december 19 2021 the scripts has a minimum number of clusters equal to 1, and a maximum of 6
-#Minimum should not be changed, and maximum can be scaled up to 15
-
-# Needed packages
+#5a_NbClust.r
+#
+#Author: Abelardo Aguilar Camara
+#
+#Task performed:
+#    This script takes the CPFSCC 28 dimensional vectors of a family, 
+#    performs 13 different clustering indices, and returns a family 
+#    membership data frame with consensus clustering
+#
+#
+#NOTE:"CPFSCC" stands for central moments and covariance vectors of cumulative fourier transform power and phase spectra
+#
+#INPUT: CPFSCC vectors of anytaxon from  ../results/CPFSCC_vectors/anytaxon_CPFSCC_vectors.txt
+#
+#OUTPUT: Membership vectors        in    ../results/NbClust_membership_vectors/
+#        Distance matrix           in    ../results/Distance_Matrices/
+#        Point plot of distances   in    ../results/Clustering_graphics
+#        Clusters PCA              in    ../results/Clustering_graphics
+#
+#################################################
+#
+#5a_NbClust.r
+#
+#################################################
+# Load needed packages
 suppressPackageStartupMessages(library("NbClust"))
 suppressPackageStartupMessages(library("factoextra"))
 suppressPackageStartupMessages(library("ggplot2"))
-
-# The only input is ../results/CPFSCC_vectors/$family_CPFSCC_vectors.txt
-
-# INPUT
+#################################################
+# Reading input
 setwd("../results/CPFSCC_vectors") #Location of CPFSCC vectors files
 PosArgs <- as.character(commandArgs(trailingOnly = TRUE))
 family = PosArgs[1]  #Reads positional arguments to define family (e.g. family = "Geminiviridae")
-mincluster = as.numeric(PosArgs[2])
-maxcluster = as.numeric(PosArgs[3])
+mincluster = as.numeric(PosArgs[2]) # defines minimum number of clusters
+maxcluster = as.numeric(PosArgs[3]) # defines maximum number of clusters
 file_suffix <- ("CPFSCC_vectors.txt") #Suffix to build input filename
 family_CPFSCC_file <- paste(family,file_suffix, sep = "_") #Read filename
 tmp <- as.matrix(read.csv(family_CPFSCC_file, header = TRUE, sep = ",", dec = ".")) #Transform to matrix
-tmp2 <- t(tmp) #Transpose matrix
+tmp2 <- t(tmp)
 colnames(tmp2) <- sprintf("D%d", 1:28) #Name columns dimensions
 datos <- as.data.frame(tmp2) # Object datos is the final input for the upcoming computations
-
-#Estimating the best number of clusters
-#indexes to estimate
+#################################################
+#indices to estimate
 indexes <- c("kl",
              "ch", 
              "hartigan", 
@@ -42,23 +55,23 @@ indexes <- c("kl",
              "dunn", 
              "sdindex", 
              "sdbw") 
-Best_num_clust <- c() #Vector containing best number of cluster proposed by each index
 diss_matrix<- dist(datos, method = "euclidean", diag=FALSE) #Pairwise distance matrix
-
-#Following block can be changed by a for loop, HOWEVER!!! not all indexes can be computed every time for every sample data
-res <- c()
-Best_num_clust <- c()
+#################################################
+#Estimating the best number of clusters
+res <- c() # Vector to contain results
+Best_num_clust <- c() #Vector to contain best number of cluster proposed by each index
+#Loop over indices to compute
 for (i in indexes){
   res <- NbClust(datos, diss=diss_matrix, distance = NULL, min.nc=mincluster, max.nc=maxcluster, method = "ward.D", index = i)
   Best_num_clust[i] <- res$Best.nc[1]
 }
-Bestnc <- as.data.frame(Best_num_clust) #Turn Best number of clusters to dataframe
-nc <- names(sort(summary(as.factor(Bestnc$Best_num_clust)), decreasing = TRUE)[1]) #Saving the most observed number of cluster into "nc" object
-ncsubset <- subset(Bestnc, Best_num_clust==nc) #Define a subset of those indexes indicating a number of clusters equal to mc
-first_index <- rownames(ncsubset)[1] #Selecting index to operate partitions
-
+Bestnc <- as.data.frame(Best_num_clust) #to dataframe
+nc <- names(sort(summary(as.factor(Bestnc$Best_num_clust)), decreasing = TRUE)[1]) #Saves the most observed number of clusters
+ncsubset <- subset(Bestnc, Best_num_clust==nc) #Defines a subset of those indexes indicating matching nc
+first_index <- rownames(ncsubset)[1] #Selects index to operate partitions
+#################################################
 #Computing partitions
-#Can be changed to for loop but we prefer this way to easily find when a partition method aborts
+#Can be changed to for loop but I prefer this way to easily find when a partition method aborts
 Partition_wardD <- NbClust(datos, diss=diss_matrix, distance = NULL, min.nc=mincluster, max.nc=maxcluster, method = "ward.D", index = first_index)
 Partition_wardD2 <- NbClust(datos, diss=diss_matrix, distance = NULL, min.nc=mincluster, max.nc=maxcluster, method = "ward.D2", index = first_index)
 Partition_single <- NbClust(datos, diss=diss_matrix, distance = NULL, min.nc=mincluster, max.nc=maxcluster, method = "single", index = first_index)
@@ -77,33 +90,36 @@ Pertenencia.df <- data.frame(Partition_wardD$Best.partition,
                              Partition_mcquitty$Best.partition, 
                              Partition_median$Best.partition, 
                              Partition_centroid$Best.partition)
+#################################################
 #Define a function "moda" to recover the most popular clusters membership proposition for each genome
 function.moda<-function(n)
 {
   names(sort(summary(as.factor(n)), decreasing = TRUE)[1]) 
 }
-Pertenencia.df$Consenso <- apply(Pertenencia.df, 1, function.moda) #Estimate consensus membership vector with function "moda"
-
-#OUTPUTS
+#################################################
+#Use function.moda to estimate consensus membership vector
+Pertenencia.df$Consenso <- apply(Pertenencia.df, 1, function.moda)
+#################################################
+#################################################
+#Save outputs
 #Membership vectors
-setwd("..") #Make outdir
-outdir <- ("mkdir -p NbClust_membership_vectors") #Make outdir
+setwd("..")
+outdir <- ("mkdir -p NbClust_membership_vectors") #Make membership vectors outdir
 system(outdir) #Make outdir
 setwd("NbClust_membership_vectors")
-outfile <- paste(family,"membership_vectors.csv", sep="_") #Name first outfile
-write.csv(Pertenencia.df, outfile, row.names = TRUE) #Write first output
-
+outfile <- paste(family,"membership_vectors.csv", sep="_")
+write.csv(Pertenencia.df, outfile, row.names = TRUE) #Write membership vectors file
+#################################################
 #Distance matrix
-outdir2 <- ("mkdir -p ../Distance_Matrices/") #Name second outfile
-system(outdir2) #Make second outdir
-setwd("../Distance_Matrices/")  #Go second outdir
+outdir2 <- ("mkdir -p ../Distance_Matrices/") 
+system(outdir2) #Make distance matrices outdir
+setwd("../Distance_Matrices/")
 Distancias <- dist(datos, method = "euclidean", diag=TRUE) #Estimate pairwise distances
 Distancias.matrix <- as.matrix(Distancias) #Transform to matrix
-outfile2 <- paste(family,"distance_matrix.csv", sep="_") #Name second outfile
-write.csv(Distancias.matrix, outfile2, row.names = TRUE) #Write second outfile
-
-#Point plot of ordered distances.
-#Visualize sums of distances distribution
+outfile2 <- paste(family,"distance_matrix.csv", sep="_")
+write.csv(Distancias.matrix, outfile2, row.names = TRUE) #Write distance matrix as csv
+#################################################
+#Point plot of ordered distances (pplot)
 ene <- nrow(Distancias.matrix) #number of genomes
 SumDist <- (rowSums(Distancias.matrix)) #get sum of distances by genome
 SumDist.df <- as.data.frame(SumDist) #transform to data frame
@@ -113,28 +129,26 @@ SumDist.df$Membership <- as.factor(Pertenencia.df$Consenso)
 OrderedDist.df <- SumDist.df[order(SumDist.df$MeanDif),] #sort sum of distances
 IndexByDistSum <- seq(from = 1, to = ene)
 OrderedDist.df$IndexByDistSum <- IndexByDistSum
-outfile3 <- paste(family,"_distances_pplot.tiff", sep = "") #name third outfile
-setwd("..") #make third outdir
-outdir3 <- ("mkdir -p Clustering_graphics") #make third outdir
+outfile3 <- paste(family,"_distances_pplot.tiff", sep = "") #name pplot outfile
+setwd("..") 
+outdir3 <- ("mkdir -p Clustering_graphics") #make clustering graphics outdir
 system(outdir3)
 legendtitle <- paste(family, "ordered distances by cluster")
 setwd("Clustering_graphics")
-#png(outfile3) #assign third output
-#Point plot
-tiff(outfile3, units="in", width=7, height=5, res=600)
+# ggplot pplot in tiff file
+tiff(outfile3, units="in", width=7, height=5, res=600) #tiff resolution parameters
 ggplot(data=OrderedDist.df, aes(IndexByDistSum, MeanDif)) +
   geom_point(aes(colour = Membership), size = 2, alpha = 0.2) +
   theme(legend.position="top") +
   labs(color= legendtitle )
 dev.off()
-
+#################################################
 #Clusters PCA
 res.pca <- prcomp(datos, scale = TRUE) #make PCA
 groups <- as.factor(Pertenencia.df$Consenso) #recover clusters
-#Draw PCA and ellipses
 outfile4 <- paste(family,"_PCA_clusters.tiff", sep = "")
-#png(outfile4)
-tiff(outfile4, units="in", width=7, height=5, res=600)
+#Draw PCA to tiff file
+tiff(outfile4, units="in", width=7, height=5, res=600) #tiff resolution parameters
 fviz_pca_ind(res.pca,
              col.ind = groups, # color by groups
              palette = c("#00AFBB", 

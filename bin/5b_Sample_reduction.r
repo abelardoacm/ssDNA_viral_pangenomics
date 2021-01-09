@@ -1,14 +1,28 @@
 #!/usr/bin/env Rscript
-
-#Objective: The task for Sample_reduction.r is to print a list of the "n" percent most distant taxids within clusters of a family
-#It's used as a subroutine of a bash script
-
-# This script should be called from bin/
-# Inputs for this script are ../results/Distance_Matrices/$family_distance_matrix.csv and ../NbClust_membership_vectors/$family__membership_vectors.csv
-
-# Suggested minimum of 20 genomes.
-
-#Needed libraries
+#5b_Sample_reduction.r
+#
+#Author: Abelardo Aguilar Camara
+#
+#Task performed:
+#     The task for Sample_reduction.r is to delete the "n" percent 
+#     most distant taxids within clusters of a family.
+#
+#INPUT: Paired distance matrix of anytaxon    from  ../results/Distance_Matrices/anytaxon_distance_matrix.csv
+#       Old membership vectors                from  ../results/NbClust_membership_vectors/
+#
+#OUTPUT: Reduced membership vectors           in    ../results/NbClust_membership_vectors/
+#        Reduced subset of distance matrix    in    ../results/Distance_Matrices/
+#        New point plot of distances          in    ../results/Clustering_graphics
+#        New clusters PCA                     in    ../results/Clustering_graphics
+#
+#        * labeled as "after_sr" which means after sample reduction
+#
+#################################################
+#
+#5b_Sample_reduction.r
+#
+#################################################
+#Load needed libraries
 suppressPackageStartupMessages(library("Corbi"))
 suppressPackageStartupMessages(library("xts"))
 suppressPackageStartupMessages(library("NbClust"))
@@ -16,13 +30,12 @@ suppressPackageStartupMessages(library("factoextra"))
 suppressPackageStartupMessages(library("stringr"))
 suppressPackageStartupMessages(library("tibble"))
 suppressPackageStartupMessages(library("ggplot2"))
-
-#INPUT 1
+#################################################
 #Collecting first input ../results/Distance_Matrices/$family_distance_matrix.csv to environment
 setwd("../results/Distance_Matrices/") #Location of .csv distance matrices
 PosArgs <- as.character(commandArgs(trailingOnly = TRUE)) #Reading positional argument 
 family <- PosArgs[1] #Create "family" object (e.g. family = "Geminiviridae")
-file_suffix <- ("distance_matrix.csv") #Building input filename
+file_suffix <- ("distance_matrix.csv") 
 family_distmx <- paste(family,file_suffix, sep = "_") #Building input filename
 family_distmx <- read.csv(family_distmx, header = TRUE, sep = ",", dec = ".") #Reading .csv input file
 #Transform to data frame and name rows by taxids
@@ -30,8 +43,7 @@ family_distmx <- as.data.frame(family_distmx)
 OriginalTaxids <- family_distmx$X
 family_distmx$X <- NULL
 row.names(family_distmx) <- OriginalTaxids
-
-#INPUT 2
+#################################################
 #Collecting second input ../results/Distance_Matrices/$family_membership_vectors.csv to environment
 setwd("../NbClust_membership_vectors") #Location of membership vectors
 file_suffix2 <- ("_membership_vectors.csv") #Building input filename to read it
@@ -42,18 +54,18 @@ family_membership <- as.data.frame(family_membership)
 TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Consenso, row.names = OriginalTaxids)
 colnames(TaxidPertenencia)<- c("Taxids","Pertenencia") #Data frame summarizing which taxids are members of each cluster
 setwd("../Distance_Matrices/") #Return to ../Distance_Matrices/
-
-#OUTPUT
-outfile <- paste(PosArgs[2], "_percent_most_distant_", family,".txt", sep = "") #Naming outfile
-outdir <- ("mkdir -p ../Lists_for_sample_reduction/") #Naming outdir
-system(outdir) #Make outdir
-
+#################################################
+#Naming output files and folders
+outfile <- paste(PosArgs[2], "_percent_most_distant_", family,".txt", sep = "")
+outdir <- ("mkdir -p ../Lists_for_sample_reduction/")
+system(outdir)
+#################################################
 #Computations
-ClustersTaxidListsNames <- c() #Empty vector to name clusters
-clusters <- unique(TaxidPertenencia$Pertenencia) #Identifying clusters
+ClustersTaxidListsNames <- c()
+clusters <- unique(TaxidPertenencia$Pertenencia) #Identifies clusters
 nc <- max(unique(TaxidPertenencia$Pertenencia)) #Save number of clusters
 virus_clust_members_taxids <- vector(mode = "list", length = nc) #Empty vector list to contain all taxids of each cluster
-index_by_cluster <- c() #Empty vector list to contain virus's global indexes of each cluster
+index_by_cluster <- c() #Empty vector list to contain virus's global indices of each cluster
   #Assigning taxids and indexes in nested lists
 for (i in clusters){ #Iterate as many loops as clusters
   virus_clust_members_taxids[[i]] <- TaxidPertenencia[which(TaxidPertenencia$Pertenencia == i),1] #Assign taxids of each cluster
@@ -67,8 +79,8 @@ for (i in 1:length(virus_clust_members_taxids)){
   ClustersTaxidListsNames[i] <- GroupName
 }
   #Generating sub-matrices of pairwise distance corresponding to each cluster
-SubMatrices <- c() #Empty vector to serve as nested list
-matrix2subset <- as.matrix(family_distmx) #Re-saving object to prevent miss-manipulations
+SubMatrices <- c() 
+matrix2subset <- as.matrix(family_distmx) #Re-saving object to prevent mis-manipulations
     #Saving sub-matrices
 for (i in 1:length(index_by_cluster)){
   SubMatrices[[i]] <- submatrix(matrix2subset, (index_by_cluster[[i]]), (index_by_cluster[[i]])) #Use submatrix {Corbi} function
@@ -98,7 +110,7 @@ for (i in 1:length(clusters)){
 setwd("../Lists_for_sample_reduction/")
   #Retrieve taxids to delete by searching with virus's local index
 IndexesToDelete <- c()
-sink(outfile) #Print taxids to delete as .txt list
+sink(outfile) #Print taxids to delete as a .txt list
 for (i in 1:length(MostDist)){
   for (e in MostDist[[i]]){
     IndexesToDelete <- which(ListOfDistSums[[i]] == e)
@@ -106,27 +118,24 @@ for (i in 1:length(MostDist)){
   }
 }
 sink()
-
-
-
-#Re making graphics of 5_NbClust.r to visualize clustering effects
+#################################################
+#################################################
+#Re making graphics of 5_NbClust.r to visualize sample reduction effects
 RecoverOutput <- scan(outfile, what="", sep="\n") #Read the output list of taxids to delete
 TaxDel <- c() #List containing taxids to delete
 for (i in 1:length(RecoverOutput)){
   TaxDel[i] <- word(RecoverOutput[i], 1)
 }
-  #Use TaxDel to repeat code for 5_NbClust.r figures  , deleting what's inside TaxDel
-    
+  #Use TaxDel to repeat code for 5_NbClust.r figures, deleting what's inside TaxDel
     #Rebuilding data object
 setwd("../CPFSCC_vectors/") #Location of CPFSCC vectors files
-file_suffix3 <- ("CPFSCC_vectors.txt") #Suffix to build input filename
-family_CPFSCC_file <- paste(family,file_suffix3, sep = "_") #Read filename
+file_suffix3 <- ("CPFSCC_vectors.txt")
+family_CPFSCC_file <- paste(family,file_suffix3, sep = "_") #Read CPFSCC file
 CPFSCC <- as.matrix(read.csv(family_CPFSCC_file, header = TRUE, sep = ",", dec = ".")) #Transform to matrix
 TransposeCPFSCC <- t(CPFSCC) #Transpose matrix
 colnames(TransposeCPFSCC) <- sprintf("D%d", 1:28) #Name columns dimensions
 CPFSCC.df <- as.data.frame(TransposeCPFSCC) # Object datos is the final input for the upcoming computations
 setwd("../Clustering_graphics/") #Going to second output folder
-   
     #Subset deleting with TaxDel
 TaxDelSubset <- rownames_to_column(CPFSCC.df)
 TaxDelSubset$Membership <- TaxidPertenencia$Pertenencia
@@ -135,13 +144,13 @@ groups <- as.factor(TaxDelSubset$Membership) #recover clusters
 row.names(TaxDelSubset) <- TaxDelSubset$rowname
 TaxDelSubset$rowname <- NULL
 TaxDelSubset$Membership <- NULL
-
-    #Clusters PCA
+#################################################
+    #New clusters PCA
 res.pca <- prcomp(TaxDelSubset, scale = TRUE) #make PCA
-      #Draw PCA and ellipses
 setwd("../Clustering_graphics")
 outfile4 <- paste(family,"_PCA_clusters_after_sr_by_", PosArgs[2], "_percent.tiff", sep = "") #sr stands for "sample reduction"
-tiff(outfile4, units="in", width=7, height=5, res=600) 
+      #Draw PCA and ellipses to tiff image
+tiff(outfile4, units="in", width=7, height=5, res=600) #tiff image resolution parameters
 fviz_pca_ind(res.pca,
              col.ind = groups, # color by groups
              palette = c("#00AFBB", 
@@ -171,8 +180,8 @@ fviz_pca_ind(res.pca,
              title = paste(family, "clusters after sample reduction")
 )
 dev.off()
-
-   #Linear plot
+#################################################
+   #Linear plot (pplot)
 Distances <- dist(TaxDelSubset, method = "euclidean", diag=TRUE) #Estimate pairwise distances
 Distances.matrix <- as.matrix(Distances) #Transform to matrix
 n <- nrow(Distances.matrix) #number of genomes
@@ -187,17 +196,18 @@ IndexByDistSum <- seq(from = 1, to = n)
 OrderedDistAfter.df$IndexByDistSum <- IndexByDistSum
 outfile3 <- paste(family,"_distances_pplot_after_sr_by_", PosArgs[2], "_percent.tiff", sep = "") #name third outfile
 legendtitle <- paste(family, "ordered distances by cluster after sr")
-tiff(outfile3, units="in", width=7, height=5, res=600) #assign third output
+# ggplot pplot in tiff file
+tiff(outfile3, units="in", width=7, height=5, res=600)
 ggplot(data=OrderedDistAfter.df, aes(IndexByDistSum, MeanDif)) +
   geom_point(aes(colour = Membership), size = 2, alpha = 0.2) +
   theme(legend.position="top") +
   labs(color= legendtitle )
 dev.off()
-
+#################################################
 #Delete xx percent from membership vectors csv
 setwd("../../bin/")
-DelCommand = paste("./Sample_reduction.sh",family)
-system(DelCommand)
+DelCommand = paste("./Sample_reduction.sh",family) 
+system(DelCommand) # Use bash script to update membership vectors
 
 
 

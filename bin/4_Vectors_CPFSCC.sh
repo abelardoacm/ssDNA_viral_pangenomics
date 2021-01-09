@@ -10,7 +10,6 @@
 #    ...then it makes use of Modified_CPFSCC.m to compute central moments and covariance 
 #    vectors of cumulative Fourier Transform power and phase spectra of anytaxon genomes
 #
-#    It also asks for upper/lower reference protein count values to prevent losing reference strains
 #
 #NOTE:"CPFSCC" stands for central moments and covariance vectors of cumulative fourier transform power and phase spectra
 #     "Catfiltered" label stands for concatenated (cat) and filtered
