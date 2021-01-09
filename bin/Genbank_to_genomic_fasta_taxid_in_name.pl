@@ -8,9 +8,9 @@
 #    and reads line by line to write a fasta file for each entry,
 #    named as the source organism + its taxid.
 #
-#INPUT: Concatenated full genbanks of anytaxon in ../data/Raw_database/anytaxon.gb (g.e. Geminiviridae.gb)
+#INPUT: Concatenated full genbanks of anytaxon in ../data/Raw_database/anytaxon.gb (e.g. Geminiviridae.gb)
 #
-#OUTPUT: Multiple fasta nucleotide files (*.fn) in ../data/Genomic_fasta_files/anytaxon_fasta_genomes/ (g.e. Geminiviridae_fasta_genomes/ )
+#OUTPUT: Multiple fasta nucleotide files (*.fn) in ../data/Genomic_fasta_files/anytaxon_fasta_genomes/ (e.g. Geminiviridae_fasta_genomes/ )
 #
 ##########################################
 #

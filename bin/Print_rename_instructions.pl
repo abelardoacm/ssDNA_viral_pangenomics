@@ -21,7 +21,7 @@
 #
 #
 #
-#INPUT: Concatenated full genbanks of anytaxon in ../data/Raw_database/anytaxon.gb (g.e. Geminiviridae.gb)
+#INPUT: Concatenated full genbanks of anytaxon in ../data/Raw_database/anytaxon.gb (e.g. Geminiviridae.gb)
 #
 #OUTPUT:   Multiple individual full genbank files (*.gbk) in current folder.
 #          rename_rules.txt. *Althought user is not supposed to see it. 
