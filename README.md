@@ -95,7 +95,7 @@ This folder should contain direct downloads from NCBI refseq. Viral sequences ca
 Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Organism] NOT AC_000001:AC_999999[pacc]
 ```
 
-Results from queries are downloaded in Genbank(full) format with illustrated parameters. 
+Results from queries are downloaded in Genbank(full) format as follows:
 
 ![](Downloadgb.gif)
 
