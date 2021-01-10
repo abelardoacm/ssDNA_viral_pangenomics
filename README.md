@@ -97,9 +97,7 @@ Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Or
 
 Results from queries are downloaded in Genbank(full) format with illustrated parameters. 
 
-<p align="center">
-  <img width="285" height="377" src="https://raw.githubusercontent.com/abelardoacm/ssDNA_viral_pangenomics/main/query_download_parameters.png">
-</p>
+![](Downloadgb.gif)
 
 The download default name for genomes genbank concatenation is **sequences.gb**, which we suggest to change into **family.gb** (i.e. Geminiviridae.gb).
 
