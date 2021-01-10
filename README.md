@@ -307,7 +307,7 @@ With the consensus membership vectors ready, each file can be relocated to its c
 ```
 ...this command creates one folder for each Geminiviridae cluster found by NbClust (2 in this case), copies files to its corresponding folder and moves the output to [/results/Pangenomic_input_clusters/](/results/Pangenomic_input_clusters/).
 
-### **To perform steps up to this point, you can also use 0.1_Master_Driver.sh**
+### **You can also use 0.1_Master_Driver.sh to perform steps up to this point **
 
 ![](Masterscript1.gif)
 
