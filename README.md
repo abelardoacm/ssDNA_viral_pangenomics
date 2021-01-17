@@ -19,6 +19,11 @@ git submodule init
 git submodule update
 cd bin/FSWM/
 make
+#To get mashv2.2 release if using Linux64
+cd .. | mkdir mash
+cd mash
+wget https://github.com/marbl/Mash/releases/download/v2.2/mash-Linux64-v2.2.tar
+tar -xvf mash-Linux64-v2.2.tar
 ```
 >## **Dependencies**
 These are ssDNA_viral_pangenomics external dependencies, links to their installing instructions, commands for installation, and used versions:
