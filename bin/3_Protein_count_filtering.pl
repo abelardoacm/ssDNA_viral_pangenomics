@@ -95,6 +95,8 @@ if ($maxref > $maxcalc) { #When maximum pc is bigger than calculated maximum cut
 $eliminated_count = 0;
 #################################################
 #Open and read protein_count* file to decide files to be filtered
+print STDOUT "\n\n\n_____________________________________\n The following files will be filtered:\n\n";
+print STDOUT "\tProtein count\tSpecies + Taxonimic ID\n\n";
 open (FILE, "PROTEIN_COUNT_$familia");
 while ($linea = <FILE>) {
 	chomp ($linea);
@@ -110,7 +112,7 @@ while ($linea = <FILE>) {
 		my $pathtofile = "$familia\_catfiltered_fasta_proteomes/";
 		$rejwithoutpath = $rejwithoutextension;
 		$rejwithoutpath =~ s/$pathtofile//g; # $rejwithoutpath stands for "Rejected file without relative path"
-		print STDOUT "$rejwithoutpath will be filtered as protein count is $count \n"; #... file is listed as filtered
+		print STDOUT "\t   $count   \t $rejwithoutpath\n"; #... file is listed as filtered
 		$eliminated_count += 1; # summation of filtered files
 		########################################
 		########################################
