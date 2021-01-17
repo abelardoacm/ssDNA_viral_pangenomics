@@ -1,0 +1,320 @@
+LOCUS       NC_008299               2759 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Pedilanthus leaf curl virus isolate Rahim Yar Khan 1 segment A,
+            complete sequence.
+ACCESSION   NC_008299
+KEYWORDS    RefSeq.
+SOURCE      Pedilanthus leaf curl virus
+  ORGANISM  Pedilanthus leaf curl virus
+REFERENCE   2  (bases 1 to 2759)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ116884.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2759
+                     /organism="Pedilanthus leaf curl virus"
+                     /mol_type="genomic DNA"
+                     /isolate="Rahim Yar Khan 1"
+                     /isolation_source="tomato"
+                     /db_xref="taxon:619631"
+                     /segment="A"
+                     /clone="PT7"
+                     /country="Pakistan: Rahim Yar Khan"
+     gene            97..501
+                     /locus_tag="TLCPakV_sAgp1"
+                     /db_xref="GeneID:5076684"
+     CDS             97..501
+                     /locus_tag="TLCPakV_sAgp1"
+                     /note="precoat protein"
+                     /codon_start=1
+                     /product="V2"
+                     /protein_id="YP_717914.1"
+                     /db_xref="GeneID:5076684"
+                     /translation="MVPPINLVRKLCFTFIMWDPLLNEFPETVHGFRCMLAVKYLQLV
+                     ENAYSPDTLGYDLIRDLISVIRARNYVEATSRYNHFHARLEGTSPSQFRQPICEPCCC
+                     PHCPRHKGKGMGEQAHEPKAQDVQDVQKPRCS"
+     gene            305..1075
+                     /locus_tag="TLCPakV_sAgp2"
+                     /db_xref="GeneID:5076681"
+     CDS             305..1075
+                     /locus_tag="TLCPakV_sAgp2"
+                     /note="coat protein"
+                     /codon_start=1
+                     /product="CP"
+                     /protein_id="YP_717915.1"
+                     /db_xref="GeneID:5076681"
+                     /translation="MSKRPADIIISTPASKVRRRLNFDSPYASRAAAPIVRVTKARAW
+                     ANRPMNRKPRMYRMYRSPDVPRGCEGPCKVQSFESRHDIQHIGKVMCVSDVTRGIGLT
+                     HRVGKRFCVKSVYVLGKIWMDENIKTKNHTNSVMFFLVRDRRPVDKPQDFGEVFNMFD
+                     NEPSTATVKNVHRDRYQVLRKWYATVTGGQYASKEQALVKKFIRVNNYVVYNQQEAGK
+                     YENHTENALMLYMACTHASNPVYATLKIRIYFYDSVSN"
+     gene            complement(1072..1476)
+                     /locus_tag="TLCPakV_sAgp3"
+                     /db_xref="GeneID:5076686"
+     CDS             complement(1072..1476)
+                     /locus_tag="TLCPakV_sAgp3"
+                     /note="replication enhancer protein"
+                     /codon_start=1
+                     /product="C3"
+                     /protein_id="YP_717916.1"
+                     /db_xref="GeneID:5076686"
+                     /translation="MDSRTGELITAAQAQNGVFIWEVQNPLYFKITEHHNRPFLMNQD
+                     IITVQIQFNHNLRKALGIHKCFLAFRIWMTSQPPTGRFLRVFKTQVLKYLDNLGVISI
+                     NNVIRAVDHVLWNVLEHIVYVKQSSSIKFNIY"
+     gene            complement(1217..1621)
+                     /locus_tag="TLCPakV_sAgp4"
+                     /db_xref="GeneID:5076682"
+     CDS             complement(1217..1621)
+                     /locus_tag="TLCPakV_sAgp4"
+                     /note="transcription activator protein"
+                     /codon_start=1
+                     /product="C2"
+                     /protein_id="YP_717917.1"
+                     /db_xref="GeneID:5076682"
+                     /translation="MRSSSPSKAHSTQVPIKVQHRLAKKGTRRRRVDLPCGCSYFIAL
+                     ACHDHGFTHRGTHHCSSSTEWRVYLGGSKSPLFQDNRAPQQAIPHEPRHHHCPDTVQS
+                     QPEESVGNTQMFPSLPNLDDLTASDWSFLKGL"
+     gene            complement(1524..2606)
+                     /locus_tag="TLCPakV_sAgp5"
+                     /db_xref="GeneID:5076685"
+     CDS             complement(1524..2606)
+                     /locus_tag="TLCPakV_sAgp5"
+                     /note="replication-associated protein"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_717918.1"
+                     /db_xref="GeneID:5076685"
+                     /translation="MPPKRFLINSKNYFLTYPKCSLTKEEALSQFQNLQTPVNKKYIK
+                     ICREFHENGEPHLHVLIQFEGKYKCQNQRFFDLVSPTRSAHFHPNIQGAKSSSDVKSY
+                     LEKDGDTLDWGEFQIDGRSARGGQQSANDAYAAALNAGSKSEALRVIKELAPKDYVLQ
+                     FHNLNANLDRIFTPPMEVYVSPFSSSSFDQVPEELEEWAAENVVGAAARPLRPKSIVI
+                     EGDSRTGKTMWARSLGPHNYLCGHLDLSPKVYSNEAWYNVIDDVDPHYLKHFKEFMGA
+                     QRDWQSNTKYGKPVQIKGGIPTIFLCNPGPNSSYKEFLDEEKNSALKNWALKNAIFVT
+                     LEGPLYSGSNQSAAQASQERDQASSC"
+     gene            complement(2162..2458)
+                     /locus_tag="TLCPakV_sAgp6"
+                     /db_xref="GeneID:5076683"
+     CDS             complement(2162..2458)
+                     /locus_tag="TLCPakV_sAgp6"
+                     /note="involved in symptom expression"
+                     /codon_start=1
+                     /product="C4"
+                     /protein_id="YP_717919.1"
+                     /db_xref="GeneID:5076683"
+                     /translation="MKMGNLIFTCSSSSRENTSAKISDSSTWYPQPGQHISIRTFREL
+                     NQAQTSSPIWRRTETPSTGESFRSMEDLQEGDNSQPTTLTPQRLTQAVSQKLLE"
+ORIGIN
+        1 accggatggc cgcgcttttt ttatggcccc cacagagcac taactgacaa tgacatgtgg
+       61 accaatgaga atcgttcctc gtagcctagt tatttcatgg tcccccctat aaacttagtg
+      121 cgcaagttgt gtttcacatt cattatgtgg gatccgttgt tgaacgagtt tcccgaaacc
+      181 gttcacggtt ttaggtgtat gctagcagtt aaatatttgc agttagtaga aaatgcgtat
+      241 tccccagata ctttgggata cgatttaatt agggatttaa tttcagtaat aagggctagg
+      301 aattatgtcg aagcgaccag cagatataat catttccacg cccgcctcga aggtacgtcg
+      361 ccgtctcaat ttcgacagcc catatgcgag ccgtgctgct gcccccattg tccgcgtcac
+      421 aaaggcaagg gcatgggcga acaggcccat gaaccgaaag cccaggatgt acaggatgta
+      481 cagaagccca gatgttccta gaggatgtga aggcccgtgt aaggtccagt catttgagtc
+      541 cagacatgat atccagcaca ttggtaaagt catgtgtgtt agtgatgtta ctcgtggtat
+      601 tgggctgacc cacagggtag gcaagagatt ctgtgtcaag tccgtttatg ttttgggcaa
+      661 gatttggatg gatgagaaca tcaagaccaa gaatcatacg aatagtgtga tgttttttct
+      721 agttagagac cgtagaccag ttgataaacc tcaggatttt ggagaggttt ttaatatgtt
+      781 tgataatgag cccagcacgg cgactgtgaa gaatgttcat cgtgatagat accaggtatt
+      841 aaggaagtgg tatgcaactg tcactggtgg acaatatgca tcgaaggagc aggctctcgt
+      901 gaagaagttt attagggtta ataattatgt tgtgtacaac cagcaagagg ctgggaagta
+      961 tgagaatcat actgagaatg cgttaatgtt gtatatggcg tgtactcacg cctctaaccc
+     1021 tgtgtatgct acattgaaga tacggatcta cttctatgat tcagtatcga attaataaat
+     1081 attgaatttt attgaagatg attgttttac atatacaata tgctctaata cattccataa
+     1141 tacatgatca actgctctaa ttacattgtt aatactgata actcctagat tatctaaata
+     1201 cttaagcact tgtgtcttaa agacccttaa gaaacgacca gtcggaggct gtgaggtcat
+     1261 ccagattcgg aaggctagga aacatttgtg tattcccaac gctttcctca ggttgtgatt
+     1321 gaactgtatc tggacagtga tgatgtcttg gttcatgagg aatggcctgt tgtggtgctc
+     1381 tgttatcttg aaatagaggg gattttgaac ctcccagata aacacgccat tctgtgcttg
+     1441 agctgcagtg atgagttccc ctgtgcgtga atccatggtc gtggcaggct aaggctatga
+     1501 agtatgaaca cccacacggg agatcaacac gacgacgcct ggtccctttc ttggctagcc
+     1561 tgtgctgcac tttgattgga acctgagtag agtgggcctt cgagggtgac gaagatcgca
+     1621 ttctttaatg cccaattttt gagtgcagaa ttcttctcct catccaaaaa ctctttatag
+     1681 cttgagttgg gtcctggatt gcagaggaag atagtgggaa ttccgccttt aatttgaact
+     1741 ggctttccgt actttgtatt tgattgccag tccctttggg cccccatgaa ttctttaaag
+     1801 tgctttaggt agtggggatc gacgtcatca atgacgttgt accaggcctc gttgctgtaa
+     1861 acctttggac taaggtctag atgaccacac agataattgt gtggacccag tgacctggcc
+     1921 cacattgtct tccccgtacg actatcaccc tctatgacaa tacttttagg tctcaatggc
+     1981 cgcgcagcgg cacccacgac gttctcagca gcccattctt caagttcttc cggaacttga
+     2041 tcaaaagaag aagaagaaaa aggagaaaca taaacctcca tgggaggtgt aaaaatccta
+     2101 tctaaattag catttaaatt atgaaattga agtacataat cttttggtgc taattcttta
+     2161 attactctaa gagcttctga cttactgcct gcgttaagcg ctgcggcgta agcgtcgttg
+     2221 gctgactgtt gtccccctct tgcagatctt ccatcgatct gaaactctcc ccagtcgagg
+     2281 gtgtctccgt ccttctccag ataggacttg acgtctgagc ttgatttagc tccctgaatg
+     2341 ttcggatgga aatgtgctga cctggttggg gataccaggt cgaagaatcg ctgattttgg
+     2401 cacttgtatt ttccctcgaa ctggatgagc acgtgaagat gaggttcccc attttcatga
+     2461 aactctctgc agattttaat gtattttttg tttactgggg tttgtaggtt ttggaattgg
+     2521 gaaagtgctt cctctttggt gagagagcac ttgggataag tgaggaaata atttttcgaa
+     2581 ttaataagga aacgctttgg gggcatgttg accaagtgag aggacccgat tgaccgctct
+     2641 tgcaactctc ccctgtatat cgggtctcaa tatatagtga gacccaaatg gcattattgt
+     2701 aatttggata acagattcaa aattctgacg ctccaaaaag cggccatccg tataatatt
+//
+LOCUS       NC_012118               2764 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Pedilanthus leaf curl virus-Pedilanthus [Pakistan:Multan:2004],
+            complete genome.
+ACCESSION   NC_012118
+KEYWORDS    RefSeq; C4 gene; coat protein; complete genome; CP gene; precoat;
+            protein; REn gene; Rep gene; replication associated protein;
+            replication enhancer protein; transcriptional activator protein;
+            TrAP gene; V2 gene.
+SOURCE      Pedilanthus leaf curl virus
+  ORGANISM  Pedilanthus leaf curl virus
+REFERENCE   2  (bases 1 to 2764)
+REFERENCE   3  (bases 1 to 2764)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AM712436.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2764
+                     /organism="Pedilanthus leaf curl virus"
+                     /mol_type="genomic DNA"
+                     /strain="Pedilanthus [Pakistan:Multan:2004]"
+                     /isolation_source="leaves"
+                     /db_xref="taxon:619631"
+                     /clone="ptv3(2)"
+                     /country="Pakistan:Multan"
+                     /collection_date="03-Sep-2004"
+                     /collected_by="Muhammad Tahir"
+     gene            97..501
+                     /gene="V2"
+                     /locus_tag="PeLCV_gp1"
+                     /db_xref="GeneID:7552479"
+     CDS             97..501
+                     /gene="V2"
+                     /locus_tag="PeLCV_gp1"
+                     /function="movement"
+                     /codon_start=1
+                     /product="precoat protein"
+                     /protein_id="YP_002608331.1"
+                     /db_xref="GeneID:7552479"
+                     /translation="MVPPINLVRKLCFTFTYVGSVIDEFPETVHGFRCMLAVKYLQLV
+                     ESTYSPDTLGFDLIRDLISVIRARNYVEATSRYNHFHARLEGTPPSQLRQPICEPCCC
+                     PHCPRHKGKGMGEQAHEQKAQDVQDVQKSRCS"
+     gene            305..1075
+                     /gene="CP"
+                     /locus_tag="PeLCV_gp2"
+                     /db_xref="GeneID:7552478"
+     CDS             305..1075
+                     /gene="CP"
+                     /locus_tag="PeLCV_gp2"
+                     /function="encapsidation"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_002608332.1"
+                     /db_xref="GeneID:7552478"
+                     /translation="MSKRPADIIISTPASKVRRRLNFDSPYASRAAAPIVRVTKARAW
+                     ANRPMNRKPRMYRMYRSPDVPRGCEGPCKVQSFESRHDIQHIGKVMCVSDVTRGIGLT
+                     HRVGKRFCVKSVYVLGKIWMDENIKTKNHTNSVMFFLVRDRRPVDKPQDFGEVFNMFD
+                     NEPSTATVKNVHRDRYQVLRKWYATVTGGQYASKEQALVKKFIRVNNYVVYNQQEAGK
+                     YENHTENALMLYMACTHASNPVYATLKIRIYFYDSVSN"
+     gene            complement(1072..1476)
+                     /gene="REn"
+                     /locus_tag="PeLCV_gp3"
+                     /db_xref="GeneID:7552474"
+     CDS             complement(1072..1476)
+                     /gene="REn"
+                     /locus_tag="PeLCV_gp3"
+                     /codon_start=1
+                     /product="replication enhancer protein"
+                     /protein_id="YP_002608333.1"
+                     /db_xref="GeneID:7552474"
+                     /translation="MDSRTGELITAAQAENGVFIWEIQNPLYFKITEHHNRPFTMNQD
+                     IITVQIQFNHNLRKALGIHKCFLAFRIWMTSQPPTGRFLRVFKTQVLKYLDNLGVISI
+                     NNVIRAVDHVLWNVLHHVVNIEQSYSIKFNIY"
+     gene            complement(1217..1621)
+                     /gene="TrAP"
+                     /locus_tag="PeLCV_gp4"
+                     /db_xref="GeneID:7552475"
+     CDS             complement(1217..1621)
+                     /gene="TrAP"
+                     /locus_tag="PeLCV_gp4"
+                     /codon_start=1
+                     /product="transcriptional activator protein"
+                     /protein_id="YP_002608334.1"
+                     /db_xref="GeneID:7552475"
+                     /translation="MRSSSPSKAHSTQVPIKVQHRLAKKGTRRRRVDLPCGCSYFIAL
+                     ACHSHGFTHRGTHHCSSSREWRVYLGDSKSPLFQDNRAPQQAIHHEPRHHNRPDTVQS
+                     QPEESVGDTQMFPSLQNLDDLTASDWSFLKGL"
+     gene            complement(1524..2696)
+                     /gene="Rep"
+                     /locus_tag="PeLCV_gp5"
+                     /db_xref="GeneID:7552477"
+     CDS             complement(1524..2696)
+                     /gene="Rep"
+                     /locus_tag="PeLCV_gp5"
+                     /codon_start=1
+                     /product="replication associated protein"
+                     /protein_id="YP_002608335.1"
+                     /db_xref="GeneID:7552477"
+                     /translation="MPFGTHYILSTDIQVINIQNPIGTHLTKSMAPPKRFQIYARNYF
+                     LTYPHCSLTKEEALSQIQALDTPTNKKFIKICRELHEDGSPHLHVLIQFEGKYRCQNQ
+                     RFFDLVSPTRSAHFHPNIQGAKSSSDVKSYLEKDGDTLEWGEFQIDGRSARGGQQSAN
+                     DAYAAALNAGSKSEALRVIKELAPKDYVLQFHNLNANLDRIFTPPVEVYVSPFSSSSF
+                     DQVPEELEVWAAENVMDAAARPLRPKSIVIEGDSRTGKTMWARSLGPHNYLCGHLDLS
+                     PKVYSNEAWYNVIDDVDPHYLKHFKEFMGAQRDWQSNTKYGKPVQIKGGIPTIFLCNP
+                     GPNSSYKEFLDEEKNSALKNWALKNAIFVTLEGPLYPGSNQSAAQASQEGDQASTC"
+     gene            complement(2150..2452)
+                     /gene="C4"
+                     /locus_tag="PeLCV_gp6"
+                     /db_xref="GeneID:7552476"
+     CDS             complement(2150..2452)
+                     /gene="C4"
+                     /locus_tag="PeLCV_gp6"
+                     /function="pathogenicity determinant"
+                     /codon_start=1
+                     /product="C4 protein"
+                     /protein_id="YP_002608336.1"
+                     /db_xref="GeneID:7552476"
+                     /translation="MGALICTCSSSSKGNTGAKISDSSTWSPQPGQHISIRTFRELNQ
+                     APTSSPIWRRTETPSNGESFRSMEDLLEGGNNQPTTLTPQRLTQAVSQRLLESLRS"
+ORIGIN
+        1 accggatggc cgcgcttttt ttatggcccc cacagagcac taactgacaa tgacatgtgg
+       61 accaatgaga atggctcctc atagcctaat tatttcatgg tcccccctat aaacttagtg
+      121 cgcaagttgt gtttcacatt cacatatgtg ggatccgtta ttgacgagtt tcccgaaacc
+      181 gttcacggtt ttaggtgtat gttagcagtt aaatatttgc agttagtaga aagtacgtat
+      241 tccccagata ctctgggatt cgatttaatt cgggatttaa tttcagtgat aagggctagg
+      301 aattatgtcg aagcgaccag cagatataat catttccacg cccgcctcga aggtacgccg
+      361 ccgtctcaac ttcgacagcc catatgcgag ccgtgctgct gcccccattg tccgcgtcac
+      421 aaaggcaagg gcatgggcga acaggcccat gaacagaaag cccaggatgt acaggatgta
+      481 cagaagtcca gatgttccta gaggatgtga aggcccatgt aaggtccagt catttgagtc
+      541 cagacatgat atccagcaca ttggtaaagt catgtgtgtt agtgatgtta ctcgtggtat
+      601 tgggcttacc cacagggtag gcaagagatt ttgtgttaag tccgtttatg ttctgggtaa
+      661 gatctggatg gatgagaaca ttaaaactaa gaatcatacg aatagtgtta tgttttttct
+      721 tgttagagat cgtaggcccg ttgacaagcc tcaagatttt ggcgaggttt ttaacatgtt
+      781 tgataatgag cccagcacgg cgactgtgaa gaatgttcat cgtgatagat accaggtatt
+      841 aaggaagtgg tacgcaactg tgacaggcgg tcaatatgca tctaaggagc aggctctcgt
+      901 gaagaagttt attagggtta ataattatgt tgtgtacaac cagcaagagg ctgggaagta
+      961 tgagaatcat actgagaatg cgttgatgtt gtatatggcg tgtacgcacg cctctaaccc
+     1021 tgtgtatgct acattgaaga tacggatcta cttctatgat tcagtatcga attaataaat
+     1081 attaaatttt attgaatatg attgttctat atttacaaca tgatgtaata cattccataa
+     1141 tacatgatca actgctctaa ttacattgtt aatactgata actcctaaat tatctaaata
+     1201 cttaagtact tgggtcttaa agacccttaa gaaacgacca gtcggaggct gtgaggtcat
+     1261 ccagattctg aaggctagga aacatttgtg tatccccaac gctttcctca ggttgtgatt
+     1321 gaactgtatc tggacggtta tgatgtcttg gttcatggtg aatggcctgt tgtggtgctc
+     1381 tgttatcttg aaatagaggg gattttgaat ctcccagata aacacgccat tctctgcttg
+     1441 agctgcagtg atgagttccc cggtgcgtga atccatgact gtgacaggct agtgctatga
+     1501 aataagaaca tccacaaggg agatcaacac gtcgacgcct ggtccccttc ttggctagcc
+     1561 tgtgctgcac tttgattgga acctgggtag agtgggcctt cgagggtgac gaagatcgca
+     1621 ttctttaaag cccaattttt gagtgcagaa ttcttctctt cgtccaagaa ctctttatag
+     1681 cttgaattgg gtcctggatt gcagaggaag atagtgggaa ttccgccttt aatttgaact
+     1741 ggctttccgt attttgtgtt gctttgccag tccctttggg cccccatgaa ttctttgaag
+     1801 tgctttagat aatgcggatc gacgtcatca atgacgttgt accaggcctc attactgtag
+     1861 acctttggac taaggtctaa gtgaccacac aaataattat gtggacccag tgacctagcc
+     1921 cacatcgtct tccccgtacg actatcgccc tctatgacaa tacttttagg tctcaatggc
+     1981 cgcgcagcgg catccatcac gttttcagca gcccagactt caagttcttc cggaacttga
+     2041 tcaaaagaag aagaagaaaa aggagataca taaacctcca caggaggtgt aaaaatccta
+     2101 tctaaattag catttaaatt atgaaattgt aatacataat cttttggagc taactcctta
+     2161 atgactctaa gagcctctga cttactgcct gcgttaagcg ctgcggcgta agcgtcgttg
+     2221 gctgattgtt gcccccctct agcagatctt ccatcgatct gaaactctcc ccattcgagg
+     2281 gtgtctccgt ccttctccag ataggacttg acgtcggagc ttgatttagc tccctgaatg
+     2341 ttcggatgga aatgtgctga cctggttggg gagaccaggt cgaagaatcg ctgattttgg
+     2401 cacctgtatt tcccttcgaa ctggatgagc acgtgcagat gagggctccc atcttcgtgg
+     2461 agttccctgc agatcttgat gaatttttta ttggtgggtg tatctagggc ttgtatttgg
+     2521 gaaagtgctt cttctttagt aagagagcag tgtgggtaag tgaggaaata atttctggca
+     2581 tatatttgaa aacgcttagg aggagccatt gacttggtca aatgggtacc aattgggttc
+     2641 tggatgttta tcacctgtat atcggtactc aatatatagt gagtaccaaa tggcataatt
+     2701 gtaataaaag aactctaatt tgaaattcaa acgaaaaggc taaagcggcc atccgtctaa
+     2761 tatt
+//

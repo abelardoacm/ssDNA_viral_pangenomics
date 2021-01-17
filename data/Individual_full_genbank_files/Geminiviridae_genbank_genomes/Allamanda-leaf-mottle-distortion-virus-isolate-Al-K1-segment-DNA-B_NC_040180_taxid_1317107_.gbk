@@ -1,0 +1,107 @@
+LOCUS       NC_040180               2690 bp    DNA     linear   VRL 27-DEC-2018
+DEFINITION  Allamanda leaf mottle distortion virus isolate Al-K1 segment DNA-B,
+            complete sequence.
+ACCESSION   NC_040180
+KEYWORDS    RefSeq.
+SOURCE      Allamanda leaf mottle distortion virus
+  ORGANISM  Allamanda leaf mottle distortion virus
+REFERENCE   2  (bases 1 to 2690)
+REFERENCE   3  (bases 1 to 2690)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MG969497.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2690
+                     /organism="Allamanda leaf mottle distortion virus"
+                     /mol_type="genomic DNA"
+                     /isolate="Al-K1"
+                     /isolation_source="leaves showing mottling and distortion"
+                     /host="Allamanda cathartica"
+                     /db_xref="taxon:1317107"
+                     /segment="DNA-B"
+                     /country="India: Kalyani, West Bengal"
+                     /collection_date="Jan-2012"
+                     /collected_by="B. Mandal"
+     gene            455..1237
+                     /gene="BV1"
+                     /locus_tag="DU24_sBgp1"
+                     /db_xref="GeneID:38665452"
+     CDS             455..1237
+                     /gene="BV1"
+                     /locus_tag="DU24_sBgp1"
+                     /codon_start=1
+                     /product="nuclear shuttle protein"
+                     /protein_id="YP_009547922.1"
+                     /db_xref="GeneID:38665452"
+                     /translation="MRIVGYTPRSTPFARDRRSYNSGKRRSYRGYRRRVPVRPLARRA
+                     LFCDDNARAFTYKTLSEDQFGPDFTIRNNNYKSSYISMPVKTGAQSNNRVGDYIKLVN
+                     ISFTGTVCIKNSQMESEGSPMLGLHGLFTCVLVRDKTPRVYSANEPLIPFPQLFGSIN
+                     ASCADLSIQDPYKNRFAVIRQVSYPVNTEKGYHMCRFRGNRRFNGKYPIWVSFKDDGG
+                     SGDSSGLYTNTYKNAILVYYVWLSDMSSQVDMYCKYVMRYIG"
+     gene            complement(1246..2070)
+                     /gene="BC1"
+                     /locus_tag="DU24_sBgp2"
+                     /db_xref="GeneID:38665451"
+     CDS             complement(1246..2070)
+                     /gene="BC1"
+                     /locus_tag="DU24_sBgp2"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_009547923.1"
+                     /db_xref="GeneID:38665451"
+                     /translation="METNSSNSAYLRSERVEYELTNDSTDVKLSSQSILDNKISLLKG
+                     HCCKIDHIVLEYRNQVPINATGHVIIEIHDQRLNDGDSKQAEFTIPVQCNCNLHYYSS
+                     SFFSMKDINPWRVFYRVVDTNVVNGVHFCRIQGKLKLSTAKQSTDIQFRSPKIEILSK
+                     AFTERDIDFWSVGRIAQQRKLVQGPSLIGSRSMRYTPCSIGPNESWAVKSEVGPSEDR
+                     PYRHLHRLNPDALDPGKSVSQVGSDHITREDLNNIIRQTVDMCLNTGMQSHVSKNV"
+ORIGIN
+        1 accggatggc cgcgccccgc tttgtggtgg acccccccac gtggagatgt cccccactca
+       61 gaaagctccg tcaaagtttg tggtggaccc caccacgtgg agatgtcccc cactcagaac
+      121 gctccgtcaa agcttgtggt ggcccccccc cacctggaga tgtccgcctc gcataaggcg
+      181 cccttggagc ttcaataaat cagtggtccc actatgttgg ttataacgtg tgtaacgttt
+      241 gaggccggat gctagtgctg ccacgtgtgc gttatgtcta cttcttttgg aagttataag
+      301 tcagggccct acatgtggat atctaaccgc atattgtgtg aattgtataa acgtggcaaa
+      361 atcatgccgg ttagtgggaa ccattgaata aggttattgt gtatatatat atgggtatgt
+      421 ggtatgtgga atccctacac aagttgttgg cagaatgaga attgttggtt atactccccg
+      481 ttccacgcca tttgctcgtg accggagatc atataattcc ggtaagcgta gatcctatcg
+      541 tggttaccgt cgtcgtgtac ctgttcgtcc actagctcgt cgtgccttgt tctgtgatga
+      601 taatgcacgg gcattcacgt ataagaccct atcggaggat cagtttggac cggactttac
+      661 tatacgtaac aataattata agtcatcgta catatctatg cctgttaaaa caggtgccca
+      721 gagtaataac cgtgtaggtg attatatcaa gcttgtaaat atatccttta caggtacagt
+      781 gtgtattaaa aatagtcaga tggagtctga aggaagccca atgcttggcc tacatgggct
+      841 ctttacgtgt gtgttggttc gcgataagac ccctcgtgta tattcagcca atgagcctct
+      901 gataccgttc ccacagttgt ttgggtccat aaacgctagc tgtgcggatt tgtccataca
+      961 ggacccatat aagaatcgtt ttgctgtaat tcgccaagtg tcctatcccg ttaatacgga
+     1021 gaagggttac catatgtgcc gtttcagagg caatcgccgt tttaatggga aataccctat
+     1081 ctgggtcagt tttaaagatg atggtggtag tggagactcg tctgggttat atactaatac
+     1141 atataaaaat gccatacttg tatattatgt atggctgagc gacatgtcgt cccaagtgga
+     1201 catgtattgt aaatatgtaa tgcgatatat tggttaataa aaatgttata cattttttga
+     1261 tacatggctt tgcatacctg tatttaaaca catatctact gtctgcctaa taatattgtt
+     1321 caagtcctct cttgttatgt ggtccgatcc aacttgtgat acggattttc ctgggtccaa
+     1381 tgcgtctggg ttgaggcggt gtaggtgtct gtaaggcctg tcttcggacg gcccaacttc
+     1441 actctttacg gcccatgatt cgtttgggcc tatagaacat ggagtgtacc tcatggatct
+     1501 cgatcctatt agacttgggc cctgtaccag ttttctttgc tgggctattc ttcccactga
+     1561 ccagaaatct atgtcccttt ctgtgaaggc cttgctcaga atctctattt tgggagaccg
+     1621 gaactgtatg tcagttgact gctttgcagt cgatagcttt agtttccctt gaatacggca
+     1681 gaagtggact ccgttgacta cgtttgtgtc tacgaccctg tagaacactc tccatgggtt
+     1741 tatgtccttc atggagaaga acgaggaaga atagtagtgt aggttgcagt tgcattgaac
+     1801 gggaatagtg aactccgcct gcttggagtc cccatcgttc aaccgttggt cgtgaatctc
+     1861 aatgatcaca tgccctgtgg cgttaatcgg tacttggttt cgatattcaa gaacgatgtg
+     1921 gtcaattttg cagcaatgac ccttgaggag tgatattttg ttatccaaaa tggattggga
+     1981 gctcaacttg acatcagtgg agtcattggt taactcatat tcgaccctct cggaacgaag
+     2041 atatgctgaa ttactactat tagtttccat tggccccgca ggggatatgc ttagaaatta
+     2101 accccagtgt ataaggaata aattagtgtg cgtagagcaa gccccagagc tgaataaata
+     2161 attgaaggca tatatattat attattgatg aaaggttaca acagcatcca cgtgtcagtg
+     2221 gattacaaga tatataaaaa gcgatataaa atatctaaat ggattcatag tgacgtcatc
+     2281 ttcaataaac ggaattggaa accctaatgc atcttggatg cagttggtca agtcgtctag
+     2341 taggacgtca tatgtttctg gcgtcatatg atgataatcc tgaactggtc cttatccttg
+     2401 aactggatga gggcatggat atgcagagac ccatcttggt gtttttcttg tgccactcag
+     2461 ataaataatt tatctgaggg acagtgtaag gatttgatga gttcgagcat ttgctctttt
+     2521 gggattgggc attttggata tgtaaggaat atgttgttgg ctttaacttg gaaggaatta
+     2581 acacgttgca tattgaattg ggtgctctcg aaactctgtg ggaattgggg gctttgggtg
+     2641 cccatttata tggagcaccc aaatggcaaa gcggccatcc gtataatatt
+//

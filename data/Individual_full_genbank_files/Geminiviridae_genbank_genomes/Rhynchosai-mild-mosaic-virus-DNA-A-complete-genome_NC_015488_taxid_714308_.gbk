@@ -1,0 +1,128 @@
+LOCUS       NC_015488               2611 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Rhynchosai mild mosaic virus DNA-A, complete genome.
+ACCESSION   NC_015488
+KEYWORDS    RefSeq.
+SOURCE      Rhynchosia mild mosaic virus
+  ORGANISM  Rhynchosia mild mosaic virus
+REFERENCE   2  (bases 1 to 2611)
+REFERENCE   3  (bases 1 to 2611)
+REFERENCE   4  (bases 1 to 2611)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to FJ944019.
+            GenBank Accession Numbers represent FJ944019-FJ944020 the complete
+            genome of Rhynchosai mild mosaic virus strain PR79.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2611
+                     /organism="Rhynchosia mild mosaic virus"
+                     /mol_type="genomic DNA"
+                     /strain="PR79"
+                     /host="Rhynchosia minima"
+                     /db_xref="taxon:714308"
+                     /segment="DNA A"
+                     /country="Puerto Rico"
+                     /collection_date="Aug-1997"
+     gene            200..949
+                     /locus_tag="RMMV_sAgp1"
+                     /db_xref="GeneID:10570080"
+     CDS             200..949
+                     /locus_tag="RMMV_sAgp1"
+                     /note="AV1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_004429236.1"
+                     /db_xref="GeneID:10570080"
+                     /translation="MPKRDAPWRSTAGTSKVSRNLNYSPGGGPKTNRANAWVNRPMYR
+                     KPRIYRMYRTPDVPRGCEGPCKIQSFEQRHDVSHVGRVMCISDVTRGSGITHRVGKRF
+                     CVKSVYILGKVWMDDNIKLKNHTNSVMFWLVRDRRPYGTPMDFGQVFNMFDNEPSTAT
+                     VKNDLRDRFQVMHKFYAKVTGGQYASNEQAIVKRFWKVNTHVVYNHQEAAKYENHTEN
+                     ALLLYMACTHASNPVYATLKIRIYFYDSIMN"
+     gene            complement(946..1344)
+                     /locus_tag="RMMV_sAgp2"
+                     /db_xref="GeneID:10570077"
+     CDS             complement(946..1344)
+                     /locus_tag="RMMV_sAgp2"
+                     /note="AC3"
+                     /codon_start=1
+                     /product="REn"
+                     /protein_id="YP_004429237.1"
+                     /db_xref="GeneID:10570077"
+                     /translation="MDSRTGEPITAAQATNGVFIWEVQNPLYFKIINVERPMYTNSTV
+                     FDIQIRANHNLRKALALHKAYFNFQVWTTLTTASGQIYLSRFKYLVMYYLDNLGVISV
+                     NNIIRAVSYATDRRYVNNVVEDHEIKYKFY"
+     gene            complement(1091..1507)
+                     /locus_tag="RMMV_sAgp3"
+                     /db_xref="GeneID:10570079"
+     CDS             complement(1091..1507)
+                     /locus_tag="RMMV_sAgp3"
+                     /note="AC2"
+                     /codon_start=1
+                     /product="TrAP"
+                     /protein_id="YP_004429238.1"
+                     /db_xref="GeneID:10570079"
+                     /translation="MTGHKKTPSTSPLRNHSTPPSIKPRHRYAKRQTRRRRFDLQCGC
+                     SIYVHINCSNHGFTHRGTHHCSSSNEWRFYLGGSKSPLFQDNQRGASDVHEQHGVRHT
+                     NPSQPQPEESVGTSQSLLQFPSLDDIDDSFWADLFK"
+     gene            complement(1401..2477)
+                     /locus_tag="RMMV_sAgp4"
+                     /db_xref="GeneID:10570078"
+     CDS             complement(1401..2477)
+                     /locus_tag="RMMV_sAgp4"
+                     /note="AC1"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_004429239.1"
+                     /db_xref="GeneID:10570078"
+                     /translation="MPLQKRFRLNAKNYFLTYPKCSLTKEEALSQLQNLSTPVNKKFI
+                     KICTELHENGEPHLHVLIQFEGKYQCTNNRFFDLVSPTRSAHFHPNIQGAKSSSDVKS
+                     YIDKDGDTIEWGEFQIDGRSARGGQQSANDSYARALNAESAEEAMQIIKEQQPKHFVL
+                     QYHNLVSNITKIFHKPPEPWVSPFQLSTFNNVPEIMSDWVNENISDSAARPLRPISII
+                     VEGPSRTGKTIWARSLGPHNYLCGHIDLNPRIYSNDAWYNVIDDVDPHYLKHFKEFMG
+                     AQRDWQSNCKYGKPIQIKGGIPTIFLCNPGPHSSYKEYLGEEKNKSLNDWAQKNAVYV
+                     SIEEPLYSTVNQTSSSLREETDST"
+ORIGIN
+        1 accggatggc cgaccgctgg ctttggtgta tggcctgtac gcacgtgatg ctgttgttcg
+       61 aattaaagat gtttattttg ctttgtccaa tgacgtttgt cgtggcgcgt ctagataatt
+      121 gtgttcaact tagcgcccaa gtattgactg tatataaata cgagctatgt gacgtggaac
+      181 taatcatctt taattcaaaa tgcctaagcg ggatgccccg tggcgttcta ctgcggggac
+      241 ctctaaggtt agtcgcaatt tgaattactc ccctggtgga ggcccaaaaa ccaacagggc
+      301 caatgcttgg gttaacaggc ccatgtacag gaagcccagg atatatcgga tgtacaggac
+      361 ccccgatgtt ccaagaggct gtgaagggcc ctgtaagatc cagtcgtttg aacaacgcca
+      421 tgatgtttcg cacgttggta gggttatgtg tatatccgac gtgacacgtg gtagtggtat
+      481 tacccatcgc gttgggaaac gattttgtgt taagtctgtg tatattttag gcaaagtatg
+      541 gatggacgac aacatcaagt tgaagaacca caccaacagt gttatgtttt ggttggttag
+      601 ggataggaga ccatatggca cccctatgga ttttgggcag gtgtttaata tgtttgacaa
+      661 tgagcccagt accgctactg ttaagaacga tcttcgtgat cgtttccagg tgatgcataa
+      721 gttttatgcc aaggttacag gtggacaata tgcgagcaat gaacaggcaa ttgttaagcg
+      781 tttttggaag gtcaacactc atgtggtgta caaccatcag gaagccgcaa agtacgagaa
+      841 ccatactgag aacgctctat tgttgtatat ggcttgtact catgcctcga accctgtgta
+      901 tgctactttg aaaattcgga tctattttta cgattcgata atgaattaat aaaatttgta
+      961 ttttatttca tgatcttcaa ctacattatt tacataacgt ctgtccgttg catatgagac
+     1021 agctctgatt atattgttaa ctgaaataac acctaaattg tctaagtaat acatgacaag
+     1081 gtacttaaat ctacttaaat aaatctgccc agaagctgtc gtcaatgtcg tccagacttg
+     1141 gaaattgaag taggctttgt gaagtgccaa cgctttcctc aggttgtggt tggctcggat
+     1201 ttgtatgtcg aacaccgtgc tgttcgtgta catcggacgc tccacgttga ttatcttgaa
+     1261 ataaagggga ttttgaacct cccaaataaa aacgccattc gttgcttgag ctgcagtgat
+     1321 gggttcccct gtgcgtgaat ccatgattgc tgcagttaat gtggacgtaa atcgaacagc
+     1381 cgcactgcag atcaaatctt ctacgtcgag tctgtctctt cgcgtaacga tgacgaggtt
+     1441 tgattgacgg tggagtagag tggttcctca atggagacgt agacggcgtt tttttgtgcc
+     1501 cagtcattga gtgatttgtt tttctcttct ccgagatact ccttatatga tgaatgggga
+     1561 ccaggattgc agaggaagat agtgggaatt cctcctttaa tttgaattgg ctttccgtat
+     1621 ttgcagtttg attgccagtc cctttgggcc cccatgaact ctttaaagtg cttcagataa
+     1681 tgcggatcaa cgtcatcgat gacgttatac cacgcatcgt tggagtatat ccttgggttg
+     1741 agatcgatat gaccacataa ataattgtga gggcccagac ttcgggccca tattgttttg
+     1801 cccgttcttg atggaccttc aacaatgatt gatatcggtc tcaatggccg cgcagcggaa
+     1861 tcggaaatat tttcgttaac ccaatcggac atgatttctg ggacattgtt gaacgtggat
+     1921 aattgaaacg gagaaaccca tggttctggt ggtttatgaa atattttcgt tatgttggac
+     1981 accagattgt gatattgaag gacgaaatgt ttaggttgtt gctctttaat aatctgcata
+     2041 gcctcttctg cagattctgc atttaacgcc cttgcatatg aatcgttagc agattgctga
+     2101 cctcctctag cagatctgcc gtcgatctga aattctcccc attcaattgt atcgccgtcc
+     2161 ttgtcgatgt aggacttgac gtcggagctt gacttagctc cctgaatgtt cggatggaaa
+     2221 tgtgctgacc tggttgggga aaccaagtcg aagaatctgt tattcgtgca ctggtatttc
+     2281 ccttcgaact ggatgagcac gtgaagatga ggttccccat tttcatggag ttccgtgcat
+     2341 attttgatga acttcttgtt aactggagtt gataggtttt gcaattggga aagagcttct
+     2401 tcttttgtta gagagcattt ggggtatgtg aggaaatagt ttttggcatt taagcggaaa
+     2461 cgcttctgga gtggcatttt tgtaataaga agggtgtacc ccgattgagg ttctcaacac
+     2521 tggcttatac tattggtgta ttgggggtca atatatagta taccttctta ctagcatctg
+     2581 ctgacacgtg gaggccatcc gttataatat t
+//

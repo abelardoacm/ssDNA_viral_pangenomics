@@ -1,0 +1,129 @@
+LOCUS       NC_018457               2623 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Soybean chlorotic spot virus DNA-A, complete sequence.
+ACCESSION   NC_018457
+KEYWORDS    RefSeq.
+SOURCE      Soybean chlorotic spot virus
+  ORGANISM  Soybean chlorotic spot virus
+REFERENCE   2  (bases 1 to 2623)
+REFERENCE   3  (bases 1 to 2623)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JX122965.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2623
+                     /organism="Soybean chlorotic spot virus"
+                     /mol_type="genomic DNA"
+                     /isolate="BR:Jai9254.10"
+                     /host="Glycine max"
+                     /db_xref="taxon:1221206"
+                     /segment="DNA A"
+                     /country="Brazil"
+                     /collection_date="2010"
+     gene            199..954
+                     /locus_tag="B916_sAgp1"
+                     /db_xref="GeneID:13466396"
+     CDS             199..954
+                     /locus_tag="B916_sAgp1"
+                     /note="CP"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_006590061.1"
+                     /db_xref="GeneID:13466396"
+                     /translation="MVKRDAPWRHMAGTSKVSRSSNFSPRGGGGPKNNRASEWVNRPM
+                     YRKPRIYRMYRTPDVPRGCEGPCKVQSFEQRHDISHVGKVICVSDVTRGNGITHRVGK
+                     RFCVKSVYILGKIWMDENIKLKNHTNSVMFWLVRDRRPYGTPMDFGQVFNMFDNEPST
+                     ATVKNDLRDRFQVMHRFYAKVTGGQYASNEQALVRRFWKVNNHVVYNHQEAGKYENHT
+                     ENALLLYMACTHASNPVYATLKIRIYFYDSITN"
+     gene            complement(951..1349)
+                     /locus_tag="B916_sAgp2"
+                     /db_xref="GeneID:13466393"
+     CDS             complement(951..1349)
+                     /locus_tag="B916_sAgp2"
+                     /note="REN"
+                     /codon_start=1
+                     /product="replication-enhancer protein"
+                     /protein_id="YP_006590062.1"
+                     /db_xref="GeneID:13466393"
+                     /translation="MDSRTGELITARQAENGVYIWEISNPLYFKMNHVEDPLHTTTRI
+                     YHVQIRFNHNLRRALALHKAYLNFQVWTISLRASGTTYLNRFKFLVMLYLERVGVISL
+                     NNVIRAVRFATDKSYVNYVLENHVIKFKFY"
+     gene            complement(1096..1485)
+                     /locus_tag="B916_sAgp3"
+                     /db_xref="GeneID:13466394"
+     CDS             complement(1096..1485)
+                     /locus_tag="B916_sAgp3"
+                     /note="TRAP"
+                     /codon_start=1
+                     /product="transactivating protein"
+                     /protein_id="YP_006590063.1"
+                     /db_xref="GeneID:13466394"
+                     /translation="MRNSSSSTPPSIKVQHRAAKKRAIRRRRIDIDCGCSIYVHLNCA
+                     GHGFTHRGTHHCTSGREWRLYLGDIKSPLFQDEPRRGSTTHNDQNIPRPDQVQPQPEE
+                     SIGSPQGISQFPSLDDIPESFWDDIFK"
+     gene            complement(1427..2482)
+                     /locus_tag="B916_sAgp4"
+                     /db_xref="GeneID:13466395"
+     CDS             complement(1427..2482)
+                     /locus_tag="B916_sAgp4"
+                     /note="REP"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_006590064.1"
+                     /db_xref="GeneID:13466395"
+                     /translation="MPPPKRFRINAKNYFLTYPQCSLSKEAALEQIISLQTPSSKKFI
+                     KIARELHDDGQPHLHVLLQFEGKFCCTNNRLFDLVSPTRSAHFHPNIQGAKSSSDVKS
+                     YVDKDGDTIEWGEFQVDARSARGGQQTANESYAKVLNADNLERALQILKEEQPKDFVL
+                     HHHNIRSNLERIFAKAPEPWAPPFHLSSFTLVPQEMQDWVNDYFGRGAAARPERPISI
+                     IIEGDSRTGKTMWARALGSHNYLSGHLDFNSRVYSNDVQYNVIDDIAPQYLKLKHWKE
+                     LIGAQKDWQSNCKYGKPVQIKGGVPCIILCNPGEGSSYKSFLDKEENAGLKGWTLHNA
+                     KFVFLNSPLYQSSTQSS"
+ORIGIN
+        1 accggatggc cgcgcgattt tttatggccc ttttcttttg ggctcgttct tttggaccga
+       61 gtgtatttga attaaagtaa agttattccc ctgtccaatg aaaatttgtc tgagtggtct
+      121 agataagccc aacttggtac ccaagttggt tctaacggtt atatattcaa gaataactga
+      181 ctaattcttt aattcaaaat ggttaagcgg gatgccccat ggcgccacat ggcagggacc
+      241 tcaaaggtat cccgctctag caatttttca cctcgtggag gaggaggtcc aaaaaacaac
+      301 agggcctctg aatgggtcaa caggcccatg taccggaagc ccaggatata tcggatgtat
+      361 agaacccccg atgtacctag aggttgtgaa ggcccttgta aggtccagtc ctttgaacag
+      421 cgacacgata tatcccatgt tggtaaggtg atatgtgtgt ctgacgtgac aagaggtaat
+      481 ggtattaccc atcgtgtagg gaaacgtttt tgtgttaagt ccgtttatat tctaggtaag
+      541 atatggatgg acgagaatat caagttgaag aatcacacga acagtgtgat gttttggttg
+      601 gttagagaca ggagacccta tggcacccct atggactttg gccaagtgtt caacatgttc
+      661 gacaatgaac ccagtactgc tacggttaag aacgatcttc gtgatcgttt tcaagtcatg
+      721 caccggttct atgccaaagt cactggtgga caatatgcga gcaacgaaca ggcattggtc
+      781 aggcgttttt ggaaggtcaa caatcatgtt gtctacaacc accaagaagc agggaaatac
+      841 gagaatcata cggaaaacgc attattattg tacatggcat gtactcatgc ctctaacccc
+      901 gtgtatgcaa ctctaaaaat tcggatctat ttttatgatt cgataaccaa ttaataaaat
+      961 ttgaatttta ttacatgatt ctcaagtaca taatttacat atgatttgtc tgttgcgaaa
+     1021 cgaacagctc ttattacatt gttaagcgag ataacaccta ctcgctctaa gtacagcatg
+     1081 actaggaatt taaatctatt taaatatgtc gtcccagaag ctctcaggga tatcgtccag
+     1141 acttggaaat tgagatatgc cttgtggaga gccaatgctc tcctcaggtt gtggttgaac
+     1201 ctgatctgga cgtggtatat tctggtcgtt gtgtgtagtg gatcctctac gtggttcatc
+     1261 ttgaaataga ggggatttga tatctcccag atatagacgc cattctctgc ctgacgtgca
+     1321 gtgatgagtt cccctgtgcg tgaatccatg tcctgcgcag ttaagatgga cgtatatgga
+     1381 gcacccgcaa tctatatcaa ttcgtcttct cctgatagcc ctctttttag ctgctctgtg
+     1441 ttgaactttg atagaggggg gagttgagga agacgaattt cgcattgtga agggtccaac
+     1501 ctttcaatcc tgcgttttcc tctttgtcga ggaaagattt atagctggag ccctcgccag
+     1561 gattgcaaag tataatgcaa ggaacccctc ctttaatttg aactggcttt ccgtatttgc
+     1621 agtttgattg ccagtctttt tgagcaccta tcaattcctt ccaatgcttt aactttagat
+     1681 attgcggtgc gatgtcatct attacgttgt actgcacatc atttgaatag acccgcgaat
+     1741 tgaaatcgag gtgaccggac aagtagttat gggaccctag cgcacgtgcc cacatggtct
+     1801 tccccgttcg agagtcaccc tcgattatta tactaatagg tctttccggc cgcgcagcgg
+     1861 cacctctccc aaaataatca ttgacccaat cttgcatctc ctgtggaact aaagtgaacg
+     1921 aggagaggtg aaacggagga gcccatggct ccggagcctt agcaaagata cgctctaggt
+     1981 tagagcgtat gttgtggtga tgaaggacga agtccttcgg ctgttcttct tttaatattt
+     2041 gaagggctct ttctaggttg tctgcgttca gaaccttggc gtatgactcg tttgcagtct
+     2101 gttgaccacc tcttgcagaa cgagcgtcga cctggaattc tccccattca atggtgtctc
+     2161 catccttgtc gacgtaggac ttgacgtcgg agctcgactt agctccctgt atgtttggat
+     2221 ggaaatgtgc tgaccttgtt ggggaaacca agtcgaacaa tctgttattt gtgcagcaga
+     2281 acttcccttc gaattgaagc aggacatgga gatgaggctg cccatcgtcg tgaagttctc
+     2341 ttgctatctt gataaacttc ttactgctag gtgtctgcaa cgagataatt tgttcaagag
+     2401 cagcctcttt tgataaggag cactggggat atgtgaggaa atagtttttg gcatttatac
+     2461 ggaaacgctt tggtggtggc attcttgtaa ataaaacgat gtcaccaatt cgctccgctc
+     2521 taaaactcta tagcaattgg tgaattggtg acaatatata ctagaaccct caatagaact
+     2581 tctaatcctg ttcgcacacg tggcggccat ccgctataat att
+//

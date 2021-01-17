@@ -1,0 +1,147 @@
+LOCUS       NC_031961               2613 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Common bean severe mosaic virus isolate Cuba/Mayabeque 16/2014
+            segment DNA-A, complete sequence.
+ACCESSION   NC_031961
+KEYWORDS    RefSeq.
+SOURCE      Common bean severe mosaic virus
+  ORGANISM  Common bean severe mosaic virus
+REFERENCE   2  (bases 1 to 2613)
+REFERENCE   3  (bases 1 to 2613)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KX011475.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2613
+                     /organism="Common bean severe mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolate="Cuba/Mayabeque 16/2014"
+                     /host="Phaseolus vulgaris"
+                     /db_xref="taxon:1915203"
+                     /segment="DNA-A"
+                     /country="Cuba"
+                     /collection_date="Jan-2015"
+     gene            202..951
+                     /gene="AV1"
+                     /locus_tag="BSB05_gp1"
+                     /db_xref="GeneID:34443316"
+     CDS             202..951
+                     /gene="AV1"
+                     /locus_tag="BSB05_gp1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_009325421.1"
+                     /db_xref="GeneID:34443316"
+                     /translation="MPKRDAPWRYTAGTSKVSRNANYSPGGGPKSNRTNAWVNRPMYR
+                     KPRIYRMYRSPDVPKGCEGPCKIQSFEQRHDVSHVGKVMCISDVTRGNGITHRVGKRF
+                     CVKSVYILGKVWMDDNIKLKNHTNSVMFWLVRDRRPYGTPMDFGQVFNMFDNEPSTAT
+                     VKNDLRDRFQVMHKFYAKVTGGQYASNEQSLVKRFWKVNNYVVYNHQEAAKYENHTEN
+                     ALLLYMACTHASNPVYATLKIRIYFYDSIMN"
+     gene            complement(948..1346)
+                     /gene="AC3"
+                     /locus_tag="BSB05_gp2"
+                     /db_xref="GeneID:34443312"
+     CDS             complement(948..1346)
+                     /gene="AC3"
+                     /locus_tag="BSB05_gp2"
+                     /codon_start=1
+                     /product="REn"
+                     /protein_id="YP_009325422.1"
+                     /db_xref="GeneID:34443312"
+                     /translation="MDSRTGEPITAAQATSGVYIWEVPNPLYFKITRVEKPLFTHTTV
+                     FHIQVRANHNLRKALALHKAYFNFQVWTTLTTASGQIYLNRFKFLVMYYLDNLGVISV
+                     NNVIKAVSFATNRSYVNDVLEYHEIKFKFY"
+     gene            complement(1093..1509)
+                     /gene="AC2"
+                     /locus_tag="BSB05_gp3"
+                     /db_xref="GeneID:34443314"
+     CDS             complement(1093..1509)
+                     /gene="AC2"
+                     /locus_tag="BSB05_gp3"
+                     /codon_start=1
+                     /product="TrAP"
+                     /protein_id="YP_009325423.1"
+                     /db_xref="GeneID:34443314"
+                     /translation="MTGHRRTPSSSPLKNLSSPPKIKPRHRYAKKQIRRRRIDLQCGC
+                     SIYIHINCRNNGFTHRGTHHCSSGDEWRLYLGGSKSPLFQDNQSRETTLHTHDGVPHT
+                     SPSQPQPEESVGSPQSLLQFPSLDDIDDSFWADLFK"
+     gene            complement(1442..2479)
+                     /gene="AC1"
+                     /locus_tag="BSB05_gp4"
+                     /db_xref="GeneID:34443313"
+     CDS             complement(1442..2479)
+                     /gene="AC1"
+                     /locus_tag="BSB05_gp4"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_009325424.1"
+                     /db_xref="GeneID:34443313"
+                     /translation="MPLQKRFRLNAKNFFITYPKCSLTKEEALDQLRSITTPVNKKFI
+                     KICRELHENGEPHLHVLIQFEGKYQCTNNRFFDLVSTSRSAHFHPNIQGAKSSSDVKS
+                     YIDKDGDTLEWGEFQIDGRSARGGQQSANDSYARALNAESADEALQIIKEHQPQHFVL
+                     QYHNLVTNISKIFQKPPEPWVPPFQLSTFNNVPDIMSEWVSQNIADSAARPIRPISII
+                     IEGSSRTGKTLWARSLGPHNYLCGHIDLNSKIYSNNAWYNVIDDVDPHYLKHFKEFMG
+                     AQRDWQSNCKYGKPIQIKGGIPTIFLCNPGPHSSYKEFLSEDKNTSLNDWAQKNAIFV
+                     SIEEPLFTTEN"
+     gene            complement(2065..2328)
+                     /gene="AC4"
+                     /locus_tag="BSB05_gp5"
+                     /db_xref="GeneID:34443315"
+     CDS             complement(2065..2328)
+                     /gene="AC4"
+                     /locus_tag="BSB05_gp5"
+                     /codon_start=1
+                     /product="AC4 protein"
+                     /protein_id="YP_009325425.1"
+                     /db_xref="GeneID:34443315"
+                     /translation="MKMGNLIFTCSSNSKENTNARITDSSTWFPHPGQHISIQTFREL
+                     SRAPTSSPTSIKTEIHLNGESFKSTADLLEEVNNRLTIHMQGR"
+ORIGIN
+        1 accggatggc cgaccggggt tcgtggtgta tcccttttcg tactggtcca cgtatgcttt
+       61 attttgaatt aaagatattt attttgcgtt gtccaatcaa aattacactg gcgcgtctag
+      121 atatgtgtgt ctaaacttgc tgaccaagtt cttttctata aatcgacctc gtgtccgtgg
+      181 agccagtgtc tttaattcaa aatgcctaag cgggatgccc cgtggcgtta tactgcgggg
+      241 acctcaaagg ttagtcgcaa tgctaattat tcacctggtg gaggcccaaa atccaacagg
+      301 accaatgctt gggtaaacag gcccatgtac aggaagccca ggatatatcg tatgtataga
+      361 tcccccgatg ttccgaaagg ctgtgaaggg ccctgtaaaa tccagtcttt tgaacagaga
+      421 catgatgttt ctcatgttgg taaggttatg tgtatatccg acgtgactcg tggtaatggt
+      481 attacccatc gtgttggtaa acgattctgt gttaagtctg tttacatttt agggaaagta
+      541 tggatggacg acaacatcaa gttgaagaac cacaccaaca gtgtcatgtt ttggttagtc
+      601 agggatagac gaccatatgg cacccctatg gattttggcc aagtttttaa tatgttcgat
+      661 aatgagccta gtacagctac tgttaagaac gacctccgtg atcgtttcca agtcatgcac
+      721 aaattttatg ccaaggttac aggtggacaa tatgccagca acgagcaatc tttggtcaag
+      781 cgtttttgga aggtgaataa ttatgtcgtc tacaaccatc aggaagctgc taaatatgag
+      841 aaccatactg agaatgctct attattgtat atggcatgta ctcatgcttc taatcctgtg
+      901 tatgctactc taaaaattcg gatctatttt tatgattcga taatgaatta ataaaatttg
+      961 aattttattt catgatattc aagtacatcg ttgacataac ttctgttcgt tgcaaaagag
+     1021 acagctttaa ttacattgtt aactgaaata acacctaaat tgtctaagta atacattaca
+     1081 agaaacttga atctatttaa ataaatctgc ccagaagctg tcgtcaatgt cgtccaaact
+     1141 tggaaattga agtaggcttt gtggagagcc aacgctttcc tcaggttgtg gttggctcgg
+     1201 acttgtatgt ggaacaccgt cgtgtgtgtg aagagtggtt tctctactct ggttatcttg
+     1261 aaatagaggg gatttggaac ctcccaaata taaacgccac tcgtcgcctg agctgcagtg
+     1321 atgggttccc ctgtgcgtga atccattgtt tctgcagtta atgtgaatgt aaatagaaca
+     1381 gccgcactgc agatcaatcc ttcttcgtct tatttgtttt ttcgcgtatc tatggcgagg
+     1441 tttaattttc ggtggtgaag agaggttctt caatggagac gaagatggcg ttcttctgtg
+     1501 cccagtcatt gagtgatgtg tttttgtcct cactgagaaa ctccttatat gatgaatggg
+     1561 ggcctggatt gcaaaggaag atagtgggaa ttccaccttt aatttgaatt ggctttccgt
+     1621 atttgcagtt tgattgccaa tccctctggg cccccatgaa ctctttaaag tgttttaaat
+     1681 aatggggatc aacatcatca atgacgttat accatgcatt attggagtaa atttttgaat
+     1741 ttagatcgat atgaccacat aagtagttgt gaggcccgag actacgggcc cataatgttt
+     1801 tgcctgttct tgatgatcct tcaataataa ttgatatagg tctaattggc cgcgcagcgg
+     1861 aatcggcaat attctgacta acccattctg acattatatc tggaacatta ttgaatgtgg
+     1921 acaactggaa tggaggaacc catggttccg ggggtttttg aaatattttg gatatgtttg
+     1981 tgactaaatt atgatattgt aagacaaaat gttgtggttg atgctctttg attatctgta
+     2041 gagcttcgtc tgcagattct gcatttaacg cccttgcata tgaatcgtta gccgattgtt
+     2101 gacctcctct agcagatctg ccgtcgattt gaaactctcc ccattcaagt gtatctccgt
+     2161 ctttatcgat gtaggacttg acgtcggagc tcgacttagc tccctgaatg tttggatgga
+     2221 aatgtgctga cctggatgtg gaaaccaggt cgaagaatct gttattcgtg cattggtatt
+     2281 ttccttcgaa ttggatgagc acgtgaagat gaggttcccc attttcatgg agttccctgc
+     2341 atatcttgat gaacttcttg tttactggag tggttatcga acgtaactgg tcaagagctt
+     2401 cttctttcgt gagagagcac tttggataag tgatgaagaa gttcttggca tttaagcgaa
+     2461 agcgtttctg cagtggcata tttgtaataa gaagggtgta caccgattga ggctctcaac
+     2521 tcttactcat gttattggtg tattggtgcc aatatatagt ataccttcta ttctatagat
+     2581 ttttgacacg tggaggccat ccgttataat att
+//

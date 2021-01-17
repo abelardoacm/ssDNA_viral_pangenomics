@@ -1,0 +1,148 @@
+LOCUS       NC_005852               2575 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Tomato yellow margin leaf curl virus segment DNA A, complete
+            sequence.
+ACCESSION   NC_005852
+KEYWORDS    RefSeq.
+SOURCE      Tomato yellow margin leaf curl virus
+  ORGANISM  Tomato yellow margin leaf curl virus
+REFERENCE   2  (bases 1 to 2575)
+REFERENCE   3  (bases 1 to 2575)
+REFERENCE   4  (bases 1 to 2575)
+REFERENCE   5  (bases 1 to 2575)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AY508993.
+            On Oct 4, 2017 this sequence version replaced NC_005852.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2575
+                     /organism="Tomato yellow margin leaf curl virus"
+                     /mol_type="genomic DNA"
+                     /isolate="virus 57"
+                     /host="tomato, cv. Rio Grande"
+                     /db_xref="taxon:260909"
+                     /segment="DNA A"
+                     /country="Venezuela: Merida"
+     gene            186..932
+                     /gene="cp"
+                     /locus_tag="TYMLCVsA_gp1"
+                     /db_xref="GeneID:2777282"
+     CDS             186..932
+                     /gene="cp"
+                     /locus_tag="TYMLCVsA_gp1"
+                     /note="coat protein"
+                     /codon_start=1
+                     /product="CP"
+                     /protein_id="YP_006456.1"
+                     /db_xref="GeneID:2777282"
+                     /translation="MPKRDAPWRLSAGTTKVSRSSNYSPRSNMGPKASAWVNRPMYRK
+                     PRIYRTLRGPDIPKGCEGPCKVQSFEQRHDISHVGKVLCVSDVTRGNGITHRVGKRFC
+                     VKSVYILGKVWMDENIKLKNHTNSVMFWLVRDRRPYGTPMDFGQVFNMFDNEPSTATV
+                     KNDLRDRFQVMHKFYAKVTGGQYASNEQALVRRFWKVNNHVVYNHQEAGKYENHTENA
+                     LLLYMACTHASNPVYATLKIRIYFYDSITN"
+     gene            complement(929..1327)
+                     /gene="ren"
+                     /locus_tag="TYMLCVsA_gp2"
+                     /db_xref="GeneID:2777281"
+     CDS             complement(929..1327)
+                     /gene="ren"
+                     /locus_tag="TYMLCVsA_gp2"
+                     /note="replication-enhancer protein"
+                     /codon_start=1
+                     /product="REn"
+                     /protein_id="YP_006457.1"
+                     /db_xref="GeneID:2777281"
+                     /translation="MDSRTGETITARQAQNGVFIWEVPNPLFFKIQRVEDPLYTTTRV
+                     YHIQIRFNHNLRKALTLHKAYLNFQVWTTSVQASGTTYLNRFKHYVLLYLDQLGVISI
+                     NNVIRAVSYATDRKYVNHVLEDHEIKFKLY"
+     gene            complement(1074..1460)
+                     /gene="trap"
+                     /locus_tag="TYMLCVsA_gp3"
+                     /db_xref="GeneID:2777283"
+     CDS             complement(1074..1460)
+                     /gene="trap"
+                     /locus_tag="TYMLCVsA_gp3"
+                     /note="transcriptional-activator protein"
+                     /codon_start=1
+                     /product="TrAP"
+                     /protein_id="YP_006458.1"
+                     /db_xref="GeneID:2777283"
+                     /translation="MQNSSSSTPPSIKPTHRLAKRRPRRKRIDLSCGCTIYVHLLCSN
+                     YGFTHRGNHHCSSGTEWRFYLGGAESPLFQDSTSGGPSVHNDQSVPHPNQVQPQPEEG
+                     IDSTQGLSELPSLDDISSSFWDDIFK"
+     gene            complement(1423..2457)
+                     /gene="rep"
+                     /locus_tag="TYMLCVsA_gp4"
+                     /db_xref="GeneID:2777280"
+     CDS             complement(1423..2457)
+                     /gene="rep"
+                     /locus_tag="TYMLCVsA_gp4"
+                     /note="replication-associated protein"
+                     /codon_start=1
+                     /product="REP"
+                     /protein_id="YP_006459.1"
+                     /db_xref="GeneID:2777280"
+                     /translation="MPTARAFKINAKNYFLTYPKCSLSKEEALSQLQNLITPTNKKFI
+                     KVCKELHEDGEPHLHVLIQFEGKYQCKNNRFFDLVSPTRSTHFHPNIQGAKSSSDVKS
+                     YIDKDGDTIQWGEFQIDGRSARGGQQSANDTYAKALNARSSEEALQIIKEEQPQHFFL
+                     QHHNLLANATKIFRKPPEPWVPPFRLSSFINVPVDMQEWADDYFGRDSAARPERPISL
+                     IVEGDSRTGKTMWARALGSHNYLSGHMDFNSRVYSNDVEYNVIDDVNPQYLKIKHWKE
+                     LIGAQKDWQSNCKYGKPVQIKGGIPAIVLCNPGEGSSYKRYLDKEENTSLRAWTLHNA
+                     KFIFLDSPLY"
+     gene            complement(2043..2306)
+                     /gene="ac4"
+                     /locus_tag="TYMLCVsA_gp5"
+                     /db_xref="GeneID:2777277"
+     CDS             complement(2043..2306)
+                     /gene="ac4"
+                     /locus_tag="TYMLCVsA_gp5"
+                     /codon_start=1
+                     /product="AC4"
+                     /protein_id="YP_006460.1"
+                     /db_xref="GeneID:2777277"
+                     /translation="MKMGNRICMCLSSSKASTSAKITDSSIWFPQPGQHISIRTFREL
+                     NPAPMSSPTLIRTETQFNGGNSRSTEDLLEEVSNLLMTHTQRH"
+ORIGIN
+        1 accggatggc cgcgcgattt tttgcccccc ctcctcctcg agatgagcgc ctgctttttg
+       61 ggaccactta ataaagcaac caatcagatt gctcctggag agttaaatta ttaattcgtg
+      121 gtccccaagt tccgcctttt cctttataaa ggctgcaagt gataatgatt aatcaataat
+      181 tcaaaatgcc taagcgcgat gctccttggc gcttatcggc tgggaccact aaggtcagtc
+      241 gttcctccaa ttattcccct aggagtaata tgggcccaaa ggcctctgct tgggttaata
+      301 ggcccatgta caggaagccc agaatttaca ggacgttaag ggggcctgat attcctaagg
+      361 gttgtgaagg cccatgtaaa gttcagtcct tcgagcagag gcatgatatt tctcatgttg
+      421 gcaaggtgct ttgtgtttct gatgtgacac gtggtaacgg tattacccac cgtgtaggca
+      481 agaggttctg tgtcaagtct gtgtatatct taggcaaggt atggatggac gagaatatca
+      541 agttgaagaa ccacaccaac agcgtcatgt tctggttggt cagagaccgg agaccttatg
+      601 gaacccccat ggactttggc caagtgttta acatgtttga taacgagcca agtactgcca
+      661 ctgtgaagaa cgatctccgt gatcgtttcc aggttatgca caagttttat gctaaggtta
+      721 ccggtggaca atatgccagc aatgagcaag ccttggtcag gagattctgg aaggtcaaca
+      781 accatgtggt gtacaaccat caagaagcag ggaaatacga gaaccacact gagaatgctc
+      841 tattattgta tatggcatgt acccatgcgt ctaatcctgt gtatgctaca ttaaaaattc
+      901 ggatctattt ttatgattcg ataacaaatt aataaagttt gaattttatt tcatgatctt
+      961 caagcacatg gtttacatat tttctgtctg ttgcataact aacagctctg attacattgt
+     1021 ttattgaaat aactcctaac tgatctaaat acaacaagac ataatgtttg aatctattta
+     1081 aatatgtcgt cccagaagct tgaactgatg tcgtccagac ttggaagttc agataggcct
+     1141 tgtgtagagt caatgccttc ctcaggttgt ggttgaacct gatttggatg tggtacactc
+     1201 tggtcgttgt gtacagaggg tcctccactc gttgaatctt gaaaaagagg ggattcggca
+     1261 cctcccagat aaaaacgcca ttctgtgcct gacgagcagt gatggtttcc cctgtgcgtg
+     1321 aatccatagt tgctgcagag gagatggacg tatatggtac acccgcagct taggtctatt
+     1381 cttttacgtc ggggtcttct ctttgcaaga cgatgtgttg gtttaataga ggggggagtc
+     1441 gaggaagatg aattttgcat tatggagtgt ccacgctctg agagatgtat tttcctcttt
+     1501 gtctaggtac cttttatagg aagacccctc ccctggattg caaagcacga tagcgggaat
+     1561 tccaccttta atttgaacag gctttccata tttacagttg gactgccagt ctttctgggc
+     1621 cccaatcaat tctttccagt gctttatttt taaatattgt gggttgacat catcaatgac
+     1681 gttatactct acatcgtttg agtaaaccct agaattgaaa tccatgtgac cacttaggta
+     1741 attatgagaa cctaatgcac gtgcccacat tgttttccct gttctagaat caccttcaac
+     1801 gattaaactt ataggtcttt ctggccgcgc agcggaatcc ctcccaaaat aatcatctgc
+     1861 ccattcttgc atatcaactg gaacatttat gaatgacgat agtcgaaaag gagggaccca
+     1921 tggttcagga ggtttacgaa atattttggt tgcattggct aacaagttat gatgttgaag
+     1981 aaagaagtgt tgcggttgtt cttcctttat aatctgcaac gcttcttcag atgacctagc
+     2041 atttaatgcc tttgcgtatg tgtcattagc agattgctga cctcctctag cagatcttcc
+     2101 gtcgatctgg aattcccccc attgaattgt gtctccgtcc ttatcaatgt aggacttgac
+     2161 atcggagctg gatttagctc cctgaatgtt cggatggaaa tgtgttgacc tggttgggga
+     2221 aaccagatcg aagaatctgt tatttttgca ctggtacttg ccttcgaact ggataagcac
+     2281 atgcagatgc ggttccccat cttcatgcaa ttctttgcac actttaatga atttcttgtt
+     2341 tgtcggagtg attaggtttt gtaattggga aagtgcttct tctttggata gagagcactt
+     2401 ggggtatgta aggaaataat tcttggcatt aattttaaag gcacgtgcag taggcatgct
+     2461 tggacaccaa ttggagtctc tcaactctct ctaatgaatc ggtgtataag ggtcttatat
+     2521 atactataag cctctatagg cttaatagac acgtgtaggc catccgtata atatt
+//

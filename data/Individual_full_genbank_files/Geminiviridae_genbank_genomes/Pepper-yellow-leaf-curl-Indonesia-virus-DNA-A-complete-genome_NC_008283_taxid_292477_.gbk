@@ -1,0 +1,142 @@
+LOCUS       NC_008283               2750 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Pepper yellow leaf curl Indonesia virus DNA-A, complete genome.
+ACCESSION   NC_008283
+KEYWORDS    RefSeq.
+SOURCE      Pepper yellow leaf curl Indonesia virus
+  ORGANISM  Pepper yellow leaf curl Indonesia virus
+REFERENCE   2  (bases 1 to 2750)
+REFERENCE   3  (bases 1 to 2750)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AB267834.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2750
+                     /organism="Pepper yellow leaf curl Indonesia virus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:292477"
+                     /segment="DNA A"
+                     /country="Indonesia"
+     gene            135..488
+                     /gene="AV2"
+                     /locus_tag="PYLCIV_sAgp1"
+                     /db_xref="GeneID:4237810"
+     CDS             135..488
+                     /gene="AV2"
+                     /locus_tag="PYLCIV_sAgp1"
+                     /codon_start=1
+                     /product="moving protein"
+                     /protein_id="YP_717090.1"
+                     /db_xref="GeneID:4237810"
+                     /translation="MWDPLVHPFPETLHGFRCMLAIKYLQSLEATYSPDTVGGEFVKD
+                     LICLLRCKNYAEAFHRYSVVVANVYNTPETKLRESVQSPCCCPHCPRHVLQTKSMGKS
+                     AYESETQILQGSKDQ"
+     gene            295..1071
+                     /gene="AV1"
+                     /locus_tag="PYLCIV_sAgp2"
+                     /db_xref="GeneID:4237809"
+     CDS             295..1071
+                     /gene="AV1"
+                     /locus_tag="PYLCIV_sAgp2"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_717091.1"
+                     /db_xref="GeneID:4237809"
+                     /translation="MPKRSIDTVSSLPMSITRRRLNYASQYSLPAAAPTAPGMSYKRR
+                     AWVNRPMNRKPRFYRGRRTSDVPRGCEGPCKVQSFEQRHDVTHTGKVLCVSDVTRGNG
+                     ITHRVGKRFCVKSVYIIGKVWMDENIKSKNHTNNVMFWLVRDRRPVTTPYGFGELFNM
+                     YDNEPSTATIKNDLRDRVQVLHRFSATVTGGQYASKEQAIVKRFFRVNNYVVYNHQEA
+                     AKYENHTENALLLYMACTHASNPVYATLKIRIYFYDNVTN"
+     gene            complement(1068..1472)
+                     /gene="AC3"
+                     /locus_tag="PYLCIV_sAgp3"
+                     /db_xref="GeneID:4237808"
+     CDS             complement(1068..1472)
+                     /gene="AC3"
+                     /locus_tag="PYLCIV_sAgp3"
+                     /codon_start=1
+                     /product="replication enhancer"
+                     /protein_id="YP_717092.1"
+                     /db_xref="GeneID:4237808"
+                     /translation="MDFRTGEYITAAQAQNGVYIWKVPNPLYFKVLRHSTRPFNTDMD
+                     YMEVQIQFNHNLRKALGIHKCFLIFHIWTRLRPQTWHFLRVFKNNVISYLSNLGIVSI
+                     NNVIRAVNYVLWDVLEHTVYAKQLHIIKFNLY"
+     gene            complement(1213..1620)
+                     /gene="AC2"
+                     /locus_tag="PYLCIV_sAgp4"
+                     /db_xref="GeneID:4237807"
+     CDS             complement(1213..1620)
+                     /gene="AC2"
+                     /locus_tag="PYLCIV_sAgp4"
+                     /codon_start=1
+                     /product="transcriptional activator protein"
+                     /protein_id="YP_717093.1"
+                     /db_xref="GeneID:4237807"
+                     /translation="MRPSSPSTGHSTQVPQKILHQIAKKKIIRRRRIDLDCGCSYYLS
+                     INCHGYGFSHRGVHHCSSGAEWRLYLEGSKSPLFQGAEAQHQTVQHRHGLHGSANPIQ
+                     PQLEESAGDSQVFFNLPHLDSFTSSDLAFLKSI"
+     gene            complement(1520..2608)
+                     /gene="AC1"
+                     /locus_tag="PYLCIV_sAgp5"
+                     /db_xref="GeneID:4237806"
+     CDS             complement(1520..2608)
+                     /gene="AC1"
+                     /locus_tag="PYLCIV_sAgp5"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_717094.1"
+                     /db_xref="GeneID:4237806"
+                     /translation="MPPPRRFKLQSKNYFLTYPHCSLTKEEALEQLKSFNTPVNKLFV
+                     KICRELHEDGSPHLHVLIQFEGKYVCTNNRFFDLLSSTRAAHFHPNIQGAKSSSDVKA
+                     YMDKDGDSIEWGEFQIDGRSARGGQHTVNDVYAQALNCGSKSDALQLIKELAPKDYVL
+                     QYHNLNVNFDKIFAKPVDAFVSPYPSSSFDQVPEELREWASENVKDAAARPWRPISIV
+                     LEGESRTGKTMWARSLGLHNYLCGHLDLSPKVYNNDAWYNVIDDVDPHYLKHFKEFMG
+                     AQRNWQSNTKYGKPIQIKGGIPTIFLCNPGPTSSYKEYLDEDKNNALKSWALKNATFV
+                     TINGPLYSSSTEDTAPNCEEENNPQETY"
+ORIGIN
+        1 accgagtgcc gcgaaaattt tttaaaggtg gtcccacgag ccaaccttct gactgaccaa
+       61 tggcgttgct tctgaaaagc ttaattagtg ggtcgcccac tataaagata gggaccacgc
+      121 tccactactc aaggatgtgg gatccgctcg ttcatccttt tccagaaacc ctacacgggt
+      181 ttcgatgcat gttggcaatc aaatatctgc aaagcttaga ggctacgtat tctcctgata
+      241 cggtcggagg tgaatttgtg aaggatttaa tctgcctgtt gcgttgtaaa aactatgccg
+      301 aagcgttcca tcgatacagt gtcgtcgttg ccaatgtcta taacacgccg gagactaaac
+      361 tacgcgagtc agtacagtct ccctgctgct gcccccactg ccccaggcat gtcttacaaa
+      421 cgaagagcat gggtaaatcg gcctatgaat cggaaaccca gattctacag gggtcgaagg
+      481 accagtgatg ttccacgggg ttgtgaagga ccttgtaagg tccaatcctt tgaacagaga
+      541 catgacgtaa cacatactgg gaaggtcctt tgcgtttccg atgtcactag aggtaatggt
+      601 attacgcata gagtagggaa aagattctgt gtgaaatctg tatatattat tggcaaagta
+      661 tggatggacg agaacatcaa gtcgaagaac cacactaata acgtcatgtt ttggcttgtt
+      721 cgtgaccggc gaccagttac aactccttat ggcttcggcg agttgttcaa catgtatgat
+      781 aatgaaccca gcacagcaac tatcaagaac gatcttcgtg atcgtgttca ggtgttacat
+      841 cgtttctcag ccacggtgac aggtggtcag tatgcaagca aagaacaagc aatcgtgaag
+      901 agatttttta gagttaacaa ttatgttgtt tacaatcatc aagaagcagc aaaatatgaa
+      961 aatcacactg aaaatgcatt gttgttgtat atggcatgta ctcatgcatc taatcctgtg
+     1021 tacgctacat tgaaaattcg tatatacttc tacgacaatg taacaaatta ataaaggtta
+     1081 aattttatta tatgcaactg ctttgcgtac actgtatgtt caagtacatc ccacaaaaca
+     1141 taattcacag ctctaattac attgtttatc gacacaattc ctaaattgga taaatagcta
+     1201 attacattgt tcttaaatac tcttaagaaa tgccaagtct gaggacgtaa acgagtccaa
+     1261 atgtggaaga ttaaaaaaca cttgtgaatc cccagcgctt tcctcaagtt gtggttgaat
+     1321 tggatttgca cttccatgta gtccatgtcg gtgttgaacg gtctggtgct gtgcctcagc
+     1381 accttgaaat agaggggatt tggaaccttc caaatataga cgccattctg cgcctgagct
+     1441 gcagtgatgt actcccctgt gcgaaaatcc atacccatga cagttgatac tgagataata
+     1501 tgagcagccg cagtctaagt caatacgtct cctgcggatt attttcttct tcgcaatttg
+     1561 gtgcagtatc ttctgtggaa cttgagtaga gtggcccgtt gatggtgacg aaggtcgcat
+     1621 tttttagtgc ccaagatttc aatgcattat ttttgtcctc gtcaaggtat tctttatatg
+     1681 acgaggtagg accaggattg cagaggaaga tagtgggaat tccgccttta atttgaattg
+     1741 gcttgccgta ttttgtgttg ctttgccagt tcctctgggc ccccataaac tctttaaagt
+     1801 gctttagata gtgggggtcg acgtcatcaa tgacgttgta ccaggcgtca ttgttgtata
+     1861 ccttggggct caagtctaga tgtccacaga gataattatg gaggcccaat gatctagccc
+     1921 acattgtttt gcctgtacga ctctcacctt ctaacacaat actaatgggc ctccatggcc
+     1981 gcgcagcggc atccttcaca ttttcactag cccattctcg tagttcctct ggaacttggt
+     2041 caaacgacga cgacggatat ggtgaaacaa atgcatctac aggtttagca aatattttat
+     2101 cgaaattaac atttaaattg tggtactgta gaacgtagtc ttttggagca agctctttaa
+     2161 tcaattgaag agcatcggac ttacttccac aatttagggc ctgcgcataa acatcgttga
+     2221 cggtgtgttg accacctcgt gcagatctgc catctatctg aaattctccc cattcgattg
+     2281 aatcaccgtc tttgtccatg tacgccttga catcggaact tgacttagct ccctgaatgt
+     2341 tcggatggaa atgtgctgcc ctggttgagg atagcaggtc gaagaatctg ttgttggtgc
+     2401 agacgtattt tccttcgaat tgtatgagca catggagatg agggctccca tcttcgtgaa
+     2461 gttctctaca gatcttgaca aacagcttgt tgacaggagt gttaaaagat tttaattgtt
+     2521 ccagtgcttc ttcttttgtt agagaacagt gtggatatgt taagaaatag tttttgctct
+     2581 gcaacttaaa acgacgtggt ggaggcattt ggagtgtcgt tttgtattgg agacaatcac
+     2641 ttctatccct atgtattgga gacaggagac aatatataga taagttctat aagggcttct
+     2701 aggtaatttt gtacaccctt gaatgattaa agcggcactc gtataatatt
+//

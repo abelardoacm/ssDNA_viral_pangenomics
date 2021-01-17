@@ -1,0 +1,103 @@
+LOCUS       NC_001369               2589 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Pepper huasteco yellow vein virus DNA B, complete sequence.
+ACCESSION   NC_001369
+KEYWORDS    RefSeq; pepper rizado amarillo disease; plant pathogen.
+SOURCE      Pepper huasteco yellow vein virus
+  ORGANISM  Pepper huasteco yellow vein virus
+REFERENCE   2  (bases 1 to 2589)
+REFERENCE   3  (bases 1 to 2589)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to X70419.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2589
+                     /organism="Pepper huasteco yellow vein virus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:223303"
+                     /segment="DNA B"
+     misc_feature    complement(227..982)
+                     /note="putative coding ORF"
+     gene            447..1217
+                     /gene="BR1"
+                     /locus_tag="PhyvvsBgp1"
+                     /db_xref="GeneID:988148"
+     CDS             447..1217
+                     /gene="BR1"
+                     /locus_tag="PhyvvsBgp1"
+                     /codon_start=1
+                     /product="BR1 protein"
+                     /protein_id="NP_040354.1"
+                     /db_xref="GOA:Q06927"
+                     /db_xref="InterPro:IPR000263"
+                     /db_xref="InterPro:IPR001530"
+                     /db_xref="UniProtKB/Swiss-Prot:Q06927"
+                     /db_xref="GeneID:988148"
+                     /translation="MYSTRFRRGLSYVPRRYNPRNYGFKRTFVVKRGDAKRRQTQVKK
+                     LTEDVKMSSQRIHENQYGPEFVMAHNTAISTFINYPQLCKTQPNRSRSYIKLKSLHFK
+                     GTLKIERVGSEVNMAGLNPKIEGVFTVVLVVDRKPHLNPTGNLLQFDELFGARIHSLG
+                     NLAVTPALKERFYILHVLKRVISVEKDSMMLDLEGSTCLSSRRYNCWSTFKDLDPSSC
+                     NGVYDNISKNAILVYYCWMSDAMSKASTFVSFDLDYFG"
+     gene            complement(1277..2158)
+                     /gene="BL1"
+                     /locus_tag="PhyvvsBgp2"
+                     /db_xref="GeneID:988149"
+     CDS             complement(1277..2158)
+                     /gene="BL1"
+                     /locus_tag="PhyvvsBgp2"
+                     /function="movement/pathogenicity protein"
+                     /codon_start=1
+                     /product="BL1 protein"
+                     /protein_id="NP_597687.1"
+                     /db_xref="GeneID:988149"
+                     /translation="MDSWLANPPSAFNYIESHRDEYQLSHDLTEIILQFPSTASQYAA
+                     RLSRSCMKIDHCVIEYRQQVPINATGSVIVEIHDKRMTDNESLQASWTFPLRCNIDLH
+                     YFSASFFSLKDPIPWKLYYRVSDTNVHQNTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFTHNDVDFTHVDYGRWERKPLRSASMSRFGITGPIELKPGESWACRSTIGTTH
+                     TDADNQGHSALHPYKDLHQLGGSVLDPGDSASQVGLTRSQSNITMSLAQLNELVRTTV
+                     HECINSNCNPTQPKSLR"
+ORIGIN
+        1 ggccatccgt tataatatta ccggatggcc gaccgcttcc actctctttc ctttgggaca
+       61 gctggcgcgc actatgtatt atgtttacgt ggcatcatgt gggtcgttgg atgaattcaa
+      121 tcgcgcgcct tcatttcaaa ttaaagtgtg tgtccataca tcgagaaatg tgtaatgacg
+      181 tggagcgttc tccaccattc ctgaatcgtt agataattgt ttgaccagga ccacagctgt
+      241 catttgggac cacacgtcct ttgggaccac cactataatg ataatgtttc ctgttattgc
+      301 ggtccacgtg gtccaattaa attgcacctc gcgagtctac atatccacaa ttttgaatat
+      361 cctattctat aaaatggctt ccatttttat attcaaaatt atattcacat ctcttttaat
+      421 atatatttat ctttaagcaa tttaatatgt attctactag atttagacgt gggttatcct
+      481 atgttccacg gcgttataat ccacgtaatt atggttttaa acgtacattc gtcgttaaac
+      541 gtggtgatgc taaacgacgt cagactcaag tgaagaaact aacagaagat gttaaaatgt
+      601 catcacaacg catccatgaa aatcaatatg gtccagaatt tgtcatggcg cataatacag
+      661 caatatctac attcatcaat tatccccaac tgtgtaagac tcagcccaat cgtagtaggt
+      721 catatattaa gttaaaatcg ttacatttta agggaacctt aaagatcgaa cgtgttgggt
+      781 ctgaggtaaa tatggctggg ttaaatccga agattgaggg tgtgtttact gtggttttag
+      841 ttgttgaccg taagccacat ttgaatccta ctggtaactt gctacagttt gacgagttat
+      901 ttggtgcaag aattcacagt ctagggaact tagccgttac cccggcgttg aaagaacggt
+      961 tctacatact gcatgtgttg aagcgagtta tctccgttga gaaggatagt atgatgctgg
+     1021 acctagaagg atccacttgt ctctctagtc ggcgttataa ttgttggtct acatttaagg
+     1081 accttgatcc ttcgtcatgt aacggcgtct atgataatat aagcaaaaac gccatattag
+     1141 tttattattg ttggatgtcg gatgctatgt ctaaggcatc cacatttgta tcatttgatt
+     1201 tggactattt tggttaagaa ataattgact tgcgtagttt gctcatattt gtattttgtc
+     1261 acaaaataaa atattattat cttagcgact tcggttgtgt cggattacaa ttactgttaa
+     1321 tacattcatg gaccgtagtc cttacaagct cattcaactg ggccaaggac atagttatat
+     1381 ttgattgaga gcgtgttaga cccacttgtg atgctgaatc acctgggtcc aaaacacttc
+     1441 cgcctaactg atgaagatct ttatacggat gtaatgcgct atgtccttgg ttgtcagcat
+     1501 ctgtgtgagt ggttcctatg gtgcttctac aagcccagga ttcacctggt tttaattcaa
+     1561 ttgggcctgt aatgccgaac cttgacatgg atgctgacct caatggtttt ctctcccacc
+     1621 tgccgtagtc cacatgtgta aagtccacat cgttatgggt gaactgtttc gataaaatct
+     1681 tcaccgtcgg agcccggaaa ggtatatcca cggagtgttt agctgtggac aacttcaatt
+     1741 tccctttgaa cttggcaaaa tgggtgttct gatgtacgtt agtatcggag actctgtaat
+     1801 atagcttcca gggtatgggg tccttcaagg agaagaagga tgctgagaaa taatggagat
+     1861 cgatgttaca tcttagtgga aatgtccaag aagcttgtaa tgattcattg tctgtcattc
+     1921 gtttgtcatg gatttccact atgaccgacc cagtggcgtt tatcggaact tgctgtctat
+     1981 actcgataac gcaatggtca attttcatac agctacgact aagtctggca gcgtactgcg
+     2041 acgccgttga cggaaattga agtattatct ccgttaagtc atgagagagc tgatattcat
+     2101 ctctatgtga ctctatataa ttgaatgcgc taggaggatt cgccaaccat gaatccatat
+     2161 atgaaaattt ggcagcgcac gtgaaggctt acggagtctg aatctggtaa taagaagcta
+     2221 tacctaacaa tgttaatggt aatgaaaatg acaaattact atttgctgaa agagttcaaa
+     2281 aataaatgct tacttagtta ttaagatatt gctattagca gcaacaatat atgaggaaac
+     2341 cggtgaggat gaaagcaaaa gcgtcttcag aagacagagc agaaagaatt ggtatgaata
+     2401 attaaatgaa caggcagtgt cgttatatag aagatcattg tgttttagag agagaaaatt
+     2461 ttgcagtggc atttgtgtaa tatggagggg tacaccgatt ggagctcttt aacctgggct
+     2521 tattgtatcg gtgtattggt agccaatata tagtatatgg gagttatcta ggatcttcgt
+     2581 acacgtgga
+//

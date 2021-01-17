@@ -1,0 +1,127 @@
+LOCUS       NC_007965               2557 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Merremia mosaic virus DNA A, complete sequence.
+ACCESSION   NC_007965
+KEYWORDS    RefSeq.
+SOURCE      Merremia mosaic virus
+  ORGANISM  Merremia mosaic virus
+REFERENCE   2  (bases 1 to 2557)
+REFERENCE   3  (bases 1 to 2557)
+REFERENCE   4  (bases 1 to 2557)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF068636.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2557
+                     /organism="Merremia mosaic virus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:77813"
+                     /segment="DNA A"
+                     /country="Puerto Rico"
+                     /note="field isolate"
+     gene            142..888
+                     /gene="AV1"
+                     /locus_tag="MMV_sAgp1"
+                     /db_xref="GeneID:4033438"
+     CDS             142..888
+                     /gene="AV1"
+                     /locus_tag="MMV_sAgp1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_579167.1"
+                     /db_xref="GeneID:4033438"
+                     /translation="MVKRDAPWRLMAGTTKVSRNANFSPRGGMGPKAAAWVNRPMYRK
+                     PRIYRTLRGPDVPKGCEGPCKVQSFEQRHDISHVGKVICISDVTRGNGITHRVGKRFC
+                     VKSVYILGKIWMDENIKLKNHTNSVMFWLIRDRRPYGTPMDFGQVFNMYDNEPSTATV
+                     KNDLRDRFQVMHRFYAKVTGGQYASNEQALVRRFWKVNNYVVYNHQEAGKYENHTENA
+                     LLLYMASTHASNPVYATLKIRSYFYDSISN"
+     gene            complement(885..1283)
+                     /gene="AC3"
+                     /locus_tag="MMV_sAgp2"
+                     /db_xref="GeneID:4033441"
+     CDS             complement(885..1283)
+                     /gene="AC3"
+                     /locus_tag="MMV_sAgp2"
+                     /codon_start=1
+                     /product="AC3"
+                     /protein_id="YP_579168.1"
+                     /db_xref="GeneID:4033441"
+                     /translation="MDSRTGEPITAHQAMNGVFIWEVPNPLYFKIIQVEEPIYTTTRI
+                     YTIQIRFNYNLRKALSLHKAYLNFQIWTTSVQASGTTYLNRFKDLVLMYLDQLGVVSL
+                     NNVIRAVRFATDKPYVNCVLERHSIKFNLY"
+     gene            complement(1030..1461)
+                     /gene="AC2"
+                     /locus_tag="MMV_sAgp3"
+                     /db_xref="GeneID:4033440"
+     CDS             complement(1030..1461)
+                     /gene="AC2"
+                     /locus_tag="MMV_sAgp3"
+                     /codon_start=1
+                     /product="AC2"
+                     /protein_id="YP_579169.1"
+                     /db_xref="GeneID:4033440"
+                     /translation="MKTHLSERGRSTMQNSSSSTPPSIKAQHRRAKRSKSVIRRRRLD
+                     LDCGCSIYVHINCRNHGFTHRGTHHCSSSNEWRFYLGGSKSPLFQDNPSGGANIHHNQ
+                     NIHHPNTVQLQPEEGVESTQSIPELPNLDDISSSFWDDIFK"
+     gene            complement(1346..2422)
+                     /gene="AC1"
+                     /locus_tag="MMV_sAgp4"
+                     /db_xref="GeneID:4033439"
+     CDS             complement(1346..2422)
+                     /gene="AC1"
+                     /locus_tag="MMV_sAgp4"
+                     /codon_start=1
+                     /product="AC1"
+                     /protein_id="YP_579170.1"
+                     /db_xref="GeneID:4033439"
+                     /translation="MPRKGSFSIKAKNYFLTYPICSLAKEEALSQIKALHTPVNKKFI
+                     KICRELHDNGEPHLHVLIQFEGKYNCTNNRFFDLVSPTRSAHFHPNIQGAKSSSDVKS
+                     YIDKDGDTIEWGQFQIDGRSARGGQQSSNDTYAKALNAASAEEALQIIKEEQPQHFFL
+                     QHHNLVANATRIFQKSPEPWVPPFQLSSFTNVPDEMQEWADNYFGRGAAARADRPISI
+                     IIEGDSRTGKTMWARSLGKHNYLSGHLDFNGRVYSNDVEYNVIDDISPNYLKLKHWKE
+                     LIGAQKDWQSNCKYGKPVQTKGGIPSIVLCNPGEGASYKDFLDKDENASLRAWTIHNA
+                     KFIFLNSPLYQSTAQESEEIQICH"
+ORIGIN
+        1 accggatggc cgcccgccgc gccccccctg ggcccacata ttaaagccgt ccaatcacaa
+       61 agcgtcctgg aagtctaatt gtttaaaata agcctataaa tacattggag tccgtctata
+      121 ccccaccaac tttaatttaa aatggttaag agggacgccc catggcgttt aatggcgggg
+      181 accactaaag ttagtcgcaa cgccaatttc tcgccacgtg gaggtatggg ccctaaggcc
+      241 gctgcttggg ttaacaggcc catgtacagg aagcccagaa tttatcgcac tttgagaggg
+      301 cctgatgttc ctaaaggttg tgaaggccca tgtaaggtac agtctttcga gcagcgtcat
+      361 gatatttctc atgttggtaa ggtaatctgt atatccgatg taactcgtgg taacggtatt
+      421 acccaccgtg ttggcaagcg tttttgtgtg aagtctgtgt atattctagg taaaatatgg
+      481 atggatgaga acataaagct gaagaaccac acgaacagcg tcatgttttg gttgattcgt
+      541 gacaggagac cctatggtac ccctatggat tttggtcagg tgtttaacat gtatgacaat
+      601 gagccgagta ctgctaccgt caagaacgat cttcgcgatc gatttcaagt catgcatagg
+      661 ttctatgcca aagtaactgg tggtcagtat gccagtaacg agcaggcatt ggttcggcga
+      721 ttttggaagg ttaacaacta cgtcgtgtat aaccatcagg aagcaggaaa atacgagaat
+      781 cacacggaga atgctctgtt attgtatatg gcatctactc atgcttctaa tcctgtgtat
+      841 gctaccttga aaattcgtag ttatttttat gactccattt cgaattaata aagattaaat
+      901 tttattgaat gtctttcgag cacacaattt acatatggtt tatccgttgc gaaacgaaca
+      961 gctctaatga cattgttaag cgaaacaaca cctaattgat ctaaatacat taaaactaaa
+     1021 tctttaaatc tatttaaata tgtcgtccca gaagcttgaa ctgatgtcgt ccagatttgg
+     1081 aagttcaggt atgctttgtg tagactcaac gccttcctca ggttgtagtt gaaccgtatt
+     1141 tggatggtgt atattctggt tgtggtgtat attggctcct ccacttggat tatcttgaaa
+     1201 tagaggggat ttggaacctc ccagataaaa acgccattca ttgcttgatg agcagtgatg
+     1261 ggttcccctg tgcgtgaatc catggtttct gcagttgatg tgtacgtaaa ttgaacagcc
+     1321 acagtccagg tctaaccttc tccgtctaat gacagatttg gatctcttcg ctctcctgtg
+     1381 ctgtgctttg atagaggggg gagttgagga agatgaattt tgcattgtgg atcgtccacg
+     1441 ctctgagaga tgcgttttca tctttatcga ggaagtcttt atagctagcc ccctctcctg
+     1501 gattgcacag cacgattgag ggtattcctc ctttagtttg aactggcttc ccgtatttac
+     1561 agttggactg ccagtccttt tgggccccta tcaattcttt ccaatgcttt aatttcaaat
+     1621 aattagggct tatgtcatca atgacgttat attcgacgtc attcgaatag actctgccat
+     1681 taaagtcaag atgtccacta agataattat gtttacctaa tgaacgggcc cacattgttt
+     1741 ttccagttcg actatctcct tcgatgatga tacttatcgg tctatctgcc cgcgcagcgg
+     1801 cacccctccc aaagtagttg tctgcccatt cttgcatctc atctggaacg ttcgtgaagg
+     1861 aggagagttg aaacggagga acccatggtt ctggagactt ctgaaatatt cttgttgcgt
+     1921 tcgcaacgag attgtgatgt tgaagaaaga agtgttgtgg ttgttcctcc tttattattt
+     1981 gcagtgcttc ctctgcagaa gctgcgttta acgcctttgc gtatgtatcg ttagaagact
+     2041 gctgacctcc tctagcagat cttccgtcga tctggaattg tccccattca attgtatctc
+     2101 cgtccttgtc gatgtaggac ttgacatcgg agctggattt agctccctga atgttcggat
+     2161 ggaaatgtgc tgacctggtt ggggatacca aatcgaagaa tctgttattc gtgcagttgt
+     2221 attttccttc gaactggata agcacatgaa gatgaggttc cccattatcg tgaagctctc
+     2281 tacagatctt gatgaatttt ttgtttacag gggtgtgcag agctttgatt tgggacagtg
+     2341 cttcttcttt ggctaatgaa catatagggt atgtgaggaa atagtttttg gcttttattg
+     2401 agaatgaacc cttccgtggc atttttgtaa taagggatgt tcccccaatt gctccgctct
+     2461 caaaactcta tatgaatcgg gggaactggg ggtacattta tactagaact ctcattaaag
+     2521 ggatttgcaa cacgtggcgg ccatccgcta taatatt
+//

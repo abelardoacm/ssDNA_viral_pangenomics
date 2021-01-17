@@ -1,0 +1,98 @@
+LOCUS       NC_014381               2607 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Melon chlorotic mosaic virus DNA-B, complete genome.
+ACCESSION   NC_014381
+KEYWORDS    RefSeq.
+SOURCE      Melon chlorotic mosaic virus
+  ORGANISM  Melon chlorotic mosaic virus
+REFERENCE   2  (bases 1 to 2607)
+REFERENCE   3  (bases 1 to 2607)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HM163577.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2607
+                     /organism="Melon chlorotic mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolate="2009-02-04-06"
+                     /host="watermelon"
+                     /db_xref="taxon:180399"
+                     /segment="DNA B"
+                     /country="Venezuela"
+                     /collection_date="2009"
+     gene            480..1250
+                     /locus_tag="MeCMVsB_gp1"
+                     /db_xref="GeneID:9519100"
+     CDS             480..1250
+                     /locus_tag="MeCMVsB_gp1"
+                     /note="nuclear shuttle protein"
+                     /codon_start=1
+                     /product="BV1"
+                     /protein_id="YP_003828909.1"
+                     /db_xref="GeneID:9519100"
+                     /translation="MYAIKNRRVWYSTHRRGYGQRSYNKRTYSGKRTDWKRRPIIPNN
+                     SSDDTRIVSQRIHEDQFGPEFVIPHNTALSTFLTMPSIVKLQPNRSRDYIKLKRLRYK
+                     GTLKIESVNADVNMGCVNSKIDGVFSLVIVIDRKPHLNGSGRLHTFDELFGARIHSHG
+                     NLSIAPAMKERYYIRHVFKRVLSTEKDSLMTDIEGSALLSNRRFSCWSAFNDVDRESC
+                     NGVYANINKNAILIYYCWMSDAITKASTFVSFDLDYCG"
+     gene            complement(1337..2218)
+                     /locus_tag="MeCMVsB_gp2"
+                     /db_xref="GeneID:9519099"
+     CDS             complement(1337..2218)
+                     /locus_tag="MeCMVsB_gp2"
+                     /note="cell to cell movement protein"
+                     /codon_start=1
+                     /product="BC2"
+                     /protein_id="YP_003828910.1"
+                     /db_xref="GeneID:9519099"
+                     /translation="MNSKLADPPNAFNYIESNRDEYQLSHDLTQIVLQFPSTTAQISA
+                     RLTRSCMKIDHCVVEYRQQVPINASGTVIVEIHDKRMTDDQSLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWVLYYRVSDSNVHHGTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKLFSAKDVDFSHVGYGKWERKLVRSMSTCRQGLLGPIDLRPGESWASRSTLGPAQ
+                     SITESDDAEELHPYRELHRLNTPILDPGESASIVGMQRTQSNITLSLSQLNDIVRSTV
+                     QECIKSNCTPNDPKSLN"
+ORIGIN
+        1 actggatggc cgcccgagtt tggtgcctct atccgtactg ccacgtgctt ctccctcatt
+       61 ggtgatatcc cctattggtg ccggcccatc tccttccgtt ggtgcccagg cccaggccca
+      121 aatctttatt taagtttatt gtcgtcctcg tccactatcc tttactgtcg accaatgaga
+      181 attcgttttc agagtcttcg taatgacaac ggctgaccgg agatagtgga gatccttttc
+      241 agccttatgt cagtatcagc tttaaacttt aatttgaaat gcattggcgc atttgttagt
+      301 gcgatagtgg tcccatttat ccgacatatc ctcagtgcgt tctgcagaac gatgacatgg
+      361 accaataaaa tattagatat gaagcttatt agattgacct attctttgcg gatcgttata
+      421 taacgatgtt gttgtcgacg ttttccaaca agactaatat tttaattcag taataaaata
+      481 tgtacgcaat caagaacaga agagtttggt attctacaca tcgtcggggt tatggacaac
+      541 gtagttataa taaacgtaca tattctggta agcgtaccga ttggaaacgc cgtccaatta
+      601 ttcctaataa ttccagcgat gatactagga ttgtttccca acgtatccac gaagatcaat
+      661 ttggaccgga gtttgtgatc ccacataata cggctctatc aacctttttg acaatgccga
+      721 gtattgtgaa acttcaacct aaccgttcta gggattacat taaattaaaa cgactccgtt
+      781 ataaaggtac gcttaagatc gagagtgtta atgctgatgt gaacatgggt tgtgtcaatt
+      841 ctaagattga cggagtgttt tctctggtta ttgtgattga ccgtaaacct catcttaacg
+      901 gatctggacg tctacataca tttgatgaac tatttggcgc aaggattcac agtcatggga
+      961 atctatctat agcaccagca atgaaagagc gttattacat acgacacgtg ttcaagcgcg
+     1021 ttttgtccac tgagaaggac agtttgatga ctgatattga gggaagcgca ttattgtcta
+     1081 ataggcgctt tagttgttgg tctgcgttta atgatgtaga cagagaatca tgtaacggcg
+     1141 tttacgctaa cattaacaag aacgcaattt tgatttatta ctgttggatg tccgatgcta
+     1201 ttacgaaggc atccacattt gtatcgtttg atttggatta ttgtggctga ttaataaaat
+     1261 tgttattcaa taaccgttat catacaacat atattttgga atttacagtg ttgaacacta
+     1321 acatacatga ctcatcttaa tttaaagatt tggggtcatt tggggtacag ttactcttaa
+     1381 tacactcctg cacggttgat cttacgatat catttaactg tgatagtgac agcgttatgt
+     1441 tcgattgcgt cctttgcatt cctactattg atgccgactc tcccgggtct agaatgggcg
+     1501 tgtttaatct atgtagctct ctgtatggat gcaattcctc tgcatcatct gactccgtaa
+     1561 tggattgggc tgggcccaaa gtacttctac tagcccatga ttcaccgggc cttagatcga
+     1621 ttggtccaag aagaccttgc cgacatgttg acattgacct gacgagcttt cgttcccatt
+     1681 taccgtatcc gacgtggctg aaatcgacgt cttttgcgga aaacagtttc gataatatct
+     1741 ttaccgtcgg tgcccggaac ggtatatcaa cggaatgttt cgccgtcgat aatttcagtt
+     1801 ttcccttgaa cttggcgaaa tgcgtaccat gatgaacatt tgagtcgcta actctgtagt
+     1861 acagcaccca tggtattggg tctttcagcg aaaagaaaga agaagagaaa tagtggagat
+     1921 ctatgttgca tctgatcggg aacgtccagg acgcttgtaa ggattgatcg tccgtcatcc
+     1981 gcttgtcgtg gatttcgacg ataaccgttc ccgacgcgtt gatcggcact tgttgcctgt
+     2041 attctacgac gcagtggtcg attttcatac agcttctcgt cagtctagca cttatttgag
+     2101 ccgtggtcga cggaaattgc aacacgattt gggttaaatc atgcgataac tgatattcat
+     2161 cacgattcga ctcgatatag ttaaaggcat taggaggatc agccaattta gaattcatct
+     2221 atttaattag gccccgcagg ggtcgtcaca caggccgcgc agtcgggtcg tttaaattcc
+     2281 gacctctagt tgaacttcga ccagaagaag acgatagtcg tttacggcag agaaatttca
+     2341 gagatgatgg acaggaattt gatttctatt taatgatatc acatccgaga aatttcagag
+     2401 aagatgaaca ttaatttgat ttctacttac cgatatgacc tcatttatag tggaactagg
+     2461 gttttgtggc atattctgta aattggggtg aagacaccag cggagtcctc ttctaaaacc
+     2521 tattgtttat ggtgtcttgg tgtctcatat atactataag tctataaggt tcttaaaggg
+     2581 gtaaaatcgg ccatccacaa taatatt
+//

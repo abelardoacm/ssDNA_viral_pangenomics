@@ -1,0 +1,145 @@
+LOCUS       NC_015627               2601 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Tobacco yellow crinkle virus DNA A, complete genome.
+ACCESSION   NC_015627 NC_011402
+KEYWORDS    RefSeq.
+SOURCE      Tobacco yellow crinkle virus
+  ORGANISM  Tobacco yellow crinkle virus
+REFERENCE   2  (bases 1 to 2601)
+REFERENCE   3  (bases 1 to 2601)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence is identical to
+            FJ213931.
+            On Jun 3, 2011 this sequence version replaced NC_011402.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2601
+                     /organism="Tobacco yellow crinkle virus"
+                     /mol_type="genomic DNA"
+                     /host="Nicotiana tabacum"
+                     /db_xref="taxon:565052"
+                     /segment="DNA A"
+                     /lab_host="Nicotiana benthamiana"
+                     /lab_host="Phaseolus vulgaris"
+                     /country="Cuba"
+                     /collection_date="Jan-2007"
+     gene            164..919
+                     /gene="AV1"
+                     /locus_tag="TYCV_sAgp1"
+                     /db_xref="GeneID:10748595"
+     CDS             164..919
+                     /gene="AV1"
+                     /locus_tag="TYCV_sAgp1"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_004564601.1"
+                     /db_xref="GeneID:10748595"
+                     /translation="MPKRDAPWRSMAGTSKVSRNANYSPRTAMGPKFDKAAAWVNRPM
+                     YRKPRIYRTLRSPDVPRGCEGPCKVQSYEQRHDISHVGKVMCISDVTRGNGITHRVGK
+                     RFCVKSVYILGKIWMDENIKLKNHTNSVMFWLVRDRRPYGTPQDFGQVFNMFDNEPST
+                     ATVKNDLRDRYQVMHKFYAKVTGGQYASNEQALVKRFWKVNNYVVYNHQEAGKYENHT
+                     ENALLLYMACTHASNPVYATLKIRIYFYDSILN"
+     gene            complement(916..1314)
+                     /gene="AC3"
+                     /locus_tag="TYCV_sAgp2"
+                     /db_xref="GeneID:10748591"
+     CDS             complement(916..1314)
+                     /gene="AC3"
+                     /locus_tag="TYCV_sAgp2"
+                     /codon_start=1
+                     /product="replication enhancement protein"
+                     /protein_id="YP_004564602.1"
+                     /db_xref="GeneID:10748591"
+                     /translation="MDSRTGESITAAQAENSVFIWETPNPLYFKIHHVENPLYTRTRI
+                     YHIEVRFNYNLRKALGLHKAFFNFQVWTTSMTASGQRYLSRFKLLVMSYLDSLGVIGI
+                     NNVIRAVRFATDKSYVTDVLENHEIKFKIY"
+     gene            complement(1061..1450)
+                     /gene="AC2"
+                     /locus_tag="TYCV_sAgp3"
+                     /db_xref="GeneID:10748592"
+     CDS             complement(1061..1450)
+                     /gene="AC2"
+                     /locus_tag="TYCV_sAgp3"
+                     /codon_start=1
+                     /product="transactivator protein"
+                     /protein_id="YP_004564603.1"
+                     /db_xref="GeneID:10748592"
+                     /translation="MLNSSPLKPPSIKAQHRIAKKRAVRRRRIDLNCGCSIFLHINCA
+                     DNGFTHRGEHHCGSGREFRFYLGDSKSPLFQDTPRREPVVHENQDLPHRSPVQLQPSE
+                     SVGSPQSLLQFPSLDDFDDSFWAEIFK"
+     gene            complement(1392..2447)
+                     /gene="AC1"
+                     /locus_tag="TYCV_sAgp4"
+                     /db_xref="GeneID:10748593"
+     CDS             complement(1392..2447)
+                     /gene="AC1"
+                     /locus_tag="TYCV_sAgp4"
+                     /codon_start=1
+                     /product="replication associated protein"
+                     /protein_id="YP_004564604.1"
+                     /db_xref="GeneID:10748593"
+                     /translation="MPSVKRFRINAKNYFITYPKCSLTKEDALSQLQNLNTPVNKKFI
+                     KVCRELHENGEPHLHVLIQFEGKYTCTNNRFFDLVSPTRSAHFHPNIQGAKSSSDVKS
+                     YIDKDGDTLQWGDFQIDGRSARGGCQSTNDTYAKALNASSAEEALMIIKEEQPQHFFL
+                     QHHNLVANAHRIFQKAPEPWVPPFQLSSFTNVPDEMSSWADEYFGRSSAARPERPISI
+                     IIEGDSRTGKTMWARALGPHNYLSGHLDFNSKVFSNDVEYNVIDDIAPHYLKLKHWKE
+                     LIGAQRDWQSNCKYGKPVQIKGGIPSIVLCNPGEGSSYKCFLDKEENAPLRAWTIKNA
+                     KFITLEAPLYQSTAQDC"
+     gene            complement(2033..2290)
+                     /gene="AC4"
+                     /locus_tag="TYCV_sAgp5"
+                     /db_xref="GeneID:10748594"
+     CDS             complement(2033..2290)
+                     /gene="AC4"
+                     /locus_tag="TYCV_sAgp5"
+                     /codon_start=1
+                     /product="AC4 protein"
+                     /protein_id="YP_004564605.1"
+                     /db_xref="GeneID:10748594"
+                     /translation="MGSLISMCSYNSKGNIHARITDSSTWSPQPGQHISIRTYRELNL
+                     APTSSPTSTRTEIHCNGEISRSTAEVLEEAANLLTIHMPRR"
+ORIGIN
+        1 accggatggc cgcgcgcccc ctagtcctac gtgggaccac gcataaaatg aaatttgaaa
+       61 caaccaatca catgccgcct gacaaggtta gatattatga cttggtgacc aagttgtggg
+      121 cctatataac gttatgagat ttcattttat gctttaattc gaaatgccta agcgggatgc
+      181 cccgtggcgt tctatggccg ggacctctaa ggtgtcccgc aatgccaact attcaccccg
+      241 tacagctatg ggccctaaat ttgataaggc cgctgcttgg gttaataggc ccatgtacag
+      301 gaagcccagg atttatcgga cgttgagaag cccagatgtt ccaagaggct gtgaagggcc
+      361 ttgcaaagtc cagtcttatg agcagcggca tgatatttca catgttggca aggtgatgtg
+      421 tatttcggac gtgacacgtg gtaatggtat tacccatcgt gttggcaagc gtttttgcgt
+      481 gaagtccgtg tacattttgg gcaagatatg gatggacgag aatatcaagc tcaagaacca
+      541 taccaacagc gtcatgtttt ggttggtcag agacaggaga ccatatggca cccctcagga
+      601 ttttggccaa gtgttcaaca tgttcgacaa cgagcccagt actgctactg tgaagaacga
+      661 tcttcgtgat cgttatcaag tcatgcacaa gttctacgca aaggttacag gtggacagta
+      721 tgcgagtaac gagcaggcgt tagtgaagcg tttctggaag gtgaacaatt acgtggtgta
+      781 caaccaccaa gaagcaggca aatacgagaa tcatacggag aacgctttgt tattgtatat
+      841 ggcatgtact catgcctcta atcccgtgta tgcgacattg aaaattcgga tctattttta
+      901 tgattcgata ttaaattaat aaattttgaa ttttatttca tgattctcaa gtacatcagt
+      961 tacatacgat ttgtctgttg cgaaacgaac agctctaatt acattgttta taccaataac
+     1021 gcctaaacta tctaaataag acattacaag taatttgaat ctacttaaat atctctgccc
+     1081 agaagctgtc atcgaagtcg tccaaacttg gaaattgaag aaggctttgt ggagacccaa
+     1141 cgctttccga aggttgtaat tgaaccggac ttcgatgtgg tagatcctgg ttctcgtgta
+     1201 caacgggttc tctacgtggt gtatcttgaa ataaagggga tttggagtct cccagataaa
+     1261 aacggaattc tctgcctgag ccgcagtgat gctctccccg gtgcgtgaat ccattatctg
+     1321 cgcagttgat gtggaggaag atagaacacc cgcagttcaa atcaatgcgt cgtcgacgaa
+     1381 cagctctttt tttagcaatc ctgtgctgtg ctttgataga ggggggcttc aagggtgatg
+     1441 aatttagcat ttttaatagt ccacgctctt agtggtgcat tttcctcttt gtcgaggaaa
+     1501 catttataac tgctcccctc tcctggattg cacagcacga ttgatggtat gccaccttta
+     1561 atttgaactg gcttgccgta cttacagttt gattgccagt ccctttgggc ccctatgagt
+     1621 tctttccagt gctttagctt taaataatgc ggagcaatgt catcaatgac gttatactcc
+     1681 acatcattcg agaagacctt ggaattgaag tcgaggtgac cactcaaata attatgtggg
+     1741 cctaaagcac gcgcccacat ggttttgcct gttcgagaat caccttcaat tatgatacta
+     1801 ataggtctct ccggccgcgc agcggaactc cgaccaaaat actcatcggc ccatgaactc
+     1861 atctcgtctg gaacgttagt aaaggaggag agttgaaacg gaggaaccca tggttccgga
+     1921 gccttctgaa aaatccgatg agcattggca accaaattat gatgttgaag gaaaaaatgt
+     1981 tgaggctgct cttctttgat tatcatcagt gcctcttctg cagaagaggc atttaacgcc
+     2041 ttggcatatg tatcgttagt agattggcag cctcctctag cacttctgcc gtcgatctgg
+     2101 aaatctcccc attgcagtgt atctccgtcc ttgtcgatgt aggacttgac gtcggagcta
+     2161 gatttagctc cctgtatgtt cggatggaaa tgtgctgacc tggttgggga gaccaggtcg
+     2221 aagaatctgt tattcgtgca tgtatatttc ccttcgaatt gtatgagcac atggagatga
+     2281 ggctccccat tctcgtgaag ctctctgcac accttgataa acttcttgtt aacgggtgtg
+     2341 tttaggtttt gtaattggga aagtgcgtct tctttggtga gagagcactt gggataagtg
+     2401 atgaaatagt ttttggcatt tattctaaaa cgtttaactg atggcatttt tgtaatataa
+     2461 acgatgtcac cgaagggtgt caccgattcg gctctctcaa acttgctcat gcaatcggtg
+     2521 aaagagtgac aatatatact agaaccctca atagaacttt caatcgtgtt cgcacacgtg
+     2581 gcggccatcc gctataatat t
+//

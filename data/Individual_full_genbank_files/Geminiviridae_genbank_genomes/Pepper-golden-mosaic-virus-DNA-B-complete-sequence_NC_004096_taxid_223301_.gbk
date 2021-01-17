@@ -1,0 +1,101 @@
+LOCUS       NC_004096               2595 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Pepper golden mosaic virus DNA B, complete sequence.
+ACCESSION   NC_004096
+KEYWORDS    RefSeq.
+SOURCE      Pepper golden mosaic virus (SGMV)
+  ORGANISM  Pepper golden mosaic virus
+REFERENCE   2  (bases 1 to 2595)
+REFERENCE   3  (bases 1 to 2595)
+REFERENCE   4  (bases 1 to 2595)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AF499442.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2595
+                     /organism="Pepper golden mosaic virus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:223301"
+                     /segment="DNA B"
+     gene            400..1170
+                     /gene="BR1"
+                     /locus_tag="PgmvsBgp1"
+                     /db_xref="GeneID:988137"
+     CDS             400..1170
+                     /gene="BR1"
+                     /locus_tag="PgmvsBgp1"
+                     /note="BR 1 protein"
+                     /codon_start=1
+                     /product="nuclear shuttle"
+                     /protein_id="NP_671456.1"
+                     /db_xref="GeneID:988137"
+                     /translation="MYQSRYTRVAPYVQRRFQRRNQVFKRTVSGRRNDVKRRSSQLIK
+                     SNEEPKITSQRIHENQYGPEFVMAHNAAISTFINYPVLGKTQPNRSRSYIKLKRLSFK
+                     GTVKIERVHADVNMDGVCPKIEGVFSLVIVVDRKPHLSSSGVLHTFDEVFGARIHSHG
+                     NLAITTSLKDRYYVRHVLKRVLSVEKDTVMVDIEGCTSLSNKRFNCWSTFKDLEHDTC
+                     NGVYANISKNAILVYYCWMSDVMSKASTFVSYDLEYVG"
+     gene            complement(1227..2096)
+                     /gene="BL1"
+                     /locus_tag="PgmvsBgp2"
+                     /db_xref="GeneID:988138"
+     CDS             complement(1227..2096)
+                     /gene="BL1"
+                     /locus_tag="PgmvsBgp2"
+                     /note="BL 1 protein; involved in cell-to-cell viral
+                     movement"
+                     /codon_start=1
+                     /product="viral movement protein"
+                     /protein_id="NP_671457.1"
+                     /db_xref="GeneID:988138"
+                     /translation="MEAGLASAPSAFNYLESHRDEYQLSHDLTEIVLQFPSTASQLTA
+                     RLSRSCMKIDHCVIEYRQQVPINASGSVIVEIHDQRMTDNESLQASWTFPIRCNIDLH
+                     YFSSSFFSLKDPIPWRLYYRVSDTNVHQRTHFAKFKGKLKLSTAKHSVDIPFRAPTVK
+                     ILSKQFSHNDVDFSHVDYGQWERKVLRSNSMSRVGLTGPIELRPGESWASRSTVGTSS
+                     PSRDSKMHPYRELHQLGPSVLDPGDSASQVGLQRAHSNITMSMAQLNELVRTTVHECI
+                     SNNCNPAQPKSLQ"
+ORIGIN
+        1 actggatggc cgcgattttt tggagtcctg ccagcctgtc ccccactatc tttgtgactc
+       61 caggcacatt tcccaaagca tgggcccaca atgtcccatc acccgggacc actacaactg
+      121 aaggctgttc tttttttgga gatcaatcag gaccgttggc taaaccttat cgcgcccgtt
+      181 cttttgaaat ttgaattatt ggcgcgatta ccaataaatg gaccatgtgt ataactgggt
+      241 cgatgttgac agatttgtat ttgagcagta catggtccag taaaaactca agtgtagagt
+      301 tatgtaattt gaaatgataa tcgtgttgac tatataatgg acttgagttt tgatacatga
+      361 aatcgtcagt taaggattaa agatatacat cgttctaata tgtatcagtc aaggtataca
+      421 cgtgtggcac cctatgtgca gagacgattt caacgacgta atcaagtgtt taagcgcaca
+      481 gtatcaggga gacgtaatga cgttaaacgt cgatcaagtc aattaattaa gagtaatgag
+      541 gaacctaaga ttacgtcgca gcgcatacat gaaaaccaat atggccctga gttcgttatg
+      601 gcgcataatg cagctatttc cacgttcatt aattatcctg tacttggtaa gactcaacct
+      661 aatcgaagca ggtcgtatat taagcttaaa cgtttatcgt ttaagggaac cgttaagatt
+      721 gaacgtgtgc atgctgacgt gaacatggac ggggtctgtc ctaaaattga aggcgtcttc
+      781 tcactggtta ttgtggttga tcgtaaacca catttaagtt cgtctggggt gttgcataca
+      841 tttgatgaag tattcggtgc aagaatccac agccatggga acttagccat tacaacatct
+      901 ttgaaagatc ggtattacgt ccggcatgta ttgaagcgcg tattgtcagt tgagaaggac
+      961 actgtcatgg tagatatcga aggatgcaca tccctttcta acaagcgctt caactgctgg
+     1021 tctacattta aggatttaga acatgacaca tgtaacggtg tttatgcgaa tataagcaag
+     1081 aatgccatat tagtttacta ttgctggatg tcggatgtca tgtctaaagc atccacattt
+     1141 gtatcatatg acctagaata tgtagggtga atccataata aaatatgtaa atatattgga
+     1201 caagtaattg actgatacaa atgtatttat tgcaaagact tcggctgtgc cgggttacaa
+     1261 ttgttactaa tacattcgtg aaccgtagtc ctaacaagtt cgttcaattg ggccattgac
+     1321 attgttatat tggagtgggc tctttgtaga ccaacctgtg atgcggaatc acctgggtct
+     1381 aatacgcttg ggcccaattg atgaagctct ctataggggt gcatcttcga atcccttgaa
+     1441 ggactacttg tacccacggt gctcctggaa gcccatgact cacctggcct caattcaatt
+     1501 gggcctgtaa gcccaaccct tgacattgaa ttggaccgta agactttgcg ctcccactgg
+     1561 ccatagtcca catgggagaa gtccacatcg ttatgggaga attgtttaga tagtattttg
+     1621 acagtgggag cccggaatgg tatatctacc gagtgcttag ctgttgagag ttttagcttg
+     1681 cctttgaact tggcaaaatg agtcctttga tgtacatttg tgtcggacac tcggtagtat
+     1741 aatctccatg gaatggggtc cttcagtgaa aagaatgacg acgagaagta atgtaggtct
+     1801 atgttgcatc gtattggaaa tgtccaagat gcttgtaatg actcgttatc cgtcattctt
+     1861 tggtcatgaa tctccacaat gaccgaccca gaggcgttaa tcggaacctg ctgtctatat
+     1921 tctatgacgc agtggtcaat tttcatacag ctgcgactta gtcgtgccgt tagctgtgat
+     1981 gccgtggaag gaaactgaag gactatctcm gtcagatcat gcgacagctg gtattcatct
+     2041 ctatgagatt caagataatt aaaggcgcta ggagcactcg ccaaccccgc ttccatatct
+     2101 gaaaatatgc cgcagcagaa gtgtttcgcg canaagagga tgttgctatc acggntttat
+     2161 atacaggtgc ggcattaaca aggcaaaaca cttgtaccgg ttgttgctga agttctgtca
+     2221 aagaattaaa gaattggtaa aggaagtctg tgggagcagc ttagtaatat gggaagctat
+     2281 ggcaacaacc aacaaagctc aaactgatat gaagaggatc agaattttgg atatggcgat
+     2341 acaagttgtt tattagagaa actgcaatga gatgtcctct gagtaaggga ttatatagag
+     2401 ataacatccg aacgtacgct taagaattgt ttgaactagt tgagaagaat ggcaaatatg
+     2461 taaatatggt ataggactcc agcggagtcc ctcaactcct gtcatatatt gtggagtcct
+     2521 ggagtccctt atatacataa agcctctagg actctaaagg acaggtgccc taatcgcggc
+     2581 catccatata atatt
+//

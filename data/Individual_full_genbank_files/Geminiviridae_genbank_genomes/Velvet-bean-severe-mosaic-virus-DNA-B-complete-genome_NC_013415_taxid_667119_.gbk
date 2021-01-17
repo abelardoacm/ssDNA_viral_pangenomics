@@ -1,0 +1,109 @@
+LOCUS       NC_013415               2657 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Velvet bean severe mosaic virus DNA B, complete genome.
+ACCESSION   NC_013415
+KEYWORDS    RefSeq; complete genome.
+SOURCE      Velvet bean severe mosaic virus
+  ORGANISM  Velvet bean severe mosaic virus
+REFERENCE   2  (bases 1 to 2657)
+REFERENCE   3  (bases 1 to 2657)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to FN543426.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2657
+                     /organism="Velvet bean severe mosaic virus"
+                     /mol_type="genomic DNA"
+                     /isolation_source="host leaf"
+                     /host="Macuna spp."
+                     /db_xref="taxon:667119"
+                     /segment="DNA B"
+                     /country="India:Uttar Pradesh, Lucknow"
+                     /collected_by="M. Zaim"
+                     /identified_by="Yogesh Kumar and M. Zaim"
+     gene            419..1192
+                     /gene="BV1"
+                     /locus_tag="VBSMVsB_gp1"
+                     /db_xref="GeneID:8527502"
+     CDS             419..1192
+                     /gene="BV1"
+                     /locus_tag="VBSMVsB_gp1"
+                     /codon_start=1
+                     /product="BV1 protein"
+                     /protein_id="YP_003254642.1"
+                     /db_xref="GOA:C9YHF4"
+                     /db_xref="InterPro:IPR000263"
+                     /db_xref="InterPro:IPR001530"
+                     /db_xref="UniProtKB/TrEMBL:C9YHF4"
+                     /db_xref="GeneID:8527502"
+                     /translation="MKMLYTPRSNWRSPFRRNTSNRRNVRRTNSATRFNIKVARRLSY
+                     GRVERPLQFGKLCEKHHGVHMSLCSNRDVTSFISYPALSLNGDGRSRDFIKLLSLNIS
+                     GVLSARVVSSDQPMDNDVYRRGLFVISIILDRKPYVPDGANELPSFEELFGQYSEAYV
+                     NMRLLSSRQDRFRLLGTIKKNINCDSGAADVNIGKFIRFVQGRRTLWSRFKDPEPPLD
+                     SGGNYRNISTNAILINYAFVSMQSITVNPLVQYELNYVG"
+     gene            complement(1215..2111)
+                     /gene="BC1"
+                     /locus_tag="VBSMVsB_gp2"
+                     /db_xref="GeneID:8527501"
+     CDS             complement(1215..2111)
+                     /gene="BC1"
+                     /locus_tag="VBSMVsB_gp2"
+                     /codon_start=1
+                     /product="BC1 protein"
+                     /protein_id="YP_003254643.1"
+                     /db_xref="GOA:C9YHF5"
+                     /db_xref="InterPro:IPR000211"
+                     /db_xref="UniProtKB/TrEMBL:C9YHF5"
+                     /db_xref="GeneID:8527501"
+                     /translation="MDNYTGVVATSNYIESKRCEYKLTNDDTEIALQFPTFLEQKMVK
+                     LMGKCMKIDHVVIEYRNQVPFNATGTVVVTILDKRLCDDEAAQAAFTFPIGCNVDLHY
+                     FSSSFFSVKDTSPWQLVYKVEDSNVIQDTMFAQIMARLKLSTAKHSTDIRFKPPRVKI
+                     LSKDFTPECVDFWSVGRPKPVRRLLNPNPVSSRQDNPINRPIMLQPGETWATKSQISR
+                     SASMRYSPTCNLGLELKPSSSEADFPLKHLHQLPEASLDPGDSVSQTNNSSISRKEIE
+                     EIIESTVNKCLVSQKSNANKKL"
+ORIGIN
+        1 acctgaggac ccgcgccggt gtctcgtgct cttaatgtgg tcccgctcgt gacgtggtgc
+       61 tctcttgttg ctcgctgaag cgttttatat tgttttcgta aataatggcg cttaaatgcg
+      121 ccccatgtgc gtctacgcct ttaatttgaa acctcatata atattttctt ccgaaaatac
+      181 cactggagtc agcaaacgac ctttatatgc gaatgccatt tttgtgtaat aattgcaacc
+      241 tgagcggaca ttttggatat tacacatatt tcatcaaccg gcaacgttga tatccggtta
+      301 agtgtttact aaatgtcgtc gtttgctcat tcgctctata acattttcct atgctataaa
+      361 ttaaatcatt ttatggtttg ttctatatgt ctttcaaaga ccgtttgtgt aacactagat
+      421 gaaaatgtta tatactcctc gctctaattg gcgaagtcca ttccgaagaa atacatcaaa
+      481 tcgtcgaaat gttcgtcgta cgaactcagc tactcggttt aatatcaagg tggcgaggag
+      541 attaagttat ggaagagttg aacgaccgct tcaatttgga aaactatgtg aaaaacatca
+      601 cggtgttcat atgtctcttt gtagtaaccg tgatgttact tcgtttatta gttacccagc
+      661 tctatcttta aacggagatg gtcgctcaag agattttatt aaattattga gtcttaatat
+      721 atcaggcgtg ttaagcgcta gggttgtatc ttctgatcaa ccaatggata atgacgttta
+      781 tcgtcgaggt ttatttgtta ttagtattat tttagaccgg aaaccatatg ttcctgatgg
+      841 tgcaaatgag cttccgtcat ttgaagagtt atttgggcaa tattcagaag cttacgttaa
+      901 tatgcgacta ttgtctagtc gccaagatcg tttccgttta ttaggaacta ttaagaaaaa
+      961 tataaattgc gactccggag cagctgatgt taatattggg aagtttatac ggtttgttca
+     1021 aggtcgtcgc acactatggt caaggtttaa ggaccctgaa cccccgttgg attccggagg
+     1081 caattatcgc aatatttcaa caaatgcaat cctaataaat tatgcatttg tttctatgca
+     1141 gtcaattacc gtcaatcccc ttgtacaata tgaattaaat tatgtgggat aatttacgat
+     1201 caataataaa gaaattataa tttcttattt gcatttgatt tctgtgatac aaggcatttg
+     1261 tttacagttg attcaataat ttcttcaatt tcctttctac taattgaaga attatttgtt
+     1321 tgcgacacgg agtcgcctgg gtctagtgac gcttcaggaa gttggtgtaa atgtttaagt
+     1381 ggaaaatccg cctccgatga actgggtttc agttctaggc ccaaattaca tgttgggcta
+     1441 tagcgcatag aggcgcttct tgaaatctgt gatttagtgg cccatgtttc gccaggttgt
+     1501 aacataatgg gcctattgat cgggttatcc tgcctactgc taactggatt ggggtttagc
+     1561 aatcttctaa cgggttttgg tcttccgact gaccaaaaat caacacattc aggtgtgaaa
+     1621 tcctttgata ggattttcac tcttggcggt ttaaaccgaa tatccgtcga atgtttcgcg
+     1681 gttgataatt ttaatctcgc cataatctgg gcgaacatcg tgtcttgtat gacatttgag
+     1741 tcttctacct tgtatactaa ttgccaaggg gatgtatcct taactgaaaa gaaagatgat
+     1801 gaaaaataat gtagatcaac attacaacca attggaaatg taaacgcagc ttgtgctgct
+     1861 tcatcgtcgc ataatcgttt gtctaaaatg gtcacaacga ctgtgccagt ggcattgaac
+     1921 ggaacttggt tcctatattc gatcactaca tgatcgattt tcatgcattt gcccatcagt
+     1981 ttgaccattt tctgttctaa gaaggttgga aactggagag ctatttcagt atcgtcattg
+     2041 gtcagtttat actcgcatcg ctttgattcg atatagttgc ttgtagcaac aactcctgtg
+     2101 taattatcca ttactatttg cctcctggaa gatttgcgat gcgacacaag aaatctggaa
+     2161 agaacacatt ccttatatta ataatttatc ataatctggc cgcgccagcg gcactaatgc
+     2221 ttaattgatt cgataattaa gccaacatgc gatagactat atgcgaaagc caacataatt
+     2281 atgagaataa ttaaattaat gggtatttaa aaacaagggg aaatttaata gtcatacctt
+     2341 ggtgctggaa atattaaaac tcgaatagtt taatttaaca atgattctct atttatatat
+     2401 attcgcaaca aatggagacc gtttatgtat acttatttgt cgtaatataa ataacaaata
+     2461 ataaacggtg tgtgtggttt cattcacacc aaggactcca attcgagagc ttctctctct
+     2521 aaaattcgct tgcggaagcg tttctctctc tagcgaatcg gtgtacaccg attgccttat
+     2581 agagcctgtt attggtgtat tagagtctca tatataggta tcccttaagc cccctctcgg
+     2641 gtcctcagta taatatt
+//
