@@ -198,7 +198,19 @@ Rscript 5a_NbClust.r Geminiviridae 1 10
 
 The outputs for this script are:
 - [**family_distances_pplot.tiff**](../results/Clustering_graphics). A linear point plot of the genomes colored by cluster and sorted in ascending order according to their total average value of paired distances (_y_ axis). Located in [results/Clustering_graphics](results/Clustering_graphics).
+
+<p align="center">
+  <img width="1000" height="1500" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClustspplot1.png">
+</p>
+
+
 - [**family_PCA_clusters.tiff**](../results/Clustering_graphics). A PCA plot of the genomes of the family colored by cluster and ellipses of 95% of the concentration ellipse in normal probability.Located in [results/Clustering_graphics](results/Clustering_graphics)
+
+<p align="center">
+  <img width="1000" height="1500" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClusts1.png">
+</p>
+
+
 - [**family_distance_matrix.csv**](../results/Distance_Matrices). csv file containing the paired euclidean distance matrix of members within a family. Located in [results/Distance_Matrices](../results/Distance_Matrices)
 - [**Geminiviridae_membership_vectors.csv**](../results/NbClust_membership_vectors). csv file containing the membership vectors from the different partition methods implemented by NbClust. Located in [results/NbClust_membership_vectors](../results/NbClust_membership_vectors)
 
