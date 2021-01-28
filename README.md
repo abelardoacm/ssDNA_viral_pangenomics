@@ -86,13 +86,11 @@ After cloning the repo, everything you need to get started are concatenated full
 
 This folder should contain direct downloads from NCBI refseq. 
 
-Viral sequences can be searched family by family with the following general query:
+Viral sequences can be searched family by family as follows, with the general query:
 
 ``` 
 Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Organism] NOT AC_000001:AC_999999[pacc]
 ```
-
-Results from queries are downloaded in Genbank(full) format as follows:
 
 ![](Downloadgb.gif)
 
