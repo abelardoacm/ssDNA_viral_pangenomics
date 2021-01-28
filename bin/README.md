@@ -1,3 +1,7 @@
+# Bin navigation details
+
+In this file you'll find details of the individual steps, what the scripts are doing and their inputs and outputs so you know how each folder is generated. Sections correspond to the [repo navigation guide workflow image](../README.md).
+
 ## From raw to filtered database
 
 ### **Raw_database**
