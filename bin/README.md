@@ -119,7 +119,7 @@ After concatenation the number of files reduced to 538
 and so on...
 
 ```
-The concatenated files are moved to the corresponding folders within their file types, labeled with the word **concatenated** in the name. For example: [Geminiviridae_concatenated_fasta_genomes](../data/Genomic_fasta_files/Geminiviridae_concatenated_fasta_genomes), [Geminiviridae_concatenated_fasta_proteomes](../data/Genomic_fasta_files/Geminiviridae_concatenated_fasta_proteomes), and [Geminiviridae_concatenated_genbank_genomes](../data/Genomic_fasta_files/Geminiviridae_concatenated_genbank_genomes). 
+The concatenated files are moved to the corresponding folders within their file types, labeled with the word **concatenated** in the name. For example: [Geminiviridae_concatenated_fasta_genomes](../data/Genomic_fasta_files/Geminiviridae_concatenated_fasta_genomes), [Geminiviridae_concatenated_fasta_proteomes](../data/Proteomic_fasta_files/Geminiviridae_concatenated_fasta_proteomes), and [Geminiviridae_concatenated_genbank_genomes](../data/Individual_full_genbank_files/Geminiviridae_concatenated_genbank_genomes). 
 
 ### **\*\_catfiltered\_\* folders**
 
