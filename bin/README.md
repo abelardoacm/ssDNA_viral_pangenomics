@@ -169,7 +169,7 @@ This folder contains the output of [4\_Vectors\_CPFSCC.sh](4_Vectors_CPFSCC.sh),
 ``` 
 ./4_Vectors_CPFSCC.sh Geminiviridae
 ```
-It will generate the central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of Geminiviridae genomes. Output family\_CPFSCC\_vectors.txt containing all 28-dimension vectors of the family genomes is automatically deposited into [results\/Central\_moments\_and\_covariance\_vectors\_CPFSCC\/](../results/Central_moments_and_covariance_vectors_CPFSCC/). Aditionally, the final input for matlab script can be viewed in [data/AF\_methods\_input/](../data/AF_methods_input).
+It will generate the central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of Geminiviridae genomes. Output family\_CPFSCC\_vectors.txt containing all 28-dimension vectors of the family genomes is automatically deposited into [results\/CPFSCC\vectors](../results/CPFSCC_vectors). Aditionally, the final input for matlab script can be viewed in [data/AF\_methods\_input/](../data/AF_methods_input).
 
 ### **results/Distance_Matrices**
 
