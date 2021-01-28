@@ -1,7 +1,7 @@
 #ABriefRepoHistory.md
 
 #### These are the conclusions and summary of the objectives achieved ssDNA_viral_pangenomics
-#### ...like good stories it is a trilogy.
+#### ...like goodol stories it is a trilogy.
 
 ### In the shadows
 
