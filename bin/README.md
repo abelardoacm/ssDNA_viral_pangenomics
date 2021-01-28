@@ -169,13 +169,13 @@ This folder contains the output of [4\_Vectors\_CPFSCC.sh](4_Vectors_CPFSCC.sh),
 ``` 
 ./4_Vectors_CPFSCC.sh Geminiviridae
 ```
-It will generate the central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of Geminiviridae genomes. Output family\_CPFSCC\_vectors.txt containing all 28-dimension vectors of the family genomes is automatically deposited into [results\/CPFSCC\vectors](../results/CPFSCC_vectors). Aditionally, the final input for matlab script can be viewed in [data/AF\_methods\_input/](../data/AF_methods_input).
+It will generate the central moments and covariance vectors of cumulative Fourier Transform power and phase spectra of Geminiviridae genomes. Output family\_CPFSCC\_vectors.txt containing all 28-dimension vectors of the family genomes is automatically deposited into [results\/CPFSCC\_vectors](../results/CPFSCC_vectors). Aditionally, the final input for matlab script can be viewed in [data/AF\_methods\_input/](../data/AF_methods_input).
 
 ### **results/Distance_Matrices**
 
 As stated by the authors of the cumulative Fourier Transform power and phase spectra method (Pei _et al_. 2019), the usual step following vectors computation is the estimation of pairwise distances, commonly euclidean distances.
 
-Euclidean distance matrices are implemented at this point in ourk workflow, however they are saved to an output by a script until the following step. If you wish to obtain the distance matrix of a family, from the [output](../results/Central_moments_and_covariance_vectors_CPFSCC/) of [4\_Vectors\_CPFSCC.sh](bin/4_Vectors_CPFSCC.sh), the following lines of R code can be executed:
+Euclidean distance matrices are implemented at this point in ourk workflow, however they are saved to an output by a script until the following step. If you wish to obtain the distance matrix of a family, from the [output](../results/CPFSCC_vectors) of [4\_Vectors\_CPFSCC.sh](4_Vectors_CPFSCC.sh), the following lines of R code can be executed:
 
 ```
 #input (cpfscc vectors of a family)
@@ -206,7 +206,7 @@ The outputs for this script are:
 
 Based on linear point and PCA plots of a family, you can choose whether or not to perform a sample reduction based on the distances, and an arbitrary cutoff percentage.
 
-The script [**5b_Sample_reduction.r**](bin/5b_Sample_reduction.r) fulfills this task, and can be used from bash terminal as follows:
+The script [**5b_Sample_reduction.r**](5b_Sample_reduction.r) fulfills this task, and can be used from bash terminal as follows:
 ```
 Rscript 5b_Sample_reduction.r Geminiviridae 10
 ```
