@@ -159,7 +159,7 @@ Maximum number of clusters allowed: 15
 
 Number of clusters found for Monodnaviria genomes: 3
 ```
-The package NbClust (which I've to admit to don't fully understand), estimates 6 different indices and 6 possible scenarios for clustering an input. I coupled the Af-output to be this input, and also programmed a consensus function in R that recover the most popular purpose. This PCA shows the most popular purposes for clustering Monodnaviria:
+The package NbClust (which I've to admit to don't fully understand), estimates 6 different indices and 6 possible scenarios for clustering an input. I coupled the Af-output to be this input, and also programmed a consensus function in R that recover the most popular purpose. This PCA shows the most popular purposes for clustering Monodnaviria, it was automatically performed with [5a_NbClust.r](bin/5a_NbClust.r):
 
 ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/mono.png)
 
