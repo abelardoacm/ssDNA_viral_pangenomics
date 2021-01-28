@@ -175,7 +175,7 @@ And a graph to show pangenomic core estimation decrease as more files are incorp
 
 As you can see, **pangenomic core exist**, at the least there's evidence to look for remote homologs and trace the origin of this family !!!, probably to celullar escaped proteins... but that's the second trilogy of my research
 
-## Conclussions
+## Conclusions
 
 The impact of taking my analysis to a structure that favors reproducibility is huge. The fact that my work can be shared is good not only for other members of my laboratory (who should adopt these practices too), but also for me. I can interrupt my work and a future myself will not have so much trouble to resume. My project is now even portable, I can wokr from other sites and move forward with much more fluidity. For my next results report to my committee, it will not only be some lucky families that make it to the latest analysis, today it may be 15 ssDNAs or more. The implemented graphs surely will be part of my results to report and they are already much better than the ones I did previously almost by hand. I found the ggplot package quite attractive and useful to implement and I generate cool graphs.
 
