@@ -200,14 +200,14 @@ The outputs for this script are:
 - [**family_distances_pplot.tiff**](../results/Clustering_graphics). A linear point plot of the genomes colored by cluster and sorted in ascending order according to their total average value of paired distances (_y_ axis). Located in [results/Clustering_graphics](results/Clustering_graphics).
 
 <p align="center">
-  <img width="1000" height="750" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClustspplot1.png">
+  <img width="1000" height="650" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClustspplot1.png">
 </p>
 
 
 - [**family_PCA_clusters.tiff**](../results/Clustering_graphics). A PCA plot of the genomes of the family colored by cluster and ellipses of 95% of the concentration ellipse in normal probability.Located in [results/Clustering_graphics](results/Clustering_graphics)
 
 <p align="center">
-  <img width="1000" height="750" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClusts1.png">
+  <img width="1000" height="650" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClusts1.png">
 </p>
 
 
@@ -226,6 +226,17 @@ Rscript 5b_Sample_reduction.r Geminiviridae 10
 
 A second version of PCA and distances point plots will be saved along with the previous ones, labeled as **"after_sr_by_xx_percent"**. 
 
+These are after 15% reduction for Geminiviridae files:
+
+<p align="center">
+  <img width="1000" height="650" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClustspplot2.png">
+</p>
+
+<p align="center">
+  <img width="1000" height="650" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClusts2.png">
+</p>
+
+You can see the effect of sample reduction in clusters limits.
 
 ### **Relocation of files in assigned clusters**
 
