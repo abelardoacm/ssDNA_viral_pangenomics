@@ -50,39 +50,29 @@ Install **bash** dependencies with `sudo apt-get install emboss python3-biopytho
 These are the key repository folders :
 
 ``` 
-├── bin
-│   ├── FSWM
-│   └── The-central-moments-and-covariance-vector-of-cumulative-Fourier-Transform-power-and-phase-spectra
+.
+├── bin <-  Contains scripts and dependencies
+│
 ├── data
-│   ├── AF_methods_input
-│   ├── Genomic_fasta_files
-│   │   ├── _fasta_genomes
-│   │   ├── Geminiviridae_catfiltered_fasta_genomes
-│   │   ├── Geminiviridae_concatenated_fasta_genomes
-│   │   └── Geminiviridae_fasta_genomes
-│   ├── Individual_full_genbank_files
-│   │   ├── Geminiviridae_catfiltered_genbank_genomes
-│   │   ├── Geminiviridae_concatenated_genbank_genomes
-│   │   └── Geminiviridae_genbank_genomes
-│   ├── Proteomic_fasta_files
-│   │   ├── _fasta_proteomes
-│   │   ├── Geminiviridae_catfiltered_fasta_proteomes
-│   │   ├── Geminiviridae_concatenated_fasta_proteomes
-│   │   └── Geminiviridae_fasta_proteomes
-│   └── Raw_database
+│   ├── AF_methods_input <- Aligment free methods input
+│   ├── Genomic_fasta_files <- Individual fasta nucleotides genomic files
+│   ├── Individual_full_genbank_files <- Individual full genbank files
+│   ├── Mash_input <- Subfolders inputs to mash
+│   ├── Proteomic_fasta_files <- Individual fasta aminoacids proteomic files
+│   └── Raw_database <- Direct NCBI downloads
+│
 └── results
-    ├── Central_moments_and_covariance_vectors_CPFSCC
-    ├── Clans
-    ├── Clustering_graphics
-    ├── Distance_Matrices
-    ├── Lists_for_sample_reduction
-    ├── NbClust_membership_vectors
-    └── Pangenomic_input_clusters
-        └── Geminiviridae_clusters
-            ├── cluster_1
-            └── cluster_2
+    ├── Clustering_graphics <- PCA's of clustering schemes
+    ├── CPFSCC_vectors <- Cumulative fourier spectra vectors by family
+    ├── Distance_Matrices <- Symmetric paired distances
+    ├── Lists_for_sample_reduction <- List of n most distant files to delete
+    ├── Mash_distances <- Mash output
+    ├── Mash_sketches <- Mash midfile
+    ├── Master_reports <- Summary of master script runs
+    ├── NbClust_membership_vectors <- Text files with individual file membership
+    └── Pangenomic_input_clusters <- Finall folders ready to serve as GETHOMOLOGUES input
 ```
-_NOTE\* for storage purposes only files corresponding to Geminiviridae family are available. Whole raw database will be available before research results submission_
+_NOTE\* for storage purposes only files corresponding to Geminiviridae family are available. Whole database output will be available before research results submission_
 
 # Repo navigation guide
 
