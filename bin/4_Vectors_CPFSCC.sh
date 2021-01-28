@@ -39,10 +39,7 @@ awk ' /^>/ && FNR > 1 {next} {print $0} ' ../data/Genomic_fasta_files/$1_catfilt
 #
 #################################################
 # Remove special characters from headers
-sed -i 's/\//-/g' ../data/AF_methods_input/$1_AF_input.fasta
-sed -i 's/,/-/g' ../data/AF_methods_input/$1_AF_input.fasta
-sed -i 's/;/-/g' ../data/AF_methods_input/$1_AF_input.fasta
-sed -i 's/:/-/g' ../data/AF_methods_input/$1_AF_input.fasta
+sed -i 's/[\,;:]/-/g' ../data/AF_methods_input/$1_AF_input.fasta
 #################################################
 cp ../data/AF_methods_input/$1_AF_input.fasta input.fasta # copies AF input file to a temporary file
 mkdir -p ../results # Starts results folder
