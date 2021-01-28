@@ -87,7 +87,7 @@ _NOTE\* for storage purposes only files corresponding to Geminiviridae family ar
 # Repo navigation guide
 
 <p align="center">
-  <img width="755" height="1132" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/ssDNA_workflow.png">
+  <img width="900" height="1132" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/ssDNA_workflow.png">
 </p>
 
 ## From raw to filtered database
