@@ -96,7 +96,7 @@ Family [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Or
 
 >## **Repo usage example**
 
-Below is an example of using all currently implemented steps, in a single call to the master script for the [sample input of Geminiviridae family](data/Raw_database/Geminiviridae.gb):
+Below is an example of using all currently implemented steps, in a single call to the master script for the [sample input of Geminiviridae family](data/Raw_database/Geminiviridae.gb). when running,  at the top of the terminal it will show which script is being performed. The master script needs some parameters to procceed and it even prompts hints to take particular decisions.
 
 ![](Masterscript1.gif)
 
