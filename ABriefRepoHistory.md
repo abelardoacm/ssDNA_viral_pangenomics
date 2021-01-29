@@ -140,17 +140,17 @@ _____________________________________
 ```
 ### From filtered db to distance matrices :triangular_ruler:
 
-Paired distances are pure gold for evolutionary analyzes. There are lots of phylogeny inference methods that rely on paired distances. **So... we need a multiple aligment right?**. Guess what.. :no_entry_sign: **NOOOOO** :no_entry_sign:, they are great but you can't always use them, with **Monodnaviria genomes** that'd never end. Remember, this repo is fast and furious, we'll try to keep a huge database while possible, and I'll mkae my best to make it possible. Thats how i got my AF-Abe nickname by the way. 
+Paired distances are pure gold for evolutionary analyzes. There are lots of phylogeny inference methods that rely on paired distances. **So... we need a multiple aligment right?**. Guess what.. :no_entry_sign: **NOOOOO** :no_entry_sign:, they are great but you can't always use them, with **Monodnaviria genomes** that'd never end. Remember, this repo is fast and furious, we'll try to keep a huge database while possible, and I'll mkae my best to make it possible.
 
-I implemented a [very interesting AF-method that relies in Fast Fourier Transforms](https://github.com/burkhard-morgenstern/FSWM.git), to estimate a 28 dimensional vector that corresponds 1 to 1 to a genome. **That's an incredible property!!!**, because different to multiple aligments (that correspond many vs many), incorporating a new genome, **means to add one line and column to the paired distance matrix**, not a complete re estimation of paired distances. There's no clear reason to show a distance matrix but here's one anyway.
+I implemented a [very interesting AF-method that relies in Fast Fourier Transforms (Dong, et al. 2018)](https://www.sciencedirect.com/science/article/abs/pii/S037811191830698X), to estimate a 28 dimensional vector that corresponds 1 to 1 to a genome. **That's an incredible property!!!**, because different to multiple aligments (that correspond many vs many), incorporating a new genome, **means to add one line and column to the paired distance matrix**, not a complete re estimation of paired distances. There's no clear reason to show you a distance matrix but here's one anyway.
 
 ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/DistMx.png)
 
-**Oh oh, calc has no support for a million cells !!!** Of course this is far from being a Big Data thing, but it's also far from being displayed in GUI software. And thats one of my points, it's easy to pick 10 genomes and perform a pangenomic analysis, but we (the origin of life lab) **aim to operate over thousands**, **ranging over every viral family**. I don't really want to take a deotur but this fact strongly supports collaborative coding, I want my solution to be the solution for upcoming students in the lab.
+**Oh oh, libre office calc has no support for a million cells !!!** Of course this is far from being a Big Data thing, but it's also far from being displayed in GUI software. And thats one of my points, it's easy to pick 10 genomes and perform a pangenomic analysis, but we (the origin of life lab) **aim to operate over thousands**, **ranging over every viral family**. I don't really want to take a deotur but this fact strongly supports collaborative coding, I want my solution to be the solution for upcoming students in the lab.
 
 ### From distance matrices to pangenomics input clusters
 
-For the grand finale I want to show a clustering scheme for Monodnaviria. Performed by , which reported:
+For the grand finale I want to show a clustering scheme [(5a_NbClust.r)](bin/5a_NbClust.r) for Monodnaviria, which reported:
 ```
 ------------5a_NbClust.r Monodnaviria  ------------
 
@@ -165,7 +165,7 @@ The package NbClust (which I've to admit to don't fully understand), estimates 6
 
 And I'm very proud to say that clusters are congruent with major ssDNA groups, although I'd not use it as a pangenomic input for my purposes since I've to be more precise in searching the genomic traces of the origin of the families. 
 
-Finally I got my files, safe and sound in folders ready to serve as pangenomic input clusters. To demonstrate it these are the pangenomic clusters of **Nanoviridae** whcich is my favorite example since there are about 15 reference **but segmented genomes**, so raw files were useless as pangenomic inputs, and my work had a key role:
+Finally I got my files, safe and sound in folders ready to serve as pangenomic input clusters. To demonstrate it, these are the pangenomic clusters of **Nanoviridae** whcich is my favorite example since there are about 15 reference **but segmented genomes**. This made that refseq raw files were useless as pangenomic inputs, and my work had a key role:
 
 ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/rocaleta.png)
 
