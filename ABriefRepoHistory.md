@@ -169,7 +169,7 @@ Finally I got my files, safe and sound in folders ready to serve as pangenomic i
 
 ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/rocaleta.png)
 
-And a graph to show pangenomic core estimation decrease as more files are incorporated:
+The graph above shows the distribution of ortholog clusters. We use pangenomic analysis to know where to take a closer look, and wee need to zoom in the pangenomic core shared genes with evolutionary analysis. As I anticipated the main goal of filtering data is to prevent core underestimation (which result in non existant core). Here's a graph that shows how the number of clusters found within the core decrease as we increase the sample size, it was also performed in R but the script is still not a part of the repo:
 
 ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/corepangenomics.png)
 
