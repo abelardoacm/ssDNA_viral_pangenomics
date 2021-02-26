@@ -16,6 +16,7 @@ mkdir -p ../results/Mash_sketches
 #
 mv $1.msh ../results/Mash_sketches/
 mkdir -p ../results/Mash_distances/
+mkdir -p ../results/Distance_Matrices/
 #
 ./mash/mash-Linux64-v2.2/mash dist ../results/Mash_sketches/$1.msh ../results/Mash_sketches/$1.msh | sed 's/\t/,/g' | sed 's/..\/data\/Mash_input\///g' | sed 's/_mash_in\//_/g' > ../results/Mash_distances/$1_mashd_raw.csv
 #
