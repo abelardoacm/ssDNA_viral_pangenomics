@@ -30,6 +30,8 @@ suppressPackageStartupMessages(library("factoextra"))
 suppressPackageStartupMessages(library("stringr"))
 suppressPackageStartupMessages(library("tibble"))
 suppressPackageStartupMessages(library("ggplot2"))
+suppressPackageStartupMessages(library("purrr"))
+suppressPackageStartupMessages(library("dplyr"))
 #################################################
 #Collecting first input ../results/Distance_Matrices/$family_distance_matrix.csv to environment
 setwd("../results/Distance_Matrices/") #Location of .csv distance matrices
@@ -51,7 +53,18 @@ family_membership <- paste(family,file_suffix2, sep = "") #Building input filena
 family_membership <- read.csv(family_membership, header = TRUE, sep = ",", dec = ".") #Reading .csv input file
 #Transform to data frame and name rows by taxids
 family_membership <- as.data.frame(family_membership)
-TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Consenso, row.names = OriginalTaxids)
+
+#### ASKING FOR PARTITION METHOD
+my.method <- PosArgs[3]
+if(my.method == "consensus"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Consenso, row.names = OriginalTaxids)}
+if(my.method == "wardD"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Partition_wardD.Best.partition, row.names = OriginalTaxids)}
+if(my.method == "wardD2"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Partition_wardD2.Best.partition, row.names = OriginalTaxids)}
+if(my.method == "single"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Partition_single.Best.partition, row.names = OriginalTaxids)}
+if(my.method == "complete"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Partition_complete.Best.partition, row.names = OriginalTaxids)}
+if(my.method == "average"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Partition_average.Best.partition, row.names = OriginalTaxids)}
+if(my.method == "mcquitty"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Partition_mcquitty.Best.partition, row.names = OriginalTaxids)}
+if(my.method == "median"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Partition_median.Best.partition, row.names = OriginalTaxids)}
+if(my.method == "centroid"){TaxidPertenencia <- data.frame(OriginalTaxids, family_membership$Partition_centroid.Best.partition, row.names = OriginalTaxids)}
 colnames(TaxidPertenencia)<- c("Taxids","Pertenencia") #Data frame summarizing which taxids are members of each cluster
 setwd("../Distance_Matrices/") #Return to ../Distance_Matrices/
 #################################################
@@ -86,24 +99,44 @@ for (i in 1:length(index_by_cluster)){
   SubMatrices[[i]] <- submatrix(matrix2subset, (index_by_cluster[[i]]), (index_by_cluster[[i]])) #Use submatrix {Corbi} function
 }
   #Estimating pairwise distance sum for each genome within SubMatrices
+
+#### CHECAR: COLSUMS NO FUNCIONA SI EL CLUSTER TIENE UN SOLO ELEMENTO, INCORPORAR AQUI UN CHEQUEO
+clust_lengths <- lengths(SubMatrices)
+monomember_clust <- function(x) {
+  ifelse (x <= 1, TRUE, FALSE)
+}
+Clusts_monomember <- monomember_clust(clust_lengths)
+suma_monomembers = length(Clusts_monomember[Clusts_monomember==TRUE])
+pos_monomembers <- which(Clusts_monomember, arr.ind = TRUE )
+names_monoclust <- purrr::map_chr(pos_monomembers, ~ paste0("cluster_", .))
+
+#### LOOP TO REMOVE COMMON ELEMENTS
+vec1 <- clusters
+vec2 <- pos_monomembers
+for (el in vec2[vec2 %in% intersect(vec1, vec2)]){
+  vec1 <- vec1[-which(vec1==el)[1]]
+}
+clusters <- vec1 # Here's were mono member clusters are deleted
+
 ListOfDistSums <- c()
-for (i in 1:length(clusters)){
+for (i in clusters){
   ListOfDistSums[[i]] <- colSums(SubMatrices[[i]])
 }
   #Sort decreasing values of pairwise distances sum
 SortedListOfDistSums <- c()
-for (i in 1:length(clusters)){
+for (i in clusters){
   SortedListOfDistSums[[i]] <- sort(colSums(SubMatrices[[i]]), decreasing = TRUE)
 }
   #Compute the number of genomes that correspond to the "n" percent of each cluster
 Perc = (as.numeric(PosArgs[2]))/100 #Read and set desired percentage of reduction
 PercByClust <- c()
-for (i in 1:length(clusters)){
+for (i in clusters){
   PercByClust[[i]] <- round((length(ListOfDistSums[[i]]))*Perc) #Getting the "n" percent
 }
+PercByClust[PercByClust==0] <- 1
   #Obtain the "n" percent biggest values
 MostDist <- c()
-for (i in 1:length(clusters)){
+for (i in clusters){
   MostDist[[i]] <- first(SortedListOfDistSums[[i]], PercByClust[[i]]) #Use first {xts} function
 }
 # Set outdir to save output
@@ -140,10 +173,21 @@ setwd("../Clustering_graphics/") #Going to second output folder
 TaxDelSubset <- rownames_to_column(CPFSCC.df)
 TaxDelSubset$Membership <- TaxidPertenencia$Pertenencia
 TaxDelSubset <- TaxDelSubset[!(TaxDelSubset$rowname %in% TaxDel), ]
-groups <- as.factor(TaxDelSubset$Membership) #recover clusters
+groups <- TaxDelSubset$Membership #recover clusters
+x <- groups
+x2 <- x[!x %in% pos_monomembers]
+groups <- as.factor(x2)
 row.names(TaxDelSubset) <- TaxDelSubset$rowname
 TaxDelSubset$rowname <- NULL
 TaxDelSubset$Membership <- NULL
+ToDeleteFromTaxDel <- c()
+for(e in pos_monomembers){
+  ToDeleteFromTaxDel <- append(ToDeleteFromTaxDel, virus_clust_members_taxids[e], after = length(ToDeleteFromTaxDel))
+}
+TaxDelSubset$Name <- rownames(TaxDelSubset)
+remove.list <- paste(c(ToDeleteFromTaxDel), collapse = '|')
+TaxDelSubset <- TaxDelSubset %>% filter(!grepl(remove.list, Name))
+TaxDelSubset$Name <- NULL
 #################################################
     #New clusters PCA
 res.pca <- prcomp(TaxDelSubset, scale = TRUE) #make PCA
@@ -177,7 +221,7 @@ fviz_pca_ind(res.pca,
              ellipse.level=0.95,
              legend.title = "cluster",
              label = "none",
-             title = paste(family, "clusters after sample reduction")
+             title = paste(family, "clusters after sample reduction", paste("(",my.method, " method)", sep = "" ))
 )
 dev.off()
 #################################################
@@ -195,7 +239,7 @@ OrderedDistAfter.df <- SumDistAfter.df[order(SumDistAfter.df$MeanDif),] #sort su
 IndexByDistSum <- seq(from = 1, to = n)
 OrderedDistAfter.df$IndexByDistSum <- IndexByDistSum
 outfile3 <- paste(family,"_distances_pplot_after_sr_by_", PosArgs[2], "_percent.tiff", sep = "") #name third outfile
-legendtitle <- paste(family, "ordered distances by cluster after sr")
+legendtitle <- paste(family, "ordered distances by cluster after sr", paste("(",my.method, " method)", sep = "" ))
 # ggplot pplot in tiff file
 tiff(outfile3, units="in", width=7, height=5, res=600)
 ggplot(data=OrderedDistAfter.df, aes(IndexByDistSum, MeanDif)) +
@@ -208,10 +252,6 @@ dev.off()
 setwd("../../bin/")
 DelCommand = paste("./Sample_reduction.sh",family) 
 system(DelCommand) # Use bash script to update membership vectors
-
-
-
-
 
 
 

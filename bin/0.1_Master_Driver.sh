@@ -1,6 +1,51 @@
 #!/bin/bash
 mkdir -p ../results
 mkdir -p ../results/Master_reports
+##
+# Color  Variables
+##
+green='\e[32m'
+blue='\e[34m'
+clear='\e[0m'
+
+##
+# Color Functions
+##
+
+ColorGreen(){
+	echo -ne $green$1$clear
+}
+ColorBlue(){
+	echo -ne $blue$1$clear
+}
+
+menu(){
+echo -ne "
+Available partition method
+$(ColorGreen '1)') wardD
+$(ColorGreen '2)') wardD2
+$(ColorGreen '3)') single 
+$(ColorGreen '4)') complete
+$(ColorGreen '5)') average
+$(ColorGreen '6)') mcquitty
+$(ColorGreen '7)') median
+$(ColorGreen '8)') centroid
+$(ColorGreen '9)') consensus
+$(ColorBlue 'Choose an option:') "
+        read a
+        case $a in
+	        1) cluster_method="wardD" ; redir_method=2 ;;
+	        2) cluster_method="wardD2" ; redir_method=3 ;;
+	        3) cluster_method="single" ; redir_method=4 ;;
+	        4) cluster_method="complete" ; redir_method=5 ;;
+	        5) cluster_method="average" ; redir_method=6 ;;
+	        6) cluster_method="mcquitty" ; redir_method=7 ;;
+	        7) cluster_method="median" ; redir_method=8 ;;
+	        8) cluster_method="centroid" ; redir_method=9 ;;
+	        9) cluster_method="consensus" ; redir_method=10 ;;
+		*) echo -e $red"Wrong answer\!\!\!Not a partition method."$clear; menu ;;
+        esac
+}
 print_center(){
     local x
     local y
@@ -532,8 +577,9 @@ if [[ $repl =~ ^[05]$ ]]; then
 	sleep 4
 	# Rscript 5b_Sample_reduction.r $family $percsr
 	print_center "- - - - - -5b_Sample_reduction.r- - - - - -"
-	echo -e "\n...\nanswer whether or not to perform sample reduction\n...\n"
+	echo
 	echo -e "------------5b_Sample_reduction.r $family $percsr------------\n" >> ../results/Master_reports/Report_$family
+	print_center "WARNING: If you choose to execute sample reduction, clusters with only one member will stay the same to prevent losing taxa of interest."
 	read -p "Do you want to perform sample reduction based on distances (recommended)?  (yes/no)  " -n 1 -r 
 	echo
 	until [[ $REPLY =~ ^[YyNn]$ ]]; do
@@ -545,10 +591,15 @@ if [[ $repl =~ ^[05]$ ]]; then
 	fi
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		echo sample reduction will be performed >> ../results/Master_reports/Report_$family
+		echo -e "\n\n"
+		print_center "At this point you may want to analyze figures in /results/Clustering_graphics, then you can pick a partition method, the one that you consider better for the current taxon (method used in every partition scheme is shown at the graph's title), as well as a percentage of reduction."
+		echo
 		echo -e "...\ncollecting parameters for sample reduction\n...\n"
+		menu
+		echo -e "Partition method selected: $cluster_method"
 		read -p "    By which percentage you want to reduce your sample ?  " percsr
 		echo Percentage for sample reduction\: $percsr >> ../results/Master_reports/Report_$family
-		Rscript 5b_Sample_reduction.r $family $percsr
+		Rscript 5b_Sample_reduction.r $family $percsr $cluster_method
 		echo -e "$(cat ../results/Lists_for_sample_reduction/*$family\.txt | wc -l) genomes, corresponding to %$percsr most distant to centroid of each cluster were discarded"
 		echo -e "$(cat ../results/Lists_for_sample_reduction/*$family\.txt | wc -l) genomes, corresponding to %$percsr most distant to centroid of each cluster were discarded" >> ../results/Master_reports/Report_$family
 		echo -e "\n\nINPUT:\tDistance matrix:  \tresults/Distance_Matrices/$family\_distance_matrix.csv\n\tMembership vectors:\t/results/Distance_Matrices/$family\_membership_vectors.csv\n\nOUTPUT: Linear point plot\t/results/Clustering_graphics/$family\_distances_pplot_after_sr_by_$percsr\_percent.tiff\n\tClusters PCA\t/results/Clustering_graphics/$family\_PCA_clusters_after_sr_by_$percsr\_percent.tiff\n\tList of discarded taxa:\t/results/Lists_for_sample_reduction/$percsr\_percent_most_distant_$family\..txt\n\tModified membership vectors\t/results/NbClust_membership_vectors/$family\_membership_vectors.csv" | tee -a ../results/Master_reports/Report_$family
@@ -585,9 +636,9 @@ if [[ $repl =~ ^[06]$ ]]; then
 	fi
 	echo -e "\n\n...\nredirecting files to clusters\n..."
 	echo -e "------------6_Files_to_clusters.sh $family------------\n" >> ../results/Master_reports/Report_$family
-	./6_Files_to_clusters.sh $family | tee -a ../results/Master_reports/Report_$family
+	./6_Files_to_clusters.sh $family $redir_method | tee -a ../results/Master_reports/Report_$family
 	sleep 4
-	echo $family genomes were redirected to pangenomic input clusters >> ../results/Master_reports/Report_$family
+	echo $family genomes were redirected to pangenomic input clusters following $redir_method method results>> ../results/Master_reports/Report_$family
 	echo -e "\n\nINPUT:\tMembership vectors\t/results/NbClust_membership_vectors/$family\_membership_vectors.csv\n\nOUTPUT: Pangenomic input clusters:\t/results/Pangenomic_input_clusters/$family\_clusters/" | tee -a ../results/Master_reports/Report_$family
 	echo -e "\n\nDONE: Files sent to pangenomic input clusters\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
 	sleep 4

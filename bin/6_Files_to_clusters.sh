@@ -26,7 +26,7 @@ cp ../data/Individual_full_genbank_files/$1_catfiltered_genbank_genomes/* .
 #Get a temporary file matching taxids and its cluster as follows:
 cat ../results/NbClust_membership_vectors/$1_membership_vectors.csv |
  grep -v -i "consenso" |
-  cut -d, -f1,10 |
+  cut -d, -f1,$2 |
    sed 's/"//g' |
     sed 's/,/.gbk,cluster_/g' |
      sed 's/,/ /g' |
@@ -42,11 +42,9 @@ cat ../results/NbClust_membership_vectors/$1_membership_vectors.csv |
 #################################################
 #Make outfolder for each cluster as follows:
 cat ../results/NbClust_membership_vectors/$1_membership_vectors.csv |
- sed 's/"//g'|
-  cut -d, -f10 |
-   sort | uniq |
-    grep -v -i "consenso" |
-     while read line ; do mkdir -p cluster_$line ; done
+ sed 's/"//g'| grep -v -i "consenso" |
+  cut -d, -f$2 |
+   sort | uniq | while read line ; do mkdir -p cluster_$line ; done
 #displays membership vectors
  #removes commas
   #gets one line per cluster

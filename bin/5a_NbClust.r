@@ -125,59 +125,97 @@ SumDist <- (rowSums(Distancias.matrix)) #get sum of distances by genome
 SumDist.df <- as.data.frame(SumDist) #transform to data frame
 mean_Distance <- (SumDist.df$SumDist)/ene #get average sum of distances per genome
 SumDist.df$MeanDif <- mean_Distance #save average sum to data frame
-SumDist.df$Membership <- as.factor(Pertenencia.df$Consenso)
+SumDist.df <- cbind(SumDist.df, Pertenencia.df)
+colnames(SumDist.df) <- c("SumDist",
+                          "MeanDif",
+                          "ward.D_method",
+                          "ward.D2_method",
+                          "single_method",
+                          "complete_method",
+                          "average_method",
+                          "mcquitty_method",
+                          "median_method",
+                          "centroid_method",
+                          "consensus_method")
+methd <- c(3:11)
+SumDist.df[,methd] <- lapply(SumDist.df[,methd] , factor)
 OrderedDist.df <- SumDist.df[order(SumDist.df$MeanDif),] #sort sum of distances
 IndexByDistSum <- seq(from = 1, to = ene)
 OrderedDist.df$IndexByDistSum <- IndexByDistSum
-outfile3 <- paste(family,"_distances_pplot.tiff", sep = "") #name pplot outfile
 setwd("..") 
 outdir3 <- ("mkdir -p Clustering_graphics") #make clustering graphics outdir
 system(outdir3)
-legendtitle <- paste(family, "ordered distances by cluster")
 setwd("Clustering_graphics")
-# ggplot pplot in tiff file
-tiff(outfile3, units="in", width=7, height=5, res=600) #tiff resolution parameters
-ggplot(data=OrderedDist.df, aes(IndexByDistSum, MeanDif)) +
-  geom_point(aes(colour = Membership), size = 2, alpha = 0.2) +
-  theme(legend.position="top") +
-  labs(color= legendtitle )
-dev.off()
+GraphMethods <- list(OrderedDist.df$ward.D_method, 
+                  OrderedDist.df$ward.D2_method, 
+                  OrderedDist.df$single_method, 
+                  OrderedDist.df$complete_method, 
+                  OrderedDist.df$average_method, 
+                  OrderedDist.df$mcquitty_method, 
+                  OrderedDist.df$median_method, 
+                  OrderedDist.df$centroid_method, 
+                  OrderedDist.df$consensus_method)
+for (i in 1:length(GraphMethods)){
+  outfilename <- paste(family, "_", colnames(OrderedDist.df)[2+i],"_distances_pplot.tiff", sep = "")
+  legendtitle <- paste(family, paste("(", colnames(OrderedDist.df)[2+i], ")", sep = ""),"ordered distances by cluster")
+  tiff(outfilename, units="in", width=7, height=5, res=600)
+  print(ggplot(data=OrderedDist.df, aes(IndexByDistSum, MeanDif)) +
+    geom_point(aes(colour = GraphMethods[[i]]), size = 2, alpha = 0.2) +
+    theme(legend.position="top") +
+    labs(color= legendtitle ))
+  dev.off()
+}
 #################################################
 #Clusters PCA
 res.pca <- prcomp(datos, scale = TRUE) #make PCA
 groups <- as.factor(Pertenencia.df$Consenso) #recover clusters
 outfile4 <- paste(family,"_PCA_clusters.tiff", sep = "")
 #Draw PCA to tiff file
-tiff(outfile4, units="in", width=7, height=5, res=600) #tiff resolution parameters
-fviz_pca_ind(res.pca,
-             col.ind = groups, # color by groups
-             palette = c("#00AFBB", 
-                         "#FC4E07", 
-                         "#50f0d0", 
-                         "#f05070", 
-                         "#d050f0", 
-                         "#70f050", 
-                         "#f0d050", 
-                         "#ffd88d", 
-                         "#5086a7", 
-                         "#dd9082", 
-                         "#093d3a", 
-                         "#196f69", 
-                         "#786045", 
-                         "#d59c2c", 
-                         "#336936", 
-                         "#d050f0", 
-                         "#70f050", 
-                         "#f0d050", 
-                         "#50f0d0", 
-                         "#f05070"),
-             addEllipses = TRUE,
-             ellipse.level=0.95,
-             legend.title = "cluster",
-             label = "none",
-             title = paste(family, "clusters")
-)
-dev.off()
+#Clusters PCA
+res.pca <- prcomp(datos, scale = TRUE) #make PCA
+grupos <- list(as.factor(Pertenencia.df$Partition_wardD.Best.partition),
+               as.factor(Pertenencia.df$Partition_wardD2.Best.partition),
+               as.factor(Pertenencia.df$Partition_single.Best.partition),
+               as.factor(Pertenencia.df$Partition_complete.Best.partition),
+               as.factor(Pertenencia.df$Partition_average.Best.partition),
+               as.factor(Pertenencia.df$Partition_mcquitty.Best.partition),
+               as.factor(Pertenencia.df$Partition_median.Best.partition),
+               as.factor(Pertenencia.df$Partition_centroid.Best.partition),
+               as.factor(Pertenencia.df$Consenso))
+for (i in 1:length(grupos)){
+  outfilename <- paste(family, "_", colnames(OrderedDist.df)[2+i],"_PCA_clusters.tiff", sep = "")
+  PCA_title <- as.character(paste(family, "PCA", paste("(", colnames(OrderedDist.df)[2+i], ")", sep = "")))
+  tiff(outfilename, units="in", width=7, height=5, res=600) #tiff resolution parameters
+  current_pca <- fviz_pca_ind(res.pca,
+               col.ind = grupos[[i]], # color by groups
+               palette = c("#00AFBB", 
+                           "#FC4E07", 
+                           "#50f0d0", 
+                           "#f05070", 
+                           "#d050f0", 
+                           "#70f050", 
+                           "#f0d050", 
+                           "#ffd88d", 
+                           "#5086a7", 
+                           "#dd9082", 
+                           "#093d3a", 
+                           "#196f69", 
+                           "#786045", 
+                           "#d59c2c", 
+                           "#336936", 
+                           "#d050f0", 
+                           "#70f050", 
+                           "#f0d050", 
+                           "#50f0d0", 
+                           "#f05070"),
+               addEllipses = TRUE,
+               ellipse.level=0.95,
+               legend.title = "cluster",
+               label = "none",
+               title = PCA_title)
+  print(current_pca)
+  dev.off()
+}
 
 
 
