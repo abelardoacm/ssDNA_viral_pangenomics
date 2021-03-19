@@ -218,12 +218,12 @@ DONE: Concatenated segmented genomes into single files
 ------------3_Protein_count_filtering.pl------------
 
 Allowed percentage of variation from average protein count: 30
-Minimum protein count among reference strains: 4
-Maximum protein count among reference strains: 7
+Minimum protein count among reference strains: 3
+Maximum protein count among reference strains: 10
 
 mean protein count is 7 (rounded-up) 
 
-Minimum protein count from reference strain is lower than -%30 cutoff value... setting lower limit to 4 proteins 
+Minimum protein count from reference strain is lower than -%30 cutoff value... setting lower limit to 3 proteins 
 ... setting upper protein cutoff count in 10 proteins 
 
 
@@ -236,32 +236,20 @@ _____________________________________
 
 	   0   	 African-cassava-mosaic-virus_taxid_10817
 	   13   	 Ageratum-yellow-vein-virus_taxid_44560
-	   3   	 Baminivirus_taxid_1229324
 	   2   	 Bean-chlorotic-mosaic-virus_taxid_1227355
-	   3   	 Cleome-golden-mosaic-virus_taxid_858517
 	   12   	 Cotton-leaf-curl-Multan-virus_taxid_223252
-	   3   	 East-African-cassava-mosaic-Malawi-virus-MalawiK_taxid_223265
-	   3   	 Eragrostis-curvula-streak-virus_taxid_638358
-	   3   	 Eragrostis-streak-virus_taxid_496807
 	   2   	 Euphorbia-mosaic-virus_taxid_77811
 	   2   	 French-bean-severe-leaf-curl-virus_taxid_1218727
-	   3   	 Leonurus-mosaic-virus_taxid_58177
-	   3   	 Panicum-streak-virus_taxid_10826
 	   12   	 Pedilanthus-leaf-curl-virus_taxid_619631
 	   2   	 Peristrophe-mosaic-virus_taxid_1188812
 	   14   	 Rhynchosia-golden-mosaic-virus_taxid_117198
-	   3   	 Saccharum-streak-virus_taxid_683179
-	   3   	 Sidastrum-golden-leaf-spot-virus_taxid_858513
 	   2   	 Squash-leaf-curl-China-virus_taxid_223323
-	   3   	 Sugarcane-streak-virus_taxid_10836
 	   2   	 Sunn-hemp-leaf-distortion-virus_taxid_579113
 	   0   	 Tomato-golden-leaf-distortion-virus_taxid_858511
 	   0   	 Tomato-golden-leaf-spot-virus_taxid_1336597
-	   3   	 Tomato-leaf-curl-Seychelles-virus_taxid_425303
 	   2   	 Tomato-mosaic-Havana-virus_taxid_223356
-	   3   	 Urochloa-streak-virus_taxid_520848
 
-26 organisms were discarded from the database for further analysis
+14 organisms were discarded from the database for further analysis
 
 
 INPUT:	/data/Genomic_fasta_files/Geminiviridae\_concatenated_fasta_genomes
@@ -298,7 +286,7 @@ DONE: Computed CPFSCC vectors
 ------------5a_NbClust.r Geminiviridae  ------------
 
 Minimum number of clusters allowed: 1
-Maximum number of clusters allowed: 9
+Maximum number of clusters allowed: 6
 
 Number of clusters found for Geminiviridae genomes: 2
 
@@ -321,7 +309,7 @@ DONE: Generated clusters with NbClust
 
 sample reduction will be performed
 Percentage for sample reduction: 15
-77 genomes, corresponding to %15 most distant to centroid of each cluster were discarded
+2 genomes, corresponding to %15 most distant to centroid of each cluster were discarded
 
 
 INPUT:	Distance matrix:  	results/Distance_Matrices/Geminiviridae\_distance_matrix.csv
@@ -341,7 +329,7 @@ DONE: Reduced sample by %15
 
 ------------6_Files_to_clusters.sh Geminiviridae------------
 
-Geminiviridae genomes were redirected to pangenomic input clusters
+Geminiviridae genomes were redirected to pangenomic input clusters following 7 method results
 
 
 INPUT:	Membership vectors	/results/NbClust_membership_vectors/Geminiviridae\_membership_vectors.csv
