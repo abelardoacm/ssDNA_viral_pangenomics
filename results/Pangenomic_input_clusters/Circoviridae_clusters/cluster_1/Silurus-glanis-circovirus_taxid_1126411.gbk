@@ -1,0 +1,86 @@
+LOCUS       NC_025246               1966 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Silurus glanis circovirus isolate H5, complete genome.
+ACCESSION   NC_025246
+KEYWORDS    RefSeq.
+SOURCE      Silurus glanis circovirus
+  ORGANISM  Silurus glanis circovirus
+REFERENCE   2  (bases 1 to 1966)
+REFERENCE   3  (bases 1 to 1966)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JQ011377.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1966
+                     /organism="Silurus glanis circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="H5"
+                     /isolation_source="Silurus glanis"
+                     /db_xref="taxon:1126411"
+                     /country="Hungary"
+                     /collection_date="26-Sep-2011"
+     gene            251..1195
+                     /gene="Rep"
+                     /locus_tag="NG56_gp1"
+                     /db_xref="GeneID:20701459"
+     CDS             251..1195
+                     /gene="Rep"
+                     /locus_tag="NG56_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009091696.1"
+                     /db_xref="GeneID:20701459"
+                     /translation="MPKYQKKSPGKENRSPVQRPKQARPPKKEAPHKRYVFTLNNYTT
+                     EEYARIDNVGADGLARYMITGKEVGENGTPHLQGFINLKVKKRFSQIKEMLGSRCHIE
+                     KARGTDLENRVYCSKEGSFQEYGSPVGQGKRSDLDAAAETLRTSLGDLRSVAELYPSQ
+                     FIRYGRGLRDYASVLGLVKPRDFKANVTVITGPPGCGKSRYAADHASGTPYYKPRGDW
+                     WDGYHTNATVILDDFYGWIKLDEMLRICDRYPHQVPVKGGYVQFLARDIFITSNKPVE
+                     EWFPNCDCSALFRRINVYLTWNDECFVERIDTPYEINF"
+     gene            complement(1251..1934)
+                     /locus_tag="NG56_gp2"
+                     /db_xref="GeneID:20701458"
+     CDS             complement(1251..1934)
+                     /locus_tag="NG56_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009091697.1"
+                     /db_xref="GeneID:20701458"
+                     /translation="MAFRRRTFRRPIRRRMHRRTRGRRMIRRRSRRSRPMGMRSFNFR
+                     AIKLDHIKVGGNSSVTGVLTFCLKDFCANFLNWDYYRFNAVVVKFVPQNTAQFDQEGG
+                     LSTVCATAVDYDDESKPTSVRQLMMMQNARTFRTGVGHSRKFKPKMTFSVVEKVDSVT
+                     TYAPAGLWMGGNRKWWLNTGYSEVKFLGLKYAMQNMSANDIHYQVLIKGYFSFKSPLI
+                     TAPTVRGEH"
+ORIGIN
+        1 cactcacttc agcacacggc acacctatgg aacatgcccc acaaacgcct aagaaagacc
+       61 gggcaaaacg gcacgagcag cagtgtacag atccagcagc ggctctaccg ccagataacg
+      121 ttggaggaag ccatgatatt gaagcaagcg ggccgcaagg tggtggatca tctacctcta
+      181 ggctcactcc ctgggaacgt tttgagcaaa tctgccaagc gatcgacaaa ggaactttca
+      241 ctgcctccac atgccgaaat atcagaaaaa gagcccggga aaagagaacc gctctccggt
+      301 acagcgaccg aagcaggccc gtcctccaaa gaaggaagct cctcataagc gttatgtctt
+      361 cactctcaac aactacacta ccgaagagta tgcaagaatt gataacgttg gcgctgacgg
+      421 actggctcga tatatgatta ccggcaaaga ggtaggagag aacggtacac ctcatctaca
+      481 aggctttatt aaccttaaag taaagaagcg gtttagccag attaaagaaa tgttgggctc
+      541 ccggtgtcac atcgagaaag cccgcggtac tgacctggaa aatcgggtgt attgcagcaa
+      601 agaaggctcg tttcaagaat atggatcacc agtcggacaa gggaagcgat ctgatctcga
+      661 tgccgcagca gagacgctaa gaacatcact gggtgacctt cgctccgtgg ctgagctata
+      721 ccccagccag ttcattcgtt atgggcgggg actgagggac tatgcctcgg tattgggtct
+      781 tgttaaacca cgtgatttca aagccaatgt tactgtcatt acagggcctc cagggtgcgg
+      841 taaatcccgg tatgcagcag accatgcttc cggtactccc tactataagc ctcgtggcga
+      901 ttggtgggat ggttaccata ctaatgctac tgttatcctg gatgattttt atggatggat
+      961 taagctggat gaaatgctcc gtatttgtga tcggtacccg caccaggtcc cagtcaaggg
+     1021 gggatatgta caatttttag cccgcgatat attcatcacc tccaataaac ctgtggaaga
+     1081 gtggttccct aattgtgact gttccgcctt atttagacga atcaatgtct atcttacctg
+     1141 gaatgatgaa tgttttgtgg aaagaattga tacaccatac gaaataaact tttaaaatga
+     1201 actttattgt gttctctttt ctgggggtcc agggggtgtc cccctggtcc tcaatgctcc
+     1261 cccctcacag ttggtgcagt aataagaggg ctcttaaatg agaaataacc cttaataagc
+     1321 acctggtaat ggatgtcatt tgcactcatg ttctgcatag catattttag ccccagaaat
+     1381 ttcacttcac tgtacccagt attgagccac catttccggt tacctcccat ccataacccc
+     1441 gctggggcat aggtggttac agagtccacc ttctccacca ctgagaacgt cattttgggc
+     1501 ttgaatttac ggctatgccc cacccccgtc cggaaggtac gggcattttg catcatcatt
+     1561 agttgcctca cggaggtggg cttagattca tcgtcataat caaccgccgt tgcacatacg
+     1621 gtagatagcc ccccctcctg gtcaaattgt gcagtgtttt ggggtacaaa tttcacaacg
+     1681 accgcattga accggtagta gtcccaatta aggaagttgg cacaaaagtc ctttaagcag
+     1741 aacgttaaca ccccggtcac tgaactattg ccccccactt taatgtgatc cagtttgatc
+     1801 gcacggaagt tgaatgaccg catgcccatt ggcctcgacc ttctggaccg tctcctgatc
+     1861 atcctcctcc ccctggttct ccggtgcatc ctcctcctga ttggccgcct gaatgtacgc
+     1921 ctcctgaacg ccatctggat aaaaacaaag tgagtgttag tattac
+//

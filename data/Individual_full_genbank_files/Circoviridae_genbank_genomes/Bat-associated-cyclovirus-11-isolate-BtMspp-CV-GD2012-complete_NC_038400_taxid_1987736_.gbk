@@ -1,0 +1,76 @@
+LOCUS       NC_038400               1844 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Bat associated cyclovirus 11 isolate BtMspp.-CV/GD2012, complete
+            genome.
+ACCESSION   NC_038400
+KEYWORDS    RefSeq.
+SOURCE      Bat associated cyclovirus 11
+  ORGANISM  Bat associated cyclovirus 11
+REFERENCE   2  (bases 1 to 1844)
+REFERENCE   3  (bases 1 to 1844)
+REFERENCE   4  (bases 1 to 1844)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ641717.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNASTAR v. 7.1.0
+            Coverage              :: 5
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1844
+                     /organism="Bat associated cyclovirus 11"
+                     /mol_type="genomic DNA"
+                     /isolate="BtMspp.-CV/GD2012"
+                     /host="Myotis sp."
+                     /db_xref="taxon:1987736"
+                     /country="China"
+                     /collection_date="Dec-2012"
+     gene            1..873
+                     /locus_tag="D1Q23_gp1"
+                     /db_xref="GeneID:37617124"
+     CDS             1..873
+                     /locus_tag="D1Q23_gp1"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_009506295.1"
+                     /db_xref="GeneID:37617124"
+                     /translation="MTSRNPSLRRFCFTWNNYTEDDIWTVQTFITTQCKYGIFGKELA
+                     PDTNTPHLQGFCNLVKPMRFSAIKELLSHRIHIEKANGSDIQNQAYCSKAGEVFESGT
+                     PSSRGQRTDLNAVLDDIRGGETSLARLATAHPCTYIRYFRGIENYLKLVHPILPRDFP
+                     TVVNYFYGPPGSGKSKRALEEAQEKSPCSIYYKPRGLWWDGYRQQDCVIIDDFYGWIK
+                     YDEMLKIMDRYPYKVQIKGGFEEFTTKFIWITSNVDTDKLYKFEGYNPEAFNRRLTTH
+                     VRFVFPEEPTSAGP"
+ORIGIN
+        1 atgacttcga gaaatccttc tctccgcaga ttctgtttca cgtggaataa ttatacggag
+       61 gacgacattt ggacagttca gacgttcatc accacgcaat gcaagtatgg catatttgga
+      121 aaggaactcg ctccggacac caacacaccg catctccagg ggttctgcaa tctggtcaaa
+      181 cccatgcgct tcagtgccat caaggagctg ctctctcaca gaatccatat tgagaaggca
+      241 aatggatccg acatacaaaa ccaagcttac tgttcaaagg caggcgaggt atttgaatcg
+      301 ggaactccaa gttctagagg gcaacgtacg gaccttaacg ccgttttgga tgacattcga
+      361 ggaggtgaaa cttcactcgc ccgacttgcc acggcccatc cctgtacata tatcaggtac
+      421 tttcgtggaa tcgagaacta tctcaaactc gtgcacccta tattgccacg agactttcca
+      481 accgtcgtta actactttta cggaccgccg ggaagtggaa agagtaaacg agctcttgag
+      541 gaggcacaag aaaaaagccc ttgcagcatc tactacaaac caagggggct ctggtgggac
+      601 ggatacagac aacaggattg cgtaatcata gacgactttt acggatggat aaagtacgac
+      661 gaaatgctga aaataatgga tcgctatcct tacaaggtac aaataaaagg agggtttgag
+      721 gaattcacaa cgaaatttat ttggataaca tcgaatgtag acacagacaa actctacaaa
+      781 tttgaaggct acaatcccga agcattcaac aggcgattga cgactcatgt taggttcgtt
+      841 ttccccgagg aaccgacatc ggctgggcca tagacgcttg atccatatta acaggaacag
+      901 gaatactctt ctgtgtataa aacatacaat aaacatcttg cacaatattg tagtaaacca
+      961 tatctttctc cccggcagct tcaaatcctt gaaatcctat acatccacta taatgcgtct
+     1021 cttttccagc ggtgctagat atttcaatgc gttgattaaa aagagcggta ttcatattcc
+     1081 ctgcggtagt agaattaggc agttttatat tcatattgta aatttgatgt cctatttgcg
+     1141 tcccgcggaa ttgcttcgcc ttatcgatac taagatacgc cgaatagcct ttcgcaggcg
+     1201 ggatgttctg gtgccacggg aacatacaat acatcggaac cggattgcca gtactcgaaa
+     1261 cactctgcaa aggatacact cgcacacgca tcttcgaaaa gcgataggcc tcgaaattag
+     1321 ccgatatatt tgaccactca tcgaaatcgg taggcttaac agaacaggac cacacagtag
+     1381 gttctttata attcacgccg aacgtttgta ttttcgtcag cttgcagcga aagtcccccg
+     1441 gtcttgtcgg aattttccta tttgcacggc gtctgcgacg ataacctctc ttacgtcgaa
+     1501 tgaccctccg tcgcgggaag cgacgtttcc accgacgccg atatgccatg actgacgcaa
+     1561 tcgccacaac atgttattat atacgcgata cggagacgga tacgaggtgc gctggtaata
+     1621 cttacagcgc acctctttgt tcagccggtg aaagtgcgtc acgcgctcgc tgagcggagc
+     1681 gaggtcacag ctgccggcgc agctgtgtca acatgttggt gaaaggctcg cgctccgcgc
+     1741 gcacaaataa ctctacttct atcgagtaga cgtatataaa gcgattgcgt tcaacccgtc
+     1801 ggccgttcgc ttcgctcacg ggccgggtga acgtctgacg tata
+//

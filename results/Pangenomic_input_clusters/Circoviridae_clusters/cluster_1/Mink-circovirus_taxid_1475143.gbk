@@ -1,0 +1,86 @@
+LOCUS       NC_023885               1753 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Mink circovirus strain MiCV-DL13, complete genome.
+ACCESSION   NC_023885
+KEYWORDS    RefSeq.
+SOURCE      Mink circovirus
+  ORGANISM  Mink circovirus
+REFERENCE   2  (bases 1 to 1753)
+REFERENCE   3  (bases 1 to 1753)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ020099.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1753
+                     /organism="Mink circovirus"
+                     /mol_type="genomic DNA"
+                     /strain="MiCV-DL13"
+                     /isolation_source="gut"
+                     /host="mink"
+                     /db_xref="taxon:1475143"
+                     /country="China"
+                     /collection_date="30-Oct-2013"
+     gene            36..929
+                     /gene="Rep"
+                     /locus_tag="DJ26_gp1"
+                     /db_xref="GeneID:18982941"
+     CDS             36..929
+                     /gene="Rep"
+                     /locus_tag="DJ26_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009021891.1"
+                     /db_xref="GeneID:18982941"
+                     /translation="MIMAGHPCKRYCFTINNYLPEDEAAVKEFLTEANCVYAVVGKEV
+                     GESGTPHLQGFCNLKKKMRFEPFKRAIGGRAHIEQSRGTDVDNKRYCSKGGDLLLEVG
+                     EPSAQGKRSDLKEAVTLLNNGGTMTDVARAHPETFIRYGRGLRDYVIQAGLTKPRAWK
+                     TEVHVIVGPPGVGKSRHVQETAGENALYWKPRGKWWDGYTGQSHVVLDDFYGWLPYDD
+                     LLRLCDRYPLRVETKGGTVEFVAKVIWITSNKQVKDWYDYEELKVDARALYRRLTTYQ
+                     VMRQGGELYNVQMTGDNKINY"
+     gene            complement(1020..1703)
+                     /gene="Cap"
+                     /locus_tag="DJ26_gp2"
+                     /db_xref="GeneID:18982940"
+     CDS             complement(1020..1703)
+                     /gene="Cap"
+                     /locus_tag="DJ26_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009021892.1"
+                     /db_xref="GeneID:18982940"
+                     /translation="MPVRSRYSRRRRWRRNRRRRGPQRRYARGGYRWRRKNGIFNARL
+                     QTEETLTVASAATPSWCVGHVNVTLKSMMPKGPGTTTNLYGMPFSYYRIRKLKIEFLP
+                     QIGITSNRSYGGTAIILDGDYISEGKNQTYDPLANHSSRHNLTNIHRHSRYFTPKPQH
+                     SSKNISTYFQPNNKQLQEWISMNQQDRVHHGLQYSIQNSNFIQTWTIRKTAYVQFREF
+                     DLVNFPKQT"
+ORIGIN
+        1 ggcacacctc ggcacacctc ggcacatcag cgctaatgat aatggccggc cacccctgca
+       61 aaaggtactg ttttactatt aacaattacc tacctgagga tgaagccgca gtgaaggagt
+      121 tcctgacgga ggctaactgt gtgtatgcag ttgttggaaa ggaggtcgga gaatcaggaa
+      181 ctccgcactt gcaaggattc tgtaatctga agaagaaaat gcggtttgag ccgtttaagc
+      241 gggctatagg tggccgtgcg catatagagc agagccgagg tactgatgtg gataacaaaa
+      301 gatattgcag taaaggggga gacttactgc tggaagttgg agagccgagc gcgcagggaa
+      361 agcggagcga tttgaaggag gctgtgacct tgctgaataa tggcggaaca atgactgatg
+      421 ttgcccgggc ccatcccgag acttttatac gttatgggag gggcctgagg gattacgtca
+      481 tacaggcggg gctaacaaag ccgagggcgt ggaagaccga agttcatgtg attgtggggc
+      541 cacctggcgt gggcaagtcc aggcatgtac aagaaacagc tggtgagaac gccctgtact
+      601 ggaagccccg tggaaaatgg tgggatggct acactggcca gagccatgtg gtgttggatg
+      661 atttttacgg gtggcttccg tatgatgacc tgttgcggct ttgtgatagg taccccctta
+      721 gagtcgaaac taaagggggt accgttgaat ttgttgcaaa ggttatttgg ataaccagca
+      781 ataagcaagt taaggactgg tatgactatg aagaactgaa ggtggatgcc cgggccctgt
+      841 atcgccgctt gacgacgtac caagttatga gacaaggggg ggagttatat aatgtacaaa
+      901 tgacaggaga caataaaatt aattattaaa attttattga gtacagagtt tttatcccga
+      961 cggatactac acttgatttt agccaaaagg ctcgttgatg agtgatcact acgtatgttt
+     1021 taagtttgct ttgggaaatt gactaggtca aattctctga attggacata tgctgttttg
+     1081 cgtattgtcc atgtttgtat gaagttggaa ttttgaattg agtattgcag gccatggtgc
+     1141 actctatcct gttgattcat agagatccat tcctgcaatt gtttgttgtt tggttggaag
+     1201 tatgttgaga tatttttgct tgagtgttga ggttttggag tgaagtagcg ggaatgcctg
+     1261 tgaatgtttg tgagattgtg tctggatgag tgattagcaa gggggtcgta tgtttggttt
+     1321 ttgccctctg aaatataatc accatctaga attatggcag tgcccccgta gctgcgattg
+     1381 gaagttatgc ctatttgagg caaaaattca attttaagtt tacgaatgcg gtagtaactg
+     1441 aagggcatgc cgtacaggtt tgttgtagtt ccagggcctt tgggcatcat tgatttaaga
+     1501 gttacattaa catggccgac acaccaagac ggagttgctg cagatgccac ggtaagtgtt
+     1561 tcttcagttt gcaggcgggc gttgaaaatg ccgtttttac gccgccatct gtaaccgccg
+     1621 cgtgcatagc ggcgctgggg accccgcctc cgacggttac gtcgccaccg ccgtcttcgc
+     1681 gagtatcgcg atcttacggg catactataa agagaaacca ggaagtgccg gggttagtat
+     1741 tacccggcac ttc
+//

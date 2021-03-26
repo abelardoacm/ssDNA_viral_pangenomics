@@ -1,0 +1,74 @@
+LOCUS       NC_027796               1826 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Artemia melana sponge associated circular genome isolate I0307,
+            complete genome.
+ACCESSION   NC_027796
+KEYWORDS    RefSeq.
+SOURCE      Artemia melana sponge associated circular genome
+  ORGANISM  Artemia melana sponge associated circular genome
+REFERENCE   2  (bases 1 to 1826)
+REFERENCE   3  (bases 1 to 1826)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528564.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1826
+                     /organism="Artemia melana sponge associated circular
+                     genome"
+                     /mol_type="genomic DNA"
+                     /isolate="I0307"
+                     /host="Artemisina melana"
+                     /db_xref="taxon:1692243"
+     stem_loop       join(12..19,1817..1824)
+                     /note="contains nonanucleotide motif"
+     gene            45..848
+                     /locus_tag="AMQ93_gp1"
+                     /db_xref="GeneID:25479238"
+     CDS             join(45..496,611..848)
+                     /locus_tag="AMQ93_gp1"
+                     /codon_start=1
+                     /product="putative spliced replication initiation protein"
+                     /protein_id="YP_009163928.1"
+                     /db_xref="GeneID:25479238"
+                     /translation="MSKSRNWIVTLNNPELDVEDYAFALKLSGATWFTGQLEKGDQGT
+                     VHLQAAFGYANTVRFSAVKKILPEAHIEKTNCGASAAEYCSKSDTRVSEPHSFGTPPV
+                     KRNLKGNHKVRTQQLLDKGALKALEDGDISLREFKLFKANIELAKAEFYKWWDGYNNQ
+                     AVVIIDDLDSDALGHHLKIWADHYPFIAEFKGGAQNIRPHKIVVTSNYSISELFSKDV
+                     KMAEAIARRFT"
+ORIGIN
+        1 tagtattact taagcgcggc gtgacagtga cattttataa tttaatgtca aaaagcagaa
+       61 actggattgt gacactcaat aacccagaac ttgatgtaga agactatgca ttcgccctca
+      121 agctttcagg agctacctgg ttcactggtc aattagagaa aggtgaccaa ggtacggttc
+      181 acctccaggc cgcattcggc tatgctaaca cggtcaggtt ttcggcggtc aagaagatct
+      241 tgcctgaagc ccacattgaa aagaccaact gcggagcctc agcagccgag tactgttcta
+      301 agagtgacac ccgagttagc gaaccacact catttggcac tcctccggtt aagcgtaact
+      361 taaaggggaa ccacaaagtg cgaacccagc agttactaga caaaggagcc cttaaggccc
+      421 ttgaagacgg cgatataagc ctcagagaat tcaaattgtt taaggccaac attgagctag
+      481 cgaaggccga attttaaact aactaaaatt tagacaaact tcaaaactac tggttttacg
+      541 gaccaccagg aactggaaag tctttcaaag ctagacaaga caacccaaat cattttccaa
+      601 agccagccaa caaatggtgg gatggataca acaatcaggc tgttgtaatt attgacgatt
+      661 tagattcaga tgctctaggt catcacttaa agatctgggc tgatcactac ccctttattg
+      721 cggaattcaa aggtggtgcc caaaacattc gacctcataa gatagttgtc acctccaact
+      781 actccatcag tgagctcttc tccaaagacg tcaaaatggc agaagcaatt gccagacgtt
+      841 tcacctaaat ctgttttaaa gttcccttca aatttgacca aaatcgtgcc ttgaaatcta
+      901 ttgaaaatta acaaaaaatg tagtcctggt tgaagtaatg tgatttatta gaaaataaat
+      961 aatgagcttg tcgaattatt tttttccatt taatattccc aggggtttag ggatgtatgt
+     1021 ttgaaatggt gcgggggttt gttataatta attaaatgaa atatcgtaga tctcgaaaga
+     1081 aaacctcttt taagcgtaag gctagaagaa tgttcaaagc caaacgcaga atatctcgta
+     1141 tccgcagatc gttacctgca gcacgtcatt ccgttatcct accattccga ctcaaaaaag
+     1201 ccttcatctt gtaaccaggt ttctaaacca actcaatatc ctttgccaga ttcgcagaaa
+     1261 ctggttaagt ctctaatgtt tatggttatg attcatcccc catgtttgaa aaactgaagg
+     1321 gatgggacta atatgccgtg atgggtatga aaatagtcta taccccatct aatttaagag
+     1381 gaacctcgta ggcagctata tctggagttg tctaaccagt ccagatgtgg aatgatccta
+     1441 atgattacaa tatcattaac tggactgaag atcaaaagct atgcagtcca acctacaagg
+     1501 aattcgatcc cactaggaga ttcaaactgt tctttggtaa taagtcattg gccaactcaa
+     1561 tggacgtaca atgggctaac acaaatgtca ccaacccatt ctacaatatg gccggcaaca
+     1621 gagctcatgg tactgttgca tttaacttga ctaccagagc agagacctaa tcctagattg
+     1681 aattcggtga tttcttagtt acttggtatg ttagagttag aggcattaag aagatttgac
+     1741 cagaattaaa ttctgaccag aataattgcg ccttttttaa tttggacccc cacctttaat
+     1801 ttgatttgtc acaataccgc gctttc
+//

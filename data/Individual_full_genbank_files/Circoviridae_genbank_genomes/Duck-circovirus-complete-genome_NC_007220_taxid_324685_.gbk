@@ -1,0 +1,118 @@
+LOCUS       NC_007220               1991 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Duck circovirus, complete genome.
+ACCESSION   NC_007220
+KEYWORDS    RefSeq.
+SOURCE      Duck circovirus
+  ORGANISM  Duck circovirus
+REFERENCE   2  (bases 1 to 1991)
+REFERENCE   3  (bases 1 to 1991)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ100076.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1991
+                     /organism="Duck circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="33753-52"
+                     /host="Pekin duck"
+                     /db_xref="taxon:324685"
+                     /country="USA"
+     stem_loop       join(1972..1991,1..12)
+     gene            48..926
+                     /gene="Rep"
+                     /locus_tag="DCVgp1"
+                     /db_xref="GeneID:3562294"
+     CDS             48..926
+                     /gene="Rep"
+                     /locus_tag="DCVgp1"
+                     /note="viral replication"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="YP_271918.1"
+                     /db_xref="GeneID:3562294"
+                     /translation="MAKSGNYSYKRWVFTINNPTFEDYVHVLEFCTLDNCKFAIVGEE
+                     KGANGTPHLQGFLNLRSNARAAALEESLGGRAWLSRARGSDEDNEEYCAKESTYLRVG
+                     EPVSKGRSSDLAEATSAVMAGVPLTEVARKFPTTYVIFGRGLERLRHLIVETQRDWKT
+                     EVIVLIGPPCTGKSRYAFEFPAENKYYKPRGKWWDGYSGNDVVVMDDFYGWLPYDDLL
+                     RITDRYPLRVEFKGGMTQFVAKTLIITSNREPRDWYKSEFDHSALYRRINKYLVYNID
+                     KYEPAQACTLPFPINY"
+     gene            complement(163..399)
+                     /gene="ORFC2"
+                     /locus_tag="DCVgp2"
+                     /db_xref="GeneID:3562295"
+     CDS             complement(163..399)
+                     /gene="ORFC2"
+                     /locus_tag="DCVgp2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_271919.1"
+                     /db_xref="GeneID:3562295"
+                     /translation="MSLRPDQRIDPWRLVHQLEGMSTLWRNILHCLRQIPGHERARLF
+                     LPATPQGRQLAHYFGGSGIPEGEACRSRPSPRRR"
+     gene            complement(423..827)
+                     /locus_tag="DCVgp3"
+                     /db_xref="GeneID:3562297"
+     CDS             complement(423..827)
+                     /locus_tag="DCVgp3"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_271920.1"
+                     /db_xref="GeneID:3562297"
+                     /translation="MVKLALVPITRLAVTCYDQCFSHKLSHTAFKFNPQRVTVGNSQQ
+                     IIIRQPTIKVVHDDYVISRVTVPPLPAWFVILVFGGKFKCITALSGAGRTNQNDDFGL
+                     PITLRLDDQVTEAFQATPKDNISRGELPGHLS"
+     repeat_region   961..1136
+                     /rpt_type=direct
+                     /rpt_unit_range=961..1004
+     gene            complement(1155..1928)
+                     /gene="Cap"
+                     /locus_tag="DCVgp4"
+                     /db_xref="GeneID:3562296"
+     CDS             complement(1155..1928)
+                     /gene="Cap"
+                     /locus_tag="DCVgp4"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_271921.1"
+                     /db_xref="GeneID:3562296"
+                     /translation="MRGRTYRRAYRGRRKRRGLRRRFRRRRLRIARPRRRFSVVTYKV
+                     TRNTVFGFFGSTTGPTAAGKWQSLSLEDGAQYTDPPARGNNICGLNMRWAMFGDTNSY
+                     MTGSTPFYHYPYDYYMIKGVAITLRPAYNIYQKSKTQGSTVIDKDGQIVKTSTTGWSI
+                     DPYGSTSSRRTWDPSRVHRRYFIPKPIIQGAGEGTKHSTFFLGGKNFTWINCTQDQVV
+                     HYGMGMSLRKPDNTTGVNAQYDIEAQFTFYIKFGQFTGF"
+ORIGIN
+        1 accggcgctt gtactccgta ctccgggcca aggggatagc aactgcaatg gcgaagagcg
+       61 gcaactactc atacaagagg tgggtcttta ccattaataa ccctaccttt gaagactatg
+      121 ttcatgttct agagttttgc acgctcgaca attgcaagtt tgctatcgtc ggcgaggaga
+      181 agggcgcgaa cggcacgcct caccttcagg gattcctgaa cctccgaagt aatgcgcgag
+      241 ctgccgccct tgaggagtcg ctgggaggaa gagcctggct ctctcgtgcc cggggatctg
+      301 acgaagacaa tgaagaatat tgcgccaaag agtcgacata ccttcgagtt ggtgaaccag
+      361 tctccaaggg tcgatcctct gatctggccg aagcgacatc cgctgtgatg gctggtgtgc
+      421 cgctaactga ggtggcccgg aagttcccca cgacttatgt tatctttggg cgtggcctgg
+      481 aacgcctccg tcacctgatc gtcgagacgc aacgtgattg gaagaccgaa gtcatcgttc
+      541 tgattggtcc gccctgcacc ggaaagagcc gttatgcatt tgaatttccc gccgaaaaca
+      601 agtattacaa accacgcggg aagtggtggg acggttactc gggaaatgac gtagtcgtca
+      661 tggacgactt ttatggttgg ttgccgtatg atgatttgct gagaattacc gaccgttacc
+      721 cgttgcgggt tgaatttaaa ggcggtatga ctcagtttgt ggctaaaaca ttgatcataa
+      781 caagtaaccg cgagcctcgt gattggtaca agagcgagtt tgaccattca gctctgtacc
+      841 gcagaattaa caagtatctt gtgtataata tcgacaagta tgaacccgcc caggcatgta
+      901 ccctcccgtt cccaataaac tactgagacg aaattgccgt tagtcgttta ttaaggtaaa
+      961 cacttggcag ggtattacac ttgggcagct cggttaaggt taggcacttg gcagggtatt
+     1021 acacttgggc agctcagtta aggttaggca cttggcaggg tattacactt gggcagctcg
+     1081 gttaaggtta ggcacttggc agggtattac acttgggcag ctcggttaag gttagaacaa
+     1141 gatctcgttt atgcctagaa tccagtgaac tgtccaaatt tgatataaaa tgtgaactgg
+     1201 gcctctatgt cgtattgtgc attcacacct gttgtgttgt ccggcttccg tagactcatg
+     1261 cccatgccgt aatgcactac ttgatcttga gtgcagttga tccaggtgaa atttttgcct
+     1321 ccgaggaaga aggtagagtg cttcgtacct tcacccgctc cttgtatgat gggtttaggt
+     1381 atgaagtacc gtctgtgcac tctggagggg tcccacgttc tcctgctgct ggttgagccg
+     1441 tacgggtcta tggaccatcc cgtcgtggat gtcttcacta tttgcccgtc cttgtctatc
+     1501 accgttgagc cttgagtctt gctcttctgg taaatgttgt atgccggtct gagagttatg
+     1561 gctaccccct tgatcatgta gtaatcgtaa gggtagtggt agaacggtgt tgagccggtc
+     1621 atgtagctgt tcgtgtcccc gaacatcgcc catctcatgt ttaagccgca tatattgttg
+     1681 ccacgggccg gtgggtctgt gtattgtgcg ccatcttcta agcttaagct ttgccatttg
+     1741 cctgctgcag tcggtcctgt ggtggagccg aaaaagccaa atacggtgtt cctcgtgacc
+     1801 ttataagtca ctacggaaaa ccgtcgtcgg ggtcttgcga ttcgtagcct tcgtcttctg
+     1861 aatctcctac gtagaccccg cctcttcctc cgaccacgat atgcacgccg ataggtgcgg
+     1921 ccgcgcatcg gcaacgtggg cagtgacttc ctgtaagata taaaagaccg cacaagcgcc
+     1981 gttatattat t
+//

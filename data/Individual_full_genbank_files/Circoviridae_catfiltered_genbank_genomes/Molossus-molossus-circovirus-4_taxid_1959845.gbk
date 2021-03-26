@@ -1,0 +1,90 @@
+LOCUS       NC_040386               1805 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Molossus molossus circovirus 4 isolate MmoCV_MU_36925, complete
+            genome.
+ACCESSION   NC_040386
+KEYWORDS    RefSeq.
+SOURCE      Molossus molossus circovirus 4
+  ORGANISM  Molossus molossus circovirus 4
+REFERENCE   2  (bases 1 to 1805)
+REFERENCE   3  (bases 1 to 1805)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KX812443.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.2.10; SPAdes v. 3.5.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1805
+                     /organism="Molossus molossus circovirus 4"
+                     /mol_type="genomic DNA"
+                     /isolate="MmoCV_MU_36925"
+                     /host="Molossus molossus"
+                     /db_xref="taxon:1959845"
+                     /country="French Guiana"
+     gene            complement(1..816)
+                     /gene="Rep"
+                     /locus_tag="EXI33_gp1"
+                     /db_xref="GeneID:41700849"
+     CDS             complement(1..816)
+                     /gene="Rep"
+                     /locus_tag="EXI33_gp1"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="YP_009551505.1"
+                     /db_xref="GeneID:41700849"
+                     /translation="MSLSRTWCFTSFDDCWEYEPIQQHITYVVWQIEKCPDTGRLHAQ
+                     GYLETKKMISHKEAKSLIFKNNEHFEKRKGSQKQAIDYCKKNDTREDGPWEWGQPTKQ
+                     GQRNDLIAIKNMIDEGHTDLEVAQEHFGSWIRYNKSFDKYSKLTLRCREEPPTVIILW
+                     GPAGCGKTSFVYKKTSFVYKTHKTVYSKDNSKWWDGYHQQEAILFDDINWNDLDRREI
+                     LLLCDRYPLKKEFKGGYVEINSPYIYFTSNFNPEGYQIYDDALKRRINEIIPM"
+     gene            910..1713
+                     /gene="Cap"
+                     /locus_tag="EXI33_gp2"
+                     /db_xref="GeneID:41700850"
+     CDS             910..1713
+                     /gene="Cap"
+                     /locus_tag="EXI33_gp2"
+                     /codon_start=1
+                     /product="capsid"
+                     /protein_id="YP_009551506.1"
+                     /db_xref="GeneID:41700850"
+                     /translation="MPFKRKYRRLRRPAKKRRVITRPRYRTLARGMTANKAGIYWFKR
+                     TLNASAENGTGISVDGTGILQTADMFYMRCNNTAAGSAVFGTMTYQFSLQNIPNISEF
+                     TSLFDSYQIRKVVINIIPYNNTVQAAQATNVGVAAAYWPDFSPIMHYVIDHDGVPPVS
+                     ANEAGINGFQQYASYKRRRFTGIGPKGLSVVIKPRAKLLAGNAALTTVGGTIAGRNQW
+                     QDCAENNLPHFGFGMILEGISPGTAGAGTIFEVPFRMETTYYLKFKTIR"
+ORIGIN
+        1 ctacattggg ataatttcat ttattctcct ttttaatgca tcatcgtata tctgatatcc
+       61 ttcgggattg aagttcgatg taaaatatat gtatggagag tttatctcaa cgtatcctcc
+      121 tttaaattct ttttttaaag ggtatctatc gcagagtagt agtatttctc gtctatcgag
+      181 atcattccag ttaatgtcat cgaatagtat agcttcttgt tggtggtatc catcccacca
+      241 tttactgtta tctttggaat atacagtttt atgtgtttta tacacgaaac ttgttttttt
+      301 atacacgaaa cttgtttttc cgcaaccggc tgggccccat aggattataa ctgtgggtgg
+      361 ttcctcccta catctgagtg ttaacttaga gtatttatca aaggatttgt tatatctaat
+      421 ccaggaacca aagtgctctt gagccacttc tagatctgta tgaccttcgt caatcatatt
+      481 ttttatggct attaggtcat ttctttgacc ttgtttagtg ggttgacccc attcccatgg
+      541 gccgtcttcc ctagtatcat tttttttgca ataatctatt gcttgttttt gagaaccttt
+      601 gcgtttctca aaatgttcat tatttttgaa tatgaggctt tttgcctctt tgtgtgaaat
+      661 catttttttt gtctcaagat atccttgagc atgtaatcgt cctgtgtcag gacatttttc
+      721 aatttgccat actacatatg taatatgttg ctgtatgggt tcatattccc aacaatcatc
+      781 gaatgatgta aagcaccaag tgcgacttag tgacatagct tagtattacc tatgtcactt
+      841 attttcactg aaaataatta aaaaataatt aaatatttaa tttttatttt tttatgtacg
+      901 tttagtatca tgccatttaa acgtaagtat cgtcggttac gccgacctgc taagaaacgt
+      961 cgagtaataa ctcgtcctcg ttatcgtact cttgccaggg gtatgacagc taataaagct
+     1021 ggtatttatt ggtttaaacg tacattgaat gcatctgctg agaatggtac tggtatctca
+     1081 gttgatggta ctggtatttt acaaactgca gatatgtttt atatgcgttg taataatact
+     1141 gctgctggta gtgcagtttt tggtactatg acttatcaat tttctcttca gaatatacca
+     1201 aatatttctg aatttactag tttatttgat tcatatcaaa ttagaaaggt tgttattaat
+     1261 attattcctt ataataatac tgttcaggca gcacaggcaa ctaatgttgg tgtggctgct
+     1321 gcatattggc ctgatttttc gcctattatg cattatgtta tagatcatga tggtgttcca
+     1381 ccggtttcag ctaatgaagc tggtataaat ggttttcaac agtatgcatc ttataagcgt
+     1441 aggcgattta caggtattgg tcctaaaggt ttatctgtag ttattaaacc tcgtgctaaa
+     1501 ttacttgcag gtaatgctgc attaactact gtaggtggta ctattgctgg tcgtaatcaa
+     1561 tggcaagatt gtgctgagaa taatcttcct cattttgggt tcggtatgat ccttgaaggt
+     1621 atttctcctg gtactgcagg ggcaggtact atttttgaag ttccatttcg tatggaaaca
+     1681 acttactact tgaagtttaa gactattaga tagtgggttg cagagcattc atttaataaa
+     1741 acagcccacg tcagcccgcc ctttatgggt gggctgggat attaaatgga tgatcgatcc
+     1801 caccc
+//

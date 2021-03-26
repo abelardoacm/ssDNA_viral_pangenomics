@@ -1,0 +1,99 @@
+LOCUS       NC_027786               2293 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Palaemonetes intermedius brackish grass shrimp associated circular
+            virus isolate I0059, complete genome.
+ACCESSION   NC_027786
+KEYWORDS    RefSeq.
+SOURCE      Palaemonetes intermedius brackish grass shrimp associated circular
+  ORGANISM  Palaemonetes intermedius brackish grass shrimp associated circular
+REFERENCE   2  (bases 1 to 2293)
+REFERENCE   3  (bases 1 to 2293)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528551.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2293
+                     /organism="Palaemonetes intermedius brackish grass shrimp
+                     associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0059"
+                     /host="Palaemonetes intermedius"
+                     /db_xref="taxon:1692257"
+     stem_loop       join(10..19,2282..2291)
+                     /note="contains nonanucleotide motif"
+     gene            56..961
+                     /locus_tag="AMR05_gp1"
+                     /db_xref="GeneID:25479207"
+     CDS             56..961
+                     /locus_tag="AMR05_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163909.1"
+                     /db_xref="GeneID:25479207"
+                     /translation="MNIRPAAVKRWVATVNNPTQQESQTLRDAIEAQTSYAVIGREVG
+                     ESGTPHLQCFFIFNNRLRLRQVKAVPGLQRAHLEPARGTSAQAANYCKKDGDFDEYGE
+                     LPNSGPKTTIFEAFRDWYKDQPGVVTERDILDHHPSILRYPHFIEVCHRQYGRRPTLV
+                     EGQLRNWQLELSNMLDEEPDDRKICFVVDEEGNKGKSWLTAYWYSNRSDVQMLSIGKR
+                     DDLTYAIDVSKRVFVFDINRGQMEYFQYSVVESLKNRMIMSNKYKSVTKIIPHKVHVI
+                     VFCNEEPDRTAMTRDRYQMKRITPL"
+     gene            complement(1234..2253)
+                     /locus_tag="AMR05_gp2"
+                     /db_xref="GeneID:25479206"
+     CDS             complement(1234..2253)
+                     /locus_tag="AMR05_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163910.1"
+                     /db_xref="GeneID:25479206"
+                     /translation="MQAGLAALAEGDYIYPLAQYAGLELLASAAARHGSNRGTYMPAE
+                     SFLRKRAAVTPDEPQTKRQRTYTYAPRVLNMPAGVMTRTRRTVYKYNLGTRVGKFKCN
+                     KFSFKTGVTNNMADKAKHSFRLIQIPYSSDDSLFNTRNGRLVNVRGVRLQWVCELKPG
+                     GSTGNIERPLSVRWAIINPKENDGTSTVGTANWWTSLNPTNEYATDFVNGSGSTTPGT
+                     GTGYQDWFDLMTRGINRRKYGVLKEGHFTISPPETSDADSRKTWRQQKVIQTYLKINQ
+                     CMKWGSNNTGGENDYPNANLYFVWWYCDRGNMDDLQWYPSVNYVPLQTQAQVTVFFKT
+                     AKGLL"
+ORIGIN
+        1 cagtattacc cagctcggtc atggtaccag taccataaaa aattgatttg caaaaatgaa
+       61 tatcagacct gcagcagtaa aacgttgggt tgcgacagtg aacaatccaa cccaacagga
+      121 gtctcaaact ctccgtgatg caattgaggc ccaaacttcg tatgccgtta tcggacgaga
+      181 agtgggcgaa tctggaacgc cgcatctaca atgcttcttc atcttcaaca accgactccg
+      241 acttcgacaa gtcaaggcag tcccaggctt gcagagggca catctcgagc cagcaagagg
+      301 aacatctgcc caagccgcaa actattgcaa gaaagatggg gatttcgacg aatacggaga
+      361 gctccccaac agcggcccca agacgactat ctttgaggcc ttccgtgatt ggtataaaga
+      421 ccaaccggga gtcgtcactg agcgagacat cctcgatcac cacccctcca ttctccgata
+      481 cccccacttc attgaagtct gccatcgcca gtatggaaga cgacccactc ttgtggaagg
+      541 acagctccgc aactggcaat tggaactttc caacatgcta gacgaggaac ccgatgaccg
+      601 taagatttgt tttgtagttg acgaagaagg aaataaagga aagagttggc tgaccgctta
+      661 ttggtattct aatcgctccg atgttcaaat gctctcgatt ggtaaacgcg atgaccttac
+      721 ttatgctatc gacgtcagta agcgtgtctt tgtctttgac atcaatcgag gacagatgga
+      781 gtatttccag tactccgttg tcgaatctct caagaaccga atgatcatgt ccaacaagta
+      841 taagtctgtg accaagatta ttcctcacaa ggttcatgtc attgtattct gcaatgaaga
+      901 acctgataga actgcgatga ctcgtgatcg ctaccaaatg aaaagaatca caccactcta
+      961 aataatttta ttagtgaacg caccactgta cggttctaat aatgtcttaa cattctgctt
+     1021 cttgcgcttc tgctgcccca atagaggtta cggcgtaaat tggcccgtgg ccctctatag
+     1081 aaacggtacc tgtttctgtg catcctcgcc caaagcgaat tcataaatgc ggtggttagg
+     1141 cccaaagcgc ttaggcatgc tacgacgata gcttgccatg tatctagcat gacgtctgtt
+     1201 tgaataaata agaggcatct gaaacaacag tggttagagt aggcccttgg cggttttaaa
+     1261 gaacactgtc acttgagctt gcgtctgcaa tggtacgtaa ttgacacttg gataccattg
+     1321 taaatcgtcc atattgccac ggtcgcaata ccaccagaca aagtacaagt ttgcatttgg
+     1381 gtaatcgttc tctccgccgg tgttgttgct tccccacttc atgcattgat tgatcttcag
+     1441 atatgtctgg atgactttct gttgtcgcca ggtcttgcga ctatccgcgt cagaagtctc
+     1501 tggtggactt atggtgaaat gaccctcctt aagtacgcca tacttgcgtc tgttgatgcc
+     1561 acgtgtcatc aagtcgaacc agtcctggta gccagtccca gtcccgggtg ttgtggatcc
+     1621 cgatccattc acgaaatcag ttgcatattc gtttgttggg tttaaactgg tccaccagtt
+     1681 ggctgtccca actgtcgatg ttccgtcgtt ttcctttggg tttatgatgg cccatctaac
+     1741 actcagtggt ctttcaatgt tccctgtgct gcctccaggc ttcaattcac acacccattg
+     1801 aagtcggaca cctcgaacgt tgacaagtcg tccgtttctg gtattgaaca atgagtcgtc
+     1861 ggacgaatac ggaatttgga tcaaacggaa agagtgtttg gctttgtccg ccatgttgtt
+     1921 cgttactcca gttttaaatg agaacttgtt gcatttaaac ttcccgacgc gcgtgccaag
+     1981 attgtacttg tacaccgtac ggcgtgtacg tgtcattact cctgccggca tatttaaaac
+     2041 tcttggtgcg tatgtgtatg tccgttgacg tttagtctgt ggctcgtctg gcgtgactgc
+     2101 tgctcgcttg cgcaaaaatg actccgcagg catgtacgta cctcgatttg aaccgtgtct
+     2161 tgcagctgcg ctggcaagta attctaatcc cgcgtactgt gctaacggat aaatatagtc
+     2221 tccttcggcc aatgcggcta gcccggcttg catattgtga gcatgttcgg tcgtgtgaaa
+     2281 aaccgagctg gta
+//

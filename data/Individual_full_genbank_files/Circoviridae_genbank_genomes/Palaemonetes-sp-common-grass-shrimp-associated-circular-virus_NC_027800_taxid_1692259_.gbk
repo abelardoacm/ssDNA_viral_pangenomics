@@ -1,0 +1,97 @@
+LOCUS       NC_027800               2257 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Palaemonetes sp. common grass shrimp associated circular virus
+            isolate I0006H, complete genome.
+ACCESSION   NC_027800
+KEYWORDS    RefSeq.
+SOURCE      Palaemonetes sp. common grass shrimp associated circular virus
+  ORGANISM  Palaemonetes sp. common grass shrimp associated circular virus
+REFERENCE   2  (bases 1 to 2257)
+REFERENCE   3  (bases 1 to 2257)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528568.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2257
+                     /organism="Palaemonetes sp. common grass shrimp associated
+                     circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0006H"
+                     /host="Palaemonetes sp."
+                     /db_xref="taxon:1692259"
+     stem_loop       join(10..19,2247..2256)
+                     /note="contains nonanucleotide motif"
+     gene            165..1058
+                     /locus_tag="AMR03_gp1"
+                     /db_xref="GeneID:25502963"
+     CDS             165..1058
+                     /locus_tag="AMR03_gp1"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163935.1"
+                     /db_xref="GeneID:25502963"
+                     /translation="MLPFAVELAQNAYAAYELGKQGYEYYKDYSPYVYRAGRGVKRKL
+                     GAFLQNEQDLDDSPAMRRMRRYSRRGMLMRRRFRRRRRVFRRSRRVFRRRRAFRRRSG
+                     VITSLLRFETDIKLDSNGVANNSLYFHMGTLRTKINSAYIHMFDEFKILSISVVMRHD
+                     KNMSATDNAITELWWTYDPDLTGRKIDMDNIKMVRRARSVHLGPMGKKVLKCYPIFVN
+                     PTKLEGGEQQQTISSRGSAYNRPWFDAAGLNVGYSDAMKSHNGIAWALEGQPGRGLRL
+                     DYAIRIAWRGRRDGQTYTGDS"
+     gene            complement(1240..2205)
+                     /locus_tag="AMR03_gp2"
+                     /db_xref="GeneID:25502962"
+     CDS             complement(1240..2205)
+                     /locus_tag="AMR03_gp2"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163936.1"
+                     /db_xref="GeneID:25502962"
+                     /translation="MAAKRDSAVKRWCFTLNNYTDADCEALKEKLTTDTCSRAIVGKE
+                     KGENGTPHLQGFVSLKTRKRLSAMKTFLSPRYHFEQAKGTDEQNTEYCSKEGDVLIDV
+                     GENVKGRGDKGGGFNEGANIKRVVYHLLEGKDKEALLQDEKMLGAYMKYKRSITEMVS
+                     EVKSEQETKRLKQDLDNATLRPWQRELKEYLTGDPHDRHIIWYIDGQGNNGKSWFAKY
+                     CVAELGAIRLENAKTADLTHAYNGERVVIFDLSRTTEGHFNYGALESIKNGCVFSSKY
+                     DSRQKMFPIPHVIVFANWGPDRSKLSEDRWVTKTWSFEQETFQTF"
+ORIGIN
+        1 tagtattacc cgggccaccg gtaccacggt cccatcctcg cgccgctagg cgctactacg
+       61 catgcgcgtg tttagacacg cctaggctag gctattacag tcggtgttgc aatcgcgccg
+      121 caggcgcact atataacacg gtcgactgac tatgtatagt cacaatgttg ccgttcgctg
+      181 tcgagttagc acagaacgcc tatgccgctt atgagttagg caagcaaggc tacgagtact
+      241 ataaggacta ttctccttac gtttatagag ccggtagagg agtgaagagg aaactaggtg
+      301 cttttcttca aaacgaacag gatttagacg atagtcccgc tatgagacgt atgcgtcgtt
+      361 attcccgtcg gggtatgctt atgagacgtc gttttcggag gagacgacgt gtatttagga
+      421 ggagtaggag agtatttcgc cgtcgccgtg cctttaggcg tcggtctgga gtaattacta
+      481 gtttgcttcg tttcgagact gatattaagt tggactctaa tggagtggct aataattctc
+      541 tgtactttca tatgggtacg ctacgcacca agatcaattc ggcatatatt cacatgtttg
+      601 atgagtttaa gattttatcc atctctgtcg taatgaggca tgacaagaat atgtcggcta
+      661 ccgacaatgc cattactgaa ctttggtgga cttatgatcc tgaccttact ggaagaaaga
+      721 tagacatgga caacatcaag atggtgcgcc gcgctcgcag cgttcacttg gggcccatgg
+      781 ggaagaaagt gcttaagtgc tatcctatat tcgtgaatcc taccaagctt gaaggtggag
+      841 aacaacaaca gaccatctct tctcgcggtt ctgcctataa ccgcccatgg ttcgatgctg
+      901 ctggtctcaa tgtgggttac tctgatgcta tgaaatctca caacggaatc gcctgggcct
+      961 tggaaggcca accaggacga ggactacgcc tggactacgc cattcggatt gcctggagag
+     1021 gaagaaggga cggacaaaca tacactggcg actcttagca gtcacacacc atgatcaatg
+     1081 ctcaattcga aatttattaa gtttattatc aaaggggaag gttaggggag ttcagggtaa
+     1141 gggctagcta tagaaagccc cattatcaat gcttaaggtt aggggagttc agggcaggga
+     1201 tagctataga aatgttcaat aaaatcaatg aaaaatcgat caaaatgtct ggaatgtttc
+     1261 ttgttcgaat gaccaggtct ttgtcaccca gcgatcctca ctgagcttgc ttcgatccgg
+     1321 cccccagttg gcgaagacaa tcacgtgtgg gattgggaac atcttctgtc tgctgtcgta
+     1381 cttgcttgag aacacacacc cattcttgat agattctagg gcgccgtagt tgaagtgtcc
+     1441 ttctgtagta cggcttaagt caaagatcac aacacgctcg ccgttgtagg cgtgtgtcaa
+     1501 gtcagccgtc ttagcgtttt ccagtctgat agcacccaac tccgcgacac agtacttggc
+     1561 gaaccacgat ttcccgttgt tgccttgtcc gtcgatgtac caaatgatgt gacgatcgtg
+     1621 agggtctccc gtcaggtact ctttcagctc acgttgccag ggtcggaggg ttgcattatc
+     1681 gaggtcttgc ttgagtcgtt tcgtctcttg ctccgactta acctccgaca ccatctccgt
+     1741 aatactgcgc ttgtacttca tgtacgcccc caacatcttc tcgtcttgca acagtgcttc
+     1801 tttgtctttt ccctctagca aatggtagac tacacgtttg atgtttgcac cttcgttaaa
+     1861 gccaccccct ttatctcccc tccctttcac gttttcaccg acatcaatca acacatcgcc
+     1921 ttctttgcta cagtactcag tgttctgttc gtctgtgcct ttagcttgtt cgaaatgata
+     1981 tctcggactc aaaaatgtct tcatagccga cagtcttttc cgtgttttca aactcacgaa
+     2041 tccttgcaaa tggggtgttc cattttcacc tttttctttg ccgacaatcg ccctcgagca
+     2101 cgtatcagta gtcagtttct ctttcaaggc ttcgcagtca gcgtcggtgt agttattgag
+     2161 tgtaaaacac caccgcttca cagcgctgtc tcgcttcgcc gccatcttct ttgttttgaa
+     2221 ctcggcgtga cgtcattggt accagtggtg gcccggt
+//

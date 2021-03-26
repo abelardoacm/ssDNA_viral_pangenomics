@@ -1,0 +1,92 @@
+LOCUS       NC_038402               1923 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Pacific flying fox associated cyclovirus-1 isolate Tbat_H_103699,
+            complete genome.
+ACCESSION   NC_038402
+KEYWORDS    RefSeq.
+SOURCE      Pacific flying fox associated cyclovirus-1
+  ORGANISM  Pacific flying fox associated cyclovirus-1
+REFERENCE   2  (bases 1 to 1923)
+REFERENCE   3  (bases 1 to 1923)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KT732785.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNABaser v. 4
+            Coverage              :: complete
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1923
+                     /organism="Pacific flying fox associated cyclovirus-1"
+                     /mol_type="genomic DNA"
+                     /isolate="Tbat_H_103699"
+                     /isolation_source="feces"
+                     /host="Pteropus tonganus"
+                     /db_xref="taxon:1795983"
+                     /country="Tonga"
+                     /collection_date="2015"
+     gene            38..745
+                     /locus_tag="D1Q25_gp1"
+                     /db_xref="GeneID:37617129"
+     CDS             38..745
+                     /locus_tag="D1Q25_gp1"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009506297.1"
+                     /db_xref="GeneID:37617129"
+                     /translation="MRRMRLRRYRPRRVVAPRRGIRKRRSFRRRRNRKYDVHNFRLKS
+                     GSYVVDLTPGVNGGARVVGEAVVLNQLPINFNGLTLLYSHIRITKAVYRFIPMYTQRT
+                     WPDPATNDTDLPEILSTQWYGPALDVDSNPSQSYNVLRSDFLTRNHQWNRPFKRVLYP
+                     KVNYFVTASTYVDNAAPNSNTACALKKMPWVRTSGSNAYDNLQCGVMYVGAIGGPAGA
+                     AVKYRVERTYYVQARKV"
+     gene            complement(751..1821)
+                     /locus_tag="D1Q25_gp2"
+                     /db_xref="GeneID:37617128"
+     CDS             complement(join(751..1505,1605..1821))
+                     /locus_tag="D1Q25_gp2"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009506298.1"
+                     /db_xref="GeneID:37617128"
+                     /translation="MPGEPKSHRRYVFTLNNYSDDDVARLQQLEARYMVFGKEVAPTS
+                     GTKHLQGFINFGRAVRFNSARKLVGGDGVTEVTDRAASGGPNGDCFDYLPHGNDPATR
+                     GFVFLGKPTSQGRRTDLQRVADLAKQSGTTAHTIAREFPVEFIKYGRGITNLLRTINP
+                     IPSRSKPTIVVVLVGAPGVGKSRFANEVGSGLGDTYYKPRGEWWDGYCQQRSVIIDDF
+                     YGWIKYDELLKICDRYPHKVPVKGGYEEFTSEYVFITSNSNVDQWYKFDNYSPAAIHR
+                     RLSVYVGLMCDGSTAHFPEWSPKFSWFDSAWTTMQIKWTVHDMVNKV"
+ORIGIN
+        1 tatataagcc gcttgggcgg cttatctctt atcagtcatg cgtcgaatga ggttgcgtcg
+       61 ttatcggccc cgtcgggtcg ttgccccccg ccgcggtatc aggaagcgcc ggtcgttccg
+      121 tcgccgtcgg aataggaagt acgatgtaca taactttcga ttgaagagtg gctcctatgt
+      181 cgtggacctt acccccggtg ttaatggtgg agcccgggtt gtcggtgaag ccgtcgtcct
+      241 caatcaactt cctattaatt ttaatggcct tacattgctc tactcccata ttcggattac
+      301 gaaggccgta tatcggttta tacctatgta tactcagcgt acatggcctg atcccgctac
+      361 caatgatact gacttgcctg agattttgtc tactcaatgg tatgggcctg cattagatgt
+      421 tgattccaat ccttcccagt cgtataatgt attgcgctct gattttctta cgagaaatca
+      481 tcaatggaac cggcctttta agcgtgtatt gtatcctaaa gtgaattatt ttgtaaccgc
+      541 cagtacgtat gttgataatg ctgcccccaa ttctaatact gcgtgtgccc tgaagaagat
+      601 gccttgggtg cgtacgtctg ggtctaatgc ttatgataat ttgcagtgtg gtgttatgta
+      661 tgttggggct attggtggcc cagctggtgc tgctgttaag taccgtgttg agcgtaccta
+      721 ttatgtacaa gccagaaagg tttaaataaa ttatacttta ttaaccatat cgtgtacagt
+      781 ccatttaatt tgcatggtag tccaagcaga atcaaaccaa gaaaattttg gggaccattc
+      841 cgggaaatgg gcggttgagc catcacacat taatcccacg tagactgaga gtcttctgtg
+      901 tatagctgcc ggcgagtagt tgtcgaattt gtaccactgg tcgacgttac tgttgctggt
+      961 gataaagacg tattcagacg taaattcctc gtacccgcct ttaaccggta ctttatgggg
+     1021 gtaacgatcg cagattttga ggagctcgtc gtatttaatc catccataga agtcgtcgat
+     1081 gatgacactt cgttgttggc aatatccatc ccaccattcg cctctgggtt tgtagtaggt
+     1141 gtctcccagt ccggatccca cttcgtttgc gaagcgactt tttcccactc caggggcccc
+     1201 cacaaggacc acgacgatgg ttggcttaga tctgctcggg atggggttga tggtccggag
+     1261 cagatttgtg attcctcttc cgtacttgat gaactcaacg gggaattcac gggcgatggt
+     1321 gtgcgcggtt gtaccacttt gctttgcgag atctgccacc cgctggagat cagttcgtcg
+     1381 gccttgacta gttggcttgc ctagaaacac aaagccccgg gtagccggat catttccgtg
+     1441 ggggagataa tcgaaacagt ctccgttcgg gccgccggag gcggcccgat cggttacctc
+     1501 ggtcacttac ctttttcaaa gtaatcccct gattttgtgc agtagtcgcg attttggtca
+     1561 tcagtacctt ctagaagtct ttgctccttc caggtgagcc ctacctccat ctcctcccac
+     1621 cagctttcga gccgaattaa accgaacagc tcgtccgaag ttaataaatc cttggaggtg
+     1681 cttagtcccg ctggtgggcg ccacttcttt accaaaaacc atatatcttg cttccagttg
+     1741 ttgcagtcgg gcgacgtcgt catcgctgta attgttgagt gtgaaaacgt agcgcctgtg
+     1801 tgacttgggc tccccgggca tctgggacga agtggcgggt ctagtattac cccgccactt
+     1861 cgttacgaac ttcgttacgt gtttactttt cttatcttat cattgattgc cgcgcgccgc
+     1921 ccg
+//

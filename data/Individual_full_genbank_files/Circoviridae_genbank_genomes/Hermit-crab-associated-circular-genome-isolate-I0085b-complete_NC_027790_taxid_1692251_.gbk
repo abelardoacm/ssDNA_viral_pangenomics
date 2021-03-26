@@ -1,0 +1,61 @@
+LOCUS       NC_027790               1063 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Hermit crab associated circular genome isolate I0085b, complete
+            genome.
+ACCESSION   NC_027790
+KEYWORDS    RefSeq.
+SOURCE      Hermit crab associated circular genome
+  ORGANISM  Hermit crab associated circular genome
+REFERENCE   2  (bases 1 to 1063)
+REFERENCE   3  (bases 1 to 1063)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528557.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1063
+                     /organism="Hermit crab associated circular genome"
+                     /mol_type="genomic DNA"
+                     /isolate="I0085b"
+                     /host="hermit Crab"
+                     /db_xref="taxon:1692251"
+     stem_loop       join(10..15,1056..1061)
+                     /note="contains nonanucleotide motif"
+     gene            38..904
+                     /locus_tag="AMQ98_gp1"
+                     /db_xref="GeneID:25479218"
+     CDS             38..904
+                     /locus_tag="AMQ98_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163917.1"
+                     /db_xref="GeneID:25479218"
+                     /translation="MISKRWCYTLNNYSEDDVVTMKAVPTTYHVLGKEVGTNGTPHIQ
+                     GFLTFKSNKRLSAMKKINARAHWEVAKGTSKQAADYCKKDGNFEELGSVPSQGKRTDL
+                     EDAAVMITAGESLKRVAEEHPTVVIKYHKGLSALKSLLSESRETDDVRGIWLHGPPGC
+                     GKSHLARTVSPYLKAQNKWWDGYANEEYVLIDDFDKGGKCLGHYLKLWADKYECTGEI
+                     KGATVALNHRKFIITSNYHPDEIFDDDSVLLEAITRRFSIRSCWHHSREADAVWFDSL
+                     TKKEAHAATANK"
+ORIGIN
+        1 cagtattacc ctccacttcg tcacaaaata acaaacgatg atttctaaac gctggtgtta
+       61 cactcttaac aactactctg aggatgatgt cgttaccatg aaggcggttc ctaccacata
+      121 ccatgtgtta ggtaaggaag ttggtacaaa cggcacaccg catattcaag gctttttgac
+      181 tttcaagtcc aataaacgcc tctccgcaat gaagaagatc aatgcgcgag cgcattggga
+      241 ggttgctaaa ggaacgtcaa agcaagctgc tgattattgc aagaaggatg gaaatttcga
+      301 agaacttggc tccgtccctt ctcaaggaaa aaggaccgat cttgaagacg ctgcagtgat
+      361 gataaccgct ggggagtcac ttaaacgagt cgcggaagaa cacccaaccg tcgttatcaa
+      421 gtatcataaa ggcctctccg ctcttaaatc tcttctctcc gaatcccggg aaaccgacga
+      481 tgtacgtggg atctggctcc atggcccgcc agggtgtggt aaatcccatc ttgctcggac
+      541 cgtctccccc tatttgaagg ctcagaacaa atggtgggat ggctatgcta atgaagaata
+      601 tgtcctaatc gatgacttcg ataagggtgg taaatgtctc ggccactatc tgaagctctg
+      661 ggcagataaa tatgaatgta ctggtgaaat taaaggcgct actgtcgctc tgaaccatcg
+      721 aaaattcata atcacctcaa attaccatcc cgatgagatc tttgatgatg atagcgtact
+      781 cctggaagct atcactcgcc gtttctctat ccgctcctgc tggcatcact ctagggaagc
+      841 agacgcagtc tggttcgata gtctaacaaa aaaagaagcg cacgccgcaa cagccaataa
+      901 gtagaatgaa ttcgacagaa gatctactaa catacacatc ttatagagcg gaggacccac
+      961 tggaccgcac aaacgtctct gggaaaaggc gggaaacttc ccgccctctc aaaaactcct
+     1021 aaacaactca cgactgtaaa ttttgtaccg aagaatggag gat
+//

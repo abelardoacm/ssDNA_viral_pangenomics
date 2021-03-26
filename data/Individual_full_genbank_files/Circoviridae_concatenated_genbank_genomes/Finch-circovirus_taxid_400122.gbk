@@ -1,0 +1,100 @@
+LOCUS       NC_008522               1962 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Finch circovirus, complete genome.
+ACCESSION   NC_008522
+KEYWORDS    RefSeq.
+SOURCE      Finch circovirus
+  ORGANISM  Finch circovirus
+REFERENCE   2  (bases 1 to 1962)
+REFERENCE   3  (bases 1 to 1962)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            DQ845075.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1962
+                     /organism="Finch circovirus"
+                     /mol_type="genomic DNA"
+                     /host="finch"
+                     /db_xref="taxon:400122"
+     gene            29..904
+                     /gene="rep"
+                     /locus_tag="FiCV_gp1"
+                     /db_xref="GeneID:4443104"
+     CDS             29..904
+                     /gene="rep"
+                     /locus_tag="FiCV_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_803549.1"
+                     /db_xref="GeneID:4443104"
+                     /translation="MPKQARESPCKRWCFTLNNPTEEEIERVKNLSPSEYHYAIVGKE
+                     KGEQGTPHLQGFLHLKKKQRLKQMKELIPRAHFERARGSDEDNEQYCGKEGDVILTIG
+                     VPSKGNRSDLAGAVAAVKAGRGMAEVAREFSLAYVRYGRGLRDLALLIGQKPRDFKTE
+                     VIVLTGPSGCGKSRWANEQEGTKFYKMKGDWWDGYSNEDMVIIDDFYGWIPFCELLRL
+                     CDRYPHKVPVKGSYVEFTSKKIIITSNTHPDHWYNEEKCYLQALFRRINRWLVWDGLR
+                     FEDAPECMKKYPINY"
+     gene            complement(614..1063)
+                     /locus_tag="FiCV_gp2"
+                     /db_xref="GeneID:4443106"
+     CDS             complement(614..1063)
+                     /locus_tag="FiCV_gp2"
+                     /note="ORF C2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_803550.1"
+                     /db_xref="GeneID:4443106"
+                     /translation="MAQGQCARSAFGRPSILRRQLWGCKAWPTLGGSRAATRQGTALR
+                     AVNTREVKSSIVDGVLLHALRSIFKSQTVPNKPSVDPPKQGLQVAFLFIVPVIWVGVA
+                     CNYYFLRRELHIAALNGHLVWVTVTEAEQFTERDPPIKVIYDDHVFV"
+     gene            complement(1212..1961)
+                     /gene="cap"
+                     /locus_tag="FiCV_gp3"
+                     /db_xref="GeneID:4443105"
+     CDS             complement(1212..1961)
+                     /gene="cap"
+                     /locus_tag="FiCV_gp3"
+                     /codon_start=1
+                     /transl_except=(pos:complement(1959..1961),aa:Met)
+                     /product="capsid protein"
+                     /protein_id="YP_803551.1"
+                     /db_xref="GeneID:4443105"
+                     /translation="MLTATWNHFLIQRRMRHWRRRRHLRMRRRHWRRRRRIPANRRGH
+                     RTNRIYRIKLVRQYQQILGKAENAGAFRFGTDGVTIILKDFFPEGKELPFEDYRIRLA
+                     KVEGIPRREDWTHWEGAGVTVPIQDQHLRDFFKKTRLTVDPLANWDGARKWTLRKGFK
+                     RLFRPRPQLSVTDTDTANTTAALWLNNPRGAWIPLMKKGETTASTTSGTRVNHYGLAF
+                     SFPEPWPADFEMQIKATIYVEFRQLNMTHMN"
+ORIGIN
+        1 accggccact tggaaccctg gaaccaccat gccgaaacaa gcgcgcgaga gcccttgcaa
+       61 gcggtggtgc tttaccctca acaacccgac tgaggaggag atagagagag tgaaaaatct
+      121 gtctccgagt gagtatcact atgcgatagt cgggaaagaa aagggagaac aaggcacccc
+      181 gcatttgcaa gggttcctgc atctgaaaaa gaagcagcgg ttgaagcaaa tgaaagagct
+      241 gattccccgc gcgcatttcg agagagcccg tggttccgat gaggacaatg agcagtattg
+      301 cggcaaggag ggggacgtta tactcaccat tggggttcct tcaaagggta accggagtga
+      361 ccttgccgga gctgttgccg ccgtgaaagc cggaagaggt atggccgaag tcgcgcgaga
+      421 gttcagtcta gcctacgtca gatatgggcg gggcctgcgt gatcttgcgc tgctgattgg
+      481 ccagaagccc cgtgacttca aaacggaagt catagtgctg accggcccta gtgggtgtgg
+      541 caaatcccgc tgggccaatg aacaagaagg aactaagttt tataaaatga aaggtgattg
+      601 gtgggacggg tattcaaacg aagacatggt catcatagat gacttttatg ggtggatccc
+      661 gttctgtgaa ctgctccgcc tctgtgaccg ttacccacac aaggtgcccg ttaagggcag
+      721 ctatgtggag ttcacgtcta agaaaataat aattacaagc aacacccacc cagatcactg
+      781 gtacaatgaa gagaaatgct acctgcaagc cctgtttcgg aggatcaaca gatggcttgt
+      841 ttgggacggt ctgagatttg aagatgctcc ggagtgcatg aagaagtacc ccatcaacta
+      901 ttgaggactt cacctcccgc gtgttcaccg cgcgaagcgc ggtgccctgc cgcgtagcgg
+      961 cccgtgaccc ccccagagtt ggccatgcct tgcaccccca aagttgcctc cttaggatcg
+     1021 aaggtcggcc gaaggccgac cgagcacact gaccttgggc catgccttgc acccccaaag
+     1081 ttgcctcctt aggatcgaag gtcggccgaa ggccgaccga gcacacttat tctcgaggga
+     1141 aagagcggtt ttctgactta gggttaggga aaggaatacg gctatgcgga tcgttcgtac
+     1201 aataaaacac tttaattcat gtgtgtcatg ttcaattgtc tgaattcaac ataaatagtg
+     1261 gctttgatct gcatctcaaa gtcagccggc catggttctg ggaagctgaa tgccaggccg
+     1321 tagtggttca ctctggtccc cgatgtggtg gaggcagtgg tttctccttt cttcatgagg
+     1381 ggtatccatg cccctctggg gttgttcagc cacagcgcgg ctgttgtgtt agccgtgtca
+     1441 gtgtccgtaa cggacagctg tggtcggggg cgaaacagcc gcttaaaacc ttttctcagg
+     1501 gtccactttc tggcaccatc ccagtttgca agggggtcga ccgtcagccg ggtcttctta
+     1561 aagaagtctc gaaggtgctg atcctgtatt gggacagtta cccccgcccc ttcccagtgc
+     1621 gtccaatctt cccggcgggg tatgccttct actttggcca gacggattct atagtcctca
+     1681 aagggtagct ccttcccttc tgggaaaaag tctttgagga ttatagttac cccgtcagtg
+     1741 ccgaacctga aggccccggc attttcagcc ttgccgagta tctgctggta ctgtctgacc
+     1801 agctttatcc ggtagatcct gttggtgcgg tggccacgcc tgttggcagg gatccgcctc
+     1861 ctgcggcgcc agtgccgcct gcgcatgcgc agatggcgtc tccgcctcca gtgacgcatc
+     1921 cgcctctgaa tgaggaagtg gttccaagtg gccgttagta tt
+//

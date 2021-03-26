@@ -1,0 +1,86 @@
+LOCUS       NC_038411               1843 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Cyclovirus Equ1, complete genome.
+ACCESSION   NC_038411
+KEYWORDS    RefSeq.
+SOURCE      Cyclovirus Equ1
+  ORGANISM  Cyclovirus Equ1
+REFERENCE   2  (bases 1 to 1843)
+REFERENCE   3  (bases 1 to 1843)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR902499.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 7.0
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1843
+                     /organism="Cyclovirus Equ1"
+                     /mol_type="genomic DNA"
+                     /isolate="horse 1"
+                     /host="Equus caballus"
+                     /db_xref="taxon:1673638"
+                     /country="USA"
+                     /collection_date="10-Oct-2012"
+     gene            1..816
+                     /locus_tag="D1Q34_gp1"
+                     /db_xref="GeneID:37617156"
+     CDS             1..816
+                     /locus_tag="D1Q34_gp1"
+                     /codon_start=1
+                     /product="Rep protein"
+                     /protein_id="YP_009506315.1"
+                     /db_xref="GeneID:37617156"
+                     /translation="MAQKKGWCFTYNNYDEQTLNGIFNRCEDICKFIVVGKEVCPTTG
+                     TKHLQGYCLFNERKRFASVKEAIGGKSHIEPAKGSPQQNYDYCTKSGDYETRGTLPKG
+                     KYSTLYMVCEELKSGTPLRTIALNEPETFVRHHRGLQRFTEILGESTLRDWKTEVIVY
+                     IGETGTGKSRKCAELCGSTPTYYKPRGKWWDGYTGQPNVIIDDFYGWIKYDELLRITD
+                     RYPHRVPVKFGYQQFLAKTIYITSNKPMKEWYTFDISALERRITNVTLFKKLK"
+     gene            complement(823..1629)
+                     /locus_tag="D1Q34_gp2"
+                     /db_xref="GeneID:37617155"
+     CDS             complement(823..1629)
+                     /locus_tag="D1Q34_gp2"
+                     /codon_start=1
+                     /product="Cap protein"
+                     /protein_id="YP_009506316.1"
+                     /db_xref="GeneID:37617155"
+                     /translation="MAFRRRRTYRRRLPRRPRYVITKRFRPRYQRQRYRTRKQLNAGD
+                     KYFTRMHYSSELRIVANDPSTYSRQMRIYMSWFSNFIDFNQNWSQYKVHKIVMKFTPM
+                     FNNTQVNDAVGNYAVAVMNTGLGFGGTDENSSTIIEENRMSYEQLVAIPSTKIRKATK
+                     AVTLVFKPKIANTTGVVLGESSYVHNNNLIYHPWISTLRASTNANKVPQLYGAYFAHQ
+                     GTANEAVPQEINYMVDVFAYVTFKGYRLPVSSKQKIRQLNPVPEPDMTDM"
+ORIGIN
+        1 atggctcaga agaaaggttg gtgctttaca tacaacaatt acgacgaaca aactctcaat
+       61 ggaattttca accgatgcga agatatttgt aaatttattg tggtcgggaa agaagtatgt
+      121 cctacaacgg gaactaaaca ccttcaggga tactgcctat tcaatgaacg gaagcgtttt
+      181 gcaagtgtta aagaagcaat tggtggcaag tcccacattg aaccagctaa aggaagtcct
+      241 caacagaatt atgattattg tacaaaatcg ggcgattatg aaacgagggg aacacttcca
+      301 aaggggaaat attcaactct gtatatggta tgcgaagaac ttaaatctgg aactccgtta
+      361 cgaaccatcg ctcttaacga acccgaaact tttgtcagac atcaccgagg cttacaaaga
+      421 tttactgaaa ttttgggcga atcaaccttg cgagactgga agactgaagt tattgtctac
+      481 attggcgaaa cgggaacagg aaaatcacga aaatgtgcag aactatgtgg atcaacacct
+      541 acctactata agcctagagg gaagtggtgg gatggttaca ccggacaacc caatgtcatc
+      601 attgatgact tttatggatg gattaaatac gatgaactgc tacgaattac tgacagatac
+      661 ccccatagag tccctgtgaa atttggctat caacaattcc tagctaaaac tatttatata
+      721 acctctaata aacctatgaa agaatggtac acctttgaca taagtgctct cgaaagacgt
+      781 ataacaaatg taactttatt taagaaatta aaataaaact ttttacatat cggtcatatc
+      841 tggttcggga acaggattta attgcctaat tttttgtttg ctactaacag gtaacctata
+      901 tcccttaaac gtaacgtatg cgaacacgtc aaccatataa tttatttctt gaggaacagc
+      961 ttcatttgca gtgccttgat gcgcaaagta tgctccgtat aactgcggta ctttgtttgc
+     1021 attagtagac gctcgtagag tagatatcca tgggtgatag ataagattgt tgttatgaac
+     1081 ataactgctc tctcctagaa ctacacctgt agtgtttgct atttttggtt tgaagactag
+     1141 agttacggcc ttggttgctt ttcttatctt agttgatggt attgcgacta actgctcgta
+     1201 tgacatgcga ttttcttcta ttattgtaga tgaattctcg tccgtccccc cgaaacctaa
+     1261 ccctgtgttc attacagcca ctgcgtagtt tcctactgcg tcattaactt gcgtgttgtt
+     1321 gaacatagga gtaaacttca taactatttt atgaactttg tattgactcc aattttgatt
+     1381 gaagtcaata aaatttgaaa accacgacat atagatcctc atttgcctag agtaagtaga
+     1441 gggatcgtta gctacgatcc taagctcaga ggagtaatgc atgcgagtaa aatatttatc
+     1501 gcctgcgttt aattgcttcc ttgtccgata acgttgccgt tggtaacgcg gacgaaagcg
+     1561 cttggtgata acgtatcgtg gccgacgcgg caagcgtcga cgatacgtcc gtctccgtcg
+     1621 gaaggccatg atgaaatgaa acgactcagt tgagccgatt ccttttataa cctctgagtc
+     1681 gatgagtcgc ttggcggggt aatactatac ccgccaagag agacgactca ggggcgctgc
+     1741 gcgtgcgcga gagattgagg ccacgcccac aggtgctgcc gcacctgtgt gcgttgctta
+     1801 aaaagcgctt cgcgcaaagg tctgttgcta gtgatgatga ttg
+//

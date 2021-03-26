@@ -1,0 +1,104 @@
+LOCUS       NC_040567               2803 bp    DNA     linear   VRL 12-SEP-2019
+DEFINITION  Ecklonia radiata-associated virus 7 capsid-like protein and Rep-B
+            genes, complete cds.
+ACCESSION   NC_040567
+KEYWORDS    RefSeq.
+SOURCE      Ecklonia radiata-associated virus 7
+  ORGANISM  Ecklonia radiata-associated virus 7
+REFERENCE   2  (bases 1 to 2803)
+REFERENCE   3  (bases 1 to 2803)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MG740718.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2803
+                     /organism="Ecklonia radiata-associated virus 7"
+                     /mol_type="genomic DNA"
+                     /host="Ecklonia radiata"
+                     /db_xref="taxon:2480197"
+                     /country="Australia"
+                     /collection_date="01-Jun-2014"
+     gene            169..1020
+                     /locus_tag="EXJ20_gp1"
+                     /db_xref="GeneID:41702955"
+     CDS             169..1020
+                     /locus_tag="EXJ20_gp1"
+                     /codon_start=1
+                     /product="capsid-like protein"
+                     /protein_id="YP_009551982.1"
+                     /db_xref="GeneID:41702955"
+                     /translation="MTTRKRMILPIQRRRVKPRLYKRKTRTYRRSYGTRRMRRMQDFS
+                     PRAIANPVGLSNAKTRLLTFSQDSPDRAFVPYIMTNIPFTAANAPDSRQRNIINIRGF
+                     KIQVVFQNTQRPAFYLNWAVIHPKLSIDDTSVSTQDFFRTYNANRAVDLITDNTGVVN
+                     NIAQDVPTHGMSSINTDKWVVLKHKRTLJAGAINNPDDNALXFTATNCQIPKGNRVVI
+                     DKYIKMGRQFRFPNDDSTFPEGGNTIFCYWLTNLNNYLGSQNTSTDVSVIRTTGRIIT
+                     YFRETKN"
+     gene            complement(1133..2056)
+                     /locus_tag="EXJ20_gp2"
+                     /db_xref="GeneID:41702954"
+     CDS             complement(1133..2056)
+                     /locus_tag="EXJ20_gp2"
+                     /codon_start=1
+                     /product="Rep-B"
+                     /protein_id="YP_009551983.1"
+                     /db_xref="GeneID:41702954"
+                     /translation="MTRRNRHAVKAWFLTISQVAEGENNQKLKALIEEKALSVQDEVL
+                     EYVYCNELHADNGRHVHAYVKLRKGVTHANAPGFFHVFHNTANCEPARSAQAVIKYCT
+                     KEGDYITNIPHKVTRKKRTKVSXDVVLNKTTEEAFSEGIISFTQVTAYZRARRLATLS
+                     QTYNHDGVRGLWFYGPSGTGKSRSARHSSLIEGKRFLKPQNKWWDGYAGEPIVVLDDL
+                     DTDVLGHHLKIWSDRYACTGETKGSTCNLLHKQFIVTSNYSIEELFQKSTMNIEPLKR
+                     RFKEVYFPESTSNQQPNLYQXSAFLXNQXND"
+ORIGIN
+        1 cagacatttc agaaaattta tggaagggac gggacagaag tgtagtgggt aatactaacc
+       61 actacacaag ggatatcgcg aggaaaagat accttcaact tcaacataag accatgattg
+      121 ggttctattg ttactattac tacgtaatcc tatgcccgta acaacacaat gactactcgt
+      181 aagcgtatga tcctacccat acaacgacgt cgtgtgaaac ctcgtctcta caaaagaaag
+      241 acaagaacat acagacgtag ctatggtact agacgcatgc gtcgcatgca ggactttagt
+      301 ccacgtgcta ttgccaaccc tgtggggttg tctaacgcta aaacsaggtt gttgactttc
+      361 agtcaagact ctccrgacag agcmttcgtt ccttacatca tgactaatat tcctttcacc
+      421 gccgcgaacg cgccggactc acgtcaacgg aatatcatca acatcagagg rttyaaaatm
+      481 caagttgtgt ttcaaaacac acaaagacct gctttttatc tcaactgggc agttatccat
+      541 ccaaagttat ctatcgatga tacctctgtt agtacccaag atttcttccg aacatacaat
+      601 gccaacagag cagttgactt aatcaccgat aacaccggtg ttgttaacaa catagctcaa
+      661 gatgttccta ctcatggaat gagtagcatc aacacrgaca agtgggttgt gctgaaacac
+      721 aaaagaacat tamttgctgg mgcaataaac aatccagatg acaatgctct gasctttaca
+      781 gcaactaact gtcaaatccc aaagggaaat cgcgtcgtta ttgataagta tatcaaaatg
+      841 ggacgccaat tcagattccc caatgatgat tcaacattcc ccgaaggggg caatacaatc
+      901 ttttgttatt ggttgacaaa tctcaacaac taccttggta gtcaaaatac atctaccgac
+      961 gtatctgtta tcagaactac tggtcgcatc attacatatt tcagagagac aaagaattaa
+     1021 gggaaaagag taatcatata gagtggtatt gggtgtggca ccrgcggtat gggtgcttgg
+     1081 cctcgacccg cttccgctac gctccttttc gcgggtgccc tcggcacagc acttagtcrt
+     1141 ttrgttggtt agrsagaaac gcagaggytt gatagagatt aggttgttgg ttagaagtag
+     1201 attctgggaa ataaacttct ttgaagcgac gcttcaatgg ttcaatgttc attgttgact
+     1261 tttgaaacag ttcttcaata gagtagttgg atgtaacaat aaattgttta tgcaacaart
+     1321 tgcatgtaga tcctttagtt tcgcctgtgc aggcataacg atcggaccag attttaagat
+     1381 gatgcccaag gacatcagta tcragatcgt cgaggacgac aataggttct ccggcatagc
+     1441 cgtcccacca tttgttttga ggtttcaaaa accgttttcc ttcratgaga gaggagtgac
+     1501 gagcagaccg agactttcca gtyccggacg gaccatagaa ccamagacca cgaactccgt
+     1561 cgtggttgta ggtttgggag agagttgcga gccttctggc tcgctsgtac gcagtgacct
+     1621 gcgtaaarga gattatgcct tcggagaacg cctcctcagt cgtcttattg agtaccacat
+     1681 crwaactcac cttagttcgt ttcttgcgtg ttactttrtg gggaatgttg gtgatgtaat
+     1741 caccctcttt agtacaatat ttaatracag cttgagctga gcgagcaggc tcgcarttag
+     1801 ctgtattgtg aaagacatgg aaaaaaccag gkgcattagc gtgagtaacg cctttgcgta
+     1861 acttcacrta ggcatgaacg tgccgaccgt tgtcggcatg tagttcrttg cagtatacat
+     1921 attcsaggac ttcgtcctgg acagaaagag ccttctcttc gatcagagct tttagctttt
+     1981 gattgttttc gccttcggct acttgactra trgttaggaa ccatgctttc actgcgtgac
+     2041 ggttccgacg ggtcatgttg ttaagaagga gcgagatgtt tgggagagga gagtgagatg
+     2101 ggagaaagaa gagatcagag agagcgagat gtaaaatttc attttcactc actactggaa
+     2161 cgccgtagaa acctacggct gtgcggcagt tgtgtcttct aggaatctaa ggaagacaat
+     2221 tcgctccgcc acttggctca cccacgtttc acgttctgac tgccactacg accatgtcac
+     2281 tactttggtc gcgatacgac atatcatatc gacagtaatt ttaacattca aattacataa
+     2341 ggttgtacta agtaatgggt tctttgttgt tccagagtgt tcttgggaca cgccgagggc
+     2401 taagagtgtt ttttgttgtt aattgttrrg gaggttggcc acgtgatatt agccctggca
+     2461 tgaggtactc atccttgcgt cttgcgttcc taccgagcca gttaatatca tagtatgact
+     2521 tttagactag gagagtaaga gtgttcttsg gacacgccga gggctaagag ttttcttttc
+     2581 gcttgagtcg ctggactttt ttagtaaccc ggtaactggt accgggtawt ttmggcttcg
+     2641 cctttgatgc ggccttgtag gcctccagac ggggagacgc ggcyggttca gctamcgctc
+     2701 tgaccattgc ttgtttwatt ragwgtgrtc ttcaatatca tcttttttct tcaatatcat
+     2761 ctttttttct tctgtccagg acgaagtcct ggaatatgta tac
+//

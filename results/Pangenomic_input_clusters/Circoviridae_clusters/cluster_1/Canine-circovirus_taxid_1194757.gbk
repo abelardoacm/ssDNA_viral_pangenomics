@@ -1,0 +1,89 @@
+LOCUS       NC_020904               2063 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Canine circovirus isolate UCD1-1698, complete genome.
+ACCESSION   NC_020904
+KEYWORDS    RefSeq.
+SOURCE      Canine circovirus
+  ORGANISM  Canine circovirus
+REFERENCE   2  (bases 1 to 2063)
+REFERENCE   3  (bases 1 to 2063)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC241982.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2063
+                     /organism="Canine circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="UCD1-1698"
+                     /isolation_source="liver tissue"
+                     /host="Canis lupus familiaris"
+                     /db_xref="taxon:1194757"
+                     /country="USA"
+                     /collection_date="Oct-2011"
+     gene            1..912
+                     /locus_tag="K660_gp1"
+                     /db_xref="GeneID:15088943"
+     CDS             1..912
+                     /locus_tag="K660_gp1"
+                     /note="Rep"
+                     /codon_start=1
+                     /product="putative replication associated protein"
+                     /protein_id="YP_007697652.1"
+                     /db_xref="GeneID:15088943"
+                     /translation="MAQAQVDQRGRDSRRGNPVRRWCFTINNPTPEEEDAVKNLAPDA
+                     KYLICGREVGESGTPHLQGFVNLKRTTRMGALKARLGGRGHFEPARGDDCSNRDYCSK
+                     GGDLLIESGEPSSQGKRNDLHDAVVKLKETKSLAAVASAYPETYVKYSRGLRELLLIS
+                     PEMTTPRNWKTEVEVLCGPPGCGKSRYCMETAPEAYWKPRGKWWDGYDGHQDVILDDF
+                     YGWLPFDDMLRLCDRYPLRVETKGGTMNFLARRIFITSNRLPHEWYSDEISNKDALYR
+                     RLTLIKVWDGGNFIPVPHFMFPHMYNY"
+     gene            complement(1116..1928)
+                     /locus_tag="K660_gp2"
+                     /db_xref="GeneID:15088942"
+     CDS             complement(1116..1928)
+                     /locus_tag="K660_gp2"
+                     /note="Cap"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_007697653.1"
+                     /db_xref="GeneID:15088942"
+                     /translation="MRVRRHARASRRSYRTRPLNRYRRRRQNRFKLFHLRLRRTLTAD
+                     WPTAPVKPTNDPQTETPLLWNFDHLSFKLTDFLQASHGTGDFQHLPPFRFYKFKKVYI
+                     RARWINWPRTLMENVLGRTALDLDGEDQGRGNATRSHLDPGTVPGRLEPPKDPNKAPF
+                     IYDPLQDRSSSRSFNMASGFKRGLTPKPMFTQDIASPSATAPWLTRGTPWVSVIQGAN
+                     MVWNGLSISLRQMKDMRPTTPDTSTSQIPQVQYDISAYIAFKEFDYETGRQL"
+ORIGIN
+        1 atggctcaag ctcaggttga ccagcgcggc cgagatagcc ggcgaggtaa cccggttcgc
+       61 cgatggtgct tcaccatcaa taatcctact ccggaggagg aggatgccgt gaagaacctt
+      121 gcgccggacg ctaagtactt aatctgtggc cgggaggttg gggagagcgg gaccccgcat
+      181 ctccagggct ttgtcaacct gaagcgaacc acccgtatgg gagctcttaa ggcacggttg
+      241 ggtggtcgcg gacattttga gcctgctcgg ggggatgact gctcaaaccg ggactattgt
+      301 tctaaggggg gcgacctgtt gattgagtct ggggaaccta gtagtcaagg aaaacgaaat
+      361 gacttacatg atgctgttgt gaaactgaaa gagacgaaga gccttgccgc tgtcgcgtct
+      421 gcgtatccgg agacctacgt caaatactcg cgaggcttgc gagagctgct ccttatatct
+      481 ccggagatga ccacgccccg gaactggaag acggaagtgg aggttctgtg cggcccccct
+      541 ggatgcggca agagccggta ctgcatggag acagcaccag aggcctattg gaagcccaga
+      601 ggaaaatggt gggatggcta cgatgggcac caggatgtca ttctggatga cttctatgga
+      661 tggctgccct ttgatgacat gttgagactc tgtgatcggt accctctcag agttgagacc
+      721 aaaggtggta ccatgaattt cttggcacgt cggatcttta ttacttctaa tagattgcct
+      781 catgaatggt atagtgatga gatttctaac aaggatgccc tctatcggcg gctcactctg
+      841 attaaagtgt gggatggggg taatttcata cctgtacctc attttatgtt cccccacatg
+      901 tataactact gaaagataaa ggcctctcgc tccgcccgaa gcacggcggg ggctgggggc
+      961 cccgccgtgc gaggggaggc ggtgcgttga ccgaagcgcg gccgggggcc gcgcgagggc
+     1021 gtttacctgt tcacccccct tcgaggctgt ttattaaggt tacacccccc cgaataaaca
+     1081 cacgtgacac tgaagtgcgt ttgactgttt attgattaca attggcgtcc agtttcataa
+     1141 tcaaactctt tgaaagcgat atatgctgat atgtcatatt ggacttgtgg gatttgggat
+     1201 gttgaagtat caggtgtagt aggcctcatg tctttcatct gcctgagaga tatactcagg
+     1261 ccattccaga ccatgttagc cccttgtata acagagaccc atggtgtgcc tctggtcagc
+     1321 catggggcag tagccgaagg actagcaatg tcctgagtga acattggttt tggtgtcaga
+     1381 ccccttttaa atccggacgc catgttgaat gatcttgatg aagatctgtc ttgtagaggg
+     1441 tcatatatga atggagcctt gttaggatct tttggtggct ccaatcttcc tgggacagtc
+     1501 cctgggtcta aatgtgatct tgtagcattc cctcttcctt gatcttcccc gtcaagatca
+     1561 agtgctgttc ttccaagaac gttttccatg agtgttctgg gccagttaat ccatcttgcc
+     1621 cttatgtaga cttttttgaa tttgtagaat ctaaatggtg ggagatgctg gaaatctcct
+     1681 gttccatgag atgcttgtag gaagtctgtt aatttaaatg acagatggtc aaagttccat
+     1741 agcaacggtg tctctgtctg aggatcattg gtaggtttaa ctggtgctgt cggccaatca
+     1801 gctgtgagtg ttctgcgcag tcgcagatga aacagtttga atctgttttg gcgccttctc
+     1861 ctgtaacggt tcaatgggcg tgtcctgtag ctccggcgac ttgcccgggc atgtcttcgc
+     1921 acgcgcatgc gccgtcggta tgttctccgt ctgagcctgc gcggaggaac gggatgtggt
+     1981 tagtgacgta agcgtatcga ggtgccgggc atagtattac ccggcacctc gtcacagaca
+     2041 cagcacaccg cctctgctcc gac
+//

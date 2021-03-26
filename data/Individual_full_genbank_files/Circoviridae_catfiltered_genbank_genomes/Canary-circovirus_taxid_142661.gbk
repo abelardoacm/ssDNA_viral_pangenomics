@@ -1,0 +1,120 @@
+LOCUS       NC_003410               1952 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Canary circovirus, complete genome.
+ACCESSION   NC_003410
+KEYWORDS    RefSeq; cap gene; capsid protein; rep gene; replicase.
+SOURCE      Canary circovirus
+  ORGANISM  Canary circovirus
+REFERENCE   2  (bases 1 to 1952)
+REFERENCE   3  (bases 1 to 1952)
+REFERENCE   4  (bases 1 to 1952)
+REFERENCE   5
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AJ301633.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1952
+                     /organism="Canary circovirus"
+                     /mol_type="genomic DNA"
+                     /host="serinus canaria"
+                     /db_xref="taxon:142661"
+     stem_loop       join(1935..1952,1..10)
+                     /note="putative"
+     rep_origin      join(1946..1952,1..2)
+                     /note="nonanucleotide motif,CAGTATTAC"
+     gene            32..948
+                     /gene="rep"
+                     /locus_tag="CaCVgp1"
+                     /db_xref="GeneID:935131"
+     CDS             32..904
+                     /gene="rep"
+                     /locus_tag="CaCVgp1"
+                     /note="ORFC1"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="NP_573442.1"
+                     /db_xref="InterPro:IPR003365"
+                     /db_xref="UniProtKB/TrEMBL:Q912W1"
+                     /db_xref="GeneID:935131"
+                     /translation="MAPVRAAAAKRWCFTLNNYTAEEEAKVRALLPGEFHFAICGKER
+                     GEQGTPHLQGFLHFKKKQRLSALKKLLARAHWEKARGSDHDNEEYCSKENDVILTIGE
+                     PVQGNRSDLAGAVAAVKAGRRMVDIAREFSEIYVKYGRGLRDLALMIGQKPRDFKTEV
+                     VVITGPSGVGKSRLASEMEGSKFYKMKGDWWDGYSNEDIVIMDDFYGWLPFCEMLRLM
+                     DRYPHKVPVKGSYVEFTSKKIVITSNTHPESWYCPDKCYLPALFRRINKWMYWDGLRF
+                     EDVPDAMKKHPINY"
+     gene            complement(275..679)
+                     /gene="rep"
+                     /locus_tag="CaCVgp2"
+                     /db_xref="GeneID:935132"
+     mRNA            complement(275..679)
+                     /gene="rep"
+                     /locus_tag="CaCVgp2"
+                     /product="hyopothetical protein"
+                     /note="ORF C2"
+                     /db_xref="GeneID:935132"
+     misc_feature    943..948
+                     /note="*regulatory_class: polyA_signal_sequence"
+                     /gene="rep"
+                     /locus_tag="CaCVgp1"
+                     /note="putative"
+     gene            complement(1153..1158)
+                     /gene="rep"
+                     /locus_tag="CaCVgp3"
+                     /db_xref="GeneID:935133"
+     misc_feature    complement(1153..1158)
+                     /note="*regulatory_class: polyA_signal_sequence"
+                     /gene="rep"
+                     /locus_tag="CaCVgp3"
+                     /note="putative"
+     gene            complement(1154..1906)
+                     /gene="cap"
+                     /locus_tag="CaCVgp4"
+                     /db_xref="GeneID:935130"
+     CDS             complement(1154..1906)
+                     /gene="cap"
+                     /locus_tag="CaCVgp4"
+                     /codon_start=1
+                     /product="capsid"
+                     /protein_id="NP_573443.1"
+                     /db_xref="InterPro:IPR003383"
+                     /db_xref="UniProtKB/TrEMBL:Q8QME6"
+                     /db_xref="GeneID:935130"
+                     /translation="MWLTFNQVARRRRPLAPRRRRWRRRYWXRRRRIPANRRGHRTNR
+                     VYRFRFVREFGQVLQKGTGGSQLSFGTDGINIILDDFLDWGTINWRLPFEDYRIRLAK
+                     VEMRPLNESWEEWKGFGHNVPIQDNHLEDFFKKTRLDADPLANWDGARKWDLRKGFKR
+                     LFKPRPQLSVTDTDAANVTAALWLNNPKSLWIPIMKKSDQNLPSSGTRVKHYGLAFSW
+                     PEPTPNQMDYQVKVTIYCEFRQMNLTHLATPK"
+ORIGIN
+        1 accggccact tggagccacg gagccaccac aatggcacct gttagagctg ctgctgcaaa
+       61 gagatggtgc tttacgttga ataactatac ggcagaagaa gaagctaaag tgagggccct
+      121 gctccctggt gagttccact ttgcaatatg tgggaaggaa cggggggagc agggaactcc
+      181 tcatttgcag ggctttctac attttaaaaa gaagcagcga cttagtgccc tgaagaaact
+      241 acttgcccga gctcactggg aaaaggcccg tggctcagat catgataacg aggagtattg
+      301 tagtaaggaa aacgacgtga tactcaccat tggggagcca gttcaaggca accggagtga
+      361 ccttgccgga gctgttgccg ccgtgaaggc cggaaggaga atggtggata tcgcgcgaga
+      421 gttcagcgag atctacgtca agtatgggcg tggtctgagg gatttggccc tgatgattgg
+      481 acagaaaccc cgtgacttca agacggaagt cgtcgttatc acggggcctt ccggggtggg
+      541 caagtcgaga cttgcctctg aaatggaagg atcgaagttc tacaagatga aaggtgactg
+      601 gtgggatggg tattccaatg aggatatagt catcatggat gacttctatg ggtggctgcc
+      661 cttctgtgaa atgttgagat taatggacag gtatccacat aaagttcccg tgaaggggtc
+      721 ttatgtggag ttcacgtcta agaagattgt cataacgagc aacacgcacc cggaaagttg
+      781 gtactgtccc gataagtgct atctgcctgc tttgttcagg agaatcaata agtggatgta
+      841 ctgggatgga ctgagatttg aggatgtgcc ggatgcaatg aagaagcacc cgatcaacta
+      901 ttaacactca gccccgagga aaagagcgtc tcggaggtga ttaataaaaa atgcgcgcgc
+      961 agcgcgcggc gaaggccgaa ggccgaagcc gcctgagacc gcgcgaagcg cggccaggcg
+     1021 cgagcgacag cgagcgggca gaccccgggt ccccccgggg tcgcccccgt cgaggggccg
+     1081 aaggccccga agaaagctat tttgtacccc ccatcaaata aaaagacttc agacaaataa
+     1141 atgtttggtg tctttatttt ggagttgcca agtgagttaa gttcatttgc cggaattcac
+     1201 agtagatggt gaccttgacc tggtagtcca tctggttggg ggtgggttct ggccaactga
+     1261 aggctaaccc gtagtgtttg accctggttc cggagctggg aaggttctgg tcacttttct
+     1321 tcatgatcgg tatccagagg gatttgggat tgttgagcca cagggccgcc gtgacgttag
+     1381 cagcatcagt gtcggtcacg cttagttgtg gtcttggttt aaatagcctt ttgaagcctt
+     1441 ttctgagatc ccatttacgg gccccgtccc agttcgctag ggggtcagca tcaagtcttg
+     1501 tctttttgaa gaagtcctct aggtgattgt cttggatagg tacattgtgc ccgaaccctt
+     1561 tccactcctc ccagctttca ttgaggggtc tcatttccac ttttgctaac ctgattctat
+     1621 aatcttcaaa aggtaacctc caattgatag taccccaatc cagaaagtca tccagtataa
+     1681 tgttgattcc atcagttcca aatgacagct gagacccccc tgtccctttt tgtagtacct
+     1741 gaccgaactc cctaacaaat ctgaatctat agaccctgtt ggttctgtgg cccctcctgt
+     1801 tggcagggat ccttctcctc ctccyccagt aacgacgcct ccatctcctc ctcctgggag
+     1861 ccaaaggtcg tcgtctccta gcaacctggt taaaggttaa ccacatccgg gttaataatt
+     1921 aaccagtggc yccaagtggc cgtgrcagta tt
+//

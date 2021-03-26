@@ -1,0 +1,90 @@
+LOCUS       NC_040363               1955 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Farfantepenaeus duorarum circovirus isolate FL2009, complete
+            genome.
+ACCESSION   NC_040363
+KEYWORDS    RefSeq.
+SOURCE      Farfantepenaeus duorarum circovirus
+  ORGANISM  Farfantepenaeus duorarum circovirus
+REFERENCE   2  (bases 1 to 1955)
+REFERENCE   3  (bases 1 to 1955)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC441518.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.8
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1955
+                     /organism="Farfantepenaeus duorarum circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="FL2009"
+                     /host="Farfantepenaeus duorarum"
+                     /db_xref="taxon:1380894"
+                     /country="USA"
+                     /collection_date="01-Jul-2009"
+     stem_loop       join(1940..1955,1..10)
+     gene            complement(47..910)
+                     /locus_tag="EXI10_gp1"
+                     /db_xref="GeneID:41700132"
+     CDS             complement(47..910)
+                     /locus_tag="EXI10_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009551455.1"
+                     /db_xref="GeneID:41700132"
+                     /translation="MSGSRRWCFTVFNYNHATVDDFIRAERHDCVRYVVWQCEKCPTS
+                     GRSHIQGYVELHRPIRLRQLKQILDDTGAHCEAAKGPRDACREYCQKEESRCCGWWES
+                     GEWIGGQGSRSDLSAVHAAIQDGASLREISNAHFDAFVKYSRGIKEYILLNADRRMWP
+                     MEVWVLYGDTETGKTRAVYEMAPDVYSLAPSHSNGVGWWQMYEGHADVLLDDFYGWLR
+                     YSFLLQLLDRYPLRVESKGGVVQFVGRRIFITSNAHPNQWYPNVKDTAAMFRRFTRIY
+                     HCDKSRFWREK"
+     gene            1229..1774
+                     /locus_tag="EXI10_gp2"
+                     /db_xref="GeneID:41700131"
+     CDS             1229..1774
+                     /locus_tag="EXI10_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009551456.1"
+                     /db_xref="GeneID:41700131"
+                     /translation="MNLMLNRPRLPDSSQTKGPYGYAVWANLYKTVRTRGVKIELWSR
+                     NRSAQPTGSGATFVGFQGSEDPIPVSDTDHMEHLLARRNVIVKSNGVPAAGKNGSTYI
+                     KAYRKLTNIEGHQIERDSDYWADTQQGDPAKFVKAYVGVTSAGNVDTDTSFDLTVRLT
+                     FYVDFWGIRDVPSNTLVDFAA"
+ORIGIN
+        1 accggtcacc tcgttactcg taacgcttat ttcccgccaa aaccatttac ttttcgcgcc
+       61 aaaaccgcga cttgtcacaa tggtaaatac gggtaaaacg acgaaacatg gcagcagtat
+      121 ccttgacatt gggataccac tggttaggat gggcattgga agttatgaag attcgtcgac
+      181 ccacaaactg gacaacccct cctttggact cgacccgaag aggatatcga tccagcagtt
+      241 ggagcagaaa ggaatatcgg agccatccgt agaagtcgtc gagcagtacg tcggcatgcc
+      301 cttcgtacat ttgccaccag ccgacgccgt ttgaatggct gggcgcaagt gaatatacgt
+      361 caggagccat ctcgtacact gcgcgggtct ttccggtttc ggtatcaccg tataagaccc
+      421 acacctccat cggccacata cgtcgatcgg cattcagcag aatgtattct ttgatccccc
+      481 gtgaatactt gacgaacgcg tcaaagtggg catttgaaat ctctcggaga gacgcgccat
+      541 cttggatggc ggcgtggacg gcgctaaggt ctgatcggga cccttgccca ccgatccact
+      601 ccccgctttc ccaccatcca caacatcgcg actcctcttt ttggcagtac tcgcgacagg
+      661 catctcttgg accttttgcg gcttcgcaat gggcccctgt gtcatcgaga atttgcttga
+      721 gttgtcgcag tcgaatcgga cgatgtagct caacatatcc ttggatatgg gaacgacccg
+      781 atgttggaca cttctcacat tgccagacaa cgtaacggac acagtcatgt cgttcggctc
+      841 ggatgaagtc atcaacagtt gcgtggttgt agttgaacac tgtaaagcac caccgacggc
+      901 ttccactcat gcccttcaga cgcagaatga ggcgcttccg ccgacgccgg cgttttgttc
+      961 gaaggtttgc gcaagtgcaa tcgagatgat aatttaatat taatttaatg tttccagaac
+     1021 aaggaagggt ctgacgctca acaagcgttg gattgaagac cccggccggt tttccggctt
+     1081 ccggaactgg caacccacca tccaccgtcc cagaactctg acctctaccg ctatacccat
+     1141 tgcgcggcgt gccaaggcgc ggctggtcta taccggatac gctttgggcc tcttggaggc
+     1201 tgatgagaac cccacagcaa ttgccgctat gaacctgatg ctaaataggc cccgtcttcc
+     1261 tgattcgtca cagacgaagg gtccatatgg gtatgctgtg tgggctaacc tttacaagac
+     1321 ggtccgtacg cgtggcgtca agatcgaact atggtctcgc aaccgttcgg cccaacccac
+     1381 gggtagtggc gcgacgttcg ttggtttcca gggttctgaa gatccgattc cggtgtcgga
+     1441 taccgaccat atggagcact tgttggctcg gcgcaacgtg attgttaaat ccaacggtgt
+     1501 tcctgctgct ggcaagaatg gcagcaccta tatcaaggcg tatcgcaagc ttaccaacat
+     1561 tgagggccat caaattgaac gcgactctga ttactgggct gatactcagc aaggcgatcc
+     1621 tgctaaattc gtgaaagcct atgttggcgt cactagtgcg ggaaatgtcg acactgacac
+     1681 gtcattcgac ctaactgtcc gcctcacgtt ttacgtggac ttctggggca tccgtgatgt
+     1741 acctagcaac accctggttg actttgctgc ataaacatat catacgatct attccaaaaa
+     1801 actatctctc aaaaaactat aaatgccctg gttagggctc gaactcgggg gcggccccga
+     1861 gccgccccca tgtccgctgg ttaggattag gggttagggc gaaaggatat catttagacc
+     1921 atatcaccct gtgatacaag gtgaccgtaa gtatt
+//

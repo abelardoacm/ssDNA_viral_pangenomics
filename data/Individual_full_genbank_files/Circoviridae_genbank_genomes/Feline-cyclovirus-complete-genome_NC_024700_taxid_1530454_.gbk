@@ -1,0 +1,85 @@
+LOCUS       NC_024700               1773 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Feline cyclovirus, complete genome.
+ACCESSION   NC_024700
+KEYWORDS    RefSeq.
+SOURCE      Feline cyclovirus
+  ORGANISM  Feline cyclovirus
+REFERENCE   2  (bases 1 to 1773)
+REFERENCE   3  (bases 1 to 1773)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KM017740.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 4.8.2
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1773
+                     /organism="Feline cyclovirus"
+                     /mol_type="genomic DNA"
+                     /isolation_source="feces"
+                     /host="Felis catus"
+                     /db_xref="taxon:1530454"
+                     /country="USA"
+                     /collection_date="Oct-2013"
+     gene            1..819
+                     /locus_tag="FeCycl_gp1"
+                     /db_xref="GeneID:22047044"
+     CDS             1..819
+                     /locus_tag="FeCycl_gp1"
+                     /codon_start=1
+                     /product="rep protein"
+                     /protein_id="YP_009052458.1"
+                     /db_xref="GeneID:22047044"
+                     /translation="MMMTIKNYKTTHEIGANTPLLEKKTLQQQEHHTFKDTCKYNINN
+                     LFLYRHFSTSKLFKTIKKQLGNEIHIEIARGDDYQNKDYCTKTDKEAWTWGVPIKQGQ
+                     CTDLKRACKAIKEGKSMKYICENFDDIYVRYWRGLYKLKETLAPPPERDFPTEVYYYY
+                     GEPGVGKSRRAYSEAKATNESIYYKPRGDWWDGYEQQPNVIIDDFYGWIKYDELLKIM
+                     DRYPYRVPVKGGYQIFNSKRIWITSNIPIDQLYKHSHFIPQAIERRCTKIEYMQ"
+     gene            complement(827..1498)
+                     /locus_tag="FeCycl_gp2"
+                     /db_xref="GeneID:22047043"
+     CDS             complement(827..1498)
+                     /locus_tag="FeCycl_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009052459.1"
+                     /db_xref="GeneID:22047043"
+                     /translation="MRSRGVRMRRRFFVRRRYRKFFRPGYRALFRRYYRPYVRRPHNS
+                     ALNTVLLRPNWTDNILPTVAKTRHLLSFKFDDLPELEKFKSLFGYYRFVRFYTKCIPK
+                     VTVLQDNTSSGTYVAVPWHRYIDEASLEKINADDLLDLTRSKARRCNQVMYNSVVPAV
+                     VTNSNVLPNSTMRTITYRPWIKIDRDGTAVQHFGLLYAFPSDSLHITFQIVTRCYVQL
+                     RGYSV"
+ORIGIN
+        1 atgatgatga ctataaaaaa ttacaagact acgcacgaaa ttggtgccaa tacgccatta
+       61 ttggaaaaga aaacgctcca acaacaggaa caccacacct tcaaggatac atgtaagtac
+      121 aatataaaca atttattcct ttataggcat ttctcaacat caaaattatt caaaacgata
+      181 aaaaaacaac taggaaatga aatacatatt gaaattgcac gaggtgatga ctaccaaaac
+      241 aaagactact gcacgaaaac cgacaaagaa gcatggacat ggggagtacc aattaaacaa
+      301 ggacaatgca cagatcttaa aagagcatgc aaggctataa aagaaggaaa aagtatgaaa
+      361 tatatatgcg aaaacttcga cgatatttat gttagatatt ggagaggtct gtacaagctt
+      421 aaagaaacgc ttgctccgcc accagaaaga gattttccaa cagaagttta ttactactat
+      481 ggtgaaccag gtgtgggaaa atcacgtaga gcttattcag aagccaaagc tacaaatgaa
+      541 tcaatttact acaaacccag aggagattgg tgggatggat acgaacaaca accaaatgtt
+      601 atcatcgacg atttctacgg atggatcaaa tacgacgaac tattaaaaat aatggataga
+      661 tacccataca gagtaccagt aaaaggagga taccaaattt ttaactcaaa aagaatttgg
+      721 ataacatcta atatccccat tgaccaatta tataaacatt cccatttcat tccccaagcc
+      781 atcgaaagac gatgtacaaa aattgaatat atgcaataaa tttattttaa acagaatatc
+      841 ctcttaattg aacataacaa cgggttacaa tttgaaaagt tatgtgaaga ctgtcacttg
+      901 gaaaagcata taataaacca aaatgttgca cagcagttcc atctcgatca atcttgatcc
+      961 atggcctgta ggttatagta cgcatagtag aattaggaag aacattagaa ttagtcacca
+     1021 cagcaggaac aacagagtta tacataacct gattgcaacg tcgagcttta gaacgagtta
+     1081 aatctaataa atcatcagca ttaatttttt ctaatgacgc ctcatcaata taacgatgcc
+     1141 atggaacagc tacataggtt ccggacgacg tattatcttg aagaacagta accttcggaa
+     1201 tacacttcgt ataaaatcga acaaagcgat aataaccgaa taacgactta aatttttcca
+     1261 actctggtaa atcgtcgaac ttaaaagata acaaatgacg agttttagca acagtaggca
+     1321 aaatattgtc tgtccaatta ggccgcaaca aaacagtatt aagagcagag ttatgaggcc
+     1381 tacgaacata tggccgataa taacgtctaa acaaggcgcg ataacccgga cgaaagaatt
+     1441 tacgataacg acgacgaaca aagaacctcc tacgcatacg aacaccacgt gaccgcatga
+     1501 cgaaatgaat aagtcataaa tgacggaagt taaaaataac caattcatta aaacaaacaa
+     1561 acaaccaata acaattagac cagctaccac ccccgcacaa acaccagttc tcgtccaacc
+     1621 aataataatt agaccagcta ccacccccgc acaaacacca gttctcgtcc gatatataaa
+     1681 cctatgttac gaagtggcgg taatactaat cgccacttcg ttaaaccatg aatgcacgag
+     1741 taaaaagatt ctgctttaca cttaataatt ata
+//

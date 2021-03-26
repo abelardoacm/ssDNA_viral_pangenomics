@@ -1,0 +1,89 @@
+LOCUS       NC_038391               1935 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Chimpanzee stool avian-like circovirus Chimp17, complete genome.
+ACCESSION   NC_038391
+KEYWORDS    RefSeq.
+SOURCE      Chimpanzee stool avian-like circovirus Chimp17
+  ORGANISM  Chimpanzee stool avian-like circovirus Chimp17
+REFERENCE   2  (bases 1 to 1935)
+REFERENCE   3  (bases 1 to 1935)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GQ404851.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1935
+                     /organism="Chimpanzee stool avian-like circovirus Chimp17"
+                     /mol_type="genomic DNA"
+                     /isolate="Chimp17"
+                     /isolation_source="stool"
+                     /host="chimpanzee"
+                     /db_xref="taxon:743290"
+                     /country="Rwanda"
+                     /collection_date="Sep-2002"
+     gene            1..876
+                     /gene="rep"
+                     /locus_tag="D1Q14_gp1"
+                     /db_xref="GeneID:37617102"
+     CDS             1..876
+                     /gene="rep"
+                     /locus_tag="D1Q14_gp1"
+                     /codon_start=1
+                     /product="replication-association protein"
+                     /protein_id="YP_009506281.1"
+                     /db_xref="GeneID:37617102"
+                     /translation="MAPIKRPAPCKRWCFTLNNFTDDEVQKVVSLQPDEVHYAIVGRE
+                     TGAQGTPHLQGYLHLKKKKRLTSMKEFLPRAHWEVARGSDEDNEAYCSKEGDVILTLG
+                     IPAKGNRSDLSGAVAAVKAGRQMREIARDFSEVYVKYGRGLRELALLIGQKPRDFKTE
+                     VIVLTGPSGVGKSRWANEQEGAKFYKMKGDWWDGYSNEDIVVIDDFYGWIPFCELLRL
+                     TDRYPHKVPVKGAYVEFTSKKIIITSNTPPESWYNEEKCYVQALFRRINKWMIWNATG
+                     FEDAPDCMKKYPINY"
+     gene            complement(1039..1737)
+                     /gene="cap"
+                     /locus_tag="D1Q14_gp2"
+                     /db_xref="GeneID:37617101"
+     CDS             complement(1039..1737)
+                     /gene="cap"
+                     /locus_tag="D1Q14_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009506282.1"
+                     /db_xref="GeneID:37617101"
+                     /translation="MNRIYLFRLRHSVKVTLQRDESGAFKYGTDAFTFTLEDVLKRDG
+                     GQLKLPFEDYTIVLVKVEMRPLGESVTIWKGFGHTVPIQDARLTNFKKKAGLQDDPLA
+                     NFDGAKKWDQRWGFKRLLRPRPQLVSTDLSTANEVAPIWLNSQRSFWIPLQQTAQRIA
+                     PEKINHYGLAFSYLQPSPEDEFYQAEITFYMKFRQFAWTTLNDPPTPNWQEQLPPNME
+                     LMNIIDEDEGVDFQ"
+ORIGIN
+        1 ctggctccaa ttaagcgccc tgcaccatgc aaacggtggt gctttaccct taacaacttt
+       61 acggatgatg aagttcagaa ggtggtatcc ctgcagcctg atgaagtcca ttatgccatc
+      121 gtcgggcgtg agacgggagc gcaggggacc ccacatctgc aagggtattt gcacttgaaa
+      181 aagaagaagc gcctaacgag catgaaagag ttcctaccga gagctcattg ggaggtggcg
+      241 agaggatccg atgaagacaa cgaggcctac tgctcaaaag aaggagacgt gatacttacc
+      301 ctcggcatac cggcgaaggg aaaccggagc gacctctctg gagctgttgc cgctgtgaaa
+      361 gccggaagac aaatgaggga aatcgcgcga gacttcagtg aagtatacgt caaatatggg
+      421 cgtggcctaa gggagctggc gctcctgata ggccagaagc cgcgtgactt caagactgaa
+      481 gttatcgtcc tgaccggccc ctcaggggtg gggaaaagca gatgggccaa tgagcaagaa
+      541 ggagccaaat tctacaagat gaaaggtgat tggtgggatg gatattcaaa tgaagacata
+      601 gtcgttattg acgacttcta tgggtggatc cctttctgtg agttgctccg cctaaccgac
+      661 cggtacccgc ataaagtacc tgtcaagggg gcttatgtgg agtttacctc aaagaagata
+      721 ataattacga gcaatacccc gccggaatca tggtacaacg aggaaaaatg ctacgttcaa
+      781 gccctgttcc gccgcatcaa taagtggatg atctggaatg caactggatt cgaggatgca
+      841 cccgactgca tgaaaaagta ccccatcaat tactgacccc gccggcatgg gcttcatttt
+      901 catgcccaag ccggcggagg ccggagcggc ggtagccgcg taggccgatt ccggcgggca
+      961 ttgccccgga gcgaccggcg acagccggga gcgaaggggc caaacactcg agacacaatt
+     1021 gctgatcaat aaagtgcttt attgaaaatc tacaccttcg tcctcatcaa ttatgttcat
+     1081 taactccata ttgggaggca gttgttcctg ccaattgggg gtggggggat cattgagtgt
+     1141 tgtccaggcg aactgccgga acttcatgta gaaggtgatc tcggcctggt agaattcatc
+     1201 ttccggtgat ggctgcaggt aactgaaggc aagtccgtaa tggttgatct tctcaggagc
+     1261 aattctctga gctgtctgtt gcagggggat ccagaaggat ctctggctgt tcagccatat
+     1321 aggggccacc tcattcgcag tggacaggtc agtactgact aactggggcc taggcctcag
+     1381 tagtctctta aatccccatc tttgatccca ctttttagcc ccatcaaaat tagctagggg
+     1441 atcatcctgt aggccagcct ttttcttaaa gttagttagc ctagcgtcct ggatagggac
+     1501 agtatgtccg aaccccttcc atatagttac actctccccc aggggtctca tctccacctt
+     1561 tacaaggact attgtatagt cctcgaatgg cagttttagc tgccccccgt ccctcttgag
+     1621 gacgtcctct agtgtgaagg tgaaggcatc cgtgccgtac ttgaaagctc cagactcatc
+     1681 tctctgtagg gttaccttca cggagtgtct cagcctgaat aggtagatcc tgttcagcct
+     1741 gtgaccccgc ctatttgagg ggagtctcct cctccggtga cgtcgggggc ggcgtctcca
+     1801 tgtcctccgg ctcctcctcc tgacccgccc ccaggcacgg gtggcgctga attgctgcaa
+     1861 aagagagata agccgctggt tccaagttgc cgtacagtat tactggcaac ttggaaccgc
+     1921 ggaaccccct ccgaa
+//

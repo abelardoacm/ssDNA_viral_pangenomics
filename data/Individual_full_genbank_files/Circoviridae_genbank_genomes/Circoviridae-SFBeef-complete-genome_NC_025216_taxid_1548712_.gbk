@@ -1,0 +1,61 @@
+LOCUS       NC_025216                859 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Circoviridae SFBeef, complete genome.
+ACCESSION   NC_025216
+KEYWORDS    RefSeq.
+SOURCE      Circoviridae SFBeef
+  ORGANISM  Circoviridae SFBeef
+REFERENCE   2  (bases 1 to 859)
+REFERENCE   3  (bases 1 to 859)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KM111537.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 4.8
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..859
+                     /organism="Circoviridae SFBeef"
+                     /mol_type="genomic DNA"
+                     /strain="SFBeef"
+                     /isolation_source="beef"
+                     /db_xref="taxon:1548712"
+                     /country="USA"
+                     /collection_date="2014"
+     gene            1..729
+                     /locus_tag="NA35_gp1"
+                     /db_xref="GeneID:20522551"
+     CDS             1..729
+                     /locus_tag="NA35_gp1"
+                     /note="similar to Murid herpesvirus 1 hypothetical
+                     protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009072437.1"
+                     /db_xref="GeneID:20522551"
+                     /translation="MRENAGSLCGCGCAGIAVVFQATGALVGSFSAYSSVSHFGAGLV
+                     LPGTSEPGSTEVCREKKWYPIMDAPHRVSGYTGQWMMKRPRVLMPQDGDWITEFLWCY
+                     ECPEDKDFYCHPILGPEGKPETQVVFYDKQLDPDRVGIYCGVWRQYSEIPYYRQRGWK
+                     KRYPTLARVREFQEQKATQLGEALTRIWSGPSGAGEGEPQRGQRVLQERGGLPRDWRR
+                     FLFGYQIGSSNSSSDSDGDVGKSD"
+     misc_feature    350..811
+                     /note="nonfunctional rep protein due to mutation; putative
+                     replication-associated protein"
+ORIGIN
+        1 atgcgggaaa acgcgggaag cttgtgcgga tgcggctgcg cgggaattgc agttgtattt
+       61 caagccacgg gggccttggt ggggtctttt tctgcatata gctctgtgtc tcattttggt
+      121 gccgggctag tattacccgg cacctcggaa cccggatcca cggaggtctg tagggagaaa
+      181 aagtggtatc ccattatgga tgctccgcac cgtgtgagtg gatataccgg gcagtggatg
+      241 atgaagcggc ctcgtgtttt gatgccgcag gacggggact ggataactga gtttttgtgg
+      301 tgctacgagt gtcctgaaga taaggacttt tattgtcatc ctattctagg tccggaggga
+      361 aagcccgaaa cacaggtggt gttttacgat aaacaactgg accccgaccg agtgggaatc
+      421 tattgtggag tgtggaggca gtatagcgag ataccttatt atcggcaaag aggttggaaa
+      481 aagcggtacc ccacacttgc aagggtacgt gaatttcaag aacaaaaggc gactcagctc
+      541 ggtgaagcgc ttacccggat ttggtcgggc ccatctggag ccggcgaggg ggagccacaa
+      601 agaggccagc gagtattgca agaaagaggg ggattacctc gagattggcg aagattcctc
+      661 ttcgggtacc agatcggatc ttcaaacagc agctcggatt ctgacggaga cgtcgggaaa
+      721 tctgactgaa gttgcggaga agatgcctgc agtatttata cgctatgggc ggggtttgcg
+      781 tgatttttgc ggggtgatgg gggttgggta aaccgcgtga ttttaaaact gaagtttatg
+      841 tttttattgg tcctccagg
+//

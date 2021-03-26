@@ -1,0 +1,84 @@
+LOCUS       NC_020099               1670 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Acartia tonsa copepod circovirus isolate 154_D11, complete genome.
+ACCESSION   NC_020099
+KEYWORDS    RefSeq.
+SOURCE      Acartia tonsa copepod circovirus
+  ORGANISM  Acartia tonsa copepod circovirus
+REFERENCE   2  (bases 1 to 1670)
+REFERENCE   3  (bases 1 to 1670)
+REFERENCE   4  (bases 1 to 1670)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JQ837277.
+            Name: Acartia tonsa copepod circovirus AcCopCV.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1670
+                     /organism="Acartia tonsa copepod circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="154_D11"
+                     /host="Acartia tonsa"
+                     /db_xref="taxon:1168547"
+                     /country="USA: Tampa Bay, FL"
+                     /collection_date="20-Jun-2010"
+     stem_loop       join(1653..1670,1..11)
+                     /note="contains nonanucleotide motif 'AAGTATTAC'"
+     gene            66..1121
+                     /locus_tag="AtCopCV_gp1"
+                     /db_xref="GeneID:14445251"
+     CDS             66..1121
+                     /locus_tag="AtCopCV_gp1"
+                     /note="putative replication-associated protein similar to
+                     viral rep family (PfamPF02407)"
+                     /codon_start=1
+                     /product="putative viral replication protein"
+                     /protein_id="YP_007353980.1"
+                     /db_xref="GeneID:14445251"
+                     /translation="MKSLHISKIEFSQWPQSIKPRAKRAVGIFSLTKMPSNATTNRAR
+                     GWCFTLNNPPPEMISERRVVVPGHVSGLDAAIPTEPNLPEHRHCDYRVGQLERGDNGT
+                     LHIQGYYHHRVMKSFNQMKKLIPNAHWEIAKGSPKQNRDYCTKEDTRVPDTRPFEEGE
+                     CPHQGTRFDLRQCADVLANGGSLLDLPGEMVIRYHRGFSAYRSLFHKRRQEAPTVLWI
+                     YGPTGSGKSRFASTLRDECYWKPPGKWFDGYDQEPLVILDDYRSEWAEWGVFGQLLRL
+                     LDRYPLMVEYKGGSVQFCSELIVITCDRPPSELWFSQGDIGQLTRRISHVIHAVGMWL
+                     PVEPAVHESIKRRDNIE"
+     gene            1129..1608
+                     /locus_tag="AtCopCV_gp2"
+                     /db_xref="GeneID:14445250"
+     CDS             1129..1608
+                     /locus_tag="AtCopCV_gp2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_007353981.1"
+                     /db_xref="GeneID:14445250"
+                     /translation="MPNPHFLEPLNQAFNRAAYRLLRQAGGAATGAATTALYEYARSR
+                     ARQMAYGKRSYSKGRTSYGSRYRPSYRKKRYSRKNRSSMDGASAVPPPSQSERPRQPS
+                     TTCWQSRWCIRHGVMILIQVLVTWARLSGLLPILSSALTPHMHKSQAIAVRALLRTK"
+ORIGIN
+        1 acctcggcaa catccgatca tcatatgatc aattatgact catcccgcgt ggaattatgt
+       61 agccaatgaa atcgctccat atttcaaaaa ttgagttttc acagtggccg caatctataa
+      121 agccgcgagc gaagcgagcg gtaggcattt tcagtttgac caaaatgcct agcaacgcaa
+      181 caaccaaccg agcccgtggg tggtgcttca ccctgaacaa cccaccccca gagatgatat
+      241 cagagaggcg agtggttgtc cctggccatg tcagtggact tgacgcagcc attcccactg
+      301 aacccaatct accagaacac agacactgtg actaccgtgt gggtcaactg gagagaggtg
+      361 acaacggcac cctccacatc caaggatact accatcacag agtgatgaag tccttcaacc
+      421 agatgaagaa actgattccc aatgcgcatt gggagattgc gaagggttca cccaagcaga
+      481 accgagacta ctgtaccaag gaggacaccc gagttcccga cacaagaccc tttgaagaag
+      541 gtgagtgtcc acatcaaggc acacgcttcg atctgagaca gtgtgctgac gtactggcca
+      601 atggtggttc tctccttgat ctccctggtg agatggtcat caggtaccac cgcggtttta
+      661 gcgcgtatcg ttcgctgttt cataagcgac ggcaggaggc gcctacggtc ctctggatct
+      721 acggccctac aggcagtggc aagtctcgat tcgcatcaac tctacgcgat gaatgttact
+      781 ggaaaccccc tggcaaatgg tttgatggtt acgaccagga gccccttgtc atcctcgatg
+      841 actacaggtc cgaatgggcc gaatggggcg tctttggaca actcctccgc ctccttgacc
+      901 gctacccgct catggtcgag tacaagggag gatccgtcca gttctgtagt gaacttattg
+      961 tcatcacgtg tgaccgcccc ccgtccgaac tgtggttctc ccagggagac ataggacagc
+     1021 taacccggcg gatcagtcac gtcatccacg ctgtaggcat gtggctcccc gtggagccgg
+     1081 ccgtgcatga aagtataaaa aggagagata acatagaata aaatacaaat gccaaatcca
+     1141 cacttccttg aacctcttaa ccaggccttc aacagagcgg cctacagact attgagacaa
+     1201 gcaggcggcg cggctacagg cgctgcaact actgcccttt acgaatacgc aagatctcgt
+     1261 gcacgacaga tggcttatgg aaaacgcagt tactcaaagg gcagaacctc ctatggttcc
+     1321 agatacagac cctcctacag gaagaagcga tactctcgca agaaccgctc aagtatggac
+     1381 ggcgcaagcg ccgtaccacc accaagtcaa tccgaaagac caagacaacc aagtacgacc
+     1441 tgttggcaaa gcaggtggtg catacgtcat ggagtgatga tactaatcca ggtactggtg
+     1501 acatgggcga gactttctgg acttcttcca atcctctctt cggccttaac accccacatg
+     1561 cacaaatcac aggccattgc agttcgagcg ctacttcgta cgaagtagcg ctcgaactgg
+     1621 aacagttaaa taaacccgat tcggataact agttgccgag cataagtatt
+//

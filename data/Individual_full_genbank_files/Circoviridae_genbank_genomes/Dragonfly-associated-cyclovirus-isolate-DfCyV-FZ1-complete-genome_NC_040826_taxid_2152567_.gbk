@@ -1,0 +1,92 @@
+LOCUS       NC_040826               1899 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Dragonfly associated cyclovirus isolate DfCyV-FZ1, complete genome.
+ACCESSION   NC_040826
+KEYWORDS    RefSeq.
+SOURCE      Dragonfly associated cyclovirus
+  ORGANISM  Dragonfly associated cyclovirus
+REFERENCE   2  (bases 1 to 1899)
+REFERENCE   3  (bases 1 to 1899)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MG779477.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1899
+                     /organism="Dragonfly associated cyclovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="DfCyV-FZ1"
+                     /isolation_source="abdomen"
+                     /host="dragonfly (Odonata: Epiprocta)"
+                     /db_xref="taxon:2152567"
+                     /country="China: Fuzhou"
+                     /collection_date="10-Sep-2016"
+     gene            63..896
+                     /locus_tag="EXL52_gp1"
+                     /db_xref="GeneID:41702005"
+     CDS             63..896
+                     /locus_tag="EXL52_gp1"
+                     /note="CP"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_009553623.1"
+                     /db_xref="GeneID:41702005"
+                     /translation="MARFRRAWRRMRRRYKPVFRYKRRVLGKRKARSRRIKPGDMILN
+                     IRRIQTIPVKLSENNVYGLTMVADNFKEFTQLKRSFEAYRIISYGLRVIPLHNVSNDS
+                     TSKIATYCIVPWKKEVPATETNYNDYLSIDKCRVYRGTQTAYRRLVPAVRLPARNVDA
+                     TKLNTFGVTQWKPRIEIDPESTNIKHYMGVIAWQKDETAPESATAYYNLVESVKIKFY
+                     NQTTLGTAAVGNRLGDVSEDDSMASADLMDDAEELVPDKKKRESLLDRLRNKTENILL
+                     N"
+     gene            complement(885..1721)
+                     /locus_tag="EXL52_gp2"
+                     /db_xref="GeneID:41702004"
+     CDS             complement(885..1721)
+                     /locus_tag="EXL52_gp2"
+                     /note="Rep; involved in initiating rolling circle
+                     replication"
+                     /codon_start=1
+                     /product="replication associated protein"
+                     /protein_id="YP_009553624.1"
+                     /db_xref="GeneID:41702004"
+                     /translation="MSNSTVRRFVFTLHNYTEDEFETCKRFVEANCKYGILGREVCPT
+                     THRPHIQAFCSLEKPKRFSTIKRLINNRCHIEKANGTDLENQTYCRKSGDFFEKGQPQ
+                     SQGQRSDLQSLVADIQAGEKSYRNIALRHPTCFIRYHRGIRTYLNLASPVEPRSWKTS
+                     VYYFFGPPGSGKSRRALAEATALTEGTIYYKPRGDWWDGYEQNDCVIIDDFYGWIKYD
+                     ELLKITDRYPYKVPVKGGYEEFTTKHIWITSNVDTHLLYKFKNYSNAAFERRITLKEL
+                     IE"
+ORIGIN
+        1 tagtattacc cgcaacttcg tagcaacatc gtagcaaagt gaaaggtagt tggccttgag
+       61 acatggcgag attcagacgt gcatggcgca gaatgcgtcg ccggtataaa ccggtttttc
+      121 ggtataagcg gcgcgtcctt gggaagagaa aggcacgttc gcgccgtatt aagccggggg
+      181 atatgatatt gaatattagg cgtattcaaa ctattcctgt gaaactgtcg gagaataatg
+      241 tgtacggtct gactatggta gcagataatt ttaaggaatt tacgcaattg aagaggagtt
+      301 ttgaagcgta tcgaattatt agttatgggt tacgagtaat tcctttgcat aacgttagta
+      361 atgatagtac cagcaagatt gcaacgtatt gcatagttcc gtggaagaag gaggttcctg
+      421 ctactgaaac gaattataac gattacttga gtatagacaa atgtcgtgtt tatcgtggta
+      481 ctcagactgc atataggaga ctggttcctg ctgtgcgtct tcccgctcgg aatgtggatg
+      541 cgactaagct taatacgttt ggcgtgacgc agtggaaacc gagaatagaa attgatccag
+      601 agagtacgaa tataaagcat tatatgggtg ttattgcgtg gcaaaaggat gaaactgctc
+      661 ctgaatcagc cactgcttat tacaacctgg tagagtctgt gaagattaaa ttttataatc
+      721 agacgacgct gggaactgca gctgttggga ataggttagg agatgtttct gaggacgatt
+      781 caatggcgtc tgcggatttg atggatgacg ctgaggaact tgttccggac aagaagaaga
+      841 gggagtcgtt gttggataga ttaagaaata aaaccgagaa tattttactc aattaattcc
+      901 tttaatgtta tacgtctttc gaatgcggca ttactgtaat ttttgaattt atacaataaa
+      961 tgtgtgtcta catttgaggt tatccatatg tgttttgttg taaattcttc gtatcctcct
+     1021 tttacgggta ccttgtaggg gtagcggtcc gttattttca gcagctcgtc gtacttgatc
+     1081 catccgtaaa agtcgtcaat aatgacgcaa tcgttttgtt catacccatc ccaccagtca
+     1141 cctctaggtt tgtaatagat ggttccttcg gtgagagcag ttgcttctgc cagcgctcgt
+     1201 ctcgatttgc cggaccccgg tgggccaaag aagtaataca cactagtttt ccaggagcgt
+     1261 ggttccactg gagatgccag gttgaggtag gttctaatac ctctgtggta tctaatgaag
+     1321 cacgtgggat ggcgtagtgc gatgttccgg taggattttt ctccagcttg aatgtcagcc
+     1381 acgagtgatt gcagatcact acgttgtcct tgactttgtg gttgaccctt ttcaaaaaag
+     1441 tcgcctgatt ttcgacaata tgtttggttt tccaagtcgg ttccgtttgc cttttcaata
+     1501 tggcatctgt tattgatgag acgtttgatc gtggagaagc gtttcggttt ttccagggag
+     1561 cagaaagcct ggatatgagg tctgtgtgta gtcggacaga cttcgcgtcc cagtattccg
+     1621 tatttacaat tggcttcgac gaatcgtttg caagtttcga attcatcttc agtatagttg
+     1681 tgtaaggtga aaacgaaccg acgcacagta ctgttggaca tgttgtgaca cgatcaatag
+     1741 cgcagcgcgt cctcaccccc ccccccgcgc agcggggggg ggatggggag gggatagctg
+     1801 tggcgacaaa gtcaagcgtc cgttaccaat accagaacaa ggagatataa aaaaatcgcg
+     1861 cgcgcagcgc gccagtggag aacgaacgaa gttgcggta
+//

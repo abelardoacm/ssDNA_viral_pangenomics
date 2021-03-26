@@ -1,0 +1,86 @@
+LOCUS       NC_038416               1794 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Cyclovirus NG12, complete genome.
+ACCESSION   NC_038416
+KEYWORDS    RefSeq.
+SOURCE      Cyclovirus NG12
+  ORGANISM  Cyclovirus NG12
+REFERENCE   2  (bases 1 to 1794)
+REFERENCE   3  (bases 1 to 1794)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GQ404854.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1794
+                     /organism="Cyclovirus NG12"
+                     /mol_type="genomic DNA"
+                     /isolate="NG12"
+                     /isolation_source="stool"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:742922"
+                     /country="Nigeria"
+                     /collection_date="2007"
+     gene            181..1026
+                     /gene="rep"
+                     /locus_tag="D1Q39_gp1"
+                     /db_xref="GeneID:37617171"
+     CDS             181..1026
+                     /gene="rep"
+                     /locus_tag="D1Q39_gp1"
+                     /codon_start=1
+                     /product="replication-association protein"
+                     /protein_id="YP_009506325.1"
+                     /db_xref="GeneID:37617171"
+                     /translation="MANSTVRRFVFTLNNYTEDQYQKCVEFISTKCKYGIVGKEVGEE
+                     NGTPHLQGFCNLHKPMRFGTIKKSIDNAIHIEKANGSDIDNQKYCSKAGNFFETGTPS
+                     QQGRRTDLESLVAGIAAGANTTSKVATEFPAMYIKYHRGINEYLKLAFPIKPRTEKTW
+                     VYYYWGPTGSGKSRRALEEAQSINADSIYYKPRGLWWDGYHQQENVIIDDFYGWIKYD
+                     ELLKITDRYPYKVQVKGGFEEFTSTRIWITSEKDTCDLYKYEGYNPASFERRITCKIN
+                     ITYEK"
+     gene            complement(1034..1690)
+                     /gene="cap"
+                     /locus_tag="D1Q39_gp2"
+                     /db_xref="GeneID:37617170"
+     CDS             complement(1034..1690)
+                     /gene="cap"
+                     /locus_tag="D1Q39_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009506326.1"
+                     /db_xref="GeneID:37617170"
+                     /translation="MAYRRRRLVRRRPVYRRRRMFKPVRRRRFHRRRTPVLYCKLTRT
+                     VQAVVPPNTEYNLALHVALNDFAEHINLAPNFERVKVLRQTVRVFPQQNVSNTSTSRV
+                     GSYCLLPYHKPTPTTPINFPTALSIDKAKIFRCTKVGRMSFVPATRLDADATPANQTI
+                     RTDWRPEFEIGTTATLPILYTGMFCVENIGVAVGGSNANFTLVQDLYVRYKNQRSFIG
+                     "
+ORIGIN
+        1 ataccggcga cttcgttgcg tgctattttt atactctccc tagtgcacgt tggtcgaacc
+       61 gtgtggaact aaccgcccga ccccgcttcg aggtggacca ccccctcccg cgcctaacgg
+      121 cgcggcgggg ccccgtccac ctctacgcgg ggcgggctcc gcgtgtcaga tcacactgag
+      181 atggcaaaca gtacagtacg tagattcgtc tttacgttaa ataactatac tgaagatcaa
+      241 taccaaaagt gcgttgagtt catttcaact aagtgcaagt atggcatcgt tggaaaggaa
+      301 gtcggtgagg aaaatggaac ccctcatctg caaggatttt gcaacctaca caaaccaatg
+      361 cgctttggaa ccatcaaaaa gtctatcgat aacgcaatcc atattgagaa ggcaaatgga
+      421 tccgacattg ataaccaaaa atactgttcg aaagcaggca acttctttga aacgggcaca
+      481 ccatctcaac aaggacgtcg tacagacctg gagtccctcg tggctggaat cgcggcaggg
+      541 gccaacacca catccaaagt ggctactgaa ttcccagcca tgtacatcaa atatcatagg
+      601 ggaatcaacg agtaccttaa actcgccttt cctatcaaac caagaacaga gaaaacttgg
+      661 gtgtactatt actggggacc gactggttct ggcaaatcgc gaagagcgct tgaagaagct
+      721 caatcaatta acgcagacag tatctactac aaaccgcgtg gtctctggtg ggacggttat
+      781 catcagcaag aaaacgttat tattgacgac ttctacggat ggattaaata cgacgaactg
+      841 ctaaagatca cagaccgcta cccatacaag gtgcaagtca aagggggatt cgaggaattc
+      901 accagcaccc gcatatggat taccagcgaa aaggatacat gcgacttata caaatatgaa
+      961 gggtataatc cagcgtcttt cgagcgccga ataacatgta aaatcaacat tacatatgaa
+     1021 aaataaattt tattcaacca ataaatgacc gttgattctt atagcgtaca tacaaatcct
+     1081 gtactagcgt aaaattagca ttactaccac ctacagctac tcctatattc tccacacaaa
+     1141 acattcccgt atatagtata ggcaatgtcg cagtagtacc aatttcaaat tcagggcgcc
+     1201 aatcggtacg tatagtttgg ttcgcaggcg tagcgtcagc atctagacgt gttgcaggga
+     1261 cgaaggacat ccggccgacc ttggtgcaac gaaatatttt cgctttatca atcgaaagcg
+     1321 ccgttgggaa gttgatcgga gtagtaggcg tcggtttgtg gtacgggagc aagcaataac
+     1381 tgccaacgcg actcgttgaa gtattcgaca cattctgctg gggaaatact cgcactgtct
+     1441 gacgcaatac cttaactctc tcaaaattag gtgccaggtt aatatgttcg gcaaaatcat
+     1501 tcagagctac atgtagcgcc aaattatact cagtgttggg tggtacaaca gcctgaacgg
+     1561 tacgcgtcaa tttacaatac aatacagggg tcctacgcct atgaaaacgt ctgcgacgaa
+     1621 ccggtttgaa catgcgccgg cggcgataaa ccggtctgcg ccggaccaac cgcctgcgtc
+     1681 ggtatgccat ggtcaactgg cgcgaccttg aaaagtgaaa ggcttttata gcggggtcgg
+     1741 gcggttagag tgggggacgt tacgaagtgt gttacgaagt cgccgggtaa tact
+//

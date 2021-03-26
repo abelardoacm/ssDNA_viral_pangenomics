@@ -1,0 +1,89 @@
+LOCUS       NC_027792               1895 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Palaemonetes kadiakensis Mississippi grass shrimp associated
+            circular virus isolate I0099, complete genome.
+ACCESSION   NC_027792
+KEYWORDS    RefSeq.
+SOURCE      Palaemonetes kadiakensis Mississippi grass shrimp associated
+  ORGANISM  Palaemonetes kadiakensis Mississippi grass shrimp associated
+REFERENCE   2  (bases 1 to 1895)
+REFERENCE   3  (bases 1 to 1895)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528560.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1895
+                     /organism="Palaemonetes kadiakensis Mississippi grass
+                     shrimp associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0099"
+                     /host="Palaemonetes kadiakensis"
+                     /db_xref="taxon:1692258"
+     gene            complement(join(1042..1895,1..129))
+                     /locus_tag="AMR04_gp1"
+                     /db_xref="GeneID:25479224"
+     CDS             complement(join(1042..1838,9..129))
+                     /locus_tag="AMR04_gp1"
+                     /codon_start=1
+                     /product="putative spliced replication initiation protein"
+                     /protein_id="YP_009163920.1"
+                     /db_xref="GeneID:25479224"
+                     /translation="MREKERNNTAAPHEPVSRDPGSIRRTKSIKRDAVSLSRRVARWW
+                     LLTIPEDDWNPPADLPAGVAHLKGQLESGAEGGYRHWQVMVSFTTQVRLPAVKALFSR
+                     TAHCEPSRSDAVDKYVWKEDTRVPGTQFELGRAPVKLNSKPDWDAIWDAAKAGNIEAI
+                     PAGIRVRSYANLRRIRSDHAVALPVERSCRVFVGPTGTGKSHRAWSEAGMDAYPKDPR
+                     TKFWDGYRDQLHVVIDEFRGGIDIAHLLRWLDRYPVNVEIKGASMPLAAKGIWITSNL
+                     APNLWYPAPQHTATLYHPGIRYWSKCCAE"
+     gene            153..1145
+                     /locus_tag="AMR04_gp2"
+                     /db_xref="GeneID:25479223"
+     CDS             153..1145
+                     /locus_tag="AMR04_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163921.1"
+                     /db_xref="GeneID:25479223"
+                     /translation="MPGTLVRRRSRSVGWARRAGAAVSVARGVWRGVKRVRSAISRGR
+                     SLARSTSRTRSKSRPKSSTRPSSAAPMSVDPQSISHGSVSLRLASPVKGMKSLGRWVY
+                     TQQNNGRIVAGLGLQGAGVLLGHNTISQLVVDTAVPNGTQFKDDVFAMNPYQANTGSG
+                     IFGSILAPSQDRIMCRSVRTKFMMANTSNAPCVVVLYWVLSKKAHQGNPFDRWTSFLS
+                     ETALGQSTATQPNQSDSSTGPGTTGVPTFAVYGQEPTTVRSWRNTFKLLRRKEYHMSF
+                     GAVQCINYSVAVNKMFDKTVATQHNTLTSTGYPGGTVWLCAVVRGTRDLVPDCW"
+ORIGIN
+        1 gttacttact acacgacgag acagcgagac agcgtctcgc tttatacttt tagtgcggcg
+       61 aatagagccc ggatcacgcg acacgggctc atgtggcgca gcagtgttgt tccgctcttt
+      121 ctctctcatc gcgacatcag ctgacctatc acatgccagg gaccctagtc agacgacgta
+      181 gccgcagtgt aggatgggcc aggcgtgcag gcgctgcagt gagtgttgcc cggggtgtct
+      241 ggaggggggt gaagagagtg cgcagtgcta tcagtcgggg ccgcagtcta gctcgcagta
+      301 ccagccgtac ccgcagcaag agccgcccca agtcttccac ccgaccctcg agcgccgccc
+      361 ccatgtccgt cgaccctcag agcatctccc acggctcagt cagtctccgt ctagcttccc
+      421 cagtcaaggg catgaagagc ctcggccgct gggtgtatac tcagcaaaat aatggtcgta
+      481 ttgtagccgg actcggtctt cagggtgccg gtgtcctctt gggccataat actattagtc
+      541 agctggttgt tgatacagct gtgcccaacg gcactcagtt caaggatgat gtgtttgcaa
+      601 tgaaccctta tcaggccaat acgggtagcg gtatctttgg gtctattctc gctcctagtc
+      661 aggaccgtat catgtgtcgc tcggttcgga ccaagttcat gatggccaac accagcaacg
+      721 ccccctgtgt tgttgttctc tattgggtgc ttagcaagaa ggcgcaccag ggtaatccgt
+      781 ttgaccggtg gacctcattt ctctctgaga ccgcgctggg tcagagcacc gccacccagc
+      841 caaatcagag tgattcatcg accggccccg gcacaactgg cgtgccgact tttgccgtgt
+      901 acggtcagga gccaaccacc gttcggtcgt ggcgaaatac gttcaagtta ctccgccgga
+      961 aggagtatca catgtccttt ggtgctgtgc agtgtatcaa ttattccgta gcggtcaata
+     1021 agatgtttga taagaccgtt gctactcagc acaacacttt gaccagtacc ggatacccgg
+     1081 gtggtacagt gtggctgtgt gctgtggtgc ggggtaccag agatttggtg ccagattgct
+     1141 ggtgatccaa atcccttttg ccgctagtgg catagaggct cccttgattt ccacgttgac
+     1201 cgggtaacga tcgagccagc ggagcagatg cgcgatgtcg atacctcctc gaaattcatc
+     1261 aatgacaacg tgaagctgat cccggtaacc gtcccaaaac ttggttcgag ggtccttagg
+     1321 ataagcgtcc ataccggctt ctgaccaggc tcgatgagac tttccagttc cagtcggtcc
+     1381 cacaaacacc cggcatgagc gttcgaccgg aagtgccaca gcatgatctg agcggatgcg
+     1441 gcgcaggttt gcgtaacttc gtactcgtat accagcagga atggcttcga tgttgcccgc
+     1501 cttggcggcg tcccatattg cgtcccagtc gggcttggag ttgagcttga caggagctcg
+     1561 tcccagctcg aactgtgttc caggaactcg ggtgtcctcc ttccagacgt acttgtccac
+     1621 agcgtctgag cggcttggtt cgcagtgggc tgttcttgag aatagggcct tgacggccgg
+     1681 tagtcggacc tgagtggtga aggagaccat gacctgccaa tgtcggtatc ctccttcggc
+     1741 tccggactcg agctggccct tgaggtgagc gacgccggct ggaaggtcag cgggggggtt
+     1801 ccagtcatcc tcggggatag tgagcagcca ccagcgagcc ttgggtgagg gtggcagtgt
+     1861 cgaagggccg cgtgaccggc ctgtctcgtc gtagt
+//

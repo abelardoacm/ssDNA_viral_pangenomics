@@ -1,0 +1,92 @@
+LOCUS       NC_040824               2046 bp    DNA     linear   VRL 12-SEP-2019
+DEFINITION  Ecklonia radiata-associated virus 5 Rep-A and capsid-like protein
+            genes, complete cds.
+ACCESSION   NC_040824
+KEYWORDS    RefSeq.
+SOURCE      Ecklonia radiata-associated virus 5
+  ORGANISM  Ecklonia radiata-associated virus 5
+REFERENCE   2  (bases 1 to 2046)
+REFERENCE   3  (bases 1 to 2046)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MG740716.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2046
+                     /organism="Ecklonia radiata-associated virus 5"
+                     /mol_type="genomic DNA"
+                     /host="Ecklonia radiata"
+                     /db_xref="taxon:2480195"
+                     /country="Australia"
+                     /collection_date="01-Jun-2014"
+     gene            76..990
+                     /locus_tag="EXL50_gp1"
+                     /db_xref="GeneID:41702952"
+     CDS             76..990
+                     /locus_tag="EXL50_gp1"
+                     /codon_start=1
+                     /product="Rep-A"
+                     /protein_id="YP_009553620.1"
+                     /db_xref="GeneID:41702952"
+                     /translation="MSVPSSTRGKRWVFTLNNHTEGEVQLLSDLLTSEHVSYGIFGRE
+                     VGESGTPHLQGYCIFADRKRFNQVRALFGXRYHVEISRGTPAQASQYCKKDGDFEEFG
+                     EFPGTQGKRSDWESLKLWCETQTRQPTDLELFYAFPSLFGRYEKSVRKICNLCIKCDP
+                     XXIGEPRGWQRDXEERLLDEPDDRCIEFVLDYEGNSGKSWFVRYYMLKHQGSAQMLSV
+                     GKRDDIAHCXDVSRRVFFFDIPRGGMEFLQYGALEGIKNGFIFSPKYESTTKVLLNKA
+                     HVVVLCNEDPDMLKLSLDRYKITNLXXL"
+     gene            complement(1119..1973)
+                     /locus_tag="EXL50_gp2"
+                     /db_xref="GeneID:41702951"
+     CDS             complement(1119..1973)
+                     /locus_tag="EXL50_gp2"
+                     /codon_start=1
+                     /product="capsid-like protein"
+                     /protein_id="YP_009553621.1"
+                     /db_xref="GeneID:41702951"
+                     /translation="MAIRRKRIILPLHRRRVRPRLYKTKTRTYRRSYGNKRMRRMQDF
+                     SPRAIANPVGLSNAKTRLLTFSQDSPDRAFVPYIMTNIPFTAANAPDSRQRNIINIRG
+                     FKIQVVFQNTQRPAFYLNWAVIHPKLSIDDTSVSTQDFFRTYNANRAVDLITDNTGVV
+                     NNIAQDVPTHGMSSINTDKWVVLKHKRTLLAGAINNPDDNALXFXATNCQIPKGNRVV
+                     IDKYIKMGRQFRFPNDDSTFPEGGNTIFCYWLTNLNNYLGSQNTSXDVSVIRTTGRII
+                     TYFRETKN"
+ORIGIN
+        1 ttttcctcgc gatatcccgt gtgtagtggt tagtattacc cactacactt ctgtcccgtc
+       61 ccntctcata aaacyatgtc tgtcccttcy tcwactcggg gaaaacgttg ggtgtttaca
+      121 ctcaacaatc ayaccgaagg tgaagtdcaa ctactytctg accttcttac ctctgaacac
+      181 gttagttacg ggatctttgg acgtgaagtc ggagaatctg gtactcccca ycttcaaggt
+      241 taytgtatyt ttgctgatcg gaaacgtttc aatcaagttc gtgctttatt cggtgawcgt
+      301 tatcatgtcg aaatctcgag aggaaccccc gcccaagcta gccagtactg caagaaagac
+      361 ggagacttcg aggagttcgg cgarttccca ggaacacaag gaaaacgttc cgactgggaa
+      421 agtcttaagt tgtggtgcga aacgcagaca cgacaaccta cagacttgga actcttctat
+      481 gcctttccca gcctctttgg aagatacgaa aagtccgttc gaaagatttg taatctctgc
+      541 attaaatgtg atcctrtcwc aattggagaa cctcgtggat ggcaacgaga tytcgaggag
+      601 cgattactcg atgagccaga cgacagatgc atcgaattcg tcttagacta tgaaggtaac
+      661 tctggtaaga gttggttcgt acgatactac atgttraagc atcaaggctc tgcgcagatg
+      721 ctctctgttg ggaaacgtga tgatattgct cactgtrttg atgtttctag acgagtcttc
+      781 ttttttgaca ttcctcgagg aggaatggag ttcctccaat atggagcctt ggaaggtata
+      841 aagaatggct tyattttttc tcctaartat gaatcaacta craaagtgtt gcttaacaaa
+      901 gcacacgtag ttgtcttatg yaatgaggat ccygatatgt tgaagctatc cttggataga
+      961 tacaaaataa ctaayttaav trrtctctaa tcaaccaaat cactaagtgc ggtgccgagg
+     1021 gcacccgcga aaaggagcgy agcggaagcg ggtcgaggcc aagcacccat accgccggtg
+     1081 ccacacccaa taycactsta tatgattact cttctccctt aattytttgt ytctctgaaa
+     1141 tatgtaatga tgcgaccagt agttctgata acagatacgt cggyagatgt attttgacta
+     1201 ccaagrtart tgttgagatt tgtcaaccaa taacaaaaga ttgtattgcc cccttctggg
+     1261 aatgttgaat catcattggg gaatctgaat tggcgtccca ttttgatata cttatcaata
+     1321 acgacgcgat ttccctttgg gatytgacag ttagttgctg yaaagstcag agcattgtca
+     1381 tctggattgt ttattgctcc agcaagtaat gttcttttgt gtttcagcac aacccatttg
+     1441 tctgtgttga tgctactcat tccatgagta ggaacatctt gagctatgtt gttaacaaca
+     1501 ccggtgttgt ccgtgatcaa gtcaactgct ctgttagcat tgtatgttck gaagaagtct
+     1561 tgggtactaa cwgakgtatc atcgatagat arctttggat ggataactgc ccagttgaga
+     1621 taaaaagcag gtctttgtgt gttttgaaat acaacttgta ttttgaatcc tctgatgttg
+     1681 atgatattcc gttgacgtga gtccggcgcg ttcgcggcgg tgaaaggaat attagtcatg
+     1741 atgtaaggaa cgaatgctct gtctggagag tcttgactga aagtcaacaa cctcgttttr
+     1801 gcattagaca accctacagg gttggcaata gcacgtggac taaagtcctg catgcgacgc
+     1861 atgcgtttgt tgccatagct acgtctgtaa gttcttgtct ttgttttgta gagacgaggt
+     1921 ctcacacgac gtcggtgtaa aggtagtatg atacgtttac gacgtatagc cattgtgttg
+     1981 ttatgggcat aggattacgt agtaatagta acaatagaac ccaatcatgg tcttatgttg
+     2041 aagttg
+//

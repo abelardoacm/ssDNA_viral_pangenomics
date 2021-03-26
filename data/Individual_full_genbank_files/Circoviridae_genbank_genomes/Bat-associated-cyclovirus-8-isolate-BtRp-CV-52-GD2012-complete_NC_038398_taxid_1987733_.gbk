@@ -1,0 +1,75 @@
+LOCUS       NC_038398               1746 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Bat associated cyclovirus 8 isolate BtRp-CV-52/GD2012, complete
+            genome.
+ACCESSION   NC_038398
+KEYWORDS    RefSeq.
+SOURCE      Bat associated cyclovirus 8
+  ORGANISM  Bat associated cyclovirus 8
+REFERENCE   2  (bases 1 to 1746)
+REFERENCE   3  (bases 1 to 1746)
+REFERENCE   4  (bases 1 to 1746)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ641715.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNASTAR v. 7.1.0
+            Coverage              :: 5
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1746
+                     /organism="Bat associated cyclovirus 8"
+                     /mol_type="genomic DNA"
+                     /isolate="BtRp-CV-52/GD2012"
+                     /host="Rhinolophus pusillus"
+                     /db_xref="taxon:1987733"
+                     /country="China"
+                     /collection_date="Dec-2012"
+     gene            1..846
+                     /locus_tag="D1Q21_gp1"
+                     /db_xref="GeneID:37617120"
+     CDS             1..846
+                     /locus_tag="D1Q21_gp1"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_009506293.1"
+                     /db_xref="GeneID:37617120"
+                     /translation="MCDSTARRFCFTLNNYTEAEYQHIVEFINAKCKYGIVGKEVADT
+                     TGTLHLQGFCNLSKPMRFSAIKKSLNNRIHIEKANGSDEQNQKYCSKAGNYFEKGTPA
+                     RQGQRTDLDKLVRAIQNGCNTTQMVAKEFPTAYIRYHRGISEYLKLSHPIKPRDEKTW
+                     VYYYWGPTGSGKSRRALEEARAINPDSIYYKPRGLWWDGYHQQDCVIIDDFYGWIKYD
+                     ELLKICDRYPYKVQVKGGFEEFTSKRIWITSEKDTDRLYKFEDYNPASFERRITCKIF
+                     IDYKK"
+ORIGIN
+        1 atgtgtgaca gtacagcgcg tagattctgc tttacactta acaattatac agaagctgaa
+       61 tatcaacata ttgtagaatt cattaacgcg aagtgtaaat atggcatcgt tggaaaagaa
+      121 gtcgctgaca caactggaac cttgcatctt caggggttct gtaatctatc aaaaccaatg
+      181 cgcttcagtg ccatcaaaaa gtctctcaat aacagaatcc atattgagaa ggcaaatgga
+      241 tccgacgaac aaaaccaaaa gtactgttcg aaggcaggca actactttga aaagggcact
+      301 ccagcacggc aaggtcagcg tacagacctt gacaaattgg tacgtgccat acagaacggg
+      361 tgcaacacca cacaaatggt ggccaaagaa ttccctactg cctacatacg ctatcatcgg
+      421 ggaatttccg aatacctcaa gttatctcac cccatcaaac cgagagacga aaaaacatgg
+      481 gtttattatt attggggacc gactggtagc ggaaagtcaa gacgagcact tgaagaagct
+      541 cgagcaataa accctgacag catatattat aaaccgcgtg gtttatggtg ggacggatac
+      601 catcaacagg attgcgtcat catagatgac ttctacggat ggatcaagta cgacgaacta
+      661 cttaaaatct gcgaccgcta cccatacaaa gtccaagtga aaggtggatt tgaagaattt
+      721 acaagtaaac ggatatggat aacaagtgaa aaggatacgg acagactata caaattcgag
+      781 gactacaacc cagcaagctt tgagagacgt attacatgta aaatttttat tgattataaa
+      841 aaataatgtt tacaaaaatg atcgctgatt gtaatatgta acaaatacat ccaatacaat
+      901 agtaaaatgt gatgcagtat cttgatttat tttctcggga actaaaaacc cattatataa
+      961 ccactgcgtt gatgccgtct ttgatatctc aaatgtaggg cgccattgtg ctacagtata
+     1021 agtcgcatct gctgacgtcg aatgatctac attaagacga gacaccggga caaatgacat
+     1081 acgaccacac tgagtacccc gaaaaacttt agctttatca atcgagagcg ccgtcgggaa
+     1141 attaatcgga gtcgtaggca taacattatg ataaggcaca atacaataat ttccaacacg
+     1201 tgacgtacta ttattagcaa cattctgctg tggatacact cgagctttca ctttccaaac
+     1261 ctttaccctt tcaaaattag ctccaaggtt gatatgctct gcgaactcat tcaagttaca
+     1321 atgcaaacta agattatttt cagctttacc atctgcatcg agttggattg tacgagttaa
+     1381 tttcacagat aattttggaa ccctacgcct atgtgcgcgg cgaatacctc tccttcgccg
+     1441 gcggcgtata accggtttgc gcctgtatcg catacgccta acaaagcgcg ccatggcctt
+     1501 gaccgctcag ttaaaaatac tctcactcac tgcctagcga cagaactgct gtgggtcgtc
+     1561 gctcccccag ctcgcccccc ccaccccccc cccctccgct tcgctccggg tggggggcga
+     1621 ggcgccgctg tggcgctctg tgattggtag atgatgacgt ataccaacgt agaggcgctg
+     1681 taagcgcgtt acgaagtgcg tgttacgaag tggacgggta atactaaccg tccacttcgt
+     1741 tgcaat
+//

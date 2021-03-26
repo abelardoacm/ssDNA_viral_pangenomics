@@ -1,0 +1,92 @@
+LOCUS       NC_035196               1928 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Giant panda circovirus 4 strain gpci004, complete genome.
+ACCESSION   NC_035196
+KEYWORDS    RefSeq.
+SOURCE      Giant panda circovirus 4
+  ORGANISM  Giant panda circovirus 4
+REFERENCE   2  (bases 1 to 1928)
+REFERENCE   3  (bases 1 to 1928)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MF327576.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1928
+                     /organism="Giant panda circovirus 4"
+                     /mol_type="genomic DNA"
+                     /strain="gpci004"
+                     /isolation_source="feces"
+                     /db_xref="taxon:2016459"
+                     /country="China"
+                     /collection_date="2015"
+     gene            1..1107
+                     /locus_tag="CGU84_gp1"
+                     /db_xref="GeneID:33347758"
+     CDS             1..1107
+                     /locus_tag="CGU84_gp1"
+                     /note="Rep"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009389445.1"
+                     /db_xref="GeneID:33347758"
+                     /translation="MITPLILQINTMSRLRNCCFTINNIDANNNIENYFNFPIDGVKY
+                     CIYQKEKVTRDHLQGYIEFEAPKSQAQIKDILGKEAHIEKRRGTALQAQQYCMKNDSR
+                     VSGPYEFGVISHQGKRSDLKEIADRFRSGESIKDIIDGNETQFVRYGRGLRELQALLQ
+                     PRPRSYTKKEVVVLWGPPGVGKSYFVNHIMELRQKLLYIKSPNTKWWDNYQGESDILL
+                     DEFPGTMTARDAKIILGEVNGPLETKGGSFTTDKMERFWITSNYEPGMWFENAKDIDR
+                     SAVQREVNGPLETKGGSFTTDKMERFWITSNYEPGMWFENAKDIDRSAVQRRLTTICH
+                     VTEWQDTAEIFYKFFPPPSIQFGPPYDETQNIYK"
+     gene            1022..1774
+                     /locus_tag="CGU84_gp2"
+                     /db_xref="GeneID:33347757"
+     CDS             1022..1774
+                     /locus_tag="CGU84_gp2"
+                     /note="CAP"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009389446.1"
+                     /db_xref="GeneID:33347757"
+                     /translation="MRKFFINFFLPLRYNLDHRMMKRKTYTNRSYRTTYKRRKYGTNR
+                     KVPKPLRTAIKKTMNRQLETKKCYQQGMTVMQANFQANTMYTDNILYNIPQNATEGGR
+                     IGDRINISKVVISGEFQCQPTDNVFWHLYIFRSALYNDNTTPPLYGIMPYSRFYHPVG
+                     SIVNPNVDLPDPDQVRILKYKRIRVDPANNGGICIRRFYLSVNMKNAAYQYATDGSSY
+                     GRNYNLYFGVICRGQEGNQLNITEQRIFYKDA"
+ORIGIN
+        1 atgatcaccc ccttgatttt gcaaataaac acaatgagcc gactgcgcaa ttgttgtttt
+       61 acaattaata atattgatgc gaataataat atagaaaatt acttcaattt tcctatagat
+      121 ggggtgaagt attgtattta tcaaaaggaa aaggttactc gagatcacct gcaaggttat
+      181 atcgaatttg aagccccaaa aagtcaagca cagataaagg atatcttagg aaaggaggca
+      241 catattgaaa agcgtcgtgg gacagctttg caggcacaac aatattgcat gaaaaacgat
+      301 tcgagagtta gcggcccata tgaatttgga gtgatctcgc accaaggtaa gagatcggat
+      361 ttaaaagaaa ttgcagatcg gtttagatcg ggcgagtcaa taaaagacat tattgacggt
+      421 aacgaaactc agttcgtaag atatgggcga ggtttaagag aattgcaggc tctgctgcag
+      481 ccacgacctc gatcgtatac gaaaaaggaa gtggtggtac tttggggacc cccgggagtg
+      541 gggaaaagct attttgtgaa ccatatcatg gagttacgac agaaattact gtatataaag
+      601 tcaccgaata cgaagtggtg ggacaactac cagggggaga gcgatatttt gctcgacgaa
+      661 tttcctggta cgatgacagc gcgggacgcg aagataattt taggggaagt aaatgggcca
+      721 ctggagacca aaggtggatc atttacaaca gacaaaatgg aaagattttg gattacttcc
+      781 aattatgaac caggaatgtg gtttgagaac gcaaaagaca tagaccgcag tgccgtacag
+      841 agagaagtaa atgggccact ggagaccaaa ggtggatcat ttacaacaga caaaatggaa
+      901 agattttgga ttacttccaa ttatgaacca ggaatgtggt ttgagaacgc aaaagacata
+      961 gaccgcagtg ccgtacagag aaggctgacg acaatttgcc acgtgacaga gtggcaagat
+     1021 actgcggaaa ttttttataa attttttcct cccccttcga tacaatttgg accaccgtat
+     1081 gatgaaacgc aaaacatata caaatagatc gtatagaacg acatacaaac gtagaaaata
+     1141 tggcacaaat agaaaagtac caaaaccact tagaacagca ataaaaaaga ctatgaatag
+     1201 acaattggaa accaagaaat gttatcaaca agggatgacg gttatgcaag caaattttca
+     1261 ggctaataca atgtatacgg ataatatatt gtataatata ccacaaaacg caacagaagg
+     1321 gggacgtatt ggggatcgaa ttaatatatc caaagttgta atatcggggg aatttcaatg
+     1381 ccaaccaaca gacaatgtgt tttggcattt atatatattc agatcagcgt tgtataatga
+     1441 caacaccaca ccgccattgt acggaatcat gccgtactca aggttttatc acccagttgg
+     1501 atctatagtt aatccaaacg tggatttacc agaccccgat caagttagaa ttttaaaata
+     1561 caaacgaatt cgtgtagatc cagcgaataa cggtggaata tgtatacgac gattttattt
+     1621 aagcgtgaat atgaaaaatg ccgcttatca atatgcaaca gatgggtctt cctacggacg
+     1681 aaactataat ctgtattttg gcgtaatatg ccgtggtcag gagggaaatc aattgaatat
+     1741 cacggaacaa cgcatatttt ataaagatgc atgatgtaaa aaaaatatac ggcacaaaaa
+     1801 ccagccttta tgaatccaga aggaccccct tacagggggt ccgcagaaaa acgtagcgca
+     1861 gcgcacagag gttgaaatta aggggtgacc tggactagta ttacccaggt cacttctgtg
+     1921 caggactt
+//

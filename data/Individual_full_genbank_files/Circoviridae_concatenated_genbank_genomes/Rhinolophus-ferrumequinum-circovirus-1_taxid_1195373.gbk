@@ -1,0 +1,86 @@
+LOCUS       NC_038386               1760 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Rhinolophus ferrumequinum circovirus 1, complete genome.
+ACCESSION   NC_038386
+KEYWORDS    RefSeq.
+SOURCE      Rhinolophus ferrumequinum circovirus 1
+  ORGANISM  Rhinolophus ferrumequinum circovirus 1
+REFERENCE   2  (bases 1 to 1760)
+REFERENCE   3  (bases 1 to 1760)
+REFERENCE   4  (bases 1 to 1760)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JQ814849.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNASTAR Lasergene v. 7.1.0
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1760
+                     /organism="Rhinolophus ferrumequinum circovirus 1"
+                     /mol_type="genomic DNA"
+                     /host="Rhinolophus ferrumequinum"
+                     /db_xref="taxon:1195373"
+                     /country="China"
+                     /collection_date="Feb-2011"
+     gene            34..918
+                     /locus_tag="D1Q09_gp1"
+                     /db_xref="GeneID:37617091"
+     CDS             34..918
+                     /locus_tag="D1Q09_gp1"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_009506275.1"
+                     /db_xref="GeneID:37617091"
+                     /translation="MKGDETPGRRWCFTINNYDTPDLTAVNEAFKEKDVVYAVCGKEV
+                     GKKGTKHLQGFIHFTGNWRFNRVKSLLGGRAHIEKARGNDEQNKVYCTKEETYLEVGS
+                     PQFQGKRNDLGRAVAALEGGSSLSEVAQANPEVFIRYGRGLRDYMNVRGLVKPRDFKT
+                     HVIVLVGEPGSGKSKYANEVEGTKYWKPRGQWWDGYNGEEVVVLDDFYGWVPYDELLR
+                     VGDRYPLKVQVKGAFVDFVSKTLVITSNKRPEEWYDKEKIPDQSAMWRRFNEMYYCER
+                     GEPIKPYPDEWKEFETNF"
+     gene            complement(1047..1703)
+                     /locus_tag="D1Q09_gp2"
+                     /db_xref="GeneID:37617090"
+     CDS             complement(1047..1703)
+                     /locus_tag="D1Q09_gp2"
+                     /codon_start=1
+                     /product="Cap"
+                     /protein_id="YP_009506276.1"
+                     /db_xref="GeneID:37617090"
+                     /translation="MPRSTRHRWRRNQWFKRWRQRRRRGHTRGRRRYRNKVGIYNFRF
+                     RAITTMTINKNSNQGYFTYTLNGSVPTAFANYFDMYRIAKVRVQWLPMVSISEVRAWG
+                     ATVIDLTGRDTTVPSTGRTDFTIDDSTRRLWNPTRIHSRYFTPKPEIQIRSNSEAVQP
+                     NNPRNQLWIDSRDKDVKHHGIAYYFHPDDIGDDVYKFSYIVTYYFQFRQFAGSQAPSV
+                     "
+ORIGIN
+        1 ctgaaaatgt ctgtaaagag aaagtataac gtcatgaaag gggacgagac ccccgggaga
+       61 cgctggtgct tcacaattaa taactatgac acaccagacc ttactgctgt gaatgaagcc
+      121 tttaaggaaa aggatgttgt ttatgctgtc tgcgggaagg aggtgggaaa gaaaggaaca
+      181 aagcatcttc aaggattcat tcattttaca ggtaattggc gatttaaccg cgtgaagagc
+      241 ctgctcgggg gtcgtgccca tattgagaaa gccagaggga atgatgagca gaataaagta
+      301 tactgcacaa aagaagaaac ctaccttgaa gttggcagtc ctcagttcca ggggaagaga
+      361 aatgacctgg ggagagctgt ggcagctctg gagggaggca gctcactaag tgaagttgcc
+      421 caggcaaacc ccgaagtttt tattcgctat gggaggggtt tgagggatta tatgaatgtt
+      481 agaggcctag taaagcctcg tgactttaag acccatgtaa ttgtacttgt gggggaacct
+      541 gggagtggca agagcaagta tgctaatgag gttgagggta ccaagtattg gaagccccgt
+      601 gggcaatggt gggatgggta taatggggag gaggtggtgg tattggatga tttctatggg
+      661 tgggtcccat atgatgagct cctgagggtg ggggatagat atccccttaa agtacaggtt
+      721 aagggggctt ttgtagactt tgtgagtaag acccttgtta taactagtaa taagaggcct
+      781 gaggaatggt atgataaaga gaaaatacct gaccagagtg ccatgtggag aagatttaat
+      841 gaaatgtatt attgtgagag gggggagcct attaagccat acccagatga atggaaagaa
+      901 tttgagacaa acttctgaat aaatgaatgg aaacacatga taattggttc aaagcgagtt
+      961 ttttttattg tgagtaaatc acaatcagat actacacatg atcttagcca aaaggtcggg
+     1021 gggtgatcca aaccctgact ccacaatcaa acacttggag cctgtgaccc agcaaactgt
+     1081 cggaactgga aatagtatgt gacaatataa gagaacttat acacatcatc tccaatatca
+     1141 tcagggtgaa aataataagc aattccatgg tgttttacat ctttatctct ggagtctatc
+     1201 cagagctggt ttctggggtt gttgggctgc acagcttcag aattagatct tatttgtatt
+     1261 tctggtttgg gggtgaaata tctgctgtgg atgcgggtgg gattccagag tcttcttgtg
+     1321 ctgtcatcaa tcgtgaagtc ggttcttcct gtactcggga cagttgtgtc gcggccagtg
+     1381 aggtcaatca ctgtggcacc ccatgcccgt acttccgaaa tcgagaccat tggcagccat
+     1441 tgaactctga cctttgcaat cctgtacata tcaaagtagt ttgcaaaggc agttgggaca
+     1501 gagccattaa gggtataagt gaagtaacct tggttactat tcttgttgat ggtcatggtg
+     1561 gttatggcgc ggaatctaaa gttgtaaatg ccaactttat ttctgtaacg gcgccggccg
+     1621 cgggtgtggc ccctccttct tctttgccgc cagcgtttaa accactggtt acgcctccac
+     1681 cgatgacgtg tcgagcgcgg cattttcaaa tctgtgccgg ggatagtatt accccggcac
+     1741 ttcggcacac ctcggcacaa
+//

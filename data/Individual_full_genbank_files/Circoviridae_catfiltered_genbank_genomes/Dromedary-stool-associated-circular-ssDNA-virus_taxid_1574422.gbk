@@ -1,0 +1,130 @@
+LOCUS       NC_025959               2948 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Dromedary stool-associated circular ssDNA virus isolate DcSCV_c954,
+            complete genome.
+ACCESSION   NC_025959
+KEYWORDS    RefSeq.
+SOURCE      Dromedary stool-associated circular ssDNA virus
+  ORGANISM  Dromedary stool-associated circular ssDNA virus
+REFERENCE   2  (bases 1 to 2948)
+REFERENCE   3  (bases 1 to 2948)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KM573763.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: IDBA_UD v. 1.1.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2948
+                     /organism="Dromedary stool-associated circular ssDNA
+                     virus"
+                     /mol_type="genomic DNA"
+                     /isolate="DcSCV_c954"
+                     /host="dromedary camel"
+                     /db_xref="taxon:1574422"
+                     /country="United Arab Emirates"
+                     /collection_date="2013"
+     gene            1..1083
+                     /gene="rep"
+                     /locus_tag="SB16_gp1"
+                     /db_xref="GeneID:22619590"
+     CDS             1..1083
+                     /gene="rep"
+                     /locus_tag="SB16_gp1"
+                     /codon_start=1
+                     /product="putative replicase protein"
+                     /protein_id="YP_009112559.1"
+                     /db_xref="GeneID:22619590"
+                     /translation="MTRAWQHCNYFLTSKNHEKFWDTDYLNQLVTKYDIVYLAIGRHT
+                     GLTTGYEHVHIDVEFEKKKAWTVIKDIFEDETINVQKRIAERAVADRYLAKEGPERFR
+                     VIVNKKPANFQGKRNDITAFDEDMYAGMSWDDLKVAHPSYTGRCRVAYQRYLEHSAAK
+                     NKRFRRDPGAQCRVICYFGRSGSGKTWAATGHPAFAKELEGTGEYEEIGVEIAYPGHG
+                     TLWWDGVTPSTECLLLDEFSGAWMEFSKFCNMVGQIKGRKFGVKGAFITATINTWIIT
+                     SIKHPNEWWANAAEFERNRQQLWRRITECYWVDEPNEETGEWGQPILLDKKKFSEMST
+                     ETFLNWLKFGRRKYIELYGCEYYYVY"
+     gene            complement(1080..1580)
+                     /gene="ORF2"
+                     /locus_tag="SB16_gp2"
+                     /db_xref="GeneID:22619588"
+     CDS             complement(1080..1580)
+                     /gene="ORF2"
+                     /locus_tag="SB16_gp2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009112560.1"
+                     /db_xref="GeneID:22619588"
+                     /translation="MQPFTGGGGSSSSSNLMVRSNSSSSLRLPTWSDYEPDDSDERLI
+                     EEDTAAEREKRVNALKSLSKRWMDNTRRNAFYVWKHRSELGRAALAAMNGVPHLLAHQ
+                     AVKRVVGDAIEDYRGKRVRAPQPNMNWYEMAKRQPPIRPWTQGKFKPKKPDTWLKDYL
+                     KAFCVC"
+     gene            complement(1591..2682)
+                     /gene="cap"
+                     /locus_tag="SB16_gp3"
+                     /db_xref="GeneID:22619589"
+     CDS             complement(1591..2682)
+                     /gene="cap"
+                     /locus_tag="SB16_gp3"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009112561.1"
+                     /db_xref="GeneID:22619589"
+                     /translation="MARFRRRLRRPRRFSKRRMRRSRRMRRRTRRMRRRSKAFTVGFH
+                     RDFEVNLCSAIPSVSNIAGSSVGVPADNYCTWSIPVVPPELLYPLGNNLLGYWKNDVA
+                     LSTRNIGTAQTYGGEPMITDLPTCISSQNLFGNLNCVALSNLMTKYRIAYCTATFTIP
+                     ENTNGEKNHHLYLEWTHLPLAQPCKPDSLWGFIASSASGYKDSYGFNWVCRPIDIAEA
+                     CSIPGKGSYKHKWHRAQLTSNAPVTIAWRPRHSAISADRTYYVDNKGNNSNQVSHQDE
+                     FADKDRFVRSYLPVLKHAENVTRNDDQVWLGPVVRLVDADLPINSTIDNALRLGKYHI
+                     RCSFSLKLKLKGMKAADPLFPSWNPSIPS"
+ORIGIN
+        1 atgactagag cctggcaaca ctgtaactac ttcttaacat ccaaaaacca tgagaaattt
+       61 tgggatacgg attaccttaa ccaacttgtt actaagtatg atattgtcta tcttgctatt
+      121 ggtcgacata caggattaac aactggttat gagcatgttc atatcgatgt ggagtttgag
+      181 aagaagaaag catggactgt gattaaggat atcttcgaag atgagacaat caatgtccag
+      241 aagagaatag ctgaacgtgc agttgcagac agatatctcg ctaaagaagg tcctgagaga
+      301 ttcagagtca ttgtcaacaa gaaacctgct aacttccaag ggaaacggaa tgacatcact
+      361 gccttcgatg aagacatgta tgctggtatg tcctgggatg acttaaaggt cgcacatcct
+      421 tcatatactg gaagatgtcg agtcgcttac cagcgctatc tcgaacactc tgcggcaaaa
+      481 aataagcgat ttagaagaga tccgggtgcg cagtgcagag ttatatgtta ctttggcagg
+      541 tctgggtcgg gcaagacgtg ggcagcgacg ggtcatccag cattcgccaa ggaactggaa
+      601 ggaacgggag agtatgagga gattggagtg gaaattgcct atcctggaca cggaacatta
+      661 tggtgggatg gagtcacacc ctctacagag tgtctcctac tcgacgaatt ctcaggagca
+      721 tggatggaat ttagcaaatt ctgtaacatg gtcggacaga tcaagggaag aaagttcggt
+      781 gttaagggag ccttcattac agctaccatc aacacctgga ttatcacgag catcaagcat
+      841 ccaaatgaat ggtgggctaa tgcagcagaa ttcgagagaa atcggcaaca actttggaga
+      901 cgtatcaccg agtgttattg ggtggatgag cccaatgaag agacagggga gtggggacaa
+      961 cctattcttc tagacaagaa gaagttcagt gagatgagta ctgaaacatt cctcaactgg
+     1021 ttgaagttcg gaagaagaaa gtacatcgaa ctgtatggat gtgaatatta ttatgtttat
+     1081 taacaaacac aaaacgcttt taagtaatcc ttaagccatg tatcaggttt cttcggttta
+     1141 aacttgcctt gagtccacgg tcggataggt ggttgtctct ttgccatctc ataccaattc
+     1201 atgtttggct gtggagcacg aacacgctta cctcggtaat cctcaatagc atcaccaacc
+     1261 acacgtttaa cagcctgatg agcaagtaaa tgaggaacac cgttcatcgc agcaagagcc
+     1321 gcacgaccaa gttcagaacg atgtttccaa acgtaaaaag cattcctacg agtgttatcc
+     1381 atccaacgtt ttgaaagact ctttaaagca ttaacacgct tttctctttc agcagcagta
+     1441 tcctcttcaa tgagccgttc atcagaatca tcgggttcat aatcggacca agtaggtaac
+     1501 cgtaaagaac tagaagaatt agaacggacc atcagattag aggaagagct ggaaccaccg
+     1561 ccaccagtaa aaggttgcat atactataaa ttaagaagga attgagggat tccaagaggg
+     1621 aaacaaagga tcggcagcct tcataccctt caattttaac ttcaaggaga aagaacaacg
+     1681 aatatgatat tttcccaatc tcaaagcatt atcaatggtg ctattaatag gcaaatcagc
+     1741 atccaccaaa cgaacaacag gtcctaacca gacctgatca tcatttctag ttacattttc
+     1801 agcatgtttc aaaacaggca aataactacg gacaaatcta tccttatcgg caaattcatc
+     1861 ctggtgtgat acctgattag agttgttacc cttattatca acatagtaag tgcgatcagc
+     1921 cgagatagca gaatgtctcg gacgccaagc aatagtgaca ggagcattag aagtcaattg
+     1981 agcacgatgc cacttatgct tatagctacc tttaccagga atagagcaag cttcagcaat
+     2041 atcaataggc ctacagaccc agttaaagcc ataagaatcc ttatagccac tagcagatga
+     2101 agcaatgaag ccccataaag aatctggttt acaaggttga gccaacggta aatgtgtcca
+     2161 ttccaaatac aaatggtgat ttttctctcc attagtattt tcaggaatag taaatgtagc
+     2221 agtgcaataa gcaatacggt atttagtcat aagattcgac aaagccacac agttcaaatt
+     2281 accaaataaa ttttgagaag aaatacaagt aggcaaatcc gtaatcatcg gttctcctcc
+     2341 atatgtttga gcagtcccga tattacgagt cgaaagagct acatcatttt tccaatagcc
+     2401 gagaaggtta ttgccaagag gataaagaag ctccggtgga acaacaggaa ttgaccaagt
+     2461 acaataatta tccgcaggaa cgccaacgct gcttccagcg atattagata cagaaggaat
+     2521 agccgaacat aagttaacct caaaatccct gtgaaaacct acagtaaaag ccttcgagcg
+     2581 gcgacgcata cgacgtgtac gacgacgcat acgacgtgaa cgacgcatac gacgcttact
+     2641 aaagcgtcta ggtcttctta aacgtcttcg aaatcgagcc attaaaaaat ttaatgagaa
+     2701 acagaccgga agcccggaag cagaagtcct cggggtaaca ctataccctc ggacttcacc
+     2761 gggctcattt gcgtatttta ttgggttctg gtcatcatcg tctaacgctc gggatttttg
+     2821 tccccccccc ctgaggggta gggggggggg gacaaaaacc cgagctttct gattggacgc
+     2881 accagtttta gccaatcaga tgagggcgca cgagtttcgg tgaattctca taatttcttt
+     2941 taatttca
+//

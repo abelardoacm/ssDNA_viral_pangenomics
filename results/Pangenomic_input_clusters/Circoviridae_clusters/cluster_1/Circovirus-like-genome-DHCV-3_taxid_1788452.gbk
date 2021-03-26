@@ -1,0 +1,103 @@
+LOCUS       NC_030477               2029 bp    DNA     circular VRL 25-AUG-2018
+DEFINITION  Circovirus-like genome DHCV-3, complete genome.
+ACCESSION   NC_030477
+KEYWORDS    RefSeq.
+SOURCE      Circovirus-like genome DHCV-3
+  ORGANISM  Circovirus-like genome DHCV-3
+REFERENCE   2  (bases 1 to 2029)
+REFERENCE   3  (bases 1 to 2029)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KT149409.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SOAPdenovo v. 1.04; Sequencher v.4.1
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2029
+                     /organism="Circovirus-like genome DHCV-3"
+                     /mol_type="genomic DNA"
+                     /isolate="DHCV-3"
+                     /isolation_source="Freshwater lake (Donghu) sample (< 0.5
+                     m)"
+                     /db_xref="taxon:1788452"
+                     /country="China"
+                     /collection_date="Mar-2010"
+     gene            94..966
+                     /locus_tag="BBV84_gp1"
+                     /db_xref="GeneID:37627692"
+     CDS             94..966
+                     /locus_tag="BBV84_gp1"
+                     /codon_start=1
+                     /product="putative Rep protein"
+                     /protein_id="YP_009259745.1"
+                     /db_xref="GeneID:37627692"
+                     /translation="MNVRSRDWCFTVNNYTYDDYKVCQELSVMCQYVVIGKEVAETGT
+                     KHLQCYVYFENAKSFSKMKKLLPNQAHIEKAGGTPQDASNYCKKGEQPKNEWKALKHM
+                     GPQWGLNADFWEHGSLPQPSGTRNDLKEIREMLAQGKGMRDVIEVATSYQSMKSAELI
+                     LKYKERKRNWKPKVIWLWGRSGIGKTRAVYEECPNIYRKSNNSGKWWDGYDAHENVLI
+                     DDVKDTSEEFYSMLLEILDRYDVRVQTKGATREFLAKTIYLTSLEDPRIMYRRFPEEG
+                     YELYRRIDEIRHVT"
+     gene            complement(128..457)
+                     /locus_tag="BBV84_gp2"
+                     /db_xref="GeneID:37627694"
+     CDS             complement(128..457)
+                     /locus_tag="BBV84_gp2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009259746.1"
+                     /db_xref="GeneID:37627694"
+                     /translation="MAEVNYHAPKNLHLIPIGVPYVSMLSIHFLVAPLSYNNSMHLGG
+                     FHLLFLYVPDLVTISSFSKNFSHSQNIHNTVNALFLFPLPLYQSQHTDTLQIIPGIPC
+                     NHHRYNY"
+     gene            1230..2024
+                     /locus_tag="BBV84_gp3"
+                     /db_xref="GeneID:37627693"
+     CDS             1230..2024
+                     /locus_tag="BBV84_gp3"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009259747.1"
+                     /db_xref="GeneID:37627693"
+                     /translation="MAYKRNRRGGRKTNVKKAVRANNRARQYNAPAKVASVVSLAKSV
+                     NRLKTKMRRETELKEFESGLLSTTVGQVNINNTGMYIDDLDLMDIAEGASDKTRIGKK
+                     VMLKGVQVRLQFSHQSNTSSASNYIIEVYKTQDFGSTLTAIRDALYNVDSISGVIDYS
+                     STHKNEAKSWLKRVAYKRIRLPVDTFTGVNMVKDVKMFIKQNQELTYTLGSTQVPQNY
+                     RYIICIRSSVGNNNATTASTLTTVVHTTALTGAIVRLVSKCWYTDN"
+ORIGIN
+        1 aaggttgagg ggttagtatt accccctcaa cctttgtgta aaaacctttg tgcaaaaagg
+       61 ttttttcaca aaattttttt ctatgtgcaa tatatgaatg ttagaagtcg tgattggtgt
+      121 tttactgtta ataattatac ctatgatgat tacaaggtat gccaggaatt atctgtaatg
+      181 tgtcagtatg ttgtgattgg taaagaggta gcggaaacag gaacaaagca tttacagtgt
+      241 tatgtatatt ttgagaatgc gaaaagtttt tcgaaaatga agaaattgtt accaaatcag
+      301 gcacatatag aaaaagcagg tggaaccccc caagatgcat cgaattattg taagaaaggg
+      361 gagcaaccaa aaaatgaatg gaaagcattg aaacatatgg gaccccaatg gggattaaat
+      421 gcagattttt gggagcatgg tagtttacct cagccatccg gtacaagaaa tgatttaaag
+      481 gagattaggg agatgttagc acaaggaaag ggtatgagag atgtaataga ggtggctacg
+      541 agttatcagt ctatgaagtc tgccgagttg atattaaagt acaaggagag aaagcgaaat
+      601 tggaaaccaa aagtgatatg gttatggggc agatcgggta taggaaaaac aagagcagtt
+      661 tatgaggagt gtccgaatat ttataggaag agcaataatt caggaaagtg gtgggacggg
+      721 tatgatgcac atgagaatgt gttgatagat gatgttaagg atacaagtga agaattttat
+      781 tcaatgttgt tagagatatt ggatagatat gatgttagag tgcagacaaa gggagcaaca
+      841 agagaatttt tggcgaagac catatatcta accagtttag aagacccacg gataatgtac
+      901 agaagattcc ctgaggaagg atatgagtta tataggcgta ttgatgagat acgacatgtt
+      961 acctaatcta aatataattg ttgacaatca tatttaggaa tgtttatcag atgaagctat
+     1021 aataaaaaca gttttgcaaa cttcgggggc ttccacctcc accctggact cgtcttgggt
+     1081 ggaagaaccc gaaattagtt tgcaaaagga ttttagaata ccgacatcag taaactaata
+     1141 gtaattaatt agtcaactaa aaagttacta aaaaagttag aaaaaagtta taaaaaagtt
+     1201 acagattttt ttcttaagtt atattataaa tggcgtataa gagaaatcgt cgaggtggtc
+     1261 gaaagactaa tgttaagaaa gcagttcgtg ctaataatcg tgcaaggcaa tataatgctc
+     1321 ctgctaaagt tgccagtgtt gtatctttag cgaagtcagt gaatagatta aaaacaaaga
+     1381 tgcgtagaga aacggaactt aaggagtttg agagtggttt attgtctacg actgttggcc
+     1441 aggtgaatat taataatacg ggtatgtata ttgatgactt ggacttgatg gatatagcag
+     1501 aaggtgcaag tgataaaacc cgtattggta agaaggtgat gttgaaaggt gttcaggtta
+     1561 gattacaatt ttcgcatcag agtaatacat cgagtgcgag taattatatt atagaggtgt
+     1621 ataagaccca agattttgga agtacattga cagctataag agatgctctt tataatgttg
+     1681 atagtattag tggtgtaatt gattattcaa gcacacacaa gaatgaagcg aaatcatggc
+     1741 ttaagcgtgt agcatataag cgtattcgtc ttcctgttga tacatttact ggtgtaaata
+     1801 tggttaaaga tgtgaagatg tttattaagc aaaatcagga gttgacatat actttaggaa
+     1861 gtactcaggt gcctcaaaat tatagatata ttatctgtat tagatccagt gttggaaata
+     1921 ataatgcaac tacagcatct acgcttacga cagttgttca tactactgcg ttaactggtg
+     1981 ctatcgtgcg attggtatca aagtgttggt atacggataa ttagcggag
+//

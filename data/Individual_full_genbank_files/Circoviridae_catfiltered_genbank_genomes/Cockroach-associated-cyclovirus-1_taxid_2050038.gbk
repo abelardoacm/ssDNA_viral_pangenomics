@@ -1,0 +1,119 @@
+LOCUS       NC_020206               1719 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Florida woods cockroach-associated cyclovirus isolate GS140,
+            complete genome.
+ACCESSION   NC_020206
+KEYWORDS    RefSeq.
+SOURCE      Cockroach associated cyclovirus 1 (FWCasCyV-GS140)
+  ORGANISM  Cockroach associated cyclovirus 1
+REFERENCE   2  (bases 1 to 1719)
+REFERENCE   3  (bases 1 to 1719)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JX569794.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.7
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1719
+                     /organism="Cockroach associated cyclovirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="GS140"
+                     /host="palmetto bug"
+                     /db_xref="taxon:2050038"
+                     /country="USA: Tarpon Springs, Florida"
+                     /collection_date="20-Feb-2011"
+                     /note="*acronym: FWCasCyV-GS140"
+     stem_loop       join(1707..1719,1..20)
+                     /note="contains nonanucleotide motif TAGTATTAC"
+     gene            202..870
+                     /locus_tag="H392_gp1"
+                     /db_xref="GeneID:14515776"
+     CDS             202..870
+                     /locus_tag="H392_gp1"
+                     /note="similar to cyclovirus capsid proteins"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_007392930.1"
+                     /db_xref="GeneID:14515776"
+                     /translation="MRYRRRAPFRRRRRVGIRRGLVFRRSFHRRRRSQWSKTPSMYCK
+                     LTRTIQYTHTNSALGLQSMQVRPSDFSEFTNQASNWERVKIYKLRVRVYPQQNVANNT
+                     TSRIPNYAMVPYHRPTDTLTTTFPACLSIDRAKVYRGTSFGQMNYVPLARIGVQTAGS
+                     GSVFKLIREDWKPLVQIGSDATDVNLYTGFIAFEGVEGLTGSSYYTIVQDLYVKFIQQ
+                     RGFI"
+     gene            complement(871..1696)
+                     /locus_tag="H392_gp2"
+                     /db_xref="GeneID:14515773"
+     CDS             complement(join(871..1385,1468..1696))
+                     /locus_tag="H392_gp2"
+                     /note="putative intron exhibits alternative donor (AT) and
+                     acceptor (AC) sites; similar to replication initiator
+                     proteins identified in members of the Circoviridae family"
+                     /codon_start=1
+                     /product="putative spliced replication-associated protein"
+                     /protein_id="YP_007392931.1"
+                     /db_xref="GeneID:14515773"
+                     /translation="MNSVVRRFVFTLNNYSEEQYVRAIDFLQHYCKYGVVGKETGESG
+                     TPHLQGFCNLKKQMRFNTIKAKLDNAIHLEKANHNDLAALVDAIQSGQRDIRTIAEAF
+                     PTSYIRYHRGIKEYLKTTCPINPRTFKTFVYYYWGPTGTGKSRRSLMEATSIEGGIYY
+                     KPRGEWWDGYHQQDNVIIDDFYGWIKWDELLKICDRYPYKVPVKGGYEEFTSRRIWIT
+                     SNVDTDMLYKFTNYDPAPFERRITNKVHM"
+     gene            complement(871..1467)
+                     /locus_tag="H392_gp3"
+                     /db_xref="GeneID:14515774"
+     CDS             complement(871..1467)
+                     /locus_tag="H392_gp3"
+                     /note="Rep2; exhibits helicase motifs"
+                     /codon_start=1
+                     /product="putative replication-associated protein 2"
+                     /protein_id="YP_007392932.1"
+                     /db_xref="GeneID:14515774"
+                     /translation="MDPTQTTKNIVRNLGTTLKRGLQVDKGHHNDLAALVDAIQSGQR
+                     DIRTIAEAFPTSYIRYHRGIKEYLKTTCPINPRTFKTFVYYYWGPTGTGKSRRSLMEA
+                     TSIEGGIYYKPRGEWWDGYHQQDNVIIDDFYGWIKWDELLKICDRYPYKVPVKGGYEE
+                     FTSRRIWITSNVDTDMLYKFTNYDPAPFERRITNKVHM"
+     gene            complement(1379..1696)
+                     /locus_tag="H392_gp4"
+                     /db_xref="GeneID:14515775"
+     CDS             complement(1379..1696)
+                     /locus_tag="H392_gp4"
+                     /note="Rep1; exhibits rolling circle replication motifs"
+                     /codon_start=1
+                     /product="putative replication-associated protein 1"
+                     /protein_id="YP_007392933.1"
+                     /db_xref="GeneID:14515775"
+                     /translation="MNSVVRRFVFTLNNYSEEQYVRAIDFLQHYCKYGVVGKETGESG
+                     TPHLQGFCNLKKQMRFNTIKAKLDNAIHLEKANGSDTDNQKYCTKSGDYFETGTPSGQ
+                     GTP"
+ORIGIN
+        1 tagtattacc cgtcacttcg gtacacttcg gtacagctta tcttgccgcg ccggtccccc
+       61 ctacctatcc gccgacccgc cggagcggag cggaggtggg ggtcggcggg ggggggtttt
+      121 ggcgcaacga ctggtgatac attcactcgc tcaaggtgag tatataaata gcgcgcgagg
+      181 tcgttgcgct cagtcatggt catgcgttac cgccgccgag ctccctttcg ccggcgccgt
+      241 cgcgtcggca tccggcgcgg actggttttt cgtcgttcct ttcaccgtag acggcgttca
+      301 caatggagta agacgccgtc catgtattgc aagcttacga gaactattca gtatacgcat
+      361 acgaactctg cgttgggatt acagtctatg cargtgcgtc cgtctgattt ttctgaattt
+      421 actaatcagg catctaattg ggaacgtgtt aagatataca aattacgtgt ccgtgtatat
+      481 cctcagcaaa atgttgcaaa taatacgacg tcgagaatcc cgaattacgc aatggttcct
+      541 tatcatcggc ctactgatac tctcactact acatttccag cttgtttgtc tattgataga
+      601 gctaaagtat atcgtggtac atcgttcgga caaatgaatt atgttccgct tgctcgaatt
+      661 ggagttcaga ctgctggttc tggttctgtc tttaaactta ttcgtgaaga ttggaaacct
+      721 ctggtgcaaa ttggctctga cgctactgat gttaacctat atactggatt tattgcgttt
+      781 gagggagtgg aaggacttac agggtcaagt tattacacga ttgttcaaga tttatatgtt
+      841 aaatttattc aacaacgtgg ttttatatga ttacatatgt actttatttg taatacgacg
+      901 ctcgaatgga gctggatcgt aattagtaaa tttgtataac atatctgtgt ctacgttgct
+      961 tgtaatccat attctcctac ttgtaaattc ctcgtatccc ccttttactg gtactttgta
+     1021 tgggtatcgg tcgcatattt ttagtagttc gtcccatttt atccatccgt agaagtcgtc
+     1081 tattatgacg ttgtcttgtt ggtggtatcc gtcccaccat tctccgcgtg gtttgtagta
+     1141 tattcctcct tctatggacg tagcctccat gagcgaacgt ctggatttcc ctgtgccggt
+     1201 cggtccccaa tagtagtaaa cgaaggtttt aaacgttcgc ggattaattg ggcatgtggt
+     1261 tttgaggtac tctttaattc cgcgatggta cctgatataa ctggtgggaa aagcctcggc
+     1321 gatagtgcgt atgtcccttt gcccactctg aatggcgtcc acaagggctg ccaaatcgtt
+     1381 atggtgtccc ttgtccactt ggagtccccg tttcaaagta gtccccagat ttcgtacaat
+     1441 atttttggtt gtctgtgtcg gatccatttg ccttttcaag atggattgcg ttatcgagct
+     1501 tggctttaat agtgttgaag cgcatctgct ttttaaggtt acaaaatcct tgcagatgtg
+     1561 gggttccaga ttcgcctgtc tcctttccga ccactccata tttgcaatag tgttgtaaaa
+     1621 agtcgatcgc gcgtacatat tgttcttcac tgtagttatt taatgtgaaa acgaagcgcc
+     1681 gaaccacact gttcattgct gtgttacgaa gtgacggta
+//

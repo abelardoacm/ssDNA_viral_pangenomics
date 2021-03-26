@@ -1,0 +1,93 @@
+LOCUS       NC_038385               1862 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Bat associated circovirus 1 isolate XOR, complete genome.
+ACCESSION   NC_038385
+KEYWORDS    RefSeq.
+SOURCE      Bat associated circovirus 1
+  ORGANISM  Bat associated circovirus 1
+REFERENCE   2  (bases 1 to 1862)
+REFERENCE   3  (bases 1 to 1862)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JX863737.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SeqMan v. 7.1.0
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1862
+                     /organism="Bat associated circovirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="XOR"
+                     /host="Rhinolophus ferrumequinum"
+                     /db_xref="taxon:1868218"
+                     /country="Myanmar"
+                     /collection_date="Nov-2008"
+                     /collected_by="Zuosheng Li"
+     gene            39..926
+                     /gene="rep"
+                     /locus_tag="D1Q08_gp1"
+                     /db_xref="GeneID:37617088"
+     CDS             39..926
+                     /gene="rep"
+                     /locus_tag="D1Q08_gp1"
+                     /codon_start=1
+                     /product="relicase"
+                     /protein_id="YP_009506273.1"
+                     /db_xref="GeneID:37617088"
+                     /translation="MEMAGHPCERYCFTINNYSEEDIEAVKAFLVPDNAEYAIVGKEK
+                     GENGTPHLQGFVNLKKKMRFNPFKAALGGRAHIEQARGTDLDNKRYCSKGGDLLLEVG
+                     EPGKQGKRSDLKEAVTLLNSGANMTAVARAYPEVFIRYGRGLRDYVITAGLSQQRAWK
+                     TEVHVIVGVPGVGKSRHVSEQHSDIYWKPRGKWWDGYCNQEVVCLDDYYGWIPYDDLL
+                     RLCDRYPLRVETKGGTVSFVAKKIYITSNKQIKDWYNFEELKVDPRALYRRVTSYKVM
+                     REGGELYDVVMTGDNKINY"
+     gene            complement(1098..1814)
+                     /gene="cap"
+                     /locus_tag="D1Q08_gp2"
+                     /db_xref="GeneID:37617087"
+     CDS             complement(1098..1814)
+                     /gene="cap"
+                     /locus_tag="D1Q08_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009506274.1"
+                     /db_xref="GeneID:37617087"
+                     /translation="MPIRRRSRYSRRRRWRRNTRRRRVARGAYRWRRKNGIINVRLSA
+                     TKDWTMASTTAEGYNVARLEVNLRQFMPAGPGSAINTKSIPWAYYRIRKMKFEILPKM
+                     IPAQTPYRYGSTAIYLGMQAPAPTQGKTYDPHLKHVKQNMSGLITDQLKRYFTPKPDL
+                     DSITSTAWFQPNNKANQVWINMTNDNITHGQVGWSMERISNMAQNFKIRVTLYVQFRE
+                     FNLIDYPAQAPLLVDEEPSE"
+ORIGIN
+        1 ggcacacttc ggcacagcgg cacaaagcgc agagatacat ggagatggcc ggccacccgt
+       61 gtgaaaggta ctgtttcact atcaataact atagtgaaga agatattgaa gctgtaaaag
+      121 cgttccttgt accagacaat gcagaatatg caattgttgg taaagagaaa ggagaaaatg
+      181 gaacgccaca tttgcaaggg tttgtgaacc ttaagaagaa aatgaggttc aaccctttta
+      241 aagcagcttt gggtggccgt gcccatatcg agcaagcccg aggtactgac cttgataaca
+      301 agcgttactg ctctaaaggc ggagatctgc tgttggaggt cggcgaacct gggaagcagg
+      361 gtaagcggag cgacctgaag gaagccgtta cacttttgaa ttctggcgcc aatatgactg
+      421 ctgttgcgcg cgcatacccg gaagtattta tccggtacgg gcgtggccta cgggactacg
+      481 tcataacagc cggattgagt cagcagaggg cgtggaaaac tgaagtccac gtaatagtgg
+      541 gcgtgcctgg tgtgggcaag tccaggcatg tttcggagca gcatagcgac atctactgga
+      601 agcccagagg caagtggtgg gatggctact gcaatcaaga agttgtttgc cttgatgact
+      661 attatggatg gataccttat gatgatttgc tgagactttg tgatagatat cctttgagag
+      721 tggaaactaa aggtgggact gtgtcttttg ttgctaagaa gatctatatt acttctaaca
+      781 agcaaataaa ggactggtac aactttgaag agcttaaggt ggacccccga gctttgtata
+      841 ggcgtgtgac cagttataag gttatgagag aggggggcga gctttatgat gtagtaatga
+      901 caggagacaa taaaattaat tattgaaatt tattaaaatg tgtccgtgtg ttacaatttg
+      961 ggccgcatgg gctgaccggg gcgcgaaccc gtgctgttgc tagtggtaag caacaccctt
+     1021 cccctctgca ccacccgtac acataatctc ttcggatact acacttgatc ttagccaaaa
+     1081 ggctcgttga tgagtgatca ctccgaaggt tcttcatcta ctagaagtgg tgcttgggct
+     1141 gggtagtcaa ttaggttgaa ttctctgaat tgtacataga gagttactct tattttaaag
+     1201 ttttgggcca tgttggagat tctttccatg ctccagccaa cttgtccatg ggtaatgtta
+     1261 tcatttgtca tgtttatcca cacttggtta gctttattgt ttggttggaa ccaagctgtg
+     1321 cttgtgatgc tgtctaggtc aggtttagga gtaaaatatc tttttaactg gtctgtgatt
+     1381 agtccagaca tgttctgctt gacatgtttg aggtgagggt cataagtttt gccctgtgta
+     1441 ggagcgggtg cttgcatccc gaggtaaatt gcagtgctgc cgtatctgta tggagtttga
+     1501 gcagggatca tttttggtag tatttcaaat ttcatttttc taattctgta gtaggcccaa
+     1561 ggtatacttt tagtattgat tgcactgcct gggcctgctg gcatgaattg tctgagattg
+     1621 acttctagtc tagctacatt atatccttca gctgtagtac tggccattgt ccagtccttg
+     1681 gtagcagaga gtctgacatt tataattcca ttctttcttc tccatctgta cgcgccccgc
+     1741 gccactctgc gtctgcgcgt gtttcggcgc catcttctcc ttctgctgta tctactgcgc
+     1801 ctgcgtatgg gcatctatga aagcgaaagt aggaagtgcc ggttagtatt acccggcact
+     1861 tc
+//

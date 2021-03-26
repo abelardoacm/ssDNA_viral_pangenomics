@@ -1,0 +1,95 @@
+LOCUS       NC_022897               1777 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Penaeus monodon circovirus VN11, complete genome.
+ACCESSION   NC_022897
+KEYWORDS    RefSeq.
+SOURCE      Penaeus monodon circovirus VN11
+  ORGANISM  Penaeus monodon circovirus VN11
+REFERENCE   2  (bases 1 to 1777)
+REFERENCE   3  (bases 1 to 1777)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KF481961.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1777
+                     /organism="Penaeus monodon circovirus VN11"
+                     /mol_type="genomic DNA"
+                     /isolate="VN11"
+                     /host="Penaeus monodon"
+                     /db_xref="taxon:1419711"
+                     /country="Viet Nam"
+                     /collection_date="09-Sep-2012"
+     gene            51..851
+                     /locus_tag="X519_gp1"
+                     /db_xref="GeneID:17699086"
+     CDS             51..851
+                     /locus_tag="X519_gp1"
+                     /note="NS1"
+                     /codon_start=1
+                     /product="nonstructural protein 1"
+                     /protein_id="YP_008828162.1"
+                     /db_xref="GeneID:17699086"
+                     /translation="MPRDRAKRWVFTWNNYTPENVAHLQEINCKYIGWGYETAPSTGT
+                     PHLQGFVYFHKQLRWKAVMAIMGNPSFVEVMEGTVEDNIAYCTKGPGEFWQSGPPPTE
+                     KKKTEFKDILKMTLKEADEVMREEHTWQSGSSNWKRLRSSMIKHYIGEMEVLWFYGPT
+                     GTGKTRCAVEEHNGELIEFDGKFFDYKGGADCVVLDEIDKLEKPIPMGTMLRLLDRYK
+                     YSLRVLGDYVPRDFKKIIITSTNHPEVVYSQSHCEQLLRRITKIVEFN"
+     gene            complement(904..1671)
+                     /locus_tag="X519_gp2"
+                     /db_xref="GeneID:17699084"
+     CDS             complement(904..1671)
+                     /locus_tag="X519_gp2"
+                     /note="capsid protein"
+                     /codon_start=1
+                     /product="structural protein VP"
+                     /protein_id="YP_008828163.1"
+                     /db_xref="GeneID:17699084"
+                     /translation="MPLRRRTYTAKRRFGRSYRKKSYYKKKSYKRMAAKARKFNNGNV
+                     HRFTRYSNVGYLECVQPYDWGAQEVGGGGAPGVAITGHCANKAFVFSLTDVVHNEEFG
+                     SLFDQYRILSAVVEIQPLLTPASMTGTGGTQMIARWFYDHDDDSTLGMSGADADEYWG
+                     QRAPLVKETPFRFDRPIVIPVIPTTQTMTPQDDGNVYAPVPGSTYKKRMWLDMTFPDV
+                     PHYGLKFQVLRRAQLAAEVGPIAQYRIKYNLEFKNPR"
+     gene            1246..1686
+                     /locus_tag="X519_gp3"
+                     /db_xref="GeneID:17699085"
+     CDS             1246..1686
+                     /locus_tag="X519_gp3"
+                     /note="NS-associated protein; NS2"
+                     /codon_start=1
+                     /product="nonstructural protein 2"
+                     /protein_id="YP_008828164.1"
+                     /db_xref="GeneID:17699085"
+                     /translation="MVVEPAGDHLRAARAGHAGWGEEGLNLNDCRQDAVLVKQAAKLL
+                     VVDDISERKDESLVSTVASDCDTRCAPAANLLGPPVVRLDALEVANIRVAGEPVHVAV
+                     VELACLCGHALVALLLVVALLPIRAAKASLCCVRAPAERHHLSL"
+ORIGIN
+        1 gtaatattat cttagatcca gcctaaatct taaaaaaaaa aataatagat atgccgcgtg
+       61 accgagcaaa gcgctgggtc ttcacgtgga ataactacac tcccgagaac gtcgcccacc
+      121 tacaggagat caactgtaag tacataggtt ggggttatga gactgctccc tctaccggca
+      181 cccctcatct ccagggcttt gtttactttc acaagcaact acgatggaag gccgtgatgg
+      241 ccatcatggg gaacccgagc ttcgttgagg tcatggaggg taccgtggaa gacaacattg
+      301 cctactgcac taagggaccg ggggagtttt ggcagagcgg ccctccccct accgagaaga
+      361 aaaagacgga gttcaaggac atcctcaaga tgacactcaa ggaagcagac gaagtgatgc
+      421 gcgaggagca cacctggcag agcggcagct ccaactggaa acgcctacgg tcttcgatga
+      481 tcaagcacta catcggagaa atggaagtgc tgtggtttta cggcccaact ggaaccggca
+      541 agacgcgatg cgctgtggag gagcacaacg gcgagctaat cgaattcgac ggcaagttct
+      601 tcgactacaa gggcggagct gactgcgttg tcctagatga aatcgacaag ctcgagaagc
+      661 ccattccaat gggcactatg ctgcgcctac tcgaccgata caagtatagc cttcgcgtgc
+      721 tcggcgacta tgtcccaagg gacttcaaaa aaataattat tacatctacc aaccacccag
+      781 aggtggtcta ctcccaatca cactgtgaac aacttcttcg tcgtattact aagattgtcg
+      841 aatttaatta aagatcaaaa tgaacggact cccgagggta aatgggatgg gggataagtc
+      901 tagctagcgt ggattcttaa actccaggtt gtacttgatg cggtactggg caatgggccc
+      961 aacctcggcg gccaactgcg cgcggcgtag gacctgaaac ttcagaccgt agtggggaac
+     1021 gtcgggaaag gtcatgtcga gccacattcg ctttttgtag gtggaaccgg gcaccggggc
+     1081 gtacacgttg ccgtcgtcct gaggcgtcat ggtttgcgta gtgggaatga ctgggatcac
+     1141 gatgggtcgg tcgaaccgga acggtgtctc cttgacgagt ggtgcgcgtt gcccccaata
+     1201 ctcgtcggcg tcggctcctg acatgcctag ggtagagtcg tcgtcatggt cgtagaacca
+     1261 gcgggcgatc atctgcgtgc cgcccgtgcc ggtcatgctg gctggggtga ggaggggctg
+     1321 aatctcaacg actgcagaca ggatgcggta ctggtcaaac aggctgccaa actcctcgtt
+     1381 gtggacgaca tcagtgagag aaaagacgaa agccttgtta gcacagtggc cagtgattgc
+     1441 gacaccaggt gcgcccccgc cgccaacctc ctgggccccc cagtcgtacg gctggacgca
+     1501 ctcgaggtag ccaacattcg agtagcgggt gaaccggtgc acgttgccgt tgttgaactt
+     1561 gcgtgccttt gcggccatgc gcttgtagct cttcttcttg tagtagctct tcttcctata
+     1621 cgagcggcca aagcgtcgct ttgctgtgta cgtgcgcctg cggagcggca tcacttgtcc
+     1681 ctgtgaagct ggtttatgac ccaattttgg tggtgcttct tatacacacc ccccaattgt
+     1741 cccttggatt tctggatcag gatcggctgg atctaag
+//

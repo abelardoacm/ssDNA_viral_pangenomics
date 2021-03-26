@@ -1,0 +1,87 @@
+LOCUS       NC_027787               1799 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Farfantepenaeus duorarum pink shrimp associated circular virus
+            isolate I0066, complete genome.
+ACCESSION   NC_027787
+KEYWORDS    RefSeq.
+SOURCE      Farfantepenaeus duorarum pink shrimp associated circular virus
+  ORGANISM  Farfantepenaeus duorarum pink shrimp associated circular virus
+REFERENCE   2  (bases 1 to 1799)
+REFERENCE   3  (bases 1 to 1799)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528552.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1799
+                     /organism="Farfantepenaeus duorarum pink shrimp associated
+                     circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0066"
+                     /host="Farfantepenaeus duorarum"
+                     /db_xref="taxon:1692248"
+     stem_loop       join(10..23,1776..1797)
+                     /note="contains nonanucleotide motif"
+     gene            165..692
+                     /locus_tag="AMQ88_gp1"
+                     /db_xref="GeneID:25479210"
+     CDS             165..692
+                     /locus_tag="AMQ88_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163911.1"
+                     /db_xref="GeneID:25479210"
+                     /translation="MRDVGENFPSILGRYPSAARQFVSLFGKKPNLVNGELRPWQQDL
+                     ERLLDAPPEDRRVIFVVDPDGGKGKSWFTRYLFTKRDDIQRLSIGKRDDLCYAIDTSK
+                     KIFVFDIPRGQSELLQYSVLEQLKDQMVFSPKYESISKILPQKVHVVVFMNEEPDRSK
+                     MTNDRYQVILLGQFN"
+     gene            complement(867..1733)
+                     /locus_tag="AMQ88_gp2"
+                     /db_xref="GeneID:25479209"
+     CDS             complement(867..1733)
+                     /locus_tag="AMQ88_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163912.1"
+                     /db_xref="GeneID:25479209"
+                     /translation="MPKTLVRYGATRLARRAAYTNPYARYAVAGMRMYNTGKAFAPYA
+                     RTAINAFRALRKRKSRGVMPQTKRRRMIRRTMGKRVGQGTAKVMKRDSALTNTNGKTL
+                     YSVPLIRILKNTAGEEDFTKRTRDIVNFRGIKVCFWWRNELTLKSFLHVAFVVPKNDP
+                     FLTASGELAITDFFRGVDGSRRSQNFEPTLNWMEVNCLPINADIYRILSHKKYSIAPN
+                     TSTDGKDEFLMEKYIPISRQIAFDNLLPTNQEYPRKNIYMCWWVTGEGNGTGNHGKFQ
+                     WRTVQYFKEPKN"
+ORIGIN
+        1 cagtattacc cagctcactt ccgtccaaag tcctgctcat aaaaaaatgt cccgagcaaa
+       61 gcgttgggtg tttacgttga acaactggac tcatgccgaa caaactgcca tcattcacca
+      121 ttctccacaa ggggacgatc cgaaccgtgg atccagcccc aaccatgcga gatgtggggg
+      181 aaaactttcc atccattctc ggacgatacc ctagcgcagc tagacagttt gtcagcctct
+      241 tcgggaaaaa gccaaacctt gtcaatggag aactacgacc ttggcaacaa gatttggagc
+      301 gattacttga cgcaccacca gaagatagac gagtcatctt tgtggtagac ccagacggcg
+      361 gtaagggaaa atcctggttt accagatacc tgttcactaa acgagacgat atacaaagat
+      421 tatcaatcgg caaacgtgac gatctgtgct atgcaattga cacatctaaa aaaatctttg
+      481 ttttcgatat ccccagggga cagtctgagc ttctgcagta cagcgtcctg gagcagctaa
+      541 aagaccagat ggttttctcc ccgaagtatg agtccatatc aaaaatactt ccacaaaagg
+      601 tacatgtggt agtattcatg aatgaagagc cggatagatc gaaaatgacc aatgacagat
+      661 accaagtaat tctattaggc caatttaact aagcgattcg gtgacgatga gcaaccaacc
+      721 attaacgtaa accaccaacc actaacccat ccgtgatagg gagtaacacg gaacaatgca
+      781 gcgcagcgtc aaccaaccac taacccagcg atgataggga gtaacacgga acaatgcagc
+      841 gcagcgtagg ggggctaggg gcaggtctag ttcttaggct ccttgaagta ttggacagta
+      901 cgccactgga acttcccgtg gttacctgtg ccattgcctt caccagtcac ccaccaacac
+      961 atatagatgt ttttccgagg gtactcttga ttggtaggca acaaattgtc aaaagcaatt
+     1021 tggcggctga ttggaatgta cttctccata aggaattcat ccttaccatc agtagatgta
+     1081 tttggagcaa tgctgtattt cttgtgtgaa agaatacgat aaatatcagc gttaatagga
+     1141 agacagttca cttccatcca attcaaagta ggttcaaagt tctgggaccg acgagaccca
+     1201 tcaacacctc ggaaaaagtc ggtgatagcc aactccccag acgcagtcaa aaacggatca
+     1261 ttttttggca ccacgaaagc cacatggaga aaagacttaa gcgtaagctc gttacgccac
+     1321 cagaagcaga ctttaatgcc tcgaaaattg acaatatccc gagtgcgttt agtaaagtct
+     1381 tcttcacccg cagtattttt caaaatacga atcaacggaa ccgagtacaa cgtcttgccg
+     1441 ttagtattcg ttaaggctga gtcccgtttc atgactttgg cggttccttg gccgacgcgc
+     1501 ttgcccatcg tgcgacgtat catgcggcga cgcttagtct gaggcatcac gcctctagac
+     1561 tttcgcttac ggagagcccg aaatgcattg atagccgttc gcgcatacgg tgcaaatgcc
+     1621 ttgcctgtgt tgtacatacg catgccagca acagcataac gggcataagg attggtataa
+     1681 gcagcccgtc gtgccaatcg agtagcacca taacgaacga gagttttagg catggtttga
+     1741 aaaatttagt cttggaagaa atgagaagaa cacaaattta agtcgtgagt gagctggtc
+//

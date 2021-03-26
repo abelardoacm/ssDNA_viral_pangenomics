@@ -1,0 +1,90 @@
+LOCUS       NC_027794               1894 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Mytilus sp. clam associated circular virus isolate I0169, complete
+            genome.
+ACCESSION   NC_027794
+KEYWORDS    RefSeq.
+SOURCE      Mytilus sp. clam associated circular virus
+  ORGANISM  Mytilus sp. clam associated circular virus
+REFERENCE   2  (bases 1 to 1894)
+REFERENCE   3  (bases 1 to 1894)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528562.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1894
+                     /organism="Mytilus sp. clam associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0169"
+                     /host="Mytilus sp."
+                     /db_xref="taxon:1692256"
+     stem_loop       join(10..18,1884..1892)
+                     /note="contains nonanucleotide motif"
+     gene            44..949
+                     /locus_tag="AMR06_gp1"
+                     /db_xref="GeneID:25479230"
+     CDS             44..949
+                     /locus_tag="AMR06_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163924.1"
+                     /db_xref="GeneID:25479230"
+                     /translation="MSQAKRWCFTINNPTPAEEESLFLHGTNIDHPPCDFKYLVFGRE
+                     TGESGTPHLQGYFELVKKLRIHQIKGTLGFERSHLEVARGTSLQASDYCKKENAFEEF
+                     GALPPPPGNAAHFAQLREWVAAQPSKPTIKDVWDVFPTLAARYNRAVMECIDLFGKKP
+                     VLVEGDLRLWQLRLDGIANQEADDRRVIFVIDPEGNKGKSWLVSYWLSTRDDTQFMSV
+                     GKRDDLAYAVDISTCLFVFDIPRGNMQYIQYGIFEQLKNRVVFSNKYSSQTKILLNTP
+                     HVFVFANELPDMNALSADRYKVINI"
+     gene            complement(999..1853)
+                     /locus_tag="AMR06_gp2"
+                     /db_xref="GeneID:25479229"
+     CDS             complement(999..1853)
+                     /locus_tag="AMR06_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163925.1"
+                     /db_xref="GeneID:25479229"
+                     /translation="MSGQLVRSFARAQYPRFRNYAATRLQAAGRGWLSRRTRGAGQTF
+                     QRRRRMWSGRSRKRTGQMRKRMAVGTRIGSSLAKCDQVEDNFSATTKELYQYKLLDLA
+                     KNNNADDTQVRNRDVVNFRGIKLCINTTNTTTTGTIYPNRHLHCHYAVVSPKALDATQ
+                     AVPYGHFFRSQGEVGKRGKDFGVDLNGMDFQCLPINTDLYTIHQHYRFKLNKAANSST
+                     SPEKLYEKYLNLNRQVRYENTGDKPEGKNVYLLIWFSFIDEAGGTAGIPCADTKLRIT
+                     RFFKESSN"
+ORIGIN
+        1 tagtattacc tagctcattc tggctctgtc acaaatctct ctcatgtctc aagcaaaacg
+       61 ttggtgtttc accatcaaca atcctactcc tgctgaagaa gaatccctct ttcttcatgg
+      121 tactaacatc gaccaccccc cgtgtgattt taagtacctc gtattcggcc gagaaacagg
+      181 cgaatccgga acccctcacc tccaaggcta ctttgaactt gttaaaaagt tgcgcataca
+      241 ccaaatcaaa ggaactcttg gatttgaacg ctcgcatctt gaagttgcaa gaggaacttc
+      301 actccaagcc tccgactact gcaaaaaaga gaacgccttt gaagagttcg gagcccttcc
+      361 ccctcctccc ggtaacgccg cgcactttgc tcagttgcgc gagtgggttg ccgctcaacc
+      421 ctccaaaccg accatcaaag atgtttggga tgtctttcca accttggccg cgcgatacaa
+      481 ccgtgcagtc atggaatgca ttgacctctt tggaaagaaa cccgtccttg tggaaggaga
+      541 cctccgactc tggcaattac gactcgatgg aattgcaaat caagaagctg atgaccgaag
+      601 agtaatattc gtcatcgacc ctgaaggtaa taaagggaaa tcctggctcg tctcctattg
+      661 gctcagcact cgtgatgata ctcagtttat gtctgttggt aaaagagatg acttggccta
+      721 tgccgtcgac atctctacct gtctctttgt gttcgatatt cctcgaggaa acatgcagta
+      781 tatccagtat ggaatattcg aacagttgaa aaaccgcgtc gtcttttcaa ataagtattc
+      841 gtctcaaact aaaatcctac tcaacactcc acatgtgttt gtgtttgcaa acgaactacc
+      901 cgatatgaat gcactcagtg cagaccgtta taaagtaatc aatatctaac catgtatatg
+      961 tataaaacta acttggacgc cctactggac ggtagagttt aatttgacga ttccttgaag
+     1021 aatcgtgtaa ttcttagctt ggtatccgca caaggaatac ctgctgtccc tcccgcttca
+     1081 tcaatgaatg aaaaccaaat aagcaaatat acatttttgc cttctggctt gtctccagtg
+     1141 ttttcatatc taacttgtct attcaagttc aagtacttct cgtacaactt ctcaggcgaa
+     1201 gtagaactat tcgccgcctt gttcagtttg aacctgtaat gctgatgtat ggtatacaaa
+     1261 tcagtgttaa tggggagaca ttggaaatcc attccattta agtctacccc aaaatccttg
+     1321 cctcttttcc ccacttctcc ttgacttcta aagaagtggc catatggtac ggcctgtgtg
+     1381 gcgtccaaag ccttagggct gaccactgca tagtggcaat gcaaatgcct gttagggtat
+     1441 attgtaccag ttgtagtagt attagtcgta ttaatacaca acttgatacc cctgaagtta
+     1501 acgacatcac gatttctaac ttgtgtgtcg tctgcattat tgttcttagc aagatctaac
+     1561 aacttgtact gatacagttc tttagttgtt gcactaaagt tgtcttcaac ttgatcacat
+     1621 ttggcaagac tggaaccaat tcgtgttcct actgccatcc tcttacgcat ctgaccggta
+     1681 cgcttcctag aacgtccgct ccacattcta cgtctgcgtt ggaatgtctg gccggctcct
+     1741 cgtgttctac gcgaaagcca gccccgccct gccgcctgca atcgtgttgc cgcgtaatta
+     1801 cggaatcgtg ggtattgcgc gcgcgcaaaa ctcctaacta attgtcctga catttcgcaa
+     1861 gattgaattt tcaaaattgt gtgatgagct agta
+//

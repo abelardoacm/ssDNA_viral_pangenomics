@@ -1,0 +1,81 @@
+LOCUS       NC_025247               1783 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Cygnus olor circovirus isolate H51, complete genome.
+ACCESSION   NC_025247
+KEYWORDS    RefSeq.
+SOURCE      Swan circovirus
+  ORGANISM  Swan circovirus
+REFERENCE   2  (bases 1 to 1783)
+REFERENCE   3  (bases 1 to 1783)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EU056309.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1783
+                     /organism="Swan circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="H51"
+                     /host="mute swan (Cygnus olor)"
+                     /db_xref="taxon:459957"
+                     /country="Germany"
+                     /collection_date="2006"
+     gene            48..929
+                     /locus_tag="NF97_gp1"
+                     /db_xref="GeneID:20701462"
+     CDS             48..929
+                     /locus_tag="NF97_gp1"
+                     /codon_start=1
+                     /product="putative replication-associated protein"
+                     /protein_id="YP_009091698.1"
+                     /db_xref="GeneID:20701462"
+                     /translation="MAKKSDYGYKRWVFTINNPTFEDYVSVIEFCTAENCKFAIVGEE
+                     KGEKEGTPHLQGFLSLRKNARAAALEENLGGRAWLSRAVGSDEENEEYCSKETTYLRV
+                     GTPNRKGRSSDLNAAASEVLAGAPMTDVARKYPTTYIMFGRGLERLRQLIVETLRDWK
+                     TEVIVLIGPPGSGKSRYVFEFPAERKYYKARGKWWDGYEGNDVVVMDDFYGWLPYDDL
+                     LRICDRYPIRVEYKGGMTQFVAKTLIITSNREPREWYKCEVDCTALYRRIDRYLVQTP
+                     DGFLEAPEFMLPYKIKY"
+     gene            complement(968..1723)
+                     /locus_tag="NF97_gp2"
+                     /db_xref="GeneID:20701461"
+     CDS             complement(968..1723)
+                     /locus_tag="NF97_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009091699.1"
+                     /db_xref="GeneID:20701461"
+                     /translation="MSLSRAGSRRLYHRRRRAYYRRRRYGRRRLRIPRIRRRFTVFHV
+                     KQTQNIPFTFWSSATPDPTDKWMSLSLESNSATLNKPKPGLNLRFAMFGDRLPGSGNA
+                     YHYPFDYYMIKLVKVELRPAFNPFQKQKTQGSTYIDKEGDITEVPATTPWSVDPYAAM
+                     SSRKTWTPDRYHKRVFIPKPTIQSSQTTGTRFSTWFVPGRRNMWINSTQDQVIHYGMG
+                     MSLRAPAEDAGAYPVECTVTFYIAFGQWTGLSP"
+ORIGIN
+        1 accggcgcct ctactacgta ctacagcccg cccgagcagc gaccgagatg gcgaaaaaga
+       61 gcgattacgg ctacaaaagg tgggtgttca cgattaataa ccctaccttt gaagattatg
+      121 tttctgttat agagttctgt accgcggaaa actgcaagtt cgcgatcgtc ggagaagaga
+      181 aaggagagaa agagggaaca cctcacctgc agggattcct gtctctacga aagaatgctc
+      241 gggccgctgc ccttgaagag aacctgggag gaagagcatg gctgtctcgt gctgtgggat
+      301 ctgacgaaga gaacgaagaa tattgttcca aagagacgac ataccttcga gttggaacgc
+      361 caaatcgtaa aggccgttcg tccgatctga acgccgctgc atccgaagtg ctcgccggcg
+      421 ctccgatgac tgacgtggcc cggaagtacc ccaccactta tataatgttc gggcgtggct
+      481 tggaacgcct ccgtcagctg atcgttgaga cgcttcgtga ttggaagacg gaggtgattg
+      541 ttctgattgg tccgcccggg agcgggaaga gccgttacgt gtttgaattt cccgccgagc
+      601 ggaagtacta taaagcgcgc ggaaagtggt gggatgggta tgagggtaat gacgtcgtcg
+      661 taatggacga cttttatggg tggttaccgt acgatgattt gttgagaatt tgtgaccgat
+      721 acccaatccg tgttgagtat aagggtggga tgacgcagtt cgttgccaag acccttatca
+      781 taacgtctaa ccgtgaaccc cgcgaatggt ataaatgtga ggtggattgt accgccctct
+      841 accgtcgtat cgatcggtat ttggtgcaga cccctgatgg ttttctggaa gcccccgaat
+      901 tcatgctacc atataaaata aagtattaga cacgtaaact ttattgagag tgtgtggtta
+      961 cattttgtta aggtgagagc ccggtccatt gaccgaatgc gatatagaag gttaccgtac
+     1021 attctacagg gtatgcacca gcgtcttctg cgggtgccct gagggacatg cccatgccgt
+     1081 aatgtatgac ctggtcctgt gttgagttga tccacatgtt tctccttccc ggtacgaacc
+     1141 atgtgctgaa tcttgtgcct gttgtttggc tcgattgaat ggtcggtttc ggtatgaata
+     1201 ctcgtttgtg gtaccggtca ggcgtccagg tcttacgtga gctcattgct gcatatggat
+     1261 ctacagacca cggtgttgtt gcaggcacct ctgttatatc accttcctta tctatgtatg
+     1321 tgctgccttg tgtcttctgc ttttggaagg ggttgaacgc gggtcgtagt tcaactttta
+     1381 ctagttttat catgtagtag tcgaaggggt aatggtacgc attaccggat cctggcagtc
+     1441 tgtctccgaa catagcgaaa cggaggttca ggccaggttt cggtttgttc agggttgcgg
+     1501 agttgctttc cagggagagg gacatccatt tgtcggttgg atcgggcgtt gctgaagacc
+     1561 agaacgtgaa cggtatgttc tgtgtctgtt taacgtggaa tactgtaaag cggcgtctta
+     1621 ttcttgggat cctaagcctt cgtcttccat atcttcgtct gcggtagtag gcccgcctac
+     1681 gacgatgata tagacgcctg gaccccgccc tggacagcga catgacggac agtgacttcc
+     1741 tgtgggcgga gaaagcaccg tcagaggcgc cgtatatatt att
+//

@@ -1,0 +1,106 @@
+LOCUS       NC_006561               1988 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Muscovy duck circovirus, complete genome.
+ACCESSION   NC_006561
+KEYWORDS    RefSeq.
+SOURCE      Muscovy duck circovirus
+  ORGANISM  Muscovy duck circovirus
+REFERENCE   2  (bases 1 to 1988)
+REFERENCE   3  (bases 1 to 1988)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AY394721.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1988
+                     /organism="Muscovy duck circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="TC1/2002"
+                     /db_xref="taxon:257468"
+     gene            48..926
+                     /gene="rep"
+                     /locus_tag="MDCVgp1"
+                     /db_xref="GeneID:3196995"
+     CDS             48..926
+                     /gene="rep"
+                     /locus_tag="MDCVgp1"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_164517.1"
+                     /db_xref="GeneID:3196995"
+                     /translation="MAKSGNYSYKRWVFTINNPTFEDYVHVLEFSTLDNCKFAIVGEE
+                     KGANGTPHLQGFLNLRSNARAAALEESLGGRAWLSRARGSDEDNEEYCSKESTYLRVG
+                     EPGGKGRSSQLADATSAVLAGLPLTDVARKYPTTYVIFGRGLERLRHLIVETQRDWKT
+                     EVIVLIGPPGTGKSRYAFEFPAENKYYKPRGKWWDGYSGNDVVVMDDFYGWVPYDDLL
+                     RITDRYPLRVEFKGGMTQFVAKTLITTSNKEPRDWYRSEFDLSALYRRINKYLVYNVD
+                     KYEPAPACSLPFPINY"
+     gene            complement(136..399)
+                     /locus_tag="MDCVgp2"
+                     /db_xref="GeneID:3196997"
+     CDS             complement(136..399)
+                     /locus_tag="MDCVgp2"
+                     /codon_start=1
+                     /product="ORFC2"
+                     /protein_id="YP_164518.1"
+                     /db_xref="GeneID:3196997"
+                     /translation="MSHRRAGRIDPYRLVHQLSGMSTLWSNILRYLRQIPGHERARLF
+                     LPATLQGRQLSHCFGDSGIPEGEVYRSRPFPLRRLRTCNCRAC"
+     gene            complement(1151..1924)
+                     /locus_tag="MDCVgp3"
+                     /db_xref="GeneID:3196998"
+     CDS             complement(1151..1924)
+                     /locus_tag="MDCVgp3"
+                     /codon_start=1
+                     /product="ORFC1"
+                     /protein_id="YP_164519.1"
+                     /db_xref="GeneID:3196998"
+                     /translation="MRRSTYRRAYRARRRRRGLRRRFRRRRLRIGRPRRRFSVVTFKV
+                     TRHTVFGFFGSGTGPTAAGRWQSLSLEDGAQYTDPPAQGNNICGLNMRWAMFGDTNSY
+                     MQGGKPQYHYPYDYYIIKGVAVTLRPAYNIYQKSKTQGSTIIDKDGQIVRTSTTGWAI
+                     DPYGSTSSRRTWDPSRIHRRYFVPKPTIQGAGEGTKYSTFFLGGKNFTWINCSQDQVV
+                     HYGMGMSLRKPDNATGDEGKYDIEAQFTFYIKFGQFTGF"
+     gene            1537..1794
+                     /locus_tag="MDCVgp4"
+                     /db_xref="GeneID:3196996"
+     CDS             1537..1794
+                     /locus_tag="MDCVgp4"
+                     /codon_start=1
+                     /product="ORFV2"
+                     /protein_id="YP_164520.1"
+                     /db_xref="GeneID:3196996"
+                     /translation="MLVSGSQQPLLLCSSRKGSGTVAYPLACSYLCLQTLPISCSVHR
+                     CCFLVLVGLCIEPHLLDLSSAISPLPSVQFRIRKIQIRYVW"
+ORIGIN
+        1 accggcgctt gtactccgta ctccagcaat ctacggcgag ccctgcaatg gctaagagtg
+       61 gcaactactc ctacaaaagg tgggtcttta caattaataa ccctaccttt gaagattatg
+      121 ttcatgtttt agagttcagc acgctcgaca attgcaagtt cgcaatcgtc ggagaggaaa
+      181 agggcgcgaa cggtacacct caccttcagg gattcctgaa tctccgaagc aatgcgagag
+      241 ctgccgccct tgaagagtcg ctgggaggaa gagcctggct ctctcgtgcc cggggatctg
+      301 acgaagataa cgaagaatat tgctccaaag agtcgacata cctgagagtt ggtgaaccag
+      361 gcggtaaggg tcgatcctcc cagctcgccg atgcgacatc cgctgtgctc gctggtctcc
+      421 cgctgactga cgttgcccgg aagtatccga cgacttatgt tatctttggg cgtggcctcg
+      481 aacgtcttcg tcacctgatc gttgaaacgc aacgtgattg gaagacagaa gtcatcgtct
+      541 tgattggtcc gccagggacc ggaaagagcc gttatgcgtt tgaatttccc gccgaaaaca
+      601 agtattacaa accacgcggg aagtggtggg acggttactc gggaaatgac gtagtcgtca
+      661 tggacgactt ttatggttgg gtaccttacg atgatctgct tcggatcact gaccgttatc
+      721 cgttacgtgt tgagtttaaa ggtggcatga cccagtttgt tgctaagacg ttgatcacaa
+      781 ctagcaacaa agagccccgt gattggtata gaagtgagtt cgatctgtcc gccttatatc
+      841 ggcgcattaa taagtatctt gtctataatg ttgacaagta tgaacctgcc cccgcttgtt
+      901 ccctcccctt tccaataaac tactgagaca aagttgtcgt tttatgtctt tattaaggtg
+      961 aacactcgaa agggatatac acttgggcag ctggttatgg tgaacacttg aaagggatat
+     1021 acacttgggc agctggttat ggtgaacact cgaaagggat atacacttgg gcagctggtt
+     1081 atggtgaaca ctcgaaaggg atatacactt gggcagctgg gttaaggtta ggacaggacc
+     1141 acgtttatgc ctagaacccg gtgaactgac caaacttgat gtaaaacgta aattgagctt
+     1201 ctatatcata tttcccctcg tcgccggtcg cattatctgg ttttctgagg ctcatgccca
+     1261 tgccgtaatg tactacttgg tcttgactgc aatttatcca ggtgaagttt ttacctccta
+     1321 ggaaaaatgt agaatacttg gtgccttctc ctgccccttg aattgttggt ttcggtacga
+     1381 agtaccgtct gtggattctc gatgggtccc atgtcctcct gctgcttgtt gatccgtatg
+     1441 ggtcaatggc ccatcctgta gttgatgtcc tcacgatttg cccgtccttg tcaatgatcg
+     1501 ttgagccttg tgttttgctt ttttggtaaa tgttgtatgc tggtctcagg gtcacagcaa
+     1561 ccccttttat tatgtagtag tcgtaagggt agtggtactg tggcttaccc ccttgcatgt
+     1621 agctatttgt gtctccaaac attgcccatc tcatgttcag tccacagatg ttgtttcctt
+     1681 gtgctggtgg gtctgtgtat tgagccccat cttctagact taagctctgc catctccccg
+     1741 ctgccgtcgg tccagttccg gatccgaaaa atccaaatac ggtatgtctg gtgactttga
+     1801 acgtcactac tgaaaatctt cgtcttggtc gtccgatacg tagccttcgt cttctgaatc
+     1861 tcctacgtag accccgcctc ctcctcctag cacgatatgc acgccgatag gtgctgcgtc
+     1921 gcatctgcag tgtgggcagt gacttcctgt aatgtataaa aagaccgcac aagcgccgtt
+     1981 atattatt
+//

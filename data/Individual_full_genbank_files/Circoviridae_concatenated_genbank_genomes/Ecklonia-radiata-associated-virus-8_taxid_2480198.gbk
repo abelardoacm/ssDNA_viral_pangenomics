@@ -1,0 +1,91 @@
+LOCUS       NC_040637               2997 bp    DNA     linear   VRL 12-SEP-2019
+DEFINITION  Ecklonia radiata-associated virus 8 Rep-B gene, complete cds.
+ACCESSION   NC_040637
+KEYWORDS    RefSeq.
+SOURCE      Ecklonia radiata-associated virus 8
+  ORGANISM  Ecklonia radiata-associated virus 8
+REFERENCE   2  (bases 1 to 2997)
+REFERENCE   3  (bases 1 to 2997)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MG740719.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.6.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2997
+                     /organism="Ecklonia radiata-associated virus 8"
+                     /mol_type="genomic DNA"
+                     /host="Ecklonia radiata"
+                     /db_xref="taxon:2480198"
+                     /country="Australia"
+                     /collection_date="01-Jun-2014"
+     gene            1112..2035
+                     /locus_tag="EXJ91_gp1"
+                     /db_xref="GeneID:41702957"
+     CDS             1112..2035
+                     /locus_tag="EXJ91_gp1"
+                     /codon_start=1
+                     /product="Rep-B"
+                     /protein_id="YP_009552742.1"
+                     /db_xref="GeneID:41702957"
+                     /translation="MTRRNRHAVKAWFLTISQVAEGENNQKLKALIEEKALSVQDEVL
+                     EYVYCNELHADNGRHVHAYVKLRKGVTHANAPGFFHVFHNTANCEPARSAQAVIKYCT
+                     KEGDYITNIPHKVTRKKRTKVSYDVVLNKTTEEAFSEGIISFTQVTAYQRARRLATLS
+                     QTYNHDGVRGLWFYGPSGTGKSRSARHSSLIEGKRFLKPQNKWWDGYAGEPIVVLDDL
+                     DTDVLGHHLKIWSDRYACTGETKGSTCNLLHKQFIVTSNYSIEELFQKSTMNIEPLKR
+                     RFXEVYFPESTSXQQPNLYQTSAFLSNQPND"
+ORIGIN
+        1 gttggaaaga ctactatagt cttaccgttt tgtcactacg ttcatagtat cacttcgtag
+       61 gctaacgcca acagtgatta cctttgccta cccaagagtc ggcaatagga ttaaggtgaa
+      121 acatagtttc atcttgaagt tgaaggtatc ttctttcaga gagacaaaga gttaagtcgc
+      181 ccggggggcg aggaatactc atatagagtg gtattgggtg tggcaccggc ggtatgggtg
+      241 cttggcctcg acccgcttcc gctgcgctcc ttttcgcggg tgccctcggc accgcacata
+      301 gtcatttggt tggttagaca gaaacgcaga ggtttgatag agattaggtt gttgatgaga
+      361 agtagattct gggaaatara ykwywttgaa gaaaaaanga tgatattgaa gaccactctt
+      421 aataaaacaa gcaatggtca gagcggtagc tgaaccagcc gcgtctcccc gtctggaggc
+      481 ctacaaggcc gcatcaaagg cgaagcctaa attacccggt accagttacc gggttactaa
+      541 aaagtccagc gactcaagcg aaaagaaaac tcttagccct cggcgtgtcc caagaacact
+      601 cttaccctcc cwgtctaaaa gtcatactat gatattaact ggctcggtag gaacgcaaga
+      661 cgcaaggatg agtacctcat gccagggcta atatcacgtg gccaaccaat tccccaacaa
+      721 tyaacaacaa agaacactct tagccctcgg cgtgtcccaa gaactctctg gaacaacaaa
+      781 gaacccgggt ttcggtaaaa tcttatgtaa tttcaacttc aacatcctta tgtaatttga
+      841 acttcaacat tactgtcgat acgatatgtc gtatcgcgac caaagtartg acatggtcgt
+      901 agtggcagtc agaacgtgaa acgtggskga gccaartggm ggagcsartt gtcttcctta
+      961 gattcctaga agacacaact gccgcacagc cgtaggtttc tacggcgttc cagtagtgag
+     1021 tgaaaatgaa attttacatc tcgctctctc ttatttcttc tttctcccat ctcactctcc
+     1081 tctcccaaac atctcgctcc ttcttaacaa catgacccgt cggaaccgtc acgcagtgaa
+     1141 agcatggttc ctaactatca gtcaagtagc cgaaggcgaa aacaatcaaa agctaaaagc
+     1201 tctgatcgaa gagaaggctc tttctgtcca ggacgaagtc ctggaatatg tatactgcaa
+     1261 tgaactacat gccgacaatg gtcggcacgt tcatgcctat gtgaagttac gcaaaggcgt
+     1321 tactcacgct aatgcccctg gttttttcca tgtctttcac aatacagcta attgcgagcc
+     1381 tgctcgctca gctcaagctg tcattaaata ttgtactaaa gagggtgatt acatcaccaa
+     1441 cattccccat aaagtaacac gtaagaaacg aaccaaggtg agttacgatg tggtactcaa
+     1501 taagacgact gaggaggcgt tctccgaagg cataatctct tttacgcagg ttactgcgta
+     1561 ccagcgagcc agaaggctcg caactctctc tcaaacctac aaccacgacg gagttcgtgg
+     1621 tctgtggttc tatggtccgt ccgggactgg aaagtctcgg tctgctcgtc actcttctct
+     1681 catcgaagga aaacggtttt tgaaacctca aaacaaatgg tgggacggct atgccggaga
+     1741 acctattgtc gtcctcgacg atctcgatac tgatgtcctt gggcatcatc ttaaaatctg
+     1801 gtccgatcgt tatgcctgca caggcgaaac taaaggatct acatgcaact tgttgcataa
+     1861 acaatttatt gttacatcca actactckat ygaagaactg tttcaaaagt caacaatgaa
+     1921 cattgaacca ttgaagcgtc gcttcaraga agtttatttc ccagaatcta cttctmacca
+     1981 acaaccyaat ctctatcaaa cstctgcgtt tctgtctaac caaccaaatg actaagtgct
+     2041 gtgccgaggg cacccgcgaa aaggagcgya gcggaagcgg gtcgaggcca agcacccata
+     2101 ccgcyggtgc cacacccaat accactctat atgagtattc ytcgcccccn gggcgactta
+     2161 actcgtttct ctgaaagaag ataccttcaa cttcaagatg aaagtatctt tgaccttaat
+     2221 cctattgccg actcttgggt aggcaaatgt aatcactgtt ggcgctagcc tacgaagtga
+     2281 tactatgaac gtagtgacaa aacggtaaga ctatagtagt ctttccaact aattaagcgt
+     2341 agagcatcga awwaagmkka kakyrwmgaa aaaagatgat attgaagaaa aaagatgata
+     2401 ttgaagaaaa aagatgatat tgaagaycac actcaataaa acaagcaatg gtcagagcga
+     2461 tagctgaacc ggccgcgtct ccccgtctgg aggcctacaa ggccgcatca aaggcgtagc
+     2521 ctaaattact cggtaccagt taccgggtta ctaaaaagtc cagcgactct agcgaaaaga
+     2581 aaactcttag ccctcggcgt gtcccaagaa cactcttact ctctcagtct aaaagtcata
+     2641 ctatgatatt aactggctcg gtaggaacgc aagacgcaag gatgagtacc tcatgccagg
+     2701 gctaatatca cgtggctaac caattcccca acaattaaca acaaagaaca ctcttagccc
+     2761 tcggcgtgtc cctagaactc tctggaacaa caaagaaccc gggtttcggt aaaatcttat
+     2821 gtaatttcaa mtatccaasa accttatgta attttgaatg ttaaaattac tgtcgatatg
+     2881 atatgtcgta tcgcgaccaa agtagtgaca tggtcgtagt ggcagtcaga acgtgaaacg
+     2941 tgggtgagcc aagtggttgc gaattgtctt ccttagattc ctagaagaca caactgc
+//

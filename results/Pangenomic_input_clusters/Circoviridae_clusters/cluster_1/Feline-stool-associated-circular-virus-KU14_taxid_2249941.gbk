@@ -1,0 +1,90 @@
+LOCUS       NC_040381               2046 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Feline stool-associated circular virus KU14 DNA, complete genome.
+ACCESSION   NC_040381
+KEYWORDS    RefSeq.
+SOURCE      Feline stool-associated circular virus KU14
+  ORGANISM  Feline stool-associated circular virus KU14
+REFERENCE   2  (bases 1 to 2046)
+REFERENCE   3  (bases 1 to 2046)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to LC389584.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2046
+                     /organism="Feline stool-associated circular virus KU14"
+                     /mol_type="genomic DNA"
+                     /strain="KU14"
+                     /host="Felis catus"
+                     /db_xref="taxon:2249941"
+                     /country="Japan: Aomori, Towada"
+                     /collection_date="2018"
+     gene            complement(56..1015)
+                     /gene="putative Rep"
+                     /locus_tag="EXI28_gp1"
+                     /db_xref="GeneID:41702253"
+     CDS             complement(56..1015)
+                     /gene="putative Rep"
+                     /locus_tag="EXI28_gp1"
+                     /codon_start=1
+                     /product="putative replication associated protein"
+                     /protein_id="YP_009551496.1"
+                     /db_xref="GeneID:41702253"
+                     /translation="MAATNWCGTLHLGDEEFYGESWLNQLLGAGKITYGIGQIESCPE
+                     TGRRHFQFYVQVGRTQKLAWMRRHISDKAHFEQARGNVQQNIDYCSKQDSRLDGPWEV
+                     GIARRQGQTTGLTAATEMIASGAAVCEVAKLYPVVWVRHGKGLVHLRQTLALDADRRE
+                     FGPDGPELWVLYGPSGGGKSRFAKEHWPDAFWKAPYSQWWDGYGKHETVILDDFKDDS
+                     MRLADLQRLIDWYPLWVEVKGGSLPMLATRYVITSNTHPETWYTRADVHKTIWRRVQD
+                     FAEKHGRLLRFPPGEAAAEEAAAEPGSADYLGFPDVFNSWNPL"
+     gene            1138..1878
+                     /gene="putative Cap"
+                     /locus_tag="EXI28_gp2"
+                     /db_xref="GeneID:41702254"
+     CDS             1138..1878
+                     /gene="putative Cap"
+                     /locus_tag="EXI28_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009551497.1"
+                     /db_xref="GeneID:41702254"
+                     /translation="MGMGRRRYYRRRYVSRPPRRRMTYRRYSRRYCRTRRAPKGTYSS
+                     VVTLTQDAEWKFSNQNASNRWVAFTFSPVSVPGFLDYKATYSHFRILKAKLYLSRALG
+                     NDAGTTFNYLVVGSRPFAATQNAGTTTGQDALVPAQTEEALRQAKWQRVRYPSTTTNV
+                     VPVGFHPYAIVQTFGPTPYTTGSDMMWQRIWEGRRWMPFSWAAATGSALSFFGPYLVV
+                     DKSNGELSQGSWSVQCTLKISVQFKGQR"
+ORIGIN
+        1 tagtattacc cggaacttcc gctctcgcgc aaaatataat atgggccaaa ttcacttaga
+       61 gcgggttcca cgagttgaaa acatcaggga acccgaggta gtccgccgat cccggttctg
+      121 cagctgcttc ttctgctgct gcttcccccg gcggaaaacg cagtaaacgc ccgtgcttct
+      181 cggcgaagtc ctggaccctg cgccagatgg tcttatggac gtcggcgcgg gtgtaccagg
+      241 tctcggggtg cgtattcgaa gtaataacgt acctcgtagc gagcatgggc agtgagccgc
+      301 ccttgacctc cacccagagc ggataccagt cgatcaggcg ctggaggtca gctagacgca
+      361 tgctatcgtc cttgaagtcg tccaggatca ccgtctcgtg ctttccatag ccgtcccacc
+      421 actggctgta gggcgccttc cagaaggcgt cgggccagtg ctccttcgcg aaacggctct
+      481 tgccgccgcc ggatgggccg tataggaccc atagctccgg gccatcaggg ccgaattcgc
+      541 ggcggtccgc gtccagggct aaggtctgcc tcaggtggac tagccccttc ccgtggcgga
+      601 cccagacaac gggatacagc ttggccactt cgcagacagc tgcgccggac gctatcatct
+      661 ctgtcgccgc tgttaagccc gtagtctggc cttggcgcct ggctataccc acttcccagg
+      721 gcccgtctag cctggagtcc tgtttcgaac agtagtcgat gttctgctga acgttccccc
+      781 tggcttgctc gaaatgggcc ttatcgctta tatgcctgcg catccatgct agcttctggg
+      841 ttctcccgac ctggacatag aactggaagt gcctgcgccc agtctctgga caactctcga
+      901 tctggccgat tccatacgtt atcttgcccg ctcccagtag ttggttcagc cagctctcgc
+      961 cgtagaactc ctcgtcgcct aaatgcagcg taccgcacca gttagtagca gccattttat
+     1021 acttccgctc agagcgcaaa acgcactttt tcccaggtgc acaggggtgc agatttaggc
+     1081 acggattacc cccccccgtt gctcgttgga aacttccgct ctcgcgcaaa ctataatatg
+     1141 ggcatgggac gtcgccgtta ctatcgtcgt cgctatgtct ctcgtccccc caggagacgt
+     1201 atgacttatc gtcgttactc ccgcaggtac tgccgtacta ggcgtgctcc taagggcacc
+     1261 tactcctctg tggtcacgct gacccaggat gcagagtgga aattcagcaa ccagaacgcc
+     1321 tctaacagat gggtcgcttt caccttctcg ccggtctctg tgcctggctt cctggactat
+     1381 aaggccactt atagtcactt caggatactg aaggccaagc tctatctgtc cagagccctg
+     1441 gggaacgatg ctgggactac cttcaactat cttgtagttg gtagtaggcc cttcgctgct
+     1501 acccaaaacg caggaacgac taccgggcag gatgccttag tgcccgcgca gactgaagag
+     1561 gccctcagac aggcgaaatg gcagcgtgtt cgctatccca gcacgactac gaacgtcgtg
+     1621 ccagtgggct tccacccgta tgctatagtc cagacctttg gtcctacgcc ttataccaca
+     1681 ggctctgaca tgatgtggca gcgcatctgg gaaggcagga gatggatgcc cttctcatgg
+     1741 gcagctgcca ctgggtcagc gctgagcttc ttcggaccct acctggtcgt ggacaagtct
+     1801 aatggcgaac tcagccaggg ctcttggtcc gtccagtgca ctcttaagat cagcgtccaa
+     1861 ttcaagggcc agaggtaaac cgttacccga gggtagggcg taaatatcat gagagggtag
+     1921 ggcgtaaata tcatgagagg gtaggtcacc ccatccactt gagagccgga gggagggtgg
+     1981 ccgtatagcc gagcgaagcg aggaggcccc cgaccgtgag aaaacgcata acggaagttc
+     2041 cggcta
+//

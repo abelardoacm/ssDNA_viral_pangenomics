@@ -1,0 +1,92 @@
+LOCUS       NC_040324               1937 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Soft spider associated circular virus 1 isolate BC_I1647E_H3,
+            complete sequence.
+ACCESSION   NC_040324
+KEYWORDS    RefSeq.
+SOURCE      Soft spider associated circular virus 1
+  ORGANISM  Soft spider associated circular virus 1
+REFERENCE   2  (bases 1 to 1937)
+REFERENCE   3  (bases 1 to 1937)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MH545516.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1937
+                     /organism="Soft spider associated circular virus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="BC_I1647E_H3"
+                     /isolation_source="Soft spider (Family Cybaeidae)"
+                     /db_xref="taxon:2293301"
+                     /country="Canada: Victoria, British Columbia"
+                     /collection_date="May-2017"
+                     /collected_by="C. Scott"
+     stem_loop       join(1924..1937,1..21)
+                     /note="contains nonanucleotide motif TAGTATTAC"
+     gene            125..802
+                     /locus_tag="EXH71_gp1"
+                     /db_xref="GeneID:41702585"
+     CDS             125..802
+                     /locus_tag="EXH71_gp1"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009551362.1"
+                     /db_xref="GeneID:41702585"
+                     /translation="MTTWPASASTADAAPPDGSAPSAEPGEAEGDQTDAKLTFTASVW
+                     LPELQSSHLLVQSSATDICLRVDDLPFNNTQIGYLYSHLRINKCVVKIYPCGNFAEQP
+                     VAGSYIEPEVYSSITYDPQVVDATYTLTNGPTVKSHGPRSKITRVVYPKVCYPVWGVN
+                     GDISSTSSSIRNMKKAPWMSINSAGITDACLGKLRIYMGANSGDGITKVWKWNVTKTY
+                     YFQLKNV"
+     gene            complement(799..1915)
+                     /locus_tag="EXH71_gp2"
+                     /db_xref="GeneID:41702584"
+     CDS             complement(join(799..1437,1637..1915))
+                     /locus_tag="EXH71_gp2"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009551363.1"
+                     /db_xref="GeneID:41702584"
+                     /translation="MAQGKRWCFTLNNYTDGDEERLRGLDVKYLCVGREVAPTTGTRH
+                     LQGFVNFRTCQRFNKARELIGTSAHLELAKGTDVQNKEYCCKSADFFEVCVQGQRTDL
+                     AAVAAACAVRGNSLEKVALEHPQEFIKYHRGIQRYYEIANPIQHRDFKTRVHVFVGPP
+                     GSGKSRLANACGEVNGEIYYKPRGEWWDGYRDQSTIVVDDFYGWLKYDELLKICDRYP
+                     YKVPVKGAYVEFTARNIFITSNEPIDNWYKFNGYDPAAIKRRVSVYMFINGLEPVYYI
+                     GPDDEWLSLKVKAEFKIACQNVLLDLDNN"
+ORIGIN
+        1 tagtattacc cggcacttca tcccacttca tcccacttcc ggcggaagcg gatgttaggc
+       61 aaactatata aaggctggtc tttagtgagg aagcgcatcc gctttcgagt ggcagcatcc
+      121 tgttatgaca acatggcccg catccgcttc aaccgccgac gccgcgcccc cagacggaag
+      181 cgctccttcc gccgaacccg gcgaagccga aggagatcaa accgacgcaa agttaacatt
+      241 cacagcttcc gtatggttac ccgagcttca gtcatctcat ctactagtgc agagttctgc
+      301 gacggatatc tgccttcgtg tcgacgatct tcccttcaat aacacccaga tcggctacct
+      361 ttacagccac ttgcgaataa acaagtgtgt tgttaaaatc tatccctgtg gaaactttgc
+      421 cgaacaacct gtggcaggga gttacattga gcccgaagtc tacagttcca tcacctacga
+      481 cccccaggtt gtagatgcta cctataccct aaccaatggt ccaactgtca agagtcatgg
+      541 accccggagc aaaatcaccc gagttgtcta cccaaaagtc tgttatccag tttggggtgt
+      601 caatggcgac atatcgagca cttccagttc tatccgcaac atgaaaaagg ccccctggat
+      661 gtccattaac tcagccggca ttactgatgc ctgtttaggc aaattgagaa tatacatggg
+      721 tgctaattcc ggtgacggaa tcaccaaagt gtggaaatgg aatgtcacca aaacatatta
+      781 ttttcaatta aagaatgttt aattattgtc aagatccaat aaaacatttt gacatgcaat
+      841 tttgaattca gctttcactt tcaaagataa ccattcatca tctggtccga tataatacac
+      901 aggttctaat ccattaataa acatataaac actcactctg cgcttaattg cagctgggtc
+      961 ataaccattg aatttatacc aattgtcgat tggctcgttc gaagtaataa atatattacg
+     1021 agcagtgaat tcgacatacg ctcctttaac aggcacttta taaggataac ggtcacatat
+     1081 ttttaagagt tcatcgtact taagccatcc gtagaaatca tcgacaacaa tagttgactg
+     1141 atctcggtat ccatcccacc actcgccgcg gggcttgtag tagatttctc cattgacttc
+     1201 tccacacgca tttgccagtc tcgatttgcc agagccaggc gggccgacaa agacatggac
+     1261 ccttgtcttg aagtcgcgat gctgaatggg gtttgcaatt tcataatagc gttgtatccc
+     1321 tcggtggtac ttaataaact cttgcggatg ctcaagagcg actttttcaa ggctattgcc
+     1381 tcgtactgca caagcggctg ccacggccgc gaggtcagtt cgctgtccct gtacacatgg
+     1441 cgagccctac aatgaaaaca agaaacaatg ataatgaaag tagtccctcc gactaaccga
+     1501 gaaccgacaa gggacgcggg ccggccttta tggccggcct cgtacatgcc gactccaggt
+     1561 gaatgtaata attggtaaca gccgcgcgaa gcgcggctaa atctagccca tcaaatgagc
+     1621 cgacgaaaca acttaccact tcaaagaaat cagcagactt gcaacagtat tccttattct
+     1681 ggacatcagt tcctttggca agttcaagat gtgcacttgt cccaataagc tctcgagcct
+     1741 tgttaaatcg ctggcaggtt ctaaaattga cgaagccctg tagatgcctc gtacctgtcg
+     1801 tcggagcaac ttctcgacca acgcacaaat acttgacatc aagacctcgg agtcgctcct
+     1861 cgtcgccatc agtatagttg ttgagagtaa aacaccaccg cttgccttgc gccatcgaac
+     1921 gttatgaagt gccggcc
+//

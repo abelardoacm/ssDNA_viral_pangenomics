@@ -1,0 +1,84 @@
+LOCUS       NC_026512               1759 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Mosquito circovirus strain B19, complete genome.
+ACCESSION   NC_026512
+KEYWORDS    RefSeq.
+SOURCE      Mosquito circovirus
+  ORGANISM  Mosquito circovirus
+REFERENCE   2  (bases 1 to 1759)
+REFERENCE   3  (bases 1 to 1759)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KM972725.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1759
+                     /organism="Mosquito circovirus"
+                     /mol_type="genomic DNA"
+                     /strain="B19"
+                     /host="Aedes vexans"
+                     /db_xref="taxon:1611039"
+                     /country="Germany"
+                     /collection_date="2013"
+     gene            complement(join(1721..1759,1..867))
+                     /locus_tag="UO71_gp1"
+                     /db_xref="GeneID:23632152"
+     CDS             complement(join(1721..1759,1..867))
+                     /locus_tag="UO71_gp1"
+                     /codon_start=1
+                     /product="replication associated protein"
+                     /protein_id="YP_009121932.1"
+                     /db_xref="GeneID:23632152"
+                     /translation="MSLIQFVCWTLNNYSEDEYQSLIEFSEWRYIVIGREVGETGTPH
+                     LQGYGELKKRKKFAALKNLFPRVHWEQRRASRDAAANYCKKEGRFEERGSLPKNASEK
+                     SSKEAITRVKSGQTMRAILDDPPNLSGIRMCQIWLSYNEPKRNFKSEVFWYYGASGTG
+                     KTKLASEQAGPDAYWHDGTKWFDGYDAHEHVLLDDYRGGNMKFNFLLKFLDRYPLRLE
+                     VKGGYRQLLAKKIWVTSIKHPKEIYSFSEMDEPTEQLLRRITTIKKMCACSQCERFYG
+                     NRFEVSRFAVCGNTSTNSDTAANET"
+     gene            875..1495
+                     /locus_tag="UO71_gp2"
+                     /db_xref="GeneID:23632151"
+     CDS             875..1495
+                     /locus_tag="UO71_gp2"
+                     /codon_start=1
+                     /product="capsid"
+                     /protein_id="YP_009121933.1"
+                     /db_xref="GeneID:23632151"
+                     /translation="MAYKRMRRSRKRAPRKRSYRRRFRRRFNTSITRTVLRKFFDTSF
+                     STTDVGYNYLSDNPKGTPGWSYYASSFHHYRVVGLALKFVPKATTAPMETGMVHYDSS
+                     LFFARDISPVVWAETGNNLINKALSIPNMKQRTLTRSFSLYFPMRKSSPTTYQATAGG
+                     YLSTDDPKTTQLVHMVSEKMSFAIPGRFYLSLYIRFKNKRYTTTPV"
+ORIGIN
+        1 attaccacaa acagcgaacc ttgatacctc gaacctgttc ccatagaatc gctcgcactg
+       61 agagcacgcg cacatttttt ttattgttgt tattcttcgc agcagttgtt ctgttggctc
+      121 gtccatttcg ctgaaggaat aaatttcctt tggatgtttt attgacgtca cccagatttt
+      181 tttcgctagc aactggcgat atcctccttt tacttccaat cttagaggat accgatcgag
+      241 gaattttaga aggaaattaa atttcatatt tcctcctctg tagtcgtcca ataaaacgtg
+      301 ttcatgcgcg tcgtatccat cgaaccactt tgttccatcg tgccagtatg catcggggcc
+      361 tgcctgttca cttgccaatt tggtttttcc ggttccactt gctccatagt accaaaacac
+      421 ttctgatttg aaatttcttt ttggttcatt gtaggagagc catatttggc acattctgat
+      481 acctgataag tttggcgggt catccaaaat ggctcgcata gtctgtccgg acttaactct
+      541 ggtaatggcc tcctttgagg atttttccga tgcatttttt ggcagggacc cacgttcctc
+      601 gaatctgcct tcctttttgc agtagttggc ggcagcatct cgagaagctc gtcgttgttc
+      661 ccaatgaact cttgggaata gatttttaag cgccgcgaat tttttgcgct tcttgagctc
+      721 cccgtagcct tgcaaatgcg gcgttccagt ttcgccaact tctcttccga taacgatgta
+      781 gcgccactcg ctgaattcaa taagtgattg gtattcatct tctgaataat tgtttaaagt
+      841 ccagcagacg aactgaataa gactcattct cgcgatggct tacaaacgaa tgagacgtag
+      901 tcgcaagcgc gcccctagga agcgttctta tcgtcgtcgt tttcgtcggc gtttcaacac
+      961 atccataacg cgcacggtgt tgcgaaagtt cttcgacact tctttttcta caacagatgt
+     1021 cggctacaac tatttaagcg ataaccccaa ggggacgcct ggctggtctt attatgcctc
+     1081 ctctttccac cattatcgtg tggttggcct cgcgctcaaa tttgttccta aggcgacgac
+     1141 cgcaccgatg gaaaccggaa tggtacatta tgattcttct ttgttttttg ctcgtgatat
+     1201 ttctcctgtt gtgtgggctg agactggcaa taatcttatc aataaagccc tgagtatacc
+     1261 caacatgaag cagcgcacgc ttacgcgttc tttctcgcta tatttcccca tgcggaaatc
+     1321 ctccccgact acttaccaag caactgctgg cggatacctc agcacggatg acccgaagac
+     1381 aacccaattg gtccacatgg tttctgagaa aatgtccttt gccatccccg gaagattcta
+     1441 cttgtctctt tacattagat ttaagaataa gcgttatacc acaacccccg tttgatttct
+     1501 ttctaataaa aaaaatattt taaacgcaag caaattttat ttattcctgt aaccgaaagc
+     1561 taagctaggt gtactgcaca gcgcagcgta tagttaatcg gcacccgaag tgatgatcca
+     1621 gtagtgggcc ccgggagcgg cccttaggcc gcgtacagca tcccgaaggg agcccccggc
+     1681 tggcggggtt tggggcagag ccccattagg cgttctctca ctatgtctcg ttcgccgcgg
+     1741 tatcgctgtt tgtgctagt
+//

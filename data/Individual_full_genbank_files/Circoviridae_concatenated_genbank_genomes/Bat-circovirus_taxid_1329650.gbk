@@ -1,0 +1,90 @@
+LOCUS       NC_035799               2113 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Bat circovirus isolate Acheng30, complete genome.
+ACCESSION   NC_035799
+KEYWORDS    RefSeq.
+SOURCE      Bat circovirus
+  ORGANISM  Bat circovirus
+REFERENCE   2  (bases 1 to 2113)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KX756986.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2113
+                     /organism="Bat circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="Acheng30"
+                     /host="Vespertilio sinensis"
+                     /db_xref="taxon:1329650"
+                     /country="China"
+     gene            54..974
+                     /gene="Rep"
+                     /locus_tag="CNQ94_gp1"
+                     /db_xref="GeneID:36839623"
+     CDS             54..974
+                     /gene="Rep"
+                     /locus_tag="CNQ94_gp1"
+                     /codon_start=1
+                     /product="replication associated protein"
+                     /protein_id="YP_009423856.1"
+                     /db_xref="GeneID:36839623"
+                     /translation="MAEAEGPAGGKTRRPREAPAARWCFTLNNPTEEEKEQIKSIEEA
+                     KVKYLIVGCEVGSGGTPHLQGFINLCAKVRLQGLKQLLGPRAHCEKARGTDEDNKKYC
+                     SKDGDLLVEKGEPCFKGKRTDLSKAVEILLTEKSLAAVAAAMPEVYVRNFRGLGQLLL
+                     DHPGMQSRRAWKSEVIVWVGPPGVGKSRACLDMSGDTAYWKPRGKWWDGYNGHETVVI
+                     DDFYGWLPFDDLLRLLDRYPLTVETKGGTRAFLAKKILITSNKLPHEWYSDEIANKDA
+                     LYRRINEIKWWDGLKFGAPPYVAFPYKINY"
+     gene            complement(1241..2086)
+                     /gene="Cap"
+                     /locus_tag="CNQ94_gp2"
+                     /db_xref="GeneID:36839622"
+     CDS             complement(1241..2086)
+                     /gene="Cap"
+                     /locus_tag="CNQ94_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009423857.1"
+                     /db_xref="GeneID:36839622"
+                     /translation="MTAHAQGGGARHASAMFLFLEMARWHTRRWRRATLHAVARSHRR
+                     RRHAMGGRRRRHRRRSTYKFFHVRLTRYYTVLWPKATTPSDDTETTYGWNLDHVNFKL
+                     SDFLPMDSSGRPSLPAFKDYNITKAVVRVKPINVPVSMRVEQYGNHATDFDGTDVGIG
+                     TVHTSGDPKPSPNNETGPKTSDPLRNRTSRKSWNVRTGFTRILKPTVVAQTANCCGIG
+                     PGSNFITRGLKHAWLRLDSNGVKTPWNGLSISLREGDQSLLTQYTITLYVKFREFDLD
+                     FNPHA"
+ORIGIN
+        1 tagtattacc ctcggcacct tggaaccagg aaccaccttg gaacccaccc gagatggcgg
+       61 aggctgaagg cccggcgggg ggaaagacgc ggcggccccg tgaagcacca gcggcccgct
+      121 ggtgcttcac cctcaacaac ccgacagagg aggagaagga gcagattaag agcatcgagg
+      181 aggccaaggt gaagtatctc attgtgggct gcgaggttgg atcgggcggc acgccgcacc
+      241 ttcagggctt cataaacctc tgcgcgaagg tccgcctcca aggcctcaag cagctccttg
+      301 gcccacgagc tcattgtgag aaggctagag gtacggatga agataataag aagtattgta
+      361 gcaaggatgg agatttgttg gtggagaaag gtgagccgtg ttttaaaggg aagcggactg
+      421 acctttcgaa ggctgtggag atcttgctga ccgagaagag cttggctgct gttgccgccg
+      481 cgatgccgga agtttatgtg aggaacttcc gcggactggg gcagcttttg ttggaccacc
+      541 ccggtatgca aagcaggagg gcgtggaaaa gtgaggtcat cgtgtgggtc ggcccacccg
+      601 gcgtaggcaa gtcccgggca tgcctggaca tgtccggtga cactgcctac tggaagccac
+      661 gtggtaagtg gtgggacggc tataatggac acgagaccgt ggtaatcgat gatttttatg
+      721 gctggctgcc ctttgatgat ctgttgagat tgctggatcg ataccccctg actgtggaga
+      781 ctaagggggg tacccgggcc tttctggcga agaagatatt gattacctca aacaaactac
+      841 cacatgagtg gtatagtgat gagattgcca acaaggacgc cctctaccgg agaatcaacg
+      901 aaattaagtg gtgggatgga cttaagtttg gtgcgccccc ttatgttgca tttccttaca
+      961 aaataaacta ctgaaaacga atggtgtgtg tgttctgtgt cttctcccgc gcgaagcgcg
+     1021 gaagctgcct cccggccggc gcagccggcc ttttgttgcg agcgaagcga gcttttgttg
+     1081 cgcgcgcagc gcgctttttg tagtttttgt tgcgcgcgca gcgcgctttt tttttttttt
+     1141 tttttttgta ggggagcgga ggcggcagcc gaagcgacct ccctatgaga gagagataga
+     1201 acgcactcac cggtttcaga aaaggtaact ttatttagaa ttatgcatga gggttaaaat
+     1261 caaggtcaaa ttcccgaaat ttgacataga gggtgatggt atattgggtt agaaggcttt
+     1321 ggtcaccctc tcgcagagag atggacagtc cattccatgg tgttttcaca ccattggagt
+     1381 ctagcctgag ccaggcgtgt tttaggcccc gggttatgaa atttgaaccc gggcctatgc
+     1441 cacaacagtt ggcagtctgt gccactactg tgggtttcag gattcttgtg aatcctgtgc
+     1501 gcacattcca tgattttctg gatgtgcggt ttcttagggg gtctgatgtt ttaggccccg
+     1561 tctcattatt gggagatggt tttggatctc ccgatgtgtg gacggtgcct atgccaacat
+     1621 cagtcccatc aaagtctgtg gcgtgattgc catattgttc cactctcatg gagactggaa
+     1681 cattgattgg cttcacgcgg actacggctt ttgtgatgtt gtagtctttg aaagcgggga
+     1741 gggatggacg tcccgaagag tccatgggaa ggaagtccga cagcttgaag ttgacgtggt
+     1801 ccagattcca tccgtaggtg gtttcggtgt cgtctgatgg agtggtggct ttaggccaga
+     1861 ggacggtata atagcgggtg aggcgaacgt gaaagaattt ataagtggac cgacgcctgt
+     1921 ggcgccgcct tcttcctccc attgcatgtc ttcttctgcg atgggagcga gcgacggcgt
+     1981 gcagcgtagc gcgacgccat ctgcgggtgt gccaacgggc catttctaaa aatagaaaca
+     2041 tggctgatgc atgacgggct ccgccccctt gcgcatgcgc agtcatgtgt ccccgcccag
+     2101 aggtgccgag gta
+//

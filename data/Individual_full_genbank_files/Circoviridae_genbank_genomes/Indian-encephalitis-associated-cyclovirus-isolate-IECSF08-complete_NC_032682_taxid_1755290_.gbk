@@ -1,0 +1,89 @@
+LOCUS       NC_032682               1723 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Indian encephalitis associated cyclovirus isolate IECSF08, complete
+            genome.
+ACCESSION   NC_032682
+KEYWORDS    RefSeq.
+SOURCE      Indian encephalitis associated cyclovirus (IEaCV)
+  ORGANISM  Indian encephalitis associated cyclovirus
+REFERENCE   2  (bases 1 to 1723)
+REFERENCE   3  (bases 1 to 1723)
+REFERENCE   4  (bases 1 to 1723)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KU053483.
+            On Sep 29, 2017 this sequence version replaced NC_032682.1.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. version 6.1.8
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1723
+                     /organism="Indian encephalitis associated cyclovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="IECSF08"
+                     /isolation_source="cerebrospinal fluid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1755290"
+                     /country="India"
+                     /collection_date="2007"
+                     /note="*acronym: IEaCV"
+     gene            23..898
+                     /locus_tag="BV374p1"
+                     /db_xref="GeneID:30769048"
+     CDS             join(23..184,395..898)
+                     /locus_tag="BV374p1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009333618.1"
+                     /db_xref="GeneID:30769048"
+                     /translation="MERVTLKRFCFTLNNYDEDRVKILKEFMSTKCKYAIMGFEEAPT
+                     TGTKHIQGSWLKAACQLIIEGKSERSIAEQFPSQYVMYHRGFQALRNAIAPPKPRDFK
+                     TEVYVYIGPTGTGKSRKAAEMATQTNEPIFYKARGNWWDGYKQQENVIIDDFYGWLEL
+                     DELLKITDRYPYRVPVKGSYEVFNSKRIWITSNKTVTTWYPTERDELLLALTRRFTQI
+                     EYF"
+     gene            complement(895..1590)
+                     /locus_tag="BV374p2"
+                     /db_xref="GeneID:30769049"
+     CDS             complement(895..1590)
+                     /locus_tag="BV374p2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009333617.1"
+                     /db_xref="GeneID:30769049"
+                     /translation="MWRARRGRYRYVGRAGVYKNRRIYRRRRYRLPLYRPQRLRRSTG
+                     LDVYAVKTEVIVPTLDDNVIVLEPYISDFRRLADTYNLYNPYRFMSLSVRVVPWCNTT
+                     SSTVPNNLYCCAPFHRPLTMKVNEATYVQILSLPRSKSYPATRSSYRRFVPTVASVLS
+                     ETGQSTVLTGSGLTRYRPLISQSPGYDAAAVRHYCAIYKFSPPASGQPPVEYPLILRA
+                     HVRFFSPKDTDFS"
+ORIGIN
+        1 aatactgcac tagtcacttc gaatggagcg cgtcacgtta aaacgtttct gcttcacgct
+       61 taacaattac gatgaagata gagtgaaaat attaaaagaa tttatgtcaa ccaaatgcaa
+      121 atacgccata atgggattcg aggaggcacc aactactgga accaaacata tccaaggatc
+      181 ctggtaactc ctttttttcc tatactaaaa aattaactcc cacaccagta atctcctcac
+      241 ccatgctaga cacagtacca tcagaaaact atgcggaggc cgaggacaca tagaaaaagc
+      301 aagaggaact gaccacgaaa atcaaattta ttgtagcaag agtggtaaat ttattcaatt
+      361 cggagaacct caaacgcaag gacaacgcaa cgacctgaaa gccgcttgcc aattaattat
+      421 agaaggaaag agtgagcgtt ccatcgcaga gcaattcccc agccaatacg ttatgtatca
+      481 tcgcggattc caagcactcc gaaacgccat cgcgccacct aagccgaggg atttcaaaac
+      541 cgaggtatat gtatatattg gtccaactgg aacgggtaaa tccagaaaag ccgctgaaat
+      601 ggccacgcaa acaaacgaac ctattttcta caaggctcgt ggtaactggt gggatggcta
+      661 caaacaacaa gaaaatgtta ttatcgatga tttctacgga tggcttgaac ttgacgaact
+      721 actaaaaata accgacagat atccctaccg agtacctgtc aaaggctcgt acgaggtttt
+      781 caacagcaag cgtatatgga taacaagcaa caaaacagtt acgacctggt accctacgga
+      841 acgcgatgaa ctactgttag cccttacccg acgctttaca caaatagaat acttttaact
+      901 aaaatcagta tctttggggc taaaaaagcg tacatgggca cgtaatataa ggggatattc
+      961 aacgggaggt tggccgcttg caggggggct gaacttataa atcgcacaat aatgacgcac
+     1021 agcagcagca tcatatccgg ggctctgact aataagaggc ctatagcgag ttaatccact
+     1081 tccagttaat acggtacttt gaccagtctc cgatagaacc gacgcgaccg taggcacaaa
+     1141 acgtctatat gaacttcgag tggcaggata actcttagaa cgaggtaaag acaatatctg
+     1201 cacataggtc gcttcgttaa ctttcatcgt caatggccga tgaaacggcg cacaacaata
+     1261 taagttattc gggacagtag aagaagtcgt attacaccaa ggcacaacac gaacacttaa
+     1321 agacataaaa cgatacggat tgtataaatt atacgtatcc gctaaacgtc gaaagtcgga
+     1381 aatgtacggc tccaaaacta ttacattatc atctaatgtg gggacaatga cctccgtctt
+     1441 aacagcgtat acatccaaac cagtagagcg acgcaaacgc tgagggcgat acaaaggcag
+     1501 cctataacgc cgcctgcgat aaatacgtct gtttttgtaa acacctgcac gcccgacata
+     1561 ccgatagcga cccctcctag cacgccacat aggaatgacg tcaacctaga acaaagaact
+     1621 ccccttaaac cgatgactca tacctcacta aaacaaattc aaggacgctt tcctattggt
+     1681 tagcgcaaac cctataaata ttcctgtgtc cgaagtgact agg
+//

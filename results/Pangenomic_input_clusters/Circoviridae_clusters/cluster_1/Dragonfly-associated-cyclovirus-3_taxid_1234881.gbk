@@ -1,0 +1,111 @@
+LOCUS       NC_023868               1711 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Dragonfly cyclovirus 3 isolate FL2-5E-2010, complete genome.
+ACCESSION   NC_023868
+KEYWORDS    RefSeq.
+SOURCE      Dragonfly associated cyclovirus 3
+  ORGANISM  Dragonfly associated cyclovirus 3
+REFERENCE   2  (bases 1 to 1711)
+REFERENCE   3  (bases 1 to 1711)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JX185424.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher (Gene Codes Corporation) v. 4.7
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1711
+                     /organism="Dragonfly associated cyclovirus 3"
+                     /mol_type="genomic DNA"
+                     /isolate="FL2-5E-2010"
+                     /host="Erythemis simplicicollis"
+                     /db_xref="taxon:1234881"
+                     /country="USA: St. Petersburg, Florida"
+                     /collection_date="19-Sep-2010"
+     gene            complement(join(810..1711,1))
+                     /locus_tag="DH93_gp1"
+                     /old_locus_tag="DfCyV-3_gp1"
+                     /db_xref="GeneID:18983262"
+     CDS             complement(join(810..1336,1484..1711,1))
+                     /locus_tag="DH93_gp1"
+                     /old_locus_tag="DfCyV-3_gp1"
+                     /note="Rep; similar to replication initiator proteins
+                     identified in circoviruses (pfam: Viral_Rep PF02407;
+                     RNA_Helicase PF00910)"
+                     /codon_start=1
+                     /product="spliced replication-associated protein"
+                     /protein_id="YP_009021846.1"
+                     /db_xref="GeneID:18983262"
+                     /translation="MPSPRDLKGAVRLGIYVLRCLYNGTMSARQRLKRIVFTLNNYCE
+                     DDFVRIQSYVEIYQYCVVGRETAPETGTPHLQGFINFKSKREFGTIKTIVGDRAHIEP
+                     AKGSDVQNKEYCTKGGDYWECGTPSGPGYRSDLADVVQTVKGAKRLREVVERHPCEFI
+                     KYHRGIEKLFGMLSEREKRNWKTETIVYYGDPGAGKSRKAAEVGAAAEGGVYYKTRGP
+                     WWDGYNGETTVIVDDYYGWLAYDEVLKITDRYL"
+     CDS             complement(join(810..1711,1))
+                     /locus_tag="DH93_gp1"
+                     /old_locus_tag="DfCyV-3_gp1"
+                     /note="Rep; similar to replication initiator proteins
+                     identified in circoviruses (pfam: Viral_Rep PF02407;
+                     RNA_Helicase PF00910)"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009021847.1"
+                     /db_xref="GeneID:18983262"
+                     /translation="MPSPRDLKGAVRLGIYVLRCLYNGTMSARQRLKRIVFTLNNYCE
+                     DDFVRIQSYVEIYQYCVVGRETAPETGTPHLQGNESSGRGDPWLLLGYRTLSVGTPGF
+                     VAGYTRSLWPVTVHKHTLNLFFIGFINFKSKREFGTIKTIVGDRAHIEPAKGSDVQNK
+                     EYCTKGGDYWECGTPSGPGYRSDLADVVQTVKGAKRLREVVERHPCEFIKYHRGIEKL
+                     FGMLSEREKRNWKTETIVYYGDPGAGKSRKAAEVGAAAEGGVYYKTRGPWWDGYNGET
+                     TVIVDDYYGWLAYDEVLKITDRYL"
+     stem_loop       join(1699..1711,1..20)
+                     /note="contains nonanucleotide motif 'TAGTATTAC'"
+     gene            95..754
+                     /locus_tag="DH93_gp2"
+                     /old_locus_tag="DfCyV-3_gp2"
+                     /db_xref="GeneID:18983261"
+     CDS             95..754
+                     /locus_tag="DH93_gp2"
+                     /old_locus_tag="DfCyV-3_gp2"
+                     /note="similar to capsid proteins identified in
+                     circoviruses (pfam: Circo_Cap PF02443)"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009021848.1"
+                     /db_xref="GeneID:18983261"
+                     /translation="MAYLRARYTNRRFSRRGLRQVQRRRRLIRRRRPRKSNLSCKFTT
+                     NLVLKQTTGIQYAHIAPALEDFAETTNLITNFEYYKIRKVRITVTPRNNVAYQGQTVP
+                     DYVIAPFHHPVDDKSISVDSLLTLDRHKKYRGTQRGHMTFKPAVIGLASTSLDDSSGT
+                     YATMRWSPKILITNNTTPQQVKHFCGLLAFAPQGSNAQEYEITLDAYCTFYNQKINKL
+                     L"
+ORIGIN
+        1 tagtattacc cctcacctcg agcccatcgg ccccagataa gataacagag cactataaaa
+       61 ggcgaccttc tgataagaac tgtcgcattt caccatggct tatcttaggg caaggtacac
+      121 caaccgccgc ttcagcagaa gaggattacg ccaagtgcaa cgtaggcgca gactgataag
+      181 aagacgccga ccacgcaaat ctaatcttag ttgtaagttt acaactaatc tcgttctcaa
+      241 acagaccacc ggcattcaat acgcccatat cgcaccggct ctcgaggatt tcgcggaaac
+      301 taccaatctc attaccaact tcgaatatta caaaattcga aaagttcgta taaccgttac
+      361 accaagaaac aatgtcgcct accaaggaca aacagtaccg gattacgtta tcgctccttt
+      421 tcatcatcct gttgacgata agtcaattag cgttgacagt ttacttactc tcgatcgtca
+      481 taagaagtat agaggcactc aacgtggaca tatgaccttt aaaccagctg ttatcggatt
+      541 agcatctacc tccctcgacg actcatcagg aacctacgct actatgcgat ggagccctaa
+      601 gattcttatc actaataata caacacccca acaagttaaa catttctgcg gcctcttggc
+      661 ctttgcaccc caaggatcaa acgctcagga atacgagata accctcgacg cctattgtac
+      721 attttataat caaaaaataa ataagctttt gtaatcttta ttcgagtaaa ttcgttattg
+      781 tacattcacc ggcgataaga caccagtact catagatatc tatctgtaat tttgagcact
+      841 tcgtcatagg cgagccatcc gtagtagtca tcgacgatga cggtcgtttc accgttatac
+      901 ccgtcccacc aaggaccccg ggtcttgtag taaactccgc cttcagcagc ggctccaact
+      961 tccgcggctt ttcgggactt tccggctcct ggatctccat aatagacgat agtctcggtc
+     1021 ttccaatttc gcttctctct ttcagataac attccaaaca gtttttcaat tccccgatgg
+     1081 tacttaataa attcacaagg atgtcgctcg accacttctc tgagtcgctt tgctccctta
+     1141 actgtttgaa caacgtctgc caagtctgaa cggtacccgg gcccactcgg ggttccgcac
+     1201 tcccagtagt cacccccttt agtacaatac tctttgttct gtacatcgct ccccttagct
+     1261 ggctcgatgt gcgcacgatc tccgacaata gttttgatcg tcccaaattc tcgtttggat
+     1321 ttgaagttaa taaatcctat aaaaaacaaa ttgagagtgt gcttgtggac tgtaaccggc
+     1381 cacagactac gcgtgtatcc ggccacaaaa ccaggggtcc ccacagatag ggtcctgtaa
+     1441 ccaagaagga gccaagggtc cccccggcct gaactttcgt taccttgtag atgtggtgtt
+     1501 ccagtttcag gagctgtctc tcgaccgaca acacagtatt gatagatttc cacataagac
+     1561 tggatgcgta caaagtcatc ttcacagtaa ttattgagag tgaacactat acgtttaagc
+     1621 cgctgtctgg cactcattgt gccgttatag agacagcgta acacatatat acctagacgg
+     1681 accgccccct tcaagtcacg aggtgagggc a
+//

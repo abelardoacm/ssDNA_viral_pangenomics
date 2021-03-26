@@ -1,0 +1,91 @@
+LOCUS       NC_040833               2224 bp    DNA     linear   VRL 12-SEP-2019
+DEFINITION  Culex circovirus-like virus strain CCirVL/Fresno, complete genome.
+ACCESSION   NC_040833
+KEYWORDS    RefSeq.
+SOURCE      Culex circovirus-like virus
+  ORGANISM  Culex circovirus-like virus
+REFERENCE   2  (bases 1 to 2224)
+REFERENCE   3  (bases 1 to 2224)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MH188038.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 10
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2224
+                     /organism="Culex circovirus-like virus"
+                     /mol_type="genomic DNA"
+                     /strain="CCirVL/Fresno"
+                     /host="Culex sp. (mosquito)"
+                     /db_xref="taxon:2304514"
+                     /country="USA"
+                     /collection_date="02-Jul-2016"
+     gene            641..1144
+                     /locus_tag="EXL59_gp1"
+                     /db_xref="GeneID:41702678"
+     CDS             641..1144
+                     /locus_tag="EXL59_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009553639.1"
+                     /db_xref="GeneID:41702678"
+                     /translation="MREIAEEFSEIYVKHGRGLRELALLIGQKPRDFKTEVIVITGPP
+                     GCGKSRWAAEFEGSKYYKMKGDWWDGYCGEEVVIIDDFYGWIPFCELLRLTDRYPHKV
+                     PVKGAYVEFTSKTIIITSNTPPGNWYSEEKCCVQAMFRRINRWLIFEIDQFKDAPDCM
+                     KPYPINY"
+     gene            complement(1409..1960)
+                     /locus_tag="EXL59_gp2"
+                     /db_xref="GeneID:41702677"
+     CDS             complement(1409..1960)
+                     /locus_tag="EXL59_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009553640.1"
+                     /db_xref="GeneID:41702677"
+                     /translation="MRPIGEQSTLWKGFGHTVPITDPRLNMFGKKTGLLEDPLQNFDG
+                     AKKWEQRRGFKRLLRPKPQLMISDLATANQLAYTWFSNQRNQWIPLQTTGQQIAPTKV
+                     NFYGLAYSYLQPQPDDMHYEAEITFYVKFRQFAWTGLDNPPNPHIENNLPNLDLLHVC
+                     DGDCNTCFATSLDPESIVESDAE"
+ORIGIN
+        1 cattagcatg gtcgcgcacc gcggtctagt attacccgcg gtgcgcagcc acgcagccat
+       61 ccacgatagc gtagtggtag tcgctaagaa gccaggcgtc caagctccga atctcctcat
+      121 cggtagggtt gttcagggta aagcaccaac gcttggacgc ggcttctctc ttaggcgcag
+      181 ccatcttata atgatggctg cgtggctgcg caccgcnnga angtgngggg ttccttgctc
+      241 acccttctcg cgtcccacga tagcgtagtg gtagtcgcta agaagccagg cgtccaagct
+      301 ccgaatctcc tcatcggtag ggttgttcag ggtaaagcac caacgcttgg acgcctggct
+      361 tcttagcgac taccactacg ctatcgtggg acgcgagaag ggtgagcaag gaacccccca
+      421 ccttcaaggc ttctgccatt ttagagccgc taagcggctc agtgggctta agaagatatt
+      481 ttctcgcgcc cattgggaaa aggcccgtgg taatgatcaa gaaaatgagg cctactgcag
+      541 taaggagggg gatgttgtac ttaccctcgg cattccgcaa ataacgaacc gtccgagcgc
+      601 gcttgcagag gcagttgccg ctgtgaaagc cggaagagga atgagagaga tagcggaaga
+      661 gttctcggaa atctacgtca agcatgggcg tggcctacgt gaactcgcgc ttctgattgg
+      721 tcagaagccc cgtgacttca agacggaagt catcgtcatc acgggcccgc ccggttgcgg
+      781 gaagagccgt tgggcggcag aatttgaagg ttcaaaatac tacaagatga aaggtgattg
+      841 gtgggacggg tactgtggag aggaagtcgt cataattgac gacttctatg ggtggatccc
+      901 tttctgtgag ctgctccgcc tcactgaccg ttacccgcat aaggtgcccg tgaagggggc
+      961 ttatgtggag ttcacgtcaa agaccatcat catcacgagc aacacacccc ccggaaactg
+     1021 gtacagcgag gaaaagtgct gtgtgcaagc catgtttcgc cggatcaatc gttggctgat
+     1081 ctttgaaatt gatcagttta aagatgcacc cgattgtatg aagccctacc cgatcaacta
+     1141 ttagcaggcc cccaggccgc gtgtccgagc gagccgaagg cgagcgagcc cgtcgcgaag
+     1201 cgactgaaca accacttgga cactgaccta cacttggccg tgtacacgta gaatgactga
+     1261 cctacgtcgg cctcggagtt ttgataaaaa gggtaggggc ggccggcctc ggccgctggc
+     1321 gagttagggg gcgccntang gcgccccctc gggagcccct cgcgcagcga gttagggaca
+     1381 cttgagtcaa taaatcattt tgaaaacttt attcagcgtc tgactcgaca attgattcgg
+     1441 ggtcgaggga ggttgcaaag caggtgttac aatcgccatc gcaaacatgc aaaaggtcaa
+     1501 ggtttgggag gttgttttca atgtgggggt tcggggggtt gtccaggccc gtccatgcga
+     1561 actgcctgaa cttgacatag aaggtaattt cagcctcata atgcatgtcg tcaggctggg
+     1621 gctgcagata gctgtatgcc agaccataaa agttgacctt ggtcggcgct atttgctgcc
+     1681 cagttgtttg cagtggtatc cactgattac gctggttaga aaaccaggtg tatgccagct
+     1741 gattagcagt ggccagatca cttatcataa gctgtggctt cggacgcagc aggcgcttga
+     1801 accctcgtcg ttgttcccat ttctttgcac cgtcaaagtt ctgcaagggg tcttcaagaa
+     1861 gacccgtctt cttgccgaac atattgaggc gtgggtcggt gatggggacg gtgtgcccga
+     1921 atcccttcca gagagttgac tgctctccga tagggcgcat ttcaacttta accagaggga
+     1981 tctggtaatc ttcaaacggc actttgagga caggtccccc tgtaacggta gccagcacat
+     2041 catcaagggt gaaatgaaag atgtctgacc cgaatttgaa atcggagtcc gccttcgtca
+     2101 gggtaatttt agccttgtga cgtaggcgga acaagtagat cttattggcc cggtatcctc
+     2161 tgcggtttct cggtaggcgn nnccnncntn tnntgatgtg acgtcgacga atgggacgcc
+     2221 ctat
+//

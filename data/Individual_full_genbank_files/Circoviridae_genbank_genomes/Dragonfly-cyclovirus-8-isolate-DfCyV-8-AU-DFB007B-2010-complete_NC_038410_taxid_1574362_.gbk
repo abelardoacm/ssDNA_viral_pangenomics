@@ -1,0 +1,88 @@
+LOCUS       NC_038410               1764 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Dragonfly cyclovirus 8 isolate DfCyV-8_AU-DFB007B-2010, complete
+            genome.
+ACCESSION   NC_038410
+KEYWORDS    RefSeq.
+SOURCE      Dragonfly associated cyclovirus 8
+  ORGANISM  Dragonfly associated cyclovirus 8
+REFERENCE   2  (bases 1 to 1764)
+REFERENCE   3  (bases 1 to 1764)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC512920.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNAman v. 5.2.9
+            Coverage              :: complete
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1764
+                     /organism="Dragonfly associated cyclovirus 8"
+                     /mol_type="genomic DNA"
+                     /isolate="DfCyV-8_AU-DFB007B-2010"
+                     /host="Orthetrum sabina"
+                     /db_xref="taxon:1574362"
+                     /country="Australia"
+                     /collection_date="Apr-2010"
+     gene            78..740
+                     /locus_tag="D1Q33_gp1"
+                     /db_xref="GeneID:37617153"
+     CDS             78..740
+                     /locus_tag="D1Q33_gp1"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009506313.1"
+                     /db_xref="GeneID:37617153"
+                     /translation="MARYRRLRRPLLRRNRSSRLRRKPLRRRRFRFKRTPVLYVKLTR
+                     TVQVVSVINKGGLNSLNQVLNDFAEFQNLAPSFERVKVYRLNVRVFPHQNVSNNSTSK
+                     VPGYAIVPYHRPPPAATPSFSACLSIDRAKVYRGTAFGRMSLIPASRLDVEANTGEKY
+                     SPDRIDWKPEFEISSAAATQYLYTGFVIFETEPTAPDSETATYTIVYDLYVRFKNQRS
+                     FI"
+     gene            complement(737..1573)
+                     /locus_tag="D1Q33_gp2"
+                     /db_xref="GeneID:37617152"
+     CDS             complement(737..1573)
+                     /locus_tag="D1Q33_gp2"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009506314.1"
+                     /db_xref="GeneID:37617152"
+                     /translation="MCNSTVRKFCFTWNNYTEHDENKCKDFIAQYCKYGIFGKELAPT
+                     TNTPHLQGYCNLSKPMRFSTIKKHLHNSIHIEKANGSDEQNKEYCSKSGEIFEKGTPI
+                     KRGQRTDLQSLLADIQDGNRNIQTLAQSHPTTYIRYFRGIHTYLNLVHPIAPRNFKTD
+                     TYYYWGPPGSGKSRRALEEATARCNESIYYKPRGQWWDGYHQQEGVIIDDFYGWIKYD
+                     ELLKVTDRYPYKVQVKGSFEEFTSKHIWITSNVDTCDLYKFIGYCTDAIERRITLKSY
+                     MS"
+ORIGIN
+        1 tagtattacc cgtcgacttc gtaaccgtag ctgtagccgc gcgaccttgg aaagtgaaag
+       61 gcagtcgcgc cagggcaatg gcacggtata gacgcttacg gcgaccgctc ctgcgccgaa
+      121 accggtcgag caggttaagg aggaagcctc ttcgtcgtcg ccgttttaga tttaagcgta
+      181 cgcccgtgtt gtatgtgaag ttaacgcgaa cagtacaagt tgtgtccgta attaataagg
+      241 gaggtttgaa ttctttgaat caagttttga atgattttgc tgagttccaa aatttagccc
+      301 ctagttttga acgggtgaaa gtatataggt tgaatgttcg tgtatttccg catcagaacg
+      361 tttccaacaa ttcaacgtcg aaagtacctg gttatgccat tgtcccctat catcgtccac
+      421 cgcctgcagc tactccgtcg ttttctgcgt gtctgtctat cgatcgcgct aaggtgtata
+      481 gggggactgc ttttggaaga atgtctctta tccccgcttc tcgcctagat gtagaagcta
+      541 ataccggaga aaaatactca cctgatagaa tcgattggaa gccggagttt gagatttcat
+      601 ctgcagccgc aacccagtat ttgtatactg gatttgtaat ttttgaaact gaaccaactg
+      661 cccctgactc ggaaactgcg acttatacta ttgtttatga tctatatgta aggtttaaga
+      721 atcaacgctc gtttatttaa ctcatataag attttaatgt aattctgcgc tctattgcgt
+      781 cagtacagta accaataaat ttatataaat cacaagtgtc tacattgctt gttatccaaa
+      841 tgtgtttcga tgtgaattcc tcgaagcttc ctttgacttg cactttgtat gggtagcggt
+      901 ctgttacttt aagtagttca tcatatttga tccagccgta aaaatcgtcg atgataaccc
+      961 cttcttgctg atggtaacca tcccaccatt gtcctctcgg tttgtagtat atagactcat
+     1021 tacaacgggc agtagcttcc tccaatgctc ttctgctttt gccagatcca ggaggtcccc
+     1081 agtagtagta ggtgtctgtt ttgaaattcc gtggagctat ggggtgaacg aggtttaagt
+     1141 aggtatgtat tccacgaaag tacctgatat atgtggtagg gtgagattgg gccagagttt
+     1201 ggatatttct gttcccatcc tgtatgtctg ccagtaagga ctgtagatcc gtacgttgcc
+     1261 ctcttttaat aggagtgccc ttttcaaata tttcgcctga tttcgaacag tattccttgt
+     1321 tttgttcgtc ggatccattt gccttctcaa tatggattga gttatggaga tgctttttga
+     1381 tggtactgaa gcgcatgggt tttgataggt tacagtatcc ctgtaggtgc ggtgtgttgg
+     1441 ttgttggagc gagttctttt ccaaagatcc catatttgca gtattgagcg atgaaatctt
+     1501 tgcacttgtt ttcgtcgtgc tctgtgtagt tgttccacgt gaaacagaat tttcgaactg
+     1561 tactgttaca catgctgtta gtatctaacc acagagcacg tccctcgaag cggtggacgg
+     1621 ggccccggcc cgccgtaggc gggcgggggg tggtccaccg cgtagaggga tcgtgcgacc
+     1681 tgcacgaacc agttgggacg ctacataggg agggggaata taaagagaaa ggcgcgcgac
+     1741 cttggcgcaa cgaagtcgac ggta
+//

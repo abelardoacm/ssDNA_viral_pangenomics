@@ -1,0 +1,75 @@
+LOCUS       NC_038399               1760 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Bat associated cyclovirus 9 isolate BtTp-CV-2/GX2012, complete
+            genome.
+ACCESSION   NC_038399
+KEYWORDS    RefSeq.
+SOURCE      Bat associated cyclovirus 9
+  ORGANISM  Bat associated cyclovirus 9
+REFERENCE   2  (bases 1 to 1760)
+REFERENCE   3  (bases 1 to 1760)
+REFERENCE   4  (bases 1 to 1760)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ641720.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNASTAR v. 7.1.0
+            Coverage              :: 5
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1760
+                     /organism="Bat associated cyclovirus 9"
+                     /mol_type="genomic DNA"
+                     /isolate="BtTp-CV-2/GX2012"
+                     /host="Tylonycteris pachypus"
+                     /db_xref="taxon:1987734"
+                     /country="China"
+                     /collection_date="Nov-2012"
+     gene            1..843
+                     /locus_tag="D1Q22_gp1"
+                     /db_xref="GeneID:37617122"
+     CDS             1..843
+                     /locus_tag="D1Q22_gp1"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_009506294.1"
+                     /db_xref="GeneID:37617122"
+                     /translation="MANGTVRRFVFTLNNYTEADYNTIVSFINTKCKYGIVGKEVGEK
+                     TGTSHLQGFCNLDKPMRFGTIKKSLHNSIHIEKAAGSDEDNQKYCSKAGDFFEKGSPC
+                     RQGARTDLASLVDGIKNGANTIQKVATEFPTCFIKYHRGISEYLKIAYPITPRNEKTW
+                     VYYYWGPTGSGKSRRALKEAQDINADSIYYKPRGLWWDGYHQQENVIIDDFYGWIKYD
+                     ELLKITDRYPYKVQVKGGFEEFTSKRIWITSEKDTCDLYKYEGYNAASLERRITCKIN
+                     IVYE"
+ORIGIN
+        1 atggcaaacg gcacagtacg aagattcgtt ttcacgctta acaactacac tgaggccgat
+       61 tataatacaa ttgtgagctt catcaatact aagtgcaaat atggcatcgt tggaaaggaa
+      121 gtcggtgaga aaaccggaac ctctcatcta caaggatttt gcaaccttga caaaccaatg
+      181 cgctttggaa ccatcaaaaa gtctctgcat aactcaatcc atattgagaa ggcagctgga
+      241 tccgacgagg acaaccaaaa atactgtagc aaggcaggcg acttctttga aaagggcagt
+      301 ccatgtaggc agggggctag aacagacttg gcatccctgg tcgacggaat caagaatggg
+      361 gccaacacca tacaaaaagt ggcaactgaa ttccctacct gtttcatcaa atatcatcgt
+      421 ggaatcagtg agtaccttaa aatcgcttac cctatcaccc cgagaaatga gaaaacttgg
+      481 gtgtactatt actggggacc gactggttct ggaaaatcaa gacgagcgct taaagaagct
+      541 caggacatca atgcagacag tatatactac aagccgcgtg gtctctggtg ggacggttat
+      601 catcagcaag agaacgtcat tattgacgac ttctatggat ggataaaata cgatgaactt
+      661 ttaaaaataa cggacagata tccatacaaa gtacaagtta aaggaggatt cgaagaattt
+      721 acaagcaaac gaatatggat tacatcagaa aaggacacct gcgacctata caaatacgag
+      781 ggatacaacg cagcatcatt agagagaaga ataacttgta aaatcaatat tgtatacgaa
+      841 taactttatt caaataaaag acctttgatt cttatatcta acatataaat cttgtacaat
+      901 agtaaaaaat gattgcgatc ccgttgcgac tcctgtagcc tcaaatacaa caaatcctgt
+      961 atataaatta ggtaatgtag ctgttgtaga aatttcaaat tctggtctcc aatcagttcg
+     1021 tatagtttga tttcctcctg ttgcatctgc atctaaacgt gctgcgggga cgaaagacat
+     1081 cctcccgacg tgggtctgac gatatatctt cgctttatca atcgatatcg cattgacgaa
+     1141 agtaaccggc gacgtcggcg gcggtttatg atatggtatg agcgcataat tggcgacacg
+     1201 acttgttgaa gtattcgaca cattctgctg ggggaagtac tctaaccacc tgacgataga
+     1261 ctttaactct ctcaaagttc ggacccaaat taatatgctc cgcaaaatca tttaatgcta
+     1321 cactcaaatt tatatttaag tccgtcaatg ggctagcggt cacaacaata gtcttagtca
+     1381 actttacata taacgttggc gtcttccaga cgcgtgacct tgcacggcgg acacgtttaa
+     1441 accggttccg tctatatata actcgccggc ggcggaaccg gttcgcccgt ctgtactttc
+     1501 tcatggtcac tcacgcactg aaaaatatat tccccttccc tatgacgaga gacagaactg
+     1561 ccttgagctg tcgctccctc agctcgcccc ccccaccccc ccccctccgc ttcgctccgg
+     1621 gggagggggt gaggcgccgc tgcggcgctc ttgttgccgt gttgcaaagt tttgactttc
+     1681 acttaccagg tggcgctggc gttgtgttac gaggtgtgtt acgaagtggc gggtaatact
+     1741 atccgccact tcgttgcgcc
+//

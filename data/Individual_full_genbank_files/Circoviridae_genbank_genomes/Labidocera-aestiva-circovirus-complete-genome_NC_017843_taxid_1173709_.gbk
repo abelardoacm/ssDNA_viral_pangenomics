@@ -1,0 +1,87 @@
+LOCUS       NC_017843               1764 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Labidocera aestiva circovirus, complete genome.
+ACCESSION   NC_017843
+KEYWORDS    RefSeq.
+SOURCE      Labidocera aestiva circovirus
+  ORGANISM  Labidocera aestiva circovirus
+REFERENCE   2  (bases 1 to 1764)
+REFERENCE   3  (bases 1 to 1764)
+REFERENCE   4  (bases 1 to 1764)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JF912805.
+            On Jan 11, 2013 this sequence version replaced NC_017843.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1764
+                     /organism="Labidocera aestiva circovirus"
+                     /mol_type="genomic DNA"
+                     /host="Labidocera aestiva"
+                     /db_xref="taxon:1173709"
+                     /country="USA: Tampa Bay"
+                     /collection_date="Apr-2009"
+     stem_loop       join(1740..1764,1..17)
+                     /note="contains nonanucleotide motif 'TATTATTAC'"
+     gene            28..795
+                     /locus_tag="LaCopCV_gp1"
+                     /db_xref="GeneID:12657154"
+     CDS             28..795
+                     /locus_tag="LaCopCV_gp1"
+                     /note="putative replication-associated protein similar to
+                     the viral rep family (PfamPF02407)"
+                     /codon_start=1
+                     /product="putative viral replication protein"
+                     /protein_id="YP_006281010.1"
+                     /db_xref="GeneID:12657154"
+                     /translation="MSRNFTGTVNNPTQTLEEWLATLKRLPHATAARCQLEKGENGTP
+                     HIQWCVTLSKVARLTGIIKKLAGSHVEASRNAMAAWKYCGKEDTRVEGPLEFGVPPAS
+                     KRVKGDTKERNKMILELGPVAAVEQGLIPVEKFKAIKQSCDLFAVMKKEVHTTDALSN
+                     EWHYGESGTGKSRGVRERFPDAFIKSSDVWWDGYQGEETVIIEEMGPKQIGAHHLKIW
+                     SDHYPFKAAQKGSQLLIRPKRIIVTSNYSIKECYEAE"
+     gene            968..1651
+                     /locus_tag="LaCopCV_gp2"
+                     /db_xref="GeneID:12657153"
+     CDS             968..1651
+                     /locus_tag="LaCopCV_gp2"
+                     /note="putative protein similar to circovirus capsid
+                     protein (Pfam PF02442)"
+                     /codon_start=1
+                     /product="putative structural protein"
+                     /protein_id="YP_006281011.2"
+                     /db_xref="GeneID:12657153"
+                     /translation="MPARRSFRRRKSAPKRRARGRKARARRSPFNSSWYHAKCQVTFP
+                     IEHNNNYAQGSDTTCARFVVKWNDSSNDDMATPQVAVLRNSRQWQALAAQFREYTVRG
+                     VKIEYKGHNAVGGDKEYRASHVWSDPDVYVAPTEAGNDGAYFWDINRFIQKPDYKEMS
+                     HNRSFTKYIGVEKFHRRRGLNHTHRTLAQISTPHCTSFQLNSRGFDNGHDMGRVTVTW
+                     FVIFKQPAF"
+ORIGIN
+        1 acagaaacga agttacaaag ttacagaatg tcacgcaatt tcacagggac ggtgaacaac
+       61 ccaacccaaa cactcgaaga gtggctcgca accctcaaga ggctccctca cgctacggca
+      121 gcccggtgcc agctagagaa aggggagaac ggcacgcctc acatacagtg gtgcgtcacc
+      181 ctcagcaagg ttgcgagact gaccggtatc ataaaaaaac tggccggtag ccacgttgag
+      241 gcatcccgga acgccatggc tgcatggaag tactgcggca aagaagacac acgggtcgaa
+      301 ggccccctcg aattcggagt ccccccagca agcaagagag tcaaaggaga cacaaaagaa
+      361 agaaacaaga tgatactgga gctaggaccc gtcgccgcag tagagcaagg actgatcccc
+      421 gtagagaagt tcaaggctat caaacagagc tgtgaccttt tcgccgtcat gaagaaggag
+      481 gtccacacaa cagacgccct ctcaaacgag tggcactacg gagagtccgg aaccggcaaa
+      541 tccagaggtg tcagagagag attcccggat gccttcatca agagcagcga tgtctggtgg
+      601 gatggctatc aaggagagga gacggtcatc atcgaagaga tgggaccaaa gcagattgga
+      661 gcccaccacc tcaagatctg gtcagaccac taccccttca aggcagcaca gaagggaagt
+      721 cagctgctga tacgtcccaa gcggatcata gtcaccagca actacagcat caaagaatgc
+      781 tacgaggcag aataagacat cattcccctc atgaggagat tcaaagtcca tgtctatcct
+      841 aagcctgttg tttgaaaatt tagcgaagcg ttattttcaa gatttaaatc caagcaatat
+      901 tattggtagc aagggttggg gttttgggtt ttgttttcaa ggggctttgt ggttatcatt
+      961 aataaatatg ccggctagaa gaagcttccg caggagaaag tcagcaccaa agaggagggc
+     1021 acgtgggcgc aaggcccgtg ctcgacgttc accgttcaac tcgtcctggt accatgcaaa
+     1081 atgccaagtg acattcccga tcgagcacaa caacaactac gctcaaggca gcgacacaac
+     1141 atgcgcccgg ttcgtagtca agtggaacga tagttccaac gatgacatgg ctacaccgca
+     1201 ggtagcagtg ctccgcaaca gccgacagtg gcaagcactt gccgcgcagt tccgcgaata
+     1261 caccgtccgg ggagtcaaga tagagtacaa gggtcataac gccgtaggcg gtgacaagga
+     1321 gtaccgtgcg tcacacgtgt ggagtgatcc tgacgtgtac gtcgccccga cggaggccgg
+     1381 caatgacgga gcatacttct gggacataaa ccgcttcatc cagaagcccg actacaagga
+     1441 gatgtcccat aacaggagct tcaccaagta catcggagtg gagaagttcc atcgcaggcg
+     1501 tgggctcaat cacacgcaca ggaccttagc gcagatcagc acccctcact gcacatcttt
+     1561 ccagctcaac agtagagggt tcgacaacgg ccatgacatg ggcagagtca cggtcacctg
+     1621 gtttgttatt tttaaacagc ccgcttttta atgaaaaatc cagaatggac caatcaaatc
+     1681 gcagtatttt tccgacaatc cgaatttaaa tatcttaatc gctaataacc atataaaaag
+     1741 taacttcgtt tctatagtat tatt
+//

@@ -1,0 +1,93 @@
+LOCUS       NC_008375               1898 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Raven circovirus isolate 4-1131, complete genome.
+ACCESSION   NC_008375
+KEYWORDS    RefSeq.
+SOURCE      Raven circovirus
+  ORGANISM  Raven circovirus
+REFERENCE   2  (bases 1 to 1898)
+REFERENCE   3  (bases 1 to 1898)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ146997.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1898
+                     /organism="Raven circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="4-1131"
+                     /host="Corvus coronoides"
+                     /db_xref="taxon:345250"
+                     /country="Australia"
+     stem_loop       join(1871..1898,1..21)
+     rep_origin      join(1892..1898,1..2)
+     gene            36..911
+                     /locus_tag="RavCV_gp1"
+                     /db_xref="GeneID:5130547"
+     CDS             36..911
+                     /locus_tag="RavCV_gp1"
+                     /note="ORFV1; putative replicase"
+                     /codon_start=1
+                     /product="rep protein"
+                     /protein_id="YP_764455.1"
+                     /db_xref="GeneID:5130547"
+                     /translation="MPPQKREAAAKRWCFTLNNYTDEEVSAVKAWNASEYHYAVVGRE
+                     KGENGTPHLQGYIHLKKKARLSTLKKLLSRAHWEKARGSDSDNEAYCTKDGDVILTLG
+                     MPVEGNRSDLSGAVAAVKAGSRMVDIAREFSEVYVKYGRGLRELALLIGQKPRDFKTE
+                     FIVVTGPSGVGKSRYANEYPGTKFYKMKGDWWDGYSNEDVVVIDDFYGWIPFCELLRL
+                     TDRYPHKVPVKGSYVEFTSKVIIVTSNTHPDSWYNEEKCYLPALFRRINKWLTWNAIR
+                     FEDAPDCMKKYPINY"
+     misc_feature    1077..1082
+                     /note="*regulatory_class: polyA_signal_sequence"
+                     /note="putative"
+     misc_feature    complement(1115..1120)
+                     /note="*regulatory_class: polyA_signal_sequence"
+                     /note="putative"
+     gene            complement(1116..1847)
+                     /locus_tag="RavCV_gp2"
+                     /db_xref="GeneID:5130546"
+     CDS             complement(1116..>1847)
+                     /locus_tag="RavCV_gp2"
+                     /note="start site undetermined; ORFC1; putative structural
+                     protein"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_764456.1"
+                     /db_xref="GeneID:5130546"
+                     /translation="SFIQVARRRRQTQAIRRRWRRRHWRRRRLTNRRGHRTNRVYRFK
+                     FVRMYRQECAGSGDTTLKWATDGLNIMLDDFLDWGTINWRLPFEDYRIRLAKFEMRPL
+                     NENWGSWHGIGHNVPIQDNHLEDFFKKPGLETDPLANWDGARQWDLRKGFKRLFRPRP
+                     QISITDTDAGNVTAALWLTNPRSAWIPLMKKGDQNLPSSGSRVKHYGLAISWPQPHDA
+                     ILFHAKVTIYVEFRQMNLTHLANPK"
+ORIGIN
+        1 accggccact tggagccacg gagccccttg cagctatgcc tccgcaaaag agggaagcag
+       61 ccgctaagag gtggtgcttc acgctgaata actacaccga tgaagaggtg tccgccgtga
+      121 aggcgtggaa cgcgagtgag taccattacg ctgtcgttgg acgcgaaaag ggggagaatg
+      181 gtacgccgca tttgcagggc tacattcatc taaagaagaa ggctcggcta agcactctga
+      241 aaaaattact tagccgtgcc cattgggaga aagctcgcgg ttcggacagc gacaacgagg
+      301 cgtactgtac gaaagatggg gacgtgatac ttaccctggg catgccggtg gaagggaacc
+      361 gtagcgatct ctccggagct gttgccgccg tgaaagccgg aagtcgaatg gtggatatcg
+      421 cgcgagagtt cagtgaagtc tacgtcaagt atgggcgtgg cttacgtgaa ctggcgcttc
+      481 tgattggaca gaaaccgcga gatttcaaaa ccgaatttat cgttgtcacc ggtccgtcgg
+      541 gcgtgggcaa gagccgttat gctaatgagt atcctggcac taagttttat aagatgaaag
+      601 gggactggtg ggacggctac tctaacgagg atgttgtcgt tattgacgac ttttatggat
+      661 ggataccttt ttgtgagtta ctgcgtctca ctgataggta tccacataag gttcctgtga
+      721 aaggatcgta tgtggagttt acgtcgaagg tcatcatagt gaccagcaat acgcaccccg
+      781 actcgtggta caatgaagag aagtgctatc tacccgcgtt gtttcggcgg ataaataagt
+      841 ggctgacgtg gaatgccatc cggttcgagg atgcaccgga ttgtatgaag aagtacccta
+      901 taaactattg atttcgcccc ctccctcata gtgcctttcg aggaaagagc aatcgcggcc
+      961 agccaaggcg gccgcgttca cgggtacttc gcgagcgcac cgtcgcgagc gaagttccct
+     1021 agtgaagttc cccgaggaaa acacttgaga tgaggcgatt tataattttt acacttaata
+     1081 aataaagaca ggaaacagta ttgtgtgtct gtactttatt tagggtttgc gaggtgggtt
+     1141 aggttcattt gtctgaactc tacatatatc gtcacttttg catggaatag tatagcatcg
+     1201 tggggctggg gccaactgat ggcgaggccg tagtgcttta ctctagagcc cgagctgggt
+     1261 aagttttggt ctcctttctt catcagaggt atccatgcgg atctggggtt ggttagccat
+     1321 agcgctgcag taacgtttcc cgcgtcggtg tccgtaatgg aaatttgggg tcggggtcgg
+     1381 aaaagacgct tgaatccttt gcggaggtcc cactgtctgg cgccgtccca gtttgctagc
+     1441 gggtctgtct ccaggcctgg cttcttgaag aagtcttcaa ggtggttgtc ttgaatgggc
+     1501 acattgtgcc ctataccatg ccatgatccc cagttctcgt ttagtggacg catttcgaat
+     1561 tttgccagcc ggatcctgta gtcttcgaat ggtagcctcc aattaattgt tccccagtcg
+     1621 aggaagtcgt ccagcattat gttgaggccg tcggtagccc atttcagggt agtgtcacct
+     1681 gagccggcgc attcttgtct gtacatgcgg acaaacttga atcggtatac tctgttagtt
+     1741 ctgtgaccac gcctattggt gagtctgcgt ctgcgccagt gacgtcgtcg ccatcgccgt
+     1801 ctaatcgcct gtgtctgtcg gcgtctccta gcaacctgta tgaaagagcc aatcacgagc
+     1861 tgtcacgtaa ccgtggctcc aagtggccgt tgagtatt
+//

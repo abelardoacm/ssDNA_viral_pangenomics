@@ -1,0 +1,94 @@
+LOCUS       NC_028045               1767 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Tadarida brasiliensis circovirus 1, complete genome.
+ACCESSION   NC_028045
+KEYWORDS    RefSeq.
+SOURCE      Tadarida brasiliensis circovirus 1
+  ORGANISM  Tadarida brasiliensis circovirus 1
+REFERENCE   2  (bases 1 to 1767)
+REFERENCE   3  (bases 1 to 1767)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KT783484.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.5
+            Assembly Name         :: Node_364
+            Coverage              :: 14
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1767
+                     /organism="Tadarida brasiliensis circovirus 1"
+                     /mol_type="genomic DNA"
+                     /isolation_source="oropharingeal swabs"
+                     /host="Tadarida brasiliensis (bat)"
+                     /db_xref="taxon:1732201"
+                     /country="Brazil"
+                     /collection_date="12-Jun-2013"
+                     /collected_by="Francisco Esmaile de Sales Lima"
+     gene            8..919
+                     /gene="rep"
+                     /locus_tag="APR66_gp1"
+                     /db_xref="GeneID:26045589"
+     CDS             8..919
+                     /gene="rep"
+                     /locus_tag="APR66_gp1"
+                     /note="replication-associated protein"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="YP_009170674.1"
+                     /db_xref="GeneID:26045589"
+                     /translation="MNVKRKYNAKKGDETPGRRWCFTINNYGAPDLECVNEAFRCEDV
+                     VYAICGKEKGAKGTPHLQGFIHFTGNWRFNRVRNLLGGRAHIEKARGNDDQNKAYCSK
+                     EETYLEVGTPQFQGKRNDLGRVASALESGATLSEVARASPEVFIRYGRGLRDYMNVRG
+                     LVKPRDFKTEVIVLVGEPGSGKSKYANELPGSKYWKPRGQWWDGYNGEDIVVLDDFYG
+                     WVPYDELLRIGDRYPLKVQVKGAFVEFTSKMLVITSNKRPEEWYDKEKIADQSAMWRR
+                     FDKMYYCERGEPVKAYPHEWKEFETGY"
+     gene            complement(1055..1711)
+                     /gene="cap"
+                     /locus_tag="APR66_gp2"
+                     /db_xref="GeneID:26045588"
+     CDS             complement(1055..1711)
+                     /gene="cap"
+                     /locus_tag="APR66_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009170675.1"
+                     /db_xref="GeneID:26045588"
+                     /translation="MPRSRRHRWRRNQWFKRWRRSRRRGHTFGTRRWRQKNGIYNFKF
+                     KANSLQTVNKTSNQGYFTFSLAAACPRAFSTYFDMYRIRKVRVQWLPMSGINEPRVWG
+                     ATIIDLTGRDTTLPSTGNTDFTIDDVTRRIWNPTRLHSRYFTPKPEIAIKTVSSEAIQ
+                     PNNPRNQLWLDAKYPDAKHHGCAFFFGQTDLGDESYKFQFLVTYYIQFRQFAGSLAPS
+                     "
+ORIGIN
+        1 aagaaaaatg aatgttaaaa gaaaatacaa tgcaaagaag ggtgacgaga cccccgggag
+       61 gcggtggtgc ttcaccataa ataattatgg tgcaccggac ctggagtgcg tgaatgaagc
+      121 attccgctgc gaggacgtag tctacgctat ctgcgggaag gagaaaggag ctaaggggac
+      181 cccgcattta caaggcttca ttcattttac aggtaactgg cgctttaacc gggtccggaa
+      241 tcttttgggg ggtcgagctc acattgagaa agcaagagga aatgatgacc agaacaaggc
+      301 ctactgcagc aaagaagaaa cctaccttga agtgggcact cctcagttcc aggggaagcg
+      361 gaatgacctg ggccgcgtgg ccagtgctct ggagagcggg gcaacactaa gtgaagttgc
+      421 ccgggcatct cccgaagtat ttataagata tgggaggggt ttgcgggatt atatgaatgt
+      481 aagaggattg gtcaaacccc gagattttaa gacagaagtt attgttttag tgggcgagcc
+      541 cggttcggga aagtccaagt atgctaatga gctgcccggt tctaagtact ggaagccacg
+      601 cgggcagtgg tgggatgggt ataatggaga ggatattgtt gtattagatg atttttatgg
+      661 atgggtcccc tatgatgagc ttctgcgaat tggggaccgc taccccctga aagtacaggt
+      721 gaagggggcc tttgtagagt tcacctctaa gatgcttgtt atcacaagca ataaaaggcc
+      781 tgaggagtgg tatgacaaag agaaaattgc tgaccaatct gcaatgtgga gaagatttga
+      841 taaaatgtat tattgtgaga ggggagagcc tgtgaaggcc taccctcatg aatggaaaga
+      901 atttgaaact ggctattaaa taaagaatgc aaacacatga taaatggtaa aaagcgagtt
+      961 ttatttattg tgagtaaatc acaatcagat actacacttg atcttagcca aaaggccgag
+     1021 gagtgatcta aaccaccttt tcaaattaca aaacttaaga aggtgccaga gatccagcaa
+     1081 attgcctaaa ttgaatgtaa taagttacaa gaaactgaaa tttgtaactt tcatctccaa
+     1141 ggtcagtctg tccaaagaag aaggcgcacc catgatgctt tgcatctggg tatttggcgt
+     1201 ccagccacag ttggttccgg gggttgttgg gttggatcgc ctccgagctt acagtcttaa
+     1261 tggcgatctc gggcttgggg gtgaagtatc tgctgtggag gcgggtgggg ttccatattc
+     1321 ggcgggtcac gtcatcaatg gtgaagtcgg tattgcccgt ggaggggagg gtggtgtccc
+     1381 tgccagtcag gtcaatgatg gtagcccccc atactctagg ctcattgatg cctgacattg
+     1441 gcagccactg cactctgacc ttccgaatgc gatacatgtc gaaataagtg gaaaaggcgc
+     1501 ggggacaagc tgccgccagg ctgaacgtga agtaaccttg gttacttgtc ttgttgaccg
+     1561 tttggaggga gttggcttta aatttaaaat tgtaaatacc atttttctgc cgccatctgc
+     1621 gggtgccaaa ggtgtggccg cgcctcctgg aacgccgcca tcttttaaac cattggttcc
+     1681 gcctccagcg gtgacgcctg ctgcgcggca tatttaaact gtgccgggga tagtattacc
+     1741 ccggcacttc ggcacacctt ggcacaa
+//

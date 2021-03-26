@@ -1,0 +1,96 @@
+LOCUS       NC_040528               2085 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Apteryx rowi circovirus-like virus isolate JWNM 090913, complete
+            genome.
+ACCESSION   NC_040528
+KEYWORDS    RefSeq.
+SOURCE      Apteryx rowi circovirus-like virus
+  ORGANISM  Apteryx rowi circovirus-like virus
+REFERENCE   2  (bases 1 to 2085)
+REFERENCE   3  (bases 1 to 2085)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KP202150.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 7.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2085
+                     /organism="Apteryx rowi circovirus-like virus"
+                     /mol_type="genomic DNA"
+                     /isolate="JWNM 090913"
+                     /isolation_source="feces"
+                     /host="Apteryx rowi"
+                     /db_xref="taxon:1634476"
+                     /country="New Zealand"
+                     /collection_date="01-Sep-2013"
+     misc_feature    175..183
+                     /note="conserved nonanucleotide important in virus
+                     replication"
+     gene            205..1173
+                     /locus_tag="EXI81_gp1"
+                     /db_xref="GeneID:41700468"
+     CDS             205..1173
+                     /locus_tag="EXI81_gp1"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="YP_009551679.1"
+                     /db_xref="GeneID:41700468"
+                     /translation="MSKARHWCFTLNNPDDEPDLSDTNIQYAIYQMEIAPHTDTPHFQ
+                     GYIILFKKQRLAWVRAVLPRAHWEIARGTPSQNRDYCTKPDTRIGEPSELGLFPEDAG
+                     QGSRTDLQAVHFALQHGLTNKEYANQYFSTWIRYPNLIDTFAQSNIVPRTGDEEIECI
+                     LIIGPPGTGKSRYAERLARSYNVGEFFRKQRGKWYDGYLGERVIIFDDFRGSSLSFTD
+                     FKLLVDRYALRVEVKGRYVNMAATKFIITTNLSPDAWWGEEVTGPEFPAISRRITEVL
+                     FFPELNSFCRFDSYEAYLEYLRPQLILPHGLLPQAQAQYAFQEVIY"
+     gene            1118..1894
+                     /locus_tag="EXI81_gp2"
+                     /db_xref="GeneID:41700467"
+     CDS             1118..1894
+                     /locus_tag="EXI81_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009551680.1"
+                     /db_xref="GeneID:41700467"
+                     /translation="MVSYRKRKRSMRSKKSFTKIKRRPRVLNKFKRKNRGSQRIKRTR
+                     WPVDNPFGDNLFYKVRFSYGTTLTIPTTASSINLGFQMNSLASIISSAGNAPGLNSLG
+                     NAFVNYRIRGLKTKMTLWPDSATVPIVAYHLAGASQSEMASITPNVSTLPELRWQKYR
+                     TCNYAAAGAKPTRLNSYFSVDKVYGPDAVVKNDSNFVGNITTAAPPAPPVFGAPGLGP
+                     GFRFGLFTMSGLNPTVAVNCVTKIEFTAYVNFFSKRGIIN"
+ORIGIN
+        1 attgcttgaa tttcttgtca ttaccgcata cttcggctac tttattaaaa gtgagccaat
+       61 ctccgggtgt caaatataga tcccaattca tttaatagac cagagggcaa cgcccgaaat
+      121 gatttttttg cgcaaaaaaa tttaggtggc ttagctttgg gtccaaggac ccatcagtat
+      181 tacctaagcc accttggacc caacatgtcc aaggcccgtc actggtgttt caccctaaac
+      241 aacccagatg acgaacctga tttatcagat accaacattc aatatgcgat ttaccaaatg
+      301 gaaatcgctc cccataccga cactccccat tttcaaggat atatcatact tttcaaaaaa
+      361 caaagactcg cgtgggtacg cgctgtattg ccacgcgccc attgggaaat cgcacgtggc
+      421 accccttccc aaaatagaga ctactgcacc aaacccgata cccgaatcgg cgagccttcc
+      481 gaattaggac ttttcccgga agacgccggt caaggctcgc gcactgacct tcaagcagtt
+      541 catttcgccc ttcagcatgg cctcaccaac aaagagtacg caaaccaata tttttcgacc
+      601 tggatccgat accccaacct catcgacact tttgcccaat caaatattgt cccaagaacc
+      661 ggagatgaag agatcgaatg catacttatc atcggccctc ctggtaccgg aaagagcaga
+      721 tatgccgaac gcctggcaag atcttacaat gtcggggagt tctttcgcaa gcagcgagga
+      781 aagtggtatg atggatacct cggagaacga gtcatcatat tcgacgattt tagaggttct
+      841 tctctatctt tcacagactt taaactcctc gtggacagat acgcccttag agttgaagtc
+      901 aaagggcgtt acgttaatat ggcggccacc aaattcatca tcacgaccaa ccttagtccc
+      961 gacgcctggt ggggcgaaga agtaaccggc cctgagtttc cggccatttc aagaagaatc
+     1021 acggaagtcc tttttttccc agaactaaat tcattctgcc gcttcgactc ctacgaagca
+     1081 tacctggagt accttcgccc acaattgata ctcccccatg gtctcctacc gcaagcgcaa
+     1141 gcgcagtatg cgttccaaga agtcatttac taaaatcaaa agacgtcccc gtgtacttaa
+     1201 taaatttaaa agaaagaacc gcggttctca acgcattaaa cgcacccgtt ggccagtgga
+     1261 caatccattt ggggacaacc tcttctacaa agttcgcttt tcttacggaa caaccctcac
+     1321 catcccaact actgcatcat ctatcaacct tgggtttcag atgaactccc tcgcttctat
+     1381 tatctcttct gccggaaatg cccccggact taattccctc ggcaatgcct ttgtcaatta
+     1441 taggatccgc gggttaaaaa ctaaaatgac cctttggccg gattcggcaa ctgtaccaat
+     1501 cgtcgcctat catctagcgg gtgcctctca gtcagagatg gcctccatta ccccaaacgt
+     1561 cagtaccctc cctgaacttc gttggcaaaa atatcgcacc tgtaactacg ccgccgcggg
+     1621 agcaaaaccc actcgtctta actcctattt ctccgtggat aaagtctacg gccctgacgc
+     1681 tgtagtcaaa aatgattcta attttgtcgg caacataact actgcagcac ctcctgcccc
+     1741 acccgtattt ggagcacccg gtctcggacc cggtttccga tttggacttt tcacaatgtc
+     1801 cggtctcaac ccaaccgtcg cggtcaactg tgtaacaaaa attgagttca cagcctatgt
+     1861 aaacttcttt tctaaaagag gtatcattaa ttaataaatt gtatttttat tttccatatt
+     1921 cgataattgc cttgtctagc tcctctaagt aatcttgttt tttcataaaa ctcttgtacc
+     1981 tcctggtcgc gtgtaagtac acgccgtgaa acttaaaaag tattaactgc ttgtaaaaaa
+     2041 tttgatttaa caaatcgtct tggtctctta agagctctgt aatcc
+//

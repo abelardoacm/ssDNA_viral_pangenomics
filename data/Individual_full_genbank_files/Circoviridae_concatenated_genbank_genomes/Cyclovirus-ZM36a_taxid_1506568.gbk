@@ -1,0 +1,91 @@
+LOCUS       NC_025476               1865 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Cyclovirus ZM36a DNA, complete genome.
+ACCESSION   NC_025476
+KEYWORDS    RefSeq.
+SOURCE      Cyclovirus ZM36a
+  ORGANISM  Cyclovirus ZM36a
+REFERENCE   2  (bases 1 to 1865)
+REFERENCE   3  (bases 1 to 1865)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AB937982.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1865
+                     /organism="Cyclovirus ZM36a"
+                     /mol_type="genomic DNA"
+                     /strain="ZM36a"
+                     /isolation_source="feces"
+                     /host="Crocidura hirta"
+                     /db_xref="taxon:1506568"
+                     /country="Zambia"
+                     /note="*collection_date: 2012-05"
+     stem_loop       join(1853..1865,1..20)
+                     /note="contains the conserved nanomer sequence motif,
+                     TAGTATTAC"
+     gene            120..797
+                     /gene="Cap"
+                     /locus_tag="PR41_gp1"
+                     /db_xref="GeneID:22157900"
+     CDS             120..797
+                     /gene="Cap"
+                     /locus_tag="PR41_gp1"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009104365.1"
+                     /db_xref="GeneID:22157900"
+                     /translation="MAFRRRTIRRRAPPRRRGIFRRRVRRYRRAPVRRRSRTDKYVLR
+                     CKYSYTHTVTDKTGQSVQFKPSASNFGEFNQIYGNFEAYRFKRLTVTIRPLFNTSSPS
+                     DPAPTYVVAPYHSQATGVNYLSAQSLNKSKVYHGCSTSHRSFVPCALSLHQFLQSGNA
+                     TNWTATEARWSPRMECTGHAIEVPHFTNIVCFDRPTLPNAQQNYQYEITLSAVFIMYT
+                     QKNPEIK"
+     gene            complement(803..1813)
+                     /gene="Rep"
+                     /locus_tag="PR41_gp2"
+                     /db_xref="GeneID:22157899"
+     CDS             complement(join(803..1472,1650..1813))
+                     /gene="Rep"
+                     /locus_tag="PR41_gp2"
+                     /codon_start=1
+                     /product="rolling circle replication initiator protein"
+                     /protein_id="YP_009104366.1"
+                     /db_xref="GeneID:22157899"
+                     /translation="MANNSTVRRFCWTLNNYTEDDVDVLQKDLAELCKFAIFGREICP
+                     TTGTKHLQGFCNLQRPKRFNSIRQIFGGRAHIERAKGSDIENQEYCSKSGDVWQCGSP
+                     STQGTRTDLQKVVSVIEGGERDIKALAIQFPVAYIKYFKGIEQYIRVAHGNQERDFKT
+                     EVFYFWGSTGTGKSRKAREESRALGETYYKPRGEWWDGYTGQPCVVIDDFYGWIKYDE
+                     LLKICDRYPYRVPVKGGYENFVSKYIWITSERPLEEVYRFLAYDCSSLRRRLNKEIHF
+                     E"
+ORIGIN
+        1 tagtattacc cgccacttcg aaactgtaac atcgtaacgc gcgcctattg ggtccccacc
+       61 taggatatac ccccactccg catacctata taagaggggg cacctggcaa cagccagaga
+      121 tggccttcag acgtcgtacg atacgtaggc gcgccccacc acgccgccgt ggaattttcc
+      181 gtcgccgcgt caggcgatac aggcgcgcgc ctgtccggcg ccgttcaagg acagataaat
+      241 acgttctacg ctgcaaatat agttacacgc atacagtcac cgacaaaacc ggacagagtg
+      301 ttcaattcaa accgtccgct tcaaattttg gcgagtttaa tcaaatatat ggaaactttg
+      361 aagcataccg tttcaagaga ttaaccgtca cgatacgacc gttgtttaat acgtcgtcac
+      421 ctagcgaccc agcacctaca tatgttgtcg ctccctatca cagtcaagct actggagtaa
+      481 attatttgag cgctcagagt ttgaataaat ctaaagtgta tcatgggtgc agtacttcgc
+      541 accgttcttt tgtgccttgc gctcttagtc ttcaccagtt tctgcaatct ggcaatgcaa
+      601 ctaattggac cgctactgaa gcgcgctggt ctcctcgtat ggaatgcact ggtcacgcta
+      661 ttgaagttcc tcatttcacc aatatcgtct gctttgaccg gcctacttta ccgaacgcgc
+      721 aacaaaatta tcaatacgaa attacactca gcgccgtttt tataatgtat acgcaaaaaa
+      781 atccagaaat aaaataaatg tttcattcaa aatgtatttc tttattcaat ctcctcctta
+      841 aactactaca atcatacgct aaaaatctat acacctcctc tagaggtctt tcgcttgtga
+      901 tccatatata tttagatacg aagttttcat atcctccttt gacagggact ctgtaaggat
+      961 atctgtcgca gatcttgaga agctcgtcgt atttgatcca tccgtagaag tcatcgataa
+     1021 caacgcaggg ttgtccggtg tatccatccc accattctcc gcgcggcttg tagtaggttt
+     1081 caccgagagc gcggctttcc tcgcgcgctt tacgggactt tccagttcca gttgatcccc
+     1141 aaaagtaaaa gacttccgtt ttaaagtctc gttcttgatt tccatgagcg actctaatgt
+     1201 attgttcaat tcctttgaaa tacttgatgt acgcgactgg gaactgaatg gccaaagctt
+     1261 taatgtctct ttctcctcct tcaatgacag atacaacctt ttggaggtct gttcgagttc
+     1321 cttgagtact gggtgatccg cattgccaga catcgccact cttagagcaa tattcctgat
+     1381 tttcaatatc actcccttta gctcgctcaa tgtgcgcacg gcctccaaat atttgccgta
+     1441 tgctgttgaa tcgtttgggt cgctgcagat tgctgaaaat aaaatcaata agtcgtacac
+     1501 tatgcacgga gcccgtcccg cagaggggtg gacggggccc cggcgcggcg tagccgcgcc
+     1561 agggggtggt ccaccccgga gcgggatcgg gcggctctat ccaactgtga ctttccactt
+     1621 gcactaggag gttatataaa aaaaattacc aaaatccctg gagatgtttt gttccagttg
+     1681 taggacaaat ctctcgacca aatatagcaa atttacatag ctcagcgagg tccttctgaa
+     1741 gcacatcgac atcgtcctcc gtataattat tcagcgtcca gcagaatcta cgcactgtgc
+     1801 tgttgttagc cataatgatg agaccgagcg ttacagcgcc tatatataac aacgaagtgg
+     1861 cggta
+//

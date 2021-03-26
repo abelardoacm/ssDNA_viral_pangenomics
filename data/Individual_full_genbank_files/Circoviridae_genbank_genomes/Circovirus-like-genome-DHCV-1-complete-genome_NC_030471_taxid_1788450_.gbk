@@ -1,0 +1,63 @@
+LOCUS       NC_030471               1173 bp    DNA     circular VRL 25-AUG-2018
+DEFINITION  Circovirus-like genome DHCV-1, complete genome.
+ACCESSION   NC_030471
+KEYWORDS    RefSeq.
+SOURCE      Circovirus-like genome DHCV-1
+  ORGANISM  Circovirus-like genome DHCV-1
+REFERENCE   2  (bases 1 to 1173)
+REFERENCE   3  (bases 1 to 1173)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KT149407.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SOAPdenovo v. 1.04; Sequencher v.4.1
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1173
+                     /organism="Circovirus-like genome DHCV-1"
+                     /mol_type="genomic DNA"
+                     /isolate="DHCV-1"
+                     /isolation_source="Freshwater lake (Donghu) sample (< 0.5
+                     m)"
+                     /db_xref="taxon:1788450"
+                     /country="China"
+                     /collection_date="Mar-2010"
+     gene            208..1173
+                     /locus_tag="BBV86_gp1"
+                     /db_xref="GeneID:37627683"
+     CDS             208..1173
+                     /locus_tag="BBV86_gp1"
+                     /codon_start=1
+                     /product="putative Rep protein"
+                     /protein_id="YP_009259723.1"
+                     /db_xref="GeneID:37627683"
+                     /translation="MKVKVYTNFKSKKVIRAKYSITLALTWITFSFPSHPTSNMSYQL
+                     NWCFTVNNYTVLDEQKLQDMPYKYLIYGREVGEEGTPHLQGYVQYKKKLRLTALKKLH
+                     PTAHWEAAKGNEEQNKTYCSKEGDFLEFGTPTKTNGGASTIAARAEKNARLMTAPIEE
+                     LILTGELHPQHAKAIHNARILVQEERRKLHPPDALDGDLPHLWFWGPAGTGKSYKART
+                     DYPDAYLKAANKWWCGYNDEDTVLIEEWDKNHNVLAHHLKLWADRYPFSGEVKGGTTG
+                     KIRPKRIVITSNYHPRDIWGDDPEGALGPIMRRFNVVHFDQKFNF"
+ORIGIN
+        1 ccatgacatt agcaaaaaaa aagcgccctt gcgtgagcaa gggcaagaca caacatttta
+       61 atttttaatt ttaagaaaag aattttcttc cagaattctc aaattcttgt ttcaattctc
+      121 atacaaactt caagtcaaaa tttttagact agactttact atactataca aaaaccaagt
+      181 caaaaaaaga caatcattct ccggagaatg aaggtaaaag tctatacaaa tttcaagtca
+      241 aaaaaagtga tccgggctaa gtacagtatt accttagccc taacctggat cactttctca
+      301 tttccatccc acccaacaag caacatgtcc taccaactca actggtgctt tacagtgaac
+      361 aactacaccg tccttgacga gcaaaagctc caggacatgc cttacaagta tctcatctac
+      421 ggccgagagg tcggagaaga aggaacccct cacctccaag gatacgtcca atacaagaag
+      481 aagcttaggc ttacagcatt gaagaagctt caccccactg ctcactggga ggcagccaaa
+      541 ggcaacgaag aacaaaacaa gacgtattgc tctaaggaag gagacttcct agagtttggt
+      601 acccctacaa agactaacgg tggcgcctcg accattgctg cccgtgccga aaagaatgcc
+      661 cggctcatga ctgccccgat cgaagaacta attctcactg gcgaactcca ccctcaacat
+      721 gcgaaggcca ttcacaatgc ccggatcctc gttcaggaag aacgacgcaa gcttcatccc
+      781 cccgatgctc tagatggtga cctacctcat ctatggtttt ggggcccagc gggtaccggc
+      841 aagtcctata aggcccgaac tgactaccct gatgcctacc tcaaagctgc caacaaatgg
+      901 tggtgtggct acaacgacga agacactgtc ctcattgaag aatgggacaa gaaccacaac
+      961 gtcctcgctc atcacctcaa gctctgggcc gaccgatatc ccttctcagg agaagtaaaa
+     1021 ggaggaacta ccggtaagat cagacctaaa aggatagtaa tcacatcaaa ctaccaccct
+     1081 cgagacatct ggggagacga ccccgaagga gccctcggac ctatcatgcg tcgctttaat
+     1141 gtggtgcact tcgatcaaaa gttcaatttc taa
+//

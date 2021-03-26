@@ -1,0 +1,74 @@
+LOCUS       NC_027797               1240 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Primnoa pacifica coral associated circular virus isolate I0345,
+            complete genome.
+ACCESSION   NC_027797
+KEYWORDS    RefSeq.
+SOURCE      Primnoa pacifica coral associated circular virus
+  ORGANISM  Primnoa pacifica coral associated circular virus
+REFERENCE   2  (bases 1 to 1240)
+REFERENCE   3  (bases 1 to 1240)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528565.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1240
+                     /organism="Primnoa pacifica coral associated circular
+                     virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0345"
+                     /host="Primnoa pacifica"
+                     /db_xref="taxon:1692262"
+     gene            113..781
+                     /locus_tag="AMR00_gp1"
+                     /db_xref="GeneID:25479241"
+     CDS             113..781
+                     /locus_tag="AMR00_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163929.1"
+                     /db_xref="GeneID:25479241"
+                     /translation="MKGTIAQNLEYTGKEATEDPTKLHEWGVKPLTNTERNKKGAAAS
+                     KETMKEVIAAAERGDLEWIKSEHPGHYLRYMKQIEKVRMLALVDQTTETHSTLENYWI
+                     HGDTGSGKTRAVREKIPDKDLYLKGQNKWWDHYEGEKYVLIDDYSPEWAEKYFLKNWA
+                     DHYSFSAEYKGGSLKRLNPKTIIVTSNYKIEEAGFNEKDIEPMMRRFKRGNAQWFIDT
+                     FKVE"
+     gene            complement(793..1212)
+                     /locus_tag="AMR00_gp2"
+                     /db_xref="GeneID:25479240"
+     CDS             complement(793..1212)
+                     /locus_tag="AMR00_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163930.1"
+                     /db_xref="GeneID:25479240"
+                     /translation="MDTINGRTASMSCPARCITRRVLYSEGANSVAVADEIPITTTTK
+                     FPWMSLERDLSKLPQCGEVNTFIPMVVIRLDSNTNLPTTSTILEDPQTWKPFLREQIQ
+                     KFGWFYRANVSWSVRGKHLEAQLAVDPAVAPEIITID"
+ORIGIN
+        1 cccacacctg caaggatgtg ttgttttact gaaaaacaag aagagttctt tccagaacat
+       61 cataaatggt gaaacatttg gagagtgggc aaaggagtgc cactgggaga ggatgaaagg
+      121 caccattgcc cagaacttgg agtacactgg caaggaagcc actgaggacc ccactaaact
+      181 gcatgagtgg ggtgtaaaac ctctcactaa tactgagagg aataaaaagg gagcagctgc
+      241 cagtaaggag accatgaaag aggtcatagc agcagctgaa agaggtgact tggagtggat
+      301 caagtcagaa catcctggac attacctgag gtacatgaag cagattgaga aagtcaggat
+      361 gttggctctg gtggatcaaa ccacagagac ccattctact ctggagaact actggatcca
+      421 tggagacact ggatcaggca agaccagagc agtcagagag aagataccag acaaagatct
+      481 gtatcttaag ggacagaaca agtggtggga ccactatgaa ggagagaagt acgtcctgat
+      541 tgatgactac agccctgagt gggcagagaa gtacttcctg aagaactggg ctgaccacta
+      601 cagcttctca gctgagtaca agggtggcag cctcaagagg ttgaatccga agactatcat
+      661 agtgaccagt aactacaaga tagaggaagc cggattcaat gaaaaggaca ttgaaccaat
+      721 gatgagaagg ttcaagaggg gtaatgctca atggtttatt gatacattta aagttgaata
+      781 aacaattttt tactagtcaa ttgttattat ttccggtgcc acagctgggt caactgccag
+      841 ctgggcctcc aggtgcttgc cacgtacaga ccaactgacg ttggccctgt agaaccagcc
+      901 aaacttctgg atctgctccc gcaggaaggg cttccaggtt tgaggatcct ctaggatggt
+      961 gctggtagtg ggcaggttgg tgttgctgtc cagccggatc acaaccatgg ggatgaaggt
+     1021 gttgacttcc ccacattggg gcagcttact gaggtccctc tcaagggaca tccaagggaa
+     1081 cttggtggtg gtggtgatgg ggatctcatc ggctacagcc actgagttgg ccccctcaga
+     1141 gtagagcacc ctccgggtga tgcagcgtgc agggcagctc atgcttgcag tccggccatt
+     1201 gattgtgtcc atcattttgc ctggactctg ggccaggtac
+//

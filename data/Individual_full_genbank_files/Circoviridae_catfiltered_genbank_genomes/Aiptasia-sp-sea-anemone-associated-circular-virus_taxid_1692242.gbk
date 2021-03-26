@@ -1,0 +1,92 @@
+LOCUS       NC_027781               1901 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Aiptasia sp. sea anemone associated circular virus isolate I0007C2,
+            complete genome.
+ACCESSION   NC_027781
+KEYWORDS    RefSeq.
+SOURCE      Aiptasia sp. sea anemone associated circular virus
+  ORGANISM  Aiptasia sp. sea anemone associated circular virus
+REFERENCE   2  (bases 1 to 1901)
+REFERENCE   3  (bases 1 to 1901)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528544.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1901
+                     /organism="Aiptasia sp. sea anemone associated circular
+                     virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0007C2"
+                     /host="Aiptasia sp."
+                     /db_xref="taxon:1692242"
+     stem_loop       join(10..18,1880..1898)
+                     /note="contains nonanucleotide motif"
+     gene            18..899
+                     /locus_tag="AMQ94_gp1"
+                     /db_xref="GeneID:25479192"
+     CDS             <18..899
+                     /locus_tag="AMQ94_gp1"
+                     /note="start codon not determined"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163899.1"
+                     /db_xref="GeneID:25479192"
+                     /translation="TSSSFSSFSHDAHISIRTVVFHRQWYLVVGREIGESGTRHLQGF
+                     VIFHQVQSRAAVSGYIARAHLEPARASSVQASDYCKKDGDFDEYGVCPRSGQRFDLQA
+                     LLKWGDDFIASHKRAPTAHECAVEQPAAYLKYPRLISLFQARAPPPDFGREGERRPWQ
+                     HELEDELEGPCENDRRVTFIVDQVGGAGKTWFQQWFLSKNPARAQIVSIGKRDDVAHT
+                     IDETKEVFFFAVPRGQMEFLRYEILEMLKDRMVFSPKYASRMKFLSVVPHVIVFSNEL
+                     PDMNKMSLDRYYIKEVN"
+     gene            complement(932..1804)
+                     /locus_tag="AMQ94_gp2"
+                     /db_xref="GeneID:25479191"
+     CDS             complement(932..1804)
+                     /locus_tag="AMQ94_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163900.1"
+                     /db_xref="GeneID:25479191"
+                     /translation="MPYGPIVAYGAKRALIGAAMSTRAYKRARTAYRVGSYARAYGPT
+                     AIRAGRRIWKAYRRYRGKNREQFSRTNIGERVGSSSTKKRYAFTILNATQGDTRTLTT
+                     HLINNIPEKSALNQNNNRRRQIVNLRGVKLCLEFRNQLARPLYLNVAVLGQKTQNQDL
+                     PPSVLGFFRGFDQNSRSEDFTTARSANELHCLPINPDKFTVLRHKRYRLIPNSDAGTV
+                     YNDHSGHSYMNMDWWLKVKRQIRYTDGGDIDSGSLWLCHWCDEIFAGTFAPVQPDAYA
+                     YTIRSICYFKEPKT"
+ORIGIN
+        1 cattattacc ttagccaacc tcttcttcct tttcctcatt ttcccacgat gcccacattt
+       61 caatccgcac ggtggtgttt caccgtcaat ggtacctcgt cgtcggacga gagattggag
+      121 agtctggaac aagacacctc cagggattcg ttatcttcca ccaggtccaa tccagagctg
+      181 ccgtctctgg ttatatcgct cgagctcatc ttgagccagc tcgagcaagt tctgttcagg
+      241 catcagacta ttgtaagaag gatggagact ttgatgaata cggggtctgt ccccgttcgg
+      301 gacaacggtt cgaccttcag gccctactca aatggggcga cgatttcatc gcgagccaca
+      361 agagggcgcc gacggcccac gaatgtgccg tggaacaacc agcggcgtac ctcaagtacc
+      421 ccagactcat ctcactcttt caggcccgtg cacccccccc cgactttgga cgagaaggag
+      481 aacgacgacc gtggcaacac gagttagaag atgaattaga aggtccgtgc gaaaacgacc
+      541 gtcgcgtaac gtttattgtc gatcaggtcg gaggcgccgg caagacttgg tttcagcaat
+      601 ggttcttgtc gaagaaccct gctcgcgctc aaattgtgtc aattggcaag cgtgatgatg
+      661 ttgcacatac aatcgatgag actaaagaag tctttttctt tgccgttcca cgtggacaga
+      721 tggagtttct tcgttacgag attttggaga tgctgaagga tcgtatggtc ttctctccca
+      781 aatatgcctc tcggatgaaa tttctaagtg ttgtcccaca tgtaattgtt ttttcgaatg
+      841 aattaccgga catgaacaag atgtcgctag acagatacta cataaaagag gtgaattaac
+      901 agtatgcaac gttagggtta gggtattggg tttaagtctt aggttctttg aagtaacaaa
+      961 tagacctgat cgtgtacgcg tatgcatcag gttgaaccgg tgcgaaagta ccggcgaaga
+     1021 tctcatcaca ccaatgacag agccaaagag atccactatc aatatctcct ccgtccgtgt
+     1081 aacggatctg cctcttaacc ttaagccacc agtccatatt catgtaactg tggccggaat
+     1141 ggtcattgta aacagtccct gcatcagagt ttggaatcaa gcggtaacgt ttgtgacgca
+     1201 aaaccgtgaa cttgtcggga ttgatcggca agcaatgcaa ttcgttggcc gatcttgcgg
+     1261 tagtgaagtc ttcactcctg gagttctgat cgaagcctct gaagaaacca agtacacttg
+     1321 gtggcaagtc ctgattttga gttttctgcc cgaggaccgc tacgttgaga tagagtggcc
+     1381 tggcaagctg atttctgaat tccaggcaga gcttgactcc acgcaggttg acaatctgac
+     1441 gccttcggtt gttattctgg tttaaagcag atttctcagg tatgttgttg atcagatgag
+     1501 tagtcaacgt tcttgtgtcc ccttgcgtag cgttgaggat tgtgaacgcg taacgcttct
+     1561 tggttgagga ggagccgact cgctctccga tgtttgttcg actgaactgc tccctgttct
+     1621 tgccgcggta acggcggtaa gccttccaga tgcgtctacc cgcgcgaatg gccgttggac
+     1681 cataagcacg agcgtagcta ccaacacgat aagcagtcct agcacgctta taagcacgtg
+     1741 tggacatggc tgccccgatg agggcacgct tagcaccata agcaacgatc ggtccgtacg
+     1801 gcatggttgt tttattatga tgctgttgtg tgtttgacac gattaaaatt catgtgatag
+     1861 aattttttac cgggtttgaa cagtcccggt tggctaagcc c
+//

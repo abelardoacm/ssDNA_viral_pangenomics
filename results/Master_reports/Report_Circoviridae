@@ -1,0 +1,472 @@
+------------1_Set_family_files_from_raw_genbank.sh------------
+
+
+The file Circoviridae.gb was splitted into 216 individual genomic(.fn), proteomic(.faa) and full-genbank(.gbk) files
+
+ 
+Messages similar to "Warning: bad /collection_date value" point out that the date in the file is not in the correct format.
+Such cases can be corrected although it is not needed to continue.
+ They come from seqretsplit -sequence Circoviridae.gb -outseq seqoutall -feature -osformat genbank
+
+
+
+
+INPUT:	/data/Raw_database/Circoviridae.gb
+
+OUTPUT:  *.fn files	in	/data/Genomic_fasta_files/Circoviridae\_fasta_genomes
+        *.gbk files	in	/data/Individual_full_genbank_files/Circoviridae\_genbank_genomes
+        *.faa files	in	/data/Proteomic_fasta_files/Circoviridae\_fasta_proteomes
+
+
+DONE: Obtained individual files
+
+
+
+
+
+------------2_Concatenation_from_taxid.pl------------
+
+
+Circoviridae.gb generated 216 individual files
+After concatenation the number of files reduced to 215
+
+... as the following report indicates
+
+
+      2  segments were concatenated into Culex-circovirus-like-virus_taxid_2304514 
+
+
+INPUT:	/data/Raw_database/Circoviridae.gb
+	/data/Genomic_fasta_files/Circoviridae\_fasta_genomes
+      	/data/Individual_full_genbank_files/Circoviridae\_genbank_genomes
+      	/data/Proteomic_fasta_files/Circoviridae\_fasta_proteomes
+
+OUTPUT:  *.fn files	in	/data/Genomic_fasta_files/Circoviridae\_concatenated_fasta_genomes
+        *.gbk files	in	/data/Individual_full_genbank_files/Circoviridae\_concatenated_genbank_genomes
+        *.faa files	in	/data/Proteomic_fasta_files/Circoviridae\_concatenated_fasta_proteomes
+
+
+DONE: Concatenated segmented genomes into single files
+
+
+
+
+
+------------3_Protein_count_filtering.pl------------
+
+Allowed percentage of variation from average protein count: 50
+Minimum protein count among reference strains:
+Maximum protein count among reference strains:
+
+No minimum protein count from reference proteome was given... setting lower limit to -%50 deviation from the mean 
+
+No maximum protein count from reference proteome was given... setting upper limit to +%50 deviation from the mean 
+
+
+mean protein count is 3 (rounded-up) 
+
+... setting lower protein cutoff count in 2 proteins 
+... setting upper protein cutoff count in 5 proteins 
+
+
+
+
+_____________________________________
+ The following files will be filtered:
+
+	Protein count	Species + Taxonimic ID
+
+	   1   	 Artemia-melana-sponge-associated-circular-genome_taxid_1692243
+	   1   	 Avian-like-circovirus_taxid_1844928
+	   1   	 Bat-associated-circovirus-5_taxid_2003310
+	   1   	 Bat-associated-circovirus-6_taxid_2003311
+	   1   	 Bat-associated-circovirus-7_taxid_2003312
+	   1   	 Bat-associated-circovirus-8_taxid_2003313
+	   1   	 Bat-associated-circovirus-9_taxid_2169823
+	   1   	 Bat-associated-cyclovirus-11_taxid_1987736
+	   1   	 Bat-associated-cyclovirus-13_taxid_1987738
+	   1   	 Bat-associated-cyclovirus-6_taxid_1987731
+	   1   	 Bat-associated-cyclovirus-7_taxid_1987732
+	   1   	 Bat-associated-cyclovirus-8_taxid_1987733
+	   1   	 Bat-associated-cyclovirus-9_taxid_1987734
+	   1   	 Circoviridae-19-LDMD-2013_taxid_1379723
+	   1   	 Circoviridae-SFBeef_taxid_1548712
+	   1   	 Circovirus-like-genome-DCCV-1_taxid_1788437
+	   1   	 Circovirus-like-genome-DHCV-1_taxid_1788450
+	   1   	 Ecklonia-radiata-associated-virus-1_taxid_2480191
+	   1   	 Ecklonia-radiata-associated-virus-3_taxid_2480193
+	   1   	 Ecklonia-radiata-associated-virus-8_taxid_2480198
+	   1   	 Hermit-crab-associated-circular-genome_taxid_1692251
+	   1   	 Molossus-molossus-circovirus-1_taxid_1959842
+	   1   	 Porcine-circovirus-3_taxid_1868221
+	   1   	 Porcine-circovirus-like-virus-P1_taxid_1506546
+
+24 organisms were discarded from the database for further analysis
+
+
+INPUT:	/data/Genomic_fasta_files/Circoviridae\_concatenated_fasta_genomes
+      	/data/Individual_full_genbank_files/Circoviridae\_concatenated_genbank_genomes
+      	/data/Proteomic_fasta_files/Circoviridae\_concatenated_fasta_proteomes
+
+OUTPUT:  *.fn files	in	/data/Genomic_fasta_files/Circoviridae\_catfiltered_fasta_genomes
+        *.gbk files	in	/data/Individual_full_genbank_files/Circoviridae\_catfiltered_genbank_genomes
+        *.faa files	in	/data/Proteomic_fasta_files/Circoviridae\_catfiltered_fasta_proteomes
+
+
+DONE: Filtered genomes by protein count 
+
+
+
+
+
+------------4_Vectors_CPFSCC.sh Circoviridae------------
+
+CPFSCC vectors of Circoviridae genomes saved in ../results/CPFSCC_vectors/Circoviridae_CPFSCC_vectors.txt
+
+
+INPUT:	Multi-fasta containing all Circoviridae genomes:	/data/AF_methods_input/Circoviridae\_AF_input.fasta
+
+OUTPUT: Text file containing Circoviridae CPFSCC vectors:	/results/CPFSCC_vectors/Circoviridae\_CPFSCC_vectors.txt
+
+
+DONE: Computed CPFSCC vectors
+
+
+
+
+
+------------5a_NbClust.r Circoviridae  ------------
+
+Minimum number of clusters allowed: 1
+Maximum number of clusters allowed: 6
+
+Number of clusters found for Circoviridae genomes: 4
+
+
+INPUT:	Text file containing CPFSCC vectors:	/results/CPFSCC_vectors/Circoviridae\_CPFSCC_vectors.txt
+
+OUTPUT: Membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+	Distance matrix	/results/Distance_Matrices/Circoviridae\_distance_matrix.csv
+	Linear point plot	/results/Clustering_graphics/Circoviridae\_distances_pplot.tiff
+	Clusters PCA    	/results/Clustering_graphics/Circoviridae\_PCA_clusters.tiff
+
+
+DONE: Generated clusters with NbClust
+
+
+
+
+
+------------5b_Sample_reduction.r Circoviridae ------------
+
+sample reduction will be performed
+Percentage for sample reduction: 10
+0 genomes, corresponding to %10 most distant to centroid of each cluster were discarded
+
+
+INPUT:	Distance matrix:  	results/Distance_Matrices/Circoviridae\_distance_matrix.csv
+	Membership vectors:	/results/Distance_Matrices/Circoviridae\_membership_vectors.csv
+
+OUTPUT: Linear point plot	/results/Clustering_graphics/Circoviridae\_distances_pplot_after_sr_by_10\_percent.tiff
+	Clusters PCA	/results/Clustering_graphics/Circoviridae\_PCA_clusters_after_sr_by_10\_percent.tiff
+	List of discarded taxa:	/results/Lists_for_sample_reduction/10\_percent_most_distant_Circoviridae\..txt
+	Modified membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+
+
+DONE: Reduced sample by %10
+
+
+
+
+
+------------6_Files_to_clusters.sh Circoviridae------------
+
+Circoviridae genomes were redirected to pangenomic input clusters
+
+
+INPUT:	Membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+
+OUTPUT: Pangenomic input clusters:	/results/Pangenomic_input_clusters/Circoviridae\_clusters/
+
+
+DONE: Files sent to pangenomic input clusters
+
+
+
+
+
+------------5a_NbClust.r Circoviridae  ------------
+
+Minimum number of clusters allowed: 1
+Maximum number of clusters allowed: 6
+
+Number of clusters found for Circoviridae genomes: 4
+
+
+INPUT:	Text file containing CPFSCC vectors:	/results/CPFSCC_vectors/Circoviridae\_CPFSCC_vectors.txt
+
+OUTPUT: Membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+	Distance matrix	/results/Distance_Matrices/Circoviridae\_distance_matrix.csv
+	Linear point plot	/results/Clustering_graphics/Circoviridae\_distances_pplot.tiff
+	Clusters PCA    	/results/Clustering_graphics/Circoviridae\_PCA_clusters.tiff
+
+
+DONE: Generated clusters with NbClust
+
+
+
+
+
+------------5b_Sample_reduction.r Circoviridae ------------
+
+sample reduction will be performed
+Percentage for sample reduction: 10
+0 genomes, corresponding to %10 most distant to centroid of each cluster were discarded
+
+
+INPUT:	Distance matrix:  	results/Distance_Matrices/Circoviridae\_distance_matrix.csv
+	Membership vectors:	/results/Distance_Matrices/Circoviridae\_membership_vectors.csv
+
+OUTPUT: Linear point plot	/results/Clustering_graphics/Circoviridae\_distances_pplot_after_sr_by_10\_percent.tiff
+	Clusters PCA	/results/Clustering_graphics/Circoviridae\_PCA_clusters_after_sr_by_10\_percent.tiff
+	List of discarded taxa:	/results/Lists_for_sample_reduction/10\_percent_most_distant_Circoviridae\..txt
+	Modified membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+
+
+DONE: Reduced sample by %10
+
+
+
+
+
+------------1_Set_family_files_from_raw_genbank.sh------------
+
+
+The file Circoviridae.gb was splitted into 216 individual genomic(.fn), proteomic(.faa) and full-genbank(.gbk) files
+
+ 
+Messages similar to "Warning: bad /collection_date value" point out that the date in the file is not in the correct format.
+Such cases can be corrected although it is not needed to continue.
+ They come from seqretsplit -sequence Circoviridae.gb -outseq seqoutall -feature -osformat genbank
+
+
+
+
+INPUT:	/data/Raw_database/Circoviridae.gb
+
+OUTPUT:  *.fn files	in	/data/Genomic_fasta_files/Circoviridae\_fasta_genomes
+        *.gbk files	in	/data/Individual_full_genbank_files/Circoviridae\_genbank_genomes
+        *.faa files	in	/data/Proteomic_fasta_files/Circoviridae\_fasta_proteomes
+
+
+DONE: Obtained individual files
+
+
+
+
+
+------------2_Concatenation_from_taxid.pl------------
+
+
+Circoviridae.gb generated 216 individual files
+After concatenation the number of files reduced to 215
+
+... as the following report indicates
+
+
+      2  segments were concatenated into Culex-circovirus-like-virus_taxid_2304514 
+
+
+INPUT:	/data/Raw_database/Circoviridae.gb
+	/data/Genomic_fasta_files/Circoviridae\_fasta_genomes
+      	/data/Individual_full_genbank_files/Circoviridae\_genbank_genomes
+      	/data/Proteomic_fasta_files/Circoviridae\_fasta_proteomes
+
+OUTPUT:  *.fn files	in	/data/Genomic_fasta_files/Circoviridae\_concatenated_fasta_genomes
+        *.gbk files	in	/data/Individual_full_genbank_files/Circoviridae\_concatenated_genbank_genomes
+        *.faa files	in	/data/Proteomic_fasta_files/Circoviridae\_concatenated_fasta_proteomes
+
+
+DONE: Concatenated segmented genomes into single files
+
+
+
+
+
+------------3_Protein_count_filtering.pl------------
+
+Allowed percentage of variation from average protein count: 50
+Minimum protein count among reference strains:
+Maximum protein count among reference strains:
+
+No minimum protein count from reference proteome was given... setting lower limit to -%50 deviation from the mean 
+
+No maximum protein count from reference proteome was given... setting upper limit to +%50 deviation from the mean 
+
+
+mean protein count is 3 (rounded-up) 
+
+... setting lower protein cutoff count in 2 proteins 
+... setting upper protein cutoff count in 5 proteins 
+
+
+
+
+_____________________________________
+ The following files will be filtered:
+
+	Protein count	Species + Taxonimic ID
+
+	   1   	 Artemia-melana-sponge-associated-circular-genome_taxid_1692243
+	   1   	 Avian-like-circovirus_taxid_1844928
+	   1   	 Bat-associated-circovirus-5_taxid_2003310
+	   1   	 Bat-associated-circovirus-6_taxid_2003311
+	   1   	 Bat-associated-circovirus-7_taxid_2003312
+	   1   	 Bat-associated-circovirus-8_taxid_2003313
+	   1   	 Bat-associated-circovirus-9_taxid_2169823
+	   1   	 Bat-associated-cyclovirus-11_taxid_1987736
+	   1   	 Bat-associated-cyclovirus-13_taxid_1987738
+	   1   	 Bat-associated-cyclovirus-6_taxid_1987731
+	   1   	 Bat-associated-cyclovirus-7_taxid_1987732
+	   1   	 Bat-associated-cyclovirus-8_taxid_1987733
+	   1   	 Bat-associated-cyclovirus-9_taxid_1987734
+	   1   	 Circoviridae-19-LDMD-2013_taxid_1379723
+	   1   	 Circoviridae-SFBeef_taxid_1548712
+	   1   	 Circovirus-like-genome-DCCV-1_taxid_1788437
+	   1   	 Circovirus-like-genome-DHCV-1_taxid_1788450
+	   1   	 Ecklonia-radiata-associated-virus-1_taxid_2480191
+	   1   	 Ecklonia-radiata-associated-virus-3_taxid_2480193
+	   1   	 Ecklonia-radiata-associated-virus-8_taxid_2480198
+	   1   	 Hermit-crab-associated-circular-genome_taxid_1692251
+	   1   	 Molossus-molossus-circovirus-1_taxid_1959842
+	   1   	 Porcine-circovirus-3_taxid_1868221
+	   1   	 Porcine-circovirus-like-virus-P1_taxid_1506546
+
+24 organisms were discarded from the database for further analysis
+
+
+INPUT:	/data/Genomic_fasta_files/Circoviridae\_concatenated_fasta_genomes
+      	/data/Individual_full_genbank_files/Circoviridae\_concatenated_genbank_genomes
+      	/data/Proteomic_fasta_files/Circoviridae\_concatenated_fasta_proteomes
+
+OUTPUT:  *.fn files	in	/data/Genomic_fasta_files/Circoviridae\_catfiltered_fasta_genomes
+        *.gbk files	in	/data/Individual_full_genbank_files/Circoviridae\_catfiltered_genbank_genomes
+        *.faa files	in	/data/Proteomic_fasta_files/Circoviridae\_catfiltered_fasta_proteomes
+
+
+DONE: Filtered genomes by protein count 
+
+
+
+
+
+------------4_Vectors_CPFSCC.sh Circoviridae------------
+
+CPFSCC vectors of Circoviridae genomes saved in ../results/CPFSCC_vectors/Circoviridae_CPFSCC_vectors.txt
+
+
+INPUT:	Multi-fasta containing all Circoviridae genomes:	/data/AF_methods_input/Circoviridae\_AF_input.fasta
+
+OUTPUT: Text file containing Circoviridae CPFSCC vectors:	/results/CPFSCC_vectors/Circoviridae\_CPFSCC_vectors.txt
+
+
+DONE: Computed CPFSCC vectors
+
+
+
+
+
+------------5a_NbClust.r Circoviridae  ------------
+
+Minimum number of clusters allowed:
+Maximum number of clusters allowed: 15
+
+Number of clusters found for Circoviridae genomes: 
+
+
+INPUT:	Text file containing CPFSCC vectors:	/results/CPFSCC_vectors/Circoviridae\_CPFSCC_vectors.txt
+
+OUTPUT: Membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+	Distance matrix	/results/Distance_Matrices/Circoviridae\_distance_matrix.csv
+	Linear point plot	/results/Clustering_graphics/Circoviridae\_distances_pplot.tiff
+	Clusters PCA    	/results/Clustering_graphics/Circoviridae\_PCA_clusters.tiff
+
+
+DONE: Generated clusters with NbClust
+
+
+
+
+
+------------5b_Sample_reduction.r Circoviridae ------------
+
+------------5a_NbClust.r Circoviridae  ------------
+
+Minimum number of clusters allowed: 1
+Maximum number of clusters allowed: 6
+
+Number of clusters found for Circoviridae genomes: 4
+
+
+INPUT:	Text file containing CPFSCC vectors:	/results/CPFSCC_vectors/Circoviridae\_CPFSCC_vectors.txt
+
+OUTPUT: Membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+	Distance matrix	/results/Distance_Matrices/Circoviridae\_distance_matrix.csv
+	Linear point plot	/results/Clustering_graphics/Circoviridae\_distances_pplot.tiff
+	Clusters PCA    	/results/Clustering_graphics/Circoviridae\_PCA_clusters.tiff
+
+
+DONE: Generated clusters with NbClust
+
+
+
+
+
+------------5b_Sample_reduction.r Circoviridae ------------
+
+sample reduction will be performed
+Percentage for sample reduction: 10
+0 genomes, corresponding to %10 most distant to centroid of each cluster were discarded
+
+
+INPUT:	Distance matrix:  	results/Distance_Matrices/Circoviridae\_distance_matrix.csv
+	Membership vectors:	/results/Distance_Matrices/Circoviridae\_membership_vectors.csv
+
+OUTPUT: Linear point plot	/results/Clustering_graphics/Circoviridae\_distances_pplot_after_sr_by_10\_percent.tiff
+	Clusters PCA	/results/Clustering_graphics/Circoviridae\_PCA_clusters_after_sr_by_10\_percent.tiff
+	List of discarded taxa:	/results/Lists_for_sample_reduction/10\_percent_most_distant_Circoviridae\..txt
+	Modified membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+
+
+DONE: Reduced sample by %10
+
+
+
+
+
+------------5a_NbClust.r Circoviridae  ------------
+
+Minimum number of clusters allowed: 1
+Maximum number of clusters allowed: 6
+
+Number of clusters found for Circoviridae genomes: 4
+
+
+INPUT:	Text file containing CPFSCC vectors:	/results/CPFSCC_vectors/Circoviridae\_CPFSCC_vectors.txt
+
+OUTPUT: Membership vectors	/results/NbClust_membership_vectors/Circoviridae\_membership_vectors.csv
+	Distance matrix	/results/Distance_Matrices/Circoviridae\_distance_matrix.csv
+	Linear point plot	/results/Clustering_graphics/Circoviridae\_distances_pplot.tiff
+	Clusters PCA    	/results/Clustering_graphics/Circoviridae\_PCA_clusters.tiff
+
+
+DONE: Generated clusters with NbClust
+
+
+
+
+
+------------5b_Sample_reduction.r Circoviridae ------------
+
+sample reduction will be performed
+Percentage for sample reduction: 10

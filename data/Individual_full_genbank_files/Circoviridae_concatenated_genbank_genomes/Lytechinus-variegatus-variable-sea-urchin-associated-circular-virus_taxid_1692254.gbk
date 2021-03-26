@@ -1,0 +1,94 @@
+LOCUS       NC_027801               2167 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Lytechinus variegatus variable sea urchin associated circular virus
+            isolate I0021, complete genome.
+ACCESSION   NC_027801
+KEYWORDS    RefSeq.
+SOURCE      Lytechinus variegatus variable sea urchin associated circular virus
+  ORGANISM  Lytechinus variegatus variable sea urchin associated circular virus
+REFERENCE   2  (bases 1 to 2167)
+REFERENCE   3  (bases 1 to 2167)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528569.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2167
+                     /organism="Lytechinus variegatus variable sea urchin
+                     associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0021"
+                     /host="Lytechinus variegatus"
+                     /db_xref="taxon:1692254"
+     misc_feature    1..9
+                     /note="nonanucleotide motif without stem loop"
+     gene            complement(127..984)
+                     /locus_tag="AMR08_gp1"
+                     /db_xref="GeneID:25479250"
+     CDS             complement(127..984)
+                     /locus_tag="AMR08_gp1"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163937.1"
+                     /db_xref="GeneID:25479250"
+                     /translation="MGNKPLITNEEGQVSRLYAPKKQTKAGKKKAERYKRFANKVEKV
+                     INASLYEGRXIHRSAIGSAVSSGDAGKQGLTSLMLFSAAGATNEDDIEKIFAAEGLTA
+                     DSDEIYLKSGYLNATFKCNTANVTGIVDIYQMESKSAISVFNVKDTALPAFVTSVNDQ
+                     LAAQASATSTLTVTDPGWTPFCNGSVGQHFKIKDHTRFICRPGEHHTFTYRKKANRSV
+                     KLKDVKELLMMPHLTVGFLIILSGRDETVSTATVAGHYPTQTFDFQWSRTYWYNRVHA
+                     NVGFGGEIS"
+     gene            1253..1879
+                     /locus_tag="AMR08_gp2"
+                     /db_xref="GeneID:25479249"
+     CDS             1253..1879
+                     /locus_tag="AMR08_gp2"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163938.1"
+                     /db_xref="GeneID:25479249"
+                     /translation="MPSFRVCAKNFFLTYPRSIDLSKQDLFDFLLSFEPNYLLVAEEK
+                     HADGTPHLHALLCLARRRDIRDPRHFDCQGYHCNITSTRSIARCIDYCKKDDCSPLSS
+                     GDVPGRDGWGAICECGTREDFMGAVRRYYPRDYVLNYEKLLAYADAHFNANVPYEPQF
+                     TDFVLPTEVDDWLTDNFKVRGENAFHPTGGILIGPVVRRAFYPLCKGP"
+ORIGIN
+        1 gactattact tggggcaaac cctgtattat actcaccaat gacactcccc ctctctctgt
+       61 ttgggaagag gcaaacacaa aaaaggttac attgacaaat aaactttttt agcctctcaa
+      121 acatatttaa ctgatctctc ctccgaatcc tacgtttgcg tgtactcgat tataccaata
+      181 agttctcgac cattgaaaat caaatgtctg tgttggatag tgaccggcta cggtggcagt
+      241 cgatactgtc tcatctctgc cagatagtat gataaggaag cccaccgtaa ggtgtggcat
+      301 catcagaagt tctttaacat ccttcagttt tacgcttcta tttgctttct tgcgatacgt
+      361 gaaggtgtgg tgttctccgg gtctacatat gaaacgggtg tgatccttaa tcttaaagtg
+      421 ctgcccgact gatccattac agaacggtgt ccagcctggg tcggttactg taagtgttga
+      481 ggttgcagat gcctgcgccg ccaactgatc gttgacgctc gtaacaaatg ctgggagtgc
+      541 agtatccttc acgttaaaaa cagatattgc gctcttactc tccatctgat atatatctac
+      601 tatcccggtc acgttagccg tgttgcattt aaatgtcgca tttaaatatc ccgatttcag
+      661 gtatatctca tcggagtcgg cagttaaacc ctcggctgcg aatatcttct cgatatcgtc
+      721 ctcgttagta gctcctgcgg ctgagaacag catcaaggaa gttaatcctt gctttcctgc
+      781 atctcctgac gatactgcac tgcctatcgc cgacctatgt atcrtcctcc cctcgtaaag
+      841 cgacgcattg atgaccttct cgactttgtt cgcgaacctc ttataccttt cagctttctt
+      901 cttaccagcc ttcgtttgtt tcttgggggc atagaggcgt gatacttgac cttcttcatt
+      961 ggtgatgagc ggtttgttgc ccatactttt aggtttaggg gcatcagatg gcagggactg
+     1021 ttgatgatga tcgataagca gaccacctag tagagtggtc cctagcttac cgtacttcgc
+     1081 gttgagtggt aggaattctt cggctaacct cttacctcct cccattggct gcacgcgtgt
+     1141 cacatttgcc ttttataggt tgctgccact gaactgattt gagtgtcgcg tttctgagtt
+     1201 taaattttgg ctataaaacc gcccaatccg cgctagatgg ctaagtaaaa ttatgccatc
+     1261 tttccgcgtc tgtgctaaaa atttcttttt aacgtacccc agatcaatcg acctatctaa
+     1321 acaggacctc ttcgacttct tgctctcttt tgaaccgaac tatctccttg ttgctgaaga
+     1381 gaagcatgcc gatggtactc cgcacctgca cgccttactc tgtcttgcac gaagacgcga
+     1441 tattcgtgac ccccgacact ttgattgtca gggttaccat tgcaacatca catctactag
+     1501 atctattgca agatgtatcg actattgtaa gaaggatgat tgtagtccac tgtcatccgg
+     1561 cgatgtgcct ggacgagatg gatggggcgc gatttgcgag tgtggaactc gagaggactt
+     1621 catgggagcg gttcgacgtt attatccgcg tgattatgtc ctgaactacg agaaactgct
+     1681 tgcttacgct gatgctcact ttaatgctaa tgtaccctac gagcctcaat ttactgattt
+     1741 cgtgttacct accgaggtag atgattggtt gacagacaac tttaaggttc gtggcgaaaa
+     1801 tgcgttccac cctacgggcg ggatattgat agggcccgtc gtgcgtcgtg cattttaccc
+     1861 cttgtgtaag ggtccatgac aaaagggtcg ccacttgtgt tacgctcgtg tgtctaacct
+     1921 aacctaagaa ccctgatagg ccccttacgt tgattttgat tggcgcatca cggttgggca
+     1981 aaacagagtg ggcccgcagt ctggggcgcc acatgtacta caatcacctc tttgatttaa
+     2041 gtacgtggga tgcccatgcc gagtacatta tcttcgacga cttcggctgg gaattcatcc
+     2101 ctgctaaaaa gtgttttctc ggtgcacaac gtgagttcac cataacggat aaataccgta
+     2161 agaaacg
+//

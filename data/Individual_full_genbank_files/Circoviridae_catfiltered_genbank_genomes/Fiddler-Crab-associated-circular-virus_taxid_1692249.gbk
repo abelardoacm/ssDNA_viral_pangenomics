@@ -1,0 +1,84 @@
+LOCUS       NC_027791               1635 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Fiddler Crab associated circular virus isolate I0086a, complete
+            genome.
+ACCESSION   NC_027791
+KEYWORDS    RefSeq.
+SOURCE      Fiddler Crab associated circular virus
+  ORGANISM  Fiddler Crab associated circular virus
+REFERENCE   2  (bases 1 to 1635)
+REFERENCE   3  (bases 1 to 1635)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528558.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1635
+                     /organism="Fiddler Crab associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0086a"
+                     /host="fiddler crab"
+                     /db_xref="taxon:1692249"
+     gene            complement(join(866..1635,1..52))
+                     /locus_tag="AMQ87_gp1"
+                     /db_xref="GeneID:25479221"
+     CDS             complement(join(866..1635,1..52))
+                     /locus_tag="AMQ87_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163918.1"
+                     /db_xref="GeneID:25479221"
+                     /translation="MGVKLKQSQDNSEGGNNHPPSFRSRKLVFTLNNYQKEDINLIIS
+                     YFESSAQKWVFGEEVGESGTPHLQGYCEFKNQKEWKQITDKCSPLKRAWSTSARGSLD
+                     DNVKYTTKDGKIYYGGFKIEKCNYKVEIDLYDWQKEIMEILEQTPDDRTIHWVWEPKG
+                     GIGKTTFQKYIFTHMGGVCVLSGKGSDMKHGVVSYINDHGETPDIVLINIPRSSAEFV
+                     SWSGIEEIKDMFFYSGKYEGGQVCGMSPHVLVFANTEPPEGVFSKDRVKTIELDS"
+     stem_loop       join(10..17,1625..1632)
+                     /note="contains nonanucleotide motif"
+     gene            134..817
+                     /locus_tag="AMQ87_gp2"
+                     /db_xref="GeneID:25479220"
+     CDS             134..817
+                     /locus_tag="AMQ87_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163919.1"
+                     /db_xref="GeneID:25479220"
+                     /translation="MPYARKTQKSRKRTYRRKTYRRKNLVLSKAPIPNTFSTKLRYSE
+                     SVSVNPGASGVAGVYVMNASSCYDPNTTGTGHQPRGFDQWMTMYDHFTVIGAKITAQF
+                     SITGQADDRALICGIALKDANGVYADKNDYMEGRNVVSKLVSGGATGDARTVTLSKTY
+                     SAKKFLGISKPLASSLIRGTSSANPSENAYFHLFAAPTGNADLDNIPIQVLIDYLVVF
+                     TEPQQPSQS"
+ORIGIN
+        1 gattattacc tccctccgag ttatcttgag attgcttgag tttgacgccc atgtttttat
+       61 acccctcaga tattccttta agtaaaaaaa aattttgctt aagaaaataa aaacatgtta
+      121 aaaaactgag accatgccgt atgctcgaaa aactcagaaa tctcgcaagc gcacgtatcg
+      181 tcgtaagacg tatcgtcgta aaaatctcgt gctgtctaag gccccaatcc cgaacacatt
+      241 ctcaaccaaa ttgagatatt cggaatctgt atccgtgaat ccgggtgctt cgggtgtagc
+      301 tggtgtttat gtgatgaacg cctcgagttg ctatgatcct aatactacag gtaccggaca
+      361 ccagcctcgt ggtttcgacc aatggatgac catgtacgat catttcacgg ttattggtgc
+      421 aaagattacc gctcagttct caatcaccgg tcaggctgat gatcgtgctc ttatatgcgg
+      481 tattgccctt aaggatgcca atggtgtcta tgccgataag aatgattata tggaagggcg
+      541 taatgtggtc tctaagctag tcagcggcgg tgctactggt gatgcacgca cggtaaccct
+      601 cagtaagaca tattctgcaa agaagttctt gggtatttct aagccacttg ctagctcact
+      661 cattcgtgga acttcatcgg caaatcctag tgaaaatgca tactttcatt tgtttgcagc
+      721 acctacaggc aacgccgatc ttgacaacat tcctattcag gtgcttattg attacttagt
+      781 tgtgttcact gaaccccaac agccatccca gtcttaaatc agacagttat tcccgcatat
+      841 cccgtcaggg atatgcgata caccttcaac tatccagctc aatagtctta accctatctt
+      901 tactgaaaac cccttcaggt ggttccgtgt ttgcgaatac caggacatgt ggcgacatcc
+      961 cgcaaacttg acctccttca tacttcccag aataaaagaa catatcttta atctcttcta
+     1021 ttccactcca actaacaaac tcagccgacg atcgtggaat gttaatgagc acgatgtcag
+     1081 gggtctcccc gtggtcattt atataagata caaccccatg cttcatgtca gaccccttac
+     1141 cggacaatac acacacgccc cccatatgag tgaaaatata tttttgaaaa gttgtctttc
+     1201 caattccacc tttaggttcc cagacccagt gtattgtcct atcgtcaggc gtttgttcaa
+     1261 ggatttccat gatctccttt tgccaatcat acaggtcgat ctcaacctta tagttgcatt
+     1321 tctcaatctt gaagccacca tagtagattt tgccatcctt cgtagtgtac ttgacattat
+     1381 catccaagga ccctctagcc gatgtactcc aagccctctt caacggtgaa cacttatcgg
+     1441 ttatctgttt ccactccttc tggttcttga attcacaata accctgcaaa tgaggtgtac
+     1501 cagactcacc cacttcctca ccaaaaaccc acttctgagc gctagactca aaatatgaga
+     1561 ttatgagatt gatatcctct ttttggtaat tattgagggt aaacaccagt ttacgagaac
+     1621 gaaaggaggg aggat
+//

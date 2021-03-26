@@ -1,0 +1,93 @@
+LOCUS       NC_027780               1815 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Petrochirus diogenes giant hermit crab associated circular virus
+            isolate I0004A, complete genome.
+ACCESSION   NC_027780
+KEYWORDS    RefSeq.
+SOURCE      Petrochirus diogenes giant hermit crab associated circular virus
+  ORGANISM  Petrochirus diogenes giant hermit crab associated circular virus
+REFERENCE   2  (bases 1 to 1815)
+REFERENCE   3  (bases 1 to 1815)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528543.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1815
+                     /organism="Petrochirus diogenes giant hermit crab
+                     associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0004A"
+                     /host="Petrochirus diogenes"
+                     /db_xref="taxon:1692261"
+     misc_feature    1..9
+                     /note="nonanucleotide motif"
+     stem_loop       join(11..24,1801..1815)
+                     /note="contains nonanucleotide motif"
+     gene            127..1176
+                     /locus_tag="AMR01_gp1"
+                     /db_xref="GeneID:25479189"
+     CDS             127..1176
+                     /locus_tag="AMR01_gp1"
+                     /note="putative REP protein"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163897.1"
+                     /db_xref="GeneID:25479189"
+                     /translation="MEGKRVRYRRYCITINNESDNKRILGLFLEDGIKKGVIGVETAP
+                     TTGTKHLQGYIEYPTQRDWSSIKKVCPNAHIEAAKGTSRQNYEYCTKEGNFVVHGHFE
+                     TGKRKRRDYSLSEYVKQVLQDELPNDSTFIRNYEKIQTHAKLVSSRQEKVRLFGELSC
+                     CKVTSWQRKAIESLFLQGKREVLWIYESVGGKGKTFLATILEVVYGFTRFDGITKSRD
+                     IALLIPPIPKGFVFDVTRDDASNFSYNTLEQVKNGYVMSGKYGGSQHLFRPVPVIVLS
+                     NFEPIRSSLSEDRWKVWNIENASNEKKEDLPEEGKIPPKAVLFEEEENKENQPNAEAS
+                     NSQQSNKDVEQHREK"
+     gene            1016..1696
+                     /locus_tag="AMR01_gp2"
+                     /db_xref="GeneID:25479188"
+     CDS             1016..1696
+                     /locus_tag="AMR01_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163898.1"
+                     /db_xref="GeneID:25479188"
+                     /translation="MPRMRRKKTFRKKGKFHRRRYYSKKRRTRRINLMQKQVIHNKVT
+                     RTLNNIVKSEWNTPTELRLSIMDLLTTTEQEVFKAFKYYKIRGVKVEFKCTPPVAAIA
+                     PQAVLTSDIVHIPNVLPIMYCWERNNDVDYTISRMKENPNRKQFDPYKGYCKTYRGLL
+                     PEFQDKSGNNLFLNKKSWISSADTTYLYGRFIFMPNIISTDALIVNYNFDIDLTIYYS
+                     LKTLQYTI"
+ORIGIN
+        1 tagtattacc agcggctggg tgagactgag acatgggcac gtcaaggtca ccgggcccct
+       61 aaaggacttg gcggtcagcc aagtcctaga cggcgctcag cgccggctgt aaccgtcagt
+      121 tgcagtatgg aaggcaagcg agttagatat cgccgatatt gtataacaat taataatgaa
+      181 agtgacaaca aaagaatcct cggattattt cttgaagatg ggattaagaa aggcgttatt
+      241 ggagttgaga ctgcaccaac gactggtacg aagcacttgc aaggatatat tgaatacccc
+      301 acccaacgag attggagcag tattaagaaa gtctgcccaa atgcccacat cgaagctgca
+      361 aaaggaacct ctagacaaaa ttacgagtac tgtactaaag aagggaattt tgttgtacac
+      421 gggcattttg aaacaggtaa gcggaaaagg cgagattatt cactgtcgga gtatgtcaaa
+      481 caagttcttc aagatgaatt acctaatgac tctacgttta tcagaaacta tgagaagatc
+      541 caaactcatg cgaaactggt ctcttcccgc caggagaaag ttagactttt cggggaatta
+      601 tcgtgctgca aagtcactag ttggcaacgt aaagctatcg agtccttgtt tttacaaggg
+      661 aaaagggaag tgttatggat ttatgaatca gtgggtggaa aaggaaaaac tttcctcgca
+      721 accatcctcg aagtcgtgta tggctttaca agatttgatg gaatcaccaa aagtcgtgac
+      781 attgcccttc tcataccccc tatccctaaa ggctttgtgt ttgacgtcac tcgagacgat
+      841 gcgtcaaact tttcctacaa cacgctcgaa caagtcaaga atggttacgt catgtcaggc
+      901 aagtacggtg gaagtcaaca ccttttcagg cctgtccccg tcattgttct atcgaacttc
+      961 gagcccataa gaagctctct ctccgaagac cgttggaaag tttggaacat agaaaatgcc
+     1021 tcgaatgaga agaaagaaga ccttccggaa gaagggaaaa ttccaccgaa ggcggtacta
+     1081 ttcgaagaag aggagaacaa ggagaatcaa cctaatgcag aagcaagtaa ttcacaacaa
+     1141 agtaacaagg acgttgaaca acatcgtgaa aagtgaatgg aatactccca cggaacttcg
+     1201 acttagtata atggatctac taacaactac tgaacaagaa gtgtttaagg cttttaaata
+     1261 ttataaaata cgtggtgtaa aagtagaatt taagtgtaca cctcctgtag cagcaattgc
+     1321 accacaagct gtactaacct cggatatagt acatatacca aatgtacttc caattatgta
+     1381 ttgttgggaa aggaataatg atgtagatta tacaatatct cgtatgaagg aaaatccaaa
+     1441 ccgtaaacaa tttgacccat ataaaggcta ttgtaaaact taccgtggac ttttacctga
+     1501 attccaggat aaaagtggaa ataatttatt tttaaataaa aagtcttgga tttcctcagc
+     1561 ggatacaacc tatttgtacg ggcgatttat attcatgcct aatattatat caactgacgc
+     1621 attaattgta aactataatt ttgacattga tttaaccatt tattactcac taaaaacatt
+     1681 acaatatacc atttaaataa agtattacta atattacaat tcctttcatt cctccttaca
+     1741 ttgtaatatt tataataata aacaactgga taaaaaagaa caaacaaaca aatatatttg
+     1801 tctcacccag ccgct
+//

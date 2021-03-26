@@ -1,0 +1,88 @@
+LOCUS       NC_038409               1757 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Dragonfly cyclovirus 7 isolate DfCyV-7_NZ-DFNZ3-2011, complete
+            genome.
+ACCESSION   NC_038409
+KEYWORDS    RefSeq.
+SOURCE      Dragonfly associated cyclovirus 7
+  ORGANISM  Dragonfly associated cyclovirus 7
+REFERENCE   2  (bases 1 to 1757)
+REFERENCE   3  (bases 1 to 1757)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC512919.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNAman v. 5.2.9
+            Coverage              :: complete
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1757
+                     /organism="Dragonfly associated cyclovirus 7"
+                     /mol_type="genomic DNA"
+                     /isolate="DfCyV-7_NZ-DFNZ3-2011"
+                     /host="Xanthocnemis zealandica"
+                     /db_xref="taxon:1574361"
+                     /country="New Zealand"
+                     /collection_date="Mar-2011"
+     gene            231..890
+                     /locus_tag="D1Q32_gp1"
+                     /db_xref="GeneID:37617150"
+     CDS             231..890
+                     /locus_tag="D1Q32_gp1"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009506311.1"
+                     /db_xref="GeneID:37617150"
+                     /translation="MAFRRSKRVFRRYRRQRRRRLPFRRRLYRARTKIGTLSCKLTKV
+                     SHVQVPNTTTTVWTISFNPKDFAEYLRLGPEFERCKFISVRVRVIPWQNVSNNSTSQV
+                     PNYCILPWHRPQAASGDFEHYMSVDKARLYRQTQRGYMSFVPSTLTFTGDVASAEKKN
+                     NYQYLWKPTIMWNSEISSLQPKIYCGLIAFQGDPSMEGRNSDFNIVIDCMVRFSNQSL
+                     L"
+     gene            complement(882..1733)
+                     /locus_tag="D1Q32_gp2"
+                     /db_xref="GeneID:37617149"
+     CDS             complement(882..1733)
+                     /locus_tag="D1Q32_gp2"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009506312.1"
+                     /db_xref="GeneID:37617149"
+                     /translation="MANAKIRRFCFTWNNYPLEAYTKCEEFIKNKCKYGIVGEEICPN
+                     TGTLHLQGFCNLHKPTRFNAIKRDLDNSIHIEKANGSDIDNQTYCSKSGIFFESGIPS
+                     KQGKRSDLMQVVETITKSEVPPTLEDIATKHPVEYIRYFRGIEKLQSILRPVCARRFK
+                     TDVYYYWGAPGTGKSRTALEEAEKITTTSIYYKPRGLWWDGYRQQTCVIIDDFYGWIK
+                     YDEMLKIMDRYPYKVQVKGGFEEFTSKHIWITSNIDTDLLYKFSNYSNVAFERRLTIK
+                     KHFIQLQ"
+ORIGIN
+        1 tagtattacc cgcgacttcg tcccactact tcgtcccact tctctctaca gccaccacgc
+       61 cctccccccg ccgggggcca ccggcctcgg ccggcggggg gggggggggg gccggccggg
+      121 gttggtggct ccccggccga gggggggggc gcaacacgac gcagcgagtt accaaggaca
+      181 aatgatgcta tactttcacc agtgcgcgtc tgaacacgct cagcgacagg atggccttca
+      241 ggcgttccaa acgggttttc cgccgttata gacggcaaag gcgtaggcgc ttaccatttc
+      301 gaagacgttt atatcgtgct cgtactaaaa ttggtacatt gtcttgcaaa cttactaaag
+      361 tttctcacgt ccaggttccg aatactacta cgacagtttg gactattagt tttaatccca
+      421 aggactttgc tgaatattta cgtcttggcc cagaattcga gaggtgtaaa tttatctccg
+      481 tccgagtacg tgtaatacca tggcagaacg tgtcgaataa ttctacgtcc caggttccaa
+      541 attattgtat cttaccttgg catcgtcctc aagctgcaag cggcgatttt gaacattata
+      601 tgagcgttga taaggctcgt ttatatcgcc aaactcaacg cggctatatg tcttttgtac
+      661 cgtctacgtt aacttttact ggagatgttg cgtcagccga gaaaaaaaat aattatcagt
+      721 atttatggaa gcctactatc atgtggaatt ctgaaatttc tagtctgcaa ccgaaaatat
+      781 attgtggact tattgcgttt caaggagatc cgtctatgga aggaaggaat tcggatttta
+      841 atatagtaat agattgtatg gttaggttta gtaatcaatc tttattgtaa ttggataaaa
+      901 tgttttttga ttgtaaggcg tctttcgaac gctacattgc tgtagttact aaatttatat
+      961 aataaatcag tatcaatatt tgatgtaatc cagatgtgtt tgcttgtgaa ttcttcgaac
+     1021 cctcctttca cctgtacttt gtatgggtac cggtccatta ttttcagcat ttcgtcatac
+     1081 ttgatccatc cgtagaagtc atcgatgatt acacacgttt gttgtcggta tccatcccac
+     1141 catagtcctc ttggcttgta gtagattgat gttgttgtaa ttttttctgc ttcttctaag
+     1201 gctgtgcggc tctttccagt tcctggagca ccccagtagt aatatacgtc tgttttgaat
+     1261 ctgcgtgcgc ataccggacg taaaatggat tgtaatttct caattccccg aaagtaacgg
+     1321 atgtattcaa cagggtgttt ggtggcaatg tcttccagcg taggtggtac ttctgatttt
+     1381 gtgatggtct ccacgacttg cataagatca gatcgttttc cttgtttgct tggaatgccc
+     1441 gattcaaaaa aaatgcctga cttagaacag tatgtttggt tatcaatgtc ggatccattt
+     1501 gccttctcaa tatggatgct gttatcgaga tcccttttga tggcgttaaa gcgagtgggt
+     1561 ttatgaaggt tacagaatcc ttgtaggtga agggtacctg tattcggaca gatttcctct
+     1621 ccaacgatgc catatttgca cttgtttttg atgaactctt cacacttggt atatgcttcg
+     1681 agtggatagt tattccacgt aaagcagaaa cgccgtattt tcgcattcgc catttgggac
+     1741 gaactgaagt cgcggta
+//

@@ -1,0 +1,92 @@
+LOCUS       NC_025792               1790 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Bat circovirus POA/2012/VI, complete genome.
+ACCESSION   NC_025792
+KEYWORDS    RefSeq.
+SOURCE      Bat circovirus POA/2012/VI
+  ORGANISM  Bat circovirus POA/2012/VI
+REFERENCE   2  (bases 1 to 1790)
+REFERENCE   3  (bases 1 to 1790)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KM382270.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1790
+                     /organism="Bat circovirus POA/2012/VI"
+                     /mol_type="genomic DNA"
+                     /isolate="cluster VI"
+                     /isolation_source="bat feces"
+                     /host="bat colony of Molossus molossus and Tadarida
+                     brasiliensis"
+                     /db_xref="taxon:1572239"
+                     /country="Brazil"
+                     /collection_date="13-Feb-2012"
+                     /collected_by="Francisco Esmaile de Sales Lima"
+                     /identified_by="Francisco Esmaile de Sales Lima"
+     gene            208..867
+                     /gene="Cap"
+                     /locus_tag="QY62_gp1"
+                     /db_xref="GeneID:22318779"
+     CDS             208..867
+                     /gene="Cap"
+                     /locus_tag="QY62_gp1"
+                     /codon_start=1
+                     /product="capsid"
+                     /protein_id="YP_009110681.1"
+                     /db_xref="GeneID:22318779"
+                     /translation="MAFRRFRRWRRMPLRRNRFRRRIFRHRLRRRVVRRTPTLYVKLT
+                     RTIQIAIPPSVEFNQPLHVSLNDFAEHINLAPNFERVKALRQTVRVYPQQNVSNTSTS
+                     RVGNYCMLPYHKPVPTSLINFPTALSVDKAKVFRCTQKGRMSFVPATRLDADGVGGNQ
+                     TIRTDWRPELEIGSTATNVIMYTGMIVFENINAGLTGTTAYYTVVQDLYVRYKNQRSF
+                     I"
+     gene            complement(1005..1703)
+                     /gene="Rep"
+                     /locus_tag="QY62_gp2"
+                     /db_xref="GeneID:22318778"
+     CDS             complement(1005..1703)
+                     /gene="Rep"
+                     /locus_tag="QY62_gp2"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="YP_009110682.1"
+                     /db_xref="GeneID:22318778"
+                     /translation="MSNSTVRRFCFTWNNYTVADTLTVKDFFIQHCKYGIAGEEIAPT
+                     TGTPHLQGFANLSKPMRFSTIKKHLHNGIHIEKANGSDEQNQAYCKKSGTWFEQGTPC
+                     SQGSRSDLADVVSAIQNGTNTTQAIAQLYPIAYIKYYKGINEYLKIQHPITPRRHKTW
+                     VYYYWGPPGTGKSRRALKKRRVSTQKVSTTSQGACGGTDTSNKRTSSSTTSTGGSNTT
+                     NYSKLLTDTLTKYK"
+ORIGIN
+        1 gggggggaca ggcgcggcga gacccgcaat aacaagtggg actctcgaaa ccggttggga
+       61 tgttatcatt atcgcggagc ggtagcggag cgtgacgccc cccccaccac cgggcgtgta
+      121 gacaacgaag tcgggtatag tattaccccg acttcgtagc agacttcgta gcggccttga
+      181 gtgcctttca ctccggttag tgacgcgatg gccttcagac gattcagacg ctggcgacgt
+      241 atgccgctgc gccgaaacag gtttcgcagg agaatatttc gacatcgtct gcggcgtcgt
+      301 gtagtacgcc gcacgcctac gttatacgta aagttgacaa ggactattca gattgctata
+      361 ccgccaagcg ttgagtttaa tcagcctctg catgtgtctc taaatgattt tgctgaacat
+      421 atcaatctcg ccccaaattt tgagagagtt aaggcattac gccagacagt tcgtgtatat
+      481 ccgcagcaga atgtctcgaa tacttcgacg agccgtgttg gcaattactg tatgctgcca
+      541 taccacaaac cggttcccac gtcgcttatt aactttccga cggcgctctc cgtggacaag
+      601 gctaaggtat tccggtgcac gcagaaaggc aggatgtcgt tcgtcccggc cactcgcctt
+      661 gatgcagacg gtgtaggtgg gaatcagact attcgaacag attggagacc tgagttggag
+      721 ataggctcta cggctacgaa tgttataatg tatacgggca tgattgtatt tgaaaatata
+      781 aacgcaggtc ttactggtac tacagcttat tatactgtgg tgcaggattt gtatgttagg
+      841 tataagaatc agagaagttt tatataatca atttatttca attttacatg taatgcgtct
+      901 ttcgaacgct gcattattgt atccaataaa gttgtaaagt ttatttgtgt ctacattgct
+      961 cgtaaaccat atgcgtgtac ttgtaaattc ctcgaacccc ccctttattt gtactttgta
+     1021 agggtatctg tcagtaattt tgagtagttc gtcgtatttg atccacccgt agaagtcgtc
+     1081 gatgatgacg ttctcttgtt gcttgtatcc gtcccaccac aagccccttg gcttgtagta
+     1141 gatactttct gcgttgatac tctccgcttc ttcagagctc tcctgctttt gccagtccca
+     1201 ggcggtcccc aatagtagta gacccaggtt ttgtgtctac gcggcgtaat aggatgttgt
+     1261 attttgaggt attcgttgat tcctttatag tacttgatat aagcgatggg atatagctgt
+     1321 gcaatggcct gtgtggtgtt ggtcccgttc tgtatggcag aaaccacgtc ggcaagatcg
+     1381 gatcttgatc cttggctgca tggcgttccc tgttcaaacc aagtacctga ttttttacag
+     1441 taagcttggt tttgttcgtc ggatccattt gccttctcaa tatggattcc gttatgcaga
+     1501 tgctttttga tggtactgaa gcgcatgggc tttgataaat tagcgaaccc ctgcagatga
+     1561 ggggttccgg tcgtcggagc gatttcctct ccagcgatgc catatttaca gtgttgtatg
+     1621 aaaaagtcct tgactgttaa tgtatctgca actgtgtagt tattccacgt gaagcagaat
+     1681 cgacgcacgg tactgttgga cattgtgtga cacaacgcac gctctgtctc aatatatagc
+     1741 gcgccgcgcc ccctcccccc cccggagcga agcggagggg ggggggatgg
+//

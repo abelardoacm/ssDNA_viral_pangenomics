@@ -1,0 +1,91 @@
+LOCUS       NC_035209               1971 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Garrulus glandarius associated circular virus 1 strain GgaCV-1/1,
+            complete genome.
+ACCESSION   NC_035209
+KEYWORDS    RefSeq.
+SOURCE      Garrulus glandarius associated circular virus 1
+  ORGANISM  Garrulus glandarius associated circular virus 1
+REFERENCE   2  (bases 1 to 1971)
+REFERENCE   3  (bases 1 to 1971)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KY884302.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1971
+                     /organism="Garrulus glandarius associated circular virus
+                     1"
+                     /mol_type="genomic DNA"
+                     /strain="GgaCV-1/1"
+                     /isolation_source="cloacal swab"
+                     /host="Garrulus glandarius"
+                     /db_xref="taxon:2006642"
+                     /country="Hungary"
+                     /collection_date="2013"
+     gene            13..903
+                     /locus_tag="CGU99_gp1"
+                     /db_xref="GeneID:33350085"
+     CDS             13..903
+                     /locus_tag="CGU99_gp1"
+                     /codon_start=1
+                     /product="putative rep protein"
+                     /protein_id="YP_009389520.1"
+                     /db_xref="GeneID:33350085"
+                     /translation="MATSVPTVPGKLGKSRSCCWTLNNYHDDDIIRLRHYGKNSCRYM
+                     VFGYEVAPGTGTPHLQGYVSWENPRSLDAFKLEISQRLHLEKTRGTPKQASDYCKEDG
+                     KFEEFGELPRQGERTDWCVAISQIQSGIPVEEVIENQPQLLPCIRALDTFKARQIKPL
+                     HREVTVYVLWGDAGTGKSRWAYDNYPELYSKPPGKWWDGYLGQKTILLDDFYGYIPYT
+                     ELLNVLDRYPYHAEVKNGYVWAQWDTVIITSNKPPNLWYKGIGLTPALQRRLNKISFY
+                     GIDGKIEDASCPPEAQSRSA"
+     gene            848..1648
+                     /locus_tag="CGU99_gp2"
+                     /db_xref="GeneID:33350084"
+     CDS             848..1648
+                     /locus_tag="CGU99_gp2"
+                     /codon_start=1
+                     /product="putative cap protein"
+                     /protein_id="YP_009389521.1"
+                     /db_xref="GeneID:33350084"
+                     /translation="MAKSKMRRVPRKRRAGLRKRRVGKARASNVRDFASLSVSRTFTV
+                     PGSPPTQPIANVMYSMMATQLTQYTRAVQAAQAYQYYRIKRVSLKLKPQFDTYASSAN
+                     AYGKPKLYYIIDKSGALPTNVSLESLKQMGARPRNLDEKALTISFSPTVLNSAMTAGG
+                     GAFTTAPSQYQVTPWLNTNANTVAPGVWTANDVDHLGCYWYVESTSYGGTGGLPYQVD
+                     VEVQFEFKKPLWSALSSTTAIELVPAILDASPDGVEGGSDGITIPLIH"
+ORIGIN
+        1 tagtattacc ctatggcgac ttccgttccg accgttccag gcaagttagg aaagtcccgg
+       61 tcgtgttgtt ggactttgaa caactatcat gatgatgata taatcaggtt gaggcattac
+      121 ggaaagaact cttgtaggta tatggtcttt ggctatgagg ttgctcccgg cacaggcaca
+      181 cctcacctac aaggttacgt atcatgggaa aacccccggt cacttgacgc atttaaactc
+      241 gaaatatcac aacggctcca tttagaaaaa acgagaggca cacctaagca ggcttccgac
+      301 tattgtaagg aggatgggaa gtttgaggaa ttcggcgaac taccccggca gggcgaacga
+      361 acagattggt gcgtagcaat tagccaaatt caatctggca ttccggtaga ggaggtgatt
+      421 gaaaatcaac cacaacttct cccttgtata agggcacttg atacattcaa agcaagacag
+      481 attaaaccac ttcatagaga agtgactgtc tatgtattat ggggtgacgc tggcactggt
+      541 aaatcacgct gggcgtatga taattaccca gaactttatt cgaaaccgcc aggtaaatgg
+      601 tgggatggct atcttggcca aaagacaatc ttgctggacg atttttacgg ttatatccca
+      661 tataccgaac tccttaatgt acttgatagg tatccctatc acgcagaggt caagaacgga
+      721 tatgtgtggg cacagtggga cacggttata ataacatcta ataaacctcc gaatttatgg
+      781 tataaaggaa ttggtttaac accagcgctg caacgcagac taaataaaat ctcattttat
+      841 ggtatagatg gcaaaatcga agatgcgtcg tgtcccccgg aagcgcagag caggtctgcg
+      901 taagcgtaga gttggtaagg ctcgcgcttc taatgttcgt gactttgctt cactctccgt
+      961 gagtcggact tttacagtcc caggttcgcc tcccacgcaa cctatagcca atgttatgta
+     1021 ctctatgatg gccactcaac taactcaata caccagagcc gttcaggctg cgcaagcata
+     1081 tcaatactat cgcattaagc gtgttagttt aaaacttaaa ccccagtttg acacctatgc
+     1141 ttcaagtgcc aatgcttatg gcaaacctaa gttatactat attattgata aatctggtgc
+     1201 tctcccgact aacgtgtctt tagaatcgct aaagcagatg ggagcacgtc ctcgcaatct
+     1261 cgatgagaag gcgctgacga ttagttttag ccccacagtc ttgaactcgg caatgactgc
+     1321 tggaggtggt gcttttacaa cagcacctag tcaataccag gttacaccgt ggctaaatac
+     1381 caatgctaac accgttgctc caggagtctg gacagcaaat gacgtagacc atttaggttg
+     1441 ttattggtat gtcgaatcta catcttatgg tggcactggt gggttacctt accaggttga
+     1501 tgtagaagtt cagtttgaat tcaagaagcc cttatggagc gctctgtctt cgacaacggc
+     1561 aattgagtta gtccccgcaa tcttggatgc gtctccagat ggggttgaag gtggctcaga
+     1621 tggaatcaca attccactga tacattagtg acttgtcata aatcatgaac aagggcaaac
+     1681 agtggacgag cgttatcccc ccacgcggcc ttctcagcag taatgaactg agggtttccg
+     1741 cgtccgatgc gcacccccca ggataatttc cattatccca aattatgata atttttttat
+     1801 cgataatttg caagggtgcg aaaatgtgtt aaatcagggg gggtgtccca ccctggcaaa
+     1861 ttatcgataa aaaaattatc ataatttcgg ataatggaaa ttatcctggg gggtgtcatt
+     1921 tgacacgcaa agttcagtag gaaatctttt agattttcgg cgccataggt a
+//

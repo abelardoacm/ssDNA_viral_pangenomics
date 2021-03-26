@@ -1,0 +1,80 @@
+LOCUS       NC_038387               2094 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Bat associated circovirus 5 isolate BtPa-CV-1/NX2013, complete
+            genome.
+ACCESSION   NC_038387
+KEYWORDS    RefSeq.
+SOURCE      Bat associated circovirus 5
+  ORGANISM  Bat associated circovirus 5
+REFERENCE   2  (bases 1 to 2094)
+REFERENCE   3  (bases 1 to 2094)
+REFERENCE   4  (bases 1 to 2094)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ641727.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNASTAR v. 7.1.0
+            Coverage              :: 5
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2094
+                     /organism="Bat associated circovirus 5"
+                     /mol_type="genomic DNA"
+                     /isolate="BtPa-CV-1/NX2013"
+                     /host="Plecotus auritus"
+                     /db_xref="taxon:2003310"
+                     /country="China"
+                     /collection_date="Jun-2013"
+     gene            1..882
+                     /locus_tag="D1Q10_gp1"
+                     /db_xref="GeneID:37617093"
+     CDS             1..882
+                     /locus_tag="D1Q10_gp1"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_009506277.1"
+                     /db_xref="GeneID:37617093"
+                     /translation="MKASTPAYRWCFTINNWTSEEYGLIESTLRSSVKYAIIGKEVGE
+                     KGTPHLQGFANFKKKLRLSTLKKLPGFTRAHVERAKGTDLQNQKYCRKGNTYLEIGCP
+                     SSQGKKPELTVAVRKLQESNGDLVKIAKEHPEVYIRHGRGLRDYVNTAGLVGQRAWKT
+                     YVVVIVGEPGVGKTRYVNSECKECSVYWKPRGPWWDGYAGQEAVIFDDFYGWIMFDEL
+                     LRVCDRYPLKVPVKGAFVEFVAKKVYFTSNKPPEEWYDKENIRGNIEAFFRRINEYLV
+                     IKGEVVEDGTPMYEINY"
+ORIGIN
+        1 atgaaagctt cgacaccggc ctacagatgg tgttttacaa tcaacaactg gacaagcgag
+       61 gaatatggct tgatagaatc tacactcaga agctcagtga agtacgctat tatcggcaaa
+      121 gaggttggcg aaaaaggtac cccgcacttg caaggattcg cgaatttcaa gaaaaagcta
+      181 aggctgagca cattaaagaa actacccggc tttacgcgtg cccatgtcga gcgtgcgaag
+      241 gggacggatc ttcagaatca gaagtattgt cggaagggga atacctacct ggagattgga
+      301 tgtccctcga gccaggggaa gaagccggag ctgacggtgg cggtgaggaa gctgcaggag
+      361 agcaacgggg acctagtgaa gattgctaag gagcacccgg aggtgtacat ccggcatggg
+      421 cgtggcttac gggactatgt taacacggct ggactggtgg ggcagagggc atggaaaaca
+      481 tatgttgttg taattgtggg cgagccaggt gttggcaaga cccggtatgt caatagtgaa
+      541 tgtaaagaat gcagtgtgta ttggaagcca cgtgggcctt ggtgggatgg gtatgcgggg
+      601 caagaggctg tgatctttga tgatttttat gggtggataa tgtttgatga attgcttagg
+      661 gtgtgtgatc ggtacccatt aaaggtgccg gttaagggag cctttgttga gtttgttgct
+      721 aagaaggtgt actttactag caacaagcct ccggaggagt ggtatgataa ggagaatatc
+      781 agggggaata tagaagcttt ttttaggagg attaatgaat accttgtgat taagggggag
+      841 gtggtggagg acgggacccc aatgtatgaa ataaattact aaagctacag cagtggattg
+      901 tcttagttgt cctttattgg ggaattggca cagaagttac agaggttggg agcgccccac
+      961 aggggcagcg tgggtgggtg ggtgcaacga acgccgaggg gacccgaaga ctttcgggct
+     1021 cgggggttag aaaccggcga cgtcagttag gtttcttcct actgactccc ttggggcggt
+     1081 ggccagaagg tgggtccaat atataaatct atggctggga gtttgtcctc gtcagaggac
+     1141 attcttccag aggacccaga tggttttagt ttgcaggaaa taatagtttg tgggttgggg
+     1201 gcttgccacg caatatttaa gaccaaacca tttggtttgg ttggtggtgg cattaatcca
+     1261 aggcctgtgt ctgaagaaat aggtggatga gcctgctgaa tcttgcagca ttggctgggg
+     1321 tctgatgaag cggcggatgc ctctttgggg tctccaccag cgggtagtac tgttggtgga
+     1381 gcccgtgagt ttggagggtt cttgttcagc ggtggcatca tctaggtcaa tccagcaggt
+     1441 ggcttttccc caggacgtcc aggcgaagac gggggtgctg gggataaggg accaagcggc
+     1501 atatttgatg cgatagtagt caaagcgggg ggattctgtg aagaattcag agagtgtcca
+     1561 gtagacggac cctcctttat agagtttgtt ggaggtcgta ctgagaacga gagggccagt
+     1621 gtggctgaat ttttcgagat agtaagagcc agcgcgcctt ctgtagatat gcaagcgccg
+     1681 tcgggggcgt ctgagtacgc gcctgcgcag tctccggggg cggcgccaca ctcgtctccg
+     1741 cctcctccag gggcgtctcc aggccattcc tataaaacat ggtgccgcag tattacccca
+     1801 acattggcac catggcacag gcttgctatg cagaaggggc caccgccgca ccgaaaagaa
+     1861 gtaggcgcgc tcatgccgag tttgatattt gcgagcgagg catgtgtggc gtgcagcact
+     1921 tccccgactt tgtggtgggc ccgcccgaga ccctgtgcct taaaaagaat ggccggtttt
+     1981 gtgagaatga ggaggagctg gatgtgttta gctttggctt ttgcggggtt ccttggatag
+     2041 tgagatatcc ggagccccgc actacttacc agggtatgcg ttacctttgc agca
+//

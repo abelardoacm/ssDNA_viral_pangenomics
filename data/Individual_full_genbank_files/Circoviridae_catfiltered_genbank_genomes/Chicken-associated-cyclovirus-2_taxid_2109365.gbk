@@ -1,0 +1,88 @@
+LOCUS       NC_040639               1778 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Chicken associated cyclovirus 2 strain RS/BR/2015/4R, complete
+            genome.
+ACCESSION   NC_040639
+KEYWORDS    RefSeq.
+SOURCE      Chicken associated cyclovirus 2
+  ORGANISM  Chicken associated cyclovirus 2
+REFERENCE   2  (bases 1 to 1778)
+REFERENCE   3  (bases 1 to 1778)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MG846358.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: MetaSPAdes v. 3.10.1; Geneious v. 9.1.8
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1778
+                     /organism="Chicken associated cyclovirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="RS/BR/2015/4R"
+                     /isolation_source="feces"
+                     /host="Gallus gallus"
+                     /db_xref="taxon:2109365"
+                     /country="Brazil"
+                     /collection_date="2015"
+                     /collected_by="Diane Lima"
+     gene            248..1039
+                     /locus_tag="EXJ93_gp1"
+                     /db_xref="GeneID:41701958"
+     CDS             248..1039
+                     /locus_tag="EXJ93_gp1"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009552746.1"
+                     /db_xref="GeneID:41701958"
+                     /translation="MAFFPRRRRLFRRRPRYNLKRRYFRRRRRFMRSSRATTRHELSR
+                     GGQLFTRLHQSYILNSTTGRTIYLAPQLQSFTHYTNFAQFWSSIRVWKIAYKITPVIT
+                     ENVPIDNAGATYVLSFGRHVGSIYYDDQFPGAANTGVAQSYYDEISNFPNSKSTSITK
+                     PLRFSFVPKTVVNAVGVNGTITGKGWVARRKLDCDTSVGTSLYGLVYCYEGQQPESTN
+                     IQVRVDCYIYATFYEYRQFQYSPTLEKIDLNKMDINKIDDKKTFM"
+     gene            complement(1041..1778)
+                     /locus_tag="EXJ93_gp2"
+                     /db_xref="GeneID:41701957"
+     CDS             complement(1041..1778)
+                     /locus_tag="EXJ93_gp2"
+                     /codon_start=1
+                     /product="replication associated protein"
+                     /protein_id="YP_009552747.1"
+                     /db_xref="GeneID:41701957"
+                     /translation="MLRARRFGSIKKILGHRIHIERSNGSDVDNQKYCSKGGDFWEHG
+                     SPQGQGKRNDLISIVEEIKSGTGLVEICENHTESFIRYHSGIEKAYRYIGRGCNDRNW
+                     KTKVFTPQTSWGASLMFFLHVFYGATGTGKSRLAALRCSGRRVYYKPHDKWWDGYDGH
+                     ECVIIDDFYGWIPYDELLRITDRYPHRVAIKGAMIQFLAKDIYITSNKHPRDWYNHLW
+                     FQDNQYAALKRRIDEHICMGEGFNKEL"
+ORIGIN
+        1 gttaaagaag cattgtaagt gcggtgttga agttgttgga gcaacttctc tcccgatgat
+       61 agcatatctg caagagttac tagcgaaatt tcttgctgcg gcatattctt cgtcacttgg
+      121 attattaagt gtcacacaaa aacgtttgaa aatcgtgctg ttttgttgcc gaggcatagt
+      181 attaccctcg gcaacttcgt tacatctata tatactcaga aacccgtcag gccagtttag
+      241 tcgtgggatg gccttctttc cgagaagacg tcgccttttt aggcggaggc ctcgttataa
+      301 tctaaaacgt cgttattttc gtcgccgacg gcgctttatg cgctcctcaa gggcaaccac
+      361 ccgacatgaa ttatctcgtg gtggacaact ctttactcgt cttcatcaat cctatatact
+      421 gaattctacc actggaagaa cgatttatct tgccccccag ctgcaatcgt ttactcatta
+      481 tactaacttt gcgcaatttt ggtcgtctat tcgtgtttgg aagattgcat ataaaataac
+      541 acctgttatc accgaaaatg tacctatcga caatgccggc gccacctatg tcttatcctt
+      601 tggccgtcat gttggaagca tatattatga cgatcagttt cctggggctg ctaatactgg
+      661 cgtggcgcaa tcatactacg acgaaatatc aaactttccc aattcaaaat ctacttcaat
+      721 aacgaagcca ttacgtttct ctttcgttcc gaaaacggtc gttaatgctg ttggagttaa
+      781 tggcactata actggcaaag gctgggttgc taggcgaaaa cttgattgcg atacatctgt
+      841 tgggacttca ttatatggac ttgtttattg ctatgaaggg caacaacctg aatcgactaa
+      901 tattcaagtg cgtgtggatt gctacatcta tgcaaccttt tacgaatatc gacaatttca
+      961 atattcacct acccttgaaa aaattgattt aaacaaaatg gatatcaaca aaatagatga
+     1021 caaaaagaca tttatgtgaa ttataattct ttattaaaac cttcacccat acaaatatgt
+     1081 tcgtcgattc ttctttttaa agcggcatat tggttatctt ggaaccatag atgattatac
+     1141 caatcccttg gatgtttatt cgatgttata tagatatctt tggctaaaaa ttgaatcata
+     1201 gcacctttga ttgctactct gtggggatat cggtcagtga ttctgagtaa ctcgtcataa
+     1261 gggatccatc cgtagaaatc gtcaatgatg acgcattcat gtccgtcata tccgtcccac
+     1321 catttgtcgt gaggcttgta ataaactctt ctcccagaac atcgtagagc agccaaacgt
+     1381 gattttcctg ttccagtagc tccatagaag acatgcaaaa aaaacattag tgaggccccc
+     1441 cagcttgtct ggggggtaaa tacctttgtt ttccaatttc ggtcattaca tcctcttcca
+     1501 atatatcgat aagctttttc aataccactg tgataccgaa tgaatgactc ggtatgattc
+     1561 tcacagattt ccacaagtcc agtgcccgat ttaatctctt caacaatcga tataaggtca
+     1621 ttacgttttc cctggccttg aggacttcca tgttcccaaa aatcacctcc tttcgaacaa
+     1681 tatttttgat tgtcgacatc agatccattg cttctctcaa tgtgaattcg gtgtcccaga
+     1741 atcttcttaa tgcttccaaa ccttctggcg cgtagcaa
+//

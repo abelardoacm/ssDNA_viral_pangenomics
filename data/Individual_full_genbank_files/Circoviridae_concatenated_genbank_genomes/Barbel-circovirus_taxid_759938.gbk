@@ -1,0 +1,82 @@
+LOCUS       NC_015399               1957 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Barbel circovirus, complete genome.
+ACCESSION   NC_015399
+KEYWORDS    RefSeq.
+SOURCE      Barbel circovirus
+  ORGANISM  Barbel circovirus
+REFERENCE   2  (bases 1 to 1957)
+REFERENCE   3  (bases 1 to 1957)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GU799606.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1957
+                     /organism="Barbel circovirus"
+                     /mol_type="genomic DNA"
+                     /host="Barbus barbus (barbel)"
+                     /db_xref="taxon:759938"
+                     /country="Hungary"
+                     /collection_date="02-Jul-2008"
+     gene            48..1007
+                     /locus_tag="BarbCV_gp1"
+                     /db_xref="GeneID:10445913"
+     CDS             48..1007
+                     /locus_tag="BarbCV_gp1"
+                     /codon_start=1
+                     /product="putative replication protein"
+                     /protein_id="YP_004376332.1"
+                     /db_xref="GeneID:10445913"
+                     /translation="MPKATSKTRHLQNPRQDAPRREQPVKRWCFTLNNPTAEERRHIQ
+                     EIITADAVDFAVIGNEVGDSGTPHLQGFLNMKTKRRLGTMKKWFNARAHYEAAKGTDL
+                     QNDEYCTKGGDTYLRIGEPGKERCRNDLQKAIDVVKRSSGSMRAVAEACPATFIRYGR
+                     GLRDYANVMQYRKPRDFKTEVNVYVGDPGCGKSRKASELCAGTTVYYKPRGMWWDGYD
+                     GQENVIVDDFYGWMPCDELLRVFDRYPCKVPVKGAYVEFVSTNIYVTSNKHVWQWYKF
+                     EGFDPAAVMRRVNVYLVYDNAGERFVNLRESAMYDPVTMRYCY"
+     gene            complement(1261..1761)
+                     /locus_tag="BarbCV_gp2"
+                     /db_xref="GeneID:10445912"
+     CDS             complement(1261..1761)
+                     /locus_tag="BarbCV_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_004376333.1"
+                     /db_xref="GeneID:10445912"
+                     /translation="MTWNATSGLSSGIVFLLSDVSYPKNYWDYYKISKVVVQLWPEFN
+                     NVPINADRDKVLYGSTAVDYDDATMATSTADPFKDYSSRKMFISNRTHIRIFTPRPNI
+                     EIYKSSASTNYGFLNIRSGAWINTVHDGVPHYGLKIWLPSNTGAPSAIGYKLIIKYYV
+                     LFRNRI"
+ORIGIN
+        1 accagtcact gcggcaccaa gcaccactgc agatactaac cgaaatcatg cctaaggcca
+       61 cgtctaagac gcgacatttg cagaacccgc gacaagatgc tccgcggcgc gaacaacctg
+      121 tgaaaagatg gtgtttcacc ctgaacaacc ctacggctga ggagcgtcgc catattcaag
+      181 agataataac ggcggacgcc gtagactttg ccgtgatcgg caatgaagta ggtgacagtg
+      241 ggacaccgca tcttcaagga tttctgaata tgaaaacaaa acgtcggctg ggaactatga
+      301 aaaagtggtt taacgctaga gctcactacg aggccgctaa aggcacggat ctacaaaacg
+      361 acgaatactg cacaaagggc ggcgatactt accttcgcat cggtgaaccg ggcaaagaac
+      421 gctgcagaaa cgatcttcaa aaggcgatag acgttgtgaa gagatcctcc gggagtatgc
+      481 gggcagttgc cgaggcttgt cccgctactt ttattcgtta tgggcggggt ctacgtgatt
+      541 acgccaacgt gatgcagtac cggaagccac gtgatttcaa aacggaagtg aatgtttacg
+      601 tcggagaccc cggatgtgga aagagccgga aggcgtcgga gctttgtgca ggcaccactg
+      661 tgtactataa gcctcgcggt atgtggtggg atggatacga tggacaagag aatgtaattg
+      721 tcgatgactt ttacggctgg atgccatgtg atgaactgtt gagagtgttt gatcgatatc
+      781 cttgtaaagt accggtaaaa ggagcctatg tggaatttgt gtcaactaat atatatgtga
+      841 cgtctaacaa gcatgtgtgg caatggtata agtttgaagg gtttgacccc gccgccgtca
+      901 tgagacgggt taatgtgtat cttgtgtacg acaatgccgg ggagagattt gtcaatctcc
+      961 gtgaatcggc tatgtatgac cctgttacca tgagatattg ttattgaata aacaaacgat
+     1021 gaagaagtac taaaatgcct tttatttttg ttgacaatat taaaaagaac cgatcatttt
+     1081 tgtacatttt ttttgtttta catgcttaac aaacaaacat aaagtaagga ggtgtctccg
+     1141 ttagaagttt ctccgttaga attgcactga agtcaagtac agaatccttc agtgcgcgga
+     1201 gcgccggtgg agggccggag gcccgacacc tctggtacgg cgtagccgta gcctacgccg
+     1261 ttaaatccgg tttctgaata agacgtagta tttgataatt agtttgtacc cgattgcaga
+     1321 aggggccccg gtgtttgaag gtaaccatat tttgagcccg taatgaggta cgccgtcgtg
+     1381 tactgtgtta atccatgcac cggatcgaat attcagaaat ccgtagttgg tagaggcgga
+     1441 agacttgtaa atttcaatat tgggacgagg agtaaagatc ctaatatgtg tcctgttcga
+     1501 aataaacatt tttctagagg agtagtcctt aaacggatct gcagtgctag tagccatggt
+     1561 agcgtcgtcg taatcgacag ctgtgctacc gtaaaggacc ttatctctgt cagcgttaat
+     1621 tggaacgttg ttgaattcag gccacagttg cacgacaact ttactgatct tataatagtc
+     1681 ccagtagttc tttggatacg acacatcaga caataagaaa acaattcccg aagagagccc
+     1741 gctggtagca ttccaggtca aatgatcgtg tttgatagct cgtaaacgga agtaggagta
+     1801 tcgtcctgtg tgtcgccttc ttctgacgta cttccgtcgc cgccatccac gtgagctccg
+     1861 acgccttccg gctcgtcgtc tggcacgcct tctggggagg agaaatcaat tagtgacgcg
+     1921 tatataaccg gaagtgccgc agtgactgcc tagtatt
+//

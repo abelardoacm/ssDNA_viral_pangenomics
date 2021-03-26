@@ -1,0 +1,115 @@
+LOCUS       NC_035194               2653 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Giant panda circovirus 3 strain gpci003, complete genome.
+ACCESSION   NC_035194
+KEYWORDS    RefSeq.
+SOURCE      Giant panda circovirus 3
+  ORGANISM  Giant panda circovirus 3
+REFERENCE   2  (bases 1 to 2653)
+REFERENCE   3  (bases 1 to 2653)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MF327575.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 8.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2653
+                     /organism="Giant panda circovirus 3"
+                     /mol_type="genomic DNA"
+                     /strain="gpci003"
+                     /isolation_source="feces"
+                     /db_xref="taxon:2016458"
+                     /country="China"
+                     /collection_date="2015"
+     gene            1..900
+                     /locus_tag="CGU85_gp1"
+                     /db_xref="GeneID:33349993"
+     CDS             1..900
+                     /locus_tag="CGU85_gp1"
+                     /note="Rep"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009389439.1"
+                     /db_xref="GeneID:33349993"
+                     /translation="MPANENTPGKYWCFTSYHNDCPVFDAGTMQYLVYGGEICPRTER
+                     RHWQCYVEFKSNKRRKAVSKMFNGVHLERRNGTAQEAATYCKKDEQFVEHGSIGEVNQ
+                     GRRTDIHDAASLVAAGQSVRSIAESNPRLFAQYGRGLTFLSAVTNSGRSIRWRDVKCQ
+                     MWWGKTNLNKTRTWFDKYWDEGCYRFQYGNGKSWWDGYDGEKHILFDEFNCQILLSEM
+                     LMLTDGYPMRLECKGSHTYAKWETVTIISNDDPQFFYNSCSTDKRNAFARRFEKLIHF
+                     TSEGQIESEYKFAESSVGFFDRA"
+     gene            complement(1005..1715)
+                     /locus_tag="CGU85_gp2"
+                     /db_xref="GeneID:33349991"
+     CDS             complement(1005..1715)
+                     /locus_tag="CGU85_gp2"
+                     /note="CAP"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009389440.1"
+                     /db_xref="GeneID:33349991"
+                     /translation="MTQEITQISDANDVSDSFETKFIVKNSKQVTTVINTSNASVLCQ
+                     SYFCRVRYDIGTGQNYQDLCQLLGDGFFQRGLDTQSGSANSGVSDASLTPFDSHKFCS
+                     YFNIFKVQKYELEAGATKMLTVQTNKPYTVNTSHLFTGSSRTFPPTFSPCILHKKGEM
+                     FVFTKFEGIPADSQSGQWYTTPKLDTITKTHYNYVMLSPNPPTLLRKPATGYTAPGAN
+                     ALTIMQEESGNNVPQTNA"
+     gene            complement(1888..2307)
+                     /locus_tag="CGU85_gp3"
+                     /db_xref="GeneID:33349992"
+     CDS             complement(1888..2307)
+                     /locus_tag="CGU85_gp3"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009389441.1"
+                     /db_xref="GeneID:33349992"
+                     /translation="MTNFFFVIFHLLITFPNMTPRNISDYHCAVSFCTQPYQDSGYMC
+                     YFSAAPNARRAYRSLPSRSNMVARKSFLRARASKRRPRRRVVKRKRVARKPRRRTRKT
+                     PKNGVQWKPANILSLDYDNADTRLVTAGSAIQGKRCP"
+ORIGIN
+        1 atgccagcta atgagaatac accaggtaag tactggtgct tcacttcata tcacaatgac
+       61 tgcccagtat tcgatgcagg gaccatgcaa tatcttgtat acggagggga aatctgtcct
+      121 cgtactgaac gaagacattg gcaatgttat gttgagttca aatctaacaa gagacgtaaa
+      181 gccgttagca aaatgtttaa tggtgttcat ctcgagcgaa gaaatggaac agctcaagaa
+      241 gcagccacat actgtaaaaa agatgagcag tttgtcgaac atggaagcat tggagaagtc
+      301 aatcagggaa gacgaactga catacatgat gcagccagct tggtcgccgc tgggcagtca
+      361 gttcgaagta tcgctgagtc caatccaaga ttgtttgctc agtacggacg aggtcttacc
+      421 tttctttcag ctgtcaccaa ctcaggcaga tctatcagat ggagagatgt caaatgccag
+      481 atgtggtggg gaaagaccaa tctaaacaaa acacgtacgt ggtttgataa atactgggat
+      541 gaaggatgtt atcgttttca atatggtaat ggtaagtctt ggtgggatgg ttatgatggt
+      601 gaaaaacaca ttctgttcga tgaattcaat tgtcaaatat tgttatcaga aatgctaatg
+      661 ttgacagatg gatatccaat gagattggaa tgtaaaggat cacatactta tgcaaaatgg
+      721 gaaacagtta ccatcatttc aaacgatgat ccacagtttt tttacaacag ttgttctaca
+      781 gataaaagaa acgcattcgc aagaaggttt gaaaagttaa ttcattttac tagtgaagga
+      841 caaattgaaa gcgaatacaa atttgctgaa tctagtgttg gtttttttga tagagcataa
+      901 aataatatgt tgggcccaca tcgctcccgc tgcgcgagca ttgatcacac cgagtgggca
+      961 agagtctgtg ttgtcgccgc gttgtcgctt cgcccgcggc gagactatgc gttagtttga
+     1021 ggaacattgt tgccactttc ttcttgcatt attgttaaag cattggcacc tggagcagtg
+     1081 taaccagttg caggtttgcg aagaagtgta ggtggatttg gcgacaacat aacataattg
+     1141 taatgtgtct ttgtgatagt atctagtttg ggagtggtgt accattgacc tgattgagaa
+     1201 tcagctggta ttccttcaaa cttagtaaaa acaaacattt cacccttttt gtgaagaata
+     1261 caaggactga aagtaggtgg aaatgttcta ctagaaccag tgaataaatg agaagtgttg
+     1321 acagtataag gtttgttggt ttgaacagtt aacatttttg ttgcgcctgc ttcaagttca
+     1381 tatttctgaa ccttgaaaat gttaaaataa gaacaaaatt tgtgagaatc gaaaggagta
+     1441 agagaagcat cactgacgcc tgaattggct gaaccgcttt gcgtatcaag acctctttga
+     1501 aaaaaaccgt cgccaagcaa ctgacaaaga tcttgataat tttggccagt accgatatca
+     1561 tatcgaactc ggcaaaaata cgattggcaa agaactgagg cattgctggt gttgatgaca
+     1621 gtagtcacct gtttggaatt cttgacaatg aacttggttt cgaaagaatc agagacatca
+     1681 tttgcatcgg aaatctgagt gatttcctga gtcatgtcac caatatgtgc aattcaacca
+     1741 tgaggatgtg aataagcagt agaaaaacca ttgtagatat actgacatcg tttgccctgc
+     1801 atagcggttc cagcagagcc cgctcttgtg tcagcattgt cgtagtccaa agaatgaatg
+     1861 ttagctggct gccattggac accgttttta gggacaacgc ttgccctgaa tagcggatcc
+     1921 agcagtgacc aatcttgtat cagcattgtc gtagtccaaa gaaagaatgt tagctggctt
+     1981 ccattggaca ccgtttttgg gtgttttacg tgttcgtctg cgtggtttac gtgcgactcg
+     2041 cttacgcttc accacccggc gtcttggacg acgtttagat gcacgagcac gaaggaaaga
+     2101 tttacgagcg accatgttag aacgagaagg tagactgcga taagctctac gagcattggg
+     2161 tgcagctgaa aaataacaca tataaccaga atcttgatat ggttgtgtac agaaactaac
+     2221 tgcacaatga tagtcagaaa tatttcgtgg agtcatattg ggaaacgtaa taagcaaatg
+     2281 aaaaatgacg aaaaaaaaat ttgtcaacca gggggttcga acctaggcgt gtaggtttaa
+     2341 atcagtgcac tctaacacta tgctaacgtc ggttatcgaa cacctaattg acatgatacg
+     2401 gcgcactttc gcgcgccttt atatgatttg cctccattga aatttgatgt ccgaaatttg
+     2461 aattcggctt tttgaaattg aaaaatgaaa ttggtgtccc atattttcac ttttcatttt
+     2521 cacaccctaa tttaataggg ttttttgact tttttgactt ttttgttatt gttatcgaag
+     2581 tacctatagg taataataaa aacagattta cttcgataac actctgtttt ttggactata
+     2641 ggtactagat gga
+//

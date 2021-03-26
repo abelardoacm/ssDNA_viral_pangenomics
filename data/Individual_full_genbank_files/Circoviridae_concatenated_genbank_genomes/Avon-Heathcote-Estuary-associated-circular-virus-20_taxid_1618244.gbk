@@ -1,0 +1,103 @@
+LOCUS       NC_026647               2537 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Avon-Heathcote Estuary associated circular virus 20 isolate
+            AHEaCV-20-NZ-2283TU-2012, complete genome.
+ACCESSION   NC_026647
+KEYWORDS    RefSeq.
+SOURCE      Avon-Heathcote Estuary associated circular virus 20
+  ORGANISM  Avon-Heathcote Estuary associated circular virus 20
+REFERENCE   2  (bases 1 to 2537)
+REFERENCE   3  (bases 1 to 2537)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KM874349.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNA Baser Sequence Assembler v. 4.16
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2537
+                     /organism="Avon-Heathcote Estuary associated circular
+                     virus 20"
+                     /mol_type="genomic DNA"
+                     /isolate="AHEaCV-20-NZ-2283TU-2012"
+                     /host="Paphies subtriangulata"
+                     /db_xref="taxon:1618244"
+                     /country="New Zealand"
+                     /collection_date="2012"
+     gene            83..1315
+                     /locus_tag="VM11_gp1"
+                     /db_xref="GeneID:23698226"
+     CDS             83..1315
+                     /locus_tag="VM11_gp1"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009126926.1"
+                     /db_xref="GeneID:23698226"
+                     /translation="MAFIPEIIPEIPEIIEGGEATWSAGRAAVEAWRAGRNLQAARHA
+                     LEAARRAGTGIQAAERTYRAAQRHYNATHHNFGPTPPPNSPSGAPPISPASGPRPTRL
+                     RIPRTARKKSMQVVTYKYSRGKMRYKKSYRKKRGRKYKRKTSATVPRRRNRLRGYHKG
+                     KGQMMGPTRAAPRYQLVSNGWDFDYPYMNSGDKVTLELTQNNGALQLVKYIYGKFAFG
+                     WGSMGMEVGSEIGTHAYLWKGVKFVINYNIPVGLGDFKIEFFLCARAVDVDSNPSLVL
+                     GESPGVKVVPNRVMLKKQSYKVFMHRKYNMRFTASRDTIIGSDPEVTKAAYIKGGNFS
+                     PHCMFKNPVTVRFVKHTGIEYLMLGNNSTRRFPIDSLMMVVRILPVLRGSTTSGSEAV
+                     FKLASFAYVTKEVPVLYV"
+     gene            1413..2192
+                     /locus_tag="VM11_gp2"
+                     /db_xref="GeneID:23698225"
+     CDS             1413..2192
+                     /locus_tag="VM11_gp2"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009126927.1"
+                     /db_xref="GeneID:23698225"
+                     /translation="MSRIRNMMVTIYFEDNGCPDPPEIRAMLGALPNLRYYIGQMEKC
+                     PSTGRFHFQGYIEFDSAMYVKKISAQLNNCHIEARKGTQLQAIAYCKKHETRVGNWIE
+                     YGERAKQGTRSDLDDVAECIYGGKSIREIQEEHPRAYMMYSKGIKDLYYTVNNIEPRS
+                     EPPVVIYCYGQTGTGKSRYAKRYSDNVYFKNMSCKWWDGYNGQDVVVFDDIRGDTFKY
+                     HELLRILDRYVRHECDSPNAPMVGIPCMLNIRGAASTSIRL"
+ORIGIN
+        1 tagtattacc tgtcacttct gtgctacacc ttcgtacctg cttgttgtgt agtttgccag
+       61 ttaacgtttt taattatatg aaatggcatt tatccctgaa attattcctg aaattccgga
+      121 gatcattgaa ggtggtgaag cgacttggtc ggcgggtcgc gcggctgtgg aagcttggcg
+      181 tgctggccgt aaccttcaag ctgccaggca tgcattggaa gccgcccggc gtgcggggac
+      241 tggaatacag gccgcggagc gtacctatag ggcggcacag cggcactaca acgcaactca
+      301 tcataatttt ggccctactc ctcctccaaa tagtcctagc ggtgccccac caataagccc
+      361 cgcgagtgga ccacggccca cacgtttacg tatacctcgt actgcgcgca agaaaagtat
+      421 gcaagttgtc acttacaaat atagtcgtgg taaaatgaga tataaaaaga gttacagaaa
+      481 gaagagaggt cgtaagtata agagaaagac tagcgcgaca gtaccccgcc gtcgtaatcg
+      541 tctccgaggt tatcataagg gcaaaggcca aatgatggga cctacacgtg ccgctccccg
+      601 ttaccagctg gtatctaatg gatgggattt cgattaccct tatatgaata gtggggataa
+      661 agttaccctg gaacttaccc aaaataatgg tgccttgcag ttagtcaaat atatctatgg
+      721 aaagttcgct ttcggttggg gatcaatggg aatggaagtt ggtagtgaga taggcacgca
+      781 tgcctatttg tggaaagggg ttaagtttgt tattaattat aacattcctg ttggtttggg
+      841 cgatttcaaa attgagttct ttttgtgtgc gcgagccgtt gatgttgatt caaatccttc
+      901 tcttgtattg ggagaaagcc caggtgttaa agttgttccg aatcgtgtta tgttgaagaa
+      961 acagtcatat aaagttttta tgcatagaaa atataatatg cgatttaccg cgtcacgtga
+     1021 tacaattatt ggcagtgacc cggaagtcac taaagcggct tacattaaag gtggaaattt
+     1081 ctctcctcat tgtatgttca agaatcctgt cacagtgcgc tttgtaaaac ataccgggat
+     1141 tgaatattta atgttgggca ataattcaac taggcgcttt cctattgatt ctttaatgat
+     1201 ggttgttaga atacttcctg tgcttcgcgg ctcgacgact agtggttccg aagcagtttt
+     1261 caagttggct tcctttgctt atgttacaaa ggaagtgcca gtgttgtatg tataagtcgc
+     1321 ggattcgcgc acgttttttt gggacatcga tcgattttta aaaaaacatt tataaattac
+     1381 taaacacaca actcgtcagt ctagtctata aaatgtctag aatccgaaac atgatggtaa
+     1441 cgatatactt cgaggataac ggatgtcctg acccacctga gattcgggca atgcttggcg
+     1501 ccctgcccaa tttgcgttac tatattggcc aaatggagaa atgcccttca accggcagat
+     1561 ttcactttca aggttatatt gaatttgata gtgcaatgta tgtgaagaaa atatctgccc
+     1621 aattgaacaa ttgccatatt gaagctcgaa agggaaccca gttgcaagcc atagcttatt
+     1681 gcaaaaagca tgagactcga gtcggtaatt ggatcgaata tggagaacga gccaaacaag
+     1741 gaactcggag cgatctagat gatgttgccg aatgcatata tggtggtaaa tctataagag
+     1801 agatccaaga agaacatcct agagcctata tgatgtattc gaaagggata aaggatctgt
+     1861 actacactgt gaataatatt gagccaagat ccgaaccccc cgtggttata tattgttacg
+     1921 ggcagactgg aaccggaaag tctcggtatg ctaaacggta ttcagataat gtttacttta
+     1981 aaaatatgtc gtgtaaatgg tgggatggtt ataatgggca agacgttgtt gtatttgatg
+     2041 atatacgggg ggataccttt aagtatcatg agttgttgcg tatccttgat aggtatgtac
+     2101 gtcatgaatg cgattcacct aatgcaccta tggtaggtat cccatgtatg ttgaatataa
+     2161 ggggggcagc gtccacctca attcgcctgt gataattcta acttcgtgtc tcccaccttc
+     2221 ggatctctac caggtgtcgg aaagtcaagc ccaattagaa cgtcgacttt ctctgatttt
+     2281 acattttttt aataacatgg ttgaaataaa aacattctga accaggccgc aggccggtca
+     2341 ggtgtatcag ttatagccct ttccatttaa atagtgttcc atctatatag caagcccccg
+     2401 gcagggtcag agcgcagcgt tcaggtgtac caggaatagc ctctgcggtg ttttctttag
+     2461 ccccgcaggg tgctcagaaa gaagctggtt ctcattatat ggaagccact accaagaagt
+     2521 gacagtgggc gtagccc
+//

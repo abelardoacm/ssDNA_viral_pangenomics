@@ -1,0 +1,99 @@
+LOCUS       NC_035211               2343 bp    DNA     circular VRL 04-JUN-2019
+DEFINITION  Human fecal virus Jorvi4, complete genome.
+ACCESSION   NC_035211
+KEYWORDS    RefSeq.
+SOURCE      Human fecal virus Jorvi4
+  ORGANISM  Human fecal virus Jorvi4
+REFERENCE   2  (bases 1 to 2343)
+REFERENCE   3  (bases 1 to 2343)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MF118169.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Newber v. 2.6
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2343
+                     /organism="Human fecal virus Jorvi4"
+                     /mol_type="genomic DNA"
+                     /isolate="Jorvi4"
+                     /isolation_source="feces"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:2017083"
+                     /country="Finland"
+     gene            1..936
+                     /locus_tag="CGU76_gp1"
+                     /db_xref="GeneID:33350094"
+     CDS             1..936
+                     /locus_tag="CGU76_gp1"
+                     /codon_start=1
+                     /product="putative replication-associated protein"
+                     /protein_id="YP_009389527.1"
+                     /db_xref="GeneID:33350094"
+                     /translation="MSRYQSICFTIFDPHIVNDDQVCMQRAYDTGKLGFLVYQIERCP
+                     NTNREHIQGYAELHSRTTLGRHGPRSSGVKGIFRSDTMHVEMAKGSAEQNITYCTKPE
+                     SRVREGLRLGEPANKRPGERKDWEELYEHCIHADTDEKNLCIGHPVLIKYYRSATEIW
+                     SRTHPPSMRFPIRIFILVGPTRTGKTRWAFTKFPELYRLCTEKADWWNGYLGQKDVLI
+                     DEFDGESIKLTYMLQLLDRYPMQVPTKGGFVRLCATNWIITSNIDHDQWYSMAPQGNR
+                     DAFYARIQEWGRVLSVVEYREDLQLEEQEGAQAQE"
+     gene            complement(975..1940)
+                     /locus_tag="CGU76_gp2"
+                     /db_xref="GeneID:33350093"
+     CDS             complement(975..1940)
+                     /locus_tag="CGU76_gp2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009389528.1"
+                     /db_xref="GeneID:33350093"
+                     /translation="MARRGYRYKRYYGKNRKRFIGPLLPGGYAKGNAKSLARKWRRRR
+                     YRYGKKSKQSLRSGWGLGMTRAKSFVKRVDLNEFTPKGSCRFRISYRGRHLITAANVY
+                     CAANFHPHPHYPTTGFADPVLSATSDDFTSDPRTMDHAGLMGALSNEKFMYFKPVWMK
+                     TIFKVRVTGGADPVWTCETMGRKCEYSSSGLPDPYTESKIETDFKTKMSFYKILTAGK
+                     TCKYTLFSRLGENKSIGPGSLQNPAATLISNYIKPSQWLLWNETIQNMGNWLNYPVHQ
+                     LIVKSGSFGIGAVDAQRMGLYVEAYHTVHCLVAKNNAVTQAYNTA"
+     misc_structure  2046..2054
+                     /note="putative nonanucleotide motif"
+ORIGIN
+        1 atgtccagat atcaatcaat ctgcttcact atcttcgatc cacatatagt caacgatgat
+       61 caagtctgca tgcaacgagc ctatgacaca ggaaaacttg gattcctcgt ctatcaaatc
+      121 gaacgctgcc caaacacaaa ccgagaacat attcaaggtt atgccgagct gcactcccga
+      181 acaaccttgg gaagacatgg acctcgatca tccggagtca aagggatatt tcgatcagac
+      241 acaatgcatg tcgagatggc caaaggatca gcagaacaga acatcaccta ttgcacaaag
+      301 cctgagtcaa gagttcgaga aggtctccga ttgggcgaac cagcaaataa acgtccaggt
+      361 gaacgaaaag actgggaaga actctatgaa cactgcattc acgccgacac cgatgaaaag
+      421 aacttatgca tcgggcaccc agtccttatt aagtattata ggtcagccac agaaatatgg
+      481 tcaagaacac acccaccatc catgcgattt ccaatccgca tcttcattct tgttggccca
+      541 acaagaactg gaaagactcg atgggctttc acaaaatttc ccgagttgta ccgactatgc
+      601 acagagaaag cggactggtg gaacggctat ctcggacaaa aagatgttct catcgacgaa
+      661 tttgatggag aatcaatcaa acttacctat atgcttcagc tacttgacag ataccccatg
+      721 caagtgccca ccaaaggagg ctttgtcagg ctctgtgcca caaactggat cattacatcc
+      781 aacattgatc acgaccaatg gtactccatg gctccacaag gaaaccgaga cgcattctat
+      841 gccagaatac aagaatgggg acgtgtcctc agcgtggttg aatatcgaga agaccttcaa
+      901 ctcgaagaac aagaaggggc gcaagcgcaa gaataaacaa acgaataata aagatatcga
+      961 gaacttttaa taaattaagc agtattgtat gcctgagtaa cagcattatt tttcgcaact
+     1021 aaacaatgta cagtgtgata tgcctcaaca tataaaccca tgcgctgtgc atccacagca
+     1081 ccaataccaa aactacccga ttttacaatc agctgatgaa caggatagtt caaccaatta
+     1141 cccatattct ggatcgtctc attccacaat aaccattgag acggcttgat atagttacta
+     1201 atcaatgtag ccgcaggatt ctgcaaagac ccaggaccaa tagacttgtt ctctcccaat
+     1261 cggctaaaca gtgtatactt gcaagtcttt ccagcagtca aaatcttgta aaacgacatc
+     1321 ttcgtcttaa aatcagtctc aatcttcgac tctgtgtacg gatcaggaag accgctcgaa
+     1381 gaatactcgc actttcgacc catggtctcg caagtccata caggatcagc accaccagtt
+     1441 acacgaacct tgaaaatagt tttcatccaa actggcttga aatacatgaa cttttcgttc
+     1501 gacaaagccc ccatcaagcc agcgtgatcc atcgttcttg ggtccgaagt aaaatcatca
+     1561 gaagtcgcag acaacacagg atcagcaaac ccagttgttg gatagtgtgg gtgtggatgg
+     1621 aaattcgctg cacaatatac atttgcagcc gtaatcaaat gtctaccacg ataactaatc
+     1681 ctgaagcgac aactcccttt cggtgtaaac tcgttcaaat caacccgctt tacaaaagac
+     1741 tttgcccttg tcataccaag gccccaccca gagcgcaaac tttgtttact cttcttccca
+     1801 tatcgatacc tgcgacggcg ccacttacgc gccaacgact tcgcatttcc ctttgcatac
+     1861 ccacccggca aaaggggacc aataaatcgc ttccgattct taccataata tctcttatat
+     1921 cgatatcctc gacgtgccat cgtaaattca aatttgaatt tcgcttccac taaataaagt
+     1981 gggacacccc ttttaaatac cccaatttgg ctgttctctt tgcgaactag ccaagaggtt
+     2041 gccaggtaat actatactgg caactggtaa tgtggccggc caaaaaaaat ttggggcctg
+     2101 gatcactatg aactaaaggc tttcgcccga aagcatactc gcacaatacc gttcagctag
+     2161 cgcttcacag gccccgcaat acatggttca ccccctagac cctaagggga gcctaaaagg
+     2221 cagcccccta aagcctgcgg cggcgcctaa gctcacgcgg tttgtctcgt gctaatatag
+     2281 gcatgaacga gcctaactgt agacggccct tcgggccgtt ggccgttgga aagaaagttc
+     2341 ttt
+//

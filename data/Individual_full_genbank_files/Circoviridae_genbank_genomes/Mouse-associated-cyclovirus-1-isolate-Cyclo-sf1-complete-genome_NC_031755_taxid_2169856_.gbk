@@ -1,0 +1,99 @@
+LOCUS       NC_031755               2229 bp    DNA     circular VRL 29-OCT-2018
+DEFINITION  Mouse associated cyclovirus 1 isolate Cyclo-sf1, complete genome.
+ACCESSION   NC_031755
+KEYWORDS    RefSeq.
+SOURCE      Mouse associated cyclovirus 1
+  ORGANISM  Mouse associated cyclovirus 1
+REFERENCE   2  (bases 1 to 2229)
+REFERENCE   3  (bases 1 to 2229)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KT878836.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 7
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2229
+                     /organism="Mouse associated cyclovirus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="Cyclo-sf1"
+                     /isolation_source="spleen"
+                     /host="mouse"
+                     /db_xref="taxon:2169856"
+                     /country="USA"
+                     /collection_date="01-Oct-2014"
+     gene            1..1062
+                     /locus_tag="BMR82_gp1"
+                     /db_xref="GeneID:30090188"
+     CDS             1..1062
+                     /locus_tag="BMR82_gp1"
+                     /note="replicase-associated protein"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_009315918.1"
+                     /db_xref="GeneID:30090188"
+                     /translation="MDSHVRRARWCFTTNNYTDDDIYRLRTLGNAISTNGYLLFGYEI
+                     APQTGTRHLQGYVRFPQPRTFPWVVGELPLGSHIEQAKGTERANYRYCTKSNSFEEYG
+                     QQKSQGQRSDLEHAIHELLHERQPLQQVAENNPSVFVRNFRGLHELRNLLIPVKPRDF
+                     RSDVYIFIGPTRTGKSQAAKSLAGESTTYYKNRSNWWHGYRQESTVIIDDFYGWIKWD
+                     ELLKICDRYPYKVETKGGYEEFTSQTIIITSNTPPETWYKFEGFDPKPLLSDRINAVI
+                     KMEETYHRIKYYNKHTEESDKIKLSKLLLNHYIPRLDLINVNVTRVIALKESLTAVFP
+                     NFSTYAAPTLVNSLKLPKL"
+     gene            complement(921..1898)
+                     /locus_tag="BMR82_gp2"
+                     /db_xref="GeneID:30090187"
+     CDS             complement(921..1898)
+                     /locus_tag="BMR82_gp2"
+                     /note="capsid protein"
+                     /codon_start=1
+                     /product="Cap"
+                     /protein_id="YP_009315919.1"
+                     /db_xref="GeneID:30090187"
+                     /translation="MSGEEIELLKAEDRRVQRLRQAQINRARAFARGDHLRYGRGWKS
+                     GIKQSLIPTAVGAFGAYLAYFGHDYYRSSVHRYQAAAVRQAMARSRTRTVTRSRKRRS
+                     RRGRRRLRKRRHRRGGGNCFMTITRNLCYDCDTVELPITGGKAEWKVDLSTLAVGEAG
+                     SFDYIKFRVVKVTLVPNILAHPQFRDTTVGMKVPLCYAKAVLDDTIWDNNNADKLTSF
+                     LKMKAVDPFKVHVFKFKPRYQPVLDKEAFRRKFRTLPWMEIGDIVKLKGKFVGKIGIV
+                     NTDYNLGNLRELTSVGAAYVEKFGNTAVKLSFRAITRVTFTLMRSRRGM"
+ORIGIN
+        1 atggactccc acgttcgacg cgcgcgctgg tgcttcacta ccaacaacta cacggacgat
+       61 gacatctacc gacttcgaac ccttggaaac gccatctcaa ccaatggcta tcttctattc
+      121 gggtatgaaa ttgcccctca gactggtact cgacacctcc aagggtacgt gcgctttcct
+      181 caacccagaa cttttccctg ggtcgtcggt gaactaccct tgggctctca catcgaacaa
+      241 gccaagggca ccgaacgtgc aaattacagg tattgtacaa aatctaattc atttgaagaa
+      301 tatggccaac aaaaaagcca gggacaacgt tctgatcttg aacatgccat ccacgagctg
+      361 ctacatgaac gacaacctct acaacaagtg gctgaaaata atccaagtgt tttcgtacgt
+      421 aacttccgag gacttcatga acttcgaaat cttctcattc ccgttaaacc tcgtgatttt
+      481 cgatcagacg tttacatctt catcggccca actagaactg gtaaatccca agctgccaaa
+      541 tctcttgctg gagaatcaac cacatactac aaaaatagaa gtaactggtg gcacggatac
+      601 cgacaagaat caacagtcat catcgacgac ttctatggat ggattaaatg ggatgaactc
+      661 ctcaaaatct gcgatcgtta cccctacaag gtggaaacca aaggaggata tgaagaattt
+      721 acgagccaaa ctattatcat tacaagcaat acgcccccgg aaacgtggta taagtttgag
+      781 ggatttgatc ccaaaccact cctcagcgac cgaatcaacg cagtcatcaa aatggaagaa
+      841 acgtatcata gaataaaata ctacaataaa cacacagaag aatccgataa aataaaactt
+      901 tcaaaacttt tattgaacca ttacattcct cgtcttgatc tcattaacgt aaacgttact
+      961 cgtgttatag ctctaaagga aagcttaact gctgtattcc caaacttctc gacatatgca
+     1021 gcaccaacac tggttaactc cctcaaattg cctaaattat aatccgtgtt cactatccca
+     1081 atcttaccaa caaacttgcc ctttaactta acaatatctc caatctccat ccacggcaac
+     1141 gttcgaaact tacgtcgaaa cgcctcctta tctaatacag gctgataccg tggcttaaat
+     1201 ttgaatacat gcactttgaa aggatccaca gccttcatct tcaaaaaact agtcaattta
+     1261 tctgcattat tattatccca aatagtgtca tctaaaactg ctttagcata acacaacggg
+     1321 accttcatac caacagttgt atccctaaat tgcggatgcg ccaaaatatt aggcactaag
+     1381 gtaaccttca caacacgaaa tttaatataa tcaaaagaac cagcctcgcc cacagccaaa
+     1441 gtactcaaat caaccttcca ctccgctttc ccacccgtaa taggcaactc taccgtatca
+     1501 cagtcataac ataaattccg agtaattgtc atgaaacaat tgccaccacc gcggcgatga
+     1561 cgccttttcc taagacgacg acgtccacgt cgagaacgac gcttacgaga ccgagtaaca
+     1621 gtgcgagtcc tactgcgagc catagcttga cgaactgctg ccgcttgata ccgatgaacg
+     1681 ctcgaacgat aataatcgtg accaaaatat gccaaataag caccaaaagc accaacagca
+     1741 gtgggaataa gagactgctt aattccagac ttccatccac gaccataccg caaatggtca
+     1801 ccacgagcaa acgccctagc ccgattaatc tgagcctgac gcaaccgttg cacacgacga
+     1861 tcctctgcct ttaacaattc aatctcctca ccactcatga acgacgcgtc caccgaggcg
+     1921 cccgtcctct agtcctatca ttaaagataa aataccactt cgaagccttc ctaaaaatca
+     1981 cttgactgcg cctagcaatc aacaaacgca agcgacgaat aatctttggt ctataaccgt
+     2041 taaagatagc tatctttaac tgacgcttaa accttatcaa aagtggatcc tcatcgagat
+     2101 accaccgcac atacgaagcc agcgacatga ctgcgcatca cacagcgcga caaaccctta
+     2161 taaagccctg tggagagggt aaaaagagaa gtatgtaagg aagtggccgg taatactacg
+     2221 gccacttcc
+//

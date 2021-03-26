@@ -1,0 +1,102 @@
+LOCUS       NC_027795               2469 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Calanoida sp. copepod associated circular virus isolate I0298,
+            complete genome.
+ACCESSION   NC_027795
+KEYWORDS    RefSeq.
+SOURCE      Calanoida sp. copepod associated circular virus
+  ORGANISM  Calanoida sp. copepod associated circular virus
+REFERENCE   2  (bases 1 to 2469)
+REFERENCE   3  (bases 1 to 2469)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528563.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2469
+                     /organism="Calanoida sp. copepod associated circular
+                     virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0298"
+                     /host="Calanoida sp."
+                     /db_xref="taxon:1692244"
+     stem_loop       join(10..20,2457..2467)
+                     /note="contains nonanucleotide motif"
+     gene            73..1332
+                     /locus_tag="AMQ92_gp1"
+                     /db_xref="GeneID:25479236"
+     CDS             73..1332
+                     /locus_tag="AMQ92_gp1"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163926.1"
+                     /db_xref="GeneID:25479236"
+                     /translation="MVSSMTPYSRSRYGGVWLPAARAAGRLAIRAGSRYVARLLGKRK
+                     RATTTAHQPRKRVYTKTKRYMTGGYIGRRVKRAKRRTRQNAATLYGCSLKTELGGVVT
+                     DSKAVYVGHCSVQPELILKAAFRAIVKKLYDGAGIRIASWMDKPVNPAVLYCKLYNQP
+                     ASQSLNTLSYTLLATDTYQDIAEGLLNVVVNYINLTVAINTLPTFTYFSLQHGGTAVA
+                     EIQAPQARFYVSTYSTLTVQNRTLAGVSADNDESTNVSKNPVHGKLYCGRGNFFEPSY
+                     RDPNDISWVPLVCGRTFGSMAATASGSLPLDGMKPPEGSYFSNCMSTSRITIKPGEIR
+                     RSVLKYKRSFQFTELFHQLFNLIKVYSLSAQVPTMLGNMNMFGLEKLLDSRSDEPDIS
+                     IGWEVNNTVDCGLSIKRCNPPAEVIET"
+     gene            complement(1522..2340)
+                     /locus_tag="AMQ92_gp2"
+                     /db_xref="GeneID:25479235"
+     CDS             complement(1522..2340)
+                     /locus_tag="AMQ92_gp2"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163927.1"
+                     /db_xref="GeneID:25479235"
+                     /translation="MVNSGKHWCFTLNNYTPEEESSIKLVDAVYLVYGRERGESDTPH
+                     LQGFVSFDKRRTLRQVKELLSDRVHLESAKGTPRQASEYCKKDGDYYEVGILPGGRGT
+                     RTDLESVRELIKSGGSIRDVFDKHFGVALRYHRGISMAINLRGDKREWVVDVQVYWGD
+                     TGSGKTKKAWTEAPDAYVHPGGQWFDGYTGQPDVIFDDFSGSEFKLTYLLKLLDRYPM
+                     QVPVKGGFVNWVPKRIFITSNLDPRTWYKDAIQEHQAALMRRITKITHFTIPFH"
+ORIGIN
+        1 tagtattacc caccactttg gcaatcggtg attgcccccg tgaggtccgt agggccgcgt
+       61 ttatttatca aaatggtttc gtcaatgaca ccgtatagtc gttcgcgata tggaggtgta
+      121 tggttgcctg cagctcgtgc agcaggtcgt ttggctattc gagctggcag tcgttacgtt
+      181 gcgcgactgt tgggtaagcg caaacgtgca actaccacgg ctcaccagcc gcggaagcga
+      241 gtttatacta aaacgaagcg gtacatgact ggtggttaca ttggtcgtcg cgtaaagcgg
+      301 gcgaagcggc gtacgcgaca aaatgctgct accttatatg gatgcagttt gaagacggag
+      361 ttgggcggag tcgtaactga cagtaaagct gtttatgttg gtcattgctc agtacagccg
+      421 gagctgatat tgaaggctgc ttttcgagca attgtgaaga agctatacga tggtgctggc
+      481 attcgtatag cgtcgtggat ggataaacct gtcaatcctg ctgtattgta ttgtaaattg
+      541 tacaatcagc ctgcgtcgca gagtttgaat actctaagtt atactttgct tgcaactgat
+      601 acgtatcaag atatagccga aggcttattg aatgttgtcg ttaattacat taacttgact
+      661 gtagctatta atacgcttcc tacgtttacg tattttagtt tgcaacatgg tggaactgct
+      721 gttgctgaaa ttcaagcacc acaggctcga ttttatgtgt caacatattc gacgttgacg
+      781 gtgcagaatc gaactttggc gggagtgtct gcagacaatg acgagtcgac aaatgtgagc
+      841 aagaaccctg tgcacggaaa attatattgt ggacgtggaa attttttcga gccatcatat
+      901 cgtgatccca acgatataag ttgggttccg ctagtttgtg gacgtacgtt cggtagtatg
+      961 gcggcaacag cttcaggatc gttgccgttg gatggtatga agcctcctga gggaagttac
+     1021 tttagtaatt gtatgtcaac ttctcgtatt acaattaagc ctggagaaat taggcgtagt
+     1081 gttttgaagt ataagagatc atttcagttt actgaattgt ttcatcaact gtttaacctg
+     1141 atcaaggtgt acagtttgag cgcgcaagta ccaactatgt tgggcaatat gaatatgttt
+     1201 ggtctggaga agttactgga cagccgatct gatgaaccag acatcagtat cggatgggaa
+     1261 gtgaataaca ctgttgattg tggtttgagt atcaagaggt gcaaccctcc tgcggaagtt
+     1321 attgagacat aagtctcgag aatgggtttt aggtcaacga cctaaaactc cattcgagct
+     1381 taggcattgt ttagggttag gttaactcca ggatatttta atataaaaga cggccggagg
+     1441 aggccttgga ctccgtagga cgtctacgca caaaatgata ttacacttat atggtaaagt
+     1501 gagcccacgt tagagggtga tttagtgaaa aggtatggta aagtgagtaa tcttggtgat
+     1561 tctgcgcata agagcagctt gatgctcttg aatagcatct ttataccacg tccgtggatc
+     1621 gaggttggac gtgatgaaga tgcgttttgg tacccagttg acgaatcctc ccttcactgg
+     1681 cacctgcatc ggatagcggt caagaagttt gagcaggtag gtgagcttga actctgaacc
+     1741 gctgaagtca tcaaagatga cgtccggttg accagtgtag ccgtcgaacc actggcctcc
+     1801 tggatggaca taagcatcgg gcgcctccgt ccatgctttt ttcgtttttc ccgaaccagt
+     1861 gtcgccccag tagacttgga catcaaccac ccattcacgt ttgtcaccac gtaagttgat
+     1921 ggccatagag atgccgcgat gatatcggag cgcgacgccg aaatgcttgt caaaaacgtc
+     1981 tcgtatcgac ccaccggact tgatgagttc ccggacgctc tccaagtcag ttcttgtacc
+     2041 gcgtccgcca ggtaagatac caacttcgta gtagtcgcca tctttcttgc agtactcaga
+     2101 tgcttgtctt ggagtacctt ttgcagattc aagatgaact cgatcactaa gtagttcctt
+     2161 gacttggcgt agagttcgtc gcttatcaaa agagacgaaa ccttgaaggt gaggggtgtc
+     2221 gctttcaccc cgctctcgcc cgtaaaccaa gtagactgca tcgactagct tgatggagga
+     2281 ctcctcttcg ggcgtgtagt tattgagtgt gaagcaccaa tgtttacctg aattcaccat
+     2341 ggcaacaatg gagaatgaac cgtcaccacg atggtgaacg gtggcaccgg cgcaagtggc
+     2401 aacgccgtac ggtgtccggg gccaaggcga aattatatgg atttcgccta agtatccaaa
+     2461 gtggtggca
+//

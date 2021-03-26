@@ -1,0 +1,104 @@
+LOCUS       NC_005148               1768 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Porcine circovirus 2, complete genome.
+ACCESSION   NC_005148
+KEYWORDS    RefSeq.
+SOURCE      Porcine circovirus 2
+  ORGANISM  Porcine circovirus 2
+REFERENCE   2  (bases 1 to 1768)
+REFERENCE   3  (bases 1 to 1768)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AY424401.
+            On Jun 28, 2010 this sequence version replaced NC_002068.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1768
+                     /organism="Porcine circovirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="AUT1"
+                     /db_xref="taxon:85708"
+     gene            51..995
+                     /gene="ORF1"
+                     /locus_tag="PCV2_gp1"
+                     /db_xref="GeneID:2943186"
+     CDS             51..995
+                     /gene="ORF1"
+                     /locus_tag="PCV2_gp1"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="NP_937956.1"
+                     /db_xref="GeneID:2943186"
+                     /translation="MPSKKNGRSGPQPHKRWVFTLNNPSEDERKKIRELPISLFDYFI
+                     VGEEGNEEGRTPHLQGFANFVKKQTFNKVKWYFGARCHIEKAKGTDQQNKEYCSKEGN
+                     LLMECGAPRSQGQRSDLSTAVSTLLESGSLVTVAEQHPVTFVRNFRGLAELLKVSGKM
+                     QKRDWKTNVHVIVGPPGCGKSKWAANFADPETTYWKPPRNKWWDGYHGEEVVVIDDFY
+                     GWLPWDDLLRLCDRYPLTVETKGGTVPFLARSILITSNQTPLEWYSSTAVPAVEALYR
+                     RITSLVFWKNATEQSTEEGGQFVTLSPPCPEFPYEINY"
+     gene            complement(357..671)
+                     /gene="ORF3"
+                     /locus_tag="PCV2_gp2"
+                     /db_xref="GeneID:12978115"
+     CDS             complement(357..671)
+                     /gene="ORF3"
+                     /locus_tag="PCV2_gp2"
+                     /function="Induces apoptosis involving the caspase-8
+                     pathway."
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="The ORF3 protein has been added by NCBI Staff with
+                     the kind help of Dr. David Karlin (Department of Zoology,
+                     University of Oxford, UK)."
+                     /codon_start=1
+                     /product="ORF3 protein"
+                     /protein_id="YP_006355434.1"
+                     /db_xref="GeneID:12978115"
+                     /translation="MVTVPPLVSRWFPVCGFRVCKISSPFAFTTPRWPHNDVYIGLPI
+                     TLLHFPAHFQKFSQPAEISDKRYRVLLCNGHQTPALQQGTHSSRQVTPLSLRSRSSTF
+                     HQ"
+     gene            complement(1034..1735)
+                     /gene="ORF2"
+                     /locus_tag="PCV2_gp3"
+                     /db_xref="GeneID:2943185"
+     CDS             complement(1034..1735)
+                     /gene="ORF2"
+                     /locus_tag="PCV2_gp3"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="NP_937957.1"
+                     /db_xref="GeneID:2943185"
+                     /translation="MTYPRRRYRRRRHRPRSHLGQILRRRPWLVHPRHRYRWRRKNGI
+                     FNARLSRTFGYTVKATTVSTPSWAVDMLRFNLDDFVPPGGGTNKISIPFEYYRIRKVK
+                     VEFWPCSPITQGDRGVGSSAIILDDNFVIKATAQTYDPYVNYSSRHTIPQPFSYHSRY
+                     FTPKPVLDSTIDYFQPNNKRNQLWMRLQTSRNVDHVGLGTAFENSKYDQDYNIRVTMY
+                     VQFREFNLKDPPLKP"
+ORIGIN
+        1 accagcgcac ttcggcagcg gcagcacctc ggcagcacct cagcagcaac atgcccagca
+       61 agaagaatgg aagaagcgga ccccaaccac acaaaaggtg ggtgttcacg ctgaataatc
+      121 cttccgaaga cgagcgcaag aaaatacggg agcttccaat ctcccttttt gattatttta
+      181 ttgttggcga ggagggtaat gaggaaggac gaacacccca cctccagggg ttcgctaatt
+      241 ttgtgaagaa gcaaacattt aataaagtga aatggtattt cggtgcccgc tgccacatcg
+      301 agaaagcgaa aggaactgat cagcagaata aagaatactg cagtaaagaa ggcaacttac
+      361 tgatggaatg tggagctcct agatctcaag gacaacggag tgacctgtct actgctgtga
+      421 gtaccttgtt ggagagcggg agtctggtga ccgttgcaga gcagcaccct gtaacgtttg
+      481 tcagaaattt ccgcgggctg gctgaacttt tgaaagtgag cgggaaaatg cagaagcgtg
+      541 attggaagac caatgtacac gtcattgtgg ggccacctgg gtgtggtaaa agcaaatggg
+      601 ctgctaattt tgcagacccg gaaaccacat actggaaacc acctagaaac aagtggtggg
+      661 acggttacca tggtgaagaa gtggttgtta ttgatgactt ttatggctgg ctgccgtggg
+      721 atgatctact gagattgtgt gatcgatatc cattgactgt agagactaaa ggtggaactg
+      781 tacctttttt ggcccgcagt attctgatta ccagcaatca gaccccgttg gaatggtact
+      841 cctcaactgc tgtcccagct gtagaagctc tctatcggag gattacttcc ttggtatttt
+      901 ggaagaatgc tacagaacaa tccacggagg aagggggcca gttcgtcacc ctttcccccc
+      961 catgccctga atttccatat gaaataaatt actgagtctt ttttatcact tcgtaatggt
+     1021 ttttattatt catttagggt ttaagtgggg ggtctttaag attaaattct ctgaattgta
+     1081 catacatggt tacacggata ttgtagtcct ggtcgtattt actgttttcg aacgcagtgc
+     1141 cgaggcctac gtggtccaca tttctactgg tttgtagtct catccacagc tgattccttt
+     1201 tgttatttgg ttggaagtaa tcaatagtgg aatcaagaac aggtttgggt gtgaagtaac
+     1261 gggagtggta ggagaagggt tgggggattg tatggcggga ggagtagttt acataggggt
+     1321 cataggtttg ggctgtggcc tttattacaa agttgtcatc tagaataata gcactggatc
+     1381 caactcccct gtcaccctgg gtgatcgggg agcagggcca gaattcaacc ttaacctttc
+     1441 ttattctgta gtattcaaag ggtatagaga ttttgttggt cccccctccc gggggaacaa
+     1501 agtcgtcaag attaaatctc agcatgtcca ccgcccagga gggcgtgctg actgtggtag
+     1561 ccttgacagt atatccgaag gtgcgggaga ggcgggcgtt gaagatgcca tttttccttc
+     1621 tccagcggta acggtggcgg gggtggacga gccaggggcg gcggcggagg atctggccaa
+     1681 gatggctgcg ggggcggtgt cttctccttc ggtaacgcct ccttggatac gtcatacctg
+     1741 aaaacgaaag aagtgcgctg taagtatt
+//

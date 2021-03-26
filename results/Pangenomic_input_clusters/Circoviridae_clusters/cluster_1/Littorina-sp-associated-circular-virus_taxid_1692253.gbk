@@ -1,0 +1,96 @@
+LOCUS       NC_027783               2237 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Littorina sp. associated circular virus isolate I0041, complete
+            genome.
+ACCESSION   NC_027783
+KEYWORDS    RefSeq.
+SOURCE      Littorina sp. associated circular virus
+  ORGANISM  Littorina sp. associated circular virus
+REFERENCE   2  (bases 1 to 2237)
+REFERENCE   3  (bases 1 to 2237)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528548.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2237
+                     /organism="Littorina sp. associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0041"
+                     /host="Littorina sp."
+                     /db_xref="taxon:1692253"
+     stem_loop       join(10..18,2227..2235)
+                     /note="contains nonanucleotide motif"
+     gene            262..1059
+                     /locus_tag="AMQ84_gp1"
+                     /db_xref="GeneID:25479198"
+     CDS             262..1059
+                     /locus_tag="AMQ84_gp1"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163903.1"
+                     /db_xref="GeneID:25479198"
+                     /translation="MAKRKMTSYFKSKRRRFTAPSRRRRGPFGGGNKTSRRRRFTRTR
+                     RRRRTRNQPSRYQVFNARIYYTVAADANGQLYRNNYLSVHGAIQEIQNNNRAIYDSVL
+                     TNWDKFKFLSKTERIFMSDTSPYNDTARDRATTLYHVYDPDSRGRRMAPSEMMKMPAC
+                     HWKFIRPYQVYKSTLRPVFQIPAAGAVLDGGEISTGIPRVDNPWRDCANFTPTGLASL
+                     ESHNGAMYSISTSPNQQFTVIRTYKIAVTTPRYGQLYQGQDNTNYIE"
+     gene            complement(1114..2214)
+                     /locus_tag="AMQ84_gp2"
+                     /db_xref="GeneID:25479197"
+     CDS             complement(1114..2214)
+                     /locus_tag="AMQ84_gp2"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163904.1"
+                     /db_xref="GeneID:25479197"
+                     /translation="MPAKRVYQGKRGKRWCFTLNNYTEAEKDVVVAGLIGKEPVFAKV
+                     GAEVGDSGTPHLQGFVHLKERESLGGVKKILGNRCHLEMARGTDIENDEYVSKGSIVV
+                     ELGAPVEGATEKGGGDTGYIMARAAAQQLADGGDLCAIAEDPELWKSYCQHGRAIEKL
+                     AEATRKSKQHQLAADSLGDPILQAWQRTLLRHVLGEPDMRKIHWMYDLVGNMGKTWMS
+                     KYLCAKHGAVRFENGKSADIKYAYNGERIVIFDLSRSQEDHFNYEVLESVKNGIMFSP
+                     KFDSKMKVFAVPHVLVFANWGPEESKLSRDRWDVKCMTDQDMEWSDLASNVIVKQEGH
+                     NVLIDMTGDREADTQVMDWNSTDDSDCFIVQY"
+ORIGIN
+        1 cagtattacc cgagcaccgt cccctgtccc cctatatacg ccgcaggcgt tatctctagc
+       61 caatgaggac tcagcactcc ccccgcgaag cgggtattcc cagtgacaag tatcaacttg
+      121 tcggctattt atagcccctt atctcatgct gacgtcataa ccataaaatt cacaactata
+      181 aaagccaccc actctgcgct gcggcccaca actcaagaga ctctcgacaa gcgaacacca
+      241 cgtttacaac actacttcac catggctaag aggaagatga ctagctactt caagtccaag
+      301 agacgccgat ttacagcccc ctcaaggagg agacgcggcc cctttggagg aggtaataaa
+      361 acttcaagga ggaggagatt tacgagaacc cgacgtcggc gtcgcactcg aaaccagccc
+      421 tcgcgttatc aagtgtttaa cgccaggatt tactacactg ttgctgcgga tgccaacggc
+      481 cagctctatc gtaacaacta cttgagtgta catggggcaa ttcaagaaat ccagaacaat
+      541 aacagggcca tttatgactc tgtcctcact aactgggaca agttcaagtt cctctccaaa
+      601 accgaaagga tcttcatgtc ggacacttca ccctacaatg acacggcacg tgatagagcc
+      661 accacactct accatgttta cgaccctgac tcaagaggga ggagaatggc cccttcagaa
+      721 atgatgaaaa tgcctgcctg ccactggaaa ttcattaggc cctaccaggt gtataaaagt
+      781 accctgagac ctgtcttcca gatcccggcc gcaggagctg ttcttgatgg aggggagata
+      841 agtaccggaa tccccagagt ggacaacccg tggagagact gcgccaactt cacccccact
+      901 ggacttgcct cccttgagtc ccataatggg gccatgtact ctatctcaac ctcaccaaac
+      961 caacagttca cagtcattcg gacgtacaag atcgcagtca ccactccacg ctacggacaa
+     1021 ctgtaccaag gacaagacaa tacaaactat attgaatgaa aaaaacaatg acacatgtgt
+     1081 gaatttgtac tggttgccct ccgctttatt gccttaatac tgaacaataa aacaatcaga
+     1141 atcatctgtt gagttccagt ccattacttg agtgtctgct tctctgtcac ctgtcatgtc
+     1201 aatgagtaca ttatgaccct cttgctttac aatcacattg cttgcaagat cactccactc
+     1261 catatcttgg tctgtcatgc acttcacatc ccaccgatca cgtgacagct tgctctcctc
+     1321 aggaccccag ttagcgaata caagtacatg aggtactgca aacactttca ttttactgtc
+     1381 aaacttgggg ctgaacatga tcccgttctt gacactctcc agtacttcat agttgaagtg
+     1441 gtcctcttga ctccggctca ggtcaaagat aacaatcctt tccccgttgt acgcatactt
+     1501 gatgtctgcg ctttttccgt tttcaaacct cacagcacca tgcttagcac acagatactt
+     1561 agacatccat gtctttccca tgttgcccac aaggtcgtac atccaatgga tctttctcat
+     1621 gtctggctct cccaaaacat gccggagtag cgtcctctgc cacgcctgta gtatcgggtc
+     1681 cccaagtgag tcagcagcca gttgatgctg cttagacttc ctcgtagctt ccgcgagctt
+     1741 ttcaatagct cttccatgct ggcaataaga tttccatagt tcagggtctt ctgcgatcgc
+     1801 acaaaggtca cccccatctg ccagttgttg tgctgctgca cgcgccatga tgtagcctgt
+     1861 atcaccccct cctttctctg tagcgccctc aacaggggcc cccagttcca ccacaatgga
+     1921 tcctttcgaa acgtactcgt cattctcaat gtcagtgcct ctagccatct caagatggca
+     1981 gcgattgccg agaattttct tgacaccccc cagggactct ctctctttaa ggtgtacaaa
+     2041 gccctgaaga tgcggcgttc cagaatcacc aacttccgca ccaaccttag caaaaactgg
+     2101 ctctttgcca atgaggcctg cgacaacgac atctttctct gcctctgtgt agttgttgag
+     2161 agtaaaacac caacgtttcc ctctctttcc ttggtaaact cgcttcgctg gcatagtgtg
+     2221 gacagaggtg ctcggta
+//

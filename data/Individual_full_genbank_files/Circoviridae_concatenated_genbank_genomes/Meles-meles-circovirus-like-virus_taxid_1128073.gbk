@@ -1,0 +1,92 @@
+LOCUS       NC_040362               2218 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Meles meles circovirus-like virus, complete genome.
+ACCESSION   NC_040362
+KEYWORDS    RefSeq.
+SOURCE      Meles meles circovirus-like virus
+  ORGANISM  Meles meles circovirus-like virus
+REFERENCE   2  (bases 1 to 2218)
+REFERENCE   3  (bases 1 to 2218)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JQ085285.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2218
+                     /organism="Meles meles circovirus-like virus"
+                     /mol_type="genomic DNA"
+                     /isolation_source="rectal swab"
+                     /host="Meles meles"
+                     /db_xref="taxon:1128073"
+                     /country="Netherlands"
+                     /collection_date="2008"
+     gene            433..1464
+                     /locus_tag="EXI09_gp1"
+                     /db_xref="GeneID:41700038"
+     CDS             433..1464
+                     /locus_tag="EXI09_gp1"
+                     /note="ORF1"
+                     /codon_start=1
+                     /product="REP"
+                     /protein_id="YP_009551453.1"
+                     /db_xref="GeneID:41700038"
+                     /translation="MATRPEALHWCFTLNNPTIDEQQIIDELEEFGIEYAVFQLEEGE
+                     NNTPHFQGYVALTVKKRLTAVRTLFGGVAHWEICRGTPTQNRDYCTKADTRIGDFVEI
+                     GTLPAPKGARQDLVQLHSALKDGLTQAQYVDQFFSIFVRHPNLVSNYVAATISERDPA
+                     NPVSTWLLIGTPGTGKSRLARAIGKNLGDGAIFEHSLGKWFDGYVGQRTVLFDDFCGS
+                     SLPFSQFKRICDRYPVRVELKGLSCPMAATNFLITTNQDPKTWWKDEVTGQHGHAAIT
+                     RRIGRVLFFFAENTFRSYPSYNHYATDCLRPRIDGETYHYFSPAQTIVYDAQGEAILP
+                     PEILRAEVQ"
+     gene            1361..2218
+                     /locus_tag="EXI09_gp2"
+                     /db_xref="GeneID:41700039"
+     CDS             1361..2218
+                     /locus_tag="EXI09_gp2"
+                     /note="ORF2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009551454.1"
+                     /db_xref="GeneID:41700039"
+                     /translation="MGRRITTFRRRRRSSTMRKARPSYRRRSSARKYSKKRRSRGMQR
+                     IKTSRWPVRNIGGDRSFCKLRYVKGSAFDIPEGAASLSQLQVMNVGAYPGASNLLQSM
+                     TLNGVMGETPNLSTMGALYTRYRIRGIKIRLTYWQLGGAPVILFTNAAPDVNNLTVAS
+                     TGPNPAFITPNITTTTEQRWAKYRVCQATANGGKATSVSAYYSVNRVQGPDTIVRNDR
+                     DYTGEMQPATPYFANSSGVADTPQFSPWMQWGIATLSGTPAVAGTQGVIKVEQTVYCE
+                     FFGKRIQTQ"
+ORIGIN
+        1 attttattcc gtctcacaag catcctctag cgctttcaga tagccagaca tcgattgagt
+       61 gtttcccctg cgggcagggt gaatgtagac gcccttgagc aggtacaacc agacttgcgc
+      121 aattctgatt tcgcacagaa gttgcatcca cgggttcacc gtcgctgctc tcctcgcttt
+      181 gttcattctg atggatgcag atagctgttt aggcgatgcc tcgaccattt cagagtaaga
+      241 gatgatcttc gtcgtccaga cgcccaccga gtaccaatcc atgtcagagg aagactgatt
+      301 cctgatcttt taaaaaaatg cgagcgcctt tagggcgaag cccgtttctc tccactctct
+      361 cggccggggg tggtctggct ggcgacgaag ttcgcccagt attacccaga ccaccttgtc
+      421 gccatcatca ccatggcgac aagacccgaa gcactccact ggtgcttcac cctcaacaat
+      481 cccacaattg atgaacaaca aatcatagat gaactagaag agttcggaat agagtacgcc
+      541 gtcttccaac tggaggaggg agaaaacaac actccacact ttcaaggcta cgtggcactc
+      601 actgtcaaaa aacggctcac ggccgtccgc acactttttg gcggcgtggc acattgggag
+      661 atttgccgcg gtaccccgac acaaaaccgg gattactgta cgaaagcgga cacccgaatc
+      721 ggggatttcg tggaaatcgg cacactgccc gcgccgaaag gcgcgaggca ggacctggtc
+      781 caacttcatt ctgctctcaa ggatggactc acccaagccc agtacgtcga ccaattcttc
+      841 tcaatcttcg tccgccaccc caatcttgtg tcgaactacg tcgcagctac tatctccgag
+      901 cgcgaccctg ccaacccggt ctccacttgg cttctcatcg gcacgcccgg gaccggcaag
+      961 tcccgcctcg ctcgcgcaat tggcaaaaat ctcggagatg gagctatctt cgagcactct
+     1021 ctcggaaagt ggttcgacgg atacgtcgga cagcgaactg tgcttttcga cgatttttgc
+     1081 ggatcttcac tccctttctc gcagtttaaa cgaatctgcg accgataccc cgttcgagtg
+     1141 gagctcaaag ggcttagttg tccgatggca gccacaaact tcctcatcac taccaaccaa
+     1201 gacccgaaaa cgtggtggaa agacgaagtg accggtcaac acggtcacgc ggcaattacc
+     1261 cgaagaattg gcagagttct gtttttcttc gcagaaaaca cctttcgttc ctacccgtcc
+     1321 tacaatcatt acgccactga ctgccttcgc ccacgcatcg atggggagac gtatcactac
+     1381 ttttcgccgg cgcagacgat cgtctacgat gcgcaaggcg aggccatctt accgccggag
+     1441 atcctccgcg cggaagtaca gtaaaaagcg ccgctcccgt ggcatgcaac gaatcaaaac
+     1501 ttctcgctgg cctgttcgca acattggcgg agatcgctct ttctgcaagc tccggtacgt
+     1561 caagggctcc gcattcgaca tccccgaggg cgccgcaagt ttgtcacagc ttcaagtcat
+     1621 gaacgttggc gcctatcctg gcgcctccaa tctgctccag tcaatgactc tcaatggtgt
+     1681 aatgggggaa accccaaatt tgtctacaat gggcgctctg tacacgcgct accgcatccg
+     1741 cggaatcaaa attcggctca cgtactggca actcggtggc gcgcccgtga ttctcttcac
+     1801 gaatgccgct ccggacgtga acaacctcac tgttgcctct actggaccca atcccgcgtt
+     1861 catcaccccc aacatcacga ctacgaccga gcagcgctgg gccaagtatc gggtatgcca
+     1921 agccacggca aacggtggca aagccacttc tgtctccgcc tactactccg tgaacagggt
+     1981 tcaaggcccg gacactattg ttcgcaatga ccgtgactac accggtgaaa tgcaacccgc
+     2041 tacgccatac ttcgccaact cttctggtgt cgccgacacc ccgcaattct ccccgtggat
+     2101 gcaatgggga attgccacgc tttcgggcac ccccgccgtg gccggcacac aaggcgtcat
+     2161 caaggtcgag cagactgtgt actgtgagtt ttttggcaaa cgcatccaaa cacaataa
+//

@@ -1,0 +1,77 @@
+LOCUS       NC_027784               1241 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Callinectes ornatus blue crab associated circular virus isolate
+            I0054, complete genome.
+ACCESSION   NC_027784
+KEYWORDS    RefSeq.
+SOURCE      Callinectes ornatus blue crab associated circular virus
+  ORGANISM  Callinectes ornatus blue crab associated circular virus
+REFERENCE   2  (bases 1 to 1241)
+REFERENCE   3  (bases 1 to 1241)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528549.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1241
+                     /organism="Callinectes ornatus blue crab associated
+                     circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0054"
+                     /host="Callinectes ornatus"
+                     /db_xref="taxon:1692245"
+     stem_loop       join(10..18,1231..1239)
+                     /note="contains nonanucleotide motif"
+     gene            34..828
+                     /locus_tag="AMQ91_gp1"
+                     /db_xref="GeneID:25479201"
+     CDS             34..828
+                     /locus_tag="AMQ91_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163905.1"
+                     /db_xref="GeneID:25479201"
+                     /translation="MAQAKRWVFTLNNYSGADEQLLEQLSRSTDVVTLIYGREVAPGT
+                     GTNHLQGMIIFATRKRLRQIRNYPPFQRAHLEVMRSTPARAREYCIKDGDFVEYGEPV
+                     EENRQGRRNDIHDIIAWLDLFIEENNRPPTQEEVAQLQPIAMLRYRNFMDLARLRAPQ
+                     PQLIRNGVAREGWQMDLEHALDGDAPDRHILFYVDPAGGNGKTWFQQYLLTKYPRRVQ
+                     ILGTGNFADCAYAVDESKDIIISPEMTLWLPAIWLSVCEAELNSQT"
+     gene            complement(604..1200)
+                     /locus_tag="AMQ91_gp2"
+                     /db_xref="GeneID:25479200"
+     CDS             complement(604..1200)
+                     /locus_tag="AMQ91_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163906.1"
+                     /db_xref="GeneID:25479200"
+                     /translation="MSAIVPFARYAFPGARRAAAKALIRTGKITPRQYMAAYKIGRAA
+                     YRWRGIFKSKGYQRSKRRFVRNVRNVVRNVRSAQLKTTHLDFASDEQFTNKLNHLHHV
+                     QPYKLVYLGDGDNKRQSSTITCSGLRIQFCFANTQPNGGQPQSHLRTDYDILRFINSI
+                     STISEITCTQNLHTPRILGQKILLKPRLTISTSRIHVE"
+ORIGIN
+        1 cagtattacc cgcaacttcg tcacttccgg cacatggcac aggctaaacg ttgggtattc
+       61 accctcaaca actacagtgg agctgacgag caacttctgg aacagctcag ccgttcaacg
+      121 gatgtggtta cccttatcta cgggcgagag gttgcccctg gcaccggcac taatcatctg
+      181 caaggtatga ttatcttcgc cactcgcaag cgccttcgtc agattcgcaa ctatcctcca
+      241 ttccaacgtg ctcacctcga ggttatgcgc agtactcccg ccagggcaag ggaatattgc
+      301 atcaaagatg gtgacttcgt tgagtacggc gaaccggttg aggagaaccg gcaaggtcgc
+      361 cgtaatgata tacatgatat tatcgcctgg cttgatctct tcattgagga gaataatagg
+      421 ccccccactc aagaggaagt agctcagctt cagcctattg ctatgctgcg ctaccgtaat
+      481 tttatggatt tggctcgttt acgtgcccct caaccccaat tgattcgcaa tggggtagcc
+      541 cgtgagggct ggcaaatgga tctagagcat gctctagatg gtgatgcccc tgataggcat
+      601 attttattct acgtggatcc tgctggtgga aatggtaaga cgtggtttca acagtatctt
+      661 ttgaccaagt atcctaggcg tgtgcagatt ttgggtacag gtaatttcgc tgattgtgct
+      721 tatgctgttg atgaatctaa ggatatcata atcagtcctg agatgactct gtggctgccc
+      781 gccatttggc tgagtgtttg cgaagcagaa ctgaattctc agacctgagc aagtgattgt
+      841 actgctctgt cttttgttgt ctccatcccc taagtacaca agcttgtaag gttgcacatg
+      901 atggagatga ttgagcttgt ttgtgaactg ctcatctgat gcgaagtcca aatgtgtagt
+      961 ttttaactgg gctgacctga cgttacgcac tacgttacgt acgttacgta cgaacctacg
+     1021 ctttgaccgt tggtatcctt tggatttgaa aattcctcgc caacggtagg cagccctacc
+     1081 tatcttgtac gctgccatat actgtctggg tgtaattttc ccagtacgta tgagagcctt
+     1141 ggcggcagct cttctagctc ctgggaaagc atatctggcg aaagggacga tggcactcat
+     1201 tttttttatt ttataaaatt tatgagatat aagttgcgga a
+//

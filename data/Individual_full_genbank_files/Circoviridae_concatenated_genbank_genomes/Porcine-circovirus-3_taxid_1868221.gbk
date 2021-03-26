@@ -1,0 +1,76 @@
+LOCUS       NC_031753               2000 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Porcine circovirus 3 strain 29160, complete genome.
+ACCESSION   NC_031753
+KEYWORDS    RefSeq.
+SOURCE      Porcine circovirus 3
+  ORGANISM  Porcine circovirus 3
+REFERENCE   2  (bases 1 to 2000)
+REFERENCE   3  (bases 1 to 2000)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KT869077.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: CLC Genomics v. 8
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2000
+                     /organism="Porcine circovirus 3"
+                     /mol_type="genomic DNA"
+                     /strain="29160"
+                     /host="swine"
+                     /db_xref="taxon:1868221"
+                     /country="USA: North Carolina"
+                     /collection_date="2015"
+     misc_feature    216..1106
+                     /note="similar to replicase"
+     gene            complement(1336..1980)
+                     /locus_tag="BMR83_gp1"
+                     /db_xref="GeneID:30090178"
+     CDS             complement(1336..1980)
+                     /locus_tag="BMR83_gp1"
+                     /codon_start=1
+                     /product="capsid"
+                     /protein_id="YP_009315911.1"
+                     /db_xref="GeneID:30090178"
+                     /translation="MRHRAIFRRRPRPRRRRRHRRRYARRRLFIRRPTAGTYYTKKYS
+                     TMNVISVGTPQNNKPWHANHFITRLNEWETAITFEYYKILKMKVTLSPVISPAQQTKT
+                     MFGHTAIDLDGAWTTNTWLQDDPYAESSTRKVMTSKKKHSRYFTPKPLLAGTTSAHPG
+                     QSLFFFSRPTPWLNTYDPTVQWGALLWSIYVPEKTGMTDFYGTKEVWIRYKSVL"
+ORIGIN
+        1 acccggcacc tcggaacccg gatccacgga ggtctgtagg gagaaaaagt ggtatcccat
+       61 tatggatgct ccgcaccgtg tgagtggata taccgggcag tggatgatga agcggcctcg
+      121 tgttttgatg ccgcaggacg gggactggat aactgagttt ttgtggtgct acgagtgtcc
+      181 tgaagataag gacttttatt gtcatcctat tctaggtccg gagggaaagc ccgaaacaca
+      241 ggtggtgttt tacgataaac aactggaccc cgaccgagtg ggaatctatt gtggagtgtg
+      301 gaggcagtat agcgagatac cttattatcg gcaaagaggt tggaaaaagc ggtaccccac
+      361 acttgcaagg gtacgtgaat ttcaagaaca aaaggcgact cagctcggtg aagcgcttac
+      421 ccggatttgg tcgggcccat ctggagccgg cgagggggag ccacaaagag gccagcgagt
+      481 attgcaagaa agagggggat tacctcgaga ttggcgaaga ttcctcttcg ggtaccagat
+      541 cggatcttca agcagcagct cggattctga cggagacgtc gggaaatctg actgaagttg
+      601 cggagaagat gcctgcagta tttatacgct atgggcgggg tttgcgtgat ttttgcgggg
+      661 tgatggggtt gggtaaaccg cgtgatttta aaactgaagt ttatgttttt attggtcctc
+      721 caggatgcgg gaaaacgcgg gaagcttgtg cggatgcggc tgcgcgggaa ttgcagttgt
+      781 atttcaagcc acgggggcct tggtgggatg gttataatgg ggagggtgct gttattttgg
+      841 atgattttta tgggtgggtt ccatttgatg aattgctgag aattggggac aggtaccctc
+      901 tgagggttcc tgttaagggt gggtttgtta attttgtggc taaggtatta tatattacta
+      961 gtaatgttgt accggaggag tggtattcat cggagaatat tcgtggaaag ttggaggcct
+     1021 tgtttaggag gttcactaag gttgtttgtt ggggggaggg gggggtaaag aaagacatgg
+     1081 agacagtgta tccaataaac tattgatttt atttgcactt gtgtacaatt attgcgttgg
+     1141 ggtgggggta tttattggga gggtgggtgg gcagccccct agccacggct tgtcgccccc
+     1201 accgaagcat gtgggggatg gggtccccac atgcgagggc gtttacctgt gcccgcaccc
+     1261 gaagcgcagc gggagcgcgc gcgaggggac acggcttgtc gccaccggag gggtcagatt
+     1321 tatatttatt ttcacttaga gaacggactt gtaacgaatc caaacttctt tggtgccgta
+     1381 gaagtctgtc attccagttt tttccgggac ataaatgctc caaagcagtg ctccccattg
+     1441 aacggtgggg tcatatgtgt tgagccatgg ggtgggtctg gagaaaaaga agaggctttg
+     1501 tcctgggtga gcgctggtag ttcccgccag aagtggtttg ggggtgaagt aacggctgtg
+     1561 ttttttttta gaagtcataa ctttacgagt ggaactttcc gcataagggt cgtcttggag
+     1621 ccaagtgttt gtggtccagg cgccgtctag atctatggct gtgtgcccga acatagtttt
+     1681 tgtttgctga gccggagaaa ttacagggct gagtgtaact ttcattttta gtatcttata
+     1741 atattcaaag gtaattgcag tttcccattc gtttaggcgg gtaatgaagt ggttggcgtg
+     1801 ccagggcttg ttattctgag gggttccaac ggatatgacg ttcattgtgg agtatttctt
+     1861 tgtgtagtat gtgccagctg tgggcctcct aatgaatagt cgtcttctgg catagcgcct
+     1921 tctgtggcgt cgtcgtctcc ttgggcgggg tcttcttctg aatatagctc tgtgtctcat
+     1981 tttggtgccg ggctagtatt
+//

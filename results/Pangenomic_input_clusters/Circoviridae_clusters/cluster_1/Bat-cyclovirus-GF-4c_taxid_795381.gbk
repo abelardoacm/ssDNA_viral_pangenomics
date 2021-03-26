@@ -1,0 +1,84 @@
+LOCUS       NC_034547               1844 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Bat cyclovirus GF-4c putative Rep and putative Cap genes, complete
+            cds.
+ACCESSION   NC_034547
+KEYWORDS    RefSeq.
+SOURCE      Bat cyclovirus GF-4c
+  ORGANISM  Bat cyclovirus GF-4c
+REFERENCE   2  (bases 1 to 1844)
+REFERENCE   3  (bases 1 to 1844)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HM228874.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1844
+                     /organism="Bat cyclovirus GF-4c"
+                     /mol_type="genomic DNA"
+                     /isolate="GF-4c"
+                     /isolation_source="guano"
+                     /host="bat"
+                     /db_xref="taxon:795381"
+                     /country="USA"
+                     /collection_date="Sep-2009"
+     gene            1..846
+                     /locus_tag="CA785_gp1"
+                     /db_xref="GeneID:32741385"
+     CDS             1..846
+                     /locus_tag="CA785_gp1"
+                     /codon_start=1
+                     /product="putative Rep"
+                     /protein_id="YP_009362252.1"
+                     /db_xref="GeneID:32741385"
+                     /translation="MENKTIRRFIFTWNNYTDDDYDKTCAFIKGNCKYGIVGKEHAPT
+                     TGVPHLQGFCNLSKPMRFSAIKKCLSNSIHIEKAIGSDEQNQKYCSKAGDFFEEGLPY
+                     TQGKRTDLEAVVRDMEQGTVRLEDIAAKHPCAFIKYHRGIDQLLKLIHPIKPRDFQTY
+                     VYYYWGEPGTGKSRRAKSEADAVNSASIYYKPRGLWWDGYRQQENVIIDDFYGWIKYD
+                     ELLKICDRYPYKVQIKGGFEEFTSKRIWITSNVDIYSLYKFEGYNAEAFKRRITCMVE
+                     MNSNK"
+     gene            complement(835..1518)
+                     /locus_tag="CA785_gp2"
+                     /db_xref="GeneID:32741384"
+     CDS             complement(835..1518)
+                     /locus_tag="CA785_gp2"
+                     /codon_start=1
+                     /product="putative Cap"
+                     /protein_id="YP_009362253.1"
+                     /db_xref="GeneID:32741384"
+                     /translation="MAAFRRRRRVRPRKNRFGRLRRRRFGRRIGRRKVRPNVLYCKLT
+                     RTVTRKIDLRIATGSPNQIEIQELRINLNNFAEHINLASNFEKIKILKQVVSVIPCQN
+                     VSNSTTSIQLHYAIVPYKKESPALSTPFPAILSVDKAKMISNTRRASMALVPAAHLHS
+                     SGQTSDDMNKLVYKPEFSIPATGVSATIYSGFVAFERNSDEVFENKQAWFVVKQDIYV
+                     KYSVQRSFI"
+ORIGIN
+        1 atggagaaca agaccataag acgcttcatc ttcacctgga acaattatac tgacgacgac
+       61 tacgacaaaa cgtgtgcttt tataaaagga aactgcaaat atggcatcgt tggaaaagaa
+      121 cacgctccaa caaccggagt accacaccta cagggttttt gcaacctatc caaacccatg
+      181 cgcttcagtg ccatcaaaaa gtgtctcagt aactcaatcc atattgagaa ggcaattgga
+      241 tccgacgaac agaaccaaaa atactgttct aaggcaggcg acttttttga agagggacta
+      301 ccttacaccc aaggaaaacg tacggacctc gaggctgtgg tacgtgatat ggaacaaggt
+      361 accgttagac ttgaagatat tgccgccaaa cacccatgcg cattcatcaa ataccataga
+      421 ggcatcgatc aactattaaa gctaatacac ccaatcaaac cacgtgactt ccagacatac
+      481 gtctactact actgggggga gccaggaaca ggcaaatcgc gaagagcaaa atcagaagca
+      541 gatgccgtga actcagcttc aatatactac aaacccagag gactctggtg ggacggttac
+      601 aggcaacaag aaaacgttat aatagacgac ttctatggct ggatcaaata cgacgaattg
+      661 ctgaaaatct gcgatcgcta tccctataaa gtacaaataa aaggagggtt cgaagaattt
+      721 acatcaaaac gcatttggat tacatcaaat gttgatattt attcattgta taaatttgaa
+      781 ggttacaatg ccgaagcttt caaaagacgt attacatgta tggtcgaaat gaattcaaat
+      841 aaatgatcgt tgtactgaat acttcacgta tatatcttgc tttacaacaa accacgcctg
+      901 cttattttca aacacctcat ccgaattcct ctcaaatgca acaaatccac tataaatagt
+      961 agcagaaact cctgtcgcag gaatactgaa ctcaggttta taaactaact tattcatatc
+     1021 atcagaagtt tgacctgacg aatgcaaatg cgcagctgga actaaagcca tagaagccct
+     1081 tctggtatta gaaatcattt ttgctttatc aacagacaat atggcaggga acggagtact
+     1141 aagagcaggc gactctttct tataaggaac aatagcataa tgcaactgaa tactggttgt
+     1201 tgaattagac acattttgac acggtataac agacactact tgcttcaata tcttaatctt
+     1261 ctcaaaatta gatgccaaat taatatgttc tgcgaaatta tttaaattta tcctcaactc
+     1321 ttgaatttct atctgattgg gtgatccagt tgcaattctc aaatcaattt tacgagttac
+     1381 agtacgagtg agtttacaat acaaaacatt tggtcgaacc ttcctacgcc cgatacgacg
+     1441 accaaaacgc cgacgccgta accggccaaa ccggttttta cgtggacgaa cacgtctacg
+     1501 cctacggaat gctgccatag cgactggcct tgaaaagtga aagggagcgg tccggagctg
+     1561 tcctccccac tcccgcgcgt tacaatgtta cgcgttacga agtgccgggt aatactatac
+     1621 cggcacttcg gtcggcgtgg tgggggcacg ccgggtagca acagaacatg tggccttgcc
+     1681 cgcgcctacg gcgcggtccc aaacttttat atctaactca catgcatggc ttcgcaaaca
+     1741 agacggcggc gtgccccgat ggcgcatgcg ttcgcttcgc tcacgctgcg ccatggggaa
+     1801 gtggtggttc attccagtag tagataacaa gtcgcacaga ccag
+//

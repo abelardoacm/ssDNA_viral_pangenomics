@@ -1,0 +1,88 @@
+LOCUS       NC_040679               2077 bp    DNA     circular VRL 12-SEP-2019
+DEFINITION  Paguma larvata circovirus Pl-CV3 DNA, complete genome.
+ACCESSION   NC_040679
+KEYWORDS    RefSeq.
+SOURCE      Paguma larvata circovirus
+  ORGANISM  Paguma larvata circovirus
+REFERENCE   2  (bases 1 to 2077)
+REFERENCE   3  (bases 1 to 2077)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to LC416389.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2077
+                     /organism="Paguma larvata circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="Pl-CV3"
+                     /isolation_source="serum"
+                     /host="Paguma larvata"
+                     /db_xref="taxon:2294094"
+                     /country="Japan:Tochigi"
+                     /note="*collection_date: 2015-05-07"
+                     /note="circular, complete"
+     gene            32..1212
+                     /locus_tag="EXK33_gp1"
+                     /db_xref="GeneID:41702605"
+     CDS             join(32..52,204..374,508..1212)
+                     /locus_tag="EXK33_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009552846.1"
+                     /db_xref="GeneID:41702605"
+                     /translation="MAERVPPVRWCFTLNNWTQEEWDSITQVLGPTVKYLCVGKEVGK
+                     EGTQHLQGYMELKKRKRLKQVKDLPGLQRAHLEAARGNSSQAAEYCKKEGDYLEFGTP
+                     GNEQGKRTDLNEACRILRESNGNLRAVAEKQEAVFVKYFGGLQRYCYTMNLGGRRDFK
+                     TITTVICGPPGCGKTRYVFEKVGGDLGRVYMKPRGLWWDGYCGQEVVCLDDFYGWVTF
+                     DELLRVLDRYPLRVPVKGAYVDFVSREVYITSNSTPDQWYTSENIHGRLEALYRRIDH
+                     YLTWDDRSKQLSPGNPMFPIAY"
+     gene            complement(1273..2049)
+                     /locus_tag="EXK33_gp2"
+                     /db_xref="GeneID:41702606"
+     CDS             complement(1273..2049)
+                     /locus_tag="EXK33_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009552847.1"
+                     /db_xref="GeneID:41702606"
+                     /translation="MYRRRRFRRRRRHHHPHHHRRYHIMRHHHFKRQFFHFLFRKQTS
+                     FFIQQVPAGYSKEGVKQGQFKPQYSWVRKHFFWTLNEFLRDSQSLGLFQYYRILKAGI
+                     TFKPQDPITDRRGYGFTAIDFTSKPESGSFDPFWFWQTQNDPIPININSKTTKFFTTT
+                     KRHHRNVIPKPMLTDEPHPDLHFKENWWFLNQKAGPWLTTADWLVPYLGLWWFLDLNF
+                     MNIVNPPTEDAGDKTLYIKTPMGLNFNFTKFIHVVFRDEC"
+ORIGIN
+        1 accacacact tctagtacca gtaccaggac catggcggag agagtacctc ctgtaagttt
+       61 ttcttgtttt aaagtgggtc acattggaaa tgtggatgta ttttttgggt ggaggggtgg
+      121 ggatgaatgt gacccacttg gagtatttgg tataagtgaa caggtagaat atgatattga
+      181 aattttagag agaggcagcc aaggtgaggt ggtgttttac tctaaacaac tggacccaag
+      241 aagagtggga ctctattacg caagtgctag gacccacagt gaaatacctc tgcgtgggca
+      301 aagaggttgg aaaagaaggt acccagcact tgcaaggata tatggaactc aagaaaagaa
+      361 aacgattgaa gcaggtaagg ggggtgtggg gggtttaccc cccactagag cgaaaagaaa
+      421 aagtggcaag gggggtgtgg gggggtttac ccccccacat taagccccct ttagggggta
+      481 tgggggtgaa aatatgttta aatttaggtg aaagatttgc ctggattgca acgagctcat
+      541 ctggaagcag cgaggggaaa ttccagtcaa gctgccgagt attgtaaaaa agaaggtgat
+      601 tacctggagt ttgggacacc aggtaatgaa caaggaaaaa gaactgacct taatgaagcc
+      661 tgcagaattc tccgagaaag caacgggaat ttgagagctg tggctgagaa gcaggaggct
+      721 gtctttgtga agtattttgg cgggttacag agatattgtt acactatgaa tttgggcggg
+      781 aggcgggatt ttaaaactat aactactgtg atttgtggac ctcccggatg tggtaaaact
+      841 agatatgtgt ttgaaaaagt gggcggggat cttgggcggg tttatatgaa accacgtggg
+      901 ttgtggtggg atgggtattg tggtcaggaa gttgtatgtt tggatgattt ttatggttgg
+      961 gttacatttg atgaattgtt gcgggtactt gacaggtacc cattaagagt tccagtaaaa
+     1021 ggagcttacg tggattttgt ttctagggag gtgtacatta cttccaactc aacccccgat
+     1081 cagtggtata caagcgaaaa tatacatggc agattggaag cattgtatag aagaattgac
+     1141 cactacctta cctgggatga caggagtaag cagttatccc ctgggaaccc aatgtttcct
+     1201 attgcctatt agttgcggcg gttatgaatt tatgaaagaa ttacgcgaaa ttatgcagat
+     1261 gtattaattt tattaacatt catctctgaa tacaacatga ataaattttg tgaaattaaa
+     1321 attgagtccc attggagttt ttatataaag ggttttatct ccggcgtctt ctgtgggagg
+     1381 gttcacgata ttcatgaagt ttaagtccag gaaccaccat aatccaaggt acggtacaag
+     1441 ccagtctgcc gttgtgagcc atggtcccgc tttttgattg aggaaccacc agttttcctt
+     1501 aaaatgtaaa tcagggtgtg gttcatctgt tagcattggt tttggtatga catttctatg
+     1561 atgtcttttt gttgtagtga aaaattttgt tgtttttgaa tttatattaa ttggtatagg
+     1621 gtcattttgt gtttgccaaa accaaaatgg atcaaacgat cctgattctg gtttacttgt
+     1681 gaaatcaata gcagtaaatc cgtatcccct tctgtcagtt atggggtctt gtggtttaaa
+     1741 ggttattcca gctttaagta ttctatagta ttggaataac cccagagatt gactgtctct
+     1801 gagaaattca tttaaggtcc agaaaaaatg ttttctgacc caagagtatt gtggtttgaa
+     1861 ctgtccttgt tttactcctt ctttggagta acccgcaggg acttgttgta taaaaaaact
+     1921 ggtttgtttc cgaaatagaa agtgaaagaa ttgcctttta aagtggtggt gtctcattat
+     1981 gtggtatctg cggtggtggt gggggtggtg gtgtctccgc cttcttctaa atctccgcct
+     2041 tctgtacatc tataaaaaga agtgggtgca tagtatt
+//

@@ -1,0 +1,76 @@
+LOCUS       NC_030199               1939 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Avian-like circovirus isolate A1 replication-associated protein
+            gene, complete cds.
+ACCESSION   NC_030199
+KEYWORDS    RefSeq.
+SOURCE      Avian-like circovirus
+  ORGANISM  Avian-like circovirus
+REFERENCE   2  (bases 1 to 1939)
+REFERENCE   3  (bases 1 to 1939)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KU230452.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 6.1.5
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1939
+                     /organism="Avian-like circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="A1"
+                     /host="Ixodes scapularis"
+                     /db_xref="taxon:1844928"
+                     /country="USA"
+                     /collection_date="2014"
+     gene            45..917
+                     /locus_tag="A8M53_gp1"
+                     /db_xref="GeneID:27912007"
+     CDS             45..917
+                     /locus_tag="A8M53_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009253909.1"
+                     /db_xref="GeneID:27912007"
+                     /translation="MPPVRAAPAKRWCFTLNNPTDEEVQKIKDMNPSEYHYAIVGKER
+                     GEQGTPHLQGFLHLKCKKRLNQLKEFLARAHWEKARGSDEDNEAYCSKEGEVILTLGM
+                     PAKGNRSDLSGAVAAVKAGRAMSEIAREFSEVYVKYGRGLRDLALLIGQKPRDFKTDV
+                     ILITGPSGVGKSRWAFEYPGSKFYKMKGEWWDGYANEDVVVIDDFYGWLPFCELLRLT
+                     DRYPHKVPVKGSYVEFNSKTIIITSNTHPETWYNEEKCYLQALFRRINKWMFWDAMRF
+                     VDAPDCVKKYPINY"
+ORIGIN
+        1 accggcaact tggaaccgcg gaaccacttg gaaccaccaa cgctatgccg cctgtcagag
+       61 ccgccccggc gaagcgttgg tgctttaccc ttaacaaccc gacagatgag gaggtccaga
+      121 agataaaaga catgaatccg agtgagtacc actatgctat agttgggaaa gaacgaggag
+      181 agcaagggac ccctcatctg caagggtttt tgcacctaaa gtgcaaaaag agacttaacc
+      241 agctgaagga gttcttagcg cgtgcgcatt gggagaaggc ccgtggttca gatgaagaca
+      301 atgaggccta ttgctctaag gaaggggaag ttatacttac ccttggcatg ccggcaaagg
+      361 gcaaccggag cgacctgtcg ggagctgttg ccgccgtgaa agccggaaga gcaatgagcg
+      421 agatcgcgcg agagttcagt gaagtttacg tcaagtatgg gcgtggccta agagatctgg
+      481 ctctcctgat tggtcagaaa ccacgtgact tcaagactga cgtcatactg ataactggcc
+      541 cctcgggggt ggggaaaagc cgttgggcat ttgaatatcc cggaagcaag ttctataaaa
+      601 tgaaggggga gtggtgggac ggatatgcaa atgaggatgt tgtcgtcatt gatgactttt
+      661 atggctggct gccattttgt gagctgttga gactgactga tcgttaccca cacaaagtgc
+      721 ccgtgaaagg ctcatatgtg gagttcaact caaagacgat cattatcaca tcaaacaccc
+      781 accctgagac gtggtacaat gaagagaaat gttatctgca agcactgttc agacggatca
+      841 ataagtggat gttctgggat gcaatgagat tcgtggatgc acctgactgt gtgaaaaaat
+      901 acccaatcaa ctattgagcg taccccgagg gatgagcaat cgcgggcgcg aagcccgcgt
+      961 tcacgggtaa gtcgcgagcg caccgtcgcg agcgactttc cctagtgaag ttgcccgagg
+     1021 ttgttcagtc tcggaggcat tttatataag taacactcgt acgaggttgt tatcttaatc
+     1081 aataaaacac tttattcaaa gtcaaagtca gttccatcaa ttattttcat cagctccatg
+     1141 tttgggggaa acatattggg ggtcgctggg tctttgaggg tggtccaggc gaattgtctg
+     1201 aatttcatgt agaaggtcac ttcacattga tagaactcat cttcaggtga tggctgcagg
+     1261 tagctgaaag ccaggccgta gtggtttact ttttcaggtg ctaactgctt acctgttatc
+     1321 tgcagaggga tccagaagga tctctgagaa gataaccata tgtctgccac ttcatttgca
+     1381 gtggacagat cagttgaaat taattgaggc ttaggcctta ctagcctttt aaagccccat
+     1441 cgctggtccc actttttggc tccatcaaaa tttgagaggg ggtcttcagt gagacccgtt
+     1501 ttcttagtaa atgttgccag cctgccgtcc agtattggaa cggtatggcc gaaccccttc
+     1561 caaatagtga ccgattcccc tagtggtctc atttcaactt taactagaac aattttgtaa
+     1621 tcttcaaaag gtaatctaag cacctccccc cctgaaggtc tgagaacatc ttcaagagta
+     1681 aacttaaaag tgtcggtgcc atatttgaat gcaccagtct cgtccttagt tagttgaact
+     1741 ttgaacgagt gacgtagcct gaagagatag atcctattgg cccggtgacc acgcctattt
+     1801 cttggcaggc gtctcctgag atgacgtctg tgcctcctga tagggcggcg tcggcgccta
+     1861 cgtcggtggc cccaccctct ggctgccgag aactgctgtt aaaagataag accgcggttc
+     1921 caagttgccg tatagtatt
+//

@@ -1,0 +1,83 @@
+LOCUS       NC_014928               1751 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Cyclovirus PKgoat11/PAK/2009, complete genome.
+ACCESSION   NC_014928
+KEYWORDS    RefSeq.
+SOURCE      Cyclovirus PKgoat11/PAK/2009
+  ORGANISM  Cyclovirus PKgoat11/PAK/2009
+REFERENCE   2  (bases 1 to 1751)
+REFERENCE   3  (bases 1 to 1751)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HQ738636.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1751
+                     /organism="Cyclovirus PKgoat11/PAK/2009"
+                     /mol_type="genomic DNA"
+                     /isolate="PKgoat11"
+                     /host="goat"
+                     /db_xref="taxon:942034"
+                     /country="Pakistan"
+                     /collection_date="2009"
+     gene            1..837
+                     /locus_tag="CyCV-PKgt11_gp1"
+                     /db_xref="GeneID:10100789"
+     CDS             1..837
+                     /locus_tag="CyCV-PKgt11_gp1"
+                     /note="putative replication-associated protein"
+                     /codon_start=1
+                     /product="Rep protein"
+                     /protein_id="YP_004152329.1"
+                     /db_xref="GeneID:10100789"
+                     /translation="MANRTVRRFCFTWNNYDDSAYEKCEKFIEKFCKYGIVGEESAPT
+                     TGTLHLQGFCNLHKPTRYSTIKKHLDNSIHIEKANGTDEQNQKYCSKSGIFFESGIPN
+                     KQGTRNDLKSVVESINKEGATLGNIATEHPEIYIRYFRGIQQLLQLVRPIRQRDFKTE
+                     VFYYWGPPGSGKSRRALEEARQLDGESIYYKPRGLWWDGYEQQRSVIIDDFYGWIKYD
+                     EMLKIMDRYPYKVQIKGGFQEFTSEKIFITSNVDVCDLYKFVGYETAAFDRRITLKEY
+                     MD"
+     gene            complement(834..1529)
+                     /locus_tag="CyCV-PKgt11_gp2"
+                     /db_xref="GeneID:10100788"
+     CDS             complement(834..1529)
+                     /locus_tag="CyCV-PKgt11_gp2"
+                     /note="putative capsid protein"
+                     /codon_start=1
+                     /product="Cap protein"
+                     /protein_id="YP_004152330.1"
+                     /db_xref="GeneID:10100788"
+                     /translation="MARFRAVYRRRRVGRRRRFRRRRTYRKRRRLSKGSFMCKLTKVS
+                     TYEVPNNATSTYSCSFLPSDFPEYKSLAPNFEYCKFIKQRVRVIPMQNVSNANTTIIP
+                     SYCILPWHKGGEAKKSFNQVISSDRAKIYRQTERGQMIFTCNTWTQSSPDDVTVRGMN
+                     TIIWKPTVPYDQTKFEPRIYSGLVVWQGEGNLEGRTSTFNVVEDVYCIFSNQTSLHVS
+                     PYPPTQSVEAMKI"
+ORIGIN
+        1 atggcaaacc gtacagtaag gcgtttctgt tttacgtgga acaactacga cgactctgcg
+       61 tacgaaaagt gcgaaaagtt tatcgaaaaa ttttgcaaat atggaatcgt gggagaagaa
+      121 tcagctccaa ccactgggac gcttcacttg caagggttct gtaatctaca taagccaaca
+      181 cgctacagta ccatcaagaa gcatctcgat aacagcatcc atattgagaa ggcaaatggg
+      241 acagacgaac aaaaccaaaa atactgttcg aaatcaggca tattttttga atcgggtatt
+      301 ccaaacaaac aagggacacg gaatgatctt aaatctgtgg tggaatcaat caacaaagaa
+      361 ggtgctacgc tgggaaatat tgccaccgaa caccctgaaa tatacatacg ctatttccgt
+      421 ggcatccaac aactgctgca actggtacgc ccaatacgtc aacgcgattt caagactgag
+      481 gttttttatt actgggggcc gccaggatct gggaaatcta gaagagcgct tgaggaagcg
+      541 aggcaacttg acggagaatc catatactac aaaccccgag gattatggtg ggatggctat
+      601 gaacaacagc gcagcgttat aatagacgac ttctatggat ggataaagta cgacgaaatg
+      661 ctgaaaataa tggaccgcta cccatacaag gtacaaataa aaggaggatt tcaagaattc
+      721 acatcagaaa aaatttttat tacttcaaat gtcgacgttt gtgacttata caaattcgta
+      781 ggttacgaaa ctgccgcctt tgacagacgc attacattaa aagaatacat ggattaaatt
+      841 ttcatagcct ctacactctg ggtaggagga tacggagaca catgtaaaga tgtttgattt
+      901 gaaaaaatac aataaacgtc ctctacaaca ttaaatgtcg atgttcttcc ttccaaatta
+      961 ccctctccct gccaaacaac caaaccagaa tatatcctag gctcaaattt cgtttgatca
+     1021 tacggcacag tcggtttcca tattatagta ttcattcctc gcacagtgac gtcatcagga
+     1081 ctgctctgag tccacgtatt acatgtaaat atcatttgac cacgttccgt ctgcctatat
+     1141 atcttagcac gatcactact aataacttga ttaaaagact tcttagcctc accacctttg
+     1201 tgccacggca atatacaata tgacggaata attgtagtat tagcattact aacattttgc
+     1261 ataggaatta cacgaactcg ttgtttgata aatttgcagt attcaaaatt cggggcaagc
+     1321 gatttatatt caggaaaatc agaaggaaga aagctacacg agtaagtaga agttgcatta
+     1381 ttcggaactt catatgtaga cactttagta agtttacaca taaaggagcc cttagaaaga
+     1441 cgcctacgtt tccgataagt tcttcgacga cgaaatctcc gacgacgccc cacgcgccta
+     1501 cgcctatata cggccctgaa tcgcgccatg cctttcactt ttacgctcgg ttaaaaataa
+     1561 ctcctcttca ggcggcagac tgttgccaag tgaacgttgc gccccccccc tcggccgggg
+     1621 agcctgcccg gccggccccc ggcgggggga gggcgtgcgt gttgaaacct gtttgggcgg
+     1681 atgtagcggc ggttacgaag tgacggttac gaagtgacgg ggtaatacta tgcccgtcac
+     1741 ttcgttgcag a
+//

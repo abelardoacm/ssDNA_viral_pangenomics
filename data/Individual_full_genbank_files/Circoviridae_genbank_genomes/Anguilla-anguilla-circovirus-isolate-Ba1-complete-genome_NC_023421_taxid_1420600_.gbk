@@ -1,0 +1,72 @@
+LOCUS       NC_023421               1378 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Anguilla anguilla circovirus isolate Ba1, complete genome.
+ACCESSION   NC_023421
+KEYWORDS    RefSeq.
+SOURCE      Anguilla anguilla circovirus
+  ORGANISM  Anguilla anguilla circovirus
+REFERENCE   2  (bases 1 to 1378)
+REFERENCE   3  (bases 1 to 1378)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC469701.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1378
+                     /organism="Anguilla anguilla circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="Ba1"
+                     /host="Anguilla anguilla"
+                     /db_xref="taxon:1420600"
+                     /country="Hungary"
+                     /collection_date="21-Sep-2009"
+     gene            82..942
+                     /locus_tag="AZ42_gp1"
+                     /db_xref="GeneID:18263316"
+     CDS             82..942
+                     /locus_tag="AZ42_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009000900.1"
+                     /db_xref="GeneID:18263316"
+                     /translation="MSKVSVRRVCFTLNNYTEEDLKFIEEHFKSVSKYLIVGKKVGEN
+                     GTPHSQGFINLKKKTHFNSVKKLLPRAHIEKAKGNDQHNKDYCSKQEVAFEHGQIQGQ
+                     GKRNDLADALATVRANGGDIKALEDSHSLVYAKYKRGILACIDDFGWKKPRDWKTEVH
+                     VLWGIPGCGKSRYAREQAPEAYYKPRGEWWDGYTGQEDVILDDFYGWLKFDELLKICD
+                     RYPYRVPVKGSFVQFTAKRIYITSNVAASEWYHFQGYDPTALYRRMTSYLTWNDMCKE
+                     FRPMPININY"
+     gene            complement(1008..1352)
+                     /locus_tag="AZ42_gp2"
+                     /db_xref="GeneID:18263315"
+     CDS             complement(1008..1352)
+                     /locus_tag="AZ42_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009000901.1"
+                     /db_xref="GeneID:18263315"
+                     /translation="MPFYRRRVYRRKSNRRPIRNCQRRYRRPIRRERNNRMAVSHHRL
+                     QIIDHIQMPNTANTNQTYSRFSRFFWKPSKVARATPSQVPSFQAHGFKCVNRRAGPSL
+                     CSGPPGWNLRSA"
+ORIGIN
+        1 acccctgcac tttggaagac ggcagaagac tgtataagtc aataggcaca aaagtatttc
+       61 ttccaaggtt ggaattacgc aatgtcgaag gtttccgtcc gccgcgtgtg cttcacactg
+      121 aacaactata ctgaggagga cctcaagttc atagaagagc atttcaaaag tgtgtcgaag
+      181 tatctgatcg tgggcaaaaa agtgggtgag aatgggaccc cacattcaca aggttttatt
+      241 aatctaaaga agaagacgca tttcaacagt gtgaagaagc tactgccccg ggcccacatc
+      301 gagaaagcca aaggcaacga ccagcataac aaggattact gctccaagca agaggttgcc
+      361 tttgaacatg gacagattca aggccaaggg aagaggaacg atctggcgga tgctttggcc
+      421 actgtccgag ctaatggagg agacatcaaa gcgcttgagg attctcattc tttggtgtac
+      481 gccaagtaca agcgagggat cttggcctgc atcgacgact ttggatggaa gaagccacgt
+      541 gactggaaaa cggaagtaca cgtgctctgg ggcatccccg gctgtggcaa gtccagatat
+      601 gcccgagaac aagcaccaga agcctactac aaaccacgcg gcgaatggtg ggacggatac
+      661 accggacaag aggacgtgat cctggatgat ttctacggct ggttgaagtt cgacgaactt
+      721 ttgaaaatat gtgaccgtta cccgtatcgt gtccctgtga agggctcatt tgtgcagttt
+      781 actgctaaga ggatttacat tacttctaat gtagctgctt cagagtggta tcattttcag
+      841 ggctacgacc ctactgcgtt gtaccgtcgt atgacctcat atctgacttg gaatgacatg
+      901 tgtaaagaat tcagaccaat gccaataaat attaattatt gaacacgttt tattgtcaat
+      961 tttttagcac atgaatgact ttcccccctc tgtaaatcgt agcagcgcta tgcgctgcgt
+     1021 agattccatc ccggcggccc cgagcaaaga gagggccccg cccttctgtt aacacatttg
+     1081 aatccatggg cctggaatga tgggacctgt gaaggagtgg cccgtgctac cttggaaggc
+     1141 ttccagaaaa accggctaaa ccggctgtat gtttggttgg tgtttgctgt gtttggcatt
+     1201 tggatgtggt cgatgatctg tagtctgtga tgactcactg ccatcctgtt gttcctctct
+     1261 cttctgattg gtcgacggta tcggcgctgg caattcctga ttggtcgcct gttgctcttc
+     1321 ctcctgtaga cacgcctccg gtagaatggc atgactcaaa gtgcagggct ctagtatt
+//

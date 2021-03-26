@@ -1,0 +1,83 @@
+LOCUS       NC_027530               1789 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  Cyclovirus TsCyV-1_JP-NUBS-2014 genes for capsid protein,
+            replication-associated protein, complete cds.
+ACCESSION   NC_027530
+KEYWORDS    RefSeq.
+SOURCE      Cyclovirus TsCyV-1_JP-NUBS-2014
+  ORGANISM  Cyclovirus TsCyV-1_JP-NUBS-2014
+REFERENCE   2  (bases 1 to 1789)
+REFERENCE   3  (bases 1 to 1789)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to LC018134.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1789
+                     /organism="Cyclovirus TsCyV-1_JP-NUBS-2014"
+                     /mol_type="genomic DNA"
+                     /strain="TsCyV-1_JP-NUBS-2014"
+                     /isolation_source="contents of Taiwan squirrels"
+                     /host="Callosciurus erythraeus thaiwanensis"
+                     /db_xref="taxon:1592764"
+                     /country="Japan:Kanagawa"
+                     /collection_date="2014"
+     gene            92..763
+                     /locus_tag="ADY16_gp1"
+                     /db_xref="GeneID:25067458"
+     CDS             92..763
+                     /locus_tag="ADY16_gp1"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009158861.1"
+                     /db_xref="GeneID:25067458"
+                     /translation="MVARRFRRVVRRRRPLRRAGVYRRRRRPTYRRKKAGRGSFRFKF
+                     TRLISITQDLAKTSLHDLSFQPNDFAEFTNLAANFEAYRFTKLRIRVLPQQNVSNNSS
+                     SLIGDYALLPWHRGVPTNFKFDDFISVDKAKIYRGTTCSSMTFVPSTLDQTLYQDKVG
+                     NFCKVAYRPRIEITDAQSLGIQHYTGLMAMQALTDAPDNAKAHYNLIYDVWCTMINQQ
+                     TLKKY"
+     gene            complement(760..1590)
+                     /locus_tag="ADY16_gp2"
+                     /db_xref="GeneID:25067457"
+     CDS             complement(760..1590)
+                     /locus_tag="ADY16_gp2"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009158862.1"
+                     /db_xref="GeneID:25067457"
+                     /translation="MNSTVRRFVFTWNNYTESEYNKACDFISKFCKYGIVGKELAPTT
+                     EMPHLQGFASLAKPMRFSTIKKHLDNRIHIEKAAGSDEDNQKYCSKAGQFFESGVPQS
+                     QGKRNDLAAVVDTISNGADIESVARAHPTSFIKYHRGIKEYIKTVRPIPVRDFKTEVF
+                     YYYGEPGTGKSRTALEEAKIRGLDSIYYKPRGLWWDGYAQQTCVIIDDFYGWIKYDEM
+                     LKIMDRYPYKVQIKGGFEEFTTKYIWITSNVDTDLLYKFEGYNTAAFERRLSIKKLFH
+                     "
+ORIGIN
+        1 tagtattacc ccaacttcgt agccgcgacc tcgtagcccc ctactctagt tcgcgcgcaa
+       61 ccgcctttca ctttccaagg ccagtctcgc tatggtcgct cgcaggttca gacgtgttgt
+      121 caggcgccgg cgaccgttac gccgcgcagg agtgtatcgt cgccggcggc gccctactta
+      181 tagacggaaa aaggccggtc gtggttcttt ccggtttaaa tttacgagat tgatcagcat
+      241 aacccaagat ttggctaaaa cgagtctcca tgacttatct ttccaaccaa acgactttgc
+      301 cgagttcaca aatctggcag caaatttcga agcttatcgc tttaccaaac ttcgaatcag
+      361 agttctccca caacaaaatg tttcaaataa tagttctagt cttattggtg attatgcttt
+      421 gcttccatgg catcgcggag taccgactaa ttttaaattc gacgacttca tctctgtcga
+      481 caaggccaag atatatagag gaacaacatg tagtagtatg acttttgttc catcaacgtt
+      541 ggaccagaca ttatatcagg ataaggttgg gaatttttgt aaggtggctt atcgtccccg
+      601 gattgagata acggacgctc agtcattagg catacagcat tatacgggac tgatggcgat
+      661 gcaggcactt accgacgctc cagataacgc caaggcacat tataatctta tctatgacgt
+      721 atggtgtaca atgataaatc aacaaacact caagaaatat taatggaata atttttttat
+      781 tgacaatctc ctttcaaaag ccgcagtatt gtaaccttca aatttataca ataaatctgt
+      841 atcaacatta cttgtaatcc aaatatattt agttgtgaat tcctcgaacc ctcctttaat
+      901 ctgaacttta tacggataac gatccataat tttaagcatt tcatcatact ttatccatcc
+      961 atagaaatca tctatgatga cgcatgtttg ctgagcgtag ccgtcccacc agagacctct
+     1021 aggtttgtag taaatggaat ccagccctct gattttagct tcttccaagg ctgtcctaga
+     1081 tttgccagtc cccggttctc cgtagtagta gaagacctca gttttgaagt ctctaacggg
+     1141 aataggtcgc acggttttga tgtactcttt gattccacga tgatatttga taaaactggt
+     1201 ggggtgagcc ctagccactg attcgatgtc cgctccgttc gatatggtat ccacgacggc
+     1261 cgccaaatca tttctcttcc cttgcgattg aggcacaccc gattcaaaaa actggcctgc
+     1321 ttttgaacag tatttttggt tgtcttcgtc ggatccagct gccttctcaa tatggattct
+     1381 gttatcgaga tgcttcttga tggtactaaa gcgcatgggt tttgcaagac ttgcgaatcc
+     1441 ttgtaaatga ggcatttcgg ttgtcggagc gagttccttt ccaacgatgc catatttgca
+     1501 aaactttgaa ataaaatcac aagctttatt gtactccgac tcagtatagt tattccaagt
+     1561 gaatacgaac cgacgcactg tactgttcat gttgcagtga ctcgggtaac gtagccgcac
+     1621 aagcgagtca ctgcctcgtc ggccggcggg gaggggcggc cggccgacga cgcggttgcc
+     1681 tctcgctttg tgtgcggcca ctgtcggggg actgtctgct gcgcattcaa tggagagtat
+     1741 tttttagagg gcaaagcgag tcccgcgcat agcaacacga agttgggta
+//

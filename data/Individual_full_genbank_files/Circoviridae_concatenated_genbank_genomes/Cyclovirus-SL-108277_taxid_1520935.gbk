@@ -1,0 +1,80 @@
+LOCUS       NC_038418               1710 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Cyclovirus SL-108277, complete genome.
+ACCESSION   NC_038418
+KEYWORDS    RefSeq.
+SOURCE      Cyclovirus SL-108277
+  ORGANISM  Cyclovirus SL-108277
+REFERENCE   2  (bases 1 to 1710)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ831064.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1710
+                     /organism="Cyclovirus SL-108277"
+                     /mol_type="genomic DNA"
+                     /strain="SL-108277"
+                     /isolation_source="cerebrospinal fluid"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1520935"
+                     /country="Sri Lanka"
+                     /collection_date="2009"
+     gene            183..875
+                     /locus_tag="D1Q41_gp1"
+                     /db_xref="GeneID:37617177"
+     CDS             183..875
+                     /locus_tag="D1Q41_gp1"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009506329.1"
+                     /db_xref="GeneID:37617177"
+                     /translation="MAYARRYRFRRRPVRKMQRRRRRFRRRARRMGNLLCKLTRVVTI
+                     AVDPSKVQIQDLAVNPHDIQEYVNLGKQFEFCKFISCRVRVIPHQNVTNNSTSSLPNY
+                     CILPWHSATPPGSTGFTTYTSHDRAKVYRSTQKAHMNFVCSTAFEAQIESKNASSFNT
+                     IKWKPDIRWDADKTLAPTIRTGILAFQGDADAPTGAKSKFTIFQDYICLFKNQCILET
+                     FAPPPTLEHMTL"
+     gene            complement(855..1685)
+                     /locus_tag="D1Q41_gp2"
+                     /db_xref="GeneID:37617176"
+     CDS             complement(855..1685)
+                     /locus_tag="D1Q41_gp2"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009506330.1"
+                     /db_xref="GeneID:37617176"
+                     /translation="MNANVRRFCFTWNNYTEEAYKKCEDFINTYCKYGIVGEEIAPNT
+                     GTIHLQGFCNLHKPIRFNKIKKHLDNSIHLEKANGSDEDNKKYCSKSGIYFEKGTPCS
+                     QGHRSDLQAVVETIAQSNSTLQDIATKHPTAYIRYHKGIREYLRMVKPIQERQHKTLV
+                     YYFWGPPGSGKSRRALEEAKATNQSIYYKPRGLWWDGYNQQPNVIIDDFYGWIKYDEM
+                     LKIMDRYPYKVQVKGGFEEFTSERIWITSNIDTDTLYKFINYTNTAFDRRITLKCHML
+                     "
+ORIGIN
+        1 acccgtcact tcgtttcact tcgttccaaa tcctttcact cgactagtgc gccgcgtagc
+       61 ggcgcgtcag cacacacaca cacacacttg tgtaagcgag cggtagcgag cgttagcctc
+      121 ccctccactg tcttagctta gcgacggttg gaacatgctc agacagtgac tcactggctg
+      181 caatggcgta cgcacgtaga tacaggttcc gtcgaagacc ggttcgcaag atgcaaaggc
+      241 gtaggcgtcg atttcgtcgc cgtgcacgcc gtatgggaaa tttgttgtgc aagcttacga
+      301 gggttgttac tattgctgtt gatccttcta aagtacaaat ccaagatttg gcagttaatc
+      361 ctcacgacat tcaagagtat gttaacttgg gaaagcaatt tgaattttgc aagttcatca
+      421 gctgtagagt tcgtgtgatt cctcatcaga atgtgacaaa taattctaca tcgtcgttac
+      481 cgaactattg tatcttacct tggcattccg ctactccacc tggaagtact ggttttacta
+      541 cgtatacttc tcatgatcgg gcaaaggtgt atcggtccac tcaaaaggct catatgaatt
+      601 ttgtatgttc tacggccttt gaagctcaaa ttgaatcgaa aaatgcttca tcttttaata
+      661 ctataaaatg gaaacctgat attcgctggg atgctgataa gactttagcg cctacgataa
+      721 ggactgggat tttggctttt caaggtgatg cggatgcgcc gacgggagca aaatcaaagt
+      781 ttacaatatt tcaagattat atttgtttat ttaagaatca atgtattttg gagacgtttg
+      841 ctccgccgcc tacattagag catatgacac tttagtgtaa ttcgtctgtc gaaagcggtg
+      901 tttgtataat taataaattt gtataatgta tctgtgtcaa tgttgcttgt tatccatatt
+      961 ctttcacttg taaattcctc gaatccccct tttacttgta ctttgtatgg gtatcggtcc
+     1021 atgattttta gcatttcgtc gtattttatc catccgtaga agtcgtcgat gattacgttt
+     1081 ggctgttggt tgtatccgtc ccaccatagt cctctgggtt tgtagtatat tgattggttt
+     1141 gttgcttttg cttcttctaa ggctcgtctt gactttccac tgcctggagg tccccaaaag
+     1201 taatatacaa gagttttatg ttgtctctct tgaattggtt taaccattcg taaatattct
+     1261 cgaattcctt tgtggtatct gatatacgcc gtgggatgct tggtggcaat atcttgtaat
+     1321 gtgctattgc tttgtgcgat ggtttcgacc acagcttgca gatctgagcg atgtccttgg
+     1381 ctacaaggtg tgcccttttc aaaatatatg cctgatttcg aacagtattt tttgttatct
+     1441 tcgtcggatc catttgcctt ctcaagatgg attgagttat cgagatgctt tttgattttg
+     1501 ttgaagcgta tgggtttatg tagattacag aatccctgaa ggtgaattgt cccagtattc
+     1561 ggagcgattt cttctccaac gatgccatat ttgcaatatg tattgatgaa atcttcgcac
+     1621 tttttgtatg cctcttctgt gtaattattc cacgtgaaac agaatcgacg tacgtttgcg
+     1681 ttcatcgcaa cgaagtgacg gtatagtatt
+//

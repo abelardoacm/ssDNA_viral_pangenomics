@@ -1,0 +1,86 @@
+LOCUS       NC_027785               1876 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Callinectes sapidus associated circular virus isolate I0056,
+            complete genome.
+ACCESSION   NC_027785
+KEYWORDS    RefSeq.
+SOURCE      Callinectes sapidus associated circular virus
+  ORGANISM  Callinectes sapidus associated circular virus
+REFERENCE   2  (bases 1 to 1876)
+REFERENCE   3  (bases 1 to 1876)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528550.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1876
+                     /organism="Callinectes sapidus associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0056"
+                     /host="Callinectes sapidus"
+                     /db_xref="taxon:1692246"
+     stem_loop       join(10..19,1866..1875)
+                     /note="contains nonanucleotide motif"
+     gene            69..881
+                     /locus_tag="AMQ90_gp1"
+                     /db_xref="GeneID:25479204"
+     CDS             69..881
+                     /locus_tag="AMQ90_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163907.1"
+                     /db_xref="GeneID:25479204"
+                     /translation="MTIYREQSSAADWERLKDKLTYFAYAEETCPXTGRWHMQAYAYS
+                     RRAMRHSAWRKLFPKIHIEKMRGSFTDNENYCSKEGQLIEFGERPRQGERSDLQEFKF
+                     RLDRGDKPLDIAYEDVSMFNAVGRMHRFAETYSQYIRYRQIKDNRDAPEVYLRIGPAG
+                     TGKTKWLDDTYGTAGYTIAPDNLGRWFDKCDCDVVLFDDVEAGQVPPFSLWKRLCDRY
+                     PIQVPVKGGFIWWKPKVIVFTSNQAPSKWWGELDELNKGAFDRRVTSIEVVE"
+     gene            910..1341
+                     /locus_tag="AMQ90_gp2"
+                     /db_xref="GeneID:25479203"
+     CDS             910..1341
+                     /locus_tag="AMQ90_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163908.1"
+                     /db_xref="GeneID:25479203"
+                     /translation="MAYKRKRMPVRRFNKGRYTKRSRSRMTVNTVKKIAKSVVMRKVE
+                     PKHKSFNTGKYELYHNTFNTYRINTDNQMPAEGTGDDQRIGDRIYTTGFKLRLLLGQK
+                     SDRPNVTFKIYVMKVPKGQGYAYANFFSKMVPKHYRQCSTG"
+ORIGIN
+        1 cagtattacc catgcccact tctgctacat ctgctacaga gcaaaccgca ccgtttcgcg
+       61 gggcctgcat gaccatctat agggagcagt ctagcgcagc cgactgggaa cggctcaagg
+      121 acaagctgac gtacttcgct tacgcggagg agacatgtcc cmgcacaggg cgctggcata
+      181 tgcaggcata tgcttactcg cgccgagcca tgcgccactc agcatggcgt aagctttttc
+      241 ccaagattca tattgagaaa atgcgtggct cgttcactga taacgaaaac tactgcagca
+      301 aggaaggcca gcttatcgag tttggcgagc gcccgcgcca gggagagcgc agcgatcttc
+      361 aggaatttaa gttccgtctt gacaggggcg ataagcccct ggacattgcc tatgaagacg
+      421 tgtctatgtt caacgcagtt ggacgcatgc acaggtttgc ggaaacatac agtcagtata
+      481 taaggtacag gcagatcaaa gacaatcgag acgcccccga agtgtatctg cgaattggac
+      541 ccgctggtac aggaaagact aagtggcttg atgacacata tggaacagct ggctacacta
+      601 ttgcacccga caaccttgga aggtggtttg ataagtgtga ttgcgatgtt gtcctatttg
+      661 acgatgttga agctggacaa gtcccgccgt tctctctctg gaagcggctc tgcgaccgct
+      721 accctatcca ggttcctgtc aagggaggat tcatctggtg gaaacccaag gtcatcgtct
+      781 tcaccagcaa ccaggcccca agcaagtggt ggggcgagct agacgagctt aacaagggag
+      841 ccttcgatcg acgcgtgacc tccatagaag tagtcgagta gtatataaga cccacctagt
+      901 ttggccaaca tggcctacaa gcgtaagcgc atgcccgttc gacgtttcaa taaaggacgt
+      961 tataccaaac gctcccgatc tcgtatgaca gtgaacacag tgaaaaagat agccaagtcc
+     1021 gtagtaatgc gcaaggtaga gcccaagcat aagagtttca acactggtaa gtatgagttg
+     1081 tatcacaaca cattcaacac ctatcgcatc aacacggata accagatgcc tgctgaaggc
+     1141 actggtgatg atcagcgtat tggtgatcgc atctacacta ccggcttcaa gctgcgtttg
+     1201 ctgctgggac aaaaatccga tagacctaac gtgaccttca agatctacgt tatgaaggtt
+     1261 ccaaaaggtc aaggttatgc ctacgcgaat tttttcagca agatggttcc aaaacattac
+     1321 aggcaatgtt ctactggata gccccaatac cgactatgtc aaagtcctgg ctgtacacac
+     1381 ttggaaaccg cacgacggtt ccatggacaa cgctaccgac gagtatgtgt atacccgtag
+     1441 tttgtggatc ccatataagc gtgagctcaa gttcggtccc aacgacggag ctgtgactca
+     1501 caatgatggt gatatctact ttatggcggc tccatttgac gcctatggta ctctcgtcac
+     1561 tgataacatt gcctattatc aactcagcac tacccttcat taccgtgacc cttaaaaaaa
+     1621 agattccagg taggggagcc ggaaggctgc acacacactg cttcgtccgc tttttttgcc
+     1681 tagcaaaaaa tatatttgac tccagtacag ggtcaccgta taggagcaca cacacacttc
+     1741 gtccgccctt gtggcttggg acgaagtgtg tgtgtgcgcc ccacgagtga acgaaaaaat
+     1801 aaacacaaac taaaccaaac caaatttgaa aatttttttc gaaccaactc cccctgtata
+     1861 taagggtggg catggt
+//

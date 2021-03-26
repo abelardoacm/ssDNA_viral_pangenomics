@@ -1,0 +1,97 @@
+LOCUS       NC_027789               2291 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Hermit crab associated circular virus isolate I0085A4, complete
+            genome.
+ACCESSION   NC_027789
+KEYWORDS    RefSeq.
+SOURCE      Hermit crab associated circular virus
+  ORGANISM  Hermit crab associated circular virus
+REFERENCE   2  (bases 1 to 2291)
+REFERENCE   3  (bases 1 to 2291)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528555.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2291
+                     /organism="Hermit crab associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0085A4"
+                     /host="hermit crab"
+                     /db_xref="taxon:1692252"
+     stem_loop       join(10..18,2281..2289)
+                     /note="contains nonanucleotide motif"
+     gene            61..975
+                     /locus_tag="AMQ85_gp1"
+                     /db_xref="GeneID:25479216"
+     CDS             61..975
+                     /locus_tag="AMQ85_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163915.1"
+                     /db_xref="GeneID:25479216"
+                     /translation="MPRDAPAKQWCFTLNNYTPAELTAIVDSAGNFDYLCFGRERGNN
+                     NTPHLQGYLILKEKKRFSYVRQLAGLERAHWEKKSPRSTPKQASDYCKKDGDYDEYGE
+                     LPTKKQGQRTDFDELKEWIKEQDHRPTDREVAEEFPSLWGRYRSACISFLDLFSPHPT
+                     LVQGTLRPWQEDLNTRLSAPPNDRDVMFVVDENGNSGKSWFIRYLMTERPDDVQMLSI
+                     GKRDDLAHAIDPAKKIFFFDVPRGGMEFMQYAVLEQLKNRLVFSPKYESRMKVLHHIP
+                     HVVVFCNEEPDRTKLSRDRFRVTHIRQV"
+     gene            complement(1231..2088)
+                     /locus_tag="AMQ85_gp2"
+                     /db_xref="GeneID:25479215"
+     CDS             complement(1231..2088)
+                     /locus_tag="AMQ85_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163916.1"
+                     /db_xref="GeneID:25479215"
+                     /translation="MTKFLTPPRPSSKRLRAVSPKMQTGTPEPAHTIMPRGISTHMRK
+                     SAYHRNLGRRVGKYSTRRTLYTGFKNDLVSKKTYWSRLIRIPHYGAGQEEHIKYRRGA
+                     YCNVRGVKINYWFSMDANTQYPVQVRWAIINPKVNEGTDLTLVTNPENFFISKDPTTE
+                     QSENFPTTGNYFKYMNRKINRELYGVLKEGTFTMSIDPAAAVPNPGVVYRPGSAVKKI
+                     ALYVPVNRQMKWNNVVAGDANGYPEQNLYFVWWYDTAANDNTNPSASPLVQEFHEKTI
+                     YFKNSQMFA"
+ORIGIN
+        1 tagtattacc cagctcacct ccggaaccgg atcccataaa ttacggaacc ggaatttaca
+       61 atgccccgcg atgctccagc caaacagtgg tgcttcactc tcaacaacta cacccccgct
+      121 gaactcacgg caatcgttga ttctgctggt aattttgatt atctgtgttt tggtcgagaa
+      181 cgcggtaaca ataacactcc tcatctacaa gggtatctga ttctcaaaga gaagaagaga
+      241 ttctcttatg tccgccaact tgccggactt gaacgtgctc attgggagaa gaaaagtccc
+      301 cgatctactc ccaagcaagc ctccgactac tgtaaaaaag atggagacta cgatgaatat
+      361 ggcgaacttc ccaccaagaa acaaggtcaa aggacagatt ttgacgaact caaagagtgg
+      421 atcaaagaac aggaccatag acccactgac cgtgaagtcg ccgaagagtt cccctcgctc
+      481 tggggtcgat atcgatctgc ctgcatttcc tttctcgact tattcagtcc ccacccgacg
+      541 cttgttcagg gaaccttgag accctggcaa gaggacctca acacccgcct gtcagccccc
+      601 ccaaatgacc gcgatgtaat gtttgtcgta gacgaaaatg gtaatagcgg aaagagttgg
+      661 ttcattcgat atttaatgac ggagcgtcct gacgatgtgc aaatgctttc gattggtaaa
+      721 agggatgacc tggcgcatgc aattgatcct gccaaaaaga ttttcttttt cgatgtccca
+      781 agaggaggaa tggagttcat gcagtacgct gtcttggaac agcttaagaa ccgattggtc
+      841 ttttccccta agtatgagtc tcgaatgaaa gttctgcatc acattcccca tgttgtcgtt
+      901 ttctgtaacg aggaacctga tcgaacaaaa ctaagtcgtg acagatttcg cgtgactcat
+      961 attcgacaag tctaataata ttagtataca tgtaaacatt aacccgcctc gcagagctcg
+     1021 ccggaggcac ctgtgtgtgt gtgatcaacg ccagccgacc atacgccttc cacgacgaat
+     1081 aggaatccgc ccagcataag cagcgtagtt cctagtccag ccacgacgcc aaccgtgacg
+     1141 acgagcacta gtcccgtaac gacgagcata tgctctacgg tacgccatcc tacgacgtgc
+     1201 ataaagtctg ttgctcataa caaaaggcat ctaagcgaac atttgtgagt ttttgaaata
+     1261 aatggtcttt tcgtgaaatt cctgtaccaa aggacttgca gagggatttg tgttgtcatt
+     1321 tgcggcagtg tcgtaccacc aaacaaaata caaattttgt tctgggtaac cattggcgtc
+     1381 accagcaacc acgttgttcc atttcatttg tctattcact ggcacataca aggctatttt
+     1441 cttcacagca gagccaggtc tataaacaac acctgggttt ggaacagccg ccgccggatc
+     1501 aatactcatt gtgaacgttc cttccttaag tactccgtag agttcacgat tgatcttgcg
+     1561 attcatgtac ttgaagtagt tgccagttgt cggaaaattt tcagattgct cggtggtagg
+     1621 gtctttggat atgaagaaat tttctggatt tgtaacaaga gtcaaatccg tcccttcatt
+     1681 tactttgggg ttgataatag cccaacgtac ttggacgggg tattgggtgt tcgcgtccat
+     1741 ggaaaaccaa taattgattt tcaccccgcg aacattacaa taagcacccc tgcgatattt
+     1801 aatgtgctcc tcttgtccag cgccataatg cgggattcga atcaaccggg accagtatgt
+     1861 cttcttggat accaaatcat tcttgaagcc agtataaaga gtccttcttg tagaatattt
+     1921 gccaacacgt cgacctagat ttcgatggta tgcgcttttt ctcatatgtg tcgagattcc
+     1981 tctcggcata atggtatgcg caggctcagg tgtacccgtc tgcatctttg gagaaactgc
+     2041 tctcaatctc ttgctacttg gccttggtgg agttaaaaac ttggtcatac gcgacgtacc
+     2101 ttggtatatt gcgtcagtaa cggctcctgc tgttgtacct attgctgcta cctcaccgag
+     2161 tgtcccttct gcaaagtatg gccctaaaaa agacatgtgg gaggaagttt tggaagtgtt
+     2221 tttaaggcac gcgttgacac gtgccggaac cgtttctggt acatgtctac atggacctac
+     2281 gtgagctggt g
+//

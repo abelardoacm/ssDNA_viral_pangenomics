@@ -1,0 +1,161 @@
+LOCUS       NC_035212               3925 bp    DNA     circular VRL 04-JUN-2019
+DEFINITION  Human fecal virus Jorvi2, complete genome.
+ACCESSION   NC_035212
+KEYWORDS    RefSeq.
+SOURCE      Human fecal virus Jorvi2
+  ORGANISM  Human fecal virus Jorvi2
+REFERENCE   2  (bases 1 to 3925)
+REFERENCE   3  (bases 1 to 3925)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MF118167.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Newber v. 2.6
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3925
+                     /organism="Human fecal virus Jorvi2"
+                     /mol_type="genomic DNA"
+                     /isolate="Jorvi2"
+                     /isolation_source="feces"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:2017081"
+                     /country="Finland"
+     gene            1..939
+                     /locus_tag="CGU78_gp1"
+                     /db_xref="GeneID:33350100"
+     CDS             1..939
+                     /locus_tag="CGU78_gp1"
+                     /codon_start=1
+                     /product="putative replication-associated protein"
+                     /protein_id="YP_009389529.1"
+                     /db_xref="GeneID:33350100"
+                     /translation="MQEQNPRGKRWVFTWCNYPENWREIITNGKNPSLWSSDNIKYLV
+                     AEKEYAPTTGMAHIQGYFELNTKFYRNSLYMVFLPAYLQIAKGTQLDNYKYCTKTGVD
+                     VIEIGSKTLETEKWCTRLIKTKNMLNDLMKTSWSMFSEKYPVEALHNRNQLVQWKFDH
+                     TEVKESWSGLLAYKNIWLWGAPGTGKSTWARKQMEANETMFKLQNKWWDGYDDYHHKL
+                     VIIEDLEKNYAKVLVSHLKVWSDRHWFSGEVKGGAIKVNPGKFFLIVTSNYSIDDCFE
+                     NEEDKKAIKRRFKEVEIKTPNDIFLGTTLDKTILTT"
+     gene            complement(1591..2256)
+                     /locus_tag="CGU78_gp2"
+                     /db_xref="GeneID:33350096"
+     CDS             complement(1591..2256)
+                     /locus_tag="CGU78_gp2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009389530.1"
+                     /db_xref="GeneID:33350096"
+                     /translation="MSRTLNLRGTFTEGESRNLNGRILRNTSNPNPPPRVVTANDFDR
+                     YINILKANNRFPIPKEQTLSISTTPYTLDKDIYLAKDSVISFFGTSPAYLNKFSLSTG
+                     SSTVYDISAKFQYTASGTTIVTQNTEQDYSLIYIEYLSNFYRVTYIVHRVSGPVTLTV
+                     PANSYYYSINSDYNAEEIPTLTFYEGDQTILLLSAPSTPTIDGDARIVTSSLITQFVF
+                     TSN"
+     misc_feature    2175..2183
+                     /note="putative nonanucleotide motif"
+     gene            complement(2284..2772)
+                     /locus_tag="CGU78_gp3"
+                     /db_xref="GeneID:33350097"
+     CDS             complement(2284..2772)
+                     /locus_tag="CGU78_gp3"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009389531.1"
+                     /db_xref="GeneID:33350097"
+                     /translation="MARKYKKVYGSRRPLKTVKYSNETSNITSSFSITQGGQLNASLV
+                     TASSIQGIRKAKNFSLKILYAGSAPLMFVLVYVPQGQDVKAITRGTYTAPASLYEPNQ
+                     NVIMSGYIVPNNSQAQTFRTRLARNLNSGDSIQIAICCAGASDTVTDANIGISLNYAI
+                     TF"
+     gene            complement(2779..3162)
+                     /locus_tag="CGU78_gp4"
+                     /db_xref="GeneID:33350098"
+     CDS             complement(2779..3162)
+                     /locus_tag="CGU78_gp4"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009389532.1"
+                     /db_xref="GeneID:33350098"
+                     /translation="MLFDDNDYYDHIFGPDDSTNDFNFNFDDFISNEPINDNIDTIPD
+                     DTTPEIDSIPPNPLPPPSNSDSVAYYFEDYTQLKEYVKLYYNNVRNHYILLPVDAIGA
+                     IRVDRRRRSYSNYLIPPSCILLPHP"
+     gene            3242..3592
+                     /locus_tag="CGU78_gp5"
+                     /db_xref="GeneID:33350099"
+     CDS             3242..3592
+                     /locus_tag="CGU78_gp5"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009389533.1"
+                     /db_xref="GeneID:33350099"
+                     /translation="MCEIEFVKWAIEIDEKTDLPCINLYYTMDYDNKLWCHKFLFDEL
+                     LKKDEEPNFRSIIYSLILEKENQYISCDDEWMKPAHHSDHLLEKFQNNLFQVINNEIT
+                     YDDFWKRFGDFSFP"
+ORIGIN
+        1 atgcaagaac aaaatccaag aggcaagagg tgggtattta cgtggtgtaa ttatccagaa
+       61 aattggagag agattataac caatgggaag aatccaagtc tttggtcaag cgataatatt
+      121 aaatacttag tagcagaaaa agagtacgct ccaacaacag gaatggcaca catacaaggt
+      181 tattttgaac taaatacaaa attttatagg aactcgttat atatggtgtt tttaccagca
+      241 tatttacaaa ttgcaaaagg aacacagcta gataattata agtattgcac caaaacaggc
+      301 gttgatgtta tagagatagg aagcaaaacc cttgaaacgg aaaaatggtg tacaagatta
+      361 attaagacta aaaatatgtt aaatgattta atgaagacat catggtctat gtttagtgaa
+      421 aaatatccag ttgaagcatt acacaataga aatcaactcg ttcaatggaa gtttgatcat
+      481 acagaggtta aagaatcatg gagtggttta ttggcatata aaaatatttg gctgtggggt
+      541 gcaccaggaa cagggaaatc cacatgggca cgcaagcaaa tggaagcaaa tgaaaccatg
+      601 tttaaactcc agaataagtg gtgggatggc tatgatgatt accatcataa acttgtaatt
+      661 attgaggatt tagaaaagaa ctatgcaaaa gttttggtgt cacatttgaa agtatggtca
+      721 gatagacatt ggttttccgg cgaagtaaaa ggaggagcaa ttaaagttaa tccaggtaag
+      781 ttttttttga tcgttacatc aaattatagt atcgatgact gctttgaaaa tgaagaagac
+      841 aaaaaagcta taaaaagaag gttcaaagaa gtagaaatta aaacacctaa tgacatcttc
+      901 ttaggaacaa cgcttgataa aacgatactt acaacgtaat aaaaataatt caatttaatt
+      961 ttttttctct atattttatt taaaaacata gagtctcgaa aaaatttggc gaaattgaat
+     1021 gtagtccaaa aaaatagtga cgatagagaa aatggactat aaattgaatg gtttattttt
+     1081 aaattatcat tcaaaaagtt catgtacatt gaaaattgaa tgtagtccaa aaaaatattt
+     1141 ctggctaggt aatataatct tagacggatc aagttgtcac ttttgtcaaa gatgggtact
+     1201 agcgagaatt ttttgaatat tttacaaata tcaattttca atttgattta atcgaacaca
+     1261 catcaaagta agaacatcaa taaaaaatat ttaatctaac ccccacccct ttttctcttt
+     1321 tattcggaac cttttgacgt ggatccaaag caattagctt atccatgtga gccttggacc
+     1381 agtccaaagt gaaaaaaaga tatttacgaa tgcagattgc attctttggg ggaggggggc
+     1441 ccatagatta aagaaaaaga aagaaaagaa aaattttata aatgctcatt gagggaacga
+     1501 ctgtgttgtt tacacaatgt gcggagtcga aagaaaagaa atagaatacc agaaaaacta
+     1561 aaaaaaaaga aaatgaaaat ttactattaa ctagttggag gtaaagacaa actgagttat
+     1621 taatgatgaa gtgacaattc gggcatctcc atcaatagtt ggtgtagatg gggcacttaa
+     1681 aagtaaaata gtctgatctc cttcataaaa tgttaatgtt ggaatttctt ctgcattata
+     1741 atcagaatta atggaataat aataagaatt ggctggaaca gttaatgtta ctgggccaga
+     1801 tacacgatga acaatataag tcactctata aaaattgctt aaatactcta tatatataag
+     1861 tgaataatct tgttcggtat tttgtgttac tatcgtggtt cctgatgcag tatactgaaa
+     1921 tttagcagaa atgtcataca cggtacttga accagttgaa agtgaaaact tattaagata
+     1981 tgcaggtgat gtaccaaaaa atgaaataac agaatctttg gctaaataaa tatctttatc
+     2041 aagtgtatag ggtgttgtag aaattgataa ggtttgttct tttggaatag gaaacctatt
+     2101 attagcttta agaatattaa tatatctatc aaaatcattt gcggtgacaa cacgaggggg
+     2161 aggattggga ttactagtat tacgaagaat acggccatta agattacgtg attcaccttc
+     2221 agtaaatgtg cctcgaagat ttagtgttcg actcataaat aataataaat tgcgggagtt
+     2281 tacttaaaaa gtgatagcat aattaagtga tataccaata ttagcatctg tgacagtatc
+     2341 agaagctcca gcacaacaaa tagcaatttg gatggaatcg ccactattaa ggttcctagc
+     2401 taatctagta cggaatgtct gtgcttgact gttattagga actatatatc cagacataat
+     2461 tacattttga ttaggttcat ataaggaagc gggtgctgta tatgtaccac gtgttatagc
+     2521 tttgacatct tgaccttgag gtacatatac taatacaaac attaatggcg cacttccggc
+     2581 atacaatatt tttaatgaaa agttttttgc ttttcgtata ccttgaattg atgatgctgt
+     2641 aacaagagat gcattaagct ggccaccttg agtaattgaa aaactagaag tgatattaga
+     2701 tgtctcatta gaatatttta ctgtttttaa aggtcttcta gaaccataaa ctttcttata
+     2761 cttacgtgcc atatatattt atggatgcgg gagaagaatg caactaggcg gaatcaagta
+     2821 attggaataa gatctacggc ggcgatcaac tctaatagct cctatagcat caactggcaa
+     2881 taatatgtag tgatttctta cattattata atataatttt acatattcct ttaattgagt
+     2941 ataatcttcg aaataatatg caactgaatc agaatttgag ggaggtggta aaggatttgg
+     3001 cgggatagaa tcaatttcag gagttgtatc atctgggatt gtatctatat tatcattaat
+     3061 tggttcattg cttatgaagt catcgaaatt aaagttaaaa tcattggtgc tatcatcagg
+     3121 gccaaagata tgatcatagt aatcgttgtc atcgaataac atttaataaa ataaaaaggg
+     3181 aattcactat ttaagtggca gatttattat atttttcagt tagcgcgttt tcattttttg
+     3241 tatgtgtgag atagaatttg ttaaatgggc tattgaaata gatgagaaga cagatttacc
+     3301 ttgcattaat ttatattata ctatggatta tgacaataaa ttatggtgtc ataagtttct
+     3361 atttgatgaa ttattaaaga aagatgaaga accaaacttc aggtcaataa tatatagttt
+     3421 aattctagag aaagagaatc aatacatttc ttgtgatgat gaatggatga aacctgctca
+     3481 tcatagtgat catttattgg agaaattcca aaataatctg tttcaagtta ttaataatga
+     3541 aattacatac gatgatttct ggaagagatt tggtgatttc agcttccctt aaataaataa
+     3601 taaataatta agttattttt gtgattatat attaaataat aatagttttt cttcgttgga
+     3661 ctaatgaagt ttttcaagat aaatatagag agtgttcata ttataaatta cttaatataa
+     3721 taagagataa acatatataa atatatacat taaaatttat tcctcaatca aattgaaaat
+     3781 attgactagg tccgttcact aaatacatat aataaataat tacataggcc gactttttga
+     3841 acgataaaaa aagacagtgt taatgtcact aaatgccaaa attcaatagg agcaagtcac
+     3901 ttagacaatc aggtcactta tctga
+//

@@ -1,0 +1,86 @@
+LOCUS       NC_001792               1758 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Porcine circovirus 1, complete genome.
+ACCESSION   NC_001792 NC_006266
+KEYWORDS    RefSeq.
+SOURCE      Porcine circovirus 1
+  ORGANISM  Porcine circovirus 1
+REFERENCE   2  (bases 1 to 1758)
+REFERENCE   3  (bases 1 to 1758)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF071879.
+            On or before Aug 25, 2010 this sequence version replaced
+            NC_006266.1, NC_001792.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1758
+                     /organism="Porcine circovirus 1"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:133704"
+     stem_loop       join(1747..1758,1..21)
+     gene            55..993
+                     /gene="V1"
+                     /locus_tag="PCVgp1"
+                     /db_xref="GeneID:7693233"
+     CDS             55..993
+                     /gene="V1"
+                     /locus_tag="PCVgp1"
+                     /note="rolling-circle replication protein homolog; Rep
+                     protein"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="NP_065678.1"
+                     /db_xref="GeneID:7693233"
+                     /translation="MPSKKSGPQPHKRWVFTLNNPSEEEKNKIRELPISLFDYFVCGE
+                     EGLEEGRTPHLQGFANFAKKQTFNKVKWYFGARCHIEKAKGTDQQNKEYCSKEGHILI
+                     ECGAPRNQGKRSDLSTAVSTLLETGSLVTVAEQFPVTYVRNFRGLAELLKVSGKMQQR
+                     DWKTAVHVIVGPPGCGKSQWARNFTEPSDTYWKPSRNKWWDGYHGEEVVVLDDFYGWL
+                     PWDDLLRLCDRYPLTVETKGGTVPFLARSILITSNQAPQEWYSSTAVPAVEALYRRIT
+                     TLQFWKTAGEQSTEVPEGRFEAVDPPCALFPYKINY"
+     gene            complement(1038..1730)
+                     /gene="C1"
+                     /locus_tag="PCVgp2"
+                     /db_xref="GeneID:7693232"
+     CDS             complement(1038..1730)
+                     /gene="C1"
+                     /locus_tag="PCVgp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="NP_065679.1"
+                     /db_xref="GeneID:7693232"
+                     /translation="MTWPRRRYRRRRTRPRSHLGNILRRRPYLAHPAFRNRYRWRRKT
+                     GIFNSRLSTELVLTIKGGYSQPSWNVNYLKFNIGQFLPPSGGTNPLPLPFQYYRIRKA
+                     KYEFYPRDPITSNQRGVGSTVVILDANFVTPSTNLAYDPYINYSSRHTIRQPFTYHSR
+                     YFTPKPELDQTIDWFHPNNKRNQLWLHLNTHTNVEHTGLGYALQNAATAQNYVVRLTI
+                     YVQFREFILKDL"
+ORIGIN
+        1 gtagtattac cagcgcactt cggcagcggc agcacctcgg cagcgtcagt gaaaatgcca
+       61 agcaagaaaa gcggcccgca accccataag aggtgggtgt tcacccttaa taatccttcc
+      121 gaggaggaga aaaacaaaat acgggagctt ccaatctccc tttttgatta ttttgtttgc
+      181 ggagaggaag gtttggaaga gggtagaact cctcacctcc aggggtttgc gaattttgct
+      241 aagaagcaga cttttaacaa ggtgaagtgg tattttggtg cccgctgcca catcgagaaa
+      301 gcgaaaggaa ccgaccagca gaataaagaa tactgcagta aagaaggtca catacttatc
+      361 gagtgtggag ctccgcggaa ccaggggaag cgcagcgacc tgtctactgc tgtgagtacc
+      421 cttttggaga cggggtcttt ggtgactgta gccgagcagt tccctgtaac gtatgtgaga
+      481 aatttccgcg ggctggctga acttttgaaa gtgagcggga agatgcagca gcgtgattgg
+      541 aagacagctg tacacgtcat agtgggcccg cccggttgtg ggaagagcca gtgggcccgt
+      601 aattttactg agcctagcga cacctactgg aagcctagta gaaataagtg gtgggatgga
+      661 tatcatggag aagaagttgt tgttttggat gatttttatg gctggttacc ttgggatgat
+      721 ctactgagac tgtgtgaccg gtatccattg actgtagaga ctaaaggcgg tactgttcct
+      781 tttttggccc gcagtatttt gattaccagc aatcaggccc cccaggaatg gtactcctca
+      841 actgctgtcc cagctgtaga agctctctat cggaggatta ctactttgca attttggaag
+      901 actgctggag aacaatccac ggaggtaccc gaaggccgat ttgaagcagt ggacccaccc
+      961 tgtgcccttt tcccatataa aataaattac tgagtctttt ttgttatcac atcgtaatgg
+     1021 tttttatttt tatttattta gaggtctttt aggataaatt ctctgaattg tacataaata
+     1081 gtcagcctta ccacataatt ttgggctgtg gctgcatttt ggagcgcata gccgaggcct
+     1141 gtgtgctcga cattggtgtg ggtatttaaa tggagccaca gctggtttct tttattattt
+     1201 gggtggaacc aatcaattgt ttggtccagc tcaggtttgg gggtgaagta cctggagtgg
+     1261 taggtaaagg gctgccttat ggtgtggcgg gaggagtagt taatataggg gtcataggcc
+     1321 aagttggtgg agggggttac aaagttggca tccaagataa caacagtgga cccaacacct
+     1381 ctttgattag aggtgatggg gtctctgggg taaaattcat atttagcctt tctaatacgg
+     1441 tagtattgga aaggtagggg tagggggttg gtgccgcctg agggggggag gaactggccg
+     1501 atgttgaatt tgaggtagtt aacattccaa gatggctgcg agtatcctcc ttttatggtg
+     1561 agtaccaatt ctgtagaaag gcgggaattg aagatacccg tctttcggcg ccatctgtaa
+     1621 cggtttctga aggcggggtg tgccaaatat ggtcttctcc ggaggatgtt tccaagatgg
+     1681 ctgcgggggc gggtccttct tctgcggtaa cgcctccttg gccacgtcat cctataaaag
+     1741 tgaaagaagt gcgctgct
+//

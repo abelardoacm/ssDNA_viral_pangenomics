@@ -1,0 +1,97 @@
+LOCUS       NC_008033               2063 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Starling circovirus, complete genome.
+ACCESSION   NC_008033
+KEYWORDS    RefSeq.
+SOURCE      Starling circovirus
+  ORGANISM  Starling circovirus
+REFERENCE   2  (bases 1 to 2063)
+REFERENCE   3  (bases 1 to 2063)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from DQ172906.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2063
+                     /organism="Starling circovirus"
+                     /mol_type="genomic DNA"
+                     /host="European Starling (Sturnus vulgaris)"
+                     /db_xref="taxon:349370"
+     gene            37..906
+                     /locus_tag="SCV_gp1"
+                     /db_xref="GeneID:5142109"
+     CDS             37..906
+                     /locus_tag="SCV_gp1"
+                     /codon_start=1
+                     /product="putative replication-associated protein"
+                     /protein_id="YP_610960.1"
+                     /db_xref="GeneID:5142109"
+                     /translation="MAVRGSAAKRWCFTLNNPTEEEIAAVKAWQHSEYHYAIVGKEKG
+                     EQGTPHLQGFIHLKKKVRLTSLKKVLQRAHWEKARGSDEDNEKYCSKEGDVILTIGIP
+                     VKGNRSDLAGAVAAVKAGRGMSEIAREFSETYVRYGRGLRDLALLIGQKQRDFKTEVT
+                     VLTGPSGVGKSRWANEQVGTKFYKMKGDWWDGYCNEDIVIIDDFYGWIPFCELLRLCD
+                     RYPHKVPVKGSYVEFNSKQIIITSNTPPDSWYNEDKCYVQALFRRINRWLVWDATQFV
+                     DAPEVMKKYPINY"
+     gene            834..1154
+                     /locus_tag="SCV_gp3"
+                     /db_xref="GeneID:5142108"
+     CDS             834..1154
+                     /locus_tag="SCV_gp3"
+                     /note="ORF3"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_610961.1"
+                     /db_xref="GeneID:5142108"
+                     /translation="MACVGCHPVRGCTGSDEEVSDQLLTGNGNDVTGNDDTRDLVIIK
+                     NKTGGPGGSPSPPRSGGLIRALPPRCRGPLAVHDREGAVGDRSVSPGPKARVYTRPRG
+                     KKNK"
+     gene            complement(1190..2020)
+                     /locus_tag="SCV_gp2"
+                     /db_xref="GeneID:5142107"
+     CDS             complement(1190..2020)
+                     /locus_tag="SCV_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_610962.1"
+                     /db_xref="GeneID:5142107"
+                     /translation="MLLSRRRWRRGLRPRYRRRHYRRRRRTRRLPRNRRGHRANRVYY
+                     FRLRHSVKVTLQKDEGGSFKYGTDVFTFTLEDVLNPTGGDSLKLPFEDYKIVLVKVEM
+                     RPLGENSTEWKGLGHTVPITDARLMNFVKKKGLADDPLANWDGALKWDQRKGFKRLVR
+                     PKPQLVITDLSTANETAALWLNSQKAFWIPLQLNAAQIKPKKVKHYGIAFSYLQPSPD
+                     EWAYQANITFYMKFRQFAWTALSDPPTPNVMADLPPHMELMNVIEDDEGPDSFPEFFE
+                     "
+ORIGIN
+        1 accggccact tggagccacg gagccatcgt ctcgaaatgg ctgtaagggg ctctgccgct
+       61 aagagatggt gcttcaccct caacaacccc acagaggaag agattgcagc agtcaaagcc
+      121 tggcagcaca gtgagtacca ctatgccatt gtgggaaaag aaaaaggaga gcaagggacc
+      181 ccccacctcc aaggctttat ccacttaaag aaaaaagtga gactcacaag ccttaaaaaa
+      241 gtgctgcaaa gagctcactg ggagaaggcc cgaggcagtg atgaagataa tgagaaatac
+      301 tgcagtaaag agggggacgt gatactcacg atcggcatac cagtgaaggg aaaccggagc
+      361 gaccttgccg gagctgttgc cgctgtgaaa gccggaagag gaatgagtga gatcgcgcga
+      421 gagttcagtg agacttacgt cagatatggg cggggcctcc gggatctagc ccttctgatt
+      481 ggtcagaagc aacgtgactt caagacggaa gttaccgtgc ttactggccc ttcaggtgtg
+      541 ggcaagtccc ggtgggccaa tgaacaagtt gggacaaagt tctataaaat gaaaggtgat
+      601 tggtgggatg gatactgcaa tgaggatata gtaatcattg atgatttcta tgggtggata
+      661 cccttctgtg agctgctgag actgtgtgat cgatacccac ataaggtgcc cgtcaagggg
+      721 tcctatgtgg agttcaacag caagcagatc atcattacca gtaacacccc accggactcg
+      781 tggtataatg aagacaagtg ttatgtgcaa gctctgttta gacgtataaa cagatggctt
+      841 gtgtgggatg ccacccagtt cgtggatgca ccggaagtga tgaagaagta tccgatcaac
+      901 tactgaccgg aaacggaaat gacgtcaccg gaaatgacga cactcgagat cttgttatta
+      961 taaaaaataa aacggggggt ccggggggga gccccagccc cccgcgaagc ggggggctga
+     1021 tcagggcgct ccccccccgg tgtcgtggac ctttagccgt ccacgaccgc gagggcgccg
+     1081 taggcgaccg aagcgtgtcc cccgggccga aggcccgggt ctacactcga cctcgaggaa
+     1141 aaaaaaataa ataaataata caccggaaac ggaaatgacg tcacttcctt tattcaaaga
+     1201 attctgggaa agagtcggga ccttcatcgt cctcaatgac attcatgagt tccatgtggg
+     1261 gtgggaggtc ggccattaca ttgggggttg gggggtcact cagagcagtc catgcaaact
+     1321 gcctgaattt catatagaag gttatattgg cctggtaagc ccactcatct ggtgatggct
+     1381 gcaggtagct gaaagctatc ccgtagtgtt tcactttttt gggtttaatc tgggcagcat
+     1441 tcaactgcag ggggatccaa aatgccttct ggctgtttaa ccatagagca gccgtttcat
+     1501 tagcagtaga taggtcagta atcaccagtt gaggtttagg ccttaccagc ctcttaaacc
+     1561 ccttcctctg atcccatttc agggccccat cccaattagc tagggggtcg tcagccagcc
+     1621 cctttttctt aacaaaattc ataagtctgg catcagtgat aggcactgta tgccctaacc
+     1681 ccttccactc agtagagttc tcccctaggg gtctcatctc gacctttaca agaacaatct
+     1741 tatagtcctc aaaaggtaat ttgagactat cacccccagt ggggttaagt acgtcttcaa
+     1801 gagtaaaagt aaagacatca gtcccatatt taaaagagcc tccctcgtcc ttttgaagag
+     1861 tgactttgac agagtgccga agtctaaagt aatagacacg gttggctctg tgccctcttc
+     1921 tgttcctcgg caaccgcctg gtccgtctcc gcctcctgta gtgacgtctc cgataacggg
+     1981 gtcgaagtcc gcgtctccac ctccgtctcg atagcaacat ggttaataat taaccagtgg
+     2041 ctccaagtgg ccgtttcagt att
+//

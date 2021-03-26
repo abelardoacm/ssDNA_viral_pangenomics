@@ -1,0 +1,92 @@
+LOCUS       NC_027782               2061 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Didemnum sp. Sea Squirt associated virus isolate I0026A4, complete
+            genome.
+ACCESSION   NC_027782
+KEYWORDS    RefSeq.
+SOURCE      Didemnum sp. Sea Squirt associated virus
+  ORGANISM  Didemnum sp. Sea Squirt associated virus
+REFERENCE   2  (bases 1 to 2061)
+REFERENCE   3  (bases 1 to 2061)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528546.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2061
+                     /organism="Didemnum sp. Sea Squirt associated virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0026A4"
+                     /host="Didemnum sp."
+                     /db_xref="taxon:1692247"
+     stem_loop       join(10..20,2049..2058)
+                     /note="contains nonanucleotide motif"
+     gene            complement(67..969)
+                     /locus_tag="AMQ89_gp1"
+                     /db_xref="GeneID:25479195"
+     CDS             complement(67..969)
+                     /locus_tag="AMQ89_gp1"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163901.1"
+                     /db_xref="GeneID:25479195"
+                     /translation="MENTTTKHETKPATNLPHKSWFLTLNNWTETEYKILQQLHGVTY
+                     SIIGKEGKETTPHLQGVVTFQKATRIAALKKILPRVHWEIPLNLDASRNYCMKEGDYE
+                     VTDHRHQGRRSDIAEAVGMVTDGKHMMEVAEAHPVTYVRNFRGLAALQGILERPRTWK
+                     TRVHVHWGPTGTGKTYNAHAQLKQLFPLERPYVWTPAMENWWDGYSGQSGVILDEFRG
+                     QLPFATLLNLLDEYEMIVPIKGGSRQWKPHVIFITSPLEPRSWYETGKAADSVEQLLR
+                     RIDIIEHMTEAYKISLDDIEQIYK"
+     gene            1282..2037
+                     /locus_tag="AMQ89_gp2"
+                     /db_xref="GeneID:25479194"
+     CDS             1282..2037
+                     /locus_tag="AMQ89_gp2"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163902.1"
+                     /db_xref="GeneID:25479194"
+                     /translation="MVFATPFKRGVKRLGAHAARSKGVKRRMFGRRRRPIRSRFIRRG
+                     RNLSSRVRTLEKFHETKFSLSNIAEQSPSVGVPTSLNIGSLAVGDDANTREGNKVSLI
+                     RFDLRMNWVMADAYQAIRIILVSCDHVSPADLTLANVLDANHLIARLNINSSYKRDQR
+                     PTPFRVIWDRRYKIRSQTFWNTVSEGVGVAPDDSVNIRKSFHFPRGRKMQFRTASTDN
+                     PVRGGFKLFYMSDSAAAPHPTCLATTQLLFKDG"
+ORIGIN
+        1 cagtattacc tacaggacac ttccgttacg gttacttata taaatttgtt cagatttgca
+       61 taaatttcat ttataaattt gttcaatatc gtccaaactg attttgtacg cttccgtcat
+      121 gtgctcgatg atgtcaatcc ttcttagtag ttgttccaca ctgtccgcag ccttgccagt
+      181 ctcgtaccag ctgcggggct ccaacggact ggtgataaag atcacatgcg gtttccactg
+      241 tctgcttcca cctttgatag gcacgatcat ttcgtactcg tccagcaaat tcaagagcgt
+      301 tgcgaaaggc agctgtcctc tgaattcgtc caatatcacc cctgactgtc cggagtaccc
+      361 gtcccaccag ttttccatgg ctggtgtcca gacgtacggc cgttccagcg ggaatagttg
+      421 cttgagctgc gcgtgagcgt tgtaggtctt ccccgttccg gttggtcccc aatggacgtg
+      481 tacccttgtc ttccaggttc ttggtcgctc caggatcccc tgtagggctg ctagccctcg
+      541 gaaattcctg acatatgtta ctgggtgagc ctccgctacc tccatcatgt gtttgccgtc
+      601 tgtgaccatc cccaccgcct ccgcgatgtc cgatctcctc ccctggtgtc tgtggtccgt
+      661 tacctcgtag tctccctcct tcatgcagta gttcctgctc gcgtccagat tcaacgggat
+      721 ctcccagtga accctcggta gtatcttctt caatgctgca atcctcgtcg ctttctgaaa
+      781 cgtgactact ccctgaagat gtggtgtcgt ctcctttcct tctttcccaa tgatcgaata
+      841 tgtaacgccg tgcagctgct ggagaatctt gtactccgtt tctgtccagt tgttgagtgt
+      901 caggaaccag gacttgtgcg gcaggttcgt cgccggcttg gtttcgtgct tcgtcgttgt
+      961 gttctccatt catgttgtgg tctttgcaag agcggccgct cttttaaaca ttttaccttc
+     1021 actcaagggt tcaaaattta tgccgcttag aatccgggct aacttcaccc ataaaaaatt
+     1081 ggcgcaagcc aatttcgctg cgcgaacagc tcaccgcgcc cccattagtt gcttgccgtc
+     1141 cgccgctccg cgcctcaccg cctgcacaga tgattttggt tggcccgccg caggcgtcgc
+     1201 gagccccact gacaaagcat tattgtttcc aattttggca aaaaacacta taaaagcagc
+     1261 gcttttgaac tgggttcaca catggtcttt gccacgccgt ttaaacgtgg tgtcaaacgt
+     1321 ctcggtgccc atgccgcccg ttccaagggg gtcaaacgtc gtatgtttgg gcgtcgccgt
+     1381 cgcccaatcc gtagtcgctt tattcgccgt ggtcgcaact tatcttctcg cgtgcgcact
+     1441 ttggagaagt ttcacgagac aaagttcagt ttgagcaata tagccgagca atctccgtcc
+     1501 gtcggtgttc ctacctccct taatattggt tctcttgctg ttggagatga tgcaaatacc
+     1561 cgtgagggta acaaagtcag tctcattcgt tttgatcttc gcatgaactg ggtcatggct
+     1621 gatgcatatc aagccatccg tattattctc gtttcgtgtg accatgtttc tcctgctgat
+     1681 ttgactctgg ctaatgttct tgatgccaat catctcattg cacggttgaa tatcaactcg
+     1741 tcgtacaagc gtgatcagcg tcctaccccg ttccgtgtca tatgggatcg tcgttacaaa
+     1801 attcggtctc agacattttg gaataccgtc agtgagggtg ttggtgttgc acctgatgac
+     1861 tctgtcaaca tccgtaagtc gtttcacttc cctcgtggtc gtaaaatgca gtttcgtaca
+     1921 gcctctaccg ataatcccgt tcgtggtggg ttcaagcttt tttacatgag tgattccgcc
+     1981 gccgctccgc atcccacttg tctcgcgact acgcagttac tttttaagga tggttaaaaa
+     2041 tagattttgt gtcctgtagt t
+//

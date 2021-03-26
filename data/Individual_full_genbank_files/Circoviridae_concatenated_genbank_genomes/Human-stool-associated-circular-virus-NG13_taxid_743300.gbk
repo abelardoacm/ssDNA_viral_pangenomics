@@ -1,0 +1,85 @@
+LOCUS       NC_038392               1699 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  Human stool-associated circular virus NG13, complete genome.
+ACCESSION   NC_038392
+KEYWORDS    RefSeq.
+SOURCE      Human stool-associated circular virus NG13
+  ORGANISM  Human stool-associated circular virus NG13
+REFERENCE   2  (bases 1 to 1699)
+REFERENCE   3  (bases 1 to 1699)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GQ404856.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1699
+                     /organism="Human stool-associated circular virus NG13"
+                     /mol_type="genomic DNA"
+                     /isolate="NG13"
+                     /isolation_source="stool"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:743300"
+                     /country="Nigeria"
+                     /collection_date="2007"
+     gene            28..951
+                     /gene="rep"
+                     /locus_tag="D1Q15_gp1"
+                     /db_xref="GeneID:37617105"
+     CDS             28..951
+                     /gene="rep"
+                     /locus_tag="D1Q15_gp1"
+                     /codon_start=1
+                     /product="replication-association protein"
+                     /protein_id="YP_009506283.1"
+                     /db_xref="GeneID:37617105"
+                     /translation="MESKRKKRQNPAKRWCFTLNNYTQLEAITIEQLLCTEEVQYAIV
+                     GEEIGENGTPHLQGFFNLKKKKRLTSLKAWLNDRAHYEEAKGSDEQNRRYCSKSGNIL
+                     ISFGSPQKQGQRNDLVLAAELLKESGGNMAAVADLYPSAVIRYGRGLQQYWQLIGFSA
+                     RDFKTEVFVYVGPPGCGKSRAAAELGAASGGKVYYKPRGEWWDGYNGEATVIIDDFYG
+                     WLKYDELLRLCDRYPHRVPVKGGFVQFCSKRIILTSNIHVWMWYRFESYDASALMRRI
+                     NVYKLWNGSVCTFDDLCDEKYNFLTPLKYNY"
+     gene            complement(956..1621)
+                     /gene="cap"
+                     /locus_tag="D1Q15_gp2"
+                     /db_xref="GeneID:37617104"
+     CDS             complement(956..1621)
+                     /gene="cap"
+                     /locus_tag="D1Q15_gp2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009506284.1"
+                     /db_xref="GeneID:37617104"
+                     /translation="MGGRRRQRRPDPRRGRRRARTFLPARLYGQTYSTRLIKQDTFRV
+                     DAAGKGVGLTFTLGEFLTGQITWDYYRINTIVVTFLPQINPTMPIDQGTGGGGFNETS
+                     VDFDDATPPTSKISMENWNNTKFWRNDRKFTIKFRPVFHRLVATSATSTTPVSAEFNQ
+                     RRNRGVWLNSAYKDIPHFGLKTFFVNNFTNPAQNTIIYQILIKAYVSFKRPIWVGTTT
+                     ENQ"
+ORIGIN
+        1 accaggcacc tcggcaccgg caccaatatg gagtcaaaga ggaagaagag acaaaaccca
+       61 gcaaagagat ggtgttttac attgaacaat tacacacagt tagaggcaat tacaattgaa
+      121 caacttttat gcacagaaga agtacaatac gctattgttg gagaggaaat tggagaaaat
+      181 ggaacaccgc acttacaagg attcttcaat ttaaaaaaga agaagcgact tacctccttg
+      241 aaggcatggc tgaatgatag agcccactac gaagaagcaa agggttccga cgaacagaac
+      301 aggagatact gctctaaaag tggtaatatc ctaatctctt tcggctcgcc tcaaaagcag
+      361 ggtcagagaa atgatcttgt cttggcggct gaacttttga aagagagtgg cgggaatatg
+      421 gcagcggttg cagatttata cccttcagcc gttatcagat atgggcgtgg cttacaacaa
+      481 tactggcagc tcattggttt ctctgcccgc gatttcaaaa cggaggtttt tgtttacgtc
+      541 ggcccgcccg gatgtggaaa gtcccgcgcc gcagcagagc taggcgccgc cagcggtggc
+      601 aaagtgtact acaagccaag aggggagtgg tgggatggct acaatggaga ggccactgta
+      661 atcattgatg atttttacgg atggctgaag tatgatgaat tgttgagact ttgtgaccgc
+      721 tatccacacc gggttcctgt taaagggggt tttgttcagt tttgtagcaa gaggattata
+      781 cttacttcca atattcatgt ttggatgtgg tatagatttg aaagctacga tgccagcgcc
+      841 cttatgcggc gtattaatgt gtataaatta tggaatggaa gtgtatgtac ttttgatgat
+      901 ttgtgtgatg aaaaatacaa cttcttgaca ccattaaagt ataattatta aaactttatt
+      961 gattttcagt tgtggttcct acccatattg gacgtttgaa actcacataa gcctttataa
+     1021 ggatttggta tataatagta ttctgcgcag gatttgtaaa gttgtttaca aaaaacgttt
+     1081 ttaggccaaa atgaggaata tctttatatg cagaatttag ccatacaccc cggtttctac
+     1141 gttgattaaa ttcagcgctc acaggcgttg tagaagtagc tgatgtagct accaaccggt
+     1201 ggaatactgg ccggaattta atagtaaatt ttctatcatt gcgccagaat ttagtattat
+     1261 tccaattttc catacttatt tttgaggttg gaggagtggc atcgtcaaag tccacagagg
+     1321 tctcattaaa accgcctcct ccagtacctt ggtcaattgg catagtagga ttaatttgag
+     1381 ggagaaaggt tactactata gtgttaattc tataatagtc ccaggttatt tgcccggtta
+     1441 aaaattcccc caaagtgaac gttagtccaa ctcctttgcc agctgcgtcc accctaaatg
+     1501 tgtcttgttt gataagacgg gtggagtaag tttgtccgta gagccgcgcg ggaagaaatg
+     1561 tgcgggcccg ccttcgacct cgacgggggt caggtcttct ttggcgacgc ctacctccca
+     1621 tttgaaaggc agggcgcgcc tgctgttgcc gtctgataag aaaaaaaaag catatataag
+     1681 atcgaggtgc cgtagtatt
+//

@@ -1,0 +1,97 @@
+LOCUS       NC_023869               1896 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Dragonfly cyclovirus 2 isolate FL1-NZ38-2010, complete genome.
+ACCESSION   NC_023869
+KEYWORDS    RefSeq.
+SOURCE      Dragonfly associated cyclovirus 2
+  ORGANISM  Dragonfly associated cyclovirus 2
+REFERENCE   2  (bases 1 to 1896)
+REFERENCE   3  (bases 1 to 1896)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JX185422.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher (Gene Codes Corporation) v. 4.7
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1896
+                     /organism="Dragonfly associated cyclovirus 2"
+                     /mol_type="genomic DNA"
+                     /isolate="FL1-NZ38-2010"
+                     /host="Pantala flavescens"
+                     /db_xref="taxon:1234880"
+                     /country="USA: St. Petersburg, Florida"
+                     /collection_date="15-Sep-2010"
+     stem_loop       join(1883..1896,1..21)
+                     /note="contains nonanucleotide motif 'TAGTATTAC'"
+     gene            205..912
+                     /locus_tag="DH95_gp1"
+                     /old_locus_tag="DfCyV-2_gp1"
+                     /db_xref="GeneID:18983265"
+     CDS             205..912
+                     /locus_tag="DH95_gp1"
+                     /old_locus_tag="DfCyV-2_gp1"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009021849.1"
+                     /db_xref="GeneID:18983265"
+                     /translation="MVLKCVRVQNVEHTVNANQHLDLHVDPQTYPEFRELNPYFEAYR
+                     ILKYTITVIPTANVSNNSTSESMMYALIPWKKEITTGSVSYGFDEWLSVDRAKAYRGT
+                     TKARRSFVPGVRFAGRQTDPAKLNSFGPVTWRPRIEIDGETTRIKHYTGVIAFHKKDD
+                     ANATGKHTYQLIHQVTIKLYNQNSLQPINPGPQNRIGDTPEIEMSDDEFEELVPDRKK
+                     RESLLDRLKKHKPLLLN"
+     gene            complement(901..1878)
+                     /locus_tag="DH95_gp2"
+                     /old_locus_tag="DfCyV-2_gp2"
+                     /db_xref="GeneID:18983264"
+     CDS             complement(901..1878)
+                     /locus_tag="DH95_gp2"
+                     /old_locus_tag="DfCyV-2_gp2"
+                     /note="Rep; similar to replication initiator proteins
+                     identified in circoviruses (pfam: Viral_Rep PF02407;
+                     RNA_Helicase PF00910)"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009021850.1"
+                     /db_xref="GeneID:18983264"
+                     /translation="MGCAGATRAVGITRPVARSARSLSRIERRLRSTLPGSRSRSIRY
+                     TFNSMNSTLRRFCFTVNNYDAETELKVKNFLTNNCKYGIYGRELCPTTKTPHLQGFAN
+                     LSKPMRFRKIKESLCDTAHIEKANGSDEDNKTYCSKSGEFFETGSPCQQGRRSDLDAV
+                     VATISTGERDIRRIAEKHPNCYIRYGRGIRSYLELVNPIPPRYFKTRVVFFYGPPGSG
+                     KSRRALAEAQAIDPDSIYYKPRGEWWDGYHQQTSVIIDDFYGWIKYDDLLKICDRYPY
+                     KVPIKGGFQEFTSKHIWITSNVDTPLLYKFENYNVAALERRLEIKELIE"
+ORIGIN
+        1 tagtattacc cgtcacttcg taaccacttc gtaacggctg gccttgagcg agttcgttgg
+       61 cgcgcctttc accatttggc ctccagacgt catggccttc agacgcaggc ggttctttcg
+      121 tcgccggcgg tatagtccgc gtaaaaagta ttttagacgt cgttatgtgc gacgatttag
+      181 agccgtaaga gtcgtacagg ggatatggtt ttaaaatgtg ttcgtgtaca aaatgtggag
+      241 catactgtca acgcgaatca gcatttggat ttgcatgttg acccgcagac atatcctgaa
+      301 tttcgtgaat tgaatccgta ttttgaggcg tatagaattt tgaagtatac tatcactgtc
+      361 attcctactg caaatgtgtc aaataattca acgagtgagt caatgatgta tgcgttgatt
+      421 ccctggaaga aagaaattac tacaggttct gttagttatg gattcgatga atggttgtct
+      481 gttgatcggg cgaaggcata tcggggtaca acgaaagcga ggaggtcttt tgtgccagga
+      541 gttcgtttcg caggtcgcca gacagatcct gcgaaattga attcttttgg tccggtgacg
+      601 tggcgtccaa ggatagaaat cgatggggaa acaacaagaa taaaacatta taccggtgtg
+      661 atagcattcc ataaaaaaga tgacgccaat gctactggga aacatacata tcaactgatt
+      721 caccaagtta ctattaaatt gtacaatcaa aattctttac aacctattaa tccaggacca
+      781 caaaatcgta taggagatac gcctgaaatt gaaatgagtg atgatgaatt cgaggaactt
+      841 gttccggata ggaaaaagcg ggaatctttg ctggataggt taaagaaaca taaaccattg
+      901 ttactcaatt aattctttta tttcaagtcg tctttctaag gcggctacat tgtaattttc
+      961 aaatttatat aataaaggtg tgtcgacatt tgatgtaatc catatgtgtt tgcttgtaaa
+     1021 ttcttgaaag cctcctttga tcggtacttt gtaggggtat ctgtcacaaa ttttgagtag
+     1081 gtcgtcgtat ttgatccatc cgtagaagtc gtctataatt acacttgttt gttggtggta
+     1141 tccgtcccac cattctcctc ttggtttgta gtatatgctg tcggggtcga tggcctgtgc
+     1201 ttctgcgagg gcccggcggc ttttaccaga tcctggggga ccgtagaaaa ataccactct
+     1261 tgtcttaaaa tatctcgggg gtattgggtt gacgagttcc aagtaacttc gtataccgcg
+     1321 tccgtatctg atatagcagt taggatgttt ttctgcaatc cgtcggatgt ctctttcgcc
+     1381 ggttgatatc gttgccacga ctgcgtccaa atcactgcgt cgtccttgtt gacatggact
+     1441 gcccgtttca aaaaattcgc cgcttttgct acagtaagtc ttgttgtctt cgtcggatcc
+     1501 gtttgccttt tcaatatgag ctgtgtcaca caacgattct ttaatttttc gaaagcgcat
+     1561 tggcttggat aggttggcaa atccttgtag gtgaggcgtc tttgttgtcg ggcatagttc
+     1621 acgtccgtat attccatatt tgcaattgtt tgtgaggaag tttttaactt tgagttcagt
+     1681 ttctgcatcg tagttattga ccgtgaagca gaatcgtcgc agtgtcgaat tcatcgagtt
+     1741 gaacgtgtaa cgaatactgc gcgagcgaga ccctggaagg gtcgagcgaa gcctcctttc
+     1801 tatgcgtgac aaggagcgag cggagcgagc gacggggcgg gttatcccca ccgcgcgcgt
+     1861 agcgcctgca cagcccatag caacgaagtg acggta
+//

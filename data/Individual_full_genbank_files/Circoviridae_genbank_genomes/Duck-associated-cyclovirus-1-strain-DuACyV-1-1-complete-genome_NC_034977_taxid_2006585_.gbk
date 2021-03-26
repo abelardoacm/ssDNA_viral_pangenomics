@@ -1,0 +1,88 @@
+LOCUS       NC_034977               1902 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Duck associated cyclovirus 1 strain DuACyV-1/1, complete genome.
+ACCESSION   NC_034977
+KEYWORDS    RefSeq.
+SOURCE      Duck associated cyclovirus 1
+  ORGANISM  Duck associated cyclovirus 1
+REFERENCE   2  (bases 1 to 1902)
+REFERENCE   3  (bases 1 to 1902)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KY851116.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1902
+                     /organism="Duck associated cyclovirus 1"
+                     /mol_type="genomic DNA"
+                     /strain="DuACyV-1/1"
+                     /isolation_source="cloacal swab"
+                     /host="Anas platyrhynchos"
+                     /db_xref="taxon:2006585"
+                     /country="Hungary"
+                     /collection_date="2013"
+     gene            112..870
+                     /locus_tag="CD921_gp1"
+                     /db_xref="GeneID:33133668"
+     CDS             112..870
+                     /locus_tag="CD921_gp1"
+                     /codon_start=1
+                     /product="putative cap protein"
+                     /protein_id="YP_009380541.1"
+                     /db_xref="GeneID:33133668"
+                     /translation="MANYRRKKKYGRRYRPRPLRVRLYNPKRNRLRRTQRRLKNDKYF
+                     TRFMSWTSVDVDPKIGQGWYLAPNYKSNPGFLQLAEQYSEFKIHKVAARITPGLNETY
+                     LAEQGLRYAYCPWQQDNGGSPSTNDIVSNGTDLTYGKLMNVPWAKSKRLHQSATIVYK
+                     PKCNQAIAFAPRTSSGANGNQRVISFPWVTTQAMSMGALPGMSGIMLAFDQQDPLSVI
+                     GKPLRVQVEFFLYVTFRKRRNPMLQTPTPFVMDQ"
+     gene            complement(875..1855)
+                     /locus_tag="CD921_gp2"
+                     /db_xref="GeneID:33133667"
+     CDS             complement(875..1855)
+                     /locus_tag="CD921_gp2"
+                     /codon_start=1
+                     /product="putative rep protein"
+                     /protein_id="YP_009380542.1"
+                     /db_xref="GeneID:33133667"
+                     /translation="MQRKCYSWTLNNYTSEDIERIRQHEHLFDYAIWGREIAPETGTP
+                     HLQGYFKFKTKQRFNTVRAILGGRGHLEGSKGSPKQNHDYCAKSGDYETVGDLVIASQ
+                     SSLELVCQMLKDGVRLAQVAADYPSIFVRHHRGLRELSLILGVVKPRDFKTGKWAAAR
+                     SIPESLSRFRANLLLTVRWMILSLLVLVSEVLVFYGASGTGKSRRAAELCGSESTYYK
+                     PRGKWWDGYANQDNVIIDDFYGWLSFDEFLRIADRYPCRVEVKGGFAEFTSKRIVITS
+                     NQAPSQWWRGEWFKGEQLKALTRRLDVVCFYSAHSGLPHEINCQGDCDKE"
+ORIGIN
+        1 tagtattacc cgtgagccgc gactcaacga ctcacagcca aaggcaggaa ctgataagga
+       61 caaacgactc aggtatataa gtagcgcccg ttgcctagca accgtcatac gatggctaac
+      121 tacagacgta agaagaagta cgggcgcaga tataggcccc gcccactaag ggtgcggcta
+      181 tataacccca aacgcaatag attacgccgc acacaacgac gattgaaaaa cgacaagtac
+      241 tttacccgtt ttatgtcatg gacctctgtc gatgtagatc caaaaatcgg acaaggatgg
+      301 tacttagcac caaactacaa gtcgaacccc ggcttcctcc aactggccga acagtacagc
+      361 gagttcaaaa tccacaaggt ggcagcacgg ataacacccg gactgaacga gacctatcta
+      421 gcggaacaag gattgagata cgcatactgc ccatggcaac aggacaacgg cggatccccg
+      481 agcaccaacg acatagtatc caacgggacg gacctgacct atggcaaact aatgaacgtc
+      541 ccctgggcga aaagcaaacg gctacatcaa tcagcaacga tagtgtacaa accaaagtgc
+      601 aatcaggcaa tcgcattcgc cccacgaacc agctctggcg ccaatggaaa ccaacgagta
+      661 atctcgttcc catgggtgac aacgcaagca atgtcaatgg gtgcccttcc aggcatgtca
+      721 ggcatcatgc tcgcttttga ccagcaagat cccctctctg taatcggaaa accactacga
+      781 gtccaagtgg aatttttcct ctatgtaacc ttccgtaaac gaaggaaccc aatgttacaa
+      841 acaccaacac cctttgtaat ggatcaataa aactttattc cttatcgcaa tctccttgac
+      901 aattaatttc atgtggtaat ccactatgag cgctataaaa gcaaacgaca tccagacgtc
+      961 gtgtaagagc ctttaattgc tcccctttga accactcgcc tcgccaccac tgcgacggcg
+     1021 cttggttact ggtgataacg atgcgctttg aggtgaactc agcaaacccc cctttgactt
+     1081 ccacacggca gggatatcta tcagcgattc gcaggaactc gtcgaagctg agccatccat
+     1141 aaaagtcgtc gatgataacg ttatcttggt tggcgtaacc atcccaccac ttgcctctcg
+     1201 gcttatagta ggtcgattct gatccacata actctgccgc gcgacgagac ttgccggtgc
+     1261 cagaggctcc atagaacaca agcacctctg aaacaagaac cagaagactt agaatcatcc
+     1321 acctgactgt taataaaaga ttggcccgga atcgcgagag cgattccggt atgctccgcg
+     1381 cagcggccca cttaccagtc ttaaaatctc tgggtttgac gactccaaga ataaggctaa
+     1441 gctctctaag gcctctgtgg tgacggacaa aaattgaggg gtaatcggct gcgacttgag
+     1501 ccagtcgtac tccatcttta agcatttggc acaccagttc aagagatgac tgtgacgcaa
+     1561 taacgaggtc ccccaccgtt tcgtaatctc cggacttcgc acaatagtca tgattctgct
+     1621 taggagagcc ttttgaacct tcaaggtgtc cacggcctcc aaggatcgcc cgtacagtgt
+     1681 tgaatcgttg cttcgttttg aacttaaaat aaccttgcag atgtggagtt ccagtttcag
+     1741 gagcgatctc tctaccccag atagcgtagt cgaacaggtg ttcatgctga cgaattctct
+     1801 cgatgtcttc actcgtatag ttgttaagag tccaagagta acacttgcgc tgcattgtta
+     1861 taacgtagct ccgcgcagcg gccttataag cggctcacgg ct
+//

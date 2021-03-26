@@ -1,0 +1,85 @@
+LOCUS       NC_034210               1873 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Circovirus sp. isolate DaiShan, complete genome.
+ACCESSION   NC_034210
+KEYWORDS    RefSeq.
+SOURCE      Circovirus sp.
+  ORGANISM  Circovirus sp.
+REFERENCE   2  (bases 1 to 1873)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KX943551.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1873
+                     /organism="Circovirus sp."
+                     /mol_type="genomic DNA"
+                     /isolate="DaiShan"
+                     /host="Myotis davidii"
+                     /db_xref="taxon:1964372"
+                     /country="China"
+                     /note="*collection_date: 2015-07-30"
+     gene            171..905
+                     /locus_tag="B5P35_gp1"
+                     /db_xref="GeneID:35984370"
+     CDS             171..905
+                     /locus_tag="B5P35_gp1"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="YP_009351873.1"
+                     /db_xref="GeneID:35984370"
+                     /translation="MFVGVRAHVEKARGSDEQNRDYCTKDGDILVDVGCPRRPGARHD
+                     LASAVSTALSTGDLGKVASAHPETYVKFHRGLAELIKAANKLPRRAWKTEVHVHVGPP
+                     GCGKSRWASDFADPEVTYWKPPRNKWWDGYASHEVVILDDFYGWLPFDELLRICDRYP
+                     LEVEVKGGLVPFLARTLIITSNKMPQEWYSSDAVPHAEAHLKNGITTLTCWQIATTPP
+                     TEDSAPQYHPRPLSCPSEQFPYEINY"
+     gene            complement(939..1616)
+                     /locus_tag="B5P35_gp2"
+                     /db_xref="GeneID:35984369"
+     CDS             complement(939..1616)
+                     /locus_tag="B5P35_gp2"
+                     /codon_start=1
+                     /product="Cap"
+                     /protein_id="YP_009351874.1"
+                     /db_xref="GeneID:35984369"
+                     /translation="MIRWRLRNGVFNVKLRREVILTIPKQTSPESYYVDKYQFALTDF
+                     VPRSGSSTNFYLMPWDYYRIRGISVKFLPKEPLAIIQRRHGFTIIDSDGNAFPKQTNI
+                     AYNPYENHSSARPFTNYKPHSRYFMPKPDIDGVSNLHHFQPNSKRNQWWMAMAYASIK
+                     HYGLGFSIMNPSEADMNWQVIFTAYVQFRELNLINNVSLKSKQKHGSQPIIPHVPVFT
+                     AEGVTDS"
+ORIGIN
+        1 ggtgcttcac cctgaacaac cccacagccc aggaagagca gcacctgcga gaaatccctg
+       61 tgaaccaggt agattatctg atcgcggggc gcgagagggg ggcccagggc actccccaca
+      121 tccaggggtt cgtgaacttc gtgaagaaga agaccctgaa ccaggtgaag atgtttgtgg
+      181 gcgtgagagc ccacgtggag aaagcaagag gaagtgatga gcagaacaga gattactgca
+      241 ccaaagatgg agacatactt gtggatgtgg ggtgcccccg ccgtcctgga gcccgtcacg
+      301 acctggcctc agctgtgagt accgccttga gcacggggga cctgggcaaa gtggcctctg
+      361 cccatccaga gacttatgtg aagttccaca ggggcctggc tgagcttata aaggctgcca
+      421 acaagctgcc tcgcagggcc tggaaaactg aagtgcatgt gcatgtgggg cccccaggct
+      481 gcggaaaaag ccgctgggcg agtgactttg ctgaccccga ggtcacctac tggaaacccc
+      541 cccgcaacaa atggtgggat ggctacgcca gccatgaagt agtaatactg gatgacttct
+      601 atggctggct gccctttgat gagctgctga ggatctgtga caggtacccc ctggaggtgg
+      661 aagtgaaggg ggggcttgtt ccctttcttg ccaggacgct gattattaca agcaacaaga
+      721 tgccccagga atggtactcc tccgatgctg tgcctcatgc agaagcacat ctaaagaacg
+      781 ggattactac tttgacgtgc tggcagattg ctacaacacc acccacggaa gattcggccc
+      841 cccagtacca cccccgtccc ctgagctgcc cttctgagca gttcccctat gaaataaatt
+      901 actgagtcaa aagttatact ggtgtgaagt tgtctttatt atgaatcagt gacaccttct
+      961 gcagtgaaca caggtacatg ggggataatg ggctgggatc catgcttttg cttggatttc
+     1021 agggacacat tattgatgag gttcagctct ctgaactgga cataggcagt gaagattacc
+     1081 tgccagttca tatcagcctc agacgggttc atgatggaga agcccaggcc atagtgttta
+     1141 atagaagcat aggccatggc catccaccac tggttcctct tgctgttggg ctggaagtgg
+     1201 tggaggttgg agaccccgtc tatgtcaggt ttgggcataa aatacctgct gtggggcttg
+     1261 tagttggtga agggcctagc agaggagtgg ttctcatagg gattgtaggc tatgttggtc
+     1321 tgcttgggga aagcattccc atcagagtca ataatggtga acccgtgcct cctctggatg
+     1381 atggcgaggg gctccttggg caggaacttg acagagatgc ccctgatcct gtagtagtcc
+     1441 cagggcatca ggtagaagtt agtgctgctt cctgacctgg gtacaaaatc tgtaagtgca
+     1501 aattgatact tgtccacgta gtagctttct ggacttgttt gtttggggat ggtaagtata
+     1561 acttctcttc tcaattttac attgaaaaca ccatttctta gtctccatct gatcatcctc
+     1621 gggatgcgag gagttaacct cctgcggcgg ctccaacggc gctcagcccc gcctcctcct
+     1681 tctccagcgg cggcggcgca cgtcactgat atttaaacaa aaagcccgcc gcggctgccg
+     1741 tcataatcac ggctgactga tatattacca gcacccgtca gcagcagcga cgccgcagca
+     1801 gcagcactaa gcagcagcat gatgagacga cgcagcgccc cccgccccac agcgatggat
+     1861 gctcatcatg atc
+//

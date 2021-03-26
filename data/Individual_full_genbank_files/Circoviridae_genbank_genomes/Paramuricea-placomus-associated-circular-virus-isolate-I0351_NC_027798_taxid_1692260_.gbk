@@ -1,0 +1,98 @@
+LOCUS       NC_027798               2292 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Paramuricea placomus associated circular virus isolate I0351,
+            complete genome.
+ACCESSION   NC_027798
+KEYWORDS    RefSeq.
+SOURCE      Paramuricea placomus associated circular virus
+  ORGANISM  Paramuricea placomus associated circular virus
+REFERENCE   2  (bases 1 to 2292)
+REFERENCE   3  (bases 1 to 2292)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KR528566.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.1.4
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2292
+                     /organism="Paramuricea placomus associated circular virus"
+                     /mol_type="genomic DNA"
+                     /isolate="I0351"
+                     /host="Paramuricea placomus"
+                     /db_xref="taxon:1692260"
+     stem_loop       join(12..21,2282..2291)
+                     /note="contains nonanucleotide motif"
+     gene            132..1175
+                     /locus_tag="AMR02_gp1"
+                     /db_xref="GeneID:25479244"
+     CDS             132..1175
+                     /locus_tag="AMR02_gp1"
+                     /codon_start=1
+                     /product="putative capsid protein"
+                     /protein_id="YP_009163931.1"
+                     /db_xref="GeneID:25479244"
+                     /translation="MAYVRKRSFRKRTSWKKMTRGFRKKKPAKANLNWRKRRSQSFRR
+                     ARRTRRAANPGTAIVTSSTFEMNFAGTSPILGILNGTNLAEMGGVASCLVRELYIQPG
+                     RIAGLLARQFVYNMYKIYSVEYKLIRSDKSRISSGPISADYAYADFAMLMPNTHNEDF
+                     PGISTAGSIQTTRKLMNWMLQQKGSKMVKLQQNFAKMKVPAMVNVEREFQQNTGTGTV
+                     TQMSTIPHPWIEIDTDKMNTMNIGQVIFAMPALNISTFYPVFPTPEAQTAAGTGDVGA
+                     PGQTYDNLKKMYDYSIFATVRWGVKGKYIDPAVAQEYHQPSQVGDDEPEEFGEDTVDM
+                     GSLIDNMQNMTIA"
+     gene            complement(1230..2144)
+                     /locus_tag="AMR02_gp2"
+                     /db_xref="GeneID:25479243"
+     CDS             complement(1230..2144)
+                     /locus_tag="AMR02_gp2"
+                     /codon_start=1
+                     /product="putative replication initiation protein"
+                     /protein_id="YP_009163932.1"
+                     /db_xref="GeneID:25479243"
+                     /translation="MFGEADEGERANLDIEPPKKRKKRDHRAEGKRRALRYRNWVFTL
+                     NNPQEHGFPRLTSDMIWLRYGEEVAPTTGTPHLQGVVHFKSKRVMPTDLYPWCRNAHW
+                     EHMGGTISANLAYTGKEANEEAGTLHEFGVRPLSNKEAREKGAAATKERYINILAHAK
+                     AGEFDKLEEEYPGDFLRMYKTLHCIRDGAQGRSEPIARLEHWWIVGPTGCGKSRAVWE
+                     TVGASQLYSKLLRTSGGTTTTTKTGSYSTTILPYGKTKPVSKIGRTTIPSLRRSRALQ
+                     KESAQLISSSLATTASQTDSSSPMMSSQ"
+ORIGIN
+        1 tagtattacc cacacggctg ccggcccggg caccgggccg cccttatctc accccagtgt
+       61 ttgcacaacg tgacgtaacc aaccgccact acttaagtag ggccaaccgt cactccttat
+      121 cagtcgccaa catggcgtac gtgcgtaagc gttcattcag gaagcgtaca tcatggaaga
+      181 agatgacgcg aggatttcga aagaagaagc ctgccaaggc caatctcaac tggcgtaagc
+      241 gcagatcaca atcattccgg cgagccagaa ggacccgccg agctgcaaat cctggaacag
+      301 ctatagtaac tagttcaact tttgagatga actttgctgg taccagccct attctgggca
+      361 tcctcaatgg taccaatctc gccgaaatgg gcggcgtagc tagctgtctg gtgagggaac
+      421 tatacatcca acccggaagg attgctgggc tactagccag gcagtttgta tataatatgt
+      481 ataagattta ctctgttgaa tataagctga tacggagtga caagagcaga atatcttctg
+      541 gacctatttc tgcggactac gcctatgccg actttgccat gctcatgcca aacacacaca
+      601 acgaggactt ccctgggatc tccactgctg gatccatcca gactaccagg aagctcatga
+      661 attggatgct ccagcaaaag ggatccaaga tggtcaagct tcagcagaac tttgccaaga
+      721 tgaaggttcc ggccatggtc aatgtggaac gggagttcca acagaataca ggcacaggta
+      781 ctgtgactca aatgtccacc ataccacatc cttggattga gatcgacaca gacaagatga
+      841 ataccatgaa tatcggccaa gttatctttg ccatgcctgc cctcaacatc tccaccttct
+      901 accctgtctt ccccacccct gaggctcaga ctgctgctgg aactggtgac gtcggagcac
+      961 ctggacagac ctacgacaac ctcaagaaga tgtatgatta ctctatcttt gctacagtga
+     1021 ggtggggggt caagggcaag tacatcgacc ctgcagttgc ccaagaatat caccaaccga
+     1081 gtcaagttgg agacgacgag cccgaggagt ttggcgagga tacagttgat atgggatccc
+     1141 tcattgataa catgcaaaat atgactattg cataagttta ttgtaatcct caataaaagt
+     1201 ttgataatca cattctttga atcgtctttt tattggctcg acatcatggg gctcgaactg
+     1261 tccgtctgcg atgctgtagt tgctagtgat gacgagatga gctgggcgga ttctttttga
+     1321 agagcccttg acctccgcaa tgaagggata gtggtccgcc caatttttga gacaggcttt
+     1381 gtctttccat aggggagaat agtcgtcgag taggacccag tcttcgtagt tgtagtggtc
+     1441 ccaccacttg ttcgtagcag tttcgagtat agctggctcg cgccaacagt ctcccaaaca
+     1501 gctcgagact ttccgcatcc agttggtccg acgatccacc aatgttcaag tcgagcaatt
+     1561 ggttcacttc gtccttgagc tccatcccgt atgcagtgga gagttttgta catgcggagg
+     1621 aagtctccag gatactcttc ttcaagttta tcaaattctc cagcctttgc gtgggcgagg
+     1681 atgttgatgt atcgctcctt cgtcgcagcg gcacctttct ctcttgcctc tttgttgctg
+     1741 aggggtcgta caccaaactc atgcagcgtc ccagcttcct catttgcttc tttaccagtg
+     1801 tatgcgaggt ttgcactgat ggtccctccc atgtgctccc agtgagcatt cctgcaccag
+     1861 gggtagagat cagttggcat tactcttttt gatttgaaat gcacaacacc ctgtaggtga
+     1921 ggagtaccag tggtaggtgc tacctcctca ccatatctta accagatcat gtctgatgtt
+     1981 agcctcggga aaccatgctc ttgaggattg tttagggtaa atacccaatt cctgtatcta
+     2041 agagcacggc gcttgccctc ggccctatga tctctctttt tgcgcttttt aggaggctca
+     2101 atgtctaggt tagcacgctc accttcatca gcctctccga acatctccct ctcatcaggt
+     2161 atgccagcat tctcccgaat ccggttgaca tagtcgtctt cagtttcttc agtcgccata
+     2221 tcgtctatga agtcttgtcc gcagatggag tccgccatct cgactgccct ctccggtccc
+     2281 tgcagccgtg tt
+//

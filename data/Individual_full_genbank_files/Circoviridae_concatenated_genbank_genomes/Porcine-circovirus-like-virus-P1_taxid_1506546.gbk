@@ -1,0 +1,51 @@
+LOCUS       NC_036593                648 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Porcine circovirus-like virus P1 isolate PZ1, complete sequence.
+ACCESSION   NC_036593
+KEYWORDS    RefSeq.
+SOURCE      Porcine circovirus-like virus P1
+  ORGANISM  Porcine circovirus-like virus P1
+REFERENCE   2  (bases 1 to 648)
+REFERENCE   3  (bases 1 to 648)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MF716583.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..648
+                     /organism="Porcine circovirus-like virus P1"
+                     /mol_type="genomic DNA"
+                     /isolate="PZ1"
+                     /isolation_source="brain"
+                     /host="swine"
+                     /db_xref="taxon:1506546"
+                     /country="China"
+                     /collection_date="08-Jan-2016"
+     gene            complement(77..421)
+                     /locus_tag="C1189_gp1"
+                     /db_xref="GeneID:35381650"
+     CDS             complement(77..421)
+                     /locus_tag="C1189_gp1"
+                     /note="CAP"
+                     /codon_start=1
+                     /product="ORF1"
+                     /protein_id="YP_009448206.1"
+                     /db_xref="GeneID:35381650"
+                     /translation="MMRFNIDDFVPPGGGTNKISIPFEYYRIRKVKVEFWPCSPITQC
+                     DRGVGTTAVILDDNFVPKATAQTYDPYVTTPPAIQSPNPSPTTPVTSHPNLFLTPLLI
+                     TSNQITKGISFG"
+ORIGIN
+        1 tagtcctggt cgtatatact gttttcgaac gcagtgccga ggcctacgtg gtctacattt
+       61 ctagaggttt gtatcctcag ccaaagctga ttccttttgt tatttggttg gaagtaatca
+      121 atagtggagt caagaacagg tttgggtgtg aagtaacggg agtggtagga gaagggttgg
+      181 gggattgtat ggcgggagga gtagttacat atgggtcata ggtttgggcc gtggcctttg
+      241 gtacaaagtt atcatctaga ataacagcag tggtgcccac tcccctatca cactgggtga
+      301 tgggggagca gggccagaat tcaaccttaa cctttcttat tctgtagtat tcaaagggta
+      361 tagagatttt gttggtcccc cctcccgggg gaacaaagtc gtcaatatta aatctcatca
+      421 tgtccaccgc ccaggagggc gttctgactg tggtagcctt gatagtatat ccgaaggtac
+      481 gggagaggcg ggtgttgaag atgccatttt tccttctcca acggtagcgg tggcgggggt
+      541 ggacgagcca ggggcggccg ttactagtgg atcctcattt agggtttaag tggggggtct
+      601 ttaagattaa attctctgaa ttgtacatac atggttacac ggatattg
+//

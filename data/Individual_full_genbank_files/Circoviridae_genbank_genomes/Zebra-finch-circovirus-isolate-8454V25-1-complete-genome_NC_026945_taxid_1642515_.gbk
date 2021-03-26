@@ -1,0 +1,134 @@
+LOCUS       NC_026945               1982 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Zebra finch circovirus isolate 8454V25-1, complete genome.
+ACCESSION   NC_026945
+KEYWORDS    RefSeq.
+SOURCE      Zebra finch circovirus
+  ORGANISM  Zebra finch circovirus
+REFERENCE   2  (bases 1 to 1982)
+REFERENCE   3  (bases 1 to 1982)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KP793918.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: DNAMAN v. Version 5.2.9
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1982
+                     /organism="Zebra finch circovirus"
+                     /mol_type="genomic DNA"
+                     /isolate="8454V25-1"
+                     /host="Taeniopygia guttata"
+                     /db_xref="taxon:1642515"
+                     /country="Germany"
+                     /collection_date="2010"
+     stem_loop       join(1960..1982,1..10)
+     rep_origin      join(1975..1982,1..2)
+     misc_feature    join(1976..1982,1..2)
+                     /note="nonanucleotide motif"
+     gene            29..904
+                     /gene="rep"
+                     /locus_tag="AAW65_gp1"
+                     /db_xref="GeneID:24248409"
+     CDS             29..904
+                     /gene="rep"
+                     /locus_tag="AAW65_gp1"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="YP_009134739.1"
+                     /db_xref="GeneID:24248409"
+                     /translation="MPKQARSSPCKRWVFTLNNPTEQEVESVKSLPPSEYHYAIVGKE
+                     KGEQGTPHLQGFLHLKKKVRLNQMKQLIPRAHFEIARGSDEDNEQYCSKEGDVILTIG
+                     APAKGNRSDLAGAVAAVKAGRPMTEVAREFSEAYVKWGRGLKDLALMIGQKPRDFKTE
+                     VIVLTGPSGVGKSRWANEQEGTKYYKMKGDWWDGYSNEDIVVIDDFYGWIPFCELLRL
+                     CDRYPHKVPVKGSYVEFTSKKIIITSNTHPNHWYNEEKCYMQALFRRINKWLFWDVFG
+                     FVDAPDAVKKYPINY"
+     gene            648..1400
+                     /gene="ORFV2"
+                     /locus_tag="AAW65_gp2"
+                     /db_xref="GeneID:24248406"
+     CDS             648..1400
+                     /gene="ORFV2"
+                     /locus_tag="AAW65_gp2"
+                     /codon_start=1
+                     /product="ORFV2"
+                     /protein_id="YP_009134740.1"
+                     /db_xref="GeneID:24248406"
+                     /translation="MGGSRSVSCSAFVIVIPTKCQSKAATWSLRQRRSSSRATPTRTI
+                     GITKRSAICKHCSDVSTSGSFGMCSGLLMLPMLLRSTPSTIEGFSSPRFHRAERGARR
+                     EAAHATPQRGCYAELAMPRTPKVAPLRCQVGRRPTMAKHGDRPCLAPPKLPRYGRRSA
+                     EGRPSTPNLEEKSGLGVRVREGTPGLRIASSINTLLRFKVCETHLSELDINGHFHLIH
+                     VVIRRGFREAERQAVMIDPCSRGLVGGFSPSP"
+     polyA_site      1220
+                     /gene="ORFV2"
+                     /locus_tag="AAW65_gp2"
+     gene            complement(1233..1967)
+                     /gene="cap"
+                     /locus_tag="AAW65_gp3"
+                     /db_xref="GeneID:24248407"
+     CDS             complement(1233..1967)
+                     /gene="cap"
+                     /locus_tag="AAW65_gp3"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009134741.1"
+                     /db_xref="GeneID:24248407"
+                     /translation="MEPLPYQARARQWRRRRHFRHRRRHWRRRRRLPANRRGHRTNRI
+                     YRLRLVRQYQQILTKAEKTTNMTFGTDGVTILLKDFIMDERVLPFEDYRIRLAKVEAT
+                     PRNEDWAHWQGMGHTVPIQDSHLGDFFKKTKLQTDPLANWDGARKFNLRKGFKRLFRP
+                     KPQLSITDTDAANTPAAMWLNNPRSAWIPLRRRGETTYQTSGTRVNHYGLAFSFPEPT
+                     PNDYVYQMKVTIYVEFRQMSLTHLES"
+     polyA_site      complement(1234)
+                     /gene="cap"
+                     /locus_tag="AAW65_gp3"
+     gene            complement(1289..1720)
+                     /gene="ORFC2"
+                     /locus_tag="AAW65_gp4"
+                     /db_xref="GeneID:24248408"
+     CDS             complement(1289..1720)
+                     /gene="ORFC2"
+                     /locus_tag="AAW65_gp4"
+                     /codon_start=1
+                     /product="ORFC2"
+                     /protein_id="YP_009134742.1"
+                     /db_xref="GeneID:24248408"
+                     /translation="MNAYCPLRTTAFVWPKSKPPPAMRTGHTGRGWATPSPSRTHTSG
+                     TSSRRPSCRPTPWPIGTGRGSSTSARASSASSDPSHSCPLRTLTRLTRRPLCGSTTPV
+                     RHGSRYGDGEKPPTKPLEHGSIITAWRSASLNPRLMTTCIK"
+ORIGIN
+        1 accggcgact tggaaccctg gaaccaccat gccgaaacaa gcgcgctcaa gcccttgcaa
+       61 gcggtgggtc tttacgctga acaacccgac tgagcaagaa gttgaaagcg tgaaaagtct
+      121 gcctccgagt gagtaccact atgcgatagt cgggaaagag aaaggagagc aagggacacc
+      181 gcatttgcag ggcttcctgc atttgaaaaa gaaggttcga ctgaaccaaa tgaagcagtt
+      241 gataccgcgc gcgcatttcg agatcgcccg gggttccgat gaggataatg agcagtattg
+      301 cagcaaagaa ggggacgtga tacttaccat tggggccccc gcaaaaggca atcggagtga
+      361 ccttgccgga gctgttgccg ccgtgaaagc cggaagacca atgacggaag tcgcgcgaga
+      421 gttcagtgaa gcctacgtca agtgggggcg tggcctgaag gatctggcac tgatgattgg
+      481 ccagaagccc cgtgacttca agacggaggt gattgtgttg accggcccct cgggggtggg
+      541 gaagagccgc tgggccaatg aacaggaagg tacgaaatac tacaagatga agggtgattg
+      601 gtgggacgga tattcaaacg aagacatcgt ggtgattgac gacttctatg ggtggatccc
+      661 gttctgtgag ctgctccgcc tttgtgatcg ttatccccac aaagtgccag tcaaaggcag
+      721 ctacgtggag tttacgtcaa agaagatcat catcacgagc aacacccacc cgaaccattg
+      781 gtataacgaa gagaagtgct atatgcaagc actgttcaga cgtatcaaca agtggctctt
+      841 ttgggatgtg ttcgggtttg ttgatgctcc cgatgctgtt aagaagtacc ccatcaacta
+      901 ttgaagggtt ctccagccca cgatttcacc gcgcggagcg cggtgcccgc cgcgaagcgg
+      961 cccatgccac cccccagcga ggttgctacg ccgagttggc catgcctcgc acccccaaag
+     1021 ttgccccgtt aaggtgccag gtcggccgaa ggccgaccat ggcaaaacat ggtgatcggc
+     1081 catgccttgc tcccccaaag ttgccccgtt atggtcgaag gtcggccgaa ggccgaccga
+     1141 gcacacccaa tctcgaggaa aagagcggac tcggagttag ggttagggaa gggaccccgg
+     1201 gtttgcggat cgcttcctca ataaacactt tattaagatt caaggtgtgt gagactcatt
+     1261 tgtctgaact cgacataaat ggtcactttc atttgataca cgtagtcatt aggcgtgggt
+     1321 tcagggaagc tgaacgccag gccgtaatga ttgacccgtg ttccagaggt ttggtaggtg
+     1381 gtttctcccc gtctccgtag cgggatccat gccgaacggg ggttgttgag ccacatagcg
+     1441 gccggcgtgt tagccgcgtc agtgtccgta atggacagct gtggcttggg tcggaagagg
+     1501 cgcttgaagc ccttgcggag gttgaacttc cgcgccccgt cccaattggc cagggggtcg
+     1561 gtctgcagct tggtcttctt gaagaagtcc ccgaggtgtg agtcctggat ggggacggtg
+     1621 tggcccatcc cctgccagtg tgcccagtcc tcattgcggg gggtggcttc gactttggcc
+     1681 agacgaatgc ggtagtcctc aaagggcagt acgcgttcat ccatgatgaa gtccttgagg
+     1741 aggatggtga cgccgtctgt gccaaaggtc atattggtcg tcttctccgc tttcgtcaga
+     1801 atctgctggt attgcctgac gagccttaat cggtagatgc ggttggtccg gtgaccacgc
+     1861 ctgttggctg gcagccgtct ccgcctgcgc cagtgacgtc tgcggtgacg aaaatggcgt
+     1921 ctccgcctcc actgacgtgc ccgagcctga taaggaagcg gttccaagtc gccgttagta
+     1981 tt
+//

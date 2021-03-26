@@ -1,0 +1,106 @@
+LOCUS       NC_030468               2103 bp    DNA     circular VRL 25-AUG-2018
+DEFINITION  Circovirus-like genome DCCV-12, complete genome.
+ACCESSION   NC_030468
+KEYWORDS    RefSeq.
+SOURCE      Circovirus-like genome DCCV-12
+  ORGANISM  Circovirus-like genome DCCV-12
+REFERENCE   2  (bases 1 to 2103)
+REFERENCE   3  (bases 1 to 2103)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KT149405.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SOAPdenovo v. 1.04; Sequencher v.4.1
+            Sequencing Technology :: Sanger dideoxy sequencing; Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2103
+                     /organism="Circovirus-like genome DCCV-12"
+                     /mol_type="genomic DNA"
+                     /isolate="DCCV-12"
+                     /isolation_source="Freshwater lake (Dianchi) sample (< 0.5
+                     m)"
+                     /db_xref="taxon:1788440"
+                     /country="China"
+                     /collection_date="Jan-2010"
+     gene            276..1253
+                     /locus_tag="BBV96_gp1"
+                     /db_xref="GeneID:37627638"
+     CDS             276..1253
+                     /locus_tag="BBV96_gp1"
+                     /codon_start=1
+                     /product="putative Rep protein"
+                     /protein_id="YP_009259714.1"
+                     /db_xref="GeneID:37627638"
+                     /translation="MPPKAQFNRFCQITKKRGFCWTYHDYDDEIVAHIKGLFDRPNGW
+                     VKRLVFNYEICPTTGRRHLQGCLYMRDNQTWPKLKADIGLEKIHLELAQNVEALDKYC
+                     QKSETRDPAHPEGVVLGVAPLTDEAKGQKGEEYYERNILACMNGQQMDASAEFNLRNF
+                     EYAAEARKRKRELASLDELSFEWHYGEPFSGKTHYCRKIPGAFKWNSKAGWNNYNDEE
+                     VVICDDVDERTVPEQQEIKTWCDLDPFQVKVNYKVLNIRPKRFIFTSNESIADCFPRA
+                     KPIHLKAIERRFKVYYYPAAYGEPGWVDPTAIPQKYLFTDEEMDAQLSV"
+     gene            709..1038
+                     /locus_tag="BBV96_gp2"
+                     /db_xref="GeneID:37627639"
+     CDS             709..1038
+                     /locus_tag="BBV96_gp2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009259715.1"
+                     /db_xref="GeneID:37627639"
+                     /translation="MASKWTPARSSIYGTSSTLPRLANANANLLHSMSFHSSGITASL
+                     LAARLIIAVRSQVPSNGIRRLVGTTTTMRRSSYVMTSMNVLFPSNRRLRPGVISIPSR
+                     SRLITRC"
+     gene            1222..2103
+                     /locus_tag="BBV96_gp3"
+                     /db_xref="GeneID:37627640"
+     CDS             1222..2103
+                     /locus_tag="BBV96_gp3"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009259716.1"
+                     /db_xref="GeneID:37627640"
+                     /translation="MKRWTHNFLYRKMAYRKKNYKRRAPKRRVYKRRGVRKPTIKRMI
+                     KREIDKATEDKYVDVLNQGRNLVAPNNTAFFNDFNVIKLAPANSDGTLAALKVVQGPG
+                     AGQRIGNTIRIKKLTFKGTLIPLGYHSLTNPVVKPMQVKMFLFYRRSSPTIKPAVTSY
+                     ADFFQFNGESQIIEPELVSMWAEPNNQHYRVLATRIFKLGRASSNQYADGTIGPVNMA
+                     NNDFKLNVNFNLDITKMVPKLVRYFAEAIGPSSGDTVSRGLYAMFVPVPADGSTWDPA
+                     AVPLQISYALKMVYEDA"
+ORIGIN
+        1 tgagaaggtg aatttctcgc taataactgg tggccgaagg ctcacattgc tctgcctcct
+       61 gggagctcaa aagcgtcagg agtgcgagct cgggactttc aagggggggt ccatcgccgt
+      121 aggcgatgga cggagccttg aggagccgtg gagtcattcc tggtttttga cctaggatga
+      181 ctgtaagcat aataataaca ttgtgcgttc acattactcg aggggtctct tagaatttct
+      241 agacccctcg tgatatttga tatatcaaaa tcaccatgcc cccaaaagca cagtttaacc
+      301 gcttttgcca gataaccaag aaacgcggtt tctgctggac gtatcacgac tatgacgatg
+      361 aaatcgtggc gcatatcaag ggcttattcg accgtccaaa cgggtgggta aagcgcctag
+      421 tatttaatta cgagatatgc cccacgactg gaagacgtca tctccaaggg tgtctctaca
+      481 tgcgggataa ccagacctgg cctaagctta aggcggacat tggtctggag aagatccacc
+      541 tggagctagc gcagaatgta gaagccttgg ataagtactg tcagaagagt gagacgcgcg
+      601 atcccgcgca tccggagggc gtcgtcctcg gcgtcgcccc ccttaccgat gaggccaaag
+      661 gccaaaaggg tgaggagtat tatgaacgta atattctcgc ctgtatgaat ggccagcaaa
+      721 tggacgccag cgcggagttc aatctacgga acttcgagta cgctgccgag gctcgcaaac
+      781 gcaaacgcga acttgcttca ctcgatgagc tttcattcga gtggcattac ggcgagcctt
+      841 ttagcggcaa gactcattat tgccgtaaga tcccaggtgc cttcaaatgg aattcgaagg
+      901 ctggttggaa caactacaac gatgaggagg tcgtcatatg tgatgacgtc gatgaacgta
+      961 ctgttcccga gcaacaggag attaagacct ggtgtgatct cgatcccttc caggtcaagg
+     1021 ttaattacaa ggtgttgaat atccgcccta agcggtttat tttcacctca aacgagtcga
+     1081 ttgccgactg ttttcctcgg gctaagccca tacatttaaa ggcgatcgaa cgtcgcttta
+     1141 aggtgtacta ctaccctgct gcttacggcg aaccgggttg ggtggatcct accgccatac
+     1201 cccaaaagta cctcttcacg gatgaagaga tggacgcaca actttctgta taggaaaatg
+     1261 gcatacagaa agaaaaacta caagcgccgt gcccccaagc gccgcgtgta caagagaagg
+     1321 ggagtgagaa agcctacgat taagcgcatg attaagcgtg agattgataa ggctacggag
+     1381 gataagtacg tggatgtact gaaccagggc cgcaatctcg tggcccccaa taacacggcg
+     1441 ttcttcaacg actttaacgt tatcaagttg gctccggcga atagcgacgg cacactcgcc
+     1501 gcactcaagg tggttcaggg ccctggcgcc ggtcaacgca tcggcaatac catccgaatt
+     1561 aagaagctaa cgttcaaggg aacgctgatt cctctcggat atcactcgct cacgaatcct
+     1621 gtcgtgaagc cgatgcaagt gaagatgttt ctcttctatc gccggtcttc gccgactatc
+     1681 aagcctgcgg ttacgagtta cgccgatttc ttccagttca atggagaatc acaaataatc
+     1741 gaaccagagt tggtatcgat gtgggcggag cccaacaatc agcactatag ggtgcttgct
+     1801 acgcggatct ttaagctagg tcgcgcgtct agcaaccagt acgccgacgg cactattggc
+     1861 ccggtgaata tggctaacaa cgatttcaag ttgaatgtta atttcaactt agatatcact
+     1921 aagatggtgc ctaagctagt tcggtacttt gccgaggcta ttggcccttc ttctggcgac
+     1981 acggtttctc gtggtctcta cgccatgttt gtgcctgtgc cagcggacgg atcgacctgg
+     2041 gatcccgctg ctgtgcctct acagatttcg tacgccctga agatggtgta cgaggatgct
+     2101 tag
+//

@@ -1,0 +1,110 @@
+LOCUS       NC_003054               1821 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Goose circovirus, complete genome.
+ACCESSION   NC_003054
+KEYWORDS    RefSeq; ORFc1; ORFc2; ORFV2; rep gene; replication associated;
+            protein.
+SOURCE      Goose circovirus
+  ORGANISM  Goose circovirus
+REFERENCE   2  (bases 1 to 1821)
+REFERENCE   3  (bases 1 to 1821)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AJ304456.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1821
+                     /organism="Goose circovirus"
+                     /mol_type="genomic DNA"
+                     /host="Anser sp."
+                     /db_xref="taxon:146032"
+                     /country="Germany"
+     gene            join(1613..1821,1..154)
+                     /locus_tag="GcVgp1"
+                     /db_xref="GeneID:1732845"
+     CDS             join(1613..1821,1..154)
+                     /locus_tag="GcVgp1"
+                     /note="ORFV2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_150367.1"
+                     /db_xref="GeneID:1732845"
+                     /translation="MFCVCLTLKIVYFDLIRPMCSLRRLYRRLRLVARLRREYRLRGL
+                     ARYSGMMGSGFLWAGTKPLQAPYILLPAPVLRTPHPTRKLQTPLNEPPRTWRKTATTH
+                     TRGGSSLLITLPLKITVP"
+     gene            73..954
+                     /gene="rep"
+                     /locus_tag="GcVgp2"
+                     /db_xref="GeneID:921700"
+     CDS             73..954
+                     /gene="rep"
+                     /locus_tag="GcVgp2"
+                     /codon_start=1
+                     /product="putative replication associated protein"
+                     /protein_id="NP_150368.1"
+                     /db_xref="GeneID:921700"
+                     /translation="MAKNGNYSYKRWVFTINNPTFEDYCAVVEFCNLDNCKFAIVGEE
+                     KGEKEGTPHLQGFLSLRKNAKAAALEENLGGRAWLSRARGSDEDNEEYCSKESTYLRV
+                     GEPNRKGRSSDLPDAASDVLAGLPITDVARKYPTTYVMFGRGLERLRQLIVETARDWK
+                     TEVIVLIGRPGSGKSRYAFEFPAREKYYKSRGKWWDGYNGQDVVVMDDFYGWLPYDDL
+                     LRICDRYPLRVEYKGGMTQFVAKTLIITSNREPRDWYKCEFDVSALYRRINQYLILTP
+                     DGYAPAPEFMLPFKINY"
+     gene            complement(128..427)
+                     /locus_tag="GcVgp3"
+                     /db_xref="GeneID:1732846"
+     CDS             complement(128..427)
+                     /locus_tag="GcVgp3"
+                     /function="unknown"
+                     /note="ORFC2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_150369.1"
+                     /db_xref="GeneID:1732846"
+                     /translation="MPRRGDHLSDLFGLVHRLEGMSTLWNNILHYLRQIPELETARLF
+                     LPGSLQAQQLSHSFADSGIPAGEVCLLSLLSLRRLSRTCSYPDCRTQLRHSNLQR"
+     gene            complement(1009..1761)
+                     /locus_tag="GcVgp4"
+                     /db_xref="GeneID:1732844"
+     CDS             complement(1009..1761)
+                     /locus_tag="GcVgp4"
+                     /note="ORFC1"
+                     /codon_start=1
+                     /product="capsid"
+                     /protein_id="NP_150370.1"
+                     /db_xref="GeneID:1732844"
+                     /translation="MPLYRARPRSLYSRRRRATNRRRRYRRRRLHIGRIRSKYTIFNV
+                     KQTQNISFTFFGTGSPDKNKWQAMSLEAVQSSGTSPKPGINLRFAVFGDRLPGTGNQY
+                     HYPFDYYMIRMVKVELRPAFNPFQRVRTQGSTYIDKEGNITTTTSGGEWNVDPYAAMS
+                     SRKTWSPHRYHKRVFVPKPTIQQGGTGTNIWSTWYTPGGRQLWLNSIQDNVVFYGMGM
+                     SLRQAEDTAAPLTVEATITYYIRFGQWTGLSP"
+ORIGIN
+        1 accggcgcct gtactccgta ctccgcaccc tacgaggaag ctgcagacac cgcttaacga
+       61 gccaccccga acatggcgaa aaacggcaac tactcataca agaggtgggt cttcactatt
+      121 aataacccta cctttgaaga ttactgtgcc gtagttgagt tctgcaatct ggataactgc
+      181 aagttcgcga tagtcggcga agagaaagga gagaaagaag gcacacctca cctgcaggga
+      241 ttcctgagtc tgcgaaagaa tgcgaaagct gctgcgcttg aagagaacct gggaggaaga
+      301 gcctggctgt ctcgagctcg gggatctgac gaagataatg aagaatattg ttccaaagag
+      361 tcgacatacc ttcgagtcgg tgaaccaaac cgaaaaggtc gctcaagtga tctccccgac
+      421 gcggcatccg atgtgctcgc tggtctgccg ataactgacg tggcccggaa gtacccgacg
+      481 acttatgtaa tgtttgggcg gggcttagag cggttgcgtc agctgatcgt ggagaccgct
+      541 cgtgattgga agacggaggt catcgttctg attgggcggc ctggaagcgg gaagagccgt
+      601 tacgcgtttg aatttcccgc gcgtgaaaag tattataaat ctcgcgggaa gtggtgggat
+      661 ggctataatg ggcaggatgt ggttgtcatg gatgattttt atgggtggct gccttacgat
+      721 gaccttttaa ggatctgtga tcgctatcct ttaagggtag agtacaaggg aggtatgacc
+      781 cagttcgttg ctaagacact tataattacc tctaataggg agccgcgtga ttggtataaa
+      841 tgcgagtttg atgtgtctgc attgtatcgg agaattaatc agtacctgat attaaccccc
+      901 gacggatatg cacccgcccc cgagtttatg ctgccgttta aaataaacta ctaaagtcct
+      961 ggttaaggtt agaaacagga acgtttattg tgtaaaatta caataaagtt atggtgaaag
+     1021 cccagtccat tgtccgaatc ttatgtaata ggtaatggtt gcttctactg tcagaggtgc
+     1081 tgcggtgtct tctgcttgtc ttagtgacat gcccattccg tagaatacta cgttgtcttg
+     1141 aattgagttc agccatagtt gtcttcctcc tggggtgtac caggtgctcc atatatttgt
+     1201 tcctgttcct ccctgttgga tggttggttt cgggacaaat actcttttgt ggtatctgtg
+     1261 aggtgaccac gttttcctgg agctcattgc tgcgtagggg tctacgttcc actctccacc
+     1321 gctggttgtg gttgtaatgt tgccttcttt gtctatgtat gtgctgcctt gtgtgcgtac
+     1381 tctttggaag gggttaaatg cgggacggag ttccaccttt accatgcgta tcatgtagta
+     1441 gtcgaacggg taatggtatt ggtttcctgt tcctggcaat ctgtctccga agactgcgaa
+     1501 ccgtaggtta attccgggtt tggggctggt gccagatgat tgtactgctt ccaggctcat
+     1561 tgcttgccat ttgtttttgt ctgggcttcc ggttccgaag aacgtgaatg atatgttctg
+     1621 cgtttgtttg acattgaaga ttgtgtactt tgaccttatt cgtccgatgt gtagccttcg
+     1681 tcgtctgtat cgtcgtctgc ggttggttgc ccgcctacga cgagaatata gactccgcgg
+     1741 tctcgcgcga tacagcggca tgatgggcag tggcttcctg tgggcgggga caaaaccgtt
+     1801 acaggcgccg tatatattat t
+//

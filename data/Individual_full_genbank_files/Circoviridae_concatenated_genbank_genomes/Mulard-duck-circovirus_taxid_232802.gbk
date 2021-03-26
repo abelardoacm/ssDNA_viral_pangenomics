@@ -1,0 +1,104 @@
+LOCUS       NC_005053               1996 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Mulard duck circovirus, complete genome.
+ACCESSION   NC_005053
+KEYWORDS    RefSeq.
+SOURCE      Mulard duck circovirus
+  ORGANISM  Mulard duck circovirus
+REFERENCE   2  (bases 1 to 1996)
+REFERENCE   3  (bases 1 to 1996)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AY228555.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1996
+                     /organism="Mulard duck circovirus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:232802"
+     stem_loop       join(1977..1996,1..12)
+                     /note="stem-loop contains conserved nonamer in its apex"
+     rep_origin      join(1990..1996,1..2)
+                     /note="nonamer conserved in rolling-circle type-like
+                     replicons"
+     protein_bind    13..20
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="putative"
+                     /bound_moiety="Rep protein"
+     gene            49..927
+                     /gene="rep"
+                     /locus_tag="MuDCVgp1"
+                     /db_xref="GeneID:1489952"
+     CDS             49..927
+                     /gene="rep"
+                     /locus_tag="MuDCVgp1"
+                     /note="replicase"
+                     /codon_start=1
+                     /product="Rep"
+                     /protein_id="NP_877978.1"
+                     /db_xref="GeneID:1489952"
+                     /translation="MAKSGNYSYKRWVFTLNNPTFEDYVHVLEFCTLDNCKFAIVGEE
+                     KGANGTPHLQGFLNLRSNARAAALEESLGGRAWLSRARGSDEDNEEYCAKESTYLRVG
+                     EPVSKGRSSDLAEATSAVMAGVPLTEVARKFPTTYVIFGRGLERLRHLIVETQRDWKT
+                     EVIVLIGPPGTGKSRYAFEFPAENKYYKPRGKWWDGYSGNDVVVMDDFYGWLPYDDLL
+                     RITDRYPLRVEFKGGMTQFVAKTLIITSNREPRDWYKSEFDLSALYRRINKYLVYNID
+                     KYEPAQACTLPFPINY"
+     repeat_region   962..1140
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="contains 4 repeats; putative virus packaging
+                     signal"
+                     /rpt_type=direct
+                     /rpt_unit_range=962..1005
+     gene            complement(1160..1933)
+                     /gene="cap"
+                     /locus_tag="MuDCVgp2"
+                     /db_xref="GeneID:1489953"
+     CDS             complement(1160..1933)
+                     /gene="cap"
+                     /locus_tag="MuDCVgp2"
+                     /note="capsid protein"
+                     /codon_start=1
+                     /product="Cap"
+                     /protein_id="NP_877979.1"
+                     /db_xref="GeneID:1489953"
+                     /translation="MRGRSYRRAYRGRRKRRGLRRRFRRRRLRIARPRRRFSVVTYKV
+                     TRNTVFGFFGSQTGPTAAGKWQSLSLEDGAQYTDPPARGNNICGLNMRWAMFGDTNSY
+                     MTGSTPNYHYPYDYYMIKGVAITLRPAYNIYQKSKTQGSTVIDKDGQIVKTATTGWSI
+                     DPYGSTSSRRTWDPSRVHRRYFVPKPIIQGAGEGTKYSTFFLGGRNFTWINCTQDQVV
+                     HYGMGMSLRKPDNTTGVNAQYDIEAQFTFYIKFGQFTGF"
+ORIGIN
+        1 accggcgctt gtactccgta ctccgcggcc aacgggatag caactgcaat ggcgaagagc
+       61 ggcaactact catacaagag gtgggtcttc acccttaata accctacctt tgaagattat
+      121 gttcatgttc tagagttttg cacgctcgac aattgcaagt ttgctatcgt cggcgaggag
+      181 aagggcgcga atggtacgcc tcaccttcag ggattcctga accttcgaag taacgcgcga
+      241 gctgccgccc ttgaggagtc gctgggagga agagcctggc tctctcgtgc ccggggatct
+      301 gatgaagata atgaagaata ttgcgccaaa gagtcgacat accttcgagt tggtgagcca
+      361 gtctccaagg gtcgatcctc tgatctggcc gaagcgacat ccgctgtgat ggctggcgtc
+      421 ccgctgactg aggtggcccg gaagttcccc acgacttatg taatctttgg gcgtggcctg
+      481 gaacgcctcc ggcacctgat cgtcgagacg caacgtgatt ggaagaccga agttatcgtt
+      541 ctgattggtc ctcctggcac cggaaagagc cgttatgcat ttgaatttcc cgccgaaaac
+      601 aagtattaca aaccacgcgg gaagtggtgg gacggttact cgggaaatga cgtagtcgtc
+      661 atggacgact tttatggttg gttgccgtat gatgatttgc tgagaattac cgaccgttac
+      721 ccgttacggg ttgaattcaa aggcggtatg actcagtttg tggctaagac cctgatcata
+      781 acaagcaacc gcgagcctcg tgattggtac aagagcgagt ttgacctttc agctctgtac
+      841 cgcagaatta acaagtatct tgtgtataac attgacaagt atgaacccgc ccaggcatgt
+      901 accctcccgt tcccaataaa ctactgagac gaatttgccg tgagtcgttt attaaggtaa
+      961 acacttggca gggattaaac acttgggcag ctcggttaag gttaggcact tggcagggag
+     1021 taaacacttg ggcagctcgg ttaaggttag gcacttggca gggattaaac acttgggcag
+     1081 ctcggttaag gttaggcact tggcagggat taaacacttg ggcagctcgg ttaaggttag
+     1141 aacaagatct cgtttatgcc tagaagcccg tgaattgtcc aaatttaatg tagaatgtga
+     1201 attgcgcctc tatgtcatac tgcgcgttca ctcctgttgt gttgtccggt ttacgaagac
+     1261 tcatgcccat gccgtaatgc accacttggt cttgagtgca gttgatccat gtgaagttac
+     1321 gtcccccgag gaagaaggtc gagtatttcg tcccctcgcc cgccccttgt atgatgggct
+     1381 taggtacgaa gtaccttctg tgtactctgg aggggtccca agttctcctg ctgctcgttg
+     1441 agccgtaagg gtctatcgac catcccgtgg ttgccgtctt cactatctgc ccgtctttgt
+     1501 ctatcacggt tgatccctgt gtcttgctct tctgatatat gttgtacgct ggtctgagag
+     1561 tgatagctac ccccttgatc atgtagtaat cgtaggggta gtggtagttt ggagttgatc
+     1621 ccgtcatgta gctgttcgtg tctccgaaca tcgcccatct catgtttaag ccgcatatat
+     1681 tgttgccacg ggccggtggg tctgtgtact gcgcgccatc ttctaagctt aagctttgcc
+     1741 atttgcctgc cgctgtcgga cctgtttgtg agccgaaaaa gccgaatacg gtgttccttg
+     1801 tgaccttata tgtcactacg gaaaaccgtc gtcggggtct tgcgattcgt agccttcgtc
+     1861 ttctgaatct cctgcgtaga ccccgcctct tcctccgacc acgatatgca cgccgatagg
+     1921 agcgacctcg cattggcacc gggggcagtg acttcctgtg ggttataaaa gaccgcacaa
+     1981 gcgccgttat attatt
+//

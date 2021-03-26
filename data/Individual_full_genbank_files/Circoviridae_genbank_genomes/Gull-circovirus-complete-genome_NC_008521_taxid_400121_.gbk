@@ -1,0 +1,99 @@
+LOCUS       NC_008521               2035 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Gull circovirus, complete genome.
+ACCESSION   NC_008521
+KEYWORDS    RefSeq.
+SOURCE      Gull circovirus
+  ORGANISM  Gull circovirus
+REFERENCE   2  (bases 1 to 2035)
+REFERENCE   3  (bases 1 to 2035)
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            DQ845074.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2035
+                     /organism="Gull circovirus"
+                     /mol_type="genomic DNA"
+                     /host="gull"
+                     /db_xref="taxon:400121"
+     gene            100..1017
+                     /gene="rep"
+                     /locus_tag="GuCV_gp1"
+                     /db_xref="GeneID:4443100"
+     CDS             100..1017
+                     /gene="rep"
+                     /locus_tag="GuCV_gp1"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_803546.1"
+                     /db_xref="GeneID:4443100"
+                     /translation="MRRRPRSGRYLRSIMAARRDSGARRWCFTLNNYTPEEEETARNL
+                     IHDADKYAFAIIGKEVGESGTPHLQGFMHFKQKQRLTALKKLFPRAHFEKARGSDQQN
+                     ADYCGKDGEILTMIGTPSDNNPSDLAGAVAAVKRGSQMSEIAREFSEVYVKYGRGLRD
+                     LRLLIGCPPRDFKTEVIVLIGPPGCGKSKLANEMEGSKFYKMKGDWWDGYDNQDIVII
+                     DDFYGWLPYCECLRLCDRYPHRVPVKGAYVEFTSKKIVFTSNRHVDGWWKGEIEKSAF
+                     YRRINVYKFYETGEFKDMPGHMLPHPINY"
+     gene            complement(790..1209)
+                     /locus_tag="GuCV_gp2"
+                     /db_xref="GeneID:4443102"
+     CDS             complement(790..1209)
+                     /note="ORF C2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_803547.1"
+                     /translation="MLLDLFNKDSILNSKQVVSSLRATRVGRRQSRAPLALRSLRELR
+                     DSGARDENDCHPEGGVFISRLIIDWVREHVSGHVLEFTSLIKLVHIDPSVEGTLLNFT
+                     FPPPIHMAIAGKHNLLAGEFHVGTFHRHTVRVPVTQT"
+     gene            complement(1190..1927)
+                     /gene="cap"
+                     /locus_tag="GuCV_gp3"
+                     /db_xref="GeneID:4443101"
+     CDS             complement(1190..1927)
+                     /gene="cap"
+                     /locus_tag="GuCV_gp3"
+                     /codon_start=1
+                     /transl_except=(pos:complement(1925..1927),aa:Met)
+                     /product="capsid protein"
+                     /protein_id="YP_803548.1"
+                     /db_xref="GeneID:4443101"
+                     /translation="MRRRHRLPRNRRGHRLNRIYLFRFRRQFTVDFPSKTDPQKWASD
+                     FFTFNLNDFIGQEGIPAAWPFEDYRINLAKVVLRPEGVTTTIARGWGYTVPVQDARVK
+                     DLKLQDQTQDPLANWDGARAWNLVRGFKRLVRPKPQLTISDMTASNFSASMWLNSSRS
+                     GWLPLQMPAGTQRDGTRVVHYGLAFSWPSPGQALRYIAEITIYVTFRQFAQIMLKKSE
+                     EDLSKFGDCLTITDNEKDIDWNVVGSL"
+ORIGIN
+        1 accggcgggc cggggccatg gggccatctg gcccctggcc aagcatgcgc agtagtggcg
+       61 catgcgcaat ggccgcgcag cggcctttat ttgcggagca tgcgcagaag gccgcgcagc
+      121 ggccgctatt tgcgaagcat catggcagca cggcgagaca gcggagcccg tcgctggtgc
+      181 tttactctga ataactacac tcccgaggaa gaggagaccg ctcgcaatct gattcatgat
+      241 gcagataagt acgcgtttgc gataatcggc aaagaagttg gcgaaagcgg tactcctcat
+      301 ctgcaaggct tcatgcattt taagcaaaag cagcggctta ccgctctaaa gaaacttttt
+      361 cctcgcgcgc attttgagaa agctcgcggc agtgatcagc agaatgctga ttattgtggt
+      421 aaagacggcg aaatacttac catgatcggt actccgagtg ataataatcc gagtgatctt
+      481 gcgggagctg ttgccgctgt gaaacgcgga agtcaaatga gtgaaatcgc gcgagagttc
+      541 agtgaagtct acgtcaagta tgggcggggc ctccgtgatc tccggttgct gattggttgc
+      601 ccgccccgcg atttcaaaac agaagtcatc gttctgattg gcccacctgg ctgtggcaag
+      661 tcaaaattgg ccaatgagat ggaagggtct aagttctaca agatgaaagg tgattggtgg
+      721 gatggttatg acaatcaaga tattgtcata atcgatgact tctacggttg gctgccgtac
+      781 tgtgagtgcc tacgtctgtg tgaccggtac cctcaccgtg tgcctgtgaa aggtgcctac
+      841 gtggaattca ccagcaagaa gattgtgttt accagcaatc gccatgtgga tgggtggtgg
+      901 aaaggtgaaa ttgagaagag tgccttctac cgacggatca atgtgtacaa gttttatgag
+      961 actggtgaat tcaaggacat gcccggacac atgctcccgc acccaatcaa ttattaggcg
+     1021 cgagatgaaa acacccccct cgggatgaca gtcgttttca tctcgcgccc ccgagtcgcg
+     1081 gagttcgcga agcgaacgga gcgcgagtgg cgcgcgagat tgtcgacgac cgacgcgcgt
+     1141 agcgcggagg gaggagacca cttgctttga atttaatatg ctatctttat taaagagatc
+     1201 caacaacatt ccagtctatg tctttttcat tgtcagtaat tgttaagcag tccccgaact
+     1261 ttgacaggtc ttcttcagat ttcttcaaca ttatctgagc gaactgcctg aatgttacat
+     1321 atatagttat ttctgcaata tatctcagtg cctgtccagg tgaaggccaa gagaatgcca
+     1381 gcccgtagtg cactactctt gtaccgtccc tctgggtccc tgctggcatt tgtaaaggta
+     1441 accagcctga tctactgcta ttcagccaca ttgatgctga aaagttagag gctgtcatat
+     1501 ctgatatggt tagttgaggc tttgggcgta ccagcctctt aaaccctctg accaagttcc
+     1561 acgccctcgc cccgtcccag ttagccagtg ggtcttgcgt ttgatcctgt aattttaaat
+     1621 ctttaactct ggcgtcctga actgggactg tgtaccccca gccccttgca attgttgttg
+     1681 tgacaccttc aggcctcagc accactttag ctaaatttat cctgtaatcc tcgaacggcc
+     1741 atgctgccgg tattccctct tgacctataa agtcattcag gttgaaggtg aagaaatctg
+     1801 aggcccactt ttgtgggtca gtcttggatg ggaagtccac tgtgaattgc cgtctaaatc
+     1861 tgaacaagta tattctgttc agtctgtgcc ctcttcggtt cctgggcaac ctgtgacgtc
+     1921 tgcgcactcg tctgtgaaac cgccttctcc ggaaaccgcg agtaacacgc ctccttctgg
+     1981 ttgctgagcg acgtacctaa aaatagaatg gccccacggc ccgccgtata gtatt
+//

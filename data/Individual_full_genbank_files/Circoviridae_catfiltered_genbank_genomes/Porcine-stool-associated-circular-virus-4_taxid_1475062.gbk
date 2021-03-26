@@ -1,0 +1,111 @@
+LOCUS       NC_023877               2980 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  Porcine stool-associated circular virus 4 isolate CP2, complete
+            genome.
+ACCESSION   NC_023877
+KEYWORDS    RefSeq.
+SOURCE      Porcine stool-associated circular virus 4
+  ORGANISM  Porcine stool-associated circular virus 4
+REFERENCE   2  (bases 1 to 2980)
+REFERENCE   3  (bases 1 to 2980)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ417134.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. v 5.6.3
+            Sequencing Technology :: 454
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2980
+                     /organism="Porcine stool-associated circular virus 4"
+                     /mol_type="genomic DNA"
+                     /isolate="CP2"
+                     /isolation_source="pooled porcine fecal samples"
+                     /host="pig"
+                     /db_xref="taxon:1475062"
+                     /country="USA"
+                     /collection_date="2011"
+     gene            25..1182
+                     /locus_tag="DJ28_gp1"
+                     /db_xref="GeneID:18982919"
+     CDS             25..1182
+                     /locus_tag="DJ28_gp1"
+                     /codon_start=1
+                     /product="cap protein"
+                     /protein_id="YP_009021874.1"
+                     /db_xref="GeneID:18982919"
+                     /translation="MHRSGDLALFLYVVVRRRYRKSRGRLLRRRARRYRLSKSMRMRR
+                     RRRTIRRNRRRGGLTVSGSAEYPLSYGSLLPVERKAKGSDVGVPHDGFCTWSICPLPM
+                     GVPQVIGDLSVVSFWADLNTSYGERYKPKIGLGQNASDETKMLCDLPVCLSSFTVRSI
+                     VKCETLWKLYKLYRISWVSVTFTVPEFTGGQRNHNLYLEWTHLPKARCAAYEDCIGMV
+                     VSGNGKSSDTGGWNWIYNPPDVATACSIDGRKNGRNGWRRAQLAYNHPVTISWRPKHA
+                     ELIQDHVNYWDATSASTGGTKVMDLWPTKDKFVRSYLPTDIDQQMTAERQVWCGPVIR
+                     LIDADITAAAIPSQPPTNTWYSQYGIRCTCVVKLKFRNMDAADPIFPEYVP"
+     gene            complement(1561..2607)
+                     /locus_tag="DJ28_gp2"
+                     /db_xref="GeneID:18982918"
+     CDS             complement(1561..2607)
+                     /locus_tag="DJ28_gp2"
+                     /codon_start=1
+                     /product="rep protein"
+                     /protein_id="YP_009021875.1"
+                     /db_xref="GeneID:18982918"
+                     /translation="MPARNPEGRPQRFRFACITAWNMDAFDLDWPQRMHDLGLSYVVI
+                     GRETCPRTGRRHLQCYFEATNPKTVTAWQDVVMDKPRAHVECRAAWKPEGEDIAENQG
+                     DKAADYCKKEGDFIEYGTLAPGQGARMDLADCKTMIDEGKQMIDLYEKHFGTCVRCHR
+                     GLMLYKDLVDRKRRKEAEPEPKEIVVYVGASGSGKSHHCWHDPDYRRSGYKYPLLAEN
+                     KVWFDGYEGEEVLWVDEFRGSVFPFGLFLQVTDKWGARVEVKGGSIETFFKKVLISTT
+                     VPPGEWYKNCSNYLKNPKQLWRRLTKVYWLGPVEQDDDGFTIYPEPELIPDPEHDTRT
+                     NPFYDGVGTHYPRE"
+ORIGIN
+        1 accccatagg tcacttctgt gtcgatgcac cgaagcggcg atttggcatt atttctttat
+       61 gtcgtggttc gaagacgcta tcgtaaatct cgtggtcggt tgcttaggcg ccgtgctagg
+      121 cgctatcgtt tgtcgaagtc gatgcgtatg cgtcggcgcc gcagaacgat ccgtcgaaac
+      181 cgacgtagag gaggcttaac ggtaagtgga agtgctgagt acccgttgtc ttacggttca
+      241 ctgctgccag tggaacggaa ggctaagggt tctgatgttg gtgtcccgca tgatggtttc
+      301 tgtacttggt ctatatgccc gttgcctatg ggtgtgcctc aggttattgg tgatctgagt
+      361 gttgtgtctt tctgggctga tctgaatacc agttatggtg agcggtacaa gcctaagatt
+      421 ggtcttggtc aaaatgcatc ggatgaaacg aagatgctgt gtgatttgcc ggtgtgtttg
+      481 tctagcttta cagtgagaag cattgttaaa tgtgaaacac tgtggaagct gtacaaactg
+      541 tatcgtattt cctgggtgag tgtgacgttt acggtaccgg agtttactgg aggtcaacgt
+      601 aatcacaatc tctatctcga atggactcac ttgcctaagg ctcgttgcgc agcatacgag
+      661 gattgtattg gtatggtggt gtctggtaat ggtaaatcgt ctgatacggg tggatggaac
+      721 tggatttata acccgcctga tgtagctact gcgtgtagca ttgatggccg taagaatggt
+      781 cggaatggtt ggagacgagc gcagcttgct tataaccatc ccgtgaccat ctcttggagg
+      841 cccaagcatg ctgagttgat tcaggatcat gtgaattatt gggatgctac atcggcttca
+      901 actggtggta ctaaggttat ggatctgtgg ccaacgaagg acaagtttgt cagatcttat
+      961 ttgcctactg atatcgacca gcagatgact gctgaacgcc aggtgtggtg tggacctgtt
+     1021 attcgcttga ttgatgccga tattactgcc gctgcaatcc cttcacaacc gcctactaat
+     1081 acctggtatt cacagtatgg cattcgctgt acctgcgtgg tgaagctcaa gtttaggaac
+     1141 atggacgccg ctgatcctat tttccctgaa tatgttccgt aactaatcgt ttttagggtg
+     1201 tttcttcaag aaatgttaat ccaccagctc gtgttaagcc tggcttttgg tctaagttga
+     1261 gcaaggcgta tgcttatggt aaggctggtc ttggtgttgc tagggatgta tatggtctct
+     1321 atcgtggggt tcacagtgga gattggtctg atctatatcg ctatatgcct tctgacatgt
+     1381 ctaattattt ccgagatcgt tctcgttacg agttacttga tgcttggaga aaggatcacc
+     1441 cagaatatga tgatgatcct aatgcattat atgatgaaga gctgtaaata attgtttgtt
+     1501 attaatgacc atgcattgtg tgttcaataa ataatgtcag acaattaatg ttagaaccaa
+     1561 ttattctctg gggtagtgtg tgcccactcc gtcgtagaaa gggttggttc tagtgtcatg
+     1621 ttctggatct ggaatgagtt ctggctcagg atagatggtg aatccatcgt cgtcttgttc
+     1681 cactggtccc agccaataga ctttggtgag tcttctccag agttgcttgg gattcttgag
+     1741 gtaattggag cagttcttgt accattctcc tggtggaacg gtagttgaaa tgaggacctt
+     1801 tttgaaaaaa gtctcaattg agcccccctt aacttcgact ctggctcccc acttatcagt
+     1861 gacttggagg aatagtccga aggggaatac ggatccccta aactcatcaa cccatagaac
+     1921 ctcctctccc tcgtatccat cgaaccaaac tttgttctcg gcgagtaaag ggtacttgta
+     1981 cccgcttcgt ctgtaatccg gatcatgcca acagtggtgg gattttccgg atccgctagc
+     2041 gccgacatag accacaatct cttttggctc aggttcggct tcctttcttc tcttcctgtc
+     2101 aacgaggtct ttgtataaca tcaacccacg atgacatctt acacaagtac cgaagtgctt
+     2161 ctcgtacaga tcaatcatct gcttcccttc atcaatcatg gtcttacagt ctgcaagatc
+     2221 catacgtgcc ccctgtcccg gagctaacgt accgtactca atgaagtcac cctccttctt
+     2281 acagtagtcg gccgccttgt ctccttggtt ctcagcaatg tcctccccct ccggcttcca
+     2341 agcagctcta cactctacat gcgctcttgg cttgtccatc accacatctt gccaggctgt
+     2401 aacagtctta ggattagttg cctcgaaata acattgaaga tggcgtcgtc cagtgcgagg
+     2461 gcaagtctct cttccaatga caacataact gagacccaag tcgtgcatgc gttgcggcca
+     2521 gtccaaatca aatgcatcca tgttccaagc cgtaatgcag gcgaatcgaa atctttgggg
+     2581 tctcccttct ggattgcgtg caggcatagt cttcccggtt ccttgtttgg cttaaccaaa
+     2641 ctttttatga gctttccgtg tatgtatagg tactcattgc atttccttgg tagacacgtc
+     2701 atgccgatca ctatagtatg gtgcgtcctt gataatcaat aggtcagctg atatcacctg
+     2761 caaccactgt acgtacgcac ccactcaacg ttcccaaggt ccaccccgga gggggtaggg
+     2821 ttgagcagga cactgcatct gtaggattgt ccaccccgga gggggtaggg ttagggtgcg
+     2881 tagggtaagt taggtgtggg ttaggttgtt ggactttaag gccgaaggcc aggcctcgcc
+     2941 aaagttgagg tagacacagg tgacctatgg gcttagtatt
+//
