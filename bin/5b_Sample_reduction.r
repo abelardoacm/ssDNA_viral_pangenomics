@@ -186,7 +186,9 @@ for(e in pos_monomembers){
 }
 TaxDelSubset$Name <- rownames(TaxDelSubset)
 remove.list <- paste(c(ToDeleteFromTaxDel), collapse = '|')
-TaxDelSubset <- TaxDelSubset %>% filter(!grepl(remove.list, Name))
+if (length(pos_monomembers) > 0){
+  TaxDelSubset <- TaxDelSubset %>% filter(!grepl(remove.list, Name))
+}
 TaxDelSubset$Name <- NULL
 #################################################
     #New clusters PCA
