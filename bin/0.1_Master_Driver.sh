@@ -1,24 +1,34 @@
 #!/bin/bash
-mkdir -p ../results
-mkdir -p ../results/Master_reports
-##
+#0.1_Master_Driver.sh
+#
+#Author: Abelardo Aguilar Camara
+#
+#Task performed:
+#    This script performs all the computations to prepair the pangenomic inputs,
+#    this includes clustering genomes, building graphs to picture grouping and
+#    redirecting files to clusters
+#
+#INPUT: Full genbank file of anytaxon refseq genomes (expects a viral family).
+#
+#OUTPUT: Depends on selected computations, printed in terminal and in master reports.
+# 
+##########################################
+#0.1_Master_Driver.sh
+##########################################
+#Code block containing variables, and local functions to print menus and tables
 # Color  Variables
-##
 green='\e[32m'
 blue='\e[34m'
 clear='\e[0m'
-
-##
 # Color Functions
-##
-
 ColorGreen(){
 	echo -ne $green$1$clear
 }
 ColorBlue(){
 	echo -ne $blue$1$clear
 }
-
+# Local functions
+# Clustering method menu
 menu(){
 echo -ne "
 Available partition method
@@ -46,6 +56,7 @@ $(ColorBlue 'Choose an option:') "
 		*) echo -e $red"Wrong answer\!\!\!Not a partition method."$clear; menu ;;
         esac
 }
+# Function to display text in the center of terminal
 print_center(){
     local x
     local y
@@ -54,6 +65,7 @@ print_center(){
     echo -ne "\E[6n";read -sdR y; y=$(echo -ne "${y#*[}" | cut -d';' -f1)
     echo -ne "\033[${y};${x}f$*"
 }
+# Turns text into a table
 function printTable()
 {
     local -r delimiter="${1}"
@@ -127,14 +139,14 @@ function printTable()
         fi
     fi
 }
-
+# Removes empty lines (including visually empty lines, e.g. lines with spaces or tabs)
 function removeEmptyLines()
 {
     local -r content="${1}"
 
     echo -e "${content}" | sed '/^\s*$/d'
 }
-
+# Repeats a sentence n times
 function repeatString()
 {
     local -r string="${1}"
@@ -146,7 +158,7 @@ function repeatString()
         echo -e "${result// /${string}}"
     fi
 }
-
+# substitutes string in input text
 function replaceString()
 {
     local -r content="${1}"
@@ -155,12 +167,14 @@ function replaceString()
 
     sed "s@${oldValue}@${newValue}@g" <<< "${content}"
 }
+# Trims a string
 function trimString()
 {
     local -r string="${1}"
 
     sed 's,^[[:blank:]]*,,' <<< "${string}" | sed 's,[[:blank:]]*$,,'
 }
+# Logical returns 1 or 0 if a string is empty
 function isEmptyString()
 {
     local -r string="${1}"
@@ -172,6 +186,7 @@ function isEmptyString()
 
     echo 'false' && return 1
 }
+# Logical returns if an evaluated variable is a positive integer
 function isPositiveInteger()
 {
     local -r string="${1}"
@@ -183,12 +198,22 @@ function isPositiveInteger()
 
     echo 'false' && return 1
 }
-# Ask for viral family
+##########################################
+##########################################
+##########################################
+##########################################
+#Master script
+#Creates folder to contain result and master reports
+mkdir -p ../results
+mkdir -p ../results/Master_reports
+##########################################
+# Ask for viral family (obtaining $family)
 clear
 echo -e "_____________________________________________\nWhich taxon/family do you want to work with?\n_____________________________________________\n\n\tvalid options in your Raw_database folder are:\n"
-ls ../data/Raw_database/ | sed 's/.gb//g' | nl
+ls ../data/Raw_database/ | sed 's/.gb//g' | nl # reads files in raw database. then numbers them and displays valid input taxon list
 echo -e "\n\n"
-read -p "type taxon/family and hit enter: " family
+read -p "type taxon/family and hit enter: " family #asks for the taxon to be used and writes variable $family
+# While loop to restrict progression until a valid option is given
 while [[ $(ls ../data/Raw_database/ | sed 's/.gb//g' | grep -w $family | wc -l) != [1] ]] ; do
   echo
   echo $family is not a valid option, please try again...
@@ -199,10 +224,12 @@ clear
 echo -e "\n\nWorking with $family genomes\nA report text file will be saved in /results/Master_reports/Report_$family \n\n...\nchecking if $family was already used as input\n...\n"
 sleep 1
 clear
+##########################################
 #Display steps already performed
 print_center "Previous results from the following steps are available for $family:"
 echo -e "\n\n"
-stepcheck=1
+stepcheck=1 #Variable to adop different values depending on which steps where already performed
+#If proteomic fasta output for $family is found, stepcheck equals 2
 if [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_fasta_proteomes*" 2>/dev/null | wc -l) != [0] ]]; then
 	print_center "1.- Set family files from raw genbank was already performed "
 	echo
@@ -211,6 +238,7 @@ if [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_fasta_proteomes*" 2>
 else
 	varmenu1=0
 fi
+#If concatenated files are found for $family is found, stepcheck equals 3
 if [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_concatenated_fasta_proteomes" 2>/dev/null | wc -l) != [0] ]]; then
 	print_center "2.- Concatenate matching taxid and name                     "
 	echo
@@ -219,6 +247,7 @@ if [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_concatenated_fasta_p
 else
 	varmenu2=0
 fi
+#If catfiltered files are found for $family is found, stepcheck equals 4
 if [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_catfiltered_fasta_proteomes" 2>/dev/null | wc -l) != [0] ]]; then
 	print_center "3.- Filter by protein count                                 "
 	echo
@@ -227,6 +256,7 @@ if [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_catfiltered_fasta_pr
 else
 	varmenu3=0
 fi
+#If CPFSCC vectors are found for $family is found, stepcheck equals 5
 if [[ $(find ../results/CPFSCC_vectors/ -name "$family\_CPFSCC_vectors.txt" 2>/dev/null | wc -l) != [0] ]]; then
 	print_center "4.- Compute CPFSCC vectors                                  "
 	echo
@@ -235,6 +265,7 @@ if [[ $(find ../results/CPFSCC_vectors/ -name "$family\_CPFSCC_vectors.txt" 2>/d
 else
 	varmenu4=0
 fi
+#If membership vectors are found for $family is found, stepcheck equals 6
 if [[ $(find ../results/NbClust_membership_vectors/ -name "$family\_membership_vectors.csv" 2>/dev/null | wc -l) != [0] ]]; then
 	print_center "5.- Estimate clusters with R package NbClust                "
 	echo
@@ -243,6 +274,7 @@ if [[ $(find ../results/NbClust_membership_vectors/ -name "$family\_membership_v
 else
 	varmenu5=0
 fi
+#If clusters are found for $family is found, stepcheck equals 5
 if [[ $(find ../results/Pangenomic_input_clusters/ -name "$family\_clusters" 2>/dev/null | wc -l) != [0] ]]; then
 	print_center "6.- Redirect files to folders by current clustering scenario"
 	echo
@@ -250,6 +282,7 @@ if [[ $(find ../results/Pangenomic_input_clusters/ -name "$family\_clusters" 2>/
 else
 	varmenu6=0
 fi
+#Just notifies whether a master report was found
 if [[ $(find ../results/Master_reports/ -name "Report_$family" 2>/dev/null | wc -l) == [0] ]]; then
 	echo
 	print_center "No previous Report_$family file report was found"
@@ -257,7 +290,9 @@ else
 	echo
 	print_center "A previous Report_$family file report was found"
 fi
-#Variable menu
+##########################################
+#Block to print a menu that varies depending on $stepcheck and $varmenu
+#The logic with $varmenu variables is that, if $varmenu "n" is 1, it means that step "n+1" can be performed
 echo -e "\n________________________________________\nAvailable options with current data are:\n\n \t(0)\tPerform all steps\n\n\n\tor pick a single step \n\n\t(1)\tSet family files from raw genbank\n"
 if [[ $varmenu1 -gt 0 ]]; then
 	echo -e "\t(2)\tConcatenate matching taxid and name\n"
@@ -266,27 +301,32 @@ if [[ $varmenu2 -gt 0 ]]; then
 	echo -e "\t(3)\tFilter by protein count\n"
 fi
 if [[ $varmenu3 -gt 0 ]]; then
-	echo -e "\t(4)\tEstimate distance matrix with an AF-method\n"
+	echo -e "\t(4)\tEstimate distance matrix with AF-method\n"
 fi
 if [[ $varmenu4 -gt 0 ]]; then
-	echo -e "\t(5)\tEstimate clusters + option to sample reduction\n"
+	echo -e "\t(5)\tEstimate clusters and reduce sample\n"
 fi
 if [[ $varmenu5 -gt 0 ]]; then
-	echo -e "\t(6)\tRedirect files to folders by current clustering scenario\n"
+	echo -e "\t(6)\tRedirect files following current clustering scenario\n"
 fi
 echo
-read -p "... type the number of available option:" -n 1 -r repl
-
-#Repeat if stepcheck not passed
+read -p "... type the number of available option:" -n 1 -r repl # $repl is a temporary variable to save desired option
+#Loop to prevent progressing until computations can really be done
 until [ $stepcheck -ge $repl ]; do 
 	echo -e "\n $repl is not a valid option, please try again...\n"
 	read -p "... type an available option:" -n 1 -r repl
 done
-
 clear
+##########################################
 #PERFORM INDIVIDUAL STEPS
+##########################################
+##########################################
+##########################################
+#1_Set_family_files_from_raw_genbank.sh
+#Separating from general anytaxon files to individual 
 if [[ $repl =~ ^[01]$ ]]; then
 	print_center "- - - - - -1_Set_family_files_from_raw_genbank.sh- - - - - -"
+	#Loop to prevent duplicating this step for current family
 	while [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_fasta_proteomes*" | wc -l) != [0] ]]; do
 		echo -e "\n\n"
 		print_center "The first step (1_Set_family_files_from_raw_genbank.sh) was already performed for $family.gb,"
@@ -301,6 +341,7 @@ if [[ $repl =~ ^[01]$ ]]; then
 			echo -e "    $REPLY not a valid answer\n"
 			read -p "    do you want to continue (yes/no) ?  " -n 1 -r
 		done  
+		# Removing previous results for 1_Set_family_files_from_raw_genbank.sh
 		if [[ $REPLY =~ ^[Yy]$ ]]; then
 			rm -r ../data/Individual_full_genbank_files/$family\_genbank_genomes/
 			rm -r ../data/Proteomic_fasta_files/$family\_fasta_proteomes/
@@ -314,24 +355,35 @@ if [[ $repl =~ ^[01]$ ]]; then
 			exit 1
 		fi
 	done
-	# ./1_Set_family_files_from_raw_genbank.sh
 	echo -e "\n\n...\nreading $family.gb to split into individual files\n..."
 	echo -e "------------1_Set_family_files_from_raw_genbank.sh------------\n" >> ../results/Master_reports/Report_$family
+	##########################################
 	./1_Set_family_files_from_raw_genbank.sh $family | tee -a ../results/Master_reports/Report_$family
+	##########################################
 	echo -e "\n\nINPUT:\t/data/Raw_database/$family.gb\n\nOUTPUT:  *.fn files\tin\t/data/Genomic_fasta_files/$family\_fasta_genomes\n        *.gbk files\tin\t/data/Individual_full_genbank_files/$family\_genbank_genomes\n        *.faa files\tin\t/data/Proteomic_fasta_files/$family\_fasta_proteomes" | tee -a ../results/Master_reports/Report_$family 
 	echo -e "\n\nDONE: Obtained individual files\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
 	sleep 4
 fi
-
+##########################################
+##########################################
+##########################################
 # perl 2_Concatenation_from_taxid.pl
 if [[ $repl =~ ^[02]$ ]]; then
 	clear
 	print_center "- - - - - -2_Concatenation_from_taxid.pl- - - - - -"
+	echo -e "\n\n"
+	files_before_cat=$(ls ../data/Proteomic_fasta_files/$family\_fasta_proteomes/ | wc -l)
+	files_after_cat=$(ls ../data/Proteomic_fasta_files/$family\_fasta_proteomes/ | sed 's/^.*\(taxid.*.faa\).*$/\1/' | uniq | wc -l)
+	concatenated_files=$(ls ../data/Proteomic_fasta_files/$family\_fasta_proteomes/ | sed 's/^.*\(taxid.*.faa\).*$/\1/' | uniq -c | grep -vw "1" | wc -l)
+	print_center "There are $files_before_cat $family individual files before concatenation, of which"
+	echo
+	print_center " $concatenated_files could be segments.The number of files after concatenation will be $files_after_cat."
+	echo -e "\n\n\nNOTE: Not all families have segmented genomes.If you wish to skip this step, you can manually rename step 1 output."
 	while [[ $(find ../data/Proteomic_fasta_files/ -name "$family\_concatenated_fasta_proteomes" | wc -l) != [0] ]]; do
 		echo -e "\n\n"
 		print_center "The second step (2_Concatenation_from_taxid.pl) was already performed for $family"
 		echo
-		print_center "if you wish to continue, previous results for this step will be deleted"
+		print_center "if you wish to continue previous results for this step will be deleted"
 		sleep 0.5
 		echo -e "\n\n_____________________________________________"
 		read -p "    do you want to continue (yes/no) ?  " -n 1 -r 
@@ -351,40 +403,16 @@ if [[ $repl =~ ^[02]$ ]]; then
 			exit 1
 		fi
 	done
-	echo -e "\n\n"
-	files_before_cat=$(ls ../data/Proteomic_fasta_files/$family\_fasta_proteomes/ | wc -l)
-	files_after_cat=$(ls ../data/Proteomic_fasta_files/$family\_fasta_proteomes/ | sed 's/^.*\(taxid.*.faa\).*$/\1/' | uniq | wc -l)
-	concatenated_files=$(ls ../data/Proteomic_fasta_files/$family\_fasta_proteomes/ | sed 's/^.*\(taxid.*.faa\).*$/\1/' | uniq -c | grep -vw "1" | wc -l)
-	print_center "There are $files_before_cat $family individual files before concatenation,"
-	echo
-	print_center "of which $concatenated_files could be segments. If you decide to perform this step "
-	echo
-	print_center "for $family genomes, the number of files after concatenation will be $files_after_cat."
-	echo -e "\n\n"
-	print_center "You can decide wether to continue or skip concatenation. If you choose to skip, previous $family files will just copied and labeled as \"concatenated\" to serve as input for upcoming steps!"
-	echo -e "\n\n_____________________________________________________________\n"
-	read -p "    do you want to continue or skip this step (continue/skip)" -n 1 -r
-	until [[ $REPLY =~ ^[CcSs]$ ]]; do
-		echo -e "    $REPLY not a valid answer\n"
-		read -p "    do you want to continue (continue/skip) ?" -n 1 -r
-	done
-	if [[ $REPLY =~ ^[Ss]$ ]]; then
-		cp -r ../data/Genomic_fasta_files/$family\_fasta_genomes ../data/Genomic_fasta_files/$family\_concatenated_fasta_genomes
-		cp -r ../data/Individual_full_genbank_files/$family\_genbank_genomes ../data/Individual_full_genbank_files/$family\_concatenated_genbank_genomes
-		cp -r ../data/Proteomic_fasta_files/$family\_fasta_proteomes ../data/Proteomic_fasta_files/$family\_concatenated_fasta_proteomes
-		echo -e "------------2_Concatenation_from_taxid.pl------------\n\nConcatenation was skipped." >> ../results/Master_reports/Report_$family
-	fi
-	if [[ $REPLY =~ ^[Cc]$ ]]; then
-		echo -e "\n\n...\nmatching species and taxonomic IDs for genomic segments concatenation\n..."
-		echo -e "------------2_Concatenation_from_taxid.pl------------\n" >> ../results/Master_reports/Report_$family
-		perl 2_Concatenation_from_taxid.pl $family | tee -a ../results/Master_reports/Report_$family
-		echo -e "\n\nINPUT:\t/data/Raw_database/$family.gb\n\t/data/Genomic_fasta_files/$family\_fasta_genomes\n      \t/data/Individual_full_genbank_files/$family\_genbank_genomes\n      \t/data/Proteomic_fasta_files/$family\_fasta_proteomes\n\nOUTPUT:  *.fn files\tin\t/data/Genomic_fasta_files/$family\_concatenated_fasta_genomes\n        *.gbk files\tin\t/data/Individual_full_genbank_files/$family\_concatenated_genbank_genomes\n        *.faa files\tin\t/data/Proteomic_fasta_files/$family\_concatenated_fasta_proteomes" | tee -a ../results/Master_reports/Report_$family
-		echo -e "\n\nDONE: Concatenated segmented genomes into single files\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
-		sleep 4
-	fi
+	echo -e "\n\n...\nmatching species and taxonomic IDs for genomic segments concatenation\n..."
+	echo -e "------------2_Concatenation_from_taxid.pl------------\n" >> ../results/Master_reports/Report_$family
+	perl 2_Concatenation_from_taxid.pl $family | tee -a ../results/Master_reports/Report_$family
+	echo -e "\n\nINPUT:\t/data/Raw_database/$family.gb\n\t/data/Genomic_fasta_files/$family\_fasta_genomes\n      \t/data/Individual_full_genbank_files/$family\_genbank_genomes\n      \t/data/Proteomic_fasta_files/$family\_fasta_proteomes\n\nOUTPUT:  *.fn files\tin\t/data/Genomic_fasta_files/$family\_concatenated_fasta_genomes\n        *.gbk files\tin\t/data/Individual_full_genbank_files/$family\_concatenated_genbank_genomes\n        *.faa files\tin\t/data/Proteomic_fasta_files/$family\_concatenated_fasta_proteomes" | tee -a ../results/Master_reports/Report_$family
+	echo -e "\n\nDONE: Concatenated segmented genomes into single files\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
+	sleep 4
 fi
-
-
+##########################################
+##########################################
+##########################################
 # perl 3_Protein_count_filtering.pl
 if [[ $repl =~ ^[03]$ ]]; then
 	clear
@@ -502,8 +530,9 @@ if [[ $repl =~ ^[03]$ ]]; then
 	echo -e "\n\nDONE: Filtered genomes by protein count \n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
 	sleep 4
 fi
-
-
+##########################################
+##########################################
+##########################################
 # ./4_Vectors_CPFSCC.sh $family
 if [[ $repl =~ ^[04]$ ]]; then
 	clear
@@ -536,8 +565,9 @@ if [[ $repl =~ ^[04]$ ]]; then
 	echo -e "\n\nDONE: Computed CPFSCC vectors\n\n\n\n\n" | tee -a ../results/Master_reports/Report_$family
 	sleep 4
 fi
-
-
+##########################################
+##########################################
+##########################################
 # Rscript 5a_NbClust.r $family $minnc $maxnc
 if [[ $repl =~ ^[05]$ ]]; then
 	clear
@@ -577,10 +607,9 @@ if [[ $repl =~ ^[05]$ ]]; then
 	sleep 4
 	# Rscript 5b_Sample_reduction.r $family $percsr
 	print_center "- - - - - -5b_Sample_reduction.r- - - - - -"
-	echo
-	echo -e "------------5b_Sample_reduction.r $family $percsr------------\n" >> ../results/Master_reports/Report_$family
-	print_center "WARNING: If you choose to execute sample reduction, clusters with only one member will stay the same to prevent losing taxa of interest."
-	read -p "Do you want to perform sample reduction based on distances (recommended)?  (yes/no)  " -n 1 -r 
+	echo -e "------------5b_Sample_reduction.r $family $percsr------------" >> ../results/Master_reports/Report_$family
+	echo -e "\n\nWARNING: If you choose to execute sample reduction, clusters with only one member will stay the same."
+	read -p "Do you want to perform sample reduction based on distances?  (yes/no)  " -n 1 -r 
 	echo
 	until [[ $REPLY =~ ^[YyNn]$ ]]; do
 		echo -e "    $REPLY not a valid answer\n"
@@ -588,11 +617,14 @@ if [[ $repl =~ ^[05]$ ]]; then
 	done
 	if [[ $REPLY =~ ^[Nn]$ ]]; then
 		echo sample reduction won\'t be performed >> ../results/Master_reports/Report_$family
+		echo -e "\n\n Please select a partition method to continue"
+		menu
+		clear
 	fi
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		echo sample reduction will be performed >> ../results/Master_reports/Report_$family
 		echo -e "\n\n"
-		print_center "At this point you may want to analyze figures in /results/Clustering_graphics, then you can pick a partition method, the one that you consider better for the current taxon (method used in every partition scheme is shown at the graph's title), as well as a percentage of reduction."
+		print_center "At this point you may want to analyze figures in /results/Clustering_graphics, then you can pick a partition method. The one that you consider better for the current taxon (method used in every partition scheme is shown at the graph's title), as well as a percentage of reduction."
 		echo
 		echo -e "...\ncollecting parameters for sample reduction\n...\n"
 		menu
@@ -607,9 +639,9 @@ if [[ $repl =~ ^[05]$ ]]; then
 		sleep 4
 	fi
 fi
-
-
-
+##########################################
+##########################################
+##########################################
 # ./6_Files_to_clusters.sh $family
 if [[ $repl =~ ^[06]$ ]]; then
 	clear
