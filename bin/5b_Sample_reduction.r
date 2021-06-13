@@ -137,7 +137,7 @@ PercByClust[PercByClust==0] <- 1
   #Obtain the "n" percent biggest values
 MostDist <- c()
 for (i in clusters){
-  MostDist[[i]] <- first(SortedListOfDistSums[[i]], PercByClust[[i]]) #Use first {xts} function
+  MostDist[[i]] <- xts::first(SortedListOfDistSums[[i]], PercByClust[[i]]) #Use first {xts} function
 }
 # Set outdir to save output
 setwd("../Lists_for_sample_reduction/")
