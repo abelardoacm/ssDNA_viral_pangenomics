@@ -113,6 +113,10 @@ echo -e "\n\nINPUT:\tMulti-fasta containing all $1 genomes:\t/data/AF_methods_in
 echo -e "\n\nDONE: Computed CPFSCC vectors\n\n\n" | tee -a ../results/Master_reports/Report_$1
 ##########################################
 ##########################################
+if [[ $5 == "NA" ]]; then
+	exit 1
+fi
+##########################################
 ##########################################
 # Rscript 5a_NbClust.r $1 $5 $6
 print_center "- - - - - -5a_NbClust.r- - - - - -"
@@ -169,7 +173,7 @@ fi
 ##########################################
 # Rscript 5b_Sample_reduction.r $1 $7
 print_center "- - - - - -5b_Sample_reduction.r- - - - - -"
-echo -e "------------5b_Sample_reduction.r $1 $7------------" >> ../results/Master_reports/Report_$1
+echo -e "------------5b_Sample_reduction.r $1 $7 $8 ------------" >> ../results/Master_reports/Report_$1
 echo -e "\n\nWARNING: If you choose to execute sample reduction, clusters with only one member will stay the same."
 echo -e "Partition method selected: $8"
 echo Percentage for sample reduction\: $7 >> ../results/Master_reports/Report_$1
@@ -184,7 +188,7 @@ echo -e "\n\nDONE: Reduced sample by %$7\n\n\n" | tee -a ../results/Master_repor
 ##########################################
 # ./6_Files_to_clusters.sh $1
 print_center "- - - - - -6_Files_to_clusters.sh- - - - - -"
-rm -r ../results/Pangenomic_input_clusters/*$family* 2>/dev/null
+rm -r ../results/Pangenomic_input_clusters/*$1* 2>/dev/null
 echo -e "\nDeleted previous $1 pangenomic input clusters"
 echo -e "\n\n...\nredirecting files to clusters\n..."
 echo -e "------------6_Files_to_clusters.sh $1------------\n" >> ../results/Master_reports/Report_$1
