@@ -21,6 +21,8 @@
 mkdir -p ../results/Pangenomic_input_clusters
 mkdir -p $1_clusters
 cp ../data/Individual_full_genbank_files/$1_catfiltered_genbank_genomes/* .
+mkdir -p $1_all
+cp *.gbk $1_all
 #
 #################################################
 #Get a temporary file matching taxids and its cluster as follows:
@@ -54,9 +56,19 @@ cat ../results/NbClust_membership_vectors/$1_membership_vectors.csv |
 #################################################
 eval "$(sed 's/^/mv /g' rename_rules.txt )" #Moves each file to its corresponding cluster
 mv cluster* $1_clusters #Folders to base anytaxon folder
+mv $1_all $1_clusters #Moves all inclusive folder to family_clusters
 mv $1_clusters ../results/Pangenomic_input_clusters/ #Base anytaxon folder to results
 #################################################
 #Remove temporary files
 rm rename_rules.txt
 rm -f *.gbk
+#################################################
+#Also send an all inclusive folder containing all genomes
+
+
+
+
+
+
+
 
