@@ -20,6 +20,22 @@
 ./pre_pangenomic_clustering.sh Plectroviridae 95 12 13 NA
 ./pre_pangenomic_clustering.sh Bidnaviridae 95 7 7 NA
 ./pre_pangenomic_clustering.sh Spiraviridae 95 57 57 NA
+#
+#Invoking GETHOMS
+./7_invoke_get_homologues.sh Alphasatellitidae 5 10 50 0.01
+./7_invoke_get_homologues.sh Anelloviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Bacilladnaviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Circoviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Geminiviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Genomoviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Inoviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Microviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Nanoviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Parvoviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Pleolipoviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Smacoviridae 5 10 50 0.01
+./7_invoke_get_homologues.sh Tolecusatellitidae 5 10 50 0.01
+
 
 
 
