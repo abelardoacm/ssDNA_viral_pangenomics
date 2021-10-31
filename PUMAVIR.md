@@ -152,15 +152,16 @@ Como puede observarse, en el lado izquierdo (sin medidas) no pudo encontrarse un
 
 Como fue mencionado previamente, el pangenoma se construye a partir del repertorio genético de los miembros de un linaje. En nuestro caso, los linajes fueron abordados a nivel de familia. A continuación se muestran gráficas que ilustran el tamañi de los grupos pangenómicos por prevalencia, con la finalidad de distinguir el componente pangenómico más observado. Por limitaciones de espacio, se muestran gráfucas que corresponden a la salida de **GET_HOMOLOGUES** solo para aquellos sub-gruposmás inclusivos por familia, es decir, los que están conformads por más proteomas.
 
-<p align="center">
-  <img width="700" height="700" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/anelloclusts.png">
-</p>
+|   |   |   |
+|---|---|---|
+|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/anelloclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/bacilloclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/circoclusts.png)|
+|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/geminiclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/genomoclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/inoclusts.png)|
+|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/microclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/nanoclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/parvoclusts.png)|
+|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/pleolipoclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/anelloclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/anelloclusts.png)|
 
 <p align="center">
   <b>Figura 4. Gráficas de proporción de grupos pangenómicos.</b><br>
 </p>
-
-
 
 ### Referencias
 > 1.	Baltimore, D. Expression of animal virus genomes. Bacteriol. Rev. 35, 235–241 (1971)
