@@ -65,6 +65,8 @@ Dada la escala del análisis se realizaron agrupamientos entre los genomas de ca
 
 Mediante un script en *bash* se utilizó el programa **GET_HOMOLOGUES**<sup>[18](#referencias)⁠</sup> utilizando los algoritmos de agrupamiento **COGtriangles** y **OrthoMCL** por cada grupo pre-pangenómico obtenido en el paso anterior. Los parámetros fueron modificados a  *query coverage* > 30, *e-value* < 1e<sup>-3</sup> y la opción *-D* que efectúa la búsqueda de perfiles de Pfam y restringe el agrupamiento en *clusters* pangenómicos a sólo aquellas secuencias con una conformación similar en dominios de Pfam.
 
+Todos los datos, scripts utilizados y su descripción detallada se encuentran disponibles en el repositorio de github [abelardoacm/ssDNA_viral_pangenomics/](https://github.com/abelardoacm/ssDNA_viral_pangenomics/).
+
 ## Resultados
 
 #### Base de datos
@@ -114,7 +116,7 @@ Todas las familias con 10 o más genomas en la configuración final de la base d
 | Smacoviridae       | 2         | 2 |
 | Tolecusatellitidae | 4         |  |
 
-Los agrupamientos realizados en NbClust, pudieron ser visualizados mediante análisis de componentes principales *PCA*, como el mostrado para la familia Geminiviridae (figura 1). En el podemos observar una total separación entre los proteomas, considerando únicamente 2 de las 28 dimensiones del vector construido. Sin embargo
+Los agrupamientos realizados en NbClust, pudieron ser visualizados mediante análisis de componentes principales *PCA*, como el mostrado para la familia Geminiviridae (figura 1). En el podemos observar una total separación entre los proteomas, considerando únicamente 2 de las 28 dimensiones del vector construido. En contraste, la familia Inoviridae muestra un esquema complejo de 8 sub-grupos sin una separación total. Por motivos de espacio no fueron mostrados todos los PCA de los agrupamientos, pero se encuentran disponibles en el repositorio de github [abelardoacm/ssDNA_viral_pangenomics/](https://github.com/abelardoacm/ssDNA_viral_pangenomics/).
 
 <p align="center">
   <img width="700" height="500" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClusts1.png">
@@ -123,6 +125,28 @@ Los agrupamientos realizados en NbClust, pudieron ser visualizados mediante aná
 <p align="center">
   <b>Figura 1. PCA del agrupamiento de los proteomas de la familia Geminiviridae. Puede observarse en color azul y anaranjado, a los miembros del cluster 1 y 2 respectivamente.</b><br>
 </p>
+
+<p align="center">
+  <img width="700" height="500" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/inoviridae.png">
+</p>
+
+<p align="center">
+  <b>Figura 2. PCA del agrupamiento de los proteomas de la familia Inoviridae. Esquema complejo de 8 sub agrupamientos.</b><br>
+</p>
+
+#### Efecto de los filtros de calidad y pre-agrupamientos en la subestimación
+
+El impacto de las medidas orientadas a evitar la subestimación del núcleo pangenómico fue evidente en las familias con genomas segmentados (figura 3). Para el caso de la familia Nanoviridae, dichas medidas marcaron la diferencia entre la existencia o no del núcleo pangenómico. 
+
+<p align="center">
+  <img width="900" height="500" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/nanoefectos.png">
+</p>
+
+<p align="center">
+  <b>Figura 3. Efecto de las medidas anti-subestimación pangenómica para la familia Nanoviridae.</b><br>
+</p>
+
+Como puede observarse, en el lado izquierdo (sin medidas) no pudo encontrarse un núcleo pangenómico, y las diferencias entre las prevalencias de los grupos homólogos no permitieron la postulación de genes candidatos para extender la búsqueda de homólogos remotos. En contraste, los filtros de calidad, objetivos y automatizables condujeron a mejores resultados pangenómicos.
 
 ### Referencias
 > 1.	Baltimore, D. Expression of animal virus genomes. Bacteriol. Rev. 35, 235–241 (1971)
