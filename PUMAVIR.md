@@ -34,9 +34,10 @@ Los virus ssDNA podrían ser considerados antiguos en consonancia con las ideas 
 
 Los virus son un grupo politético, clasificados en lo general por la forma en que sintetizan su mRNA, pero sin un marcador universal<sup>[3](#referencias)⁠</sup>. Sin embargo, en escalas menores, por ejemplo a nivel de familia, existen elementos genéticos conservados, particularmente aquellos implicados en procesos de replicación, empaquetamiento del genoma y síntesis del mRNA, y que pueden ser utilizados como marcadores filogenéticos para trazar relaciones profundas sobre su propio origen<sup>[14](#referencias)⁠</sup>. La pangenómica es un método de análisis que permite categorizar grupos de genes homólogos de acuerdo a su prevalencia entre los genomas de un linaje<sup>[15](#referencias)⁠</sup>, a partir de la cual podemos escoger marcadores para comenzar un análisis evolutivo, primero asignando los genes del linaje a tres grupos pangenómicos:
 
-- **Núcleo**: Genes presentes en todos los miembros del linaje.
-- **Cubierta**:Genes ampliamente distribuidos y esenciales, que no alcanzan una prevalencia del 100%.
-- **Nube**: Genes específicos a un grupo de miembros del linaje.
+- ***Core***: Genes presentes en todos los miembros del linaje.
+- ***Soft-Core***: Genes con prevalencia > 90% , < 100%.
+- ***Shell***:Genes ampliamente distribuidos y esenciales, que no alcanzan una prevalencia del 100%.
+- ***Cloud***: Genes específicos a un grupo de miembros del linaje.
 
 ## Objetivo
 
@@ -162,6 +163,9 @@ Como fue mencionado previamente, el pangenoma se construye a partir del repertor
 <p align="center">
   <b>Figura 4. Gráficas de proporción de grupos pangenómicos.</b><br>
 </p>
+
+
+Como puede observarse, el núcleo pangenómico existe únicamente para las familias Bacilladnaviridae, Geminiviridae y Nanoviridae, siendo las dos últimas, familias con genomas segmentados.
 
 ### Referencias
 > 1.	Baltimore, D. Expression of animal virus genomes. Bacteriol. Rev. 35, 235–241 (1971)
