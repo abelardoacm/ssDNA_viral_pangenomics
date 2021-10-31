@@ -49,7 +49,7 @@ El presente estudio tiene como objetivo indagar la historia evolutiva de los vir
 
 ## Métodos 
 
-#### Base de datos inicial, concatenado y filtrado.
+#### Configuración de la base de datos: descarga, concatenado y filtrado.
 Los proteomas virales fueron descargados por familia, utilizando la siguiente búsqueda general en NCBI refseq:
 ```
 Familia [ORGANISM] AND srcdb_refseq[PROP] NOT wgs[prop] NOT cellular organisms[Organism] NOT AC_000001:AC_999999[pacc]
@@ -59,7 +59,70 @@ Esta búsqueda permitió la obtención de proteomas completos y parciales para l
 
 #### Agrupamiento pre-pangenómico
 
-Dada la escala del análisis se realizaron agrupamientos entre los genomas de cada familia, para prevenir la subestimación de la prevalencia. En primer lugar se calculó una matriz de distancias pareadas a nivel proteómico, mediante un algoritmo libre de alineamientos, basado en el análisis de Fourier<sup>[16](#referencias)⁠</sup>. Este método estima un vector 28-dimensional por cada genoma con una correspondencia 1 a 1, el cual permite la obtención de distancias euclideanas pareadas. Tanto los vectores y matrices de distancias pareadas fueron utilizadas como *input* para el paquete de *R*{NbClust}<sup>[17](#referencias)⁠</sup>, mediante el cual se obtuvieron agrupamientos pre-pangenómicos.
+Dada la escala del análisis se realizaron agrupamientos entre los genomas de cada familia, para prevenir la subestimación de la prevalencia. En primer lugar se calculó una matriz de distancias pareadas a nivel proteómico, mediante un algoritmo libre de alineamientos, basado en el análisis de Fourier<sup>[16](#referencias)⁠</sup>. Este método estima un vector 28-dimensional por cada genoma con una correspondencia 1 a 1, el cual permite la obtención de distancias euclideanas pareadas. Tanto los vectores y matrices de distancias pareadas fueron utilizadas como *input* para el paquete de *R*{NbClust}<sup>[17](#referencias)⁠</sup>, mediante el cual se obtuvieron agrupamientos pre-pangenómicos. Los sub-grupos generados fueron filtrados a un mínimo de 5 proteomas, necesario para el operar de los algoritmos pangenómicos.
+
+#### Análisis pangenómico y post-pangenómico
+
+Mediante un script en *bash* se utilizó el programa **GET_HOMOLOGUES**<sup>[18](#referencias)⁠</sup> utilizando los algoritmos de agrupamiento **COGtriangles** y **OrthoMCL** por cada grupo pre-pangenómico obtenido en el paso anterior. Los parámetros fueron modificados a  *query coverage* > 30, *e-value* < 1e<sup>-3</sup> y la opción *-D* que efectúa la búsqueda de perfiles de Pfam y restringe el agrupamiento en *clusters* pangenómicos a sólo aquellas secuencias con una conformación similar en dominios de Pfam.
+
+## Resultados
+
+#### Base de datos
+
+La descarga de los proteomas completas permitió obtener un total de  3576 proteomas crudos iniciales (tabla 1) . El concatenado de los archivos en el caso de los virus segmentados, tuvo impacto en el número de archivos de las familias Nanoviridae, Bidnaviridae y Geminiviridae, así como un impacto clave en su estimación pangenómica, discutido más adelante. Finalmente el filtrado por conteo de proteínas concluyó con 2966 proteomas.
+
+Tabla 1. **Configuración de la base de datos**
+| Familia            | # inicial | # post-concatenado | # post-filtrado |
+|--------------------|-----------|--------------------|-----------------|
+| Alphasatellitidae  | 100       |                    | 93              |
+| Anelloviridae      | 108       |                    | 98              |
+| Bacilladnaviridae  | 9         |                    | 8               |
+| Bidnaviridae       | 4         | **2**              | 2               |
+| Circoviridae       | 216       |                    | 191             |
+| Geminiviridae      | 704       | **538**            | 512             |
+| Genomoviridae      | 108       |                    | 104             |
+| Inoviridae         | 43        |                    | 42              |
+| Microviridae       | 62        |                    | 57              |
+| Nanoviridae        | 91        | **12**             | 12              |
+| Parvoviridae       | 144       |                    | 143             |
+| Pleolipoviridae    | 14        |                    | 10              |
+| Smacoviridae       | 51        |                    | 49              |
+| Spiraviridae       | 1         |                    | 1               |
+| Tolecusatellitidae | 136       |                    | 123             |
+
+#### Grupos pre-pangenómicos
+
+Todas las familias con 10 o más genomas en la configuración final de la base de datos generaron sub-agrupamientos (tabla 2). Las familia con más subgrupos, **Inoviridae** corresponde también con la de mayor tamaño genómico 4.5 ~ 8 Kb, es decir, más vías de diferenciación. De los 47 grupos pre-pangenómicos, 22 fueron aptos para el análisis pangenómico, quedando descartadas únicamente las familias de satélites.
+
+<p align="center">
+  <b>Tabla 2. Número de subgrupos por familia, encontrados mediante NbClust.</b><br>
+</p>
+
+| Familia            | # sub-grupos | # apto para pangenómica |
+|--------------------|--------------|-------------------------|
+| Alphasatellitidae  | 5         |  |
+| Anelloviridae      | 2         | 3 |
+| Bacilladnaviridae  | 2         | 1 |
+| Circoviridae       | 3         | 3 |
+| Geminiviridae      | 2         | 2 |
+| Genomoviridae      | 2         | 2 |
+| Inoviridae         | 8         | 2 |
+| Microviridae       | 4         | 2 |
+| Nanoviridae        | 3         | 1 |
+| Parvoviridae       | 3         | 2 |
+| Pleolipoviridae    | 2         | 1 |
+| Smacoviridae       | 2         | 2 |
+| Tolecusatellitidae | 4         |  |
+
+Los agrupamientos realizados en NbClust, pudieron ser visualizados mediante análisis de componentes principales *PCA*, como el mostrado para la familia Geminiviridae (figura 1). En el podemos observar una total separación entre los proteomas, considerando únicamente 2 de las 28 dimensiones del vector construido. Sin embargo
+
+<p align="center">
+  <img width="700" height="500" src="https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/GemClusts1.png">
+</p>
+
+<p align="center">
+  <b>Figura 1. PCA del agrupamiento de los proteomas de la familia Geminiviridae. Puede observarse en color azul y anaranjado, a los miembros del cluster 1 y 2 respectivamente.</b><br>
+</p>
 
 ### Referencias
 > 1.	Baltimore, D. Expression of animal virus genomes. Bacteriol. Rev. 35, 235–241 (1971)
@@ -79,3 +142,5 @@ Dada la escala del análisis se realizaron agrupamientos entre los genomas de ca
 > 15. Vernikos G, Medini D, Riley DR, Tettelin H. Ten years of pan-genome analyses. Curr Opin Microbiol. 2015 Feb;23:148-54. doi: 10.1016/j.mib.2014.11.016. Epub 2014 Dec 5. PMID: 25483351.
 > 16. Dong, Rui & Zhu, Ziyue & Yin, Changchuan & He, Rong & Yau, S.s.-T. (2018). A new method to cluster genomes based on cumulative Fourier power spectrum. Gene. 673. 10.1016/j.gene.2018.06.042. 
 > 17. Charrad, Malika & Ghazzali, Nadia & Boiteau, Véronique & Niknafs, Azam. (2014). NbClust: An R Package for Determining the Relevant Number of Clusters in a Data Set. Journal of Statistical Software. 61. 1-36. 10.18637/jss.v061.i06. 
+> 18. Contreras-Moreira B, Vinuesa P. GET_HOMOLOGUES, a versatile software package for scalable and robust microbial pangenome analysis. Appl Environ Microbiol. 2013 Dec;79(24):7696-701. doi: 10.1128/AEM.02411-13. Epub 2013 Oct 4. PMID: 24096415; PMCID: PMC3837814.
+
