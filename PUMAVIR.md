@@ -154,7 +154,7 @@ Como fue mencionado previamente, el pangenoma se construye a partir del repertor
 
 |   |   |   |
 |---|---|---|
-|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/anelloclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/bacilloclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/circoclusts.png)|
+|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/anelloclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/bacillaclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/circoclusts.png)|
 |![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/geminiclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/genomoclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/inoclusts.png)|
 |![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/microclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/nanoclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/parvoclusts.png)|
 |![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/pleolipoclusts.png)| ![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/anelloclusts.png)|![](https://github.com/abelardoacm/ssDNA_viral_pangenomics/blob/main/anelloclusts.png)|
