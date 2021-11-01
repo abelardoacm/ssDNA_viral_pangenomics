@@ -1,6 +1,9 @@
 # Estudio pangenómico de los virus de DNA de cadena sencilla
 
-> Alumno: Abelardo Aguilar Cámara </br> Tutor: Arturo Carlos II Becerra Bracho </br></br> Laboratorio de Origen de la Vida, Facultad de Ciencias  </br> UNAM, Posgrado en Ciencias Biológicas
+> Alumno: Abelardo Aguilar Cámara </br> Tutor: Arturo Carlos II Becerra Bracho </br></br> Laboratorio de Origen de la Vida, Facultad de Ciencias  </br> UNAM, Posgrado en Ciencias Biológicas </br> </br>
+
+
+> Nota al lector: El presente archivo tiene como formato original el ***Github flavored markdown***, por lo que recomendamos su acceso vía internet, mediante el vínculo [https://github.com/abelardoacm/ssDNA_viral_pangenomics/edit/main/PUMAVIR.md](https://github.com/abelardoacm/ssDNA_viral_pangenomics/edit/main/PUMAVIR.md)
 
 ## Introducción 
 
@@ -167,6 +170,72 @@ Como fue mencionado previamente, el pangenoma se construye a partir del repertor
 
 Como puede observarse, el núcleo pangenómico existe únicamente para las familias Bacilladnaviridae, Geminiviridae y Nanoviridae, siendo las dos últimas, familias con genomas segmentados.
 
+#### Características destacables del ***core*** y ***soft-core*** pangenómico.
+
+Posterior a la obtención de *clusters* pangenómicos, procedimos a la exploración de las proteínas que los conforman, con un particular énfasis en *core* y *soft-core*. Como fue mencionado anteriormente, no existe un elemento genético presente en todas las familias, por lo que tampoco se obtuvo un *cluster* pangenómico común a todas. Una de las proteínas esperadas en *clusters* de alta prevalencia es la Helicasa Rep entre las familias del grupo CRESS DNA (tabla 3). Contario a lo esperado, esta proteína no pudo ser encontrada en todos los proteomas CRESS DNA, aunque esta formó parte del *core* en la mayoría de los pangenomas. 
+
+
+<p align="center">
+  <b>Tabla 3. Prevalencia de la proteína Rep en los virus CRESSDNA</b><br>
+</p>
+
+
+| Familia            | prevalencia promedio | grupo pangenómico |
+|--------------------|--------------|-------------------------|
+| Bacilladnaviridae  | 100%         | *core* |
+| Circoviridae       | 60%         | *core*,*core*,*shell* |
+| Geminiviridae      | 100%         | *core*,*core* |
+| Genomoviridae      | 99%         | *core*,*soft-core* |
+| Inoviridae         | 82%         | *soft-core*,*shell* |
+| Microviridae       | 94%         | *soft-core*,*soft-core* |
+| Nanoviridae        | 100%         | *core* |
+| Parvoviridae       | 96%         | *core*,*soft-core* |
+| Smacoviridae       | 98%         | *soft-core*,*soft-core* |
+
+Un resumen general de las proteínas con alta prevalencia que formaron parte de los *cores* y *soft-cores* pangenómicos pueden observarse en la tabla 4.
+
+<p align="center">
+  <b>Tabla 4. Proteínas de alta prevalencia (core y soft-core) por familia.</b><br>
+</p>
+
+
+| Familia            | Proteínas de alta prevalencia |
+|--------------------|--------------|
+| Alphasatellitidae  |     sin agrupamientos de homólogos     |
+| Anelloviridae      | *Capsid protein*         |
+| Bacilladnaviridae  | *Rep, Capsid protein*         |
+| Circoviridae       | *Rep, Capsid protein*         |
+| Geminiviridae      | *Rep, Capsid protein*, *Movement protein*        |
+| Genomoviridae      | *Rep, Coat protein*         |
+| Inoviridae         | *Rep*,*DNA-Binding*, *Capsid protein*         |
+| Microviridae       | *Rep*, *Major Spike*, *Lysis protein*        |
+| Nanoviridae        | *Rep*, *C-Link*         |
+| Parvoviridae       | *Rep*, *Capsid*        |
+| Pleolipoviridae    | *Envelope*, *Matrix Protein*, *VP*   |
+| Smacoviridae       | *Putative capsid protein*        |
+| Tolecusatellitidae |      sin agrupamientos homólogos     |
+
+#### Discusión
+
+La conformación de la base de datos permitió obtener una muestra no redundante y representativa de proteomas por familia. Debido a la alta cantidad de archivos generados en tan solo los primeros pasos del análisis, la automatización de los procesos jugó un rol crucial. Debido a ello el establecimiento de criterios objetivos para concatenar y filtrar los proteomas surgió como una necesidad en el manejo. A pesar de que los valores de corte para dichos filtros puede ser sujeto de debate, las distintas repeticiones (no mostradas) condujeron al conjunto de parámetros presentados. 
+
+Para aquellas familas donde los archivos obtenidos no permitieron desarrollar el análisis pangenómico, debe considerarse que el estado actual del conocimiento está muy sesgado a virus ssDNA que infectan eucariontes, particularmente las familias Geminiviridae y Genomoviridae que constituyen más del 90% de la diversidad de los proteomas utilizados. Para sobrellevar esta limitante, puede optarse por consultar bases de datos con un escrutinio menor que el de NCBI refseq en los criterios de inclusión, incluso ampliando hasta la inclusión de muestras ambientales, que guardan una enorme diversidad latente de las familias menos conocidas <sup>[19,20](#referencias)⁠</sup>
+
+La pangenómica es un área de reciente surgimiento <sup>[15](#referencias)⁠</sup>, surgida por la necesidad de abordar la enorme cantidad de secuencias conocidas para la microbiota. No obstante, algunos de sus supuestos teóricos entorno a las generalidades de los procesos de flujo de información, son difíciles de extrapolar a las particularidades evolutivas que presentan los virus. Además, los virus de DNA de cadena sencilla pueden incluso ser considerados como parte del "mobiloma", una intrincada red de intercambio genético entre elementos móviles <sup>[11](#referencias)⁠</sup>. Por ello, no existe un marco conceptual ni metodológico basto para iniciar su uso con proteomas virales. La necesidad de utilizarlos se justifica principalmente en el desconocimiento de su origen y evolución temprana, donde han fracasado otros métodos de la genómica comparada e incluso la sistemática <sup>[3](#referencias)⁠</sup>.
+
+Si bien fue posible generar pangenomas para casi todas las familias del grupo, los resultados hasta este procedimiento suponen aún más preguntas que las que podamos responder. La cantidad de datos puede resultar abrumadora, pero el hecho de generar categorizaciones basadas en la prevalencia, brinda una base sistematizada de exploración y recabado de otros datos, por ejemplo búsquedas de homólogos remotos o inclusión de estructuras tridimensionales. 
+
+El listado final de proteínas de alta prevalencia (tabla 4) es apenas un esbozo de la diversidad observada. Una limitante muy fuerte, es la falta de anotación, o anotaciones ambiguas de los proteomas recabados.
+
+#### Estado actual del proyecto
+
+Para sobrellevar las limitantes introducidas, el trabajo actual en el proyecto se centra en las siguientes líneas:
+ - **Automatización**. La investigación del origen y evolución temprana de los virus ha sido establecida como línea formal de investigación en el laboratorio de origen de la vida. Esto implica la participación de múltiples estudiantes, que abordarán tareas muy similares. En este sentido, el presente trabajo ha fungido como pionero en el establecimiento de herramientas de manipulación de datos previos a la pangenómica. Dichas herramientas han sido desarrolladas bajo los principios de la reproducibiliad de la ciencia y, en medida de lo posible, apegadas a las buenas prácticas de programación. El repositorio [abelardoacm/ssDNA_viral_pangenomics/](https://github.com/abelardoacm/ssDNA_viral_pangenomics/) es el recipiente digital en desarrollo del código implementado para dicho propósito.
+ - **Incorporación de otros proteomas**: Como fue anticipado, actualmente se trabaja en la inclusión de proteomas provenientes de distintas bases de datos. Los distintos formatos en que estas secuencias son presentadas requiere la implementación de procesos de manipulación desde su descarga.
+ - **Búsqueda de homólogos remotos**: Comenzando con las proteínas de alta prevalencia, nos encontramos generando búsquedas de homólogos remotos mediante perfiles, utilizando la herramienta hmmsearch. Las secuencias obtenidas serán utilizadas en la elaboración de redes de distancia para dilucidar los complejos orígenes de las familias virales.
+ - **Anotación de secuencias**: La prevalencia de una proteína, no siempre es proporcional a lo que sabemos de ella. La anotación ambigua de las secuencias ha supuesto una limitante para poder concluir entorno a sus funciones y procesos desempeñados. Para ello nos encontramos realizando anotaciones basadas en homología, utilizando BLAST contra una base de datos de referencia construida recabando información curada desde Uniprot, así como también experimentamos en la inclusión de métodos de anotación *de novo* de creciente popularidad.
+
+
 ### Referencias
 > 1.	Baltimore, D. Expression of animal virus genomes. Bacteriol. Rev. 35, 235–241 (1971)
 > 2.	Krupovic, M. & Forterre, P. Single-stranded DNA viruses employ a variety of mechanisms for integration into host genomes. Ann. N. Y. Acad. Sci. 1341, 41–53 (2015)
@@ -186,4 +255,5 @@ Como puede observarse, el núcleo pangenómico existe únicamente para las famil
 > 16. Dong, Rui & Zhu, Ziyue & Yin, Changchuan & He, Rong & Yau, S.s.-T. (2018). A new method to cluster genomes based on cumulative Fourier power spectrum. Gene. 673. 10.1016/j.gene.2018.06.042. 
 > 17. Charrad, Malika & Ghazzali, Nadia & Boiteau, Véronique & Niknafs, Azam. (2014). NbClust: An R Package for Determining the Relevant Number of Clusters in a Data Set. Journal of Statistical Software. 61. 1-36. 10.18637/jss.v061.i06. 
 > 18. Contreras-Moreira B, Vinuesa P. GET_HOMOLOGUES, a versatile software package for scalable and robust microbial pangenome analysis. Appl Environ Microbiol. 2013 Dec;79(24):7696-701. doi: 10.1128/AEM.02411-13. Epub 2013 Oct 4. PMID: 24096415; PMCID: PMC3837814.
-
+> 19. Wang, H. ( 1 ) et al. (no date) ‘Metagenomic analysis of ssDNA viruses in surface seawater of Yangshan Deep-Water Harbor, Shanghai, China’, Marine Genomics, 41, pp. 50–53. doi: 10.1016/j.margen.2018.03.006.
+> 20. Kim OTP, Kagaya Y, Tran HS, et al. A novel circular ssDNA virus of the phylumCressdnaviricotadiscovered in metagenomic data from otter clams (Lutraria rhynchaena). ARCHIVES OF VIROLOGY. 2020;165(12):2921-2926. doi:10.1007/s00705-020-04819-9
