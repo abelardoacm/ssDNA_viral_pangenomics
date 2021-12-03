@@ -98,7 +98,7 @@ Tabla 1. **Configuración de la base de datos**
 
 #### Grupos pre-pangenómicos
 
-Todas las familias con 10 o más genomas en la configuración final de la base de datos generaron sub-agrupamientos (tabla 2). Las familia con más subgrupos, **Inoviridae** corresponde también con la de mayor tamaño genómico 4.5 ~ 8 Kb, es decir, más vías de diferenciación. De los 47 grupos pre-pangenómicos, 22 fueron aptos para el análisis pangenómico, quedando descartadas únicamente las familias de satélites.
+Todas las familias con 10 o más genomas en la configuración final de la base de datos generaron sub-agrupamientos (tabla 2). Las familia con más subgrupos, **Inoviridae** corresponde también con la de mayor tamaño genómico 4.5 ~ 8 Kb, es decir, más vías de diferenciación. De los 47 grupos pre-pangenómicos, 39 fueron aptos para el análisis pangenómico, quedando descartadas únicamente las familias de satélites.
 
 <p align="center">
   <b>Tabla 2. Número de subgrupos por familia, encontrados mediante NbClust.</b><br>
@@ -106,19 +106,19 @@ Todas las familias con 10 o más genomas en la configuración final de la base d
 
 | Familia            | # sub-grupos | # apto para pangenómica |
 |--------------------|--------------|-------------------------|
-| Alphasatellitidae  | 5         |  |
-| Anelloviridae      | 2         | 3 |
-| Bacilladnaviridae  | 2         | 1 |
-| Circoviridae       | 3         | 3 |
-| Geminiviridae      | 2         | 2 |
-| Genomoviridae      | 2         | 2 |
-| Inoviridae         | 8         | 2 |
-| Microviridae       | 4         | 2 |
-| Nanoviridae        | 3         | 1 |
-| Parvoviridae       | 3         | 2 |
-| Pleolipoviridae    | 2         | 1 |
-| Smacoviridae       | 2         | 2 |
-| Tolecusatellitidae | 4         |  |
+| Alphasatellitidae  | 5         | 3 |
+| Anelloviridae      | 2         | 4 |
+| Bacilladnaviridae  | 2         | 2 |
+| Circoviridae       | 3         | 4 |
+| Geminiviridae      | 2         | 3 |
+| Genomoviridae      | 2         | 4 |
+| Inoviridae         | 8         | 4 |
+| Microviridae       | 4         | 3 |
+| Nanoviridae        | 3         | 2 |
+| Parvoviridae       | 3         | 3 |
+| Pleolipoviridae    | 2         | 2 |
+| Smacoviridae       | 2         | 3 |
+| Tolecusatellitidae | 4         | 2 |
 
 Los agrupamientos realizados en NbClust, pudieron ser visualizados mediante análisis de componentes principales *PCA*, como el mostrado para la familia Geminiviridae (figura 1). En el podemos observar una total separación entre los proteomas, considerando únicamente 2 de las 28 dimensiones del vector construido. En contraste, la familia Inoviridae muestra un esquema complejo de 8 sub-grupos sin una separación total. Por motivos de espacio no fueron mostrados todos los PCA de los agrupamientos, pero se encuentran disponibles en el repositorio de github [abelardoacm/ssDNA_viral_pangenomics/](https://github.com/abelardoacm/ssDNA_viral_pangenomics/).
 
